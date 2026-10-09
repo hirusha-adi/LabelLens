@@ -1,0 +1,15 @@
+{
+  "name": "labellens-api",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Placeholder API for the Label Lens Android app. All data is hardcoded sample data.",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  },
+  "dependencies": {
+    "@hono/node-server": "^2.1.3",
+    "hono": "^4.13.13"
+  }
+}
