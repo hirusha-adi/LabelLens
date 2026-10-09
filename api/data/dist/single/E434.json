@@ -1,14 +1,20 @@
 {
     "code": "E434",
-    "name": "Polyoxyethylene-20-sorbitan monopalmitate",
-    "href": "e434.htm",
-    "function": "Synthetic emulsifier",
+    "names": "Polyoxyethene (20) sorbitan monopalmitate (polysorbate 40)",
+    "display_name": "E434 (Polyoxyethene)",
+    "type": "emulsifier",
+    "status": "e",
+    "icon": "mdi-check-circle",
     "more_info": {
-        "origin": "  E434 is a synthetic compound, produced from ethylene oxide (a synthetic compound), sorbitol (see E420) and palmitic acid (a natural fatty acid).",
-        "characteristics": "Emulsifier. ",
-        "products": "Cakes",
-        "daily_intake": "Up to 25 mg/kg body weight for the entire group of compounds in the 430-E436 range; on the other hand, it has not been specified for the individual compounds.",
-        "side_effects": "None known in the concentrations used. People intolerant of propylene glycol should also avoid the group of 430-E436",
-        "dietary_restrictions": "These compounds (430-E436) contain fatty acids, which are nearly always from vegetable oils; however, use of animal fat (including pork) cannot be fully ruled out. Chemically, the origin of these compounds cannot be determined; only the producer may provide information on the origin."
+        "banned_in": "Approved in the EU.",
+        "overview": "Polyoxyethene is used as an emulsifier in food. Its technological role is to help oil and water remain mixed.",
+        "articles": {
+            "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/396",
+            "EUR-Lex specifications": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231",
+            "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
+        },
+        "origin": "Made from partial esters of sorbitol and its anhydrides with palmitic acid. The esters are additionally reacted with ethylene oxide. The specification does not identify a single biological source for the fatty acid.",
+        "dietary_restrictions": "The fatty-acid feedstock is not specified as exclusively plant derived. Vegan, vegetarian, halal and kosher suitability cannot be established without the supplier identifying the raw material and processing."
     }
 }

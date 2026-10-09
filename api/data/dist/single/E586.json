@@ -1,0 +1,17 @@
+{
+    "code": "E586",
+    "names": "4-Hexylresorcinol",
+    "display_name": "E586 (4-Hexylresorcinol)",
+    "type": "antioxidant",
+    "status": "e",
+    "icon": "mdi-check-circle",
+    "more_info": {
+        "banned_in": "Approved in the EU.",
+        "uses": "EU permissions include unprocessed molluscs and crustaceans. These permissions depend on the food category and its conditions of use.",
+        "articles": {
+            "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
+        },
+        "overview": "4-Hexylresorcinol is classified in food technology as an antioxidant. Its technological role is to slow oxidation."
+    }
+}

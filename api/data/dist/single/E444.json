@@ -1,0 +1,22 @@
+{
+    "code": "E444",
+    "names": "Sucrose acetate isobutyrate",
+    "display_name": "E444 (Sucrose acetate isobutyrate)",
+    "type": "emulsifier",
+    "status": "e",
+    "icon": "mdi-check-circle",
+    "more_info": {
+        "banned_in": "Approved in the EU.",
+        "overview": "Sucrose acetate isobutyrate is used as a flavour enhancer in food. Its technological role is to strengthen flavours already present in food.",
+        "uses": "EU permissions include flavoured drinks. These permissions depend on the food category and its conditions of use.",
+        "daily_intake": "20 mg/kg body weight/day (EFSA, 2016).",
+        "articles": {
+            "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/508",
+            "EUR-Lex specifications": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231",
+            "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "EFSA": "https://www.efsa.europa.eu/en/efsajournal/pub/4489"
+        },
+        "side_effects": "Assessed food-use estimates were below the limit.\nAnimal chronic and reproductive studies found no effects at the highest tested dose used to derive the limit."
+    }
+}

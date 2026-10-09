@@ -1,14 +1,22 @@
 {
     "code": "E222",
-    "name": "Sodium hydrogen sulphite",
-    "href": "e222.htm",
-    "function": "Synthetic preservative; bleach",
+    "names": "Sodium bisulphite (sodium hydrogen sulphite)",
+    "display_name": "E222 (Sodium bisulphite)",
+    "type": "preservative",
+    "status": "e u",
+    "icon": "mdi-alert-circle",
     "more_info": {
-        "origin": "Mono-s odium salt of sulphurous acid.",
-        "characteristics": "It is a white, non-stable powder, which reacts with oxygen to form sodium sulphate. In acidic conditions it forms sulphurous acid, which acts as a preservative. It is used as a preservative in some products and may be used as a bleaching agent.",
-        "products": "P reserved onions, alcoholic beverages, dairy products, fruit juices, mashed potatoes, etc.",
-        "daily_intake": "Up to 0.7 mg/kg body weight.",
-        "side_effects": "Due to its oxidising effect, it may reduce the vitamin content in products. It is reduced in the liver to harmless sulphate and excreted in the urine.",
-        "dietary_restrictions": "None sulphur dioxide and sulphites can be consumed by all religious groups, vegans and vegetarians."
+        "banned_in": "Approved in the EU.\nApproved in the US.\nUS food use is subject to the listed CFR provisions and their conditions, checked in 2026.",
+        "overview": "Sodium bisulphite is used as a preservative in food. Its technological role is to help limit microbial spoilage.",
+        "daily_intake": "0–0.7 mg sulphur dioxide equivalents/kg body weight/day, combined JECFA sulphite group (JECFA, 1998).\nEFSA withdrew its temporary group ADI in 2022.",
+        "articles": {
+            "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/2269",
+            "EUR-Lex specifications": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231",
+            "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "eCFR Title 21": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=182",
+            "EFSA": "https://www.efsa.europa.eu/en/plain-language-summary/follow-re-evaluation-sulfur-dioxide-e-220-sodium-sulfite-e-221-sodium"
+        },
+        "side_effects": "Food-use exposure may concern high consumers (EFSA, 2022).\nToxicology gaps prevented a new intake limit."
     }
 }

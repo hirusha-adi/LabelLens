@@ -1,14 +1,22 @@
 {
     "code": "E903",
-    "name": "Canauba wax",
-    "href": "e903.htm",
-    "function": "Coating, glazing agent",
+    "names": "Carnauba wax",
+    "display_name": "E903 (Carnauba wax)",
+    "type": "glazing agent",
+    "status": "e",
+    "icon": "mdi-check-circle",
     "more_info": {
-        "origin": "Natural polymer produced from the Canauba palm (Copernica cerifera ) and related species from Brazil.",
-        "characteristics": "",
-        "products": "Chewing gum, confectionary, coffee, bakery products",
-        "daily_intake": "None determined",
-        "side_effects": "None known from use in foods. Canauba wax is widely used in cosmetics and can cause dermal eczema. People who have developed such eczema may be sensitive to the use of canauba wax in foods.",
-        "dietary_restrictions": "None. E903 can be used by all religious groups, vegetarians and vegans."
+        "banned_in": "Approved in the EU.",
+        "overview": "Carnauba wax is used as a carrier in food. Its technological role is to help disperse another ingredient.",
+        "uses": "EU permissions include entire fresh fruit and vegetables, cocoa and chocolate products as covered by directive 2000/36/ec, other confectionery including breath freshening micro-sweets, chewing gum. These permissions depend on the food category and its conditions of use.",
+        "daily_intake": "0-7 mg/kg body weight (JECFA, 1992).",
+        "articles": {
+            "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/939",
+            "EUR-Lex specifications": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231",
+            "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
+        },
+        "origin": "Purified wax obtained from carnauba palm leaves and leaf buds. It is plant derived.",
+        "dietary_restrictions": "The specified starting material is plant derived and compatible with vegetarian and vegan diets. The specification does not establish halal or kosher certification."
     }
 }

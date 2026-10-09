@@ -1,14 +1,19 @@
 {
     "code": "E470",
-    "name": "Fatty acid salts",
-    "href": "e470.htm",
-    "function": "Semi-synthetic emulsifiers",
+    "names": "Fatty acid salts",
+    "display_name": "E470 (Fatty acid salts)",
+    "type": "Semi-synthetic emulsifiers",
+    "status": "e u",
+    "icon": "mdi-check-circle",
     "more_info": {
-        "origin": "  Salts of natural fatty acids, mainly from plant origin, but also fats of animal origin may be used. The acids are a mixture of stearic-, oleic-, palmitic- and myristinic acid.",
-        "characteristics": "Emulsifiers and stabilisers.",
-        "products": "M any different products",
-        "daily_intake": "None determined.",
-        "side_effects": "None known. The body metabolises the products as any other fat.",
-        "dietary_restrictions": "Although mainly vegetable oils are used, the use of animal fat (incl. pork) can not be excluded. Several groups, such as vegans, Muslims and Jews thus avoid these products. Only the producer can give detailed information on the origin of the fatty acids. Chemically the fatty acids from vegetable or animal origin are identical."
+        "banned_in": "Approved in the EU.\nApproved in the US.\nUS food use is subject to the listed CFR provisions and their conditions, checked in 2026.",
+        "overview": "Fatty acid salts is used as an emulsifier in food. Its technological role is to help oil and water remain mixed.",
+        "daily_intake": "For sodium oleate: No ADI specified (JECFA, 1988). This evaluation does not establish an ADI for every form in the named group.",
+        "articles": {
+            "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/5229",
+            "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "eCFR Title 21": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=184"
+        }
     }
 }

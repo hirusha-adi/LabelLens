@@ -1,0 +1,48 @@
+{
+  "code": "E426",
+  "checked": "2026-10-10",
+  "fields": {
+    "status": [
+      "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+      "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
+    ],
+    "icon": [
+      "https://www.efsa.europa.eu/en/efsajournal/pub/4721"
+    ],
+    "banned_in": [
+      "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818"
+    ],
+    "names": [
+      "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231"
+    ],
+    "uses": [
+      "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818"
+    ],
+    "origin": [
+      "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231"
+    ],
+    "dietary_restrictions": [
+      "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231"
+    ],
+    "daily_intake": [
+      "https://www.efsa.europa.eu/en/efsajournal/pub/4721"
+    ],
+    "side_effects": [
+      "https://www.efsa.europa.eu/en/efsajournal/pub/4721"
+    ],
+    "overview": [
+      "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231"
+    ]
+  },
+  "inputs": {
+    "display_name": "development/ins-summary-original.json",
+    "type": "development/ins-summary-original.json"
+  },
+  "gaps": [
+    "No compound-specific technological description was confirmed; overview omitted."
+  ],
+  "changes": [
+    "Replaced the legacy layout with rich fields and removed unsupported inherited health, dietary and intake assertions.",
+    "Created the missing individual additive record and field provenance."
+  ]
+}

@@ -1,0 +1,19 @@
+{
+    "code": "E1400",
+    "names": "Dextrin (Dextrins, roasted starch white and yellow) (stabiliser)",
+    "display_name": "E1400 (Dextrin)",
+    "type": "thickening agent",
+    "status": "u",
+    "icon": "mdi-check-circle",
+    "more_info": {
+        "banned_in": "Approved in the US.\nUS food use is subject to the listed CFR provisions and their conditions, checked in 2026.",
+        "overview": "Dextrin is used as a stabilizer in food. Its technological role is to help maintain the structure of food.",
+        "daily_intake": "No ADI specified (JECFA, 2016).",
+        "articles": {
+            "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/2090",
+            "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "eCFR Title 21": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=184"
+        }
+    }
+}

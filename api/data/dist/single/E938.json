@@ -1,14 +1,20 @@
 {
     "code": "E938",
-    "name": "Argon",
-    "href": "e938.htm",
-    "function": "Propellant",
+    "names": "Argon",
+    "display_name": "E938 (Argon)",
+    "type": "packaging gas",
+    "status": "e",
+    "icon": "mdi-check-circle",
     "more_info": {
-        "origin": "Natural inert gas. ",
-        "characteristics": "",
-        "products": "Canned products",
-        "daily_intake": "None determined",
-        "side_effects": "None known.",
-        "dietary_restrictions": "None. E938 can be used by all religious groups, vegans and vegetarians."
+        "banned_in": "Approved in the EU.",
+        "overview": "Argon is used as a propellant in food. Its technological role is to expel food from its container.",
+        "articles": {
+            "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/1861",
+            "EUR-Lex specifications": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231",
+            "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "EFSA": "https://www.efsa.europa.eu/en/efsajournal/pub/9048"
+        },
+        "side_effects": "EFSA found no concern for food uses in 2024.\nThe assessment relied on the gases' chemical inertness and low expected toxicity."
     }
 }

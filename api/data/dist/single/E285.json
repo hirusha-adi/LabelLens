@@ -1,14 +1,21 @@
 {
     "code": "E285",
-    "name": "Sodium tetraborate",
-    "href": "e285.htm",
-    "function": "Natural acid",
+    "names": "Sodium tetraborate (borax)",
+    "display_name": "E285 (Sodium tetraborate)",
+    "type": "preservative",
+    "status": "e",
+    "icon": "mdi-alert-circle",
     "more_info": {
-        "origin": "Sodium salt of boric acid, a natural acid, but commercially produced from boron.",
-        "characteristics": "Boric acid and borates are used as a buffer to control acidity in products. It is also used in multi-vitamin/mineral products as a mineral source.",
-        "products": "rarely used in foods, but often in farmaceuticals.",
-        "daily_intake": "",
-        "side_effects": "",
-        "dietary_restrictions": ""
+        "banned_in": "Approved in the EU.",
+        "uses": "EU permissions include fish roe. These permissions depend on the food category and its conditions of use.",
+        "articles": {
+            "EUR-Lex specifications": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231",
+            "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "EFSA": "https://www.efsa.europa.eu/en/efsajournal/pub/3407"
+        },
+        "daily_intake": "0.16 mg boron/kg body weight/day, combined boric acid and borax (EFSA, 2013).",
+        "side_effects": "EFSA considered regular exceedance from assessed food uses unlikely.\nHigher-dose animal studies found reproductive and developmental effects that supported the limit.",
+        "overview": "Sodium tetraborate is classified in food technology as a preservative. Its technological role is to limit microbial spoilage."
     }
 }

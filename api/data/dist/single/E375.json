@@ -1,14 +1,18 @@
 {
-    "code": "375",
-    "name": "Nicotinic acid",
-    "href": "e375.htm",
-    "function": "B vitamin, colour protector",
+    "code": "E375",
+    "names": "Nicotinic acid",
+    "display_name": "E375 (Nicotinic acid)",
+    "type": "nutrient supplement",
+    "status": "u",
+    "icon": "mdi-check-circle",
     "more_info": {
-        "origin": "Natural compound, present in many products. Commercially prepared from nicotine.",
-        "characteristics": "Anti-oxidant and colour stabiliser.",
-        "products": "B read, cereals, etc.",
-        "daily_intake": "None determined.",
-        "side_effects": "None known when used at normal concentrations.",
-        "dietary_restrictions": "Nicotinic acid can be used by all religious groups, vegans and vegetarians."
+        "banned_in": "Approved in the US.\nUS food use is subject to the listed CFR provisions and their conditions, checked in 2026.",
+        "articles": {
+            "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "eCFR Title 21": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=184"
+        },
+        "overview": "Nicotinic acid is niacin, a form of vitamin B3. It is used to supply this nutrient in food.",
+        "uses": "Used for nutrient fortification under current US good-manufacturing-practice conditions."
     }
 }

@@ -1,14 +1,15 @@
 {
-    "code": "550",
-    "name": "Sodium silicates",
-    "href": "e550.htm",
-    "function": "Anti-caking agent",
+    "code": "E550",
+    "names": "Sodium Silicates (i) Sodium silicate (ii) Sodium metasilicate",
+    "display_name": "E550 (Sodium Silicates)",
+    "type": "anti-caking agent",
+    "status": "",
+    "icon": "mdi-check-circle",
     "more_info": {
-        "origin": "Produced by heating siliciumdioxide (quartz, sand) and sodiumcarbonate.",
-        "characteristics": "",
-        "products": "Canned peaches, preserved eggs, vanillapowder.",
-        "daily_intake": "",
-        "side_effects": "None known",
-        "dietary_restrictions": "None. 550 can be used by all religious groups, vegetarians and vegans."
+        "articles": {
+            "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
+        },
+        "overview": "Sodium Silicates is classified in food technology as an anti-caking agent. Its technological role is to keep powders free-flowing."
     }
 }

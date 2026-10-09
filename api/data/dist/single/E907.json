@@ -1,14 +1,21 @@
 {
-    "code": "907",
-    "name": "Micro-crystalline wax",
-    "href": "e905.htm",
-    "function": "Coating, glazing agent",
+    "code": "E907",
+    "names": "Hydrogenated poly-1-decene",
+    "display_name": "E907 (Hydrogenated poly-1-decene)",
+    "type": "glazing agent",
+    "status": "e",
+    "icon": "mdi-check-circle",
     "more_info": {
-        "origin": "Synthetic mixture of hydrocarbons.",
-        "characteristics": "",
-        "products": "Many different products, also in pharmaceutical and cosmetic preparations.",
-        "daily_intake": "None determined",
-        "side_effects": "None known, but has laxative effects in high concentrations.",
-        "dietary_restrictions": "None. E905 can be used by all religious groups, vegans and vegetarians."
+        "banned_in": "Approved in the EU.",
+        "uses": "EU permissions include dried fruit and vegetables, other confectionery including breath freshening micro-sweets, chewing gum. These permissions depend on the food category and its conditions of use.",
+        "articles": {
+            "EUR-Lex specifications": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231",
+            "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "EFSA": "https://www.efsa.europa.eu/en/efsajournal/pub/6034"
+        },
+        "daily_intake": "20 mg/kg body weight/day (EFSA, 2020).",
+        "side_effects": "Maximum-permitted-use estimates were below the limit.\nThe limit used animal subchronic evidence; longer-term and reproductive studies were unavailable.",
+        "overview": "Hydrogenated poly-1-decene is a synthetic hydrocarbon wax. It is used as a glazing ingredient on the surface of specified foods."
     }
 }

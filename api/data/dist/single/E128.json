@@ -1,14 +1,18 @@
 {
     "code": "E128",
-    "name": "Red 2G",
-    "href": "e128.htm",
-    "function": "Red colour, synthetic",
+    "names": "Red 2G",
+    "display_name": "E128 (Red 2G)",
+    "type": "color (Red)",
+    "status": "",
+    "icon": "mdi-alert-circle",
     "more_info": {
-        "origin": "Synthetic azo dye.",
-        "characteristics": "Red food colour. Very soluble in water.",
-        "products": "Restricted use in confectionery and meat products.",
-        "daily_intake": "Up to 0.1 mg/kg body weight.",
-        "side_effects": "Since it is an azo dye, it may elicit intolerance in people intolerant to salicylates. Additionally, it is a histamine liberator, and may intensify symptoms of asthma. In combination with benzoates, it is also implicated in hyperactivity in children. Furthermore, Red 2G may well bring about anaemia and it is possibly mutagenic. Consequently, its use has been very much restricted and the ADI reduced.",
-        "dietary_restrictions": "None; E128 can be consumed by all religious groups, vegans and vegetarians."
+        "overview": "Red 2G is used as a color in food. Its technological role is to add or restore food colour.",
+        "daily_intake": "Historical ADI: 0–0.1 mg/kg body weight (JECFA, 1981). Codex food-use provisions were withdrawn in 2018.",
+        "articles": {
+            "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/228",
+            "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
+        },
+        "banned_in": "Codex food-use provisions were withdrawn in 2018; JECFA did not re-evaluate the dye that year."
     }
 }

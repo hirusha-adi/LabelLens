@@ -1,14 +1,19 @@
 {
     "code": "E500",
-    "name": "Sodium carbonate",
-    "href": "e500.htm",
-    "function": "Base",
+    "names": "Sodium carbonates (i) Sodium carbonate (ii) Sodium bicarbonate (Sodium hydrogen carbonate) (iii) Sodium sesquicarbonate (acidity regulator)",
+    "display_name": "E500 (Sodium carbonates)",
+    "type": "raising agent",
+    "status": "e u",
+    "icon": "mdi-check-circle",
     "more_info": {
-        "origin": "  Produced from seawater or salt. Natural minerals.",
-        "characteristics": "Acidity regulators, alkali, and rising agent",
-        "products": "  Many different products",
-        "daily_intake": "None determined",
-        "side_effects": "None known",
-        "dietary_restrictions": "None, E500 can be used by all religious groups, vegans and vegetarians."
+        "banned_in": "Approved in the EU.\nApproved in the US.\nUS food use is subject to the listed CFR provisions and their conditions, checked in 2026.",
+        "overview": "Sodium carbonates is used as an antioxidant in food. Its technological role is to slow oxidation in food.",
+        "uses": "EU permissions include edible caseinates, milk-based drinks and similar products intended for young children, butter and concentrated butter and butter oil and anhydrous milk fat, unprocessed molluscs and crustaceans. These permissions depend on the food category and its conditions of use.",
+        "articles": {
+            "EUR-Lex specifications": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231",
+            "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "eCFR Title 21": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=184"
+        }
     }
 }

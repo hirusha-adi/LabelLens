@@ -1,0 +1,17 @@
+{
+    "code": "E1423",
+    "names": "Acetylated distarch glycerol",
+    "display_name": "E1423 (Acetylated distarch glycerol)",
+    "type": "thickening agent",
+    "status": "",
+    "icon": "mdi-check-circle",
+    "more_info": {
+        "overview": "Acetylated distarch glycerol is used as an emulsifier in food. Its technological role is to help oil and water remain mixed.",
+        "daily_intake": "No ADI allocated (JECFA, 1982).",
+        "articles": {
+            "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/79",
+            "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
+        }
+    }
+}

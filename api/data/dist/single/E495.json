@@ -1,14 +1,23 @@
 {
     "code": "E495",
-    "name": "Sorbitane mono palmitate",
-    "href": "e495.htm",
-    "function": "Semi-synthetic emulsifier",
+    "names": "Sorbitan monopalmitate",
+    "display_name": "E495 (Sorbitan monopalmitate)",
+    "type": "emulsifier",
+    "status": "e",
+    "icon": "mdi-check-circle",
     "more_info": {
-        "origin": "  Produced from sorbitol and palmitic acid, a normal fatty acid from vegetable or animal origin.",
-        "characteristics": "Emulsifier and stabiliser",
-        "products": "Different products",
-        "daily_intake": "Up to 25 mg/kg bodyweight",
-        "side_effects": "It is metabolised to sorbitol and palmitic acid, both are metabolised without any side effects.",
-        "dietary_restrictions": "Although mainly vegetable oils are used, the use of animal fat (incl. pork) can not be excluded. Several groups, such as vegans, Muslims and Jews thus avoid these products. Only the producer can give detailed information on the origin of the fatty acids. Chemically the fatty acids from vegetable or animal origin are identical."
+        "banned_in": "Approved in the EU.",
+        "overview": "Sorbitan monopalmitate is used as an emulsifier in food. Its technological role is to help oil and water remain mixed.",
+        "articles": {
+            "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/3009",
+            "EUR-Lex specifications": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231",
+            "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "EFSA": "https://www.efsa.europa.eu/en/efsajournal/pub/4788"
+        },
+        "origin": "Made from partial esters of sorbitol and its anhydrides with palmitic acid. The specification does not identify a single biological source for the fatty acid.",
+        "dietary_restrictions": "The fatty-acid feedstock is not specified as exclusively plant derived. Vegan, vegetarian, halal and kosher suitability cannot be established without the supplier identifying the raw material and processing.",
+        "daily_intake": "10 mg sorbitan/kg body weight/day, combined sorbitan esters (EFSA, 2017).",
+        "side_effects": "Assessed food-use exposure stayed below the group limit.\nAnimal toxicity evidence informed its safety margin."
     }
 }

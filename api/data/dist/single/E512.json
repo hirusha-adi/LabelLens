@@ -1,14 +1,20 @@
 {
     "code": "E512",
-    "name": "Stannous chloride",
-    "href": "e512.htm",
-    "function": "Anti-oxidant",
+    "names": "Stannous chloride",
+    "display_name": "E512 (Stannous chloride)",
+    "type": "antioxidant",
+    "status": "e u",
+    "icon": "mdi-check-circle",
     "more_info": {
-        "origin": "  Prepared from tin ores and hydrochloric acid.",
-        "characteristics": "Stabiliser",
-        "products": "Canned beans and asparagus",
-        "daily_intake": "Up to 2 mg/kg bodyweight",
-        "side_effects": "None known when used in foods.",
-        "dietary_restrictions": "All religious groups, vegans and vegetarians can use E512"
+        "banned_in": "Approved in the EU.\nApproved in the US.\nUS food use is subject to the listed CFR provisions and their conditions, checked in 2026.",
+        "overview": "Stannous chloride is used as an antioxidant in food. Its technological role is to slow oxidation in food.",
+        "uses": "EU permissions include canned or bottled fruit and vegetables. These permissions depend on the food category and its conditions of use.",
+        "articles": {
+            "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/4291",
+            "EUR-Lex specifications": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231",
+            "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "eCFR Title 21": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=172"
+        }
     }
 }

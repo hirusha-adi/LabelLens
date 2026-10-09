@@ -1,14 +1,21 @@
 {
     "code": "E939",
-    "name": "Helium",
-    "href": "e939.htm",
-    "function": "Propellant",
+    "names": "Helium",
+    "display_name": "E939 (Helium)",
+    "type": "packaging gas",
+    "status": "e u",
+    "icon": "mdi-check-circle",
     "more_info": {
-        "origin": "Natural inert gas. ",
-        "characteristics": "",
-        "products": "Canned products",
-        "daily_intake": "None determined",
-        "side_effects": "None known.",
-        "dietary_restrictions": "None. E939 can be used by all religious groups, vegans and vegetarians."
+        "banned_in": "Approved in the EU.\nApproved in the US.\nUS food use is subject to the listed CFR provisions and their conditions, checked in 2026.",
+        "articles": {
+            "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/1880",
+            "EUR-Lex specifications": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231",
+            "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "eCFR Title 21": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=184",
+            "EFSA": "https://www.efsa.europa.eu/en/efsajournal/pub/9048"
+        },
+        "side_effects": "EFSA found no concern for food uses in 2024.\nThe assessment relied on the gases' chemical inertness and low expected toxicity.",
+        "overview": "Helium is classified in food technology as a packaging gas. Its technological role is to replace air in a food package."
     }
 }

@@ -1,14 +1,24 @@
 {
     "code": "E413",
-    "name": "Tragacanth",
-    "href": "e413.htm",
-    "function": "Natural thickening agent",
+    "names": "Tragacanth (thickener) (stabiliser)",
+    "display_name": "E413 (Tragacanth)",
+    "type": "emulsifier",
+    "status": "e",
+    "icon": "mdi-check-circle",
     "more_info": {
-        "origin": "  A natural polysaccharide, produced from the tree Astralagus gummifer found in Iran, Syria and Turkey.",
-        "characteristics": "Thickening agent, stabiliser and emulsifier. ",
-        "products": "Many different products.",
-        "daily_intake": "None specified.",
-        "side_effects": "None known in the concentrations used, although high concentrations bring about flatulence and bloating, due to fermentation by the intestinal microflora (in the same way as all indigestible polysaccharides).",
-        "dietary_restrictions": "Gum tragacanth can be used by all religious groups, vegans and vegetarians."
+        "banned_in": "Approved in the EU.",
+        "overview": "Tragacanth is used as an emulsifier in food. Its technological role is to help oil and water remain mixed.",
+        "uses": "EU permissions include table-top sweeteners in liquid form, table-top sweeteners in powder form. These permissions depend on the food category and its conditions of use.",
+        "daily_intake": "No numerical ADI needed (EFSA, 2017).",
+        "articles": {
+            "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/2211",
+            "EUR-Lex specifications": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231",
+            "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "EFSA": "https://www.efsa.europa.eu/en/efsajournal/pub/4789"
+        },
+        "origin": "Collected as dried gum exudate from the stems and branches of Astragalus species. It is a mixture of plant polysaccharides.",
+        "dietary_restrictions": "The specified starting material is plant derived and compatible with vegetarian and vegan diets. The specification does not establish halal or kosher certification.",
+        "side_effects": "EFSA found no concern for assessed food uses.\nLarge short-term human intakes were tolerated, and the reviewed animal evidence did not indicate cancer."
     }
 }

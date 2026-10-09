@@ -1,14 +1,16 @@
 {
     "code": "E912",
-    "name": "Montan acid esters",
-    "href": "e912.htm",
-    "function": "Coating, glazing agent",
+    "names": "Montanic acid esters, Montan acid esters",
+    "display_name": "E912 (Montanic acid esters)",
+    "type": "glazing agent",
+    "status": "",
+    "icon": "mdi-check-circle",
     "more_info": {
-        "origin": "Wax obtained by solvent extraction of lignite (brown coal). It consists of non-glyceride carboxylic acid esters, free acids and resins. ",
-        "characteristics": "",
-        "products": "Citrus fruits",
-        "daily_intake": "None determined",
-        "side_effects": "None known.",
-        "dietary_restrictions": "None. E912 can be used by all religious groups, vegans and vegetarians."
+        "articles": {
+            "EUR-Lex specifications": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231",
+            "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
+        },
+        "overview": "Montanic acid esters is classified in food technology as a glazing agent. Its technological role is to provide a surface coating."
     }
 }

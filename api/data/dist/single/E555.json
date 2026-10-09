@@ -1,14 +1,20 @@
 {
     "code": "E555",
-    "name": "Aluminium potassium silicate",
-    "href": "e555.htm",
-    "function": "Anti caking agent",
+    "names": "Potassium aluminium silicate",
+    "display_name": "E555 (Potassium aluminium silicate)",
+    "type": "anti-caking agent",
+    "status": "e",
+    "icon": "mdi-check-circle",
     "more_info": {
-        "origin": "Produced from several natural minerals.",
-        "characteristics": "",
-        "products": "Dry products, but hardly used.",
-        "daily_intake": "",
-        "side_effects": "None known",
-        "dietary_restrictions": "None. E555 can be used by all religious groups, vegetarians and vegans."
+        "banned_in": "Approved in the EU.",
+        "overview": "Potassium aluminium silicate is used as a color in food. Its technological role is to add or restore food colour.",
+        "daily_intake": "No ADI allocated (JECFA, 2014).",
+        "articles": {
+            "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/6200",
+            "EUR-Lex specifications": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231",
+            "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
+        },
+        "origin": "The specified material is natural mica, composed mainly of potassium aluminium silicate. It is mineral derived."
     }
 }

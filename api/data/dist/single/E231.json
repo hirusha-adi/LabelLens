@@ -1,14 +1,17 @@
 {
     "code": "E231",
-    "name": "2-hydroxybiphenyl",
-    "href": "e231.htm",
-    "function": "Synthetic preservative",
+    "names": "Orthophenyl phenol",
+    "display_name": "E231 (Orthophenyl phenol)",
+    "type": "preservative",
+    "status": "",
+    "icon": "mdi-check-circle",
     "more_info": {
-        "origin": "Synthesised from phenyl ether.",
-        "characteristics": "White, water-insoluble powder used particularly against Penicillium  fungi growing on citrus fruits, apples and pears. It slowly penetrates the peel and may be present in the fruit itself.",
-        "products": "Citrus fruits, apples, pears.",
-        "daily_intake": "Up to 0.2 mg/kg body weight.",
-        "side_effects": "It is excreted unaltered by the kidneys without side effects.",
-        "dietary_restrictions": " phenylphenol can be consumed by all religious groups, vegans and vegetarians."
+        "overview": "Orthophenyl phenol is used as a preservative in food. Its technological role is to help limit microbial spoilage.",
+        "daily_intake": "0-0.4 mg/kg body weight (1999) (JECFA, 2000).",
+        "articles": {
+            "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/2628",
+            "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
+        }
     }
 }

@@ -1,0 +1,16 @@
+{
+    "code": "E164",
+    "names": "Saffron",
+    "display_name": "E164 (Saffron)",
+    "type": "color (Orange-red[colour?])",
+    "status": "",
+    "icon": "mdi-check-circle",
+    "more_info": {
+        "overview": "Saffron is used as a color in food. Its technological role is to add or restore food colour.",
+        "articles": {
+            "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/3912",
+            "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
+        }
+    }
+}

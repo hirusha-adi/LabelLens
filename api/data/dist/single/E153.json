@@ -1,14 +1,24 @@
 {
     "code": "E153",
-    "name": "Carbon",
-    "href": "e153.htm",
-    "function": "Natural black colour",
+    "names": "Vegetable carbon",
+    "display_name": "E153 (Vegetable carbon)",
+    "type": "color (Black)",
+    "status": "e",
+    "icon": "mdi-alert-circle",
     "more_info": {
-        "origin": "",
-        "characteristics": "",
-        "products": "",
-        "daily_intake": "None determined.",
-        "side_effects": "",
-        "dietary_restrictions": ""
+        "banned_in": "Approved in the EU.",
+        "overview": "Vegetable carbon is used as a color in food. Its technological role is to add or restore food colour.",
+        "uses": "EU permissions include ripened cheese, fruit and vegetable preparations excluding compote, processed fish and fishery products including molluscs and crustaceans. These permissions depend on the food category and its conditions of use.",
+        "daily_intake": "No ADI allocated (JECFA, 1987); EFSA also could not derive an ADI in 2012.",
+        "articles": {
+            "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/2323",
+            "EUR-Lex specifications": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231",
+            "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "EFSA": "https://www.efsa.europa.eu/en/efsajournal/pub/2592"
+        },
+        "origin": "Plant material is carbonised and the resulting carbon is purified. Permitted starting materials include wood and other cellulosic material, peat and nut shells.",
+        "dietary_restrictions": "The specified starting material is plant derived and compatible with vegetarian and vegan diets. The specification does not establish halal or kosher certification.",
+        "side_effects": "At reported food-use levels, EFSA found no concern for material meeting its stated low-PAH condition.\nAvailable toxicology was too limited for an ADI; contamination is a specific uncertainty."
     }
 }

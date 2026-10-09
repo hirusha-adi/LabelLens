@@ -1,0 +1,18 @@
+{
+    "code": "E1103",
+    "names": "Invertase",
+    "display_name": "E1103 (Invertase)",
+    "type": "stabiliser",
+    "status": "e",
+    "icon": "mdi-check-circle",
+    "more_info": {
+        "banned_in": "Approved in the EU.",
+        "articles": {
+            "EUR-Lex specifications": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231",
+            "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
+        },
+        "origin": "Produced from the yeast Saccharomyces cerevisiae. The recovered material is an enzyme preparation.",
+        "overview": "Invertase is classified in food technology as a stabiliser. Its technological role is to maintain food structure."
+    }
+}

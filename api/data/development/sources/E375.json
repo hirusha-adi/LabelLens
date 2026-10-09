@@ -1,0 +1,48 @@
+{
+  "code": "E375",
+  "checked": "2026-10-10",
+  "fields": {
+    "status": [
+      "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+      "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+      "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=184"
+    ],
+    "icon": [
+      "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+      "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
+    ],
+    "banned_in": [
+      "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+      "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+      "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=184"
+    ],
+    "type": [
+      "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=184"
+    ],
+    "overview": [
+      "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=184"
+    ],
+    "uses": [
+      "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=184"
+    ]
+  },
+  "inputs": {
+    "names": "development/ins-summary-original.json",
+    "display_name": "development/ins-summary-original.json"
+  },
+  "gaps": [
+    "Current EU food-use permission was not established for the exact identity or complete group named by this entry; no e flag is asserted.",
+    "A current, unambiguous food-additive ADI and its basis were not confirmed; daily_intake omitted.",
+    "No sufficiently specific compound-level source was retained for origin; field omitted.",
+    "No sufficiently specific compound-level source was retained for side_effects; field omitted.",
+    "No sufficiently specific compound-level source was retained for dietary_restrictions; field omitted.",
+    "No sufficiently specific compound-level source was retained for interactions; field omitted.",
+    "No sufficiently specific compound-level source was retained for precautions; field omitted."
+  ],
+  "changes": [
+    "status: '' -> 'u'; positive flags require a matching current EU listing or direct-food FDA provision.",
+    "Replaced the legacy layout with rich fields and removed unsupported inherited health, dietary and intake assertions.",
+    "code: '375' -> 'E375'; restored the required prefix and filename identity.",
+    "name/href/function and characteristics/products replaced by the required rich schema; only sourced facts were retained."
+  ]
+}

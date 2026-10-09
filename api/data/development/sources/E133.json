@@ -1,0 +1,51 @@
+{
+  "code": "E133",
+  "checked": "2026-10-10",
+  "fields": {
+    "status": [
+      "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+      "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+      "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=74"
+    ],
+    "icon": [
+      "https://www.efsa.europa.eu/en/efsajournal/pub/1853"
+    ],
+    "banned_in": [
+      "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+      "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+      "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=74"
+    ],
+    "names": [
+      "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231"
+    ],
+    "overview": [
+      "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/3309",
+      "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/2815",
+      "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+      "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818"
+    ],
+    "uses": [
+      "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818"
+    ],
+    "daily_intake": [
+      "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/3309"
+    ],
+    "side_effects": [
+      "https://www.efsa.europa.eu/en/efsajournal/pub/1853"
+    ]
+  },
+  "inputs": {
+    "display_name": "development/ins-summary-original.json",
+    "type": "development/ins-summary-original.json"
+  },
+  "gaps": [
+    "No sufficiently specific compound-level source was retained for origin; field omitted.",
+    "No sufficiently specific compound-level source was retained for dietary_restrictions; field omitted.",
+    "No sufficiently specific compound-level source was retained for interactions; field omitted.",
+    "No sufficiently specific compound-level source was retained for precautions; field omitted."
+  ],
+  "changes": [
+    "Replaced the legacy layout with rich fields and removed unsupported inherited health, dietary and intake assertions.",
+    "name/href/function and characteristics/products replaced by the required rich schema; only sourced facts were retained."
+  ]
+}

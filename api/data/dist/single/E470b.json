@@ -1,0 +1,23 @@
+{
+    "code": "E470b",
+    "names": "Magnesium salts of fatty acids (emulsifier)",
+    "display_name": "E470b (Magnesium salts of fatty acids)",
+    "type": "anti-caking agent",
+    "status": "e",
+    "icon": "mdi-check-circle",
+    "more_info": {
+        "banned_in": "Approved in the EU.",
+        "overview": "Magnesium salts of fatty acids is used as an anti-caking agent in food. Its technological role is to help powders stay free-flowing.",
+        "uses": "EU permissions include table-top sweeteners in tablets. These permissions depend on the food category and its conditions of use.",
+        "articles": {
+            "EUR-Lex specifications": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231",
+            "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "EFSA": "https://www.efsa.europa.eu/en/efsajournal/pub/5180"
+        },
+        "origin": "Magnesium salts are prepared from fatty acids obtained from edible fats or oils. The specification does not identify a single biological source for those fats.",
+        "dietary_restrictions": "The fatty-acid feedstock is not specified as exclusively plant derived. Vegan, vegetarian, halal and kosher suitability cannot be established without the supplier identifying the raw material and processing.",
+        "daily_intake": "No numerical ADI needed (EFSA, 2018).",
+        "side_effects": "EFSA found no concern for assessed food uses.\nThe reviewed evidence did not indicate mutagenic or cancer effects."
+    }
+}

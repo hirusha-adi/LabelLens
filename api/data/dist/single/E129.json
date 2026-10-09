@@ -1,14 +1,24 @@
 {
     "code": "E129",
-    "name": "Allura Red AC",
-    "href": "e129.htm",
-    "function": "Red colour, azo dye",
+    "names": "Allura Red AC (FD&C Red 40)",
+    "display_name": "E129 (Allura Red AC)",
+    "type": "color (Red)",
+    "status": "e u",
+    "icon": "mdi-alert-circle",
     "more_info": {
-        "origin": "Synthetic azo dye. See  for a background on azo dyes.",
-        "characteristics": "Red food colour. Very soluble in water.",
-        "products": "Restricted use in confectionery and meat products.",
-        "daily_intake": "Up to 7 mg/kg body weight.",
-        "side_effects": "Since it is an azo dye, it may elicit intolerance in people intolerant to salicylates. Additionally, it is a histamine liberator, and may intensify symptoms of asthma. In combination with benzoates, it is also implicated in hyperactivity in children. One of its degradation products causes bladder cancer in animals when present in high concentrations.",
-        "dietary_restrictions": "None; E129 can be consumed by all religious groups, vegans and vegetarians."
+        "banned_in": "Approved in the EU.\nApproved in the US.\nEU food labels require the specified warning about possible effects on children's activity and attention under the 2026 consolidated rules.\nUS food use is subject to the listed CFR provisions and their conditions, checked in 2026.",
+        "overview": "Allura Red AC is used as a color in food. Its technological role is to add or restore food colour.",
+        "uses": "EU permissions include dried fruit and vegetables, fruit and vegetables in vinegar oil or brine, canned or bottled fruit and vegetables, fruit and vegetable preparations excluding compote. These permissions depend on the food category and its conditions of use.",
+        "daily_intake": "0–7 mg/kg body weight (JECFA, 2016).",
+        "articles": {
+            "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/2361",
+            "EUR-Lex specifications": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231",
+            "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "eCFR Title 21": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=74",
+            "EFSA": "https://www.efsa.europa.eu/en/efsajournal/pub/1327"
+        },
+        "origin": "The dye is made by coupling two prepared aromatic chemical intermediates. It is a synthetic ingredient.",
+        "side_effects": "At food-use levels, the 2009 EFSA review found most refined exposure estimates below its intake limit. Mixture studies in children cannot identify the effect of this dye alone.\nAt high intake, some estimates for young children slightly exceeded the limit; this is an exposure assessment, not proof of harm."
     }
 }

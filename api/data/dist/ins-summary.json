@@ -5,7 +5,7 @@
     },
     {
         "code": "E100ii",
-        "name": "E100 - Turmeric"
+        "name": "E100ii - Turmeric"
     },
     {
         "code": "E101",
@@ -13,7 +13,7 @@
     },
     {
         "code": "E101ii",
-        "name": "E101ii - Riboflavin-5'-Phosphate"
+        "name": "E101ii - Riboflavin-5'-phosphate sodium"
     },
     {
         "code": "E102",
@@ -21,7 +21,7 @@
     },
     {
         "code": "E103",
-        "name": "E103 - Alkannin[11]"
+        "name": "E103 - Alkannin"
     },
     {
         "code": "E104",
@@ -744,6 +744,10 @@
         "name": "E370 - 1,4-Heptonolactone"
     },
     {
+        "code": "E375",
+        "name": "E375 - Nicotinic acid"
+    },
+    {
         "code": "E380",
         "name": "E380 - Triammonium citrate"
     },
@@ -1024,6 +1028,10 @@
         "name": "E469 - Enzymically hydrolysed carboxymethylcellulose"
     },
     {
+        "code": "E470",
+        "name": "E470 - Fatty acid salts"
+    },
+    {
         "code": "E470a",
         "name": "E470a - Sodium, potassium and calcium salts of fatty acids (emulsifier)"
     },
@@ -1034,6 +1042,10 @@
     {
         "code": "E471",
         "name": "E471 - Mono- and diglycerides of fatty acids (glyceryl monostearate, glyceryl distearate)"
+    },
+    {
+        "code": "E472",
+        "name": "E472 - Esters of mono- and diglycerides"
     },
     {
         "code": "E472a",
@@ -1086,6 +1098,10 @@
     {
         "code": "E478",
         "name": "E478 - Lactylated fatty acid esters of glycerol and propane-1"
+    },
+    {
+        "code": "E479",
+        "name": "E479 - Esterified soy oil"
     },
     {
         "code": "E479b",
@@ -1181,7 +1197,7 @@
     },
     {
         "code": "E504",
-        "name": "E504 - Magnesium carbonates (i) Magnesium carbonate (ii) Magnesium bicarbonate Magnesium hydrogen carbonate"
+        "name": "E504 - Magnesium carbonates: (i) magnesium carbonate (ii) magnesium hydroxide carbonate"
     },
     {
         "code": "E505",
@@ -1201,7 +1217,7 @@
     },
     {
         "code": "E510",
-        "name": "E510 - Ammonium chloride, ammonia solution (acidity regulator)"
+        "name": "E510 - Ammonium chloride"
     },
     {
         "code": "E511",
@@ -1217,11 +1233,11 @@
     },
     {
         "code": "E514",
-        "name": "E514 - Sodium sulphates (i) Sodium sulphate (ii)"
+        "name": "E514 - Sodium sulphates: (i) sodium sulphate (ii) sodium hydrogen sulphate"
     },
     {
         "code": "E515",
-        "name": "E515 - Potassium Sulphates (i) Potassium Sulphate (ii)"
+        "name": "E515 - Potassium sulphates: (i) potassium sulphate (ii) potassium hydrogen sulphate"
     },
     {
         "code": "E516",
@@ -1328,6 +1344,10 @@
         "name": "E545 - Ammonium polyphosphate"
     },
     {
+        "code": "E546",
+        "name": "E546 - Magnesium pyrophosphate"
+    },
+    {
         "code": "E550",
         "name": "E550 - Sodium Silicates (i) Sodium silicate (ii) Sodium metasilicate"
     },
@@ -1338,6 +1358,10 @@
     {
         "code": "E552",
         "name": "E552 - Calcium silicate"
+    },
+    {
+        "code": "E553",
+        "name": "E553 - Magnesium silicate"
     },
     {
         "code": "E553a",
@@ -1400,8 +1424,16 @@
         "name": "E570 - Fatty acids"
     },
     {
+        "code": "E571",
+        "name": "E571 - Ammonium stearate"
+    },
+    {
         "code": "E572",
         "name": "E572 - Magnesium stearate, calcium stearate (emulsifier)"
+    },
+    {
+        "code": "E573",
+        "name": "E573 - Aluminium stearate"
     },
     {
         "code": "E574",
@@ -1510,6 +1542,14 @@
     {
         "code": "E635",
         "name": "E635 - Disodium 5'-ribonucleotides"
+    },
+    {
+        "code": "E636",
+        "name": "E636 - Maltol"
+    },
+    {
+        "code": "E637",
+        "name": "E637 - Ethylmaltol"
     },
     {
         "code": "E640",
@@ -1625,7 +1665,7 @@
     },
     {
         "code": "E907",
-        "name": "E907 - Crystalline wax"
+        "name": "E907 - Hydrogenated poly-1-decene"
     },
     {
         "code": "E908",
@@ -1746,6 +1786,10 @@
     {
         "code": "E942",
         "name": "E942 - Nitrous oxide"
+    },
+    {
+        "code": "E943",
+        "name": "E943 - Butane, isobutane"
     },
     {
         "code": "E943a",
@@ -2037,7 +2081,7 @@
     },
     {
         "code": "E1521",
-        "name": "E1521 - Polyethylene glycol 8000[25]"
+        "name": "E1521 - Polyethylene glycol 8000"
     },
     {
         "code": "E1525",

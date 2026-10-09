@@ -1,14 +1,18 @@
 {
-    "code": "926",
-    "name": "Chlorodioxide",
-    "href": "e926.htm",
-    "function": "Bleaching agent and preservative",
+    "code": "E926",
+    "names": "Chlorine dioxide (preservative)",
+    "display_name": "E926 (Chlorine dioxide)",
+    "type": "bleach",
+    "status": "u",
+    "icon": "mdi-check-circle",
     "more_info": {
-        "origin": "Obtained from chlorine and sodium chlorite. ",
-        "characteristics": "",
-        "products": "Bread but not often used.",
-        "daily_intake": "Up to 30 mg/kg bodyweight",
-        "side_effects": "None known.",
-        "dietary_restrictions": "None. 926 can be used by all religious groups, vegans and vegetarians."
+        "banned_in": "Approved in the US.\nUS food use is subject to the listed CFR provisions and their conditions, checked in 2026.",
+        "articles": {
+            "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/1422",
+            "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "eCFR Title 21": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=173"
+        },
+        "overview": "Chlorine dioxide is classified in food technology as a bleach. Its technological role is to alter colour during specified processing treatments."
     }
 }

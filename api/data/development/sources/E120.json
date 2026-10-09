@@ -77,6 +77,7 @@
     "function: removed obsolete basic-layout key; identity/function now use the rich schema.",
     "more_info.characteristics: removed; no verified compound-specific food-use claim retained. See gaps.",
     "more_info.products: removed; no verified compound-specific food-use claim retained. See gaps.",
-    "Icon: EFSA identified an allergy risk without a threshold dose in 2015."
+    "Icon: EFSA identified an allergy risk without a threshold dose in 2015.",
+    "name/href/function and characteristics/products replaced by the required rich schema; only sourced facts were retained."
   ]
 }

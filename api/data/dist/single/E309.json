@@ -1,14 +1,18 @@
 {
     "code": "E309",
-    "name": "delta- Tocopherol",
-    "href": "e309.htm",
-    "function": "Synthetic anti-oxidant, vitamin E",
+    "names": "Delta-Tocopherol (synthetic)",
+    "display_name": "E309 (Delta-Tocopherol)",
+    "type": "antioxidant",
+    "status": "e",
+    "icon": "mdi-check-circle",
     "more_info": {
-        "origin": "Extract of vegetable oils rich in tocopherols (vitamin E), especially soybean oil. Can also be made by chemical synthesis.",
-        "characteristics": "Anti-oxidant in fatty products, especially added to prevent rancidity of olive oil. Rather low vitamin Eactivity. Applications are limited due to the strong flavour it imparts.",
-        "products": "A nimal and vegetable oils and fats, soups, etc.",
-        "daily_intake": "Up to 2 mg/kg body weight.",
-        "side_effects": "Vitamin Ecan cause several side effects in high concentrations. These are not associated with the use of tocopherols as additives, but as vitamin supplement.",
-        "dietary_restrictions": "Tocopherols can be used by all religious groups, vegans and vegetarians."
+        "banned_in": "Approved in the EU.",
+        "uses": "EU permissions include milk-based drinks and similar products intended for young children, fats and oils essentially free from water  (excluding anhydrous milk fat), foods for infants and young children. These permissions depend on the food category and its conditions of use.",
+        "articles": {
+            "EUR-Lex specifications": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231",
+            "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
+        },
+        "overview": "Delta-Tocopherol is classified in food technology as an antioxidant. Its technological role is to slow oxidation."
     }
 }

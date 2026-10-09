@@ -1,14 +1,17 @@
 {
-    "code": "408",
-    "name": "Furcelleran",
-    "href": "e408.htm",
-    "function": "Natural thickening agent",
+    "code": "E408",
+    "names": "Bakers yeast glycan",
+    "display_name": "E408 (Bakers yeast glycan)",
+    "type": "emulsifier",
+    "status": "u",
+    "icon": "mdi-check-circle",
     "more_info": {
-        "origin": "  A natural polysaccharide, produced from seaweed (Furcellaria fastigata)  in Denmark. Sometimes it is placed under E407, due to the fact that they have similar chemical structures.",
-        "characteristics": "Thickening agent, stabiliser and emulsifier. ",
-        "products": "Products for diabetics.",
-        "daily_intake": "Up to 75 mg/kg body weight.",
-        "side_effects": "None known in the concentrations used, although high concentrations bring about flatulence and bloating, due to fermentation by the intestinal microflora (in the same way as all indigestible polysaccharides).",
-        "dietary_restrictions": "Furcelleran can be used by all religious groups, vegans and vegetarians."
+        "banned_in": "Approved in the US.\nUS food use is subject to the listed CFR provisions and their conditions, checked in 2026.",
+        "overview": "Bakers yeast glycan is used as an emulsifier in food. Its technological role is to help oil and water remain mixed.",
+        "articles": {
+            "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "eCFR Title 21": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=172"
+        }
     }
 }

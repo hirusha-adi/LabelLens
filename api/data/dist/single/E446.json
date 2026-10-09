@@ -1,0 +1,15 @@
+{
+    "code": "E446",
+    "names": "Succistearin",
+    "display_name": "E446 (Succistearin)",
+    "type": "emulsifier",
+    "status": "",
+    "icon": "mdi-check-circle",
+    "more_info": {
+        "overview": "Succistearin is used as an emulsifier in food. Its technological role is to help oil and water remain mixed.",
+        "articles": {
+            "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
+        }
+    }
+}

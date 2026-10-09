@@ -1,0 +1,20 @@
+{
+    "code": "E1105",
+    "names": "Lysozyme",
+    "display_name": "E1105 (Lysozyme)",
+    "type": "preservative",
+    "status": "e",
+    "icon": "mdi-check-circle",
+    "more_info": {
+        "banned_in": "Approved in the EU.",
+        "uses": "EU permissions include ripened cheese, cheese products (excluding products falling in category 16), beer and malt beverages, fruit wine and made wine. These permissions depend on the food category and its conditions of use.",
+        "articles": {
+            "EUR-Lex specifications": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231",
+            "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
+        },
+        "origin": "Obtained from hen egg white, usually as the hydrochloride salt. It is an animal-derived enzyme protein.",
+        "dietary_restrictions": "Derived from egg white; it is unsuitable for vegan diets and compatible with ovo-vegetarian diets. Halal and kosher certification was not established by the specification.",
+        "overview": "Lysozyme is classified in food technology as a preservative. Its technological role is to limit microbial spoilage."
+    }
+}

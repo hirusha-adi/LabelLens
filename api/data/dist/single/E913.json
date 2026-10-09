@@ -1,14 +1,15 @@
 {
-    "code": "913",
-    "name": "Lanoline",
-    "href": "e913.htm",
-    "function": "Coating, glazing agent",
+    "code": "E913",
+    "names": "Lanolin, sheep wool grease",
+    "display_name": "E913 (Lanolin)",
+    "type": "glazing agent",
+    "status": "",
+    "icon": "mdi-check-circle",
     "more_info": {
-        "origin": "A wax from sheep. It is excreted by the skin of the sheep and extracted from the wool. ",
-        "characteristics": "",
-        "products": "Chewing gum. Main use is in cosmetics.",
-        "daily_intake": "None determined",
-        "side_effects": "None known.",
-        "dietary_restrictions": "None. 913 can be used by all religious groups and vegetarians, but not by vegans."
+        "articles": {
+            "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
+        },
+        "overview": "Lanolin is classified in food technology as a glazing agent. Its technological role is to provide a surface coating."
     }
 }

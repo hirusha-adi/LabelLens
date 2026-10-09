@@ -1,0 +1,15 @@
+{
+    "code": "E161j",
+    "names": "Astaxanthin",
+    "display_name": "E161j (Astaxanthin)",
+    "type": "color (Red)",
+    "status": "",
+    "icon": "mdi-check-circle",
+    "more_info": {
+        "overview": "Astaxanthin is used as a color in food. Its technological role is to add or restore food colour.",
+        "articles": {
+            "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
+        }
+    }
+}

@@ -1,14 +1,21 @@
 {
     "code": "E235",
-    "name": "Pimaracin",
-    "href": "e235.htm",
-    "function": "Natural antibiotic",
+    "names": "Natamycin, Pimaracin",
+    "display_name": "E235 (Natamycin)",
+    "type": "preservative",
+    "status": "e",
+    "icon": "mdi-check-circle",
     "more_info": {
-        "origin": "Pimaracin is an antibiotic produced by the bacteria Streptomyces natalensis  and S. chattanoogensis .",
-        "characteristics": "Used as a preservative mainly against fungi.",
-        "products": "Cheese, (outer surface of) meat products, etc.",
-        "daily_intake": "Up to 0.3 mg/kg body weight.",
-        "side_effects": "It is metabolised by the liver and excreted. There are no side effects at the concentrations used.",
-        "dietary_restrictions": " pimaracin can be consumed by all religious groups, vegans and vegetarians."
+        "banned_in": "Approved in the EU.",
+        "overview": "Natamycin is used as a preservative in food. Its technological role is to help limit microbial spoilage.",
+        "uses": "EU permissions include ripened cheese, cheese products (excluding products falling in category 16), non-heat-treated processed meat, heat-treated meat products. These permissions depend on the food category and its conditions of use.",
+        "daily_intake": "0–0.3 mg/kg body weight (JECFA, 2024).",
+        "articles": {
+            "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/3255",
+            "EUR-Lex specifications": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231",
+            "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
+        },
+        "origin": "Produced by fermentation with Streptomyces natalensis or other suitable Streptomyces species. The active material is a polyene macrolide antifungal compound."
     }
 }

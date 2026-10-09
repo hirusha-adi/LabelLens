@@ -1,0 +1,20 @@
+{
+    "code": "E1518",
+    "names": "Glyceryl triacetate or triacetin",
+    "display_name": "E1518 (Glyceryl triacetate or triacetin)",
+    "type": "humectant",
+    "status": "e",
+    "icon": "mdi-check-circle",
+    "more_info": {
+        "banned_in": "Approved in the EU.",
+        "overview": "Glyceryl triacetate or triacetin is used as a humectant in food. Its technological role is to help retain moisture.",
+        "uses": "EU permissions include chewing gum. These permissions depend on the food category and its conditions of use.",
+        "daily_intake": "For triacetin: No ADI specified (JECFA, 2002). This evaluation does not establish an ADI for every form in the named group.",
+        "articles": {
+            "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/3893",
+            "EUR-Lex specifications": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231",
+            "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
+        }
+    }
+}

@@ -1,0 +1,125 @@
+{
+  "checked": "2026-10-10",
+  "records": [
+    {
+      "code": "E100",
+      "state": "done",
+      "concern": "EFSA identified possible ADI exceedance for some high-consuming children in 2014.",
+      "decision": "Unconfirmed: whether the US turmeric-oleoresin listing covers the exact purified E100 preparation; the US flag was removed until that identity can be confirmed."
+    },
+    {
+      "code": "E100ii",
+      "state": "done",
+      "concern": null,
+      "decision": "Recorded uncertainty: INS 100(ii) powder versus EU E100 extract; the EU flag was removed because an exact colour listing was not verified."
+    },
+    {
+      "code": "E101",
+      "state": "done",
+      "concern": null,
+      "decision": "Recorded uncertainty: the different JECFA group ADI and EFSA decision not to allocate one; verify manufacture and dietary suitability for commercial preparations."
+    },
+    {
+      "code": "E101ii",
+      "state": "done",
+      "concern": null,
+      "decision": "Recorded uncertainty: the sodium-salt identity, changed food approval flags and legacy code mapping; US nutrient use does not confer colour approval. EFSA and JECFA ADI conclusions differ."
+    },
+    {
+      "code": "E106",
+      "state": "done",
+      "concern": null,
+      "decision": "Recorded uncertainty: the sodium-salt identity, changed food approval flags and legacy code mapping; US nutrient use does not confer colour approval. EFSA and JECFA ADI conclusions differ."
+    },
+    {
+      "code": "E102",
+      "state": "done",
+      "concern": "EFSA identified intolerance reactions, including within the ADI, in 2009.",
+      "decision": "Verify the removed Austria/Germany/Norway/United Arab Emirates ban list and the differing EFSA/JECFA ADIs."
+    },
+    {
+      "code": "E103",
+      "state": "done",
+      "concern": "JECFA allocated no ADI and records withdrawal of specifications.",
+      "decision": "Recorded uncertainty: historical alkannin/alkanet identity, withdrawn specifications and the missing modern food safety/manufacturing assessment."
+    },
+    {
+      "code": "E104",
+      "state": "done",
+      "concern": "EFSA reduced the ADI in 2009; EU use levels were subsequently reduced.",
+      "decision": "Recorded uncertainty: differing EFSA and JECFA ADIs and missing commercial dietary suitability evidence."
+    },
+    {
+      "code": "E105",
+      "state": "done",
+      "concern": "JECFA postponed its ADI decision and subsequently withdrew specifications.",
+      "decision": "Recorded uncertainty: the postponed JECFA evaluation and missing modern food-use safety and manufacturing evidence; do not confuse it with Yellow AB, CAS 85-84-7."
+    },
+    {
+      "code": "E107",
+      "state": "done",
+      "concern": "JECFA records no allocated ADI after the earlier temporary value and withdrawn specifications.",
+      "decision": "Recorded uncertainty: why the temporary ADI was withdrawn and locate a current assessment before restoring any safety or dietary statements."
+    },
+    {
+      "code": "E110",
+      "state": "done",
+      "concern": "EFSA imposed a temporary reduced ADI in 2009; the uncertainty was reassessed and the ADI revised in 2014.",
+      "decision": "Verify dietary suitability of commercial preparations; the old universal religious and vegan guarantee lacks source support."
+    },
+    {
+      "code": "E111",
+      "state": "done",
+      "concern": "JECFA postponed the ADI decision and records withdrawal of specifications.",
+      "decision": "Recorded uncertainty: the postponed evaluation and missing modern manufacturing, dietary and food-use information."
+    },
+    {
+      "code": "E120",
+      "state": "done",
+      "concern": "EFSA identified an allergy risk without a threshold dose in 2015.",
+      "decision": "No additional approval decision was required."
+    },
+    {
+      "code": "E121",
+      "state": "done",
+      "concern": "JECFA rejected food-additive use in 1969; FDA proposed revocation for abandonment in 2026.",
+      "decision": "Unconfirmed: whether the July 2026 proposed revocation has become final; the US flag reflects the currently loaded CFR and FDA inventory, despite JECFA rejection."
+    },
+    {
+      "code": "E122",
+      "state": "done",
+      "concern": "EFSA identified possible ADI exceedance in maximum-permitted-level exposure modelling in 2015.",
+      "decision": "Verify manufacturing details and dietary suitability; no commercial preparation certification was established."
+    },
+    {
+      "code": "E123",
+      "state": "done",
+      "concern": "FDA prohibits US food use; EFSA lowered the ADI in 2010.",
+      "decision": "Recorded uncertainty: the differing EFSA and JECFA ADIs and commercial dietary suitability."
+    },
+    {
+      "code": "E124",
+      "state": "done",
+      "concern": "EFSA reduced the ADI in 2009; EU use levels were reduced from 2013.",
+      "decision": "Recorded uncertainty: the differing EFSA and JECFA ADIs and commercial dietary suitability; do not transfer carmine properties."
+    },
+    {
+      "code": "E125",
+      "state": "done",
+      "concern": "FDA prohibits US food use under the cancellation of certificates provision.",
+      "decision": "Locate a compound-specific intake/safety assessment and manufacture/dietary evidence; keep the US food prohibition separate from nonfood uses."
+    },
+    {
+      "code": "E126",
+      "state": "done",
+      "concern": "JECFA could not complete the safety evaluation and described sensitisation reports.",
+      "decision": "Locate a modern assessment and manufacturing/dietary information; the historical JECFA evaluation was inadequate to establish an ADI."
+    },
+    {
+      "code": "E127",
+      "state": "done",
+      "concern": "FDA ordered revocation of food authorization in 2025 because of the statutory animal-cancer provision.",
+      "decision": "Recheck the US flag on 15 January 2027 and confirm any intervening effective-date changes; verify commercial dietary suitability."
+    }
+  ]
+}

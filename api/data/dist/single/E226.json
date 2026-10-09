@@ -1,14 +1,21 @@
 {
     "code": "E226",
-    "name": "Calcium sulphite",
-    "href": "e226.htm",
-    "function": "Synthetic preservative",
+    "names": "Calcium sulphite",
+    "display_name": "E226 (Calcium sulphite)",
+    "type": "preservative",
+    "status": "e",
+    "icon": "mdi-alert-circle",
     "more_info": {
-        "origin": "Calcium salt of sulphurous acid.",
-        "characteristics": "It is a white, non-stable powder, which reacts with oxygen to form calcium sulphate. In acidic conditions it forms sulphurous acid, which acts as a preservative. It is used as a preservative and may be used as a bleaching agent in sugar production. It increases the firmness of canned vegetables (due to the calcium).",
-        "products": "Cider, sugar, fruit juices, etc.",
-        "daily_intake": "Up to 0.7 mg/kg body weight.",
-        "side_effects": "Due to its oxidising effect, it may reduce the vitamin content in products. It is reduced in the liver to harmless sulphate and excreted in the urine.",
-        "dietary_restrictions": " sulphur dioxide and sulphites can be consumed by all religious groups, vegans and vegetarians."
+        "banned_in": "Approved in the EU.",
+        "daily_intake": "0–0.7 mg sulphur dioxide equivalents/kg body weight/day, combined JECFA sulphite group (JECFA, 1998).\nEFSA withdrew its temporary group ADI in 2022.",
+        "articles": {
+            "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/1361",
+            "EUR-Lex specifications": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231",
+            "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "EFSA": "https://www.efsa.europa.eu/en/plain-language-summary/follow-re-evaluation-sulfur-dioxide-e-220-sodium-sulfite-e-221-sodium"
+        },
+        "side_effects": "Food-use exposure may concern high consumers (EFSA, 2022).\nToxicology gaps prevented a new intake limit.",
+        "overview": "Calcium sulphite is classified in food technology as a preservative. Its technological role is to limit microbial spoilage."
     }
 }

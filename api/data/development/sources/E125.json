@@ -43,6 +43,7 @@
   ],
   "changes": [
     "Created previously missing individual file using the master identity and reviewed sources.",
-    "Icon: FDA prohibits US food use under the cancellation of certificates provision."
+    "Icon: FDA prohibits US food use under the cancellation of certificates provision.",
+    "Created the missing individual additive record and field provenance."
   ]
 }

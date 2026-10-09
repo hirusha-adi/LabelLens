@@ -1,0 +1,16 @@
+{
+    "code": "E905a",
+    "names": "Mineral oil",
+    "display_name": "E905a (Mineral oil)",
+    "type": "anti-foaming agent",
+    "status": "",
+    "icon": "mdi-check-circle",
+    "more_info": {
+        "articles": {
+            "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/2803",
+            "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
+        },
+        "overview": "Mineral oil is classified in food technology as an anti-foaming agent. Its technological role is to reduce unwanted foam."
+    }
+}

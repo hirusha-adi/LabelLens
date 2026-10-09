@@ -1,0 +1,20 @@
+{
+    "code": "E1521",
+    "names": "Polyethylene glycol 8000",
+    "display_name": "E1521 (Polyethylene glycol 8000)",
+    "type": "carrier",
+    "status": "e u",
+    "icon": "mdi-check-circle",
+    "more_info": {
+        "banned_in": "Approved in the EU.\nApproved in the US.\nUS permission is limited to the uses and conditions in 21 CFR 172.820, checked in 2026.",
+        "uses": "Specified US uses include food tablets, vitamin or mineral preparations and coatings on sodium nitrite. The provision excludes milk and preparations intended for addition to milk.",
+        "articles": {
+            "EUR-Lex specifications": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231",
+            "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "eCFR Title 21": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=172"
+        },
+        "origin": "A synthetic polymer formed from ethylene oxide and water. The US provision covers mean molecular weights from 200 to 9,500.",
+        "overview": "Polyethylene glycol is a synthetic polymer used as a coating, binder or dispersing ingredient in specified food preparations. The permitted molecular-weight range includes PEG 8000."
+    }
+}

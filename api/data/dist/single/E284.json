@@ -1,14 +1,22 @@
 {
     "code": "E284",
-    "name": "Boric acid",
-    "href": "e284.htm",
-    "function": "Natural acid",
+    "names": "Boric acid",
+    "display_name": "E284 (Boric acid)",
+    "type": "preservative",
+    "status": "e",
+    "icon": "mdi-alert-circle",
     "more_info": {
-        "origin": "Natural acid, but commercially produced from boron.",
-        "characteristics": "Boric acid and borates are used as a buffer to control acidity in products. It is also used in multi-vitamin/mineral products as a mineral source.",
-        "products": "rarely used in foods, but often in farmaceuticals.",
-        "daily_intake": "up to 0.1 mg/kg",
-        "side_effects": "",
-        "dietary_restrictions": ""
+        "banned_in": "Approved in the EU.",
+        "overview": "Boric acid is used as a preservative in food. Its technological role is to help limit microbial spoilage.",
+        "uses": "EU permissions include fish roe. These permissions depend on the food category and its conditions of use.",
+        "daily_intake": "0.16 mg boron/kg body weight/day, combined boric acid and borax (EFSA, 2013).",
+        "articles": {
+            "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/1110",
+            "EUR-Lex specifications": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231",
+            "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "EFSA": "https://www.efsa.europa.eu/en/efsajournal/pub/3407"
+        },
+        "side_effects": "EFSA considered regular exceedance from assessed food uses unlikely.\nHigher-dose animal studies found reproductive and developmental effects that supported the limit."
     }
 }

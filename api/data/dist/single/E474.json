@@ -1,14 +1,21 @@
 {
     "code": "E474",
-    "name": "Sugarglycerides",
-    "href": "e474.htm",
-    "function": "Semi-synthetic emulsifiers",
+    "names": "Sucroglycerides",
+    "display_name": "E474 (Sucroglycerides)",
+    "type": "emulsifier",
+    "status": "e",
+    "icon": "mdi-check-circle",
     "more_info": {
-        "origin": "  Esters of sugar and fats, produced from sugar and natural fats. The fats are mainly from plant origin, but also fats of animal origin may be used. The product generally is a mixture of different components.",
-        "characteristics": "Emulsifiers and stabilisers.",
-        "products": "M any different products",
-        "daily_intake": "16 mg/kg bodyweight",
-        "side_effects": "None known. The products are first digested to sugar and fats. The body metabolises all components identical to sugar and natural fat.",
-        "dietary_restrictions": "Although mainly vegetable oils are used, the use of animal fat (incl. pork) can not be excluded. Several groups, such as vegans, Muslims and Jews thus avoid these products. Only the producer can give detailed information on the origin of the fatty acids. Chemically the fatty acids from vegetable or animal origin are identical."
+        "banned_in": "Approved in the EU.",
+        "overview": "Sucroglycerides is used as an emulsifier in food. Its technological role is to help oil and water remain mixed.",
+        "daily_intake": "0-30 mg/kg body weight (JECFA, 1997). This is a combined limit for sucrose fatty-acid esters and sucroglycerides.",
+        "articles": {
+            "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/2341",
+            "EUR-Lex specifications": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231",
+            "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
+        },
+        "origin": "Produced by reacting sucrose with an edible fat or oil. The mixture contains sucrose fatty-acid esters and residual glycerides.",
+        "dietary_restrictions": "The fatty-acid feedstock is not specified as exclusively plant derived. Vegan, vegetarian, halal and kosher suitability cannot be established without the supplier identifying the raw material and processing."
     }
 }

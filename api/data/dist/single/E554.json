@@ -1,14 +1,20 @@
 {
     "code": "E554",
-    "name": "Aluminium sodium silicate",
-    "href": "e554.htm",
-    "function": "Anti caking agent",
+    "names": "Sodium aluminosilicate (sodium aluminium silicate)",
+    "display_name": "E554 (Sodium aluminosilicate)",
+    "type": "anti-caking agent",
+    "status": "e",
+    "icon": "mdi-check-circle",
     "more_info": {
-        "origin": "Produced from several natural minerals.",
-        "characteristics": "",
-        "products": "Many dry products.",
-        "daily_intake": "",
-        "side_effects": "None known",
-        "dietary_restrictions": "None. E554 can be used by all religious groups, vegetarians and vegans."
+        "banned_in": "Approved in the EU.",
+        "uses": "EU permissions include salt. These permissions depend on the food category and its conditions of use.",
+        "daily_intake": "No ADI specified (JECFA, 2017).",
+        "articles": {
+            "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/6297",
+            "EUR-Lex specifications": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231",
+            "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
+        },
+        "overview": "Sodium aluminosilicate is classified in food technology as an anti-caking agent. Its technological role is to keep powders free-flowing."
     }
 }

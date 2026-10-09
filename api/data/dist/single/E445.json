@@ -1,0 +1,22 @@
+{
+    "code": "E445",
+    "names": "Glycerol esters of wood rosins",
+    "display_name": "E445 (Glycerol esters of wood rosins)",
+    "type": "emulsifier",
+    "status": "e",
+    "icon": "mdi-alert-circle",
+    "more_info": {
+        "banned_in": "Approved in the EU.",
+        "overview": "Glycerol esters of wood rosins is used as an emulsifier in food. Its technological role is to help oil and water remain mixed.",
+        "uses": "EU permissions include flavoured drinks, entire fresh fruit and vegetables, other confectionery including breath freshening micro-sweets. These permissions depend on the food category and its conditions of use.",
+        "daily_intake": "0–25 mg/kg body weight (JECFA, 2013).",
+        "articles": {
+            "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/3527",
+            "EUR-Lex specifications": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231",
+            "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "EFSA": "https://www.efsa.europa.eu/en/efsajournal/pub/5370"
+        },
+        "side_effects": "The 2018 safety conclusions depended on the pine species and extract composition.\nPreparations from some other pine species lacked adequate evidence for assessment."
+    }
+}

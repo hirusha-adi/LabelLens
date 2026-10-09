@@ -1,0 +1,47 @@
+{
+  "code": "E503",
+  "checked": "2026-10-10",
+  "fields": {
+    "status": [
+      "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+      "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+      "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=184"
+    ],
+    "icon": [
+      "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+      "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
+    ],
+    "banned_in": [
+      "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+      "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+      "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=184"
+    ],
+    "names": [
+      "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231"
+    ],
+    "overview": [
+      "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+      "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818"
+    ],
+    "uses": [
+      "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818"
+    ]
+  },
+  "inputs": {
+    "display_name": "development/ins-summary-original.json",
+    "type": "development/ins-summary-original.json"
+  },
+  "gaps": [
+    "A current, unambiguous food-additive ADI and its basis were not confirmed; daily_intake omitted.",
+    "No sufficiently specific compound-level source was retained for origin; field omitted.",
+    "No sufficiently specific compound-level source was retained for side_effects; field omitted.",
+    "No sufficiently specific compound-level source was retained for dietary_restrictions; field omitted.",
+    "No sufficiently specific compound-level source was retained for interactions; field omitted.",
+    "No sufficiently specific compound-level source was retained for precautions; field omitted."
+  ],
+  "changes": [
+    "Replaced the legacy layout with rich fields and removed unsupported inherited health, dietary and intake assertions.",
+    "status: 'e' -> 'e u'; 21 CFR 184.1135; 21 CFR 184.1137. Empty flags include unconfirmed permissions, not inferred country bans.",
+    "name/href/function and characteristics/products replaced by the required rich schema; only sourced facts were retained."
+  ]
+}

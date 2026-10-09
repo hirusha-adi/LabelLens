@@ -1,0 +1,23 @@
+{
+    "code": "E426",
+    "names": "Soybean hemicellulose",
+    "display_name": "E426 (Soybean hemicellulose)",
+    "type": "unclassified",
+    "status": "e",
+    "icon": "mdi-alert-circle",
+    "more_info": {
+        "banned_in": "Approved in the EU.",
+        "uses": "EU permissions include processed eggs and egg products, food supplements supplied in a liquid form excluding food supplements for infants and young children. These permissions depend on the food category and its conditions of use.",
+        "articles": {
+            "EUR-Lex specifications": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231",
+            "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "EFSA": "https://www.efsa.europa.eu/en/efsajournal/pub/4721"
+        },
+        "origin": "Hot water extracts the soluble polysaccharides from soybean fibre. Ethanol may be used to recover the refined material.",
+        "dietary_restrictions": "The specified starting material is plant derived and compatible with vegetarian and vegan diets. The specification does not establish halal or kosher certification.",
+        "daily_intake": "No numerical ADI needed for the assessed uses (EFSA, 2017).",
+        "side_effects": "Estimated actual food-use exposure was low and unlikely to raise concern.\nEFSA identified residual soybean proteins as a potential allergen issue.",
+        "overview": "Soybean hemicellulose is a refined, water-soluble polysaccharide preparation. It is obtained from soybean fibre by hot-water extraction."
+    }
+}

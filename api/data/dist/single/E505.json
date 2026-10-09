@@ -1,14 +1,15 @@
 {
-    "code": "505",
-    "name": "Ferro carbonate",
-    "href": "e505.htm",
-    "function": "Acidity regulator",
+    "code": "E505",
+    "names": "Ferrous carbonate",
+    "display_name": "E505 (Ferrous carbonate)",
+    "type": "acidity regulator",
+    "status": "",
+    "icon": "mdi-check-circle",
     "more_info": {
-        "origin": "  It occurs as a natural mineral.",
-        "characteristics": "Acidity regulator, but mainly used to fortify foods with iron.",
-        "products": "  Fortified foods and pharmaceutical preparations",
-        "daily_intake": "None determined",
-        "side_effects": "None known",
-        "dietary_restrictions": "None, 505 can be used by all religious groups, vegans and vegetarians."
+        "articles": {
+            "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
+        },
+        "overview": "Ferrous carbonate is classified in food technology as an acidity regulator. Its technological role is to control acidity."
     }
 }

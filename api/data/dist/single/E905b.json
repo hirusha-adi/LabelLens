@@ -1,0 +1,19 @@
+{
+    "code": "E905b",
+    "names": "Petrolatum",
+    "display_name": "E905b (Petrolatum)",
+    "type": "release agent",
+    "status": "u",
+    "icon": "mdi-check-circle",
+    "more_info": {
+        "banned_in": "Approved in the US.\nUS food use is subject to the listed CFR provisions and their conditions, checked in 2026.",
+        "daily_intake": "No ADI allocated (JECFA, 1988).",
+        "articles": {
+            "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/2733",
+            "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "eCFR Title 21": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=173"
+        },
+        "overview": "Petrolatum is a mixture of petroleum-derived hydrocarbons. Its US-authorised uses include specified release, lubricant and protective-coating applications."
+    }
+}

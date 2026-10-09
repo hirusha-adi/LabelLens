@@ -1,14 +1,17 @@
 {
     "code": "E626",
-    "name": "Guanylic acid",
-    "href": "e626.htm",
-    "function": "Flavour enhancer",
+    "names": "Guanylic acid",
+    "display_name": "E626 (Guanylic acid)",
+    "type": "flavour enhancer",
+    "status": "e",
+    "icon": "mdi-check-circle",
     "more_info": {
-        "origin": "Guanylic acid is a natural acid, which is part of RNA, one of the genetic carrier molecules in the cell. It is thus part of all cells in all living organisms. Commercially prepared from yeast extract or sardines.",
-        "characteristics": "Flavour enhancer. Guanylic acid and guanylates do not have the specific umami taste but strongly enhance many other flavours, thereby reducing the amounts of salt needed in a product.",
-        "products": "Used in many products.",
-        "daily_intake": "None determined. Guanylates may not be used in products intended for children under 12 weeks.",
-        "side_effects": "Asthmatic people should avoid guanylic acid and guanylates. As guanylates are metabolised to purines, they should be avoided by people suffering from gout. However, the concentrations used are generally so low that no effects are to be expected.",
-        "dietary_restrictions": "Guanlyic acic and guanylates are generally produced from yeasts, but partly also from fish. They may thus not suitable for vegans and vegetarians."
+        "banned_in": "Approved in the EU.",
+        "articles": {
+            "EUR-Lex specifications": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231",
+            "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
+        },
+        "overview": "Guanylic acid is classified in food technology as a flavour enhancer. Its technological role is to strengthen existing flavours."
     }
 }

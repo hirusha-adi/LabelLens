@@ -1,14 +1,19 @@
 {
     "code": "E483",
-    "name": "Stearyl tartrate",
-    "href": "e483.htm",
-    "function": "Semi-synthetic emulsifier",
+    "names": "Stearyl tartrate",
+    "display_name": "E483 (Stearyl tartrate)",
+    "type": "emulsifier",
+    "status": "",
+    "icon": "mdi-check-circle",
     "more_info": {
-        "origin": "  Combination of stearic acid and tartaric acid, resulting in a mixture of several components. The origin of stearic acid can be or plant or animal fat, although in practice nearly always vegetable oil will be used.",
-        "characteristics": "Emulsifier and stabiliser",
-        "products": "Bakery products",
-        "daily_intake": "Up to 20 mg/kg bodyweight",
-        "side_effects": "None, both tartaric and stearic acid are normal products in human metabolism.",
-        "dietary_restrictions": "Although mainly vegetable oils are used, the use of animal fat (incl. pork) can not be excluded. Several groups, such as vegans, Muslims and Jews thus avoid these products. Only the producer can give detailed information on the origin of the fatty acids. Chemically the fatty acids from vegetable or animal origin are identical."
+        "articles": {
+            "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/5181",
+            "EUR-Lex specifications": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231",
+            "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
+        },
+        "origin": "Made by esterifying tartaric acid with commercial stearyl alcohol. The alcohol mixture also contains palmityl alcohol.",
+        "dietary_restrictions": "The fatty-acid feedstock is not specified as exclusively plant derived. Vegan, vegetarian, halal and kosher suitability cannot be established without the supplier identifying the raw material and processing.",
+        "overview": "Stearyl tartrate is classified in food technology as an emulsifier. Its technological role is to help oil and water stay mixed."
     }
 }

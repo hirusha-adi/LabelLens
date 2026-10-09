@@ -1,14 +1,21 @@
 {
     "code": "E421",
-    "name": "Mannitol",
-    "href": "e421.htm",
-    "function": "Natural sugar alcohol",
+    "names": "Mannitol (anti-caking agent)",
+    "display_name": "E421 (Mannitol)",
+    "type": "sweetener",
+    "status": "e",
+    "icon": "mdi-check-circle",
     "more_info": {
-        "origin": "  A natural carbohydrate alcohol, present in many plants, e.g., conifers, seaweed and mushrooms. It is commercially produced from glucose (dextrose).",
-        "characteristics": "Anti-caking agent, low-calorie sweetener, bulking agent, etc.",
-        "products": "Bakery and confectionery products.",
-        "daily_intake": "Up to 160 mg/kg body weight.",
-        "side_effects": "Mannitol is largely absorbed and metabolised as glucose by the body. The remaining fraction is fermented in the large intestine. During fermentation, gases are produced, which may cause bloating and flatulence. In intolerant persons it can act as a laxative. Side effects normally occur after an intake of 25-30 grams in a single dose, which is far above the usage in normal foods.",
-        "dietary_restrictions": "Mannitol can be used by all religious groups, vegans and vegetarians. The term carbohydrate alcohol is a chemical definition; mannitol does not contain alcohol (ethanol)."
+        "banned_in": "Approved in the EU.",
+        "overview": "Mannitol is used as a stabilizer in food. Its technological role is to help maintain the structure of food.",
+        "uses": "EU permissions include foods for infants and young children. These permissions depend on the food category and its conditions of use.",
+        "daily_intake": "No ADI specified (JECFA, 1986).",
+        "articles": {
+            "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/5119",
+            "EUR-Lex specifications": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231",
+            "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
+        },
+        "origin": "Specified mannitol can be made by hydrogenating glucose- or fructose-containing solutions, or by fermentation with a suitable Zygosaccharomyces rouxii yeast strain."
     }
 }

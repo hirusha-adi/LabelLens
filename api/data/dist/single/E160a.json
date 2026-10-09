@@ -1,14 +1,23 @@
 {
     "code": "E160a",
-    "name": "Alfa-, Beta- and Gamma- Carotene",
-    "href": "e160a.htm",
-    "function": "Natural orange-yellow colour",
+    "names": "Alpha-carotene, Beta-carotene, Gamma-carotene",
+    "display_name": "E160a (Alpha-carotene)",
+    "type": "color (Yellow-orange to brown)",
+    "status": "e u",
+    "icon": "mdi-alert-circle",
     "more_info": {
-        "origin": "Natural colour isolated from several plants; however, it is obtained commercially from carrots. Carotenes occur as isomers, consisting of a series of chemically identical, but sterically different components. The actual composition differs between the plant species.",
-        "characteristics": "Water-insoluble food colour whose colour ranges from yellow to orange, depending on the solvent used for extraction.",
-        "products": "Many different products.",
-        "daily_intake": "Up to 5 mg/kg body weight for E160a (i), whereas none has been determined for the other compounds.",
-        "side_effects": "No side effects known in the concentrations used in foods. High concentrations will result in yellow discoloration of the skin. As carotene is a source of vitamin A (2 parts of carotene equal 1 part of vitamin A), high concentrations will cause symptoms of vitamin A toxicity.",
-        "dietary_restrictions": "None; E160a can be consumed by all religious groups, vegans and vegetarians."
+        "banned_in": "Approved in the EU.\nApproved in the US.\nUS food use is subject to the listed CFR provisions and their conditions, checked in 2026.",
+        "overview": "Alpha-carotene is used as a color in food. Its technological role is to add or restore food colour.",
+        "uses": "EU permissions include butter and concentrated butter and butter oil and anhydrous milk fat, ripened cheese, processed cheese, cheese products (excluding products falling in category 16). These permissions depend on the food category and its conditions of use.",
+        "daily_intake": "For beta,beta-carotene: ADI withdrawn (JECFA, 2019). This evaluation does not establish an ADI for every form in the named group.",
+        "articles": {
+            "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/1514",
+            "EUR-Lex specifications": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231",
+            "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "eCFR Title 21": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=73"
+        },
+        "origin": "The specified forms include chemically synthesised beta-carotene, carotene extracted from edible plants, and beta-carotene produced by fermentation with Blakeslea trispora. The production route depends on the particular preparation.",
+        "side_effects": "JECFA withdrew earlier beta-carotene group ADIs in 2019 because the rat model was unsuitable for deriving a human limit.\nIn 2026, some dietary exposure estimates were higher, but JECFA could not characterise their toxicological significance without an ADI."
     }
 }

@@ -1,14 +1,22 @@
 {
     "code": "E155",
-    "name": "Brown HT",
-    "href": "e155.htm",
-    "function": "Brown colour, azo dye",
+    "names": "Brown HT (chocolate brown HT)",
+    "display_name": "E155 (Brown HT)",
+    "type": "color (Brown)",
+    "status": "e",
+    "icon": "mdi-alert-circle",
     "more_info": {
-        "origin": "",
-        "characteristics": "Brown food colour. Very soluble in water.",
-        "products": "Restricted use in confectionery and bakery products.",
-        "daily_intake": "Up to 1.5 mg/kg body weight.",
-        "side_effects": "Since it is an azo dye, it may elicit intolerance in people intolerant to salicylates. Additionally, it is a histamine liberator, and may intensify symptoms of asthma. In combination with benzoates, it is also implicated in hyperactivity in children.",
-        "dietary_restrictions": "None; E155 can be consumed by all religious groups, vegans and vegetarians."
+        "banned_in": "Approved in the EU.",
+        "overview": "Brown HT is used as a color in food. Its technological role is to add or restore food colour.",
+        "uses": "EU permissions include processed fish and fishery products including molluscs and crustaceans. These permissions depend on the food category and its conditions of use.",
+        "daily_intake": "0-1.5 mg/kg body weight (JECFA, 1984).",
+        "articles": {
+            "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/3815",
+            "EUR-Lex specifications": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231",
+            "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "EFSA": "https://www.efsa.europa.eu/en/efsajournal/pub/1536"
+        },
+        "side_effects": "Mean food-use estimates were generally below EFSA's limit in 2010.\nSome high-consumption estimates exceeded it in adults and children; the limit was based on animal toxicity evidence."
     }
 }

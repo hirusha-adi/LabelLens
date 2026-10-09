@@ -1,14 +1,19 @@
 {
     "code": "E503",
-    "name": "Ammonium carbonate",
-    "href": "e503.htm",
-    "function": "Base",
+    "names": "Ammonium carbonates (i) Ammonium carbonate (ii) Ammonium bicarbonate (Ammonium hydrogen carbonate)",
+    "display_name": "E503 (Ammonium carbonates)",
+    "type": "acidity regulator",
+    "status": "e u",
+    "icon": "mdi-check-circle",
     "more_info": {
-        "origin": "",
-        "characteristics": "Acidity regulators, alkali, and rising agents",
-        "products": "  Many different products",
-        "daily_intake": "None determined",
-        "side_effects": "None known, except some gas formation in the stomach after ingestion.",
-        "dietary_restrictions": "None, E503 can be used by all religious groups, vegans and vegetarians."
+        "banned_in": "Approved in the EU.\nApproved in the US.\nUS food use is subject to the listed CFR provisions and their conditions, checked in 2026.",
+        "overview": "Ammonium carbonates is used as a raising agent in food. Its technological role is to release gas that increases the volume of dough.",
+        "uses": "EU permissions include edible caseinates, milk-based drinks and similar products intended for young children. These permissions depend on the food category and its conditions of use.",
+        "articles": {
+            "EUR-Lex specifications": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231",
+            "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "eCFR Title 21": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=184"
+        }
     }
 }

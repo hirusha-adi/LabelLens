@@ -1,0 +1,17 @@
+{
+    "code": "E359",
+    "names": "Ammonium adipate",
+    "display_name": "E359 (Ammonium adipate)",
+    "type": "acidity regulator",
+    "status": "",
+    "icon": "mdi-check-circle",
+    "more_info": {
+        "daily_intake": "0-5 mg/kg body weight (JECFA, 1977). This is the combined limit for adipic acid and its specified salts.",
+        "articles": {
+            "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/928",
+            "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
+        },
+        "overview": "Ammonium adipate is classified in food technology as an acidity regulator. Its technological role is to control acidity."
+    }
+}

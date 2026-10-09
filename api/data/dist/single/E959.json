@@ -1,14 +1,22 @@
 {
     "code": "E959",
-    "name": "Neohesperidin",
-    "href": "None",
-    "function": "Sweetener",
+    "names": "Neohesperidine dihydrochalcone (sweetener)",
+    "display_name": "E959 (Neohesperidine dihydrochalcone)",
+    "type": "flavour enhancer",
+    "status": "e",
+    "icon": "mdi-check-circle",
     "more_info": {
-        "origin": "",
-        "characteristics": "",
-        "products": "",
-        "daily_intake": "",
-        "side_effects": "",
-        "dietary_restrictions": ""
+        "banned_in": "Approved in the EU.",
+        "uses": "EU permissions include meal replacement for weight control as referred to in Commission Regulation (EU) no 432/2012, flavoured drinks, flavoured fermented milk products including heat-treated products, edible ices. These permissions depend on the food category and its conditions of use.",
+        "articles": {
+            "EUR-Lex specifications": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231",
+            "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "EFSA": "https://www.efsa.europa.eu/en/efsajournal/pub/7595"
+        },
+        "origin": "Made by catalytic hydrogenation of neohesperidin. This is a chemically modified flavonoid preparation.",
+        "daily_intake": "20 mg/kg body weight/day (EFSA, 2022).",
+        "side_effects": "Reported food-use estimates were below the limit.\nThe assessment used an animal no-effect dose and an additional factor for limited-duration testing.",
+        "overview": "Neohesperidine dihydrochalcone is classified in food technology as a flavour enhancer. Its technological role is to strengthen existing flavours."
     }
 }

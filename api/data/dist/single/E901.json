@@ -1,14 +1,22 @@
 {
     "code": "E901",
-    "name": "Bees wax",
-    "href": "e901.htm",
-    "function": "Coating, glazing agent",
+    "names": "Beeswax, white and yellow",
+    "display_name": "E901 (Beeswax)",
+    "type": "glazing agent",
+    "status": "e",
+    "icon": "mdi-check-circle",
     "more_info": {
-        "origin": "Natural polymer produces by bees. The white wax is bleached by sunlight or hydrogen peroxide.",
-        "characteristics": "",
-        "products": "Many different foods and pharmaceutical products.",
-        "daily_intake": "None determined",
-        "side_effects": "None known",
-        "dietary_restrictions": "None. E901 can be used by all religious groups, vegetarians, as it does not contain animals. The wax is an exudate of the bees and some vegans accept this product."
+        "banned_in": "Approved in the EU.",
+        "overview": "Beeswax is used as a stabilizer in food. Its technological role is to help maintain the structure of food.",
+        "uses": "EU permissions include edible ices, entire fresh fruit and vegetables, cocoa and chocolate products as covered by directive 2000/36/ec, other confectionery including breath freshening micro-sweets. These permissions depend on the food category and its conditions of use.",
+        "daily_intake": "No ADI specified (JECFA, 2005).",
+        "articles": {
+            "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/168",
+            "EUR-Lex specifications": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231",
+            "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
+        },
+        "origin": "Beeswax is recovered by melting honeycomb walls with hot water and removing foreign material. White beeswax is made by bleaching yellow beeswax.",
+        "dietary_restrictions": "Derived from honeybee wax; it is unsuitable for vegan diets. Vegetarian acceptance depends on whether bee products are included. Halal and kosher certification was not established by the specification."
     }
 }

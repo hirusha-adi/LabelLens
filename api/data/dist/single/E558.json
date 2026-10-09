@@ -1,14 +1,18 @@
 {
     "code": "E558",
-    "name": "Bentonite",
-    "href": "e558.htm",
-    "function": "Anti caking agent",
+    "names": "Bentonite",
+    "display_name": "E558 (Bentonite)",
+    "type": "anti-caking agent",
+    "status": "e u",
+    "icon": "mdi-check-circle",
     "more_info": {
-        "origin": "A natural type of clay from volcanic origin.",
-        "characteristics": "",
-        "products": "Fruit juices, aromas. Main use, however, is in cosmetics.",
-        "daily_intake": "",
-        "side_effects": "None known",
-        "dietary_restrictions": "None. E558 can be used by all religious groups, vegetarians and vegans."
+        "banned_in": "Approved in the EU.\nApproved in the US.\nUS food use is subject to the listed CFR provisions and their conditions, checked in 2026.",
+        "overview": "Bentonite is used as a thickener in food. Its technological role is to increase the thickness of food.",
+        "articles": {
+            "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/699",
+            "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "eCFR Title 21": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=184"
+        }
     }
 }

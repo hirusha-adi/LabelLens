@@ -1,14 +1,17 @@
 {
-    "code": "225",
-    "name": "Potassium sulphite",
-    "href": "e225.htm",
-    "function": "Synthetic preservative",
+    "code": "E225",
+    "names": "Potassium sulphite",
+    "display_name": "E225 (Potassium sulphite)",
+    "type": "preservative",
+    "status": "",
+    "icon": "mdi-check-circle",
     "more_info": {
-        "origin": "Potassium salt of sulphurous acid.",
-        "characteristics": "It is a white non-stable powder, which reacts with oxygen to potassium sulphate. In acidic conditions it forms sulphurous acid, which acts as a preservative. It is used as a preservative and may be used as a bleaching agent in sugar production. It is used for the production of sulphite-caramel ()",
-        "products": "beer",
-        "daily_intake": "",
-        "side_effects": "",
-        "dietary_restrictions": ""
+        "overview": "Potassium sulphite is used as a preservative in food. Its technological role is to help limit microbial spoilage.",
+        "daily_intake": "0-0.7 mg/kg body weight (JECFA, 1998). The JECFA group limit is expressed as sulphur dioxide equivalents.",
+        "articles": {
+            "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/2483",
+            "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
+        }
     }
 }

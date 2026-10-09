@@ -31,10 +31,13 @@ Example of output item:
 }
 """
 
-import json, os
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parents[1]
 
 with open(
-    os.path.join("development", "ins-summary-original.json"), "r", encoding="utf-8"
+    ROOT / "development/ins-summary-original.json", "r", encoding="utf-8"
 ) as file:
     data = json.load(file)
 
@@ -44,5 +47,6 @@ for item in data:
     del item["type"]
     del item["status"]
 
-with open(os.path.join("dist", "ins-summary.json"), "w") as file:
-    json.dump(data, file, indent=4)
+with open(ROOT / "dist/ins-summary.json", "w", encoding="utf-8") as file:
+    json.dump(data, file, ensure_ascii=False, indent=4)
+    file.write("\n")

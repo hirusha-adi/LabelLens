@@ -1,0 +1,16 @@
+{
+    "code": "E1100",
+    "names": "Amylase",
+    "display_name": "E1100 (Amylase)",
+    "type": "stabiliser, flavour enhancer",
+    "status": "",
+    "icon": "mdi-check-circle",
+    "more_info": {
+        "articles": {
+            "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/811",
+            "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
+        },
+        "overview": "Amylase is classified in food technology as a flavour enhancer. Its technological role is to strengthen existing flavours."
+    }
+}

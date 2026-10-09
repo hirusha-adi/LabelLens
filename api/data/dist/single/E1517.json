@@ -1,0 +1,17 @@
+{
+    "code": "E1517",
+    "names": "Glyceryl diacetate or diacetin",
+    "display_name": "E1517 (Glyceryl diacetate or diacetin)",
+    "type": "flavour solvent",
+    "status": "e",
+    "icon": "mdi-check-circle",
+    "more_info": {
+        "banned_in": "Approved in the EU.",
+        "articles": {
+            "EUR-Lex specifications": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231",
+            "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
+        },
+        "overview": "Glyceryl diacetate or diacetin is classified in food technology as a flavour solvent. Its technological role is to dissolve or disperse flavouring ingredients."
+    }
+}

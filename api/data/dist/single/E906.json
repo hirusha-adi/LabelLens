@@ -1,14 +1,15 @@
 {
-    "code": "906",
-    "name": "Gum benzoic",
-    "href": "e906.htm",
-    "function": "Flavour, coating",
+    "code": "E906",
+    "names": "Gum benzoic",
+    "display_name": "E906 (Gum benzoic)",
+    "type": "flavour enhancer",
+    "status": "",
+    "icon": "mdi-check-circle",
     "more_info": {
-        "origin": "Natural polymer derived from trees from the genus Styrax  from Southeast Asia .",
-        "characteristics": "",
-        "products": "Many different products, but mainly in pharmaceutical and cosmetic preparations (perfumes, make-up).",
-        "daily_intake": "None determined",
-        "side_effects": "None known, but it often contains benzoic acid ().",
-        "dietary_restrictions": "None. 906 can be used by all religious groups, vegans and vegetarians."
+        "articles": {
+            "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
+        },
+        "overview": "Gum benzoic is classified in food technology as a flavour enhancer. Its technological role is to strengthen existing flavours."
     }
 }

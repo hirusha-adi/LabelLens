@@ -1,0 +1,19 @@
+{
+    "code": "E479b",
+    "names": "Thermally oxidized soya bean oil interacted with mono- and diglycerides of fatty acids",
+    "display_name": "E479b (Thermally oxidized soya bean oil interacted with mono- and diglycerides of fatty acids)",
+    "type": "emulsifier",
+    "status": "e",
+    "icon": "mdi-check-circle",
+    "more_info": {
+        "banned_in": "Approved in the EU.",
+        "articles": {
+            "EUR-Lex specifications": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231",
+            "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
+        },
+        "origin": "Thermally oxidised soybean oil is combined with mono- and diglycerides of food fatty acids under heated vacuum conditions. The soybean oil is plant derived; the glyceride feedstock requires separate identification.",
+        "dietary_restrictions": "The fatty-acid feedstock is not specified as exclusively plant derived. Vegan, vegetarian, halal and kosher suitability cannot be established without the supplier identifying the raw material and processing.",
+        "overview": "Thermally oxidized soya bean oil interacted with mono- and diglycerides of fatty acids is classified in food technology as an emulsifier. Its technological role is to help oil and water stay mixed."
+    }
+}

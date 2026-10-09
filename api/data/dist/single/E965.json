@@ -1,14 +1,20 @@
 {
     "code": "E965",
-    "name": "Maltitol",
-    "href": "965.htm",
-    "function": "Sweetener",
+    "names": "Maltitol (i) Maltitol (ii) Maltitol syrup (sweetener) (stabiliser)",
+    "display_name": "E965 (Maltitol)",
+    "type": "humectant",
+    "status": "e",
+    "icon": "mdi-check-circle",
     "more_info": {
-        "origin": "",
-        "characteristics": "",
-        "products": "",
-        "daily_intake": "",
-        "side_effects": "",
-        "dietary_restrictions": ""
+        "banned_in": "Approved in the EU.",
+        "overview": "Maltitol is used as a stabilizer in food. Its technological role is to help maintain the structure of food.",
+        "daily_intake": "No ADI specified (JECFA, 1993).",
+        "articles": {
+            "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/4276",
+            "EUR-Lex specifications": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231",
+            "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
+        },
+        "origin": "Maltitol is made by hydrogenating maltose. Maltitol syrup is made from a maltose-rich glucose syrup or from a blend of separately hydrogenated components."
     }
 }

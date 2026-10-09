@@ -1,0 +1,17 @@
+{
+    "code": "E345",
+    "names": "Magnesium citrate",
+    "display_name": "E345 (Magnesium citrate)",
+    "type": "acidity regulator",
+    "status": "",
+    "icon": "mdi-check-circle",
+    "more_info": {
+        "daily_intake": "No ADI allocated (JECFA, 1985).",
+        "articles": {
+            "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/4272",
+            "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
+        },
+        "overview": "Magnesium citrate is classified in food technology as an acidity regulator. Its technological role is to control acidity."
+    }
+}

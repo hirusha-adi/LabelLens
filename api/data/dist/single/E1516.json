@@ -1,0 +1,17 @@
+{
+    "code": "E1516",
+    "names": "Glyceryl monoacetate",
+    "display_name": "E1516 (Glyceryl monoacetate)",
+    "type": "flavour solvent",
+    "status": "",
+    "icon": "mdi-check-circle",
+    "more_info": {
+        "daily_intake": "No ADI specified (JECFA, 1979).",
+        "articles": {
+            "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/2856",
+            "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
+        },
+        "overview": "Glyceryl monoacetate is classified in food technology as a flavour solvent. Its technological role is to dissolve or disperse flavouring ingredients."
+    }
+}

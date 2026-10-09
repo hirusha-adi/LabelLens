@@ -1,14 +1,21 @@
 {
     "code": "E538",
-    "name": "Calcium ferrocyanide",
-    "href": "e538.htm",
-    "function": "Anti-caking agen",
+    "names": "Calcium ferrocyanide",
+    "display_name": "E538 (Calcium ferrocyanide)",
+    "type": "anti-caking agent",
+    "status": "e",
+    "icon": "mdi-check-circle",
     "more_info": {
-        "origin": "Prepared from hydrogen ferrocyanide and calcium hydroxide.",
-        "characteristics": "",
-        "products": "Low-sodium salt",
-        "daily_intake": "",
-        "side_effects": "None in the concentrations used.",
-        "dietary_restrictions": "None. E538 can be used by all religious groups, vegetarians and vegans."
+        "banned_in": "Approved in the EU.",
+        "daily_intake": "0.03 mg ferrocyanide ion/kg body weight/day, combined ferrocyanides (EFSA, 2018).",
+        "articles": {
+            "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/2828",
+            "EUR-Lex specifications": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231",
+            "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "EFSA": "https://www.efsa.europa.eu/en/efsajournal/pub/5374"
+        },
+        "side_effects": "Assessed food uses raised no concern.\nHigher-dose animal kidney effects supported the group limit.",
+        "overview": "Calcium ferrocyanide is classified in food technology as an anti-caking agent. Its technological role is to keep powders free-flowing."
     }
 }

@@ -1,14 +1,23 @@
 {
     "code": "E950",
-    "name": "Acesulfame K",
-    "href": "None",
-    "function": "Sweetener",
+    "names": "Acesulfame potassium",
+    "display_name": "E950 (Acesulfame potassium)",
+    "type": "sweetener",
+    "status": "e u",
+    "icon": "mdi-alert-circle",
     "more_info": {
-        "origin": "",
-        "characteristics": "",
-        "products": "",
-        "daily_intake": "",
-        "side_effects": "",
-        "dietary_restrictions": ""
+        "banned_in": "Approved in the EU.\nApproved in the US.\nUS food use is subject to the listed CFR provisions and their conditions, checked in 2026.",
+        "overview": "Acesulfame potassium is used as a sweetener in food. Its technological role is to provide sweetness.",
+        "uses": "EU permissions include meal replacement for weight control as referred to in Commission Regulation (EU) no 432/2012, flavoured drinks, flavoured fermented milk products including heat-treated products, edible ices. These permissions depend on the food category and its conditions of use.",
+        "daily_intake": "15 mg/kg body weight/day (EFSA, 2025).",
+        "articles": {
+            "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/926",
+            "EUR-Lex specifications": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231",
+            "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "eCFR Title 21": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=172",
+            "EFSA": "https://www.efsa.europa.eu/en/efsajournal/pub/9317"
+        },
+        "side_effects": "Assessed food-use exposure was generally below the limit.\nEFSA identified a possible genotoxic manufacturing impurity and requested a tighter limit or additional data."
     }
 }

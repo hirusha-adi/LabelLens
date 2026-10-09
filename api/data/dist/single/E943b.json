@@ -1,0 +1,18 @@
+{
+    "code": "E943b",
+    "names": "Isobutane",
+    "display_name": "E943b (Isobutane)",
+    "type": "propellant",
+    "status": "e",
+    "icon": "mdi-check-circle",
+    "more_info": {
+        "banned_in": "Approved in the EU.",
+        "overview": "Isobutane is used as a propellant in food. Its technological role is to expel food from its container.",
+        "uses": "EU permissions include vegetable oil pan spray. These permissions depend on the food category and its conditions of use.",
+        "articles": {
+            "EUR-Lex specifications": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231",
+            "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
+        }
+    }
+}

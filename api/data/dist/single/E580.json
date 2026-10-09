@@ -1,0 +1,17 @@
+{
+    "code": "E580",
+    "names": "Magnesium gluconate",
+    "display_name": "E580 (Magnesium gluconate)",
+    "type": "nutrient supplement",
+    "status": "",
+    "icon": "mdi-check-circle",
+    "more_info": {
+        "daily_intake": "No ADI specified (JECFA, 1998).",
+        "articles": {
+            "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/2769",
+            "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
+        },
+        "overview": "Magnesium gluconate is a magnesium salt used as a nutrient supplement. Its role is to supply magnesium."
+    }
+}

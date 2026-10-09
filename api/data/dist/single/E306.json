@@ -1,14 +1,22 @@
 {
     "code": "E306",
-    "name": "Extracts of tocopherols",
-    "href": "e306.htm",
-    "function": "Natural anti-oxidant, vitamin E",
+    "names": "Tocopherols (Vitamin E, natural)",
+    "display_name": "E306 (Tocopherols)",
+    "type": "antioxidant",
+    "status": "e u",
+    "icon": "mdi-check-circle",
     "more_info": {
-        "origin": "Extract of vegetable oils rich in tocopherols (vitamin E).",
-        "characteristics": "Anti-oxidant in fatty products, especially added to prevent rancidity of animal oils. Vitamin Eactivity is limited. Applications are limited due to the strong flavour it imparts.",
-        "products": "A nimal and vegetable oils and fats, cheese, soups, etc.",
-        "daily_intake": "Up to 2 mg/kg body weight.",
-        "side_effects": "Vitamin Ecan cause several side effects in high concentrations. These are not associated with the use of tocopherols as additives, but as vitamin supplement.",
-        "dietary_restrictions": "Tocopherols can be used by all religious groups, vegans and vegetarians."
+        "banned_in": "Approved in the EU.\nApproved in the US.\nUS food use is subject to the listed CFR provisions and their conditions, checked in 2026.",
+        "overview": "Tocopherols is used as an antioxidant in food. Its technological role is to slow oxidation in food.",
+        "uses": "EU permissions include milk-based drinks and similar products intended for young children, fats and oils essentially free from water  (excluding anhydrous milk fat), foods for infants and young children. These permissions depend on the food category and its conditions of use.",
+        "articles": {
+            "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/1591",
+            "EUR-Lex specifications": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231",
+            "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "eCFR Title 21": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=182"
+        },
+        "origin": "Recovered and concentrated from edible vegetable oils by vacuum steam distillation. The concentrate contains several tocopherols and may also contain tocotrienols.",
+        "dietary_restrictions": "The specified starting material is plant derived and compatible with vegetarian and vegan diets. The specification does not establish halal or kosher certification."
     }
 }

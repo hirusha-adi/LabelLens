@@ -1,14 +1,16 @@
 {
-    "code": "922",
-    "name": "Potassium persulphate",
-    "href": "e922.htm",
-    "function": "Bread enhancer",
+    "code": "E922",
+    "names": "Potassium persulphate",
+    "display_name": "E922 (Potassium persulphate)",
+    "type": "improving agent",
+    "status": "",
+    "icon": "mdi-check-circle",
     "more_info": {
-        "origin": "Produced from potassium metasulphate and hydrogen peroxide ",
-        "characteristics": "",
-        "products": "Bread",
-        "daily_intake": "None determined",
-        "side_effects": "None known.",
-        "dietary_restrictions": "None. 922 can be used by all religious groups, vegans and vegetarians."
+        "articles": {
+            "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/3683",
+            "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
+        },
+        "overview": "Potassium persulphate is classified in food technology as an improving agent. Its technological role is to modify flour or dough properties."
     }
 }

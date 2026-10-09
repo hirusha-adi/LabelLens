@@ -1,14 +1,18 @@
 {
     "code": "E943",
-    "name": "Butane, isobutane",
-    "href": "e943.htm",
-    "function": "Propellant",
+    "names": "Butane, isobutane",
+    "display_name": "E943 (Butane)",
+    "type": "Propellant",
+    "status": "e",
+    "icon": "mdi-check-circle",
     "more_info": {
-        "origin": "Natural inert gas. ",
-        "characteristics": "",
-        "products": "Spray-cans.",
-        "daily_intake": "None determined",
-        "side_effects": "None known by use in foods.",
-        "dietary_restrictions": "None. E943 can be used by all religious groups, vegans and vegetarians."
+        "banned_in": "Approved in the EU.",
+        "overview": "Butane is used as a propellant in food. Its technological role is to expel food from its container.",
+        "daily_intake": "For butane: No ADI allocated (JECFA, 1979). This evaluation does not establish an ADI for every form in the named group.",
+        "articles": {
+            "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/159",
+            "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
+        }
     }
 }

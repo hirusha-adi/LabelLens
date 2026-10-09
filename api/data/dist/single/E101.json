@@ -8,14 +8,15 @@
     "more_info": {
         "banned_in": "Approved in the EU.\nApproved in the US.",
         "overview": "Riboflavin is vitamin B2 and a yellow food colour. It occurs naturally in foods and can also be added as a nutrient. Its colour use is covered by E101(i) in the EU specifications.",
-        "daily_intake": "0–0.5 mg/kg body weight per day, as a group ADI with riboflavin-5'-phosphate (JECFA, 1981). EFSA did not allocate an ADI in 2013 because the long-term toxicology data were insufficient.",
+        "daily_intake": "No ADI specified, as a group expressed as riboflavin (JECFA, 2021). This replaced the earlier 0–0.5 mg/kg body weight group ADI. EFSA did not allocate an ADI in 2013 because of incomplete long-term data.",
         "side_effects": "At authorised food-use levels, EFSA found no safety concern in 2013.\nFor high combined intakes, evidence was insufficient to assess adverse effects.",
         "uses": "Added as a yellow colour to foods. Examples in the EU database include certain fruit preparations and processed potato products; US colour use is subject to good manufacturing practice.",
         "articles": {
             "EFSA Journal": "https://efsa.onlinelibrary.wiley.com/doi/10.2903/j.efsa.2013.3357",
             "WHO JECFA (INCHEM)": "https://www.inchem.org/documents/jecfa/jeceval/jec_2099.htm",
             "eCFR": "https://www.ecfr.gov/current/title-21/section-73.450",
-            "European Commission database": "https://ec.europa.eu/food/food-feed-portal/backend/api/policy-items/POL-FAD-IMPORT-2986"
+            "European Commission database": "https://ec.europa.eu/food/food-feed-portal/backend/api/policy-items/POL-FAD-IMPORT-2986",
+            "WHO JECFA (2021)": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/4091"
         }
     }
 }

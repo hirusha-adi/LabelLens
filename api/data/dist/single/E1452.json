@@ -1,0 +1,18 @@
+{
+    "code": "E1452",
+    "names": "Starch aluminium octenyl succinate",
+    "display_name": "E1452 (Starch aluminium octenyl succinate)",
+    "type": "carrier",
+    "status": "e",
+    "icon": "mdi-check-circle",
+    "more_info": {
+        "banned_in": "Approved in the EU.",
+        "articles": {
+            "EUR-Lex specifications": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231",
+            "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
+        },
+        "origin": "Starch is esterified with octenylsuccinic anhydride and treated with aluminium sulphate. The product is a chemically modified carbohydrate.",
+        "overview": "Starch aluminium octenyl succinate is a chemically modified starch. Its EU permission includes specified carrier use in vitamin preparations."
+    }
+}

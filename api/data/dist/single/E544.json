@@ -1,14 +1,15 @@
 {
-    "code": "544",
-    "name": "Calcium polyphosphates",
-    "href": "e544.htm",
-    "function": "Emulsifier",
+    "code": "E544",
+    "names": "Calcium polyphosphate",
+    "display_name": "E544 (Calcium polyphosphate)",
+    "type": "emulsifier",
+    "status": "",
+    "icon": "mdi-check-circle",
     "more_info": {
-        "origin": "Produced by heating calcium phosphate.",
-        "characteristics": "",
-        "products": "",
-        "daily_intake": "",
-        "side_effects": "Polyphosphates may inhibit digestive enzymes in high concentrations.",
-        "dietary_restrictions": "None. 544 can be used by all religious groups, vegetarians and vegans."
+        "articles": {
+            "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
+        },
+        "overview": "Calcium polyphosphate is classified in food technology as an emulsifier. Its technological role is to help oil and water stay mixed."
     }
 }

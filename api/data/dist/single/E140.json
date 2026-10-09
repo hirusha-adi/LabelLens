@@ -1,14 +1,22 @@
 {
     "code": "E140",
-    "name": "Chlorophylls",
-    "href": "e140.htm",
-    "function": "Green colour, natural",
+    "names": "Chlorophylls and Chlorophyllins: (i) Chlorophylls (ii) Chlorophyllins",
+    "display_name": "E140 (Chlorophylls and Chlorophyllins)",
+    "type": "color (Green)",
+    "status": "e",
+    "icon": "mdi-check-circle",
     "more_info": {
-        "origin": "Natural green colour, present in all plants and algae. Commercially extracted from nettles, grass and alfalfa.",
-        "characteristics": "Green, water-soluble food colour.",
-        "products": "Many products.",
-        "daily_intake": "None determined.",
-        "side_effects": "No side effects are known.",
-        "dietary_restrictions": "None; E140 can be consumed by all religious groups, vegans and vegetarians."
+        "banned_in": "Approved in the EU.",
+        "overview": "Chlorophylls and Chlorophyllins is used as a color in food. Its technological role is to add or restore food colour.",
+        "uses": "EU permissions include ripened cheese, dried fruit and vegetables, fruit and vegetables in vinegar oil or brine, canned or bottled fruit and vegetables. These permissions depend on the food category and its conditions of use.",
+        "daily_intake": "For chlorophylls: ADI classified as not limited (JECFA, 1969). This evaluation does not establish an ADI for every form in the named group.",
+        "articles": {
+            "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/369",
+            "EUR-Lex specifications": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231",
+            "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
+        },
+        "origin": "Chlorophylls are extracted from edible plant material such as grass, alfalfa or nettles. Chlorophyllins are made by treating the extracted pigments with alkali and producing sodium or potassium salts.",
+        "dietary_restrictions": "The specified starting material is plant derived and compatible with vegetarian and vegan diets. The specification does not establish halal or kosher certification."
     }
 }

@@ -1,14 +1,15 @@
 {
     "code": "E160f",
-    "name": "Ethyl ester of beta-apo-8'-carotenic acid",
-    "href": "e160f.htm",
-    "function": "Natural orange-yellow colour",
+    "names": "Ethyl ester of beta-apo-8'-carotenic acid (C 30)",
+    "display_name": "E160f (Ethyl ester of beta-apo-8'-carotenic acid)",
+    "type": "color (Orange-red to yellow)",
+    "status": "",
+    "icon": "mdi-check-circle",
     "more_info": {
-        "origin": "Natural colour, present in many plants. It is made commercially from E160e or isolated from plants.",
-        "characteristics": "",
-        "products": "Many different products.",
-        "daily_intake": "Up to 5 mg/kg body weight.",
-        "side_effects": "No side effects known.",
-        "dietary_restrictions": "None; E160f can be consumed by all religious groups, vegans and vegetarians."
+        "articles": {
+            "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
+        },
+        "overview": "Ethyl ester of beta-apo-8'-carotenic acid is classified in food technology as a color. Its technological role is to add or restore colour."
     }
 }

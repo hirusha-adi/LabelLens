@@ -1,14 +1,23 @@
 {
     "code": "E507",
-    "name": "Hydrochloric acid",
-    "href": "e507.htm",
-    "function": "acid",
+    "names": "Hydrochloric acid",
+    "display_name": "E507 (Hydrochloric acid)",
+    "type": "acid",
+    "status": "e u",
+    "icon": "mdi-alert-circle",
     "more_info": {
-        "origin": "  Natural acid, normal acid in the stomach. Produced from salt and sulphuric acid.",
-        "characteristics": "Acidity regulator.",
-        "products": "Cheese, beer",
-        "daily_intake": "None determined.",
-        "side_effects": "None known.",
-        "dietary_restrictions": "All religious groups, vegans and vegetarians can use E507"
+        "banned_in": "Approved in the EU.\nApproved in the US.\nUS food use is subject to the listed CFR provisions and their conditions, checked in 2026.",
+        "overview": "Hydrochloric acid is used as an acidity regulator in food. Its technological role is to adjust or control the acidity of food.",
+        "uses": "EU permissions include milk-based drinks and similar products intended for young children. These permissions depend on the food category and its conditions of use.",
+        "daily_intake": "ADI classified as not limited (JECFA, 1965).",
+        "articles": {
+            "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/2799",
+            "EUR-Lex specifications": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231",
+            "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "eCFR Title 21": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=182",
+            "EFSA": "https://www.efsa.europa.eu/en/efsajournal/pub/5751"
+        },
+        "side_effects": "EFSA found no concern from reported food uses in 2019.\nHigher chloride intake can affect blood pressure; some high-consumption estimates exceeded the assessment reference value."
     }
 }

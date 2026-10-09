@@ -70,6 +70,7 @@
     "more_info.characteristics: removed; no verified compound-specific food-use claim retained. See gaps.",
     "more_info.dietary_restrictions: removed; no verified compound-specific food-use claim retained. See gaps.",
     "more_info.products: removed; no verified compound-specific food-use claim retained. See gaps.",
-    "Icon: EFSA identified possible ADI exceedance in maximum-permitted-level exposure modelling in 2015."
+    "Icon: EFSA identified possible ADI exceedance in maximum-permitted-level exposure modelling in 2015.",
+    "name/href/function and characteristics/products replaced by the required rich schema; only sourced facts were retained."
   ]
 }

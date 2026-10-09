@@ -1,14 +1,24 @@
 {
     "code": "E410",
-    "name": "Locust bean gum",
-    "href": "e410.htm",
-    "function": "Natural thickening agent",
+    "names": "Locust bean gum (Carob gum) (thickener) (stabiliser) (gelling agent)",
+    "display_name": "E410 (Locust bean gum)",
+    "type": "emulsifier",
+    "status": "e",
+    "icon": "mdi-alert-circle",
     "more_info": {
-        "origin": "  A natural polysaccharide, produced from the carob tree (Ceratonia siliqua)  found mostly in the Mediterranean region.",
-        "characteristics": "Thickening agent, stabiliser and emulsifier. ",
-        "products": "Many different products.",
-        "daily_intake": "None specified.",
-        "side_effects": "None known in the concentrations used, although high concentrations bring about flatulence and bloating, due to fermentation by the intestinal microflora (in the same way as all indigestible polysaccharides).",
-        "dietary_restrictions": "Locust bean gum can be used by all religious groups, vegans and vegetarians."
+        "banned_in": "Approved in the EU.",
+        "overview": "Locust bean gum is used as an emulsifier in food. Its technological role is to help oil and water remain mixed.",
+        "uses": "EU permissions include milk-based drinks and similar products intended for young children, unflavoured live fermented cream products and substitute products, both with a fat  content of less than 20 %, canned or bottled fruit and vegetables, jam jellies and marmalades and similar products. These permissions depend on the food category and its conditions of use.",
+        "daily_intake": "No numerical ADI needed for the assessed general-population uses (EFSA, 2017).",
+        "articles": {
+            "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/2872",
+            "EUR-Lex specifications": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231",
+            "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "EFSA": "https://www.efsa.europa.eu/en/efsajournal/pub/4646"
+        },
+        "origin": "Made by grinding the endosperm inside carob seeds. The main component is a galactomannan polysaccharide.",
+        "dietary_restrictions": "The specified starting material is plant derived and compatible with vegetarian and vegan diets. The specification does not establish halal or kosher certification.",
+        "side_effects": "EFSA found no concern for general-population food uses in 2017.\nThat assessment identified insufficient evidence for medically vulnerable infants; its conclusion should not be extended to every infant formula."
     }
 }

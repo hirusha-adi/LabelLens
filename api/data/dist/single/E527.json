@@ -1,14 +1,21 @@
 {
     "code": "E527",
-    "name": "Ammonium hydroxide",
-    "href": "e527.htm",
-    "function": "Base",
+    "names": "Ammonium hydroxide",
+    "display_name": "E527 (Ammonium hydroxide)",
+    "type": "acidity regulator",
+    "status": "e u",
+    "icon": "mdi-check-circle",
     "more_info": {
-        "origin": "Prepared from the ammonia and water.",
-        "characteristics": "",
-        "products": "Egg and cocoa products, colours",
-        "daily_intake": "",
-        "side_effects": "None known.",
-        "dietary_restrictions": "None. E527 can be used by all religious groups, vegetarians and vegans."
+        "banned_in": "Approved in the EU.\nApproved in the US.\nUS food use is subject to the listed CFR provisions and their conditions, checked in 2026.",
+        "overview": "Ammonium hydroxide is used as a raising agent in food. Its technological role is to release gas that increases the volume of dough.",
+        "uses": "EU permissions include edible caseinates. These permissions depend on the food category and its conditions of use.",
+        "daily_intake": "ADI classified as not limited (JECFA, 1965).",
+        "articles": {
+            "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/134",
+            "EUR-Lex specifications": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231",
+            "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "eCFR Title 21": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=184"
+        }
     }
 }

@@ -1,14 +1,23 @@
 {
     "code": "E422",
-    "name": "Glycerol",
-    "href": "e422.htm",
-    "function": "Natural alcohol",
+    "names": "Glycerol (emulsifier)",
+    "display_name": "E422 (Glycerol)",
+    "type": "sweetener",
+    "status": "e u",
+    "icon": "mdi-alert-circle",
     "more_info": {
-        "origin": "  A natural carbohydrate alcohol, which is one of the components of all fats. It is also present in low concentrations in blood. It is commercially produced either synthetically from propene, or by bacterial fermentation of sugars; it is not produced from fat.",
-        "characteristics": "Low-calorie sweetener, humectant (helps keep food moist), etc.",
-        "products": "Bakery and confectionery products.",
-        "daily_intake": "Not specified.",
-        "side_effects": "Glycerol is absorbed and metabolised as glucose (by the body) into fats.",
-        "dietary_restrictions": "Glycerol can be used by all religious groups, vegans and vegetarians. The term carbohydrate alcohol is a chemical definition; glycerol does not contain alcohol (ethanol)."
+        "banned_in": "Approved in the EU.\nApproved in the US.\nUS food use is subject to the listed CFR provisions and their conditions, checked in 2026.",
+        "overview": "Glycerol is used as an emulsifier in food. Its technological role is to help oil and water remain mixed.",
+        "uses": "EU permissions include cocoa and chocolate products as covered by directive 2000/36/ec, table-top sweeteners in liquid form. These permissions depend on the food category and its conditions of use.",
+        "daily_intake": "No numerical ADI needed (EFSA, 2017).",
+        "articles": {
+            "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/1565",
+            "EUR-Lex specifications": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231",
+            "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "eCFR Title 21": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=182",
+            "EFSA": "https://www.efsa.europa.eu/en/efsajournal/pub/4720"
+        },
+        "side_effects": "EFSA found no concern for reported food-use exposure in 2017.\nYoung children could reach therapeutic-dose exposure through large beverage servings, and potentially harmful manufacturing residues require control."
     }
 }

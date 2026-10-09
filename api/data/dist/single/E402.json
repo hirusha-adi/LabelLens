@@ -1,14 +1,22 @@
 {
     "code": "E402",
-    "name": "Potassium alginate",
-    "href": "e402.htm",
-    "function": "Natural thickening agent",
+    "names": "Potassium alginate (thickener) (stabiliser) (gelling agent)",
+    "display_name": "E402 (Potassium alginate)",
+    "type": "emulsifier",
+    "status": "e",
+    "icon": "mdi-alert-circle",
     "more_info": {
-        "origin": "  Potassium salt of alginic acid (), a natural polysaccharide, produced by different seaweeds of the family Phaeophyceae (Macrocystis pyrifera, Laminaria digitata, L. cloustoni, Ascophyllum nodosum)  in the USA and the UK.",
-        "characteristics": "Thickening agent and emulsifier. ",
-        "products": "Many different products, mainly for low-salt/sodium products.",
-        "daily_intake": "None specified.",
-        "side_effects": "None known in the concentrations used. High concentrations lead to impairment of iron uptake, as the iron is bound.",
-        "dietary_restrictions": "Alginic acid and alginates can be used by all religious groups, vegans and vegetarians."
+        "banned_in": "Approved in the EU.",
+        "overview": "Potassium alginate is used as an emulsifier in food. Its technological role is to help oil and water remain mixed.",
+        "uses": "EU permissions include unflavoured pasteurised cream (excluding reduced fat creams). These permissions depend on the food category and its conditions of use.",
+        "daily_intake": "No ADI specified (JECFA, 1992).",
+        "articles": {
+            "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/3122",
+            "EUR-Lex specifications": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231",
+            "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "EFSA": "https://www.efsa.europa.eu/en/efsajournal/pub/5049"
+        },
+        "side_effects": "The 2017 assessment identified uncertainty for medically vulnerable infants.\nTherapeutic doses can cause side effects; those conclusions require population-specific interpretation."
     }
 }

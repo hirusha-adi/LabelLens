@@ -1,14 +1,20 @@
 {
     "code": "E161g",
-    "name": "Canthaxanthin",
-    "href": "e161g.htm",
-    "function": "Natural, orange colour",
+    "names": "Canthaxanthin",
+    "display_name": "E161g (Canthaxanthin)",
+    "type": "color (Violet)",
+    "status": "u",
+    "icon": "mdi-check-circle",
     "more_info": {
-        "origin": "Natural colour, present in many plants and birds. Commercially prepared from catharelles (mushroom) or flamingo feathers. However, it is mainly produced synthetically from carotene.",
-        "characteristics": "",
-        "products": "Widely used, also in tanning pills.",
-        "daily_intake": "Up to 0.03 mg/kg bodyweight.",
-        "side_effects": "",
-        "dietary_restrictions": ""
+        "banned_in": "Approved in the US.\nUS food use is subject to the listed CFR provisions and their conditions, checked in 2026.",
+        "overview": "Canthaxanthin is used as a color in food. Its technological role is to add or restore food colour.",
+        "daily_intake": "0-0.03 mg/kg body weight (JECFA, 1995).",
+        "articles": {
+            "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/1268",
+            "EUR-Lex specifications": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231",
+            "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "eCFR Title 21": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=73"
+        }
     }
 }

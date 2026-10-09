@@ -1,0 +1,15 @@
+{
+    "code": "E1441",
+    "names": "Hydroxy propyl distarch glycerine (stabiliser)",
+    "display_name": "E1441 (Hydroxy propyl distarch glycerine)",
+    "type": "thickening agent",
+    "status": "",
+    "icon": "mdi-check-circle",
+    "more_info": {
+        "articles": {
+            "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
+        },
+        "overview": "Hydroxy propyl distarch glycerine is classified in food technology as a thickening agent. Its technological role is to increase thickness."
+    }
+}

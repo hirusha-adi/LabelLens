@@ -1,14 +1,20 @@
 {
     "code": "E952",
-    "name": "Cyclamates",
-    "href": "None",
-    "function": "Sweetener",
+    "names": "Cyclamic acid and its sodium and calcium salts, also known as Cyclamate",
+    "display_name": "E952 (Cyclamic acid and its sodium and calcium salts)",
+    "type": "sweetener",
+    "status": "e",
+    "icon": "mdi-alert-circle",
     "more_info": {
-        "origin": "",
-        "characteristics": "",
-        "products": "",
-        "daily_intake": "",
-        "side_effects": "",
-        "dietary_restrictions": ""
+        "banned_in": "Banned in: United States.\nApproved in the EU.\nThe US prohibition follows the 1969 cyclamate order.",
+        "overview": "Cyclamic acid and its sodium and calcium salts is used as a sweetener in food. Its technological role is to provide sweetness.",
+        "uses": "EU permissions include meal replacement for weight control as referred to in Commission Regulation (EU) no 432/2012, flavoured drinks, flavoured fermented milk products including heat-treated products, canned or bottled fruit and vegetables. These permissions depend on the food category and its conditions of use.",
+        "daily_intake": "0-11 mg/kg body weight (JECFA, 2009).",
+        "articles": {
+            "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/995",
+            "EUR-Lex specifications": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231",
+            "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
+        }
     }
 }

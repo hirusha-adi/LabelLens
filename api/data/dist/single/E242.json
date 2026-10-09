@@ -1,14 +1,23 @@
 {
     "code": "E242",
-    "name": "Dimethylcarbonate",
-    "href": "e242.htm",
-    "function": "Synthetic preservative",
+    "names": "Dimethyl dicarbonate",
+    "display_name": "E242 (Dimethyl dicarbonate)",
+    "type": "preservative",
+    "status": "e u",
+    "icon": "mdi-check-circle",
     "more_info": {
-        "origin": "Chemically synthesised.",
-        "characteristics": "It is used as a preservative (cold-sterilisation) in drinks.",
-        "products": "Soft drinks.",
-        "daily_intake": "None determined. DMDC decomposes when dissolved in the product.",
-        "side_effects": ".",
-        "dietary_restrictions": " DMDC can be consumed by all religious groups, vegans and vegetarians."
+        "banned_in": "Approved in the EU.\nApproved in the US.\nUS food use is subject to the listed CFR provisions and their conditions, checked in 2026.",
+        "overview": "Dimethyl dicarbonate is used as a preservative in food. Its technological role is to help limit microbial spoilage.",
+        "uses": "EU permissions include flavoured drinks, other, wine and other products defined in annex vii part ii of regulation (eu) no 1308/2013, cider and perry. These permissions depend on the food category and its conditions of use.",
+        "daily_intake": "No ADI specified (JECFA, 1990).",
+        "articles": {
+            "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/1032",
+            "EUR-Lex specifications": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231",
+            "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "eCFR Title 21": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=172",
+            "EFSA": "https://www.efsa.europa.eu/en/efsajournal/pub/4319"
+        },
+        "side_effects": "EFSA found no indication of concern at reported beverage-use levels in 2015. The additive rapidly reacts or breaks down before consumption.\nThe reaction products were assessed, but data were insufficient for an ADI."
     }
 }

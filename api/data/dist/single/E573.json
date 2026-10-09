@@ -1,14 +1,15 @@
 {
-    "code": "573",
-    "name": "Aluminium stearate",
-    "href": "e573.htm",
-    "function": "Anti caking agent",
+    "code": "E573",
+    "names": "Aluminium stearate",
+    "display_name": "E573 (Aluminium stearate)",
+    "type": "Anti caking agent",
+    "status": "",
+    "icon": "mdi-check-circle",
     "more_info": {
-        "origin": "Aluminium salt of stearic acid, .",
-        "characteristics": "",
-        "products": "Chewing gum, instant coffee",
-        "daily_intake": "",
-        "side_effects": "None known",
-        "dietary_restrictions": "Although stearic acid and stearates are commercially obtained from plant sources, the use of animal fat (including pork and beef) can not be excluded. Only the producer can provide information on the origin. The use by vegans, vegetarians, Muslims, Jews and Hindus thus is not recommended."
+        "articles": {
+            "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
+        },
+        "overview": "Aluminium stearate is classified in food technology as an anti-caking agent. Its technological role is to keep powders free-flowing."
     }
 }

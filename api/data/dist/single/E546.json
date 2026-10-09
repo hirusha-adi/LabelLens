@@ -1,14 +1,15 @@
 {
-    "code": "546",
-    "name": "Magnesium pyrophosphate",
-    "href": "e546.htm",
-    "function": "Emulsifier",
+    "code": "E546",
+    "names": "Magnesium pyrophosphate",
+    "display_name": "E546 (Magnesium pyrophosphate)",
+    "type": "Emulsifier",
+    "status": "",
+    "icon": "mdi-check-circle",
     "more_info": {
-        "origin": "Produced by heating magnesiumphosphate.",
-        "characteristics": "",
-        "products": "Processed cheese",
-        "daily_intake": "",
-        "side_effects": "Phosphates are normal essential salts for the body. In view of the need to avoid calcium deficiency, their use is limited, as they bind to calcium readily. They have no side effects.",
-        "dietary_restrictions": "None. 546 can be used by all religious groups, vegetarians and vegans."
+        "articles": {
+            "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
+        },
+        "overview": "Magnesium pyrophosphate is classified in food technology as an emulsifier. Its technological role is to help oil and water stay mixed."
     }
 }

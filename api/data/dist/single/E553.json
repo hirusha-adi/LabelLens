@@ -1,14 +1,19 @@
 {
     "code": "E553",
-    "name": "Magnesium silicate",
-    "href": "e553.htm",
-    "function": "Anti caking agent",
+    "names": "Magnesium silicate",
+    "display_name": "E553 (Magnesium silicate)",
+    "type": "Anti caking agent",
+    "status": "e u",
+    "icon": "mdi-alert-circle",
     "more_info": {
-        "origin": "Produced from magnesium sulphate and sodium silicate or directly from minerals such as talcum, sepiolite and steatite",
-        "characteristics": "",
-        "products": "Many dry products. Main use is in cosmetics.",
-        "daily_intake": "",
-        "side_effects": "None known",
-        "dietary_restrictions": "None. E553 can be used by all religious groups, vegetarians and vegans."
+        "banned_in": "Approved in the EU.\nApproved in the US.\nUS food use is subject to the listed CFR provisions and their conditions, checked in 2026.",
+        "overview": "Magnesium silicate is used as an anti-caking agent in food. Its technological role is to help powders stay free-flowing.",
+        "articles": {
+            "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "eCFR Title 21": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=182",
+            "EFSA": "https://www.efsa.europa.eu/en/efsajournal/pub/5375"
+        },
+        "side_effects": "EFSA could not assess food-use safety because the toxicology data were insufficient in 2018.\nThe former shared silicate intake limit was considered obsolete."
     }
 }

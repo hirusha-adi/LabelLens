@@ -1,0 +1,58 @@
+{
+  "code": "E160b",
+  "checked": "2026-10-10",
+  "fields": {
+    "status": [
+      "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+      "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
+    ],
+    "icon": [
+      "https://www.efsa.europa.eu/en/efsajournal/pub/4544"
+    ],
+    "banned_in": [
+      "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818"
+    ],
+    "names": [
+      "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231"
+    ],
+    "overview": [
+      "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/3651",
+      "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/4371",
+      "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/3655",
+      "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/4744",
+      "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/3653",
+      "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/4373",
+      "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/2706",
+      "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818"
+    ],
+    "uses": [
+      "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818"
+    ],
+    "daily_intake": [
+      "https://www.efsa.europa.eu/en/efsajournal/pub/4544"
+    ],
+    "origin": [
+      "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231"
+    ],
+    "dietary_restrictions": [
+      "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231"
+    ],
+    "side_effects": [
+      "https://www.efsa.europa.eu/en/efsajournal/pub/4544"
+    ]
+  },
+  "inputs": {
+    "display_name": "development/ins-summary-original.json",
+    "type": "development/ins-summary-original.json"
+  },
+  "gaps": [
+    "Current US food-use permission was not established for the exact identity in the FDA inventory and available direct-food CFR sections; no u flag is asserted.",
+    "No sufficiently specific compound-level source was retained for interactions; field omitted.",
+    "No sufficiently specific compound-level source was retained for precautions; field omitted."
+  ],
+  "changes": [
+    "Replaced the legacy layout with rich fields and removed unsupported inherited health, dietary and intake assertions.",
+    "status: 'e u' -> 'e'; exact current EU/FDA identity check and retained regulatory sources. Empty flags include unconfirmed permissions, not inferred country bans.",
+    "name/href/function and characteristics/products replaced by the required rich schema; only sourced facts were retained."
+  ]
+}

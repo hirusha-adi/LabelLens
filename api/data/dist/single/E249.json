@@ -1,14 +1,20 @@
 {
     "code": "E249",
-    "name": "Potassium nitrite",
-    "href": "e249.htm",
-    "function": "Natural salt, preservative",
+    "names": "Potassium nitrite",
+    "display_name": "E249 (Potassium nitrite)",
+    "type": "preservative",
+    "status": "e",
+    "icon": "mdi-check-circle",
     "more_info": {
-        "origin": "Naturally occurring mineral. Can be mined or produced chemically from potassium nitrate.",
-        "characteristics": "White powder used as a preservative against   (a bacterium that can cause botulism) in meat products.",
-        "products": "Meat and fish products.",
-        "daily_intake": "Up to 0.06 mg/kg body weight.",
-        "side_effects": "Nitrites are precursors of (possibly carcinogenic) nitrosamines, which are formed in the stomach from nitrites and proteins. High concentrations may react with haemoglobin. It is not allowed in products intended for children under 1 year. Little children have a different type of haemoglobin, which is much more reactive towards nitrites than normal haemoglobin.",
-        "dietary_restrictions": " nitrites and nitrates can be consumed by all religious groups, vegans and vegetarians."
+        "banned_in": "Approved in the EU.",
+        "overview": "Potassium nitrite is used as a preservative in food. Its technological role is to help limit microbial spoilage.",
+        "daily_intake": "0–0.07 mg nitrite ion/kg body weight/day, all sources combined (JECFA, 2002). The evaluation excludes infants below three months.",
+        "articles": {
+            "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/2842",
+            "EUR-Lex specifications": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231",
+            "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
+        },
+        "precautions": "The JECFA intake limit does not apply to infants below three months of age."
     }
 }

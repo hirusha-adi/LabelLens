@@ -1,14 +1,22 @@
 {
     "code": "E481",
-    "name": "Sodium stearoyl lactate",
-    "href": "e481.htm",
-    "function": "Semi-synthetic emulsifier",
+    "names": "Sodium stearoyl-2-lactylate",
+    "display_name": "E481 (Sodium stearoyl-2-lactylate)",
+    "type": "emulsifier",
+    "status": "e",
+    "icon": "mdi-alert-circle",
     "more_info": {
-        "origin": "  Combination of stearic acid and lactic acid, resulting in a mixture of several components. The origin of stearic acid can be or plant or animal fat, although in practice nearly always vegetable oil will be used.",
-        "characteristics": "Emulsifier and stabiliser",
-        "products": "Bakery products",
-        "daily_intake": "Up to 20 mg/kg bodyweight",
-        "side_effects": "None, both lactic acid and stearic acid are normal products in human metabolism.",
-        "dietary_restrictions": "Although mainly vegetable oils are used, the use of animal fat (incl. pork) can not be excluded. Several groups, such as vegans, Muslims and Jews thus avoid these products. Only the producer can give detailed information on the origin of the fatty acids. Chemically the fatty acids from vegetable or animal origin are identical."
+        "banned_in": "Approved in the EU.",
+        "overview": "Sodium stearoyl-2-lactylate is used as an emulsifier in food. Its technological role is to help oil and water remain mixed.",
+        "articles": {
+            "EUR-Lex specifications": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231",
+            "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "EFSA": "https://www.efsa.europa.eu/en/efsajournal/pub/3144"
+        },
+        "origin": "Made by reacting stearic acid with lactic acid to produce sodium salts of stearoyl lactylic acids. Other food fatty acids may be present in the stearic-acid feedstock.",
+        "dietary_restrictions": "The fatty-acid feedstock is not specified as exclusively plant derived. Vegan, vegetarian, halal and kosher suitability cannot be established without the supplier identifying the raw material and processing.",
+        "daily_intake": "22 mg/kg body weight/day, combined sodium and calcium stearoyl lactylates (EFSA, 2013).",
+        "side_effects": "Estimated food-use exposure exceeded the group limit in some populations.\nAnimal chronic-toxicity evidence supported the limit; no genotoxicity concern was identified."
     }
 }

@@ -1,14 +1,23 @@
 {
     "code": "E133",
-    "name": "Brilliant Blue FCF",
-    "href": "e133.htm",
-    "function": "Blue colour, synthetic",
+    "names": "Brilliant Blue FCF (FD&C Blue 1)",
+    "display_name": "E133 (Brilliant Blue FCF)",
+    "type": "color (Reddish blue)",
+    "status": "e u",
+    "icon": "mdi-alert-circle",
     "more_info": {
-        "origin": "Synthetic blue colour.",
-        "characteristics": "Blue food colour. Very soluble in water.",
-        "products": "Ice cream and a few other food products, but mostly in cosmetics.",
-        "daily_intake": "Up to 12.5 mg/kg body weight.",
-        "side_effects": "Side effects rarely occur in the concentrations used. Some allergic reactions have been reported.",
-        "dietary_restrictions": "None; E133 can be consumed by all religious groups, vegans and vegetarians."
+        "banned_in": "Approved in the EU.\nApproved in the US.\nUS food use is subject to the listed CFR provisions and their conditions, checked in 2026.",
+        "overview": "Brilliant Blue FCF is used as a color in food. Its technological role is to add or restore food colour.",
+        "uses": "EU permissions include dried fruit and vegetables, fruit and vegetables in vinegar oil or brine, canned or bottled fruit and vegetables, fruit and vegetable preparations excluding compote. These permissions depend on the food category and its conditions of use.",
+        "daily_intake": "0–6 mg/kg body weight (JECFA, 2017).",
+        "articles": {
+            "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/3309",
+            "EUR-Lex specifications": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231",
+            "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "eCFR Title 21": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=74",
+            "EFSA": "https://www.efsa.europa.eu/en/efsajournal/pub/1853"
+        },
+        "side_effects": "Reported food-use estimates were below EFSA's limit in 2010.\nMaximum-permitted-use modelling exceeded the limit for some children; animal chronic-toxicity findings supported the limit."
     }
 }

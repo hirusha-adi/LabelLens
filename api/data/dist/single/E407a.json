@@ -1,0 +1,23 @@
+{
+    "code": "E407a",
+    "names": "Processed eucheuma seaweed (thickener) (stabiliser) (gelling agent)",
+    "display_name": "E407a (Processed eucheuma seaweed)",
+    "type": "emulsifier",
+    "status": "e",
+    "icon": "mdi-alert-circle",
+    "more_info": {
+        "banned_in": "Approved in the EU.",
+        "overview": "Processed eucheuma seaweed is used as an emulsifier in food. Its technological role is to help oil and water remain mixed.",
+        "daily_intake": "75 mg/kg body weight/day, combined carrageenan and processed Eucheuma seaweed; temporary in the 2018 EFSA assessment.",
+        "articles": {
+            "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/4387",
+            "EUR-Lex specifications": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231",
+            "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "EFSA": "https://www.efsa.europa.eu/en/efsajournal/pub/5238"
+        },
+        "origin": "Eucheuma red seaweed is treated with hot potassium hydroxide solution, washed and dried. Further washing may remove impurities, while some seaweed cellulose remains.",
+        "dietary_restrictions": "The specified starting material is plant derived and compatible with vegetarian and vegan diets. The specification does not establish halal or kosher certification.",
+        "side_effects": "The review found no genotoxicity or cancer concern in the available food-grade studies.\nComposition, exposure and toxicology uncertainties led to a temporary intake limit."
+    }
+}

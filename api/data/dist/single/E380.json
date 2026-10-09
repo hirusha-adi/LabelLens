@@ -1,14 +1,20 @@
 {
     "code": "E380",
-    "name": "triAmmonium citrate",
-    "href": "e380.htm",
-    "function": "Synthetic salt of citric acid",
+    "names": "Triammonium citrate",
+    "display_name": "E380 (Triammonium citrate)",
+    "type": "acidity regulator",
+    "status": "e",
+    "icon": "mdi-check-circle",
     "more_info": {
-        "origin": "Ammonium salt of citric acid ().",
-        "characteristics": "Acidity regulator, buffer and emulsifier.",
-        "products": "Chocolate confectionery, cheese spreads, etc.",
-        "daily_intake": "None determined.",
-        "side_effects": "None known ; citric acid is a normal component of all body cells.",
-        "dietary_restrictions": "Citric acid and citrates can be used by all religious groups, vegans and vegetarians."
+        "banned_in": "Approved in the EU.",
+        "uses": "EU permissions include edible caseinates. These permissions depend on the food category and its conditions of use.",
+        "daily_intake": "ADI classified as not limited (JECFA, 1979).",
+        "articles": {
+            "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/504",
+            "EUR-Lex specifications": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231",
+            "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
+        },
+        "overview": "Triammonium citrate is classified in food technology as an acidity regulator. Its technological role is to control acidity."
     }
 }

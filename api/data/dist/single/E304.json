@@ -1,14 +1,21 @@
 {
     "code": "E304",
-    "name": "6-0-palmitoyl-L-ascorbic acid",
-    "href": "e304.htm",
-    "function": "Synthetic anti-oxidant",
+    "names": "Fatty acid esters of ascorbic acid (Ascorbyl palmitate)",
+    "display_name": "E304 (Fatty acid esters of ascorbic acid)",
+    "type": "antioxidant",
+    "status": "e u",
+    "icon": "mdi-check-circle",
     "more_info": {
-        "origin": "Combination of the fatty acid palmitate with ascorbic acid (vitamin C, a n atural acid), which occurs naturally in most fruits and vegetables. Palmitic acid is produced from fat (for ascorbate see ).",
-        "characteristics": "Anti-oxidant in fatty products, especially added to prevent rancidity in plant oils with many unsaturated fatty acids. Also used for the food colours E160 and E161 to prevent oxidation of these colours.",
-        "products": "Many different (fatty) products.",
-        "daily_intake": "",
-        "side_effects": "No side effects known in the concentrations used.",
-        "dietary_restrictions": "Ascorbic acid and ascorbates can normally be consumed by all religious groups, vegans and vegetarians. However, there is the possibility that the palmitic acid used is obtained from animal fat, although the main source is vegetable fat. Use of animal (incl. pork) fat cannot be ruled out completely."
+        "banned_in": "Approved in the EU.\nApproved in the US.\nUS food use is subject to the listed CFR provisions and their conditions, checked in 2026.",
+        "overview": "Fatty acid esters of ascorbic acid is used as an antioxidant in food. Its technological role is to slow oxidation in food.",
+        "uses": "EU permissions include fats and oils essentially free from water  (excluding anhydrous milk fat), potato gnocchi, bread prepared solely with the following ingredients: wheat flour, water, yeast or leaven,  salt, pain courant français; friss búzakenyér, fehér és félbarna kenyerek. These permissions depend on the food category and its conditions of use.",
+        "daily_intake": "No ADI specified (JECFA, 2025).",
+        "articles": {
+            "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/60",
+            "EUR-Lex specifications": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231",
+            "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "eCFR Title 21": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=182"
+        }
     }
 }

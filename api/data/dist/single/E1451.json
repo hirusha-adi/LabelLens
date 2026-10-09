@@ -1,0 +1,19 @@
+{
+    "code": "E1451",
+    "names": "Acetylated oxidised starch (emulsifier)",
+    "display_name": "E1451 (Acetylated oxidised starch)",
+    "type": "thickening agent",
+    "status": "e",
+    "icon": "mdi-check-circle",
+    "more_info": {
+        "banned_in": "Approved in the EU.",
+        "uses": "EU permissions include unflavoured live fermented cream products and substitute products, both with a fat  content of less than 20 %. These permissions depend on the food category and its conditions of use.",
+        "articles": {
+            "EUR-Lex specifications": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231",
+            "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
+        },
+        "origin": "Starch is first oxidised with sodium hypochlorite and then esterified with acetic anhydride. The product is a chemically modified carbohydrate.",
+        "overview": "Acetylated oxidised starch is classified in food technology as a thickening agent. Its technological role is to increase thickness."
+    }
+}

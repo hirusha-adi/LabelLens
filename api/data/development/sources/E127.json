@@ -73,6 +73,7 @@
     "more_info.characteristics: removed; no verified compound-specific food-use claim retained. See gaps.",
     "more_info.dietary_restrictions: removed; no verified compound-specific food-use claim retained. See gaps.",
     "more_info.products: removed; no verified compound-specific food-use claim retained. See gaps.",
-    "Icon: FDA ordered revocation of food authorization in 2025 because of the statutory animal-cancer provision."
+    "Icon: FDA ordered revocation of food authorization in 2025 because of the statutory animal-cancer provision.",
+    "name/href/function and characteristics/products replaced by the required rich schema; only sourced facts were retained."
   ]
 }

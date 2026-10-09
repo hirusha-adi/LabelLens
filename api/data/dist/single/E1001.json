@@ -1,0 +1,17 @@
+{
+    "code": "E1001",
+    "names": "Choline salts",
+    "display_name": "E1001 (Choline salts)",
+    "type": "emulsifier",
+    "status": "",
+    "icon": "mdi-check-circle",
+    "more_info": {
+        "overview": "Choline salts is used as an emulsifier in food. Its technological role is to help oil and water remain mixed.",
+        "daily_intake": "ADI classified as not limited (JECFA, 1971).",
+        "articles": {
+            "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/1951",
+            "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
+        }
+    }
+}

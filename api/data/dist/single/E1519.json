@@ -1,0 +1,20 @@
+{
+    "code": "E1519",
+    "names": "Benzyl alcohol",
+    "display_name": "E1519 (Benzyl alcohol)",
+    "type": "flavouring",
+    "status": "e u",
+    "icon": "mdi-check-circle",
+    "more_info": {
+        "banned_in": "Approved in the EU.\nApproved in the US.\nUS food use is subject to the listed CFR provisions and their conditions, checked in 2026.",
+        "daily_intake": "0-5 mg/kg body weight (1996) (JECFA, 2001).",
+        "articles": {
+            "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/4724",
+            "EUR-Lex specifications": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231",
+            "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "eCFR Title 21": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=172"
+        },
+        "overview": "Benzyl alcohol is an aromatic alcohol. EU food-additive permission includes specified carrier use in flavouring preparations."
+    }
+}

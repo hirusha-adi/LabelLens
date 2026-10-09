@@ -1,14 +1,22 @@
 {
     "code": "E160e",
-    "name": "Beta-apo-8'-carotenal",
-    "href": "e160e.htm",
-    "function": "Natural orange-yellow colour",
+    "names": "Beta-apo-8'-carotenal (C 30)",
+    "display_name": "E160e (Beta-apo-8'-carotenal)",
+    "type": "color (Orange-red to yellow)",
+    "status": "e u",
+    "icon": "mdi-alert-circle",
     "more_info": {
-        "origin": "Natural colour, present in many plants. It is made commercially from carotene or isolated from plants.",
-        "characteristics": "",
-        "products": "Many different products.",
-        "daily_intake": "Up to 2.5 mg/kg body weight.",
-        "side_effects": "No side effects known in the concentrations used in foods. High concentrations will result in yellow discoloration of the skin. As E160e is a source of vitamin A, high concentrations will cause symptoms of vitamin A toxicity.",
-        "dietary_restrictions": "None; E160e can be consumed by all religious groups, vegans and vegetarians."
+        "banned_in": "Approved in the EU.\nApproved in the US.\nUS food use is subject to the listed CFR provisions and their conditions, checked in 2026.",
+        "overview": "Beta-apo-8'-carotenal is used as a color in food. Its technological role is to add or restore food colour.",
+        "uses": "EU permissions include processed cheese, fruit and vegetable preparations excluding compote, processed fish and fishery products including molluscs and crustaceans. These permissions depend on the food category and its conditions of use.",
+        "daily_intake": "0–0.3 mg/kg body weight (JECFA, 2019).",
+        "articles": {
+            "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/941",
+            "EUR-Lex specifications": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231",
+            "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "eCFR Title 21": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=73"
+        },
+        "side_effects": "In 2026, JECFA noted that a high dietary exposure estimate for toddlers exceeded its existing intake limit.\nThe limit was based on animal evidence; exceedance alone does not establish a clinical effect."
     }
 }

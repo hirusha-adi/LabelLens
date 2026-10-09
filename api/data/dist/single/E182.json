@@ -1,0 +1,17 @@
+{
+    "code": "E182",
+    "names": "Orcein, Orchil",
+    "display_name": "E182 (Orcein)",
+    "type": "color (Purple)",
+    "status": "",
+    "icon": "mdi-check-circle",
+    "more_info": {
+        "overview": "Orcein is used as a color in food. Its technological role is to add or restore food colour.",
+        "daily_intake": "No ADI allocated (JECFA, 1974).",
+        "articles": {
+            "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/606",
+            "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
+        }
+    }
+}

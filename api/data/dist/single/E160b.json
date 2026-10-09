@@ -1,14 +1,24 @@
 {
     "code": "E160b",
-    "name": "Annatto, Bixin, Norbixin",
-    "href": "e160b.htm",
-    "function": "Natural yellow colour",
+    "names": "Annatto, bixin, norbixin",
+    "display_name": "E160b (Annatto)",
+    "type": "color (Orange)",
+    "status": "e",
+    "icon": "mdi-alert-circle",
     "more_info": {
-        "origin": "Natural colour isolated from the seeds of the  tree (Bixa orellana ). Annatto is the name of the crude extract, whereas bixin is the fat-soluble colour and norbixin the water-soluble colour.",
-        "characteristics": "Food colour whose colour ranges from red to brown depending on the solvent used for extraction.",
-        "products": "Many different products.",
-        "daily_intake": "Up to 2.5 mg/kg body weight for annatto, and 0.065 mg/kg body weight for bixin.",
-        "side_effects": "Annatto can cause allergies and eczema. It is not always known which component in the mixture is the causative agent of the side effects.",
-        "dietary_restrictions": "None; E160b can be consumed by all religious groups, vegans and vegetarians."
+        "banned_in": "Approved in the EU.",
+        "overview": "Annatto is used as a color in food. Its technological role is to add or restore food colour.",
+        "uses": "EU permissions include processed fish and fishery products including molluscs and crustaceans. These permissions depend on the food category and its conditions of use.",
+        "daily_intake": "6 mg bixin/kg body weight/day and 0.3 mg norbixin/kg body weight/day for the specified assessed extracts (EFSA, 2016).",
+        "articles": {
+            "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/3651",
+            "EUR-Lex specifications": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231",
+            "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "EFSA": "https://www.efsa.europa.eu/en/efsajournal/pub/4544"
+        },
+        "origin": "The pigments come from the coating of annatto seeds. Extraction produces bixin-rich preparations, while alkaline treatment converts bixin into norbixin.",
+        "dietary_restrictions": "The specified starting material is plant derived and compatible with vegetarian and vegan diets. The specification does not establish halal or kosher certification.",
+        "side_effects": "Assessed bixin food uses were below the intake limit. Some norbixin exposure estimates exceeded it.\nThe conclusions apply to characterised extracts; other preparations lacked adequate data."
     }
 }

@@ -1,14 +1,17 @@
 {
     "code": "E354",
-    "name": "Calcium tartarate",
-    "href": "e354.htm",
-    "function": "Natural preservative",
+    "names": "Calcium tartrate",
+    "display_name": "E354 (Calcium tartrate)",
+    "type": "emulsifier",
+    "status": "e",
+    "icon": "mdi-check-circle",
     "more_info": {
-        "origin": "Calcium salt of tartaric acid, a natural acid present in fruits.",
-        "characteristics": "Acidity regulator and preservative.",
-        "products": "Fish and fruit preserves, seaweed products, pharmaceuticals, etc.",
-        "daily_intake": "None defined.",
-        "side_effects": "None known; it is metabolised in the body to tartaric acid.",
-        "dietary_restrictions": "Tartaric acid and tartarates can be used by all religious groups, vegans and vegetarians."
+        "banned_in": "Approved in the EU.",
+        "articles": {
+            "EUR-Lex specifications": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231",
+            "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
+        },
+        "overview": "Calcium tartrate is classified in food technology as an emulsifier. Its technological role is to help oil and water stay mixed."
     }
 }

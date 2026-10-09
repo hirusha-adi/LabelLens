@@ -1,14 +1,22 @@
 {
     "code": "E621",
-    "name": "Mono sodium glutamate",
-    "href": "e621.htm",
-    "function": "Flavour enhancer",
+    "names": "Monosodium glutamate (MSG)",
+    "display_name": "E621 (Monosodium glutamate)",
+    "type": "flavour enhancer",
+    "status": "e u",
+    "icon": "mdi-alert-circle",
     "more_info": {
-        "origin": "Sodium salt from glutamic acid (E620), a natural amino acid (building block of protein). Commercially prepared from molasses by bacterial fermentation. Also prepared from vegetable protein, such as gluten, or soy protein. Glutamic acid and glutamates are present in all proteins. Free glutamates are present in high concentrations in ripened cheese, breast milk, tomatoes and sardines",
-        "characteristics": "Flavour enhancer. Glutamic acid and glutamates have the specific umami taste and enhance many other flavours, thereby reducing the amounts of salt needed in a product.",
-        "products": "Many different products.",
-        "daily_intake": "None determined. Glutamates may not be used in products intended for children under 12 weeks.",
-        "side_effects": "Although many side effects have been reported for glutamates, these have not been scientifically proven. See also   and .",
-        "dietary_restrictions": "None. Glutamic acid and glutamates can be used by all religious groups, vegetarians and vegans. The products do not contain gluten."
+        "banned_in": "Approved in the EU.\nApproved in the US.\nUS food use is subject to the listed CFR provisions and their conditions, checked in 2026.",
+        "overview": "Monosodium glutamate is used as a flavour enhancer in food. Its technological role is to strengthen flavours already present in food.",
+        "daily_intake": "30 mg glutamic acid/kg body weight/day, combined glutamates (EFSA, 2017).",
+        "articles": {
+            "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/992",
+            "EUR-Lex specifications": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231",
+            "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "eCFR Title 21": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=182",
+            "EFSA": "https://www.efsa.europa.eu/en/efsajournal/pub/4910"
+        },
+        "side_effects": "Some estimated food-use exposures exceeded the limit.\nHigh-dose animal neurodevelopmental findings supported it; human dose-response evidence was limited."
     }
 }

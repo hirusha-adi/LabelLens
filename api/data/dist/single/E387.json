@@ -1,14 +1,19 @@
 {
-    "code": "387",
-    "name": "Oxystearin",
-    "href": "e387.htm",
-    "function": "Stabiliser",
+    "code": "E387",
+    "names": "Oxystearin",
+    "display_name": "E387 (Oxystearin)",
+    "type": "stabiliser",
+    "status": "u",
+    "icon": "mdi-check-circle",
     "more_info": {
-        "origin": "Mixture of glycerides of stearic acid and other fatty acids.",
-        "characteristics": "Metal scavenger and stabiliser (to prevent crystallisation in fats and oils). ",
-        "products": "Oils and fats, sugar, yeast products, etc.",
-        "daily_intake": "Up to 25 mg/kg body weight.",
-        "side_effects": "None known in the concentrations used. The body treats it as fat.",
-        "dietary_restrictions": "Although commercially (nearly always) prepared from vegetable oil, fatty acids of animal origin (incl. pork) cannot be excluded."
+        "banned_in": "Approved in the US.\nUS food use is subject to the listed CFR provisions and their conditions, checked in 2026.",
+        "overview": "Oxystearin is used as an emulsifier in food. Its technological role is to help oil and water remain mixed.",
+        "daily_intake": "ADI withdrawn (JECFA, 1973).",
+        "articles": {
+            "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/4154",
+            "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "eCFR Title 21": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=173"
+        }
     }
 }

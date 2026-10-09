@@ -1,14 +1,21 @@
 {
     "code": "E433",
-    "name": "Polyoxyethylene-20-sorbitan mono-oleate",
-    "href": "e433.htm",
-    "function": "Synthetic emulsifier",
+    "names": "Polyoxyethene (20) sorbitan monooleate (polysorbate 80)",
+    "display_name": "E433 (Polyoxyethene)",
+    "type": "emulsifier",
+    "status": "e u",
+    "icon": "mdi-check-circle",
     "more_info": {
-        "origin": "",
-        "characteristics": "",
-        "products": "",
-        "daily_intake": "",
-        "side_effects": "",
-        "dietary_restrictions": ""
+        "banned_in": "Approved in the EU.\nApproved in the US.\nUS food use is subject to the listed CFR provisions and their conditions, checked in 2026.",
+        "overview": "Polyoxyethene is used as an emulsifier in food. Its technological role is to help oil and water remain mixed.",
+        "articles": {
+            "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/3735",
+            "EUR-Lex specifications": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231",
+            "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "eCFR Title 21": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=73"
+        },
+        "origin": "Made from partial esters of sorbitol and its anhydrides with oleic acid. The esters are additionally reacted with ethylene oxide. The specification does not identify a single biological source for the fatty acid.",
+        "dietary_restrictions": "The fatty-acid feedstock is not specified as exclusively plant derived. Vegan, vegetarian, halal and kosher suitability cannot be established without the supplier identifying the raw material and processing."
     }
 }

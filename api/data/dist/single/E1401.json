@@ -1,0 +1,17 @@
+{
+    "code": "E1401",
+    "names": "Modified starch ((Acid-treated starch) stabiliser)",
+    "display_name": "E1401 (Modified starch)",
+    "type": "thickening agent",
+    "status": "",
+    "icon": "mdi-check-circle",
+    "more_info": {
+        "overview": "Modified starch is used as an emulsifier in food. Its technological role is to help oil and water remain mixed.",
+        "daily_intake": "No ADI specified (JECFA, 2016).",
+        "articles": {
+            "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/2036",
+            "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
+        }
+    }
+}

@@ -1,14 +1,17 @@
 {
     "code": "E154",
-    "name": "Brown FK",
-    "href": "e154.htm",
-    "function": "Brown colour, azo dye",
+    "names": "Brown FK (kipper brown)",
+    "display_name": "E154 (Brown FK)",
+    "type": "color (Brown)",
+    "status": "",
+    "icon": "mdi-check-circle",
     "more_info": {
-        "origin": "",
-        "characteristics": "Brown food colour. Very soluble in water.",
-        "products": "",
-        "daily_intake": "None determined.",
-        "side_effects": "Since it is an azo dye, it may elicit intolerance in people intolerant to salicylates. Additionally, it is a histamine liberator, and may intensify symptoms of asthma. In combination with benzoates, it is also implicated in hyperactivity in children. Some of the compounds in the mixture may be mutagenic; hence the use is restricted to a few products.",
-        "dietary_restrictions": "None; E154 can be consumed by all religious groups, vegans and vegetarians."
+        "overview": "Brown FK is used as a color in food. Its technological role is to add or restore food colour.",
+        "daily_intake": "No ADI allocated (JECFA, 1986).",
+        "articles": {
+            "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/1274",
+            "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
+        }
     }
 }

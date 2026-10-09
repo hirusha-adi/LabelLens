@@ -1,14 +1,20 @@
 {
     "code": "E559",
-    "name": "Kaolin",
-    "href": "e559.htm",
-    "function": "Anti caking agent",
+    "names": "Aluminium silicate (Kaolin)",
+    "display_name": "E559 (Aluminium silicate)",
+    "type": "anti-caking agent",
+    "status": "e",
+    "icon": "mdi-check-circle",
     "more_info": {
-        "origin": "A fine usually white clay formed by the weathering of aluminous minerals (such as feldspar).",
-        "characteristics": "",
-        "products": "Instant coffee, milk powder, aromas. Main use, however, is in cosmetics and pharmaceutical preparations (antacid).",
-        "daily_intake": "",
-        "side_effects": "None known",
-        "dietary_restrictions": "None. E559 can be used by all religious groups, vegetarians and vegans."
+        "banned_in": "Approved in the EU.",
+        "daily_intake": "No ADI specified (JECFA, 1985).",
+        "articles": {
+            "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/843",
+            "EUR-Lex specifications": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231",
+            "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
+        },
+        "origin": "Prepared by purifying kaolinitic clay without calcination. The food-grade specification requires the material to be free of asbestos.",
+        "overview": "Aluminium silicate is classified in food technology as an anti-caking agent. Its technological role is to keep powders free-flowing."
     }
 }

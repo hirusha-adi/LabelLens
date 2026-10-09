@@ -1,0 +1,23 @@
+{
+    "code": "E459",
+    "names": "Beta-cyclodextrin",
+    "display_name": "E459 (Beta-cyclodextrin)",
+    "type": "emulsifier",
+    "status": "e",
+    "icon": "mdi-alert-circle",
+    "more_info": {
+        "banned_in": "Approved in the EU.",
+        "uses": "EU permissions include flavoured drinks, other confectionery including breath freshening micro-sweets, food supplements supplied in a solid form excluding food supplements for infants and  young children’,. These permissions depend on the food category and its conditions of use.",
+        "daily_intake": "5 mg/kg body weight/day (EFSA, 2016).",
+        "articles": {
+            "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/2066",
+            "EUR-Lex specifications": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231",
+            "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "EFSA": "https://www.efsa.europa.eu/en/efsajournal/pub/4628"
+        },
+        "origin": "Made by treating partially hydrolysed starch with a microbial cycloglycosyltransferase enzyme. The product consists of rings containing seven glucose units.",
+        "side_effects": "Refined food-use estimates exceeded the limit for several groups.\nThe reviewed animal studies did not indicate genotoxicity or cancer; the limit incorporates a safety margin.",
+        "overview": "Beta-cyclodextrin is classified in food technology as an emulsifier. Its technological role is to help oil and water stay mixed."
+    }
+}

@@ -1,14 +1,19 @@
 {
-    "code": "236",
-    "name": "Formic acid",
-    "href": "e236.htm",
-    "function": "Natural acid, preservative",
+    "code": "E236",
+    "names": "Formic acid",
+    "display_name": "E236 (Formic acid)",
+    "type": "preservative",
+    "status": "u",
+    "icon": "mdi-check-circle",
     "more_info": {
-        "origin": "Formic acid is naturally present in ants, but also in many fruits (such as apples, strawberries and raspberries), honey and nettles. Commercially produced from sulphuric acid, sodium hydroxide and carbon monoxide.",
-        "characteristics": "Used as a preservative against many micro-organisms. Due to its smell, use is very limited.",
-        "products": "Beverages, sweets, bakery products, icecream",
-        "daily_intake": "",
-        "side_effects": "",
-        "dietary_restrictions": ""
+        "banned_in": "Approved in the US.\nUS food use is subject to the listed CFR provisions and their conditions, checked in 2026.",
+        "overview": "Formic acid is used as a preservative in food. Its technological role is to help limit microbial spoilage.",
+        "daily_intake": "For formic acid: 0-3 mg/kg body weight (1979) (JECFA, 1997). This evaluation does not establish an ADI for every form in the named group.",
+        "articles": {
+            "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/1561",
+            "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "eCFR Title 21": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=172"
+        }
     }
 }

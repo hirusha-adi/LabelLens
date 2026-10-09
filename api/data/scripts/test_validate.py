@@ -30,6 +30,12 @@ class ValidatorContractTests(unittest.TestCase):
                                   ("code", "names", "display_name", "type", "status", "icon", "banned_in")},
                        "gaps": [], "changes": []}
         self.save()
+        (self.root / "development/url-checks.json").write_text(json.dumps({
+            "checked": "2026-10-10", "checks": {
+                "https://example.org/a": {"loaded": True},
+                "https://example.org/b": {"loaded": True},
+            },
+        }))
         (self.root / "development/ins-summary-original.json").write_text(json.dumps([{"code": "E102"}]))
 
     def tearDown(self):
@@ -38,6 +44,7 @@ class ValidatorContractTests(unittest.TestCase):
 
     def save(self):
         (self.root / "dist/single/E102.json").write_text(json.dumps(self.item))
+        (self.root / "dist/ins-full.json").write_text(json.dumps([self.item]))
         (self.root / "development/sources/E102.json").write_text(json.dumps(self.source))
 
     def errors(self):
@@ -132,6 +139,41 @@ class ValidatorContractTests(unittest.TestCase):
 
     def test_safety_claim_requires_field_provenance(self):
         self.item["more_info"]["side_effects"] = "Test claim without a source."
+        self.assertTrue(self.errors())
+
+    def test_aggregate_missing_duplicate_and_drift(self):
+        path = self.root / "dist/ins-full.json"
+        for records in ([], [self.item, self.item], [dict(self.item, names="Stale name")]):
+            with self.subTest(records=records):
+                path.write_text(json.dumps(records))
+                errors = []
+                validate.validate_aggregate({"E102"}, errors)
+                self.assertTrue(errors)
+
+    def test_valid_aggregate_and_batch_validation(self):
+        errors = []
+        validate.validate_aggregate({"E102"}, errors)
+        self.assertEqual(errors, [])
+        with patch("sys.argv", ["validate.py", "--codes", "E102"]), contextlib.redirect_stdout(io.StringIO()):
+            self.assertEqual(validate.main(), 0)
+
+    def test_failed_and_missing_url_receipts_fail(self):
+        ledger = self.root / "development/url-checks.json"
+        for checks in ({}, {"https://example.org/a": {"loaded": False}}):
+            with self.subTest(checks=checks):
+                ledger.write_text(json.dumps({"checks": checks}))
+                errors = []
+                validate.validate_loaded_urls({"E102"}, errors)
+                self.assertTrue(errors)
+
+    def test_master_input_is_valid_name_provenance_only(self):
+        for key in ("names", "type", "display_name"):
+            del self.source["fields"][key]
+        self.source["inputs"] = {key: "development/ins-summary-original.json"
+                                 for key in ("names", "type", "display_name")}
+        self.assertEqual(self.errors(), [])
+        del self.source["fields"]["status"]
+        self.source["inputs"]["status"] = "development/ins-summary-original.json"
         self.assertTrue(self.errors())
 
 

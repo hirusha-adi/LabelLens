@@ -1,14 +1,24 @@
 {
     "code": "E476",
-    "name": "Polyglycerol polyricinoleate",
-    "href": "e476.htm",
-    "function": "Semi-synthetic emulsifiers",
+    "names": "Polyglycerol polyricinoleate",
+    "display_name": "E476 (Polyglycerol polyricinoleate)",
+    "type": "emulsifier",
+    "status": "e",
+    "icon": "mdi-check-circle",
     "more_info": {
-        "origin": "  Combination of polyglycerol and castoroil (oil of the tree Ricinus sp. ). Normal fat consists of glycerol and fatty acids, for these products additional glycerol is coupled to the normal glycerol. The product generally is a mixture of different components.",
-        "characteristics": "Emulsifiers and stabilisers.",
-        "products": "Bakery products",
-        "daily_intake": "Up to 7.5 mg/kg bodyweight",
-        "side_effects": "None known.",
-        "dietary_restrictions": "E476 can be consumed by all religious groups, vegans and vegetarians."
+        "banned_in": "Approved in the EU.",
+        "overview": "Polyglycerol polyricinoleate is used as an emulsifier in food. Its technological role is to help oil and water remain mixed.",
+        "uses": "EU permissions include edible ices, cocoa and chocolate products as covered by directive 2000/36/ec, other confectionery including breath freshening micro-sweets, sauces. These permissions depend on the food category and its conditions of use.",
+        "daily_intake": "25 mg/kg body weight/day (EFSA, 2017).",
+        "articles": {
+            "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/221",
+            "EUR-Lex specifications": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231",
+            "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "EFSA": "https://www.efsa.europa.eu/en/efsajournal/pub/4743"
+        },
+        "origin": "Made by esterifying polyglycerol with condensed fatty acids from castor oil. It is a chemically processed ingredient with a plant-oil fatty-acid component.",
+        "dietary_restrictions": "The fatty-acid component comes from castor oil, but the polyglycerol feedstock is not specified. Vegan, vegetarian, halal and kosher suitability requires supplier information.",
+        "side_effects": "Assessed food-use estimates were below the limit.\nShort human studies showed no significant adverse effect; a high-dose animal study supported the limit."
     }
 }

@@ -1,14 +1,20 @@
 {
     "code": "E431",
-    "name": "Polyoxyethylene (40) stearate",
-    "href": "e431.htm",
-    "function": "Synthetic emulsifier",
+    "names": "Polyoxyethene (40) stearate",
+    "display_name": "E431 (Polyoxyethene)",
+    "type": "emulsifier",
+    "status": "e u",
+    "icon": "mdi-check-circle",
     "more_info": {
-        "origin": "  E431 is a synthetic compound, produced from ethylene oxide (a synthetic compound) and stearic acid (a natural fatty acid).",
-        "characteristics": "Emulsifier ",
-        "products": "Bakery products, puddings, etc.",
-        "daily_intake": "Up to 25 mg/kg body weight for the entire group of compounds in the 430-E436 range; on the other hand, it has not been specified for the individual compounds.",
-        "side_effects": "None known in the concentrations used. People intolerant of propylene glycol should also avoid the group of 430-E436.",
-        "dietary_restrictions": "These compounds (430-E436) contain fatty acids, which are nearly always from vegetable oils; however, use of animal fat (including pork) cannot be fully ruled out. Chemically, the origin of these compounds cannot be determined; only the producer may provide information on the origin."
+        "banned_in": "Approved in the EU.\nApproved in the US.\nUS food use is subject to the listed CFR provisions and their conditions, checked in 2026.",
+        "overview": "Polyoxyethene is used as an emulsifier in food. Its technological role is to help oil and water remain mixed.",
+        "daily_intake": "0-25 mg/kg body weight (JECFA, 1973). The limit covers polyoxyethylene (8) and (40) stearates together.",
+        "articles": {
+            "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/1432",
+            "EUR-Lex specifications": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231",
+            "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "eCFR Title 21": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=173"
+        }
     }
 }

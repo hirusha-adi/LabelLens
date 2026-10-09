@@ -1,14 +1,22 @@
 {
     "code": "E251",
-    "name": "Sodium nitraite",
-    "href": "e251.htm",
-    "function": "Natural salt, preservative",
+    "names": "Sodium nitrate (Chile saltpeter)",
+    "display_name": "E251 (Sodium nitrate)",
+    "type": "preservative",
+    "status": "e u",
+    "icon": "mdi-alert-circle",
     "more_info": {
-        "origin": "Naturally occurring mineral. Also present in nearly all vegetables.",
-        "characteristics": "White powder used as a preservative and against fading of natural colours.",
-        "products": "Cheese, meat and meat products, pizza, etc.",
-        "daily_intake": "Up to 3.7 mg/kg body weight.",
-        "side_effects": "Nitrates have no side effects; however, they may be converted into nitrite () either by heating or when present in the stomach.",
-        "dietary_restrictions": " nitrites and nitrates can be consumed by all religious groups, vegans and vegetarians."
+        "banned_in": "Approved in the EU.\nApproved in the US.\nUS food use is subject to the listed CFR provisions and their conditions, checked in 2026.",
+        "overview": "Sodium nitrate is used as a preservative in food. Its technological role is to help limit microbial spoilage.",
+        "daily_intake": "0–3.7 mg nitrate ion/kg body weight/day (JECFA, 1995). The evaluation excludes infants below three months.",
+        "articles": {
+            "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/1569",
+            "EUR-Lex specifications": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231",
+            "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "eCFR Title 21": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=173",
+            "EFSA": "https://www.efsa.europa.eu/en/efsajournal/pub/4787"
+        },
+        "side_effects": "Exposure from additive uses was a small part of total dietary nitrate.\nAll-source exposure could exceed the limit; conversion to nitrite is relevant to the assessment."
     }
 }

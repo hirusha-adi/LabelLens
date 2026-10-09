@@ -1,14 +1,22 @@
 {
     "code": "E151",
-    "name": "Brilliant black BN",
-    "href": "e151.htm",
-    "function": "Black colour, azo dye",
+    "names": "Black PN, Brilliant Black BN",
+    "display_name": "E151 (Black PN)",
+    "type": "color (Black)",
+    "status": "e",
+    "icon": "mdi-alert-circle",
     "more_info": {
-        "origin": "Synthetic azo dye. See  for a background on azo dyes.",
-        "characteristics": "Black food colour. Very soluble in water.",
-        "products": "Restricted use, but in large product range.",
-        "daily_intake": "Up to 1-5 mg/kg body weight.",
-        "side_effects": "Since it is an azo dye, it may elicit intolerance in people intolerant to salicylates. Additionally, it is a histamine liberator, and may intensify symptoms of asthma. In combination with benzoates, it is also implicated in hyperactivity in children. In the intestines, it can be transformed by bacteria into possibly hazardous compounds, hence the rather low ADI and restricted use.",
-        "dietary_restrictions": "None; E151 can be consumed by all religious groups, vegans and vegetarians."
+        "banned_in": "Approved in the EU.",
+        "overview": "Black PN is used as a color in food. Its technological role is to add or restore food colour.",
+        "uses": "EU permissions include processed fish and fishery products including molluscs and crustaceans. These permissions depend on the food category and its conditions of use.",
+        "daily_intake": "0-1 mg/kg body weight (JECFA, 2019).",
+        "articles": {
+            "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/130",
+            "EUR-Lex specifications": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231",
+            "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "EFSA": "https://www.efsa.europa.eu/en/efsajournal/pub/1540"
+        },
+        "side_effects": "Refined food-use estimates were generally below EFSA's 2010 limit.\nSome high-consumption estimates for children exceeded it. Laboratory DNA findings did not establish a cancer effect."
     }
 }

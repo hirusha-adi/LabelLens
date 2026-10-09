@@ -1,14 +1,15 @@
 {
     "code": "E478",
-    "name": "Mixture of glycerol- and propyleneglycol esters of lactic acid and fatty acids",
-    "href": "e478.htm",
-    "function": "Semi-synthetic emulsifiers",
+    "names": "Lactylated fatty acid esters of glycerol and propane-1",
+    "display_name": "E478 (Lactylated fatty acid esters of glycerol and propane-1)",
+    "type": "emulsifier",
+    "status": "",
+    "icon": "mdi-check-circle",
     "more_info": {
-        "origin": "  Combination of lactic acid, glycerol, propanediol and natural fats. Normal fat consists of glycerol and fatty acids, for these products glycerol is replaced by propanediol. The fats are mainly from plant origin, but also fats of animal origin may be used. The product generally is a mixture of different components.",
-        "characteristics": "Emulsifiers and stabilisers.",
-        "products": "Bakery products",
-        "daily_intake": "Up to 25 mg/kg bodyweight for propyleneglycol",
-        "side_effects": "All components are normally present in the body and will be metabolised in the normal way. High concentrations of propyleneglycol can cause eczema in sensitive persons, but not normally from the use in foods.",
-        "dietary_restrictions": "Although mainly vegetable oils are used, the use of animal fat (incl. pork) can not be excluded. Several groups, such as vegans, Muslims and Jews thus avoid these products. Only the producer can give detailed information on the origin of the fatty acids. Chemically the fatty acids from vegetable or animal origin are identical."
+        "articles": {
+            "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
+        },
+        "overview": "Lactylated fatty acid esters of glycerol and propane-1 is classified in food technology as an emulsifier. Its technological role is to help oil and water stay mixed."
     }
 }

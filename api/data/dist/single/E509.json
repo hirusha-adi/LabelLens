@@ -1,14 +1,23 @@
 {
     "code": "E509",
-    "name": "Calcium chloride",
-    "href": "e509.htm",
-    "function": "Sequestrant, firming agent",
+    "names": "Calcium chloride (sequestrant)",
+    "display_name": "E509 (Calcium chloride)",
+    "type": "firming agent",
+    "status": "e u",
+    "icon": "mdi-alert-circle",
     "more_info": {
-        "origin": "  Natural salt, part of sea salt and rock salt.",
-        "characteristics": "Acidity regulator, enhances firmness in fruits and vegetables, binds metals.",
-        "products": "Many products, also used as calcium source in nutrition supplements.",
-        "daily_intake": "None determined.",
-        "side_effects": "None known.",
-        "dietary_restrictions": "All religious groups, vegans and vegetarians can use E509"
+        "banned_in": "Approved in the EU.\nApproved in the US.\nUS food use is subject to the listed CFR provisions and their conditions, checked in 2026.",
+        "overview": "Calcium chloride is used as an anti-caking agent in food. Its technological role is to help powders stay free-flowing.",
+        "uses": "EU permissions include ripened cheese, cheese products (excluding products falling in category 16), canned or bottled fruit and vegetables, compote excluding products covered by category 16. These permissions depend on the food category and its conditions of use.",
+        "daily_intake": "ADI classified as not limited (JECFA, 1973).",
+        "articles": {
+            "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/458",
+            "EUR-Lex specifications": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231",
+            "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "eCFR Title 21": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=184",
+            "EFSA": "https://www.efsa.europa.eu/en/efsajournal/pub/5751"
+        },
+        "side_effects": "EFSA found no concern from reported food uses in 2019.\nHigher chloride intake can affect blood pressure; some high-consumption estimates exceeded the assessment reference value."
     }
 }

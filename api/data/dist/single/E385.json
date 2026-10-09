@@ -1,14 +1,20 @@
 {
     "code": "E385",
-    "name": "Calcium disodium ethylenediamine",
-    "href": "e385.htm",
-    "function": "Sequestrant, chelating substance",
+    "names": "Calcium disodium ethylene diamine tetraacetate, (Calcium disodium EDTA)",
+    "display_name": "E385 (Calcium disodium ethylene diamine tetraacetate)",
+    "type": "sequestrant",
+    "status": "e",
+    "icon": "mdi-check-circle",
     "more_info": {
-        "origin": "Calcium/sodium salt of EDTA (385), a synthetic compound.",
-        "characteristics": "Metal scavenger, stabiliser (also used after heavy metal intoxication to remove metals from the body). ",
-        "products": "Many different products.",
-        "daily_intake": "Up to 2.5 mg/kg body weight.",
-        "side_effects": "None known in the concentrations used. Long-term exposure to high doses may result in depletion of metal(s) from the body (iron).",
-        "dietary_restrictions": "EDTA and edetates can be used by all religious groups, vegans and vegetarians."
+        "banned_in": "Approved in the EU.",
+        "overview": "Calcium disodium ethylene diamine tetraacetate is used as a preservative in food. Its technological role is to help limit microbial spoilage.",
+        "uses": "EU permissions include canned or bottled fruit and vegetables, heat-treated meat products, unprocessed molluscs and crustaceans, processed fish and fishery products including molluscs and crustaceans. These permissions depend on the food category and its conditions of use.",
+        "daily_intake": "0-2.5 mg/kg body weight (JECFA, 1973).",
+        "articles": {
+            "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/3011",
+            "EUR-Lex specifications": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231",
+            "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
+        }
     }
 }

@@ -1,14 +1,22 @@
 {
     "code": "E220",
-    "name": "Sulphur dioxide",
-    "href": "e220.htm",
-    "function": "Natural preservative",
+    "names": "Sulphur dioxide",
+    "display_name": "E220 (Sulphur dioxide)",
+    "type": "preservative",
+    "status": "e u",
+    "icon": "mdi-alert-circle",
     "more_info": {
-        "origin": "Sulphur is a common element. Sulphur dioxide is produced by burning sulphur. Its use as a preservative is associated with ancient history; it had been widely used in ancient Egypt and the Roman Empire.",
-        "characteristics": "It is a colourless gas, used as preservative. It prevents enzymatic and bacterial spoilage of products. Sulphur dioxide dissolves in the aqueous phase of the product; the acid resulting from this reaction is the active agent. It is thus most effective in acid and slightly acid foods. It is ineffective at neutral pH.",
-        "products": "Sulphur dioxide may be used in a very broad range of acidic products.",
-        "daily_intake": "Up to 0.7 mg/kg body weight.",
-        "side_effects": "Due to its oxidising effect, it may reduce the vitamin content in products. It is reduced in the liver to harmless sulphate and excreted in the urine. It can, however, cause breathing problems in asthmatic patients. In high concentrations (above those normally used in foods) it can cause gastrointestinal disturbances in some people.",
-        "dietary_restrictions": " sulphur dioxide and sulphites can be consumed by all religious groups, vegans and vegetarians."
+        "banned_in": "Approved in the EU.\nApproved in the US.\nUS food use is subject to the listed CFR provisions and their conditions, checked in 2026.",
+        "overview": "Sulphur dioxide is used as a preservative in food. Its technological role is to help limit microbial spoilage.",
+        "daily_intake": "0–0.7 mg sulphur dioxide equivalents/kg body weight/day, combined JECFA sulphite group (JECFA, 1998).\nEFSA withdrew its temporary group ADI in 2022.",
+        "articles": {
+            "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/985",
+            "EUR-Lex specifications": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231",
+            "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "eCFR Title 21": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=182",
+            "EFSA": "https://www.efsa.europa.eu/en/plain-language-summary/follow-re-evaluation-sulfur-dioxide-e-220-sodium-sulfite-e-221-sodium"
+        },
+        "side_effects": "Food-use exposure may concern high consumers (EFSA, 2022).\nToxicology gaps prevented a new intake limit."
     }
 }

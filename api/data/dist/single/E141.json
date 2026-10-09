@@ -1,14 +1,23 @@
 {
     "code": "E141",
-    "name": "Copper complexes of chlorophyll",
-    "href": "e141.htm",
-    "function": "Green colour, synthetic",
+    "names": "Copper complexes of chlorophylls and chlorophyllins (i) Copper complexes of chlorophylls (ii) Copper complexes of chlorophyllins",
+    "display_name": "E141 (Copper complexes of chlorophylls and chlorophyllins)",
+    "type": "color (Green)",
+    "status": "e u",
+    "icon": "mdi-check-circle",
     "more_info": {
-        "origin": "",
-        "characteristics": "Green food colour. E141 (i) is soluble in water, whereas E141 (ii) is soluble in oil.",
-        "products": "Many products.",
-        "daily_intake": "Up to 15 mg/kg body weight.",
-        "side_effects": "No side effects are known. Copper is released when E141 is heated; however, copper concentrations from this compound will not reach toxic levels.",
-        "dietary_restrictions": "None; E141 can be consumed by all religious groups, vegans and vegetarians."
+        "banned_in": "Approved in the EU.\nApproved in the US.\nUS food use is subject to the listed CFR provisions and their conditions, checked in 2026.",
+        "overview": "Copper complexes of chlorophylls and chlorophyllins is used as a color in food. Its technological role is to add or restore food colour.",
+        "uses": "EU permissions include ripened cheese, dried fruit and vegetables, fruit and vegetables in vinegar oil or brine, canned or bottled fruit and vegetables. These permissions depend on the food category and its conditions of use.",
+        "daily_intake": "0-15 mg/kg body weight (JECFA, 1969).",
+        "articles": {
+            "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/2825",
+            "EUR-Lex specifications": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231",
+            "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "eCFR Title 21": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=73"
+        },
+        "origin": "Plant chlorophyll extracts are treated with copper salts. For the chlorophyllin form, alkaline processing also removes parts of the original pigment molecule before the copper complex is made.",
+        "dietary_restrictions": "The specified starting material is plant derived and compatible with vegetarian and vegan diets. The specification does not establish halal or kosher certification."
     }
 }

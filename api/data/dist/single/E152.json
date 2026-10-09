@@ -1,0 +1,17 @@
+{
+    "code": "E152",
+    "names": "Carbon black (hydrocarbon)",
+    "display_name": "E152 (Carbon black)",
+    "type": "color (Black)",
+    "status": "",
+    "icon": "mdi-check-circle",
+    "more_info": {
+        "overview": "Carbon black is used as a color in food. Its technological role is to add or restore food colour.",
+        "daily_intake": "No ADI allocated (JECFA, 1987).",
+        "articles": {
+            "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/2071",
+            "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
+        }
+    }
+}

@@ -1,14 +1,21 @@
 {
     "code": "E966",
-    "name": "Lactitol",
-    "href": "e966.htm",
-    "function": "Sweetener",
+    "names": "Lactitol",
+    "display_name": "E966 (Lactitol)",
+    "type": "sweetener",
+    "status": "e",
+    "icon": "mdi-check-circle",
     "more_info": {
-        "origin": "A synthetic carbohydrate alcohol, produced from milk sugar (lactose) derived from whey (milk).",
-        "characteristics": "Low-calorie sweetener.",
-        "products": "Many bakery and confectionery products.",
-        "daily_intake": "Not defined.",
-        "side_effects": "Lactitol is partly absorbed and metabolised as glucose by the body; the remaining fraction is fermented in the large intestine. During fermentation, gases are produced, which may cause bloating and flatulence. In intolerant persons it can act as a laxative. Side effects normally occur after an intake of 25-30 grams in a single dose, which is far above the usage in normal foods.",
-        "dietary_restrictions": "Lactitol can be used by all religious groups and vegetarians, but not by vegans, as the source is milk sugar. The term carbohydrate alcohol is a chemical definition; lactitol does not contain alcohol (ethanol)."
+        "banned_in": "Approved in the EU.",
+        "overview": "Lactitol is used as a thickener in food. Its technological role is to increase the thickness of food.",
+        "daily_intake": "No ADI specified (JECFA, 1983).",
+        "articles": {
+            "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/3084",
+            "EUR-Lex specifications": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231",
+            "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
+        },
+        "origin": "Made by catalytic hydrogenation of lactose. Its starting material is the milk sugar lactose.",
+        "dietary_restrictions": "The specified manufacturing process uses lactose. The specification does not identify the commercial lactose feedstock, so vegan and religious suitability cannot be established from it alone."
     }
 }

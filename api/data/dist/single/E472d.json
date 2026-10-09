@@ -1,0 +1,20 @@
+{
+    "code": "E472d",
+    "names": "Tartaric acid esters of mono- and diglycerides of fatty acids",
+    "display_name": "E472d (Tartaric acid esters of mono- and diglycerides of fatty acids)",
+    "type": "emulsifier",
+    "status": "e",
+    "icon": "mdi-check-circle",
+    "more_info": {
+        "banned_in": "Approved in the EU.",
+        "uses": "EU permissions include bread prepared solely with the following ingredients: wheat flour, water, yeast or leaven,  salt. These permissions depend on the food category and its conditions of use.",
+        "articles": {
+            "EUR-Lex specifications": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231",
+            "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
+        },
+        "origin": "A mixture of glycerol esters containing tartaric acid and fatty acids from food fats or oils. The specification does not establish a single animal or plant source for the fatty-acid component.",
+        "dietary_restrictions": "The fatty-acid feedstock is not specified as exclusively plant derived. Vegan, vegetarian, halal and kosher suitability cannot be established without the supplier identifying the raw material and processing.",
+        "overview": "Tartaric acid esters of mono- and diglycerides of fatty acids is classified in food technology as an emulsifier. Its technological role is to help oil and water stay mixed."
+    }
+}

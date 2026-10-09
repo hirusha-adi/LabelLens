@@ -1,14 +1,21 @@
 {
     "code": "E625",
-    "name": "Magnesium glutamate",
-    "href": "e625.htm",
-    "function": "Flavour enhancer",
+    "names": "Magnesium diglutamate",
+    "display_name": "E625 (Magnesium diglutamate)",
+    "type": "flavour enhancer",
+    "status": "e",
+    "icon": "mdi-alert-circle",
     "more_info": {
-        "origin": "Magnesium salt from glutamic acid (), a natural amino acid (building block of protein). Commercially prepared from molasses by bacterial fermentation. Also prepared from vegetable protein, such as gluten, or soy protein. Glutamic acid and glutamates are present in all proteins. Free glutamates are present in high concentrations in ripened cheese, breast milk, tomatoes and sardines.",
-        "characteristics": "Flavour enhancer. Glutamic acid and glutamates have the specific umami taste and enhance many other flavours, thereby reducing the amounts of salt needed in a product.",
-        "products": "Hardly used, only in low sodium meat products.",
-        "daily_intake": "None determined. Glutamates may not be used in products intended for children under 12 weeks.",
-        "side_effects": "Although many side effects have been reported for glutamates, these have not been scientifically proven. See also   and .",
-        "dietary_restrictions": "None. Glutamic acid and glutamates can be used by all religious groups, vegetarians and vegans. The products do not contain gluten."
+        "banned_in": "Approved in the EU.",
+        "daily_intake": "30 mg glutamic acid/kg body weight/day, combined glutamates (EFSA, 2017).",
+        "articles": {
+            "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/2708",
+            "EUR-Lex specifications": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231",
+            "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "EFSA": "https://www.efsa.europa.eu/en/efsajournal/pub/4910"
+        },
+        "side_effects": "Some estimated food-use exposures exceeded the limit.\nHigh-dose animal neurodevelopmental findings supported it; human dose-response evidence was limited.",
+        "overview": "Magnesium diglutamate is classified in food technology as a flavour enhancer. Its technological role is to strengthen existing flavours."
     }
 }

@@ -1,14 +1,15 @@
 {
-    "code": "370",
-    "name": "1,4-Heptonolactone",
-    "href": "e370.htm",
-    "function": "Synthetic acid",
+    "code": "E370",
+    "names": "1,4-Heptonolactone",
+    "display_name": "E370 (1)",
+    "type": "acidity regulator",
+    "status": "",
+    "icon": "mdi-check-circle",
     "more_info": {
-        "origin": "Synthetic product, prepared from hydroxy-heptanoic acid.",
-        "characteristics": "Acidity regulator and flavouring.",
-        "products": "Coconut-, nut- and vanilla flavour.",
-        "daily_intake": "None determined.",
-        "side_effects": "None known",
-        "dietary_restrictions": "370 can be used by all religious groups, vegans and vegetarians."
+        "articles": {
+            "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
+        },
+        "overview": "1 is classified in food technology as an acidity regulator. Its technological role is to control acidity."
     }
 }

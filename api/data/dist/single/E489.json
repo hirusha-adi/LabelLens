@@ -1,0 +1,17 @@
+{
+    "code": "E489",
+    "names": "Methyl glucoside-coconut oil ester",
+    "display_name": "E489 (Methyl glucoside-coconut oil ester)",
+    "type": "emulsifier",
+    "status": "u",
+    "icon": "mdi-check-circle",
+    "more_info": {
+        "banned_in": "Approved in the US.\nUS food use is subject to the listed CFR provisions and their conditions, checked in 2026.",
+        "articles": {
+            "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "eCFR Title 21": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=172"
+        },
+        "overview": "Methyl glucoside-coconut oil ester is classified in food technology as an emulsifier. Its technological role is to help oil and water stay mixed."
+    }
+}

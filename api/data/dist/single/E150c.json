@@ -1,14 +1,24 @@
 {
     "code": "E150c",
-    "name": "Ammonia caramel",
-    "href": "e150.htm",
-    "function": "Brown colour",
+    "names": "Ammonia caramel",
+    "display_name": "E150c (Ammonia caramel)",
+    "type": "color (Brown)",
+    "status": "e u",
+    "icon": "mdi-alert-circle",
     "more_info": {
-        "origin": "",
-        "characteristics": "Brown to black colours. Soluble in water and with a specific, sometimes bitter, taste.",
-        "products": "Many products.",
-        "daily_intake": "Up to 200 mg/kg body weight for E150c and E150d, whereas there is no ADI for E150a and/or E150b.",
-        "side_effects": "Side effects are manifested from the use of E150c and E150d, where intestinal problems may occur after ingestion of large amounts. Due to the complex nature of the mixtures, toxicology tests are still being carried out.",
-        "dietary_restrictions": "None; E150 can be consumed by all religious groups, vegans and vegetarians."
+        "banned_in": "Approved in the EU.\nApproved in the US.\nUS food use is subject to the listed CFR provisions and their conditions, checked in 2026.",
+        "overview": "Ammonia caramel is used as a color in food. Its technological role is to add or restore food colour.",
+        "uses": "EU permissions include breakfast cereals, beer and malt beverages. These permissions depend on the food category and its conditions of use.",
+        "daily_intake": "300 mg/kg body weight/day, combined caramel colours (EFSA, 2011). Within that group limit, E150c has a separate limit of 100 mg/kg body weight/day.",
+        "articles": {
+            "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/436",
+            "EUR-Lex specifications": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231",
+            "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "eCFR Title 21": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=73",
+            "EFSA": "https://www.efsa.europa.eu/en/efsajournal/pub/2004"
+        },
+        "origin": "Made by heating food-grade carbohydrates with ammonium compounds. Sulphite compounds are excluded from this class.",
+        "side_effects": "EFSA identified uncertainties about manufacturing contaminants in 2011.\nHigh-exposure estimates could exceed the group limit."
     }
 }

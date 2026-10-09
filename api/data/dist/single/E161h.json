@@ -1,14 +1,17 @@
 {
     "code": "E161h",
-    "name": "Citranaxanthin",
-    "href": "e161h.htm",
-    "function": "Natural, yellow colour",
+    "names": "Zeaxanthin",
+    "display_name": "E161h (Zeaxanthin)",
+    "type": "color (Orange-red)",
+    "status": "",
+    "icon": "mdi-check-circle",
     "more_info": {
-        "origin": "Natural colour, present in many plants. Commercially prepared from several dried plants species.",
-        "characteristics": "",
-        "products": "hardly used",
-        "daily_intake": "Up to 0.4 mg/kg bodyweight.",
-        "side_effects": "",
-        "dietary_restrictions": ""
+        "overview": "Zeaxanthin is used as a color in food. Its technological role is to add or restore food colour.",
+        "daily_intake": "No ADI specified (JECFA, 2018).",
+        "articles": {
+            "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/4907",
+            "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
+        }
     }
 }

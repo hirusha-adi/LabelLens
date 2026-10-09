@@ -1,0 +1,50 @@
+{
+  "code": "E1521",
+  "checked": "2026-10-10",
+  "fields": {
+    "status": [
+      "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+      "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=172"
+    ],
+    "icon": [
+      "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+      "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
+    ],
+    "banned_in": [
+      "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+      "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=172"
+    ],
+    "names": [
+      "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231"
+    ],
+    "uses": [
+      "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=172"
+    ],
+    "origin": [
+      "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=172"
+    ],
+    "overview": [
+      "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=172"
+    ],
+    "type": [
+      "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=172"
+    ]
+  },
+  "inputs": {
+    "display_name": "development/ins-summary-original.json"
+  },
+  "gaps": [
+    "A current, unambiguous food-additive ADI and its basis were not confirmed; daily_intake omitted.",
+    "No sufficiently specific compound-level source was retained for side_effects; field omitted.",
+    "No sufficiently specific compound-level source was retained for dietary_restrictions; field omitted.",
+    "No sufficiently specific compound-level source was retained for interactions; field omitted.",
+    "No sufficiently specific compound-level source was retained for precautions; field omitted."
+  ],
+  "changes": [
+    "names: 'Polyethylene glycol 8000[25]' -> 'Polyethylene glycol 8000'; removed a stranded citation marker.",
+    "Replaced the legacy layout with rich fields and removed unsupported inherited health, dietary and intake assertions.",
+    "type: empty original category filled as carrier, supported by the regulatory use.",
+    "status: 'e' -> 'e u'; exact current EU/FDA identity check and retained regulatory sources. Empty flags include unconfirmed permissions, not inferred country bans.",
+    "Created the missing individual additive record and field provenance."
+  ]
+}

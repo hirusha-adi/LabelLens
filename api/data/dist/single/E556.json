@@ -1,14 +1,19 @@
 {
     "code": "E556",
-    "name": "Aluminium calcium silicate",
-    "href": "e556.htm",
-    "function": "Anti caking agent",
+    "names": "Calcium aluminosilicate (calcium aluminium silicate)",
+    "display_name": "E556 (Calcium aluminosilicate)",
+    "type": "anti-caking agent",
+    "status": "e",
+    "icon": "mdi-check-circle",
     "more_info": {
-        "origin": "Produced from several natural minerals.",
-        "characteristics": "",
-        "products": "Dry products, but hardly used.",
-        "daily_intake": "",
-        "side_effects": "None known",
-        "dietary_restrictions": "None. E556 can be used by all religious groups, vegetarians and vegans."
+        "banned_in": "Approved in the EU.",
+        "daily_intake": "No ADI specified (JECFA, 1985).",
+        "articles": {
+            "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/3923",
+            "EUR-Lex specifications": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231",
+            "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
+        },
+        "overview": "Calcium aluminosilicate is classified in food technology as an anti-caking agent. Its technological role is to keep powders free-flowing."
     }
 }

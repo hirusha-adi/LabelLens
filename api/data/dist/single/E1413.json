@@ -1,0 +1,21 @@
+{
+    "code": "E1413",
+    "names": "Phosphated distarch phosphate (stabiliser)",
+    "display_name": "E1413 (Phosphated distarch phosphate)",
+    "type": "thickening agent",
+    "status": "e",
+    "icon": "mdi-check-circle",
+    "more_info": {
+        "banned_in": "Approved in the EU.",
+        "overview": "Phosphated distarch phosphate is used as a stabilizer in food. Its technological role is to help maintain the structure of food.",
+        "uses": "EU permissions include milk-based drinks and similar products intended for young children, unflavoured live fermented cream products and substitute products, both with a fat  content of less than 20 %. These permissions depend on the food category and its conditions of use.",
+        "daily_intake": "No ADI specified (JECFA, 2016).",
+        "articles": {
+            "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/1068",
+            "EUR-Lex specifications": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231",
+            "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
+        },
+        "origin": "Starch receives both monophosphate esterification and phosphate crosslinking treatments. The product is a chemically modified carbohydrate."
+    }
+}

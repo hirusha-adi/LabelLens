@@ -1,14 +1,18 @@
 {
     "code": "E312",
-    "name": "Dodecyl gallate",
-    "href": "e312.htm",
-    "function": "Synthetic anti-oxidant",
+    "names": "Dodecyl gallate",
+    "display_name": "E312 (Dodecyl gallate)",
+    "type": "antioxidant",
+    "status": "",
+    "icon": "mdi-check-circle",
     "more_info": {
-        "origin": "Synthesised from lauryl alcohol and gallic acid, which is produced from plant tannins.",
-        "characteristics": "Anti-oxidant in fatty products, especially added to prevent rancidity.",
-        "products": "Oils and fats, margarine, soups, etc.",
-        "daily_intake": "Up to 0.05 mg/kg body weight.",
-        "side_effects": "It is degraded in the intestine to lauryl alcohol and gallic acid. Gallic acid can cause eczema, stomach problems and hyperactivity.",
-        "dietary_restrictions": "E312 can normally be consumed by all religious groups, vegans and vegetarians. However, there is the possibility that the lauric acid used for lauryl alcohol is obtained from animal fat, although the main source is vegetable fat. Use of animal (incl. pork) fat cannot be ruled out completely. It does not contain alcohol (ethanol)."
+        "overview": "Dodecyl gallate is used as an antioxidant in food. Its technological role is to slow oxidation in food.",
+        "daily_intake": "No ADI allocated (JECFA, 1996).",
+        "articles": {
+            "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/1885",
+            "EUR-Lex specifications": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231",
+            "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
+        }
     }
 }

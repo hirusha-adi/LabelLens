@@ -1,0 +1,18 @@
+{
+    "code": "E650",
+    "names": "Zinc acetate",
+    "display_name": "E650 (Zinc acetate)",
+    "type": "flavour enhancer",
+    "status": "e",
+    "icon": "mdi-check-circle",
+    "more_info": {
+        "banned_in": "Approved in the EU.",
+        "uses": "EU permissions include chewing gum. These permissions depend on the food category and its conditions of use.",
+        "articles": {
+            "EUR-Lex specifications": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231",
+            "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
+        },
+        "overview": "Zinc acetate is classified in food technology as a flavour enhancer. Its technological role is to strengthen existing flavours."
+    }
+}

@@ -1,14 +1,21 @@
 {
     "code": "E326",
-    "name": "Potassium lactate",
-    "href": "e326.htm",
-    "function": "Potassium salt of lactic acid",
+    "names": "Potassium lactate (antioxidant)",
+    "display_name": "E326 (Potassium lactate)",
+    "type": "acidity regulator",
+    "status": "e u",
+    "icon": "mdi-check-circle",
     "more_info": {
-        "origin": "Potassium salt of lactic acid (), a natural acid produced by bacteria in fermented foods. All fermented foods are very rich in lactic acid. Commercially produced by bacterial fermentation on starch and molasses. Also produced in large amounts in the large intestine by the resident bacteria.",
-        "characteristics": "Lactic acid and lactates are used as preservatives, mainly against yeasts and fungi. It is also used to increase stability of anti-oxidants and to prevent drying of different products.",
-        "products": "cheese, confectionary, icecream, fruit jellies, soups, canned fruits",
-        "daily_intake": "no limit",
-        "side_effects": "",
-        "dietary_restrictions": ""
+        "banned_in": "Approved in the EU.\nApproved in the US.\nUS food use is subject to the listed CFR provisions and their conditions, checked in 2026.",
+        "overview": "Potassium lactate is used as a flavour enhancer in food. Its technological role is to strengthen flavours already present in food.",
+        "uses": "EU permissions include canned or bottled fruit and vegetables, bread prepared solely with the following ingredients: wheat flour, water, yeast or leaven,  salt, pain courant français; friss búzakenyér, fehér és félbarna kenyerek. These permissions depend on the food category and its conditions of use.",
+        "daily_intake": "ADI classified as not limited (JECFA, 1974).",
+        "articles": {
+            "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/2777",
+            "EUR-Lex specifications": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231",
+            "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "eCFR Title 21": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=184"
+        }
     }
 }

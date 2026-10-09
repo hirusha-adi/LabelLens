@@ -1,14 +1,25 @@
 {
     "code": "E322",
-    "name": "Lecithin",
-    "href": "e322.htm",
-    "function": "Natural emulsifier",
+    "names": "Lecithin",
+    "display_name": "E322 (Lecithin)",
+    "type": "emulsifier",
+    "status": "e u",
+    "icon": "mdi-check-circle",
     "more_info": {
-        "origin": "The term lecithin refers to a group of compounds found in every living organism, as they are part of the cell wall of all cells. Lecithin is commercially isolated (mainly) from soybeans or egg yolk. The chemical composition of these two products (sources) is rather different, which determines the applications.",
-        "characteristics": "Emulsifier and stabiliser of water-oil/fat mixtures. Used to soften chocolate.",
-        "products": "Wide range of products.",
-        "daily_intake": "No limit",
-        "side_effects": "Lecithin is a normal component of body cells and will be degraded and used by the body without side effects.",
-        "dietary_restrictions": "Soy lecithin can normally be consumed by all religious groups, vegans and vegetarians. Egg lecithin should be avoided by vegans. It does not elicit allergic reactions in people who are allergic to soybeans or eggs."
+        "banned_in": "Approved in the EU.\nApproved in the US.\nUS food use is subject to the listed CFR provisions and their conditions, checked in 2026.",
+        "overview": "Lecithin is used as an antioxidant in food. Its technological role is to slow oxidation in food.",
+        "uses": "EU permissions include milk-based drinks and similar products intended for young children, fats and oils essentially free from water  (excluding anhydrous milk fat), cocoa and chocolate products as covered by directive 2000/36/ec, fresh pasta. These permissions depend on the food category and its conditions of use.",
+        "daily_intake": "No numerical ADI needed for the assessed uses (EFSA, 2017).",
+        "articles": {
+            "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/1477",
+            "EUR-Lex specifications": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231",
+            "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "eCFR Title 21": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=184",
+            "EFSA": "https://www.efsa.europa.eu/en/efsajournal/pub/4742"
+        },
+        "origin": "Phospholipid mixtures are separated from vegetable or animal food materials. Some lecithins are further processed with enzymes.",
+        "dietary_restrictions": "The specification allows both animal and vegetable sources. Vegan, vegetarian and religious suitability therefore depend on the identified source of the particular lecithin preparation.",
+        "side_effects": "EFSA found no concern from reported food uses or their associated choline exposure.\nThe opinion does not establish safety for unlimited supplementary intake."
     }
 }

@@ -1,0 +1,22 @@
+{
+    "code": "E1202",
+    "names": "Polyvinylpolypyrrolidone (carrier)",
+    "display_name": "E1202 (Polyvinylpolypyrrolidone)",
+    "type": "stabiliser",
+    "status": "e u",
+    "icon": "mdi-check-circle",
+    "more_info": {
+        "banned_in": "Approved in the EU.\nApproved in the US.\nUS food use is subject to the listed CFR provisions and their conditions, checked in 2026.",
+        "overview": "Polyvinylpolypyrrolidone is used as a stabilizer in food. Its technological role is to help maintain the structure of food.",
+        "uses": "EU permissions include table-top sweeteners in tablets, food supplements supplied in a solid form excluding food supplements for infants and  young children’,. These permissions depend on the food category and its conditions of use.",
+        "daily_intake": "No ADI specified (JECFA, 1983).",
+        "articles": {
+            "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/3736",
+            "EUR-Lex specifications": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231",
+            "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "eCFR Title 21": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=173"
+        },
+        "origin": "Produced by crosslinking the polymer formed from N-vinyl-2-pyrrolidone. It is a synthetic, insoluble polymer."
+    }
+}

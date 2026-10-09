@@ -1,0 +1,17 @@
+{
+    "code": "E467",
+    "names": "Ethyl hydroxyethyl cellulose",
+    "display_name": "E467 (Ethyl hydroxyethyl cellulose)",
+    "type": "emulsifier",
+    "status": "",
+    "icon": "mdi-check-circle",
+    "more_info": {
+        "overview": "Ethyl hydroxyethyl cellulose is used as an emulsifier in food. Its technological role is to help oil and water remain mixed.",
+        "daily_intake": "No ADI specified (JECFA, 1989).",
+        "articles": {
+            "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/3203",
+            "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
+        }
+    }
+}

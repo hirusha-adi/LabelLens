@@ -1,14 +1,21 @@
 {
     "code": "E517",
-    "name": "Ammonium sulphate",
-    "href": "e517.htm",
-    "function": "Stabiliser",
+    "names": "Ammonium sulphate",
+    "display_name": "E517 (Ammonium sulphate)",
+    "type": "acidity regulator",
+    "status": "e u",
+    "icon": "mdi-check-circle",
     "more_info": {
-        "origin": "  Prepared from ammonium salts and sulphuric acid. Natural mineral.",
-        "characteristics": "Stabiliser, buffer, bread enhancer",
-        "products": "Bakery and confectionary products",
-        "daily_intake": "None determined",
-        "side_effects": "None known when used in foods.",
-        "dietary_restrictions": "All religious groups, vegans and vegetarians can use E517"
+        "banned_in": "Approved in the EU.\nApproved in the US.\nUS food use is subject to the listed CFR provisions and their conditions, checked in 2026.",
+        "overview": "Ammonium sulphate is used as a firming agent in food. Its technological role is to help maintain firmness.",
+        "articles": {
+            "EUR-Lex specifications": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231",
+            "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "eCFR Title 21": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=184",
+            "EFSA": "https://www.efsa.europa.eu/en/efsajournal/pub/5868"
+        },
+        "daily_intake": "No numerical ADI needed (EFSA, 2019).",
+        "side_effects": "Assessed food exposure raised no concern.\nHigher-dose human sulphate intake can cause laxative effects."
     }
 }

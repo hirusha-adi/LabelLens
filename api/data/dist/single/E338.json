@@ -1,14 +1,23 @@
 {
     "code": "E338",
-    "name": "Phosphoric acid",
-    "href": "e338.htm",
-    "function": "Buffers",
+    "names": "Orthophosphoric acid",
+    "display_name": "E338 (Orthophosphoric acid)",
+    "type": "acid",
+    "status": "e u",
+    "icon": "mdi-alert-circle",
     "more_info": {
-        "origin": "Normal constituent of many fruits and vegetables. Commercially produced from phosphate mined in the US.",
-        "characteristics": "Acidity regulator and chelating agent (used to bind metal ions). Several other very specific functions are: it increases the permeability of salt in meats and acts as an anti-oxidant.",
-        "products": "Many products, mainly cola, meat and cheese products.",
-        "daily_intake": "Up to 70 mg/kg body weight.",
-        "side_effects": "Phosphates are normal essential salts for the body. In view of the need to avoid calcium deficiency, the use is limited, as it binds up calcium readily. It has no side effects.",
-        "dietary_restrictions": "Phosphoric acid and phosphates can normally be consumed by all religious groups, vegans and vegetarians. Although animal bones are mainly made up of phosphates, commercial phosphate is not made from bones."
+        "banned_in": "Approved in the EU.\nApproved in the US.\nUS food use is subject to the listed CFR provisions and their conditions, checked in 2026.",
+        "overview": "Orthophosphoric acid is used as a sequestrant in food. Its technological role is to bind metal ions.",
+        "uses": "EU permissions include milk-based drinks and similar products intended for young children. These permissions depend on the food category and its conditions of use.",
+        "articles": {
+            "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/1777",
+            "EUR-Lex specifications": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231",
+            "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "eCFR Title 21": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=182",
+            "EFSA": "https://www.efsa.europa.eu/en/efsajournal/pub/5674"
+        },
+        "daily_intake": "40 mg phosphorus/kg body weight/day, combined phosphates (EFSA, 2019).",
+        "side_effects": "Estimated combined exposure exceeded the limit in some groups.\nAnimal evidence supports low acute toxicity."
     }
 }

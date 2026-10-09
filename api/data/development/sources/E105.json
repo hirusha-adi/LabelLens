@@ -42,6 +42,7 @@
   ],
   "changes": [
     "Created previously missing individual file using the master identity and reviewed sources.",
-    "Icon: JECFA postponed its ADI decision and subsequently withdrew specifications."
+    "Icon: JECFA postponed its ADI decision and subsequently withdrew specifications.",
+    "Created the missing individual additive record and field provenance."
   ]
 }

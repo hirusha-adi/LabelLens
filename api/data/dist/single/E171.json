@@ -1,14 +1,24 @@
 {
     "code": "E171",
-    "name": "Titanium dioxide",
-    "href": "e171.htm",
-    "function": "White colour",
+    "names": "Titanium dioxide",
+    "display_name": "E171 (Titanium dioxide)",
+    "type": "color (White)",
+    "status": "u",
+    "icon": "mdi-alert-circle",
     "more_info": {
-        "origin": "Natural white mineral.",
-        "characteristics": "",
-        "products": "Widely used",
-        "daily_intake": "",
-        "side_effects": "",
-        "dietary_restrictions": ""
+        "banned_in": "Approved in the US.\nEU food-use authorisation was withdrawn in 2022 following EFSA's 2021 assessment.",
+        "overview": "Titanium dioxide is an inorganic white pigment. It adds whiteness and opacity to foods.",
+        "daily_intake": "ADI classified as not limited or not specified (JECFA, 2023). EFSA could not establish food-use safety in 2021.",
+        "articles": {
+            "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/2723",
+            "EUR-Lex specifications": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231",
+            "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "eCFR Title 21": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=73",
+            "FDA": "https://www.fda.gov/industry/color-additives/titanium-dioxide-color-additive-foods"
+        },
+        "origin": "An inorganic titanium oxide pigment made by sulphate or chloride processing. Food-grade preparations may have small surface coatings of alumina or silica.",
+        "side_effects": "The bodies reached different food-use conclusions: EFSA could not rule out DNA damage in 2021, while FDA reports that JECFA's 2023 evaluation found food use safe.\nFDA did not identify a genotoxicity concern and noted no cancer effect in the cited long-term animal studies; these findings do not remove the EU uncertainty.",
+        "uses": "FDA-authorised uses include bakery products and confectionery, subject to the US limit of 1% of food weight."
     }
 }

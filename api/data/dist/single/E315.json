@@ -1,14 +1,23 @@
 {
     "code": "E315",
-    "name": "Erythorbic acid",
-    "href": "e315.htm",
-    "function": "Synthetic anti-oxidant",
+    "names": "Erythorbic acid",
+    "display_name": "E315 (Erythorbic acid)",
+    "type": "antioxidant",
+    "status": "e u",
+    "icon": "mdi-check-circle",
     "more_info": {
-        "origin": "Synthetic isomer of vitamin C, but with only 1/20 of the vitamin activity.",
-        "characteristics": "Anti-oxidant.",
-        "products": "Many products.",
-        "daily_intake": "No limit.",
-        "side_effects": "None known in the concentrations used.",
-        "dietary_restrictions": "Erythorbic acid and erythorbates can normally be consumed by all religious groups, vegans and vegetarians."
+        "banned_in": "Approved in the EU.\nApproved in the US.\nUS food use is subject to the listed CFR provisions and their conditions, checked in 2026.",
+        "overview": "Erythorbic acid is used as an antioxidant in food. Its technological role is to slow oxidation in food.",
+        "uses": "EU permissions include non-heat-treated processed meat, heat-treated meat products, unprocessed fish, processed fish and fishery products including molluscs and crustaceans. These permissions depend on the food category and its conditions of use.",
+        "daily_intake": "6 mg/kg body weight/day, combined erythorbic acid and sodium erythorbate (EFSA, 2016).",
+        "articles": {
+            "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/2602",
+            "EUR-Lex specifications": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231",
+            "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "eCFR Title 21": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=182",
+            "EFSA": "https://www.efsa.europa.eu/en/efsajournal/pub/4360"
+        },
+        "side_effects": "Assessed food-use estimates remained below the limit.\nAnimal body-weight effects at higher doses supported the limit; the review found no genotoxicity concern."
     }
 }

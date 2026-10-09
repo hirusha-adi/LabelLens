@@ -1,14 +1,17 @@
 {
-    "code": "441",
-    "name": "Gelatin (no longer valid)",
-    "href": "e441.htm",
-    "function": "Natural thickening agent",
+    "code": "E441",
+    "names": "Gelatine (emulsifier)",
+    "display_name": "E441 (Gelatine)",
+    "type": "gelling agent",
+    "status": "",
+    "icon": "mdi-check-circle",
     "more_info": {
-        "origin": "Obtained from animal by-products, such as bones and hides. It can be produced from all species of animals.",
-        "characteristics": "Thickening and gelling agent",
-        "products": "Many different products",
-        "daily_intake": "None determined",
-        "side_effects": "None known when used in foods",
-        "dietary_restrictions": "441 can not be used by vegans and vegetarians. Use by religious groups, such as Muslims and Jews is restricted, due to the origin of the product. Unfortunately information on origin can only be obtained from the producer. Specific halal gelatin is made from cattle."
+        "overview": "Gelatine is a food ingredient used to form gels. The JECFA record also identifies emulsifying and stabilising functions.",
+        "articles": {
+            "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/1462"
+        },
+        "daily_intake": "ADI classified as not limited (JECFA, 1970)."
     }
 }

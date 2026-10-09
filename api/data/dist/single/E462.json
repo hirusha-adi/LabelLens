@@ -1,14 +1,22 @@
 {
-    "code": "462",
-    "name": "Ethyl cellulose",
-    "href": "e462.htm",
-    "function": "Semi-synthetic thickening agent",
+    "code": "E462",
+    "names": "Ethyl cellulose",
+    "display_name": "E462 (Ethyl cellulose)",
+    "type": "emulsifier",
+    "status": "e u",
+    "icon": "mdi-check-circle",
     "more_info": {
-        "origin": "  Ethylcellulose is prepared from cellulose, the main polysaccharide and constituent of wood and all plant structures. Commercially prepared from wood and chemically ethylated.",
-        "characteristics": "Many different uses, mainly as thickening agent, but also as filler, dietary fibre, anti clumping agent and emulsfier.",
-        "products": "Few products, and no longer permitted as emulsifier in the EU.",
-        "daily_intake": "None determined.",
-        "side_effects": "Ethylcellulose is practically non soluble, but can be fermented in the large intestine. Large concentrations can cause intestinal problems, such as bloating, constipation and diarrhoea.",
-        "dietary_restrictions": "462 can be consumed by all religious groups, vegans and vegetarians."
+        "banned_in": "Approved in the EU.\nApproved in the US.\nUS food use is subject to the listed CFR provisions and their conditions, checked in 2026.",
+        "overview": "Ethyl cellulose is used as a thickener in food. Its technological role is to increase the thickness of food.",
+        "daily_intake": "No numerical ADI needed (EFSA, 2018).",
+        "articles": {
+            "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/3196",
+            "EUR-Lex specifications": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231",
+            "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "eCFR Title 21": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=73",
+            "EFSA": "https://www.efsa.europa.eu/en/efsajournal/pub/5047"
+        },
+        "side_effects": "Assessed food uses raised no concern.\nHigh-dose animal studies found no reproductive or developmental harm."
     }
 }

@@ -1,14 +1,20 @@
 {
     "code": "E334",
-    "name": "L-(+)- tartaric acid",
-    "href": "e334.htm",
-    "function": "Natural acid",
+    "names": "Tartaric acid (L(+)-)",
+    "display_name": "E334 (Tartaric acid)",
+    "type": "(acid)",
+    "status": "e",
+    "icon": "mdi-check-circle",
     "more_info": {
-        "origin": "Natural acid, present in many fruits, especially grapes. Commercially prepared from waste products of the wine industry (grape skins).",
-        "characteristics": "Acidity regulator and taste enhancer of fruits and fruity flavours, as well as stabiliser of colour in fruits and fruit products.",
-        "products": "Many products, mainly confectionery, soft drinks, wine, and marmalade.",
-        "daily_intake": "Up to 30 mg/kg body weight.",
-        "side_effects": "It is not metabolised in the body; thus, it is excreted in the urine without side effects.",
-        "dietary_restrictions": "Tartaric acid and tartarates can normally be consumed by all religious groups, vegans and vegetarians."
+        "banned_in": "Approved in the EU.",
+        "overview": "Tartaric acid is used as a sequestrant in food. Its technological role is to bind metal ions.",
+        "uses": "EU permissions include canned or bottled fruit and vegetables, cocoa and chocolate products as covered by directive 2000/36/ec, table-top sweeteners in tablets. These permissions depend on the food category and its conditions of use.",
+        "daily_intake": "0-30 mg/kg body weight (JECFA, 2017). The combined group limit is expressed as L(+)-tartaric acid.",
+        "articles": {
+            "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/4746",
+            "EUR-Lex specifications": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231",
+            "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
+        }
     }
 }

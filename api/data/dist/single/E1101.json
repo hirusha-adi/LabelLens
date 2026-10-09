@@ -1,0 +1,15 @@
+{
+    "code": "E1101",
+    "names": "Proteases ((i)Protease, (ii)Papain, (iii)Bromelain, (iv)Ficin)",
+    "display_name": "E1101 (Proteases)",
+    "type": "stabiliser, flavour enhancer",
+    "status": "",
+    "icon": "mdi-check-circle",
+    "more_info": {
+        "articles": {
+            "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
+        },
+        "overview": "Proteases is classified in food technology as a flavour enhancer. Its technological role is to strengthen existing flavours."
+    }
+}

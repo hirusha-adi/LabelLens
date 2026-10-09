@@ -1,14 +1,22 @@
 {
     "code": "E465",
-    "name": "Methylethyl cellulose",
-    "href": "e465.htm",
-    "function": "Semi-synthetic thickening agent",
+    "names": "Ethyl methyl cellulose",
+    "display_name": "E465 (Ethyl methyl cellulose)",
+    "type": "emulsifier",
+    "status": "e",
+    "icon": "mdi-check-circle",
     "more_info": {
-        "origin": "  Methylethylcellulose is prepared from cellulose, the main polysaccharide and constituent of wood and all plant structures. Commercially prepared from wood and chemically modified.",
-        "characteristics": "Many different uses, mainly as thickening agent, but also as filler, dietary fibre, anti clumping agent and emulsfier. Similar as cellulose, but with some different characteristics.",
-        "products": "  M any different products",
-        "daily_intake": "None determined.",
-        "side_effects": "Methylethyl cellulose is not very soluble, and can be fermented in the large intestine. Large concentrations can cause intestinal problems, such as bloating, constipation and diarrhoea.",
-        "dietary_restrictions": "E465 can be consumed by all religious groups, vegans and vegetarians."
+        "banned_in": "Approved in the EU.",
+        "overview": "Ethyl methyl cellulose is used as an emulsifier in food. Its technological role is to help oil and water remain mixed.",
+        "uses": "EU permissions include table-top sweeteners in liquid form, table-top sweeteners in powder form, table-top sweeteners in tablets. These permissions depend on the food category and its conditions of use.",
+        "daily_intake": "No numerical ADI needed (EFSA, 2018).",
+        "articles": {
+            "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/2161",
+            "EUR-Lex specifications": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231",
+            "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "EFSA": "https://www.efsa.europa.eu/en/efsajournal/pub/5047"
+        },
+        "side_effects": "Assessed food uses raised no concern.\nHigh-dose animal studies found no reproductive or developmental harm."
     }
 }

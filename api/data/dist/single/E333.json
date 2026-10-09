@@ -1,14 +1,21 @@
 {
     "code": "E333",
-    "name": "Mono, di, and Tri- Calcium citrate",
-    "href": "e333.htm",
-    "function": "Acidity regulators",
+    "names": "Calcium citrates (i) Monocalcium citrate (ii) Dicalcium citrate (iii) Calcium citrate (tricalcium citrate)",
+    "display_name": "E333 (Calcium citrates)",
+    "type": "acidity regulator, firming agent, sequestrant",
+    "status": "e u",
+    "icon": "mdi-check-circle",
     "more_info": {
-        "origin": "Calcium salts of citric acid, a compound found in every living organism, as it is part of the key metabolic pathways in all body cells. Large concentrations are found in citrus fruits, kiwi, strawberries and many other fruits. Commercially prepared by fermentation of molasses with the mould Aspergillus niger .",
-        "characteristics": "Calcium citrate is used as a buffer, to bind metal ions and to improve the texture of canned vegetables.",
-        "products": "Few products, due to limited solubility.",
-        "daily_intake": "No limit.",
-        "side_effects": "Citric acid is a normal component of body cells and will be degraded and used by the body without side effects. Pseudo-allergic reactions (intolerance) have been reported, but these are very rare. People with such intolerance should also avoid all soft fruits and berries and products made thereof. It does not cause  cancer (see the following ).",
-        "dietary_restrictions": "Citric acid and citrates can normally be consumed by all religious groups, vegans and vegetarians. Citric acid does not cause allergic reactions in people who are allergic to oranges and other citrus fruits, as it is commercially made from sugar, not fruits."
+        "banned_in": "Approved in the EU.\nApproved in the US.\nUS food use is subject to the listed CFR provisions and their conditions, checked in 2026.",
+        "overview": "Calcium citrates is used as a sequestrant in food. Its technological role is to bind metal ions.",
+        "uses": "EU permissions include edible caseinates, fats and oils essentially free from water  (excluding anhydrous milk fat), peeled cut and shredded fruit and vegetables, frozen fruit and vegetables. These permissions depend on the food category and its conditions of use.",
+        "daily_intake": "No ADI specified (JECFA, 1973).",
+        "articles": {
+            "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/2938",
+            "EUR-Lex specifications": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231",
+            "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "eCFR Title 21": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=184"
+        }
     }
 }

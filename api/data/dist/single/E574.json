@@ -1,14 +1,18 @@
 {
     "code": "E574",
-    "name": "Gluconic acid",
-    "href": "e574.htm",
-    "function": "Sequestrant",
+    "names": "Gluconic acid",
+    "display_name": "E574 (Gluconic acid)",
+    "type": "acidity regulator",
+    "status": "e",
+    "icon": "mdi-check-circle",
     "more_info": {
-        "origin": "Synthetic, or produced by fungi from sugar.",
-        "characteristics": "",
-        "products": "Fruit juices, jelly-powder",
-        "daily_intake": "",
-        "side_effects": "None known",
-        "dietary_restrictions": "None. E574 can be used by all religious groups, vegetarians and vegans."
+        "banned_in": "Approved in the EU.",
+        "overview": "Gluconic acid is used as a sequestrant in food. Its technological role is to bind metal ions.",
+        "articles": {
+            "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/2851",
+            "EUR-Lex specifications": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231",
+            "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
+        }
     }
 }

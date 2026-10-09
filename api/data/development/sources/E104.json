@@ -74,6 +74,7 @@
     "more_info.characteristics: removed; no verified compound-specific food-use claim retained. See gaps.",
     "more_info.dietary_restrictions: removed; no verified compound-specific food-use claim retained. See gaps.",
     "more_info.products: removed; no verified compound-specific food-use claim retained. See gaps.",
-    "Icon: EFSA reduced the ADI in 2009; EU use levels were subsequently reduced."
+    "Icon: EFSA reduced the ADI in 2009; EU use levels were subsequently reduced.",
+    "name/href/function and characteristics/products replaced by the required rich schema; only sourced facts were retained."
   ]
 }

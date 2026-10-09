@@ -1,0 +1,8221 @@
+{
+  "checked": "2026-10-10",
+  "eu_database": "https://ec.europa.eu/food/food-feed-portal/backend/api/policy-items?foodDomain=fin&authorisationType=fad_auth",
+  "eu_current_law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+  "fda_inventory": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+  "compounds": {
+    "E128": {
+      "who": [
+        228
+      ],
+      "fda": [],
+      "cfr": [],
+      "eu": {},
+      "specs": [],
+      "classes": [
+        "COLOUR"
+      ]
+    },
+    "E129": {
+      "who": [
+        2361,
+        1413
+      ],
+      "fda": [
+        "FD&C RED NO. 40"
+      ],
+      "cfr": [
+        "74.340"
+      ],
+      "eu": {
+        "E129": "Allura Red AC"
+      },
+      "specs": [
+        "E 129 ALLURA RED AC"
+      ],
+      "classes": [
+        "COLOUR",
+        "FLAVOUR ENHANCER"
+      ]
+    },
+    "E130": {
+      "who": [
+        2558
+      ],
+      "fda": [],
+      "cfr": [],
+      "eu": {},
+      "specs": [],
+      "classes": [
+        "COLOUR"
+      ]
+    },
+    "E131": {
+      "who": [
+        2513,
+        1627
+      ],
+      "fda": [],
+      "cfr": [],
+      "eu": {
+        "E131": "Patent Blue V"
+      },
+      "specs": [
+        "E 131 PATENT BLUE V"
+      ],
+      "classes": [
+        "COLOUR"
+      ]
+    },
+    "E132": {
+      "who": [
+        3093,
+        2109,
+        2814
+      ],
+      "fda": [
+        "FD&C BLUE NO. 2"
+      ],
+      "cfr": [
+        "74.102"
+      ],
+      "eu": {
+        "E132": "Indigotine, Indigo carmine"
+      },
+      "specs": [
+        "E 132 INDIGOTINE, INDIGO CARMINE"
+      ],
+      "classes": [
+        "COLOUR"
+      ]
+    },
+    "E133": {
+      "who": [
+        3309,
+        2815
+      ],
+      "fda": [
+        "FD&C BLUE NO. 1"
+      ],
+      "cfr": [
+        "74.101"
+      ],
+      "eu": {
+        "E133": "Brilliant Blue FCF"
+      },
+      "specs": [
+        "E 133 BRILLIANT BLUE FCF"
+      ],
+      "classes": [
+        "COLOUR",
+        "FLAVOUR ENHANCER"
+      ]
+    },
+    "E140": {
+      "who": [
+        369,
+        3332,
+        2744
+      ],
+      "fda": [],
+      "cfr": [],
+      "eu": {
+        "E140": "Chlorophylls and chlorophyllins"
+      },
+      "specs": [
+        "E 140 (i) CHLOROPHYLLS",
+        "E 140 (ii) CHLOROPHYLLINS"
+      ],
+      "classes": [
+        "COLOUR"
+      ]
+    },
+    "E141": {
+      "who": [
+        2825,
+        2902,
+        1652,
+        2105,
+        630,
+        953
+      ],
+      "fda": [
+        "SODIUM COPPER CHLOROPHYLLIN"
+      ],
+      "cfr": [
+        "73.125"
+      ],
+      "eu": {
+        "E141": "Copper complexes of chlorophylls, chlorophyllins"
+      },
+      "specs": [
+        "E 141 (i) COPPER COMPLEXES OF CHLOROPHYLLS",
+        "E 141 (ii) COPPER COMPLEXES OF CHLOROPHYLLINS"
+      ],
+      "classes": [
+        "COLOUR"
+      ]
+    },
+    "E142": {
+      "who": [
+        611,
+        2672
+      ],
+      "fda": [],
+      "cfr": [],
+      "eu": {
+        "E142": "Green S"
+      },
+      "specs": [
+        "E 142 GREEN S"
+      ],
+      "classes": [
+        "COLOUR"
+      ]
+    },
+    "E143": {
+      "who": [
+        1356
+      ],
+      "fda": [
+        "FD&C GREEN NO. 3"
+      ],
+      "cfr": [
+        "74.203"
+      ],
+      "eu": {},
+      "specs": [],
+      "classes": [
+        "COLOUR"
+      ]
+    },
+    "E150a": {
+      "who": [
+        337,
+        604
+      ],
+      "fda": [
+        "CARAMEL"
+      ],
+      "cfr": [
+        "182.1235",
+        "73.85"
+      ],
+      "eu": {
+        "E150a": "Plain caramel ( 1 )"
+      },
+      "specs": [
+        "E 150a PLAIN CARAMEL"
+      ],
+      "classes": [
+        "COLOUR",
+        "SWEETENER"
+      ]
+    },
+    "E150b": {
+      "who": [
+        1389
+      ],
+      "fda": [
+        "CARAMEL"
+      ],
+      "cfr": [
+        "182.1235",
+        "73.85"
+      ],
+      "eu": {
+        "E150b": "Caustic sulphite caramel"
+      },
+      "specs": [
+        "E 150b CAUSTIC SULPHITE CARAMEL"
+      ],
+      "classes": [
+        "COLOUR",
+        "SWEETENER"
+      ]
+    },
+    "E150c": {
+      "who": [
+        436
+      ],
+      "fda": [
+        "CARAMEL"
+      ],
+      "cfr": [
+        "182.1235",
+        "73.85"
+      ],
+      "eu": {
+        "E150c": "Ammonia caramel"
+      },
+      "specs": [
+        "E 150c AMMONIA CARAMEL"
+      ],
+      "classes": [
+        "COLOUR",
+        "SWEETENER"
+      ]
+    },
+    "E150d": {
+      "who": [
+        4019
+      ],
+      "fda": [
+        "CARAMEL"
+      ],
+      "cfr": [
+        "182.1235",
+        "73.85"
+      ],
+      "eu": {
+        "E150d": "Sulphite ammonia caramel"
+      },
+      "specs": [
+        "E 150d SULPHITE AMMONIA CARAMEL"
+      ],
+      "classes": [
+        "COLOUR",
+        "SWEETENER"
+      ]
+    },
+    "E151": {
+      "who": [
+        130,
+        2813,
+        399
+      ],
+      "fda": [],
+      "cfr": [],
+      "eu": {
+        "E151": "Brilliant Black PN"
+      },
+      "specs": [
+        "E 151 BRILLIANT BLACK BN, BLACK PN"
+      ],
+      "classes": [
+        "COLOUR"
+      ]
+    },
+    "E152": {
+      "who": [
+        2071
+      ],
+      "fda": [],
+      "cfr": [],
+      "eu": {},
+      "specs": [],
+      "classes": [
+        "COLOUR"
+      ]
+    },
+    "E153": {
+      "who": [
+        2323,
+        293,
+        591
+      ],
+      "fda": [],
+      "cfr": [],
+      "eu": {
+        "E153": "Vegetable carbon"
+      },
+      "specs": [
+        "E 153 VEGETABLE CARBON"
+      ],
+      "classes": [
+        "COLOUR"
+      ]
+    },
+    "E154": {
+      "who": [
+        1274
+      ],
+      "fda": [],
+      "cfr": [],
+      "eu": {},
+      "specs": [],
+      "classes": [
+        "COLOUR"
+      ]
+    },
+    "E155": {
+      "who": [
+        3815,
+        1629,
+        1949
+      ],
+      "fda": [],
+      "cfr": [],
+      "eu": {
+        "E155": "Brown HT"
+      },
+      "specs": [
+        "E 155 BROWN HT"
+      ],
+      "classes": [
+        "COLOUR"
+      ]
+    },
+    "E160a": {
+      "who": [
+        942,
+        1514,
+        65
+      ],
+      "fda": [
+        "BETA-CAROTENE"
+      ],
+      "cfr": [
+        "184.1245",
+        "73.95"
+      ],
+      "eu": {
+        "E160a": "Carotenes"
+      },
+      "specs": [
+        "E 160 a (i) BETA-CAROTENE",
+        "E 160 a (ii) PLANT CAROTENES",
+        "E 160 a (iii) BETA-CAROTENE FROM Blakeslea trispora",
+        "E 160 a (iv) ALGAL CAROTENES"
+      ],
+      "classes": [
+        "COLOUR",
+        "ANTIOXIDANT",
+        "FLAVOUR ENHANCER",
+        "GLAZING AGENT"
+      ]
+    },
+    "E160b": {
+      "who": [
+        3651,
+        4371,
+        3655,
+        4744,
+        3653,
+        4373,
+        2706
+      ],
+      "fda": [],
+      "cfr": [],
+      "eu": {
+        "E160b(i)": "Annatto bixin",
+        "E160b(ii)": "Annatto norbixin"
+      },
+      "specs": [
+        "E 160 b ANNATTO, BIXIN, NORBIXIN"
+      ],
+      "classes": [
+        "COLOUR"
+      ]
+    },
+    "E160c": {
+      "who": [
+        4486
+      ],
+      "fda": [],
+      "cfr": [],
+      "eu": {
+        "E160c": "Paprika extract, capsanthin, capsorubin"
+      },
+      "specs": [
+        "E 160 c PAPRIKA EXTRACT, CAPSANTHIN, CAPSORUBIN"
+      ],
+      "classes": [
+        "COLOUR"
+      ]
+    },
+    "E160d": {
+      "who": [
+        2876,
+        5572,
+        5880,
+        5573
+      ],
+      "fda": [],
+      "cfr": [],
+      "eu": {
+        "E160d": "Lycopene"
+      },
+      "specs": [
+        "E 160 d LYCOPENE"
+      ],
+      "classes": [
+        "COLOUR"
+      ]
+    },
+    "E160e": {
+      "who": [
+        941
+      ],
+      "fda": [
+        "BETA-APO-8'-CAROTENAL"
+      ],
+      "cfr": [
+        "73.90"
+      ],
+      "eu": {
+        "E160e": "Beta-apo-8′-carotenal (C 30)"
+      },
+      "specs": [
+        "E 160 e BETA-APO-8′-CAROTENAL (C30)"
+      ],
+      "classes": [
+        "COLOUR"
+      ]
+    },
+    "E160f": {
+      "who": [],
+      "fda": [],
+      "cfr": [],
+      "eu": {},
+      "specs": [],
+      "classes": []
+    },
+    "E161a": {
+      "who": [],
+      "fda": [],
+      "cfr": [],
+      "eu": {},
+      "specs": [],
+      "classes": []
+    },
+    "E161b": {
+      "who": [
+        2179
+      ],
+      "fda": [],
+      "cfr": [],
+      "eu": {
+        "E161b": "Lutein"
+      },
+      "specs": [
+        "E 161 b LUTEIN"
+      ],
+      "classes": [
+        "COLOUR"
+      ]
+    },
+    "E161c": {
+      "who": [],
+      "fda": [],
+      "cfr": [],
+      "eu": {},
+      "specs": [],
+      "classes": []
+    },
+    "E161d": {
+      "who": [],
+      "fda": [],
+      "cfr": [],
+      "eu": {},
+      "specs": [],
+      "classes": []
+    },
+    "E161e": {
+      "who": [],
+      "fda": [],
+      "cfr": [],
+      "eu": {},
+      "specs": [],
+      "classes": []
+    },
+    "E161f": {
+      "who": [],
+      "fda": [],
+      "cfr": [],
+      "eu": {},
+      "specs": [],
+      "classes": []
+    },
+    "E161g": {
+      "who": [
+        1268,
+        2652
+      ],
+      "fda": [
+        "CANTHAXANTHIN"
+      ],
+      "cfr": [
+        "73.75"
+      ],
+      "eu": {},
+      "specs": [
+        "E 161g CANTHAXANTHIN"
+      ],
+      "classes": [
+        "COLOUR"
+      ]
+    },
+    "E161h": {
+      "who": [
+        4907,
+        4908
+      ],
+      "fda": [],
+      "cfr": [],
+      "eu": {},
+      "specs": [],
+      "classes": [
+        "COLOUR"
+      ]
+    },
+    "E161i": {
+      "who": [
+        1418
+      ],
+      "fda": [],
+      "cfr": [],
+      "eu": {},
+      "specs": [],
+      "classes": [
+        "COLOUR"
+      ]
+    },
+    "E161j": {
+      "who": [],
+      "fda": [
+        "ASTAXANTHIN"
+      ],
+      "cfr": [],
+      "eu": {},
+      "specs": [],
+      "classes": [
+        "COLOUR"
+      ]
+    },
+    "E162": {
+      "who": [
+        877,
+        878
+      ],
+      "fda": [],
+      "cfr": [],
+      "eu": {
+        "E162": "Beetroot Red, betanin"
+      },
+      "specs": [
+        "E 162 BEETROOT RED, BETANIN"
+      ],
+      "classes": [
+        "COLOUR"
+      ]
+    },
+    "E163": {
+      "who": [
+        1491
+      ],
+      "fda": [],
+      "cfr": [],
+      "eu": {
+        "E163": "Anthocyanins"
+      },
+      "specs": [
+        "E 163 ANTHOCYANINS"
+      ],
+      "classes": [
+        "COLOUR"
+      ]
+    },
+    "E164": {
+      "who": [
+        3912
+      ],
+      "fda": [],
+      "cfr": [],
+      "eu": {},
+      "specs": [],
+      "classes": [
+        "COLOUR"
+      ]
+    },
+    "E170": {
+      "who": [
+        549,
+        457
+      ],
+      "fda": [
+        "CALCIUM CARBONATE"
+      ],
+      "cfr": [
+        "184.1191",
+        "73.70"
+      ],
+      "eu": {
+        "E170": "Calcium carbonate"
+      },
+      "specs": [
+        "E 170 CALCIUM CARBONATE"
+      ],
+      "classes": [
+        "ANTICAKING AGENT",
+        "COLOUR",
+        "HUMECTANT",
+        "RAISING AGENT",
+        "ACIDITY REGULATOR"
+      ]
+    },
+    "E171": {
+      "who": [
+        2723,
+        17
+      ],
+      "fda": [
+        "TITANIUM DIOXIDE"
+      ],
+      "cfr": [
+        "73.575"
+      ],
+      "eu": {},
+      "specs": [
+        "E 171 TITANIUM DIOXIDE"
+      ],
+      "classes": [
+        "COLOUR",
+        "ANTICAKING AGENT",
+        "HUMECTANT",
+        "GLAZING AGENT"
+      ]
+    },
+    "E172": {
+      "who": [
+        949,
+        948,
+        1699
+      ],
+      "fda": [],
+      "cfr": [],
+      "eu": {
+        "E172": "Iron oxides and hydroxides"
+      },
+      "specs": [
+        "E 172 IRON OXIDES AND IRON HYDROXIDES"
+      ],
+      "classes": [
+        "COLOUR"
+      ]
+    },
+    "E173": {
+      "who": [
+        298,
+        2590,
+        1756
+      ],
+      "fda": [],
+      "cfr": [],
+      "eu": {
+        "E173": "Aluminium"
+      },
+      "specs": [
+        "E 173 ALUMINIUM"
+      ],
+      "classes": [
+        "COLOUR"
+      ]
+    },
+    "E174": {
+      "who": [
+        3411
+      ],
+      "fda": [],
+      "cfr": [],
+      "eu": {
+        "E174": "Silver"
+      },
+      "specs": [
+        "E 174 SILVER"
+      ],
+      "classes": [
+        "COLOUR"
+      ]
+    },
+    "E175": {
+      "who": [],
+      "fda": [],
+      "cfr": [],
+      "eu": {
+        "E175": "Gold"
+      },
+      "specs": [
+        "E 175 GOLD"
+      ],
+      "classes": []
+    },
+    "E180": {
+      "who": [
+        129,
+        982,
+        2870,
+        2591,
+        2403
+      ],
+      "fda": [],
+      "cfr": [],
+      "eu": {
+        "E180": "Litholrubine BK"
+      },
+      "specs": [
+        "E 180 LITHOLRUBINE BK"
+      ],
+      "classes": [
+        "COLOUR"
+      ]
+    },
+    "E181": {
+      "who": [],
+      "fda": [],
+      "cfr": [],
+      "eu": {},
+      "specs": [],
+      "classes": []
+    },
+    "E182": {
+      "who": [
+        606
+      ],
+      "fda": [],
+      "cfr": [],
+      "eu": {},
+      "specs": [],
+      "classes": [
+        "COLOUR"
+      ]
+    },
+    "E200": {
+      "who": [
+        2443
+      ],
+      "fda": [
+        "SORBIC ACID"
+      ],
+      "cfr": [
+        "182.3089"
+      ],
+      "eu": {
+        "E200": "Sorbic acid"
+      },
+      "specs": [
+        "E 200 SORBIC ACID"
+      ],
+      "classes": [
+        "PRESERVATIVE"
+      ]
+    },
+    "E201": {
+      "who": [
+        4755
+      ],
+      "fda": [
+        "SODIUM SORBATE"
+      ],
+      "cfr": [
+        "182.3795"
+      ],
+      "eu": {},
+      "specs": [],
+      "classes": [
+        "PRESERVATIVE"
+      ]
+    },
+    "E202": {
+      "who": [
+        2724
+      ],
+      "fda": [
+        "POTASSIUM SORBATE"
+      ],
+      "cfr": [
+        "182.3640"
+      ],
+      "eu": {
+        "E202": "Potassium sorbate"
+      },
+      "specs": [
+        "E 202 POTASSIUM SORBATE"
+      ],
+      "classes": [
+        "PRESERVATIVE",
+        "ANTIOXIDANT",
+        "COLOUR",
+        "FLAVOUR ENHANCER",
+        "ACIDITY REGULATOR"
+      ]
+    },
+    "E203": {
+      "who": [
+        2088
+      ],
+      "fda": [
+        "CALCIUM SORBATE"
+      ],
+      "cfr": [
+        "182.3225"
+      ],
+      "eu": {},
+      "specs": [
+        "E 203 CALCIUM SORBATE"
+      ],
+      "classes": [
+        "PRESERVATIVE"
+      ]
+    },
+    "E209": {
+      "who": [],
+      "fda": [],
+      "cfr": [],
+      "eu": {},
+      "specs": [],
+      "classes": []
+    },
+    "E210": {
+      "who": [
+        4530,
+        1406,
+        1754
+      ],
+      "fda": [
+        "BENZOIC ACID"
+      ],
+      "cfr": [
+        "184.1021"
+      ],
+      "eu": {
+        "E210": "Benzoic acid ( 1 )"
+      },
+      "specs": [
+        "E 210 BENZOIC ACID"
+      ],
+      "classes": [
+        "PRESERVATIVE",
+        "ACIDITY REGULATOR"
+      ]
+    },
+    "E211": {
+      "who": [
+        1098
+      ],
+      "fda": [
+        "SODIUM BENZOATE"
+      ],
+      "cfr": [
+        "184.1733"
+      ],
+      "eu": {
+        "E211": "Sodium benzoate ( 1 )"
+      },
+      "specs": [
+        "E 211 SODIUM BENZOATE"
+      ],
+      "classes": [
+        "PRESERVATIVE",
+        "ANTIOXIDANT",
+        "COLOUR",
+        "FLAVOUR ENHANCER",
+        "ACIDITY REGULATOR"
+      ]
+    },
+    "E212": {
+      "who": [
+        2283
+      ],
+      "fda": [
+        "POTASSIUM BENZOATE"
+      ],
+      "cfr": [],
+      "eu": {
+        "E212": "Potassium benzoate ( 1 )"
+      },
+      "specs": [
+        "E 212 POTASSIUM BENZOATE"
+      ],
+      "classes": [
+        "PRESERVATIVE"
+      ]
+    },
+    "E213": {
+      "who": [
+        452,
+        2099
+      ],
+      "fda": [
+        "CALCIUM BENZOATE"
+      ],
+      "cfr": [],
+      "eu": {
+        "E213": "Calcium benzoate ( 1 )"
+      },
+      "specs": [
+        "E 213 CALCIUM BENZOATE"
+      ],
+      "classes": [
+        "PRESERVATIVE"
+      ]
+    },
+    "E214": {
+      "who": [
+        3244,
+        371,
+        2695
+      ],
+      "fda": [],
+      "cfr": [],
+      "eu": {
+        "E214": "Ethyl-p-hydroxybenzoate"
+      },
+      "specs": [
+        "E 214 ETHYL p-HYDROXYBENZOATE"
+      ],
+      "classes": [
+        "PRESERVATIVE"
+      ]
+    },
+    "E215": {
+      "who": [],
+      "fda": [],
+      "cfr": [],
+      "eu": {
+        "E215": "Sodium ethyl p-hydroxybenzoate"
+      },
+      "specs": [
+        "E 215 SODIUM ETHYL p-HYDROXYBENZOATE"
+      ],
+      "classes": []
+    },
+    "E216": {
+      "who": [
+        330,
+        3766,
+        3045
+      ],
+      "fda": [
+        "PROPYL P-HYDROXYBENZOATE"
+      ],
+      "cfr": [
+        "172.515"
+      ],
+      "eu": {},
+      "specs": [],
+      "classes": [
+        "PRESERVATIVE"
+      ]
+    },
+    "E217": {
+      "who": [],
+      "fda": [],
+      "cfr": [],
+      "eu": {},
+      "specs": [],
+      "classes": []
+    },
+    "E218": {
+      "who": [
+        3206,
+        3204,
+        342
+      ],
+      "fda": [
+        "METHYL P-HYDROXYBENZOATE"
+      ],
+      "cfr": [
+        "172.515"
+      ],
+      "eu": {
+        "E218": "Methyl p-hydroxybenzoate"
+      },
+      "specs": [
+        "E 218 METHYL p-HYDROXYBENZOATE"
+      ],
+      "classes": [
+        "PRESERVATIVE"
+      ]
+    },
+    "E219": {
+      "who": [],
+      "fda": [],
+      "cfr": [],
+      "eu": {
+        "E219": "Sodium methyl p-hydroxybenzoate"
+      },
+      "specs": [
+        "E 219 SODIUM METHYL p-HYDROXYBENZOATE"
+      ],
+      "classes": []
+    },
+    "E220": {
+      "who": [
+        985
+      ],
+      "fda": [
+        "SULFUR DIOXIDE"
+      ],
+      "cfr": [
+        "182.3862"
+      ],
+      "eu": {
+        "E220": "Sulphur dioxide"
+      },
+      "specs": [
+        "E 220 SULPHUR DIOXIDE"
+      ],
+      "classes": [
+        "PRESERVATIVE",
+        "ANTIOXIDANT",
+        "COLOUR",
+        "FLAVOUR ENHANCER"
+      ]
+    },
+    "E221": {
+      "who": [
+        2993,
+        2821
+      ],
+      "fda": [
+        "SODIUM SULFITE"
+      ],
+      "cfr": [
+        "173.310",
+        "182.3798"
+      ],
+      "eu": {
+        "E221": "Sodium sulphite"
+      },
+      "specs": [
+        "E 221 SODIUM SULPHITE"
+      ],
+      "classes": [
+        "PRESERVATIVE",
+        "ANTIOXIDANT",
+        "COLOUR",
+        "ACIDITY REGULATOR"
+      ]
+    },
+    "E222": {
+      "who": [
+        2269
+      ],
+      "fda": [
+        "SODIUM BISULFITE"
+      ],
+      "cfr": [
+        "182.3739"
+      ],
+      "eu": {
+        "E222": "Sodium hydrogen sulphite"
+      },
+      "specs": [
+        "E 222 SODIUM BISULPHITE"
+      ],
+      "classes": [
+        "PRESERVATIVE",
+        "ANTIOXIDANT",
+        "COLOUR",
+        "GLAZING AGENT"
+      ]
+    },
+    "E223": {
+      "who": [
+        1824,
+        2640,
+        3503
+      ],
+      "fda": [
+        "SODIUM METABISULFITE"
+      ],
+      "cfr": [
+        "173.310",
+        "182.3766"
+      ],
+      "eu": {
+        "E223": "Sodium metabisulphite"
+      },
+      "specs": [
+        "E 223 SODIUM METABISULPHITE"
+      ],
+      "classes": [
+        "PRESERVATIVE",
+        "ANTIOXIDANT",
+        "COLOUR"
+      ]
+    },
+    "E224": {
+      "who": [
+        2272
+      ],
+      "fda": [
+        "POTASSIUM METABISULFITE"
+      ],
+      "cfr": [
+        "182.3637"
+      ],
+      "eu": {
+        "E224": "Potassium metabisulphite"
+      },
+      "specs": [
+        "E 224 POTASSIUM METABISULPHITE"
+      ],
+      "classes": [
+        "PRESERVATIVE",
+        "ANTIOXIDANT",
+        "COLOUR"
+      ]
+    },
+    "E225": {
+      "who": [
+        2483
+      ],
+      "fda": [
+        "POTASSIUM SULFITE"
+      ],
+      "cfr": [],
+      "eu": {},
+      "specs": [],
+      "classes": [
+        "PRESERVATIVE",
+        "ANTIOXIDANT"
+      ]
+    },
+    "E226": {
+      "who": [
+        1361
+      ],
+      "fda": [],
+      "cfr": [],
+      "eu": {
+        "E226": "Calcium sulphite"
+      },
+      "specs": [
+        "E 226 CALCIUM SULPHITE"
+      ],
+      "classes": []
+    },
+    "E227": {
+      "who": [
+        81,
+        454
+      ],
+      "fda": [],
+      "cfr": [],
+      "eu": {
+        "E227": "Calcium hydrogen sulphite"
+      },
+      "specs": [
+        "E 227 CALCIUM BISULPHITE"
+      ],
+      "classes": [
+        "PRESERVATIVE"
+      ]
+    },
+    "E228": {
+      "who": [
+        2445
+      ],
+      "fda": [
+        "POTASSIUM BISULFITE"
+      ],
+      "cfr": [
+        "182.3616"
+      ],
+      "eu": {
+        "E228": "Potassium hydrogen sulphite"
+      },
+      "specs": [
+        "E 228 POTASSIUM BISULPHITE"
+      ],
+      "classes": [
+        "PRESERVATIVE",
+        "ANTIOXIDANT"
+      ]
+    },
+    "E230": {
+      "who": [
+        957
+      ],
+      "fda": [],
+      "cfr": [],
+      "eu": {},
+      "specs": [],
+      "classes": [
+        "PRESERVATIVE"
+      ]
+    },
+    "E231": {
+      "who": [
+        2628,
+        3846,
+        1512
+      ],
+      "fda": [
+        "O-PHENYLPHENOL"
+      ],
+      "cfr": [],
+      "eu": {},
+      "specs": [],
+      "classes": [
+        "PRESERVATIVE"
+      ]
+    },
+    "E232": {
+      "who": [],
+      "fda": [],
+      "cfr": [],
+      "eu": {},
+      "specs": [],
+      "classes": []
+    },
+    "E233": {
+      "who": [
+        2464
+      ],
+      "fda": [],
+      "cfr": [],
+      "eu": {},
+      "specs": [],
+      "classes": []
+    },
+    "E234": {
+      "who": [
+        572
+      ],
+      "fda": [],
+      "cfr": [],
+      "eu": {
+        "E234": "Nisin"
+      },
+      "specs": [
+        "E 234 NISIN"
+      ],
+      "classes": [
+        "PRESERVATIVE"
+      ]
+    },
+    "E235": {
+      "who": [
+        3255,
+        671
+      ],
+      "fda": [
+        "NATAMYCIN"
+      ],
+      "cfr": [],
+      "eu": {
+        "E235": "Natamycin"
+      },
+      "specs": [
+        "E 235 NATAMYCIN"
+      ],
+      "classes": [
+        "PRESERVATIVE"
+      ]
+    },
+    "E236": {
+      "who": [
+        1561
+      ],
+      "fda": [
+        "FORMIC ACID"
+      ],
+      "cfr": [
+        "172.515"
+      ],
+      "eu": {},
+      "specs": [],
+      "classes": [
+        "PRESERVATIVE",
+        "FLAVOUR ENHANCER"
+      ]
+    },
+    "E237": {
+      "who": [],
+      "fda": [
+        "SODIUM FORMATE"
+      ],
+      "cfr": [],
+      "eu": {},
+      "specs": [],
+      "classes": []
+    },
+    "E238": {
+      "who": [],
+      "fda": [],
+      "cfr": [],
+      "eu": {},
+      "specs": [],
+      "classes": []
+    },
+    "E239": {
+      "who": [
+        2415,
+        1720
+      ],
+      "fda": [],
+      "cfr": [],
+      "eu": {
+        "E239": "Hexamethylene tetramine"
+      },
+      "specs": [
+        "E 239 HEXAMETHYLENE TETRAMINE"
+      ],
+      "classes": [
+        "PRESERVATIVE"
+      ]
+    },
+    "E240": {
+      "who": [],
+      "fda": [
+        "FORMALDEHYDE"
+      ],
+      "cfr": [
+        "173.340"
+      ],
+      "eu": {},
+      "specs": [],
+      "classes": []
+    },
+    "E242": {
+      "who": [
+        1032,
+        1212
+      ],
+      "fda": [
+        "DIMETHYL DICARBONATE"
+      ],
+      "cfr": [
+        "172.133"
+      ],
+      "eu": {
+        "E242": "Dimethyl dicarbonate"
+      },
+      "specs": [
+        "E 242 DIMETHYL DICARBONATE"
+      ],
+      "classes": [
+        "PRESERVATIVE"
+      ]
+    },
+    "E249": {
+      "who": [
+        2842
+      ],
+      "fda": [
+        "POTASSIUM NITRITE"
+      ],
+      "cfr": [],
+      "eu": {
+        "E249": "Potassium nitrite"
+      },
+      "specs": [
+        "E 249 POTASSIUM NITRITE"
+      ],
+      "classes": [
+        "PRESERVATIVE"
+      ]
+    },
+    "E250": {
+      "who": [
+        4792
+      ],
+      "fda": [
+        "SODIUM NITRITE"
+      ],
+      "cfr": [
+        "172.175"
+      ],
+      "eu": {
+        "E250": "Sodium nitrite"
+      },
+      "specs": [
+        "E 250 SODIUM NITRITE"
+      ],
+      "classes": [
+        "PRESERVATIVE",
+        "ANTIOXIDANT",
+        "COLOUR",
+        "FLAVOUR ENHANCER",
+        "PROPELLANT"
+      ]
+    },
+    "E251": {
+      "who": [
+        1569,
+        550,
+        1402
+      ],
+      "fda": [
+        "SODIUM NITRATE"
+      ],
+      "cfr": [
+        "172.170",
+        "173.310"
+      ],
+      "eu": {
+        "E251": "Sodium nitrate"
+      },
+      "specs": [
+        "E 251 SODIUM NITRATE"
+      ],
+      "classes": [
+        "PRESERVATIVE",
+        "COLOUR",
+        "FLAVOUR ENHANCER",
+        "PROPELLANT"
+      ]
+    },
+    "E252": {
+      "who": [
+        390,
+        710,
+        2214
+      ],
+      "fda": [
+        "POTASSIUM NITRATE"
+      ],
+      "cfr": [
+        "172.160"
+      ],
+      "eu": {
+        "E252": "Potassium nitrate"
+      },
+      "specs": [
+        "E 252 POTASSIUM NITRATE"
+      ],
+      "classes": [
+        "PRESERVATIVE",
+        "COLOUR",
+        "FLAVOUR ENHANCER"
+      ]
+    },
+    "E260": {
+      "who": [
+        4785,
+        1461
+      ],
+      "fda": [
+        "ACETIC ACID"
+      ],
+      "cfr": [
+        "184.1005"
+      ],
+      "eu": {
+        "E260": "Acetic acid"
+      },
+      "specs": [
+        "E 260 ACETIC ACID"
+      ],
+      "classes": [
+        "PRESERVATIVE",
+        "FLAVOUR ENHANCER",
+        "ACIDITY REGULATOR"
+      ]
+    },
+    "E261": {
+      "who": [
+        3218
+      ],
+      "fda": [
+        "POTASSIUM ACETATE"
+      ],
+      "cfr": [
+        "172.515"
+      ],
+      "eu": {
+        "E261": "Potassium acetates ( 4 )"
+      },
+      "specs": [
+        "E 261 POTASSIUM ACETATE"
+      ],
+      "classes": [
+        "PRESERVATIVE"
+      ]
+    },
+    "E262": {
+      "who": [
+        2970,
+        1654
+      ],
+      "fda": [
+        "SODIUM ACETATE",
+        "SODIUM DIACETATE"
+      ],
+      "cfr": [
+        "173.310",
+        "184.1721",
+        "184.1754"
+      ],
+      "eu": {
+        "E262": "Sodium acetates"
+      },
+      "specs": [
+        "E 262 (i) SODIUM ACETATE",
+        "E 262 (ii) SODIUM DIACETATE"
+      ],
+      "classes": [
+        "PRESERVATIVE",
+        "SEQUESTRANT",
+        "ACIDITY REGULATOR"
+      ]
+    },
+    "E263": {
+      "who": [
+        2804
+      ],
+      "fda": [
+        "CALCIUM ACETATE"
+      ],
+      "cfr": [
+        "184.1185"
+      ],
+      "eu": {
+        "E263": "Calcium acetate"
+      },
+      "specs": [
+        "E 263 CALCIUM ACETATE"
+      ],
+      "classes": [
+        "PRESERVATIVE",
+        "STABILIZER",
+        "COLOUR",
+        "FIRMING AGENT",
+        "ACIDITY REGULATOR",
+        "SEQUESTRANT",
+        "THICKENER"
+      ]
+    },
+    "E264": {
+      "who": [
+        438
+      ],
+      "fda": [
+        "AMMONIUM ACETATE"
+      ],
+      "cfr": [],
+      "eu": {},
+      "specs": [],
+      "classes": []
+    },
+    "E265": {
+      "who": [],
+      "fda": [
+        "DEHYDROACETIC ACID"
+      ],
+      "cfr": [
+        "172.130"
+      ],
+      "eu": {},
+      "specs": [],
+      "classes": []
+    },
+    "E266": {
+      "who": [],
+      "fda": [
+        "SODIUM DEHYDROACETATE"
+      ],
+      "cfr": [],
+      "eu": {},
+      "specs": [],
+      "classes": [
+        "COLOUR"
+      ]
+    },
+    "E270": {
+      "who": [
+        3367
+      ],
+      "fda": [
+        "LACTIC ACID"
+      ],
+      "cfr": [
+        "184.1061"
+      ],
+      "eu": {
+        "E270": "Lactic acid"
+      },
+      "specs": [
+        "E 270 LACTIC ACID"
+      ],
+      "classes": [
+        "FLAVOUR ENHANCER",
+        "ACIDITY REGULATOR"
+      ]
+    },
+    "E280": {
+      "who": [
+        3438,
+        3451,
+        491
+      ],
+      "fda": [
+        "PROPIONIC ACID"
+      ],
+      "cfr": [
+        "184.1081"
+      ],
+      "eu": {
+        "E280": "Propionic acid"
+      },
+      "specs": [
+        "E 280 PROPIONIC ACID"
+      ],
+      "classes": [
+        "PRESERVATIVE",
+        "ACIDITY REGULATOR"
+      ]
+    },
+    "E281": {
+      "who": [
+        3999
+      ],
+      "fda": [
+        "SODIUM PROPIONATE"
+      ],
+      "cfr": [
+        "184.1784"
+      ],
+      "eu": {
+        "E281": "Sodium propionate"
+      },
+      "specs": [
+        "E 281 SODIUM PROPIONATE"
+      ],
+      "classes": [
+        "PRESERVATIVE"
+      ]
+    },
+    "E282": {
+      "who": [
+        2163
+      ],
+      "fda": [
+        "CALCIUM PROPIONATE"
+      ],
+      "cfr": [
+        "184.1221"
+      ],
+      "eu": {
+        "E282": "Calcium propionate"
+      },
+      "specs": [
+        "E 282 CALCIUM PROPIONATE"
+      ],
+      "classes": [
+        "PRESERVATIVE",
+        "ANTIOXIDANT"
+      ]
+    },
+    "E283": {
+      "who": [
+        2401
+      ],
+      "fda": [],
+      "cfr": [],
+      "eu": {
+        "E283": "Potassium propionate"
+      },
+      "specs": [
+        "E 283 POTASSIUM PROPIONATE"
+      ],
+      "classes": [
+        "PRESERVATIVE"
+      ]
+    },
+    "E284": {
+      "who": [
+        1110
+      ],
+      "fda": [
+        "BORIC ACID"
+      ],
+      "cfr": [],
+      "eu": {
+        "E284": "Boric acid"
+      },
+      "specs": [
+        "E 284 BORIC ACID"
+      ],
+      "classes": [
+        "PRESERVATIVE"
+      ]
+    },
+    "E285": {
+      "who": [],
+      "fda": [],
+      "cfr": [],
+      "eu": {
+        "E285": "Sodium tetraborate (borax)"
+      },
+      "specs": [
+        "E 285 SODIUM TETRABORATE (BORAX)"
+      ],
+      "classes": []
+    },
+    "E290": {
+      "who": [
+        592,
+        2133
+      ],
+      "fda": [
+        "CARBON DIOXIDE"
+      ],
+      "cfr": [
+        "184.1240"
+      ],
+      "eu": {
+        "E290": "Carbon dioxide"
+      },
+      "specs": [
+        "E 290 CARBON DIOXIDE"
+      ],
+      "classes": [
+        "PRESERVATIVE",
+        "PROPELLANT",
+        "ANTIOXIDANT",
+        "FLAVOUR ENHANCER",
+        "ACIDITY REGULATOR"
+      ]
+    },
+    "E296": {
+      "who": [
+        4939,
+        5163
+      ],
+      "fda": [
+        "MALIC ACID"
+      ],
+      "cfr": [
+        "184.1069"
+      ],
+      "eu": {
+        "E296": "Malic acid"
+      },
+      "specs": [
+        "E 296 MALIC ACID"
+      ],
+      "classes": [
+        "FLAVOUR ENHANCER",
+        "ACIDITY REGULATOR"
+      ]
+    },
+    "E297": {
+      "who": [
+        1723,
+        3797
+      ],
+      "fda": [
+        "FUMARIC ACID"
+      ],
+      "cfr": [],
+      "eu": {
+        "E297": "Fumaric acid"
+      },
+      "specs": [
+        "E 297 FUMARIC ACID"
+      ],
+      "classes": [
+        "RAISING AGENT",
+        "ACIDITY REGULATOR"
+      ]
+    },
+    "E300": {
+      "who": [
+        59,
+        2304
+      ],
+      "fda": [
+        "ASCORBIC ACID"
+      ],
+      "cfr": [
+        "182.3013",
+        "182.8013"
+      ],
+      "eu": {
+        "E300": "Ascorbic acid"
+      },
+      "specs": [
+        "E 300 ASCORBIC ACID, L-ASCORBIC ACID"
+      ],
+      "classes": [
+        "ANTIOXIDANT",
+        "COLOUR",
+        "FLAVOUR ENHANCER",
+        "ACIDITY REGULATOR",
+        "SEQUESTRANT",
+        "THICKENER"
+      ]
+    },
+    "E301": {
+      "who": [
+        2372
+      ],
+      "fda": [
+        "SODIUM ASCORBATE"
+      ],
+      "cfr": [
+        "182.3731"
+      ],
+      "eu": {
+        "E301": "Sodium ascorbate"
+      },
+      "specs": [
+        "E 301 SODIUM ASCORBATE"
+      ],
+      "classes": [
+        "ANTIOXIDANT",
+        "COLOUR",
+        "RAISING AGENT",
+        "GLAZING AGENT"
+      ]
+    },
+    "E302": {
+      "who": [
+        1348
+      ],
+      "fda": [
+        "CALCIUM ASCORBATE"
+      ],
+      "cfr": [
+        "182.3189"
+      ],
+      "eu": {
+        "E302": "Calcium ascorbate"
+      },
+      "specs": [
+        "E 302 CALCIUM ASCORBATE"
+      ],
+      "classes": [
+        "ANTIOXIDANT"
+      ]
+    },
+    "E303": {
+      "who": [
+        3233
+      ],
+      "fda": [],
+      "cfr": [],
+      "eu": {},
+      "specs": [],
+      "classes": [
+        "ANTIOXIDANT"
+      ]
+    },
+    "E304": {
+      "who": [
+        60,
+        5092
+      ],
+      "fda": [
+        "ASCORBYL PALMITATE"
+      ],
+      "cfr": [
+        "182.3149"
+      ],
+      "eu": {
+        "E304": "Fatty acid esters of ascorbic acid"
+      },
+      "specs": [
+        "E 304 (i) ASCORBYL PALMITATE",
+        "E 304 (ii) ASCORBYL STEARATE"
+      ],
+      "classes": [
+        "ANTIOXIDANT"
+      ]
+    },
+    "E305": {
+      "who": [
+        61,
+        5093
+      ],
+      "fda": [
+        "ASCORBYL STEARATE"
+      ],
+      "cfr": [],
+      "eu": {},
+      "specs": [],
+      "classes": [
+        "ANTIOXIDANT"
+      ]
+    },
+    "E306": {
+      "who": [
+        1591
+      ],
+      "fda": [
+        "TOCOPHEROLS"
+      ],
+      "cfr": [
+        "182.3890",
+        "182.8890"
+      ],
+      "eu": {
+        "E306": "Tocopherol-rich extract"
+      },
+      "specs": [
+        "E 306 TOCOPHEROL-RICH EXTRACT"
+      ],
+      "classes": [
+        "ANTIOXIDANT",
+        "FLAVOUR ENHANCER"
+      ]
+    },
+    "E307": {
+      "who": [],
+      "fda": [],
+      "cfr": [],
+      "eu": {
+        "E307": "Alpha-tocopherol"
+      },
+      "specs": [
+        "E 307 ALPHA-TOCOPHEROL"
+      ],
+      "classes": []
+    },
+    "E308": {
+      "who": [],
+      "fda": [],
+      "cfr": [],
+      "eu": {
+        "E308": "Gamma-tocopherol"
+      },
+      "specs": [
+        "E 308 GAMMA-TOCOPHEROL"
+      ],
+      "classes": []
+    },
+    "E309": {
+      "who": [],
+      "fda": [],
+      "cfr": [],
+      "eu": {
+        "E309": "Delta-tocopherol"
+      },
+      "specs": [
+        "E 309 DELTA-TOCOPHEROL"
+      ],
+      "classes": []
+    },
+    "E310": {
+      "who": [
+        1272
+      ],
+      "fda": [
+        "PROPYL GALLATE"
+      ],
+      "cfr": [
+        "172.615",
+        "184.1660"
+      ],
+      "eu": {
+        "E310": "Propyl gallate"
+      },
+      "specs": [
+        "E 310 PROPYL GALLATE"
+      ],
+      "classes": [
+        "ANTIOXIDANT"
+      ]
+    },
+    "E311": {
+      "who": [
+        4118
+      ],
+      "fda": [
+        "OCTYL GALLATE"
+      ],
+      "cfr": [],
+      "eu": {},
+      "specs": [
+        "E 311 OCTYL GALLATE"
+      ],
+      "classes": [
+        "ANTIOXIDANT"
+      ]
+    },
+    "E312": {
+      "who": [
+        1885,
+        3821
+      ],
+      "fda": [
+        "DODECYL GALLATE"
+      ],
+      "cfr": [],
+      "eu": {},
+      "specs": [
+        "E 312 DODECYL GALLATE"
+      ],
+      "classes": [
+        "ANTIOXIDANT"
+      ]
+    },
+    "E313": {
+      "who": [],
+      "fda": [],
+      "cfr": [],
+      "eu": {},
+      "specs": [],
+      "classes": []
+    },
+    "E314": {
+      "who": [
+        861
+      ],
+      "fda": [],
+      "cfr": [],
+      "eu": {},
+      "specs": [],
+      "classes": [
+        "ANTIOXIDANT"
+      ]
+    },
+    "E315": {
+      "who": [
+        2602,
+        3187,
+        1496
+      ],
+      "fda": [
+        "ERYTHORBIC ACID"
+      ],
+      "cfr": [
+        "182.3041"
+      ],
+      "eu": {
+        "E315": "Erythorbic acid"
+      },
+      "specs": [
+        "E 315 ERYTHORBIC ACID"
+      ],
+      "classes": [
+        "ANTIOXIDANT",
+        "COLOUR",
+        "FLAVOUR ENHANCER"
+      ]
+    },
+    "E316": {
+      "who": [
+        2641,
+        1550
+      ],
+      "fda": [
+        "SODIUM ERYTHORBATE"
+      ],
+      "cfr": [],
+      "eu": {
+        "E316": "Sodium erythorbate"
+      },
+      "specs": [
+        "E 316 SODIUM ERYTHORBATE"
+      ],
+      "classes": [
+        "ANTIOXIDANT",
+        "COLOUR",
+        "GLAZING AGENT"
+      ]
+    },
+    "E317": {
+      "who": [],
+      "fda": [],
+      "cfr": [],
+      "eu": {},
+      "specs": [],
+      "classes": []
+    },
+    "E318": {
+      "who": [],
+      "fda": [],
+      "cfr": [],
+      "eu": {},
+      "specs": [],
+      "classes": []
+    },
+    "E319": {
+      "who": [
+        3548
+      ],
+      "fda": [
+        "TERT-BUTYLHYDROQUINONE"
+      ],
+      "cfr": [],
+      "eu": {
+        "E319": "Tertiary-butyl hydroquinone (TBHQ)"
+      },
+      "specs": [
+        "E 319 TERTIARY-BUTYLHYDROQUINONE (TBHQ)"
+      ],
+      "classes": [
+        "ANTIOXIDANT"
+      ]
+    },
+    "E320": {
+      "who": [
+        2140,
+        1910
+      ],
+      "fda": [
+        "BUTYLATED HYDROXYANISOLE"
+      ],
+      "cfr": [
+        "172.515",
+        "172.615",
+        "182.3169"
+      ],
+      "eu": {
+        "E320": "Butylated hydroxyanisole (BHA)"
+      },
+      "specs": [
+        "E 320 BUTYLATED HYDROXYANISOLE (BHA)"
+      ],
+      "classes": [
+        "ANTIOXIDANT",
+        "FLAVOUR ENHANCER"
+      ]
+    },
+    "E321": {
+      "who": [
+        2142,
+        1911
+      ],
+      "fda": [
+        "BUTYLATED HYDROXYTOLUENE"
+      ],
+      "cfr": [
+        "172.615"
+      ],
+      "eu": {
+        "E321": "Butylated hydroxytoluene (BHT)"
+      },
+      "specs": [
+        "E 321 BUTYLATED HYDROXYTOLUENE (BHT)"
+      ],
+      "classes": [
+        "ANTIOXIDANT",
+        "FLAVOUR ENHANCER"
+      ]
+    },
+    "E322": {
+      "who": [
+        1477,
+        1478
+      ],
+      "fda": [
+        "LECITHIN"
+      ],
+      "cfr": [
+        "184.1400"
+      ],
+      "eu": {
+        "E322": "Lecithins"
+      },
+      "specs": [
+        "E 322 LECITHINS"
+      ],
+      "classes": [
+        "ANTIOXIDANT",
+        "EMULSIFIER",
+        "ANTICAKING AGENT",
+        "HUMECTANT"
+      ]
+    },
+    "E323": {
+      "who": [
+        2707
+      ],
+      "fda": [
+        "ANOXOMER"
+      ],
+      "cfr": [
+        "172.105"
+      ],
+      "eu": {},
+      "specs": [],
+      "classes": [
+        "ANTIOXIDANT"
+      ]
+    },
+    "E324": {
+      "who": [],
+      "fda": [
+        "ETHOXYQUIN"
+      ],
+      "cfr": [
+        "172.140"
+      ],
+      "eu": {},
+      "specs": [],
+      "classes": [
+        "ANTIOXIDANT"
+      ]
+    },
+    "E325": {
+      "who": [
+        1552
+      ],
+      "fda": [
+        "SODIUM LACTATE"
+      ],
+      "cfr": [
+        "184.1768"
+      ],
+      "eu": {
+        "E325": "Sodium lactate"
+      },
+      "specs": [
+        "E 325 SODIUM LACTATE"
+      ],
+      "classes": [
+        "THICKENER",
+        "HUMECTANT",
+        "EMULSIFIER",
+        "FLAVOUR ENHANCER",
+        "ACIDITY REGULATOR"
+      ]
+    },
+    "E326": {
+      "who": [
+        2777
+      ],
+      "fda": [
+        "POTASSIUM LACTATE"
+      ],
+      "cfr": [
+        "184.1639"
+      ],
+      "eu": {
+        "E326": "Potassium lactate"
+      },
+      "specs": [
+        "E 326 POTASSIUM LACTATE"
+      ],
+      "classes": [
+        "FLAVOUR ENHANCER"
+      ]
+    },
+    "E327": {
+      "who": [
+        88
+      ],
+      "fda": [
+        "CALCIUM LACTATE"
+      ],
+      "cfr": [
+        "184.1207"
+      ],
+      "eu": {
+        "E327": "Calcium lactate"
+      },
+      "specs": [
+        "E 327 CALCIUM LACTATE"
+      ],
+      "classes": [
+        "FIRMING AGENT",
+        "FLAVOUR ENHANCER",
+        "RAISING AGENT",
+        "ACIDITY REGULATOR",
+        "THICKENER"
+      ]
+    },
+    "E328": {
+      "who": [
+        136
+      ],
+      "fda": [],
+      "cfr": [],
+      "eu": {},
+      "specs": [],
+      "classes": []
+    },
+    "E329": {
+      "who": [
+        3000
+      ],
+      "fda": [],
+      "cfr": [],
+      "eu": {},
+      "specs": [],
+      "classes": []
+    },
+    "E330": {
+      "who": [
+        3594
+      ],
+      "fda": [
+        "CITRIC ACID"
+      ],
+      "cfr": [
+        "184.1033"
+      ],
+      "eu": {
+        "E330": "Citric acid"
+      },
+      "specs": [
+        "E 330 CITRIC ACID"
+      ],
+      "classes": [
+        "SEQUESTRANT",
+        "ANTIOXIDANT",
+        "ENZYME",
+        "FLAVOUR ENHANCER",
+        "RAISING AGENT",
+        "ACIDITY REGULATOR"
+      ]
+    },
+    "E331": {
+      "who": [
+        1811,
+        1650,
+        2709
+      ],
+      "fda": [],
+      "cfr": [],
+      "eu": {
+        "E331": "Sodium citrates"
+      },
+      "specs": [
+        "E 331 (i) MONOSODIUM CITRATE",
+        "E 331 (ii) DISODIUM CITRATE",
+        "E 331 (iii) TRISODIUM CITRATE"
+      ],
+      "classes": [
+        "SEQUESTRANT"
+      ]
+    },
+    "E332": {
+      "who": [
+        1875,
+        366,
+        1367,
+        2104
+      ],
+      "fda": [
+        "POTASSIUM CITRATE"
+      ],
+      "cfr": [
+        "184.1625"
+      ],
+      "eu": {
+        "E332": "Potassium citrates"
+      },
+      "specs": [
+        "E 332 (i) MONOPOTASSIUM CITRATE",
+        "E 332 (ii) TRIPOTASSIUM CITRATE"
+      ],
+      "classes": [
+        "STABILIZER",
+        "SEQUESTRANT",
+        "EMULSIFIER",
+        "FLAVOUR ENHANCER",
+        "ACIDITY REGULATOR"
+      ]
+    },
+    "E333": {
+      "who": [
+        2938
+      ],
+      "fda": [
+        "CALCIUM CITRATE"
+      ],
+      "cfr": [
+        "184.1195"
+      ],
+      "eu": {
+        "E333": "Calcium citrates"
+      },
+      "specs": [
+        "E 333 (i) MONOCALCIUM CITRATE",
+        "E 333 (ii) DICALCIUM CITRATE",
+        "E 333 (iii) TRICALCIUM CITRATE"
+      ],
+      "classes": [
+        "SEQUESTRANT",
+        "FIRMING AGENT",
+        "ACIDITY REGULATOR"
+      ]
+    },
+    "E334": {
+      "who": [
+        4746
+      ],
+      "fda": [
+        "TARTARIC ACID, L"
+      ],
+      "cfr": [],
+      "eu": {
+        "E334": "Tartaric acid (L(+)-)"
+      },
+      "specs": [
+        "E 334 L(+)-TARTARIC ACID, TARTARIC ACID"
+      ],
+      "classes": [
+        "SEQUESTRANT",
+        "ANTICAKING AGENT",
+        "FIRMING AGENT",
+        "FLAVOUR ENHANCER",
+        "HUMECTANT",
+        "RAISING AGENT",
+        "ACIDITY REGULATOR"
+      ]
+    },
+    "E335": {
+      "who": [
+        2318
+      ],
+      "fda": [],
+      "cfr": [],
+      "eu": {
+        "E335": "Sodium tartrates"
+      },
+      "specs": [
+        "E 335 (i) MONOSODIUM TARTRATE",
+        "E 335 (ii) DISODIUM TARTRATE"
+      ],
+      "classes": [
+        "STABILIZER",
+        "SEQUESTRANT"
+      ]
+    },
+    "E336": {
+      "who": [],
+      "fda": [],
+      "cfr": [],
+      "eu": {
+        "E336": "Potassium tartrates"
+      },
+      "specs": [
+        "E 336 (i) MONOPOTASSIUM TARTRATE",
+        "E 336 (ii) DIPOTASSIUM TARTRATE"
+      ],
+      "classes": []
+    },
+    "E337": {
+      "who": [
+        3624,
+        3325,
+        2377
+      ],
+      "fda": [
+        "SODIUM POTASSIUM TARTRATE"
+      ],
+      "cfr": [
+        "184.1804"
+      ],
+      "eu": {
+        "E337": "Sodium potassium tartrate"
+      },
+      "specs": [
+        "E 337 POTASSIUM SODIUM TARTRATE"
+      ],
+      "classes": [
+        "STABILIZER",
+        "SEQUESTRANT",
+        "EMULSIFIER",
+        "ACIDITY REGULATOR"
+      ]
+    },
+    "E338": {
+      "who": [
+        1777,
+        2530
+      ],
+      "fda": [
+        "PHOSPHORIC ACID"
+      ],
+      "cfr": [
+        "182.1073"
+      ],
+      "eu": {
+        "E338": "Phosphoric acid"
+      },
+      "specs": [
+        "E 338 PHOSPHORIC ACID"
+      ],
+      "classes": [
+        "SEQUESTRANT",
+        "FLAVOUR ENHANCER",
+        "SWEETENER",
+        "ACIDITY REGULATOR"
+      ]
+    },
+    "E339": {
+      "who": [],
+      "fda": [],
+      "cfr": [],
+      "eu": {
+        "E339": "Sodium phosphates"
+      },
+      "specs": [
+        "E 339 (i) MONOSODIUM PHOSPHATE",
+        "E 339 (ii) DISODIUM PHOSPHATE",
+        "E 339 (iii) TRISODIUM PHOSPHATE"
+      ],
+      "classes": []
+    },
+    "E340": {
+      "who": [
+        2985,
+        1677,
+        505,
+        1363,
+        1532
+      ],
+      "fda": [],
+      "cfr": [],
+      "eu": {
+        "E340": "Potassium phosphates"
+      },
+      "specs": [
+        "E 340 (i) MONOPOTASSIUM PHOSPHATE",
+        "E 340 (ii) DIPOTASSIUM PHOSPHATE",
+        "E 340 (iii) TRIPOTASSIUM PHOSPHATE"
+      ],
+      "classes": [
+        "STABILIZER",
+        "SEQUESTRANT"
+      ]
+    },
+    "E341": {
+      "who": [
+        2751,
+        2170,
+        453,
+        607,
+        1245,
+        1393,
+        37,
+        656,
+        3792
+      ],
+      "fda": [
+        "CALCIUM PHOSPHATE, TRIBASIC"
+      ],
+      "cfr": [],
+      "eu": {
+        "E341": "Calcium phosphates"
+      },
+      "specs": [
+        "E 341 (i) MONOCALCIUM PHOSPHATE",
+        "E 341 (ii) DICALCIUM PHOSPHATE",
+        "E 341 (iii) TRICALCIUM PHOSPHATE"
+      ],
+      "classes": [
+        "THICKENER",
+        "SEQUESTRANT",
+        "ANTICAKING AGENT",
+        "EMULSIFIER",
+        "HUMECTANT",
+        "RAISING AGENT",
+        "ACIDITY REGULATOR"
+      ]
+    },
+    "E342": {
+      "who": [
+        570,
+        469
+      ],
+      "fda": [],
+      "cfr": [],
+      "eu": {},
+      "specs": [],
+      "classes": []
+    },
+    "E343": {
+      "who": [
+        1541,
+        2246,
+        4021,
+        3764
+      ],
+      "fda": [
+        "MAGNESIUM PHOSPHATE, DIBASIC",
+        "MAGNESIUM PHOSPHATE, TRIBASIC"
+      ],
+      "cfr": [],
+      "eu": {
+        "E343": "Magnesium phosphates"
+      },
+      "specs": [
+        "E 343 (i) MONOMAGNESIUM PHOSPHATE",
+        "E 343 (ii) DIMAGNESIUM PHOSPHATE"
+      ],
+      "classes": [
+        "ACIDITY REGULATOR",
+        "THICKENER"
+      ]
+    },
+    "E344": {
+      "who": [],
+      "fda": [],
+      "cfr": [],
+      "eu": {},
+      "specs": [],
+      "classes": []
+    },
+    "E345": {
+      "who": [
+        4272
+      ],
+      "fda": [],
+      "cfr": [],
+      "eu": {},
+      "specs": [],
+      "classes": []
+    },
+    "E349": {
+      "who": [],
+      "fda": [],
+      "cfr": [],
+      "eu": {},
+      "specs": [],
+      "classes": []
+    },
+    "E350": {
+      "who": [
+        4441,
+        5577,
+        575
+      ],
+      "fda": [],
+      "cfr": [],
+      "eu": {
+        "E350": "Sodium malates"
+      },
+      "specs": [
+        "E 350 (i) SODIUM MALATE",
+        "E 350 (ii) SODIUM HYDROGEN MALATE"
+      ],
+      "classes": [
+        "HUMECTANT"
+      ]
+    },
+    "E351": {
+      "who": [],
+      "fda": [],
+      "cfr": [],
+      "eu": {
+        "E351": "Potassium malate"
+      },
+      "specs": [
+        "E 351 POTASSIUM MALATE"
+      ],
+      "classes": []
+    },
+    "E352": {
+      "who": [],
+      "fda": [],
+      "cfr": [],
+      "eu": {
+        "E352": "Calcium malates"
+      },
+      "specs": [
+        "E 352 (i) CALCIUM MALATE",
+        "E 352 (ii) CALCIUM HYDROGEN MALATE"
+      ],
+      "classes": []
+    },
+    "E353": {
+      "who": [
+        6462
+      ],
+      "fda": [],
+      "cfr": [],
+      "eu": {
+        "E353": "Metatartaric acid"
+      },
+      "specs": [
+        "E 353 METATARTARIC ACID"
+      ],
+      "classes": []
+    },
+    "E354": {
+      "who": [],
+      "fda": [],
+      "cfr": [],
+      "eu": {
+        "E354": "Calcium tartrate"
+      },
+      "specs": [
+        "E 354 CALCIUM TARTRATE"
+      ],
+      "classes": []
+    },
+    "E355": {
+      "who": [
+        194
+      ],
+      "fda": [
+        "ADIPIC ACID"
+      ],
+      "cfr": [
+        "184.1009"
+      ],
+      "eu": {
+        "E355": "Adipic acid"
+      },
+      "specs": [
+        "E 355 ADIPIC ACID"
+      ],
+      "classes": [
+        "RAISING AGENT",
+        "ACIDITY REGULATOR"
+      ]
+    },
+    "E356": {
+      "who": [
+        2972
+      ],
+      "fda": [],
+      "cfr": [],
+      "eu": {
+        "E356": "Sodium adipate"
+      },
+      "specs": [
+        "E 356 SODIUM ADIPATE"
+      ],
+      "classes": []
+    },
+    "E357": {
+      "who": [
+        3636
+      ],
+      "fda": [],
+      "cfr": [],
+      "eu": {
+        "E357": "Potassium adipate"
+      },
+      "specs": [
+        "E 357 POTASSIUM ADIPATE"
+      ],
+      "classes": []
+    },
+    "E359": {
+      "who": [
+        928
+      ],
+      "fda": [],
+      "cfr": [],
+      "eu": {},
+      "specs": [],
+      "classes": []
+    },
+    "E363": {
+      "who": [
+        6593
+      ],
+      "fda": [
+        "SUCCINIC ACID"
+      ],
+      "cfr": [
+        "184.1091"
+      ],
+      "eu": {
+        "E363": "Succinic acid"
+      },
+      "specs": [
+        "E 363 SUCCINIC ACID"
+      ],
+      "classes": [
+        "FLAVOUR ENHANCER",
+        "ACIDITY REGULATOR"
+      ]
+    },
+    "E365": {
+      "who": [
+        2762,
+        2256
+      ],
+      "fda": [
+        "SODIUM FUMARATE"
+      ],
+      "cfr": [],
+      "eu": {},
+      "specs": [],
+      "classes": []
+    },
+    "E366": {
+      "who": [
+        3530
+      ],
+      "fda": [
+        "POTASSIUM FUMARATE"
+      ],
+      "cfr": [],
+      "eu": {},
+      "specs": [],
+      "classes": []
+    },
+    "E367": {
+      "who": [
+        2189
+      ],
+      "fda": [
+        "CALCIUM FUMARATE"
+      ],
+      "cfr": [],
+      "eu": {},
+      "specs": [],
+      "classes": []
+    },
+    "E368": {
+      "who": [],
+      "fda": [],
+      "cfr": [],
+      "eu": {},
+      "specs": [],
+      "classes": []
+    },
+    "E370": {
+      "who": [],
+      "fda": [],
+      "cfr": [],
+      "eu": {},
+      "specs": [],
+      "classes": []
+    },
+    "E375": {
+      "who": [],
+      "fda": [
+        "NIACIN"
+      ],
+      "cfr": [
+        "184.1530"
+      ],
+      "eu": {},
+      "specs": [],
+      "classes": []
+    },
+    "E380": {
+      "who": [
+        504,
+        2687,
+        2688,
+        1433
+      ],
+      "fda": [],
+      "cfr": [],
+      "eu": {
+        "E380": "Triammonium citrate"
+      },
+      "specs": [
+        "E 380 TRIAMMONIUM CITRATE"
+      ],
+      "classes": []
+    },
+    "E381": {
+      "who": [
+        40
+      ],
+      "fda": [
+        "IRON AMMONIUM CITRATE"
+      ],
+      "cfr": [
+        "172.430"
+      ],
+      "eu": {},
+      "specs": [],
+      "classes": [
+        "ANTICAKING AGENT"
+      ]
+    },
+    "E383": {
+      "who": [],
+      "fda": [],
+      "cfr": [],
+      "eu": {},
+      "specs": [],
+      "classes": []
+    },
+    "E384": {
+      "who": [
+        2344
+      ],
+      "fda": [
+        "ISOPROPYL CITRATE"
+      ],
+      "cfr": [
+        "184.1386"
+      ],
+      "eu": {},
+      "specs": [],
+      "classes": [
+        "ANTIOXIDANT",
+        "SEQUESTRANT"
+      ]
+    },
+    "E385": {
+      "who": [
+        3011,
+        3883
+      ],
+      "fda": [],
+      "cfr": [],
+      "eu": {
+        "E385": "Calcium disodium ethylene diamine tetra-acetate (Calcium disodium EDTA)"
+      },
+      "specs": [
+        "E 385 CALCIUM DISODIUM ETHYLENEDIAMINETETRAACETATE"
+      ],
+      "classes": [
+        "PRESERVATIVE",
+        "SEQUESTRANT"
+      ]
+    },
+    "E386": {
+      "who": [
+        386,
+        385
+      ],
+      "fda": [],
+      "cfr": [],
+      "eu": {},
+      "specs": [],
+      "classes": [
+        "PRESERVATIVE",
+        "SEQUESTRANT"
+      ]
+    },
+    "E387": {
+      "who": [
+        4154
+      ],
+      "fda": [
+        "OXYSTEARIN"
+      ],
+      "cfr": [
+        "172.818",
+        "173.340"
+      ],
+      "eu": {},
+      "specs": [],
+      "classes": [
+        "EMULSIFIER",
+        "SEQUESTRANT",
+        "GLAZING AGENT"
+      ]
+    },
+    "E388": {
+      "who": [
+        262
+      ],
+      "fda": [
+        "THIODIPROPIONIC ACID"
+      ],
+      "cfr": [
+        "182.3109"
+      ],
+      "eu": {},
+      "specs": [],
+      "classes": [
+        "ANTIOXIDANT"
+      ]
+    },
+    "E389": {
+      "who": [
+        2124
+      ],
+      "fda": [
+        "DILAURYL THIODIPROPIONATE"
+      ],
+      "cfr": [
+        "182.3280"
+      ],
+      "eu": {},
+      "specs": [],
+      "classes": [
+        "ANTIOXIDANT"
+      ]
+    },
+    "E390": {
+      "who": [
+        588
+      ],
+      "fda": [],
+      "cfr": [],
+      "eu": {},
+      "specs": [],
+      "classes": [
+        "ANTIOXIDANT"
+      ]
+    },
+    "E391": {
+      "who": [],
+      "fda": [],
+      "cfr": [],
+      "eu": {},
+      "specs": [],
+      "classes": []
+    },
+    "E392": {
+      "who": [
+        6311
+      ],
+      "fda": [],
+      "cfr": [],
+      "eu": {
+        "E392": "Extracts of rosemary"
+      },
+      "specs": [
+        "E 392 EXTRACTS OF ROSEMARY"
+      ],
+      "classes": [
+        "ANTIOXIDANT"
+      ]
+    },
+    "E399": {
+      "who": [],
+      "fda": [
+        "CALCIUM LACTOBIONATE"
+      ],
+      "cfr": [
+        "172.720"
+      ],
+      "eu": {},
+      "specs": [],
+      "classes": [
+        "FIRMING AGENT"
+      ]
+    },
+    "E400": {
+      "who": [
+        1159
+      ],
+      "fda": [
+        "ALGINIC ACID"
+      ],
+      "cfr": [
+        "184.1011"
+      ],
+      "eu": {
+        "E400": "Alginic acid"
+      },
+      "specs": [
+        "E 400 ALGINIC ACID"
+      ],
+      "classes": [
+        "EMULSIFIER",
+        "STABILIZER",
+        "THICKENER"
+      ]
+    },
+    "E401": {
+      "who": [
+        1823
+      ],
+      "fda": [],
+      "cfr": [],
+      "eu": {
+        "E401": "Sodium alginate"
+      },
+      "specs": [
+        "E 401 SODIUM ALGINATE"
+      ],
+      "classes": [
+        "EMULSIFIER",
+        "STABILIZER",
+        "THICKENER"
+      ]
+    },
+    "E402": {
+      "who": [
+        3122
+      ],
+      "fda": [],
+      "cfr": [],
+      "eu": {
+        "E402": "Potassium alginate"
+      },
+      "specs": [
+        "E 402 POTASSIUM ALGINATE"
+      ],
+      "classes": [
+        "EMULSIFIER",
+        "STABILIZER",
+        "THICKENER"
+      ]
+    },
+    "E403": {
+      "who": [
+        879
+      ],
+      "fda": [],
+      "cfr": [],
+      "eu": {
+        "E403": "Ammonium alginate"
+      },
+      "specs": [
+        "E 403 AMMONIUM ALGINATE"
+      ],
+      "classes": [
+        "EMULSIFIER",
+        "STABILIZER",
+        "THICKENER"
+      ]
+    },
+    "E404": {
+      "who": [
+        2806
+      ],
+      "fda": [],
+      "cfr": [],
+      "eu": {
+        "E404": "Calcium alginate"
+      },
+      "specs": [
+        "E 404 CALCIUM ALGINATE"
+      ],
+      "classes": [
+        "EMULSIFIER",
+        "STABILIZER",
+        "THICKENER"
+      ]
+    },
+    "E405": {
+      "who": [
+        3113,
+        1291,
+        585
+      ],
+      "fda": [
+        "PROPYLENE GLYCOL ALGINATE"
+      ],
+      "cfr": [
+        "172.858",
+        "173.340"
+      ],
+      "eu": {
+        "E405": "Propane-1, 2-diol alginate"
+      },
+      "specs": [
+        "E 405 PROPANE-1,2-DIOL ALGINATE"
+      ],
+      "classes": [
+        "EMULSIFIER",
+        "STABILIZER",
+        "THICKENER",
+        "FLAVOUR ENHANCER",
+        "GLAZING AGENT"
+      ]
+    },
+    "E406": {
+      "who": [
+        1163,
+        2057,
+        4011
+      ],
+      "fda": [],
+      "cfr": [],
+      "eu": {
+        "E406": "Agar"
+      },
+      "specs": [
+        "E 406 AGAR"
+      ],
+      "classes": [
+        "EMULSIFIER",
+        "STABILIZER",
+        "THICKENER"
+      ]
+    },
+    "E407": {
+      "who": [
+        377,
+        994,
+        466,
+        2052,
+        1718,
+        1310
+      ],
+      "fda": [
+        "CARRAGEENAN"
+      ],
+      "cfr": [
+        "172.620"
+      ],
+      "eu": {
+        "E407": "Carrageenan"
+      },
+      "specs": [
+        "E 407 CARRAGEENAN"
+      ],
+      "classes": [
+        "EMULSIFIER",
+        "STABILIZER",
+        "THICKENER",
+        "ANTICAKING AGENT",
+        "FLAVOUR ENHANCER",
+        "HUMECTANT"
+      ]
+    },
+    "E407a": {
+      "who": [
+        4387,
+        2732,
+        338,
+        467,
+        2457,
+        2690
+      ],
+      "fda": [],
+      "cfr": [],
+      "eu": {
+        "E407a": "Processed euchema seaweed"
+      },
+      "specs": [
+        "E 407a PROCESSED EUCHEUMA SEAWEED"
+      ],
+      "classes": [
+        "EMULSIFIER",
+        "STABILIZER",
+        "THICKENER"
+      ]
+    },
+    "E408": {
+      "who": [],
+      "fda": [
+        "BAKER'S YEAST GLYCAN"
+      ],
+      "cfr": [
+        "172.898"
+      ],
+      "eu": {},
+      "specs": [],
+      "classes": [
+        "EMULSIFIER",
+        "THICKENER"
+      ]
+    },
+    "E409": {
+      "who": [],
+      "fda": [
+        "ARABINOGALACTAN"
+      ],
+      "cfr": [
+        "172.610"
+      ],
+      "eu": {},
+      "specs": [],
+      "classes": [
+        "EMULSIFIER",
+        "HUMECTANT",
+        "THICKENER"
+      ]
+    },
+    "E410": {
+      "who": [
+        2872,
+        1158,
+        940
+      ],
+      "fda": [],
+      "cfr": [],
+      "eu": {
+        "E410": "Locust bean gum"
+      },
+      "specs": [
+        "E 410 LOCUST BEAN GUM"
+      ],
+      "classes": [
+        "EMULSIFIER",
+        "STABILIZER",
+        "THICKENER"
+      ]
+    },
+    "E411": {
+      "who": [
+        3099
+      ],
+      "fda": [
+        "OAT GUM"
+      ],
+      "cfr": [],
+      "eu": {},
+      "specs": [],
+      "classes": [
+        "STABILIZER",
+        "THICKENER",
+        "EMULSIFIER"
+      ]
+    },
+    "E412": {
+      "who": [
+        863,
+        1499
+      ],
+      "fda": [],
+      "cfr": [],
+      "eu": {
+        "E412": "Guar gum"
+      },
+      "specs": [
+        "E 412 GUAR GUM"
+      ],
+      "classes": [
+        "EMULSIFIER",
+        "STABILIZER",
+        "THICKENER"
+      ]
+    },
+    "E413": {
+      "who": [
+        2211
+      ],
+      "fda": [],
+      "cfr": [],
+      "eu": {
+        "E413": "Tragacanth"
+      },
+      "specs": [
+        "E 413 TRAGACANTH"
+      ],
+      "classes": [
+        "EMULSIFIER",
+        "STABILIZER",
+        "THICKENER"
+      ]
+    },
+    "E414": {
+      "who": [
+        1133,
+        865
+      ],
+      "fda": [],
+      "cfr": [],
+      "eu": {
+        "E414": "Gum arabic (acacia gum)"
+      },
+      "specs": [
+        "E 414 ACACIA GUM"
+      ],
+      "classes": [
+        "EMULSIFIER",
+        "STABILIZER",
+        "THICKENER"
+      ]
+    },
+    "E415": {
+      "who": [
+        802
+      ],
+      "fda": [
+        "XANTHAN GUM"
+      ],
+      "cfr": [
+        "172.695"
+      ],
+      "eu": {
+        "E415": "Xanthan gum"
+      },
+      "specs": [
+        "E 415 XANTHAN GUM"
+      ],
+      "classes": [
+        "EMULSIFIER",
+        "STABILIZER",
+        "THICKENER",
+        "ANTICAKING AGENT",
+        "COLOUR",
+        "GLAZING AGENT"
+      ]
+    },
+    "E416": {
+      "who": [
+        1,
+        637,
+        2173,
+        2081,
+        639,
+        5182,
+        1209,
+        814
+      ],
+      "fda": [],
+      "cfr": [],
+      "eu": {
+        "E416": "Karaya gum"
+      },
+      "specs": [
+        "E 416 KARAYA-GUM"
+      ],
+      "classes": [
+        "EMULSIFIER",
+        "STABILIZER",
+        "THICKENER"
+      ]
+    },
+    "E417": {
+      "who": [
+        4115
+      ],
+      "fda": [],
+      "cfr": [],
+      "eu": {
+        "E417": "Tara gum"
+      },
+      "specs": [
+        "E 417 TARA GUM"
+      ],
+      "classes": [
+        "STABILIZER",
+        "THICKENER"
+      ]
+    },
+    "E418": {
+      "who": [
+        2056
+      ],
+      "fda": [
+        "GELLAN GUM"
+      ],
+      "cfr": [
+        "172.665"
+      ],
+      "eu": {
+        "E418": "Gellan gum"
+      },
+      "specs": [
+        "E 418 GELLAN GUM"
+      ],
+      "classes": [
+        "STABILIZER",
+        "THICKENER"
+      ]
+    },
+    "E419": {
+      "who": [
+        1207
+      ],
+      "fda": [],
+      "cfr": [],
+      "eu": {},
+      "specs": [],
+      "classes": [
+        "EMULSIFIER",
+        "STABILIZER",
+        "THICKENER",
+        "CARRIER"
+      ]
+    },
+    "E420": {
+      "who": [
+        3018,
+        1003,
+        829,
+        3856,
+        1004
+      ],
+      "fda": [
+        "D-SORBITOL"
+      ],
+      "cfr": [],
+      "eu": {
+        "E420": "Sorbitols"
+      },
+      "specs": [
+        "E 420 (i) SORBITOL",
+        "E 420 (ii) SORBITOL SYRUP"
+      ],
+      "classes": [
+        "STABILIZER",
+        "THICKENER",
+        "SWEETENER",
+        "HUMECTANT",
+        "SEQUESTRANT",
+        "COLOUR",
+        "ACIDITY REGULATOR"
+      ]
+    },
+    "E421": {
+      "who": [
+        5119
+      ],
+      "fda": [
+        "MANNITOL"
+      ],
+      "cfr": [],
+      "eu": {
+        "E421": "Mannitol"
+      },
+      "specs": [
+        "E 421 MANNITOL"
+      ],
+      "classes": [
+        "STABILIZER",
+        "THICKENER",
+        "SWEETENER",
+        "HUMECTANT",
+        "ANTICAKING AGENT",
+        "FLAVOUR ENHANCER"
+      ]
+    },
+    "E422": {
+      "who": [
+        1565,
+        669
+      ],
+      "fda": [
+        "GLYCERIN"
+      ],
+      "cfr": [
+        "182.1320"
+      ],
+      "eu": {
+        "E422": "Glycerol"
+      },
+      "specs": [
+        "E 422 GLYCEROL"
+      ],
+      "classes": [
+        "EMULSIFIER",
+        "THICKENER",
+        "HUMECTANT",
+        "ANTICAKING AGENT",
+        "SWEETENER"
+      ]
+    },
+    "E424": {
+      "who": [
+        1085
+      ],
+      "fda": [
+        "CURDLAN"
+      ],
+      "cfr": [
+        "172.809"
+      ],
+      "eu": {},
+      "specs": [],
+      "classes": [
+        "STABILIZER",
+        "THICKENER"
+      ]
+    },
+    "E425": {
+      "who": [],
+      "fda": [],
+      "cfr": [],
+      "eu": {
+        "E425": "Konjac"
+      },
+      "specs": [
+        "E 425 (i) KONJAC GUM",
+        "E 425 (ii) KONJAC GLUCOMANNAN"
+      ],
+      "classes": []
+    },
+    "E426": {
+      "who": [],
+      "fda": [],
+      "cfr": [],
+      "eu": {
+        "E426": "Soybean hemicellulose"
+      },
+      "specs": [
+        "E 426 SOYBEAN HEMICELLULOSE"
+      ],
+      "classes": []
+    },
+    "E427": {
+      "who": [
+        5876
+      ],
+      "fda": [],
+      "cfr": [],
+      "eu": {
+        "E427": "Cassia gum"
+      },
+      "specs": [
+        "E 427 CASSIA GUM"
+      ],
+      "classes": [
+        "EMULSIFIER",
+        "THICKENER",
+        "HUMECTANT"
+      ]
+    },
+    "E429": {
+      "who": [],
+      "fda": [
+        "PEPTONES"
+      ],
+      "cfr": [
+        "184.1553"
+      ],
+      "eu": {},
+      "specs": [],
+      "classes": [
+        "FLAVOUR ENHANCER"
+      ]
+    },
+    "E430": {
+      "who": [
+        1350,
+        3587
+      ],
+      "fda": [],
+      "cfr": [],
+      "eu": {},
+      "specs": [],
+      "classes": [
+        "EMULSIFIER"
+      ]
+    },
+    "E431": {
+      "who": [
+        1432,
+        2416,
+        2747
+      ],
+      "fda": [
+        "POLYOXYETHYLENE 40 MONOSTEARATE"
+      ],
+      "cfr": [
+        "173.340"
+      ],
+      "eu": {
+        "E431": "Polyoxyethylene (40) stearate"
+      },
+      "specs": [
+        "E 431 POLYOXYETHYLENE (40) STEARATE"
+      ],
+      "classes": [
+        "EMULSIFIER"
+      ]
+    },
+    "E432": {
+      "who": [
+        1139,
+        2878
+      ],
+      "fda": [
+        "POLYSORBATE 20"
+      ],
+      "cfr": [
+        "172.515",
+        "173.310"
+      ],
+      "eu": {
+        "E432": "Polyoxyethylene sorbitan monolaurate (polysorbate 20)"
+      },
+      "specs": [
+        "E 432 POLYOXYETHYLENE SORBITAN MONOLAURATE (POLYSORBATE 20)"
+      ],
+      "classes": [
+        "EMULSIFIER",
+        "THICKENER"
+      ]
+    },
+    "E433": {
+      "who": [
+        3735,
+        2507
+      ],
+      "fda": [
+        "POLYSORBATE 80"
+      ],
+      "cfr": [
+        "172.515",
+        "172.840",
+        "173.340",
+        "73.1"
+      ],
+      "eu": {
+        "E433": "Polyoxyethylene sorbitan monooleate (polysorbate 80)"
+      },
+      "specs": [
+        "E 433 POLYOXYETHYLENE SORBITAN MONOOLEATE (POLYSORBATE 80)"
+      ],
+      "classes": [
+        "EMULSIFIER",
+        "COLOUR",
+        "FLAVOUR ENHANCER",
+        "THICKENER"
+      ]
+    },
+    "E434": {
+      "who": [
+        396,
+        3584
+      ],
+      "fda": [],
+      "cfr": [],
+      "eu": {
+        "E434": "Polyoxyethylene sorbitan monopalmitate (polysorbate 40)"
+      },
+      "specs": [
+        "E 434 POLYOXYETHYLENE SORBITAN MONOPALMITATE (POLYSORBATE 40)"
+      ],
+      "classes": [
+        "EMULSIFIER"
+      ]
+    },
+    "E435": {
+      "who": [
+        397,
+        3585
+      ],
+      "fda": [
+        "POLYSORBATE 60"
+      ],
+      "cfr": [
+        "172.515",
+        "172.836",
+        "173.310",
+        "173.340"
+      ],
+      "eu": {
+        "E435": "Polyoxyethylene sorbitan monostearate (polysorbate 60)"
+      },
+      "specs": [
+        "E 435 POLYOXYETHYLENE SORBITAN MONOSTEARATE (POLYSORBATE 60)"
+      ],
+      "classes": [
+        "EMULSIFIER",
+        "THICKENER"
+      ]
+    },
+    "E436": {
+      "who": [
+        2528,
+        3586
+      ],
+      "fda": [
+        "POLYSORBATE 65"
+      ],
+      "cfr": [
+        "172.838",
+        "173.340"
+      ],
+      "eu": {
+        "E436": "Polyoxyethylene sorbitan tristearate (polysorbate 65)"
+      },
+      "specs": [
+        "E 436 POLYOXYETHYLENE SORBITAN TRISTEARATE (POLYSORBATE 65)"
+      ],
+      "classes": [
+        "EMULSIFIER",
+        "THICKENER"
+      ]
+    },
+    "E440": {
+      "who": [
+        3043
+      ],
+      "fda": [],
+      "cfr": [],
+      "eu": {
+        "E440": "Pectins"
+      },
+      "specs": [
+        "E 440 (i) PECTIN",
+        "E 440 (ii) AMIDATED PECTIN"
+      ],
+      "classes": [
+        "EMULSIFIER",
+        "STABILIZER",
+        "THICKENER"
+      ]
+    },
+    "E441": {
+      "who": [],
+      "fda": [
+        "GELATIN"
+      ],
+      "cfr": [],
+      "eu": {},
+      "specs": [],
+      "classes": [
+        "ANTICAKING AGENT",
+        "HUMECTANT",
+        "THICKENER",
+        "GLAZING AGENT"
+      ]
+    },
+    "E442": {
+      "who": [
+        276,
+        1638,
+        2973
+      ],
+      "fda": [],
+      "cfr": [],
+      "eu": {
+        "E442": "Ammonium phosphatides"
+      },
+      "specs": [
+        "E 442 AMMONIUM PHOSPHATIDES"
+      ],
+      "classes": [
+        "EMULSIFIER"
+      ]
+    },
+    "E443": {
+      "who": [
+        2686
+      ],
+      "fda": [],
+      "cfr": [],
+      "eu": {},
+      "specs": [],
+      "classes": []
+    },
+    "E444": {
+      "who": [
+        508
+      ],
+      "fda": [
+        "SUCROSE ACETATE ISOBUTYRATE"
+      ],
+      "cfr": [],
+      "eu": {
+        "E444": "Sucrose acetate isobutyrate"
+      },
+      "specs": [
+        "E 444 SUCROSE ACETATE ISOBUTYRATE"
+      ],
+      "classes": [
+        "FLAVOUR ENHANCER",
+        "GLAZING AGENT"
+      ]
+    },
+    "E445": {
+      "who": [
+        3527
+      ],
+      "fda": [],
+      "cfr": [],
+      "eu": {
+        "E445": "Glycerol esters of wood rosins"
+      },
+      "specs": [
+        "E 445 GLYCEROL ESTERS OF WOOD ROSIN"
+      ],
+      "classes": [
+        "EMULSIFIER",
+        "STABILIZER"
+      ]
+    },
+    "E446": {
+      "who": [],
+      "fda": [
+        "SUCCISTEARIN"
+      ],
+      "cfr": [],
+      "eu": {},
+      "specs": [],
+      "classes": [
+        "EMULSIFIER"
+      ]
+    },
+    "E450": {
+      "who": [
+        3616,
+        3617
+      ],
+      "fda": [
+        "SODIUM ACID PYROPHOSPHATE",
+        "CALCIUM PYROPHOSPHATE"
+      ],
+      "cfr": [
+        "182.1087",
+        "182.8223"
+      ],
+      "eu": {
+        "E450": "Diphosphates"
+      },
+      "specs": [
+        "E 450 (i) DISODIUM DIPHOSPHATE",
+        "E 450 (ii) TRISODIUM DIPHOSPHATE",
+        "E 450 (iii) TETRASODIUM DIPHOSPHATE"
+      ],
+      "classes": [
+        "EMULSIFIER",
+        "STABILIZER",
+        "COLOUR",
+        "RAISING AGENT",
+        "SEQUESTRANT"
+      ]
+    },
+    "E451": {
+      "who": [],
+      "fda": [
+        "SODIUM TRIPOLYPHOSPHATE",
+        "POTASSIUM TRIPOLYPHOSPHATE"
+      ],
+      "cfr": [
+        "173.310",
+        "182.1810",
+        "182.6810"
+      ],
+      "eu": {
+        "E451": "Triphosphates"
+      },
+      "specs": [
+        "E 451 (i) PENTASODIUM TRIPHOSPHATE",
+        "E 451 (ii) PENTAPOTASSIUM TRIPHOSPHATE"
+      ],
+      "classes": [
+        "ANTICAKING AGENT",
+        "ANTIOXIDANT",
+        "EMULSIFIER",
+        "HUMECTANT",
+        "ACIDITY REGULATOR",
+        "SEQUESTRANT",
+        "THICKENER"
+      ]
+    },
+    "E452": {
+      "who": [],
+      "fda": [
+        "SODIUM HEXAMETAPHOSPHATE",
+        "SODIUM METAPHOSPHATE",
+        "POTASSIUM POLYMETAPHOSPHATE"
+      ],
+      "cfr": [
+        "173.310",
+        "182.6760",
+        "182.6769"
+      ],
+      "eu": {
+        "E452": "Polyphosphates"
+      },
+      "specs": [
+        "E 452 (i) SODIUM POLYPHOSPHATE",
+        "E 452 (ii) POTASSIUM POLYPHOSPHATE",
+        "E 452(iii) SODIUM CALCIUM POLYPHOSPHATE",
+        "E 452 (iv) CALCIUM POLYPHOSPHATE"
+      ],
+      "classes": [
+        "EMULSIFIER",
+        "FLAVOUR ENHANCER",
+        "ACIDITY REGULATOR",
+        "SEQUESTRANT",
+        "THICKENER",
+        "HUMECTANT"
+      ]
+    },
+    "E459": {
+      "who": [
+        2066
+      ],
+      "fda": [
+        "BETA-CYCLODEXTRIN"
+      ],
+      "cfr": [],
+      "eu": {
+        "E459": "Beta-cyclodextrin"
+      },
+      "specs": [
+        "E 459 BETA-CYCLODEXTRIN"
+      ],
+      "classes": []
+    },
+    "E460": {
+      "who": [
+        2373,
+        900,
+        281
+      ],
+      "fda": [],
+      "cfr": [],
+      "eu": {
+        "E460": "Cellulose"
+      },
+      "specs": [
+        "E 460 (i) MICROCRYSTALLINE CELLULOSE",
+        "E 460 (ii) POWDERED CELLULOSE"
+      ],
+      "classes": [
+        "EMULSIFIER",
+        "STABILIZER"
+      ]
+    },
+    "E461": {
+      "who": [
+        700,
+        1778
+      ],
+      "fda": [],
+      "cfr": [],
+      "eu": {
+        "E461": "Methyl cellulose"
+      },
+      "specs": [
+        "E 461 METHYL CELLULOSE"
+      ],
+      "classes": [
+        "EMULSIFIER",
+        "STABILIZER",
+        "THICKENER"
+      ]
+    },
+    "E462": {
+      "who": [
+        3196
+      ],
+      "fda": [
+        "ETHYL CELLULOSE"
+      ],
+      "cfr": [
+        "172.868",
+        "73.1"
+      ],
+      "eu": {
+        "E462": "Ethyl cellulose"
+      },
+      "specs": [
+        "E 462 ETHYL CELLULOSE"
+      ],
+      "classes": [
+        "THICKENER",
+        "CARRIER",
+        "FLAVOUR ENHANCER"
+      ]
+    },
+    "E463": {
+      "who": [
+        609,
+        875
+      ],
+      "fda": [
+        "HYDROXYPROPYL CELLULOSE"
+      ],
+      "cfr": [
+        "172.870"
+      ],
+      "eu": {
+        "E463": "Hydroxypropyl cellulose"
+      },
+      "specs": [
+        "E 463 HYDROXYPROPYL CELLULOSE"
+      ],
+      "classes": [
+        "EMULSIFIER",
+        "STABILIZER",
+        "THICKENER"
+      ]
+    },
+    "E464": {
+      "who": [
+        2510
+      ],
+      "fda": [
+        "HYDROXYPROPYL METHYLCELLULOSE"
+      ],
+      "cfr": [
+        "172.874"
+      ],
+      "eu": {
+        "E464": "Hydroxypropyl methyl cellulose"
+      },
+      "specs": [
+        "E 464 HYDROXYPROPYL METHYL CELLULOSE"
+      ],
+      "classes": [
+        "EMULSIFIER",
+        "STABILIZER",
+        "THICKENER",
+        "ANTICAKING AGENT",
+        "HUMECTANT",
+        "GLAZING AGENT"
+      ]
+    },
+    "E465": {
+      "who": [
+        2161
+      ],
+      "fda": [],
+      "cfr": [],
+      "eu": {
+        "E465": "Ethyl methyl cellulose"
+      },
+      "specs": [
+        "E 465 ETHYL METHYL CELLULOSE"
+      ],
+      "classes": [
+        "EMULSIFIER",
+        "STABILIZER",
+        "THICKENER"
+      ]
+    },
+    "E466": {
+      "who": [
+        1505,
+        2292,
+        1651,
+        2047,
+        3773
+      ],
+      "fda": [
+        "CARBOXYMETHYL CELLULOSE"
+      ],
+      "cfr": [],
+      "eu": {
+        "E466": "Sodium carboxy methyl cellulose, Cellulose gum"
+      },
+      "specs": [
+        "E 466 SODIUM CARBOXY METHYL CELLULOSE, CARBOXY METHYL CELLULOSE, CELLULOSE GUM"
+      ],
+      "classes": [
+        "EMULSIFIER",
+        "STABILIZER",
+        "THICKENER",
+        "ANTICAKING AGENT",
+        "HUMECTANT"
+      ]
+    },
+    "E467": {
+      "who": [
+        3203
+      ],
+      "fda": [],
+      "cfr": [],
+      "eu": {},
+      "specs": [],
+      "classes": [
+        "EMULSIFIER",
+        "STABILIZER",
+        "THICKENER"
+      ]
+    },
+    "E468": {
+      "who": [
+        2977
+      ],
+      "fda": [],
+      "cfr": [],
+      "eu": {
+        "E468": "Cross-linked sodium carboxy methyl cellulose, cross linked cellulose gum"
+      },
+      "specs": [
+        "E 468 CROSS-LINKED SODIUM CARBOXYMETHYLCELLULOSE, CROSS-LINKED CELLULOSE GUM"
+      ],
+      "classes": []
+    },
+    "E469": {
+      "who": [
+        3706
+      ],
+      "fda": [],
+      "cfr": [],
+      "eu": {
+        "E469": "Enzymatically hydrolysed carboxy methyl cellulose, Enzymatically hydrolysed cellulose gum"
+      },
+      "specs": [
+        "E 469 ENZYMATICALLY HYDROLYSED CARBOXYMETHYLCELLULOSE, ENZYMATICALLY HYDROLISED CELLULOSE GUM"
+      ],
+      "classes": [
+        "STABILIZER",
+        "THICKENER",
+        "CARRIER"
+      ]
+    },
+    "E470": {
+      "who": [
+        5229,
+        3614,
+        93,
+        140,
+        2545,
+        1623,
+        3251,
+        137,
+        1619,
+        1621,
+        3001,
+        845,
+        2546,
+        4275,
+        1620,
+        633
+      ],
+      "fda": [
+        "SODIUM OLEATE",
+        "SODIUM LAURATE",
+        "CALCIUM OLEATE",
+        "SODIUM CAPRYLATE",
+        "MAGNESIUM LAURATE",
+        "MAGNESIUM STEARATE",
+        "POTASSIUM OLEATE",
+        "CALCIUM CAPRATE",
+        "CALCIUM CAPRYLATE",
+        "CALCIUM LAURATE",
+        "POTASSIUM CAPRATE",
+        "POTASSIUM CAPRYLATE",
+        "POTASSIUM LAURATE",
+        "SODIUM CAPRATE",
+        "MAGNESIUM CAPRATE",
+        "MAGNESIUM CAPRYLATE",
+        "MAGNESIUM OLEATE",
+        "MAGNESIUM MYRISTATE",
+        "MAGNESIUM PALMITATE"
+      ],
+      "cfr": [
+        "173.340",
+        "184.1440"
+      ],
+      "eu": {
+        "E470a": "Sodium, potassium and calcium salts of fatty acids",
+        "E470b": "Magnesium salts of fatty acids"
+      },
+      "specs": [],
+      "classes": [
+        "EMULSIFIER",
+        "ANTICAKING AGENT",
+        "THICKENER",
+        "HUMECTANT"
+      ]
+    },
+    "E470a": {
+      "who": [],
+      "fda": [],
+      "cfr": [],
+      "eu": {
+        "E470a": "Sodium, potassium and calcium salts of fatty acids"
+      },
+      "specs": [
+        "E 470a SODIUM, POTASSIUM AND CALCIUM SALTS OF FATTY ACIDS"
+      ],
+      "classes": []
+    },
+    "E470b": {
+      "who": [],
+      "fda": [
+        "MAGNESIUM SALTS OF FATTY ACIDS"
+      ],
+      "cfr": [],
+      "eu": {
+        "E470b": "Magnesium salts of fatty acids"
+      },
+      "specs": [
+        "E 470b MAGNESIUM SALTS OF FATTY ACIDS"
+      ],
+      "classes": [
+        "ANTICAKING AGENT",
+        "EMULSIFIER"
+      ]
+    },
+    "E471": {
+      "who": [
+        1531,
+        1366,
+        3090,
+        917,
+        2858,
+        1286
+      ],
+      "fda": [
+        "GLYCERYL MONOSTEARATE",
+        "MONO- AND DIGLYCERIDES",
+        "GLYCERYL MONOOLEATE"
+      ],
+      "cfr": [
+        "184.1323",
+        "184.1324",
+        "184.1505"
+      ],
+      "eu": {
+        "E471": "Mono-and diglycerides of fatty acids"
+      },
+      "specs": [
+        "E 471 MONO- AND DIGLYCERIDES OF FATTY ACIDS"
+      ],
+      "classes": [
+        "EMULSIFIER",
+        "FIRMING AGENT",
+        "FLAVOUR ENHANCER",
+        "THICKENER",
+        "ANTICAKING AGENT",
+        "HUMECTANT"
+      ]
+    },
+    "E472": {
+      "who": [],
+      "fda": [],
+      "cfr": [],
+      "eu": {
+        "E472a": "Acetic acid esters of mono- and diglycerides of fatty acids",
+        "E472b": "Lactic acid esters of mono- and diglycerides of fatty acids",
+        "E472c": "Citric acid esters of mono- and diglycerides of fatty acids",
+        "E472d": "Tartaric acid esters of mono- and diglycerides of fatty acids",
+        "E472e": "Mono- and diacetyl tartaric acid esters of mono- and diglycerides of fatty acids",
+        "E472f": "Mixed acetic and tartaric acid esters of mono- and diglycerides of fatty acids"
+      },
+      "specs": [],
+      "classes": []
+    },
+    "E472a": {
+      "who": [
+        1349,
+        1972,
+        434,
+        1243
+      ],
+      "fda": [],
+      "cfr": [],
+      "eu": {
+        "E472a": "Acetic acid esters of mono- and diglycerides of fatty acids"
+      },
+      "specs": [
+        "E 472 a ACETIC ACID ESTERS OF MONO- AND DIGLYCERIDES OF FATTY ACIDS"
+      ],
+      "classes": [
+        "EMULSIFIER"
+      ]
+    },
+    "E472b": {
+      "who": [
+        1743,
+        733
+      ],
+      "fda": [],
+      "cfr": [],
+      "eu": {
+        "E472b": "Lactic acid esters of mono- and diglycerides of fatty acids"
+      },
+      "specs": [
+        "E 472 b LACTIC ACID ESTERS OF MONO- AND DIGLYCERIDES OF FATTY ACIDS"
+      ],
+      "classes": [
+        "EMULSIFIER"
+      ]
+    },
+    "E472c": {
+      "who": [
+        1420,
+        1391,
+        2701
+      ],
+      "fda": [],
+      "cfr": [],
+      "eu": {
+        "E472c": "Citric acid esters of mono- and diglycerides of fatty acids"
+      },
+      "specs": [
+        "E 472 c CITRIC ACID ESTERS OF MONO- AND DIGLYCERIDES OF FATTY ACIDS"
+      ],
+      "classes": [
+        "EMULSIFIER",
+        "STABILIZER"
+      ]
+    },
+    "E472d": {
+      "who": [],
+      "fda": [],
+      "cfr": [],
+      "eu": {
+        "E472d": "Tartaric acid esters of mono- and diglycerides of fatty acids"
+      },
+      "specs": [
+        "E 472 d TARTARIC ACID ESTERS OF MONO- AND DIGLYCERIDES OF FATTY ACIDS"
+      ],
+      "classes": []
+    },
+    "E472e": {
+      "who": [
+        1126,
+        71,
+        3176
+      ],
+      "fda": [],
+      "cfr": [],
+      "eu": {
+        "E472e": "Mono- and diacetyl tartaric acid esters of mono- and diglycerides of fatty acids"
+      },
+      "specs": [
+        "E 472 e MONO- AND DIACETYLTARTARIC ACID ESTERS OF MONO- AND DIGLYCERIDES OF FATTY ACIDS"
+      ],
+      "classes": [
+        "EMULSIFIER"
+      ]
+    },
+    "E472f": {
+      "who": [
+        3715,
+        3714
+      ],
+      "fda": [],
+      "cfr": [],
+      "eu": {
+        "E472f": "Mixed acetic and tartaric acid esters of mono- and diglycerides of fatty acids"
+      },
+      "specs": [
+        "E 472 f MIXED ACETIC AND TARTARIC ACID ESTERS OF MONO- AND DIGLYCERIDES OF FATTY ACIDS"
+      ],
+      "classes": [
+        "EMULSIFIER"
+      ]
+    },
+    "E472g": {
+      "who": [
+        2339
+      ],
+      "fda": [
+        "SUCCINYLATED MONOGLYCERIDES"
+      ],
+      "cfr": [
+        "172.830"
+      ],
+      "eu": {},
+      "specs": [],
+      "classes": [
+        "EMULSIFIER",
+        "RAISING AGENT"
+      ]
+    },
+    "E473": {
+      "who": [
+        2736
+      ],
+      "fda": [
+        "SUCROSE FATTY ACID ESTERS"
+      ],
+      "cfr": [
+        "172.859"
+      ],
+      "eu": {
+        "E473": "Sucrose esters of fatty acids"
+      },
+      "specs": [
+        "E 473 SUCROSE ESTERS OF FATTY ACIDS"
+      ],
+      "classes": [
+        "EMULSIFIER"
+      ]
+    },
+    "E474": {
+      "who": [
+        2341
+      ],
+      "fda": [],
+      "cfr": [],
+      "eu": {
+        "E474": "Sucroglycerides"
+      },
+      "specs": [
+        "E 474 SUCROGLYCERIDES"
+      ],
+      "classes": [
+        "EMULSIFIER"
+      ]
+    },
+    "E475": {
+      "who": [
+        3561
+      ],
+      "fda": [
+        "POLYGLYCEROL ESTERS OF FATTY ACIDS"
+      ],
+      "cfr": [
+        "172.854"
+      ],
+      "eu": {
+        "E475": "Polyglycerol esters of fatty acids"
+      },
+      "specs": [
+        "E 475 POLYGLYCEROL ESTERS OF FATTY ACIDS"
+      ],
+      "classes": [
+        "EMULSIFIER",
+        "THICKENER"
+      ]
+    },
+    "E476": {
+      "who": [
+        221,
+        4009,
+        3166
+      ],
+      "fda": [],
+      "cfr": [],
+      "eu": {
+        "E476": "Polyglycerol polyricinoleate"
+      },
+      "specs": [
+        "E 476 POLYGLYCEROL POLYRICINOLEATE"
+      ],
+      "classes": [
+        "EMULSIFIER"
+      ]
+    },
+    "E477": {
+      "who": [
+        3114,
+        683
+      ],
+      "fda": [],
+      "cfr": [],
+      "eu": {
+        "E477": "Propane-1,2-diol esters of fatty acids"
+      },
+      "specs": [
+        "E 477 PROPANE-1,2-DIOL ESTERS OF FATTY ACIDS"
+      ],
+      "classes": [
+        "EMULSIFIER"
+      ]
+    },
+    "E478": {
+      "who": [],
+      "fda": [],
+      "cfr": [],
+      "eu": {},
+      "specs": [],
+      "classes": []
+    },
+    "E479": {
+      "who": [
+        3681,
+        2463
+      ],
+      "fda": [],
+      "cfr": [],
+      "eu": {},
+      "specs": [],
+      "classes": [
+        "EMULSIFIER"
+      ]
+    },
+    "E479b": {
+      "who": [],
+      "fda": [],
+      "cfr": [],
+      "eu": {
+        "E479b": "Thermally oxidised soya bean oil interacted with mono- and diglycerides of fatty acids"
+      },
+      "specs": [
+        "E 479 b THERMALLY OXIDISED SOYA BEAN OIL INTERACTED WITH MONO- AND DIGLYCERIDES OF FATTY ACIDS"
+      ],
+      "classes": []
+    },
+    "E480": {
+      "who": [
+        954
+      ],
+      "fda": [
+        "DIOCTYL SODIUM SULFOSUCCINATE"
+      ],
+      "cfr": [
+        "172.810",
+        "73.1"
+      ],
+      "eu": {},
+      "specs": [],
+      "classes": [
+        "EMULSIFIER",
+        "HUMECTANT",
+        "THICKENER"
+      ]
+    },
+    "E481": {
+      "who": [],
+      "fda": [
+        "SODIUM STEAROYL-2-LACTYLATE"
+      ],
+      "cfr": [],
+      "eu": {
+        "E481": "Sodium stearoyl-2-lactylate"
+      },
+      "specs": [
+        "E 481 SODIUM STEAROYL-2-LACTYLATE"
+      ],
+      "classes": [
+        "EMULSIFIER",
+        "FIRMING AGENT",
+        "THICKENER"
+      ]
+    },
+    "E482": {
+      "who": [],
+      "fda": [
+        "CALCIUM STEAROYL-2-LACTYLATE"
+      ],
+      "cfr": [
+        "172.844"
+      ],
+      "eu": {
+        "E482": "Calcium stearoyl-2-lactylate"
+      },
+      "specs": [
+        "E 482 CALCIUM STEAROYL-2-LACTYLATE"
+      ],
+      "classes": [
+        "EMULSIFIER",
+        "THICKENER"
+      ]
+    },
+    "E483": {
+      "who": [
+        5181,
+        5180
+      ],
+      "fda": [],
+      "cfr": [],
+      "eu": {},
+      "specs": [
+        "E 483 STEARYL TARTRATE"
+      ],
+      "classes": []
+    },
+    "E484": {
+      "who": [
+        2448
+      ],
+      "fda": [
+        "STEARYL CITRATE"
+      ],
+      "cfr": [
+        "184.1851"
+      ],
+      "eu": {},
+      "specs": [],
+      "classes": [
+        "EMULSIFIER",
+        "SEQUESTRANT",
+        "ANTIOXIDANT"
+      ]
+    },
+    "E485": {
+      "who": [],
+      "fda": [],
+      "cfr": [],
+      "eu": {},
+      "specs": [],
+      "classes": []
+    },
+    "E486": {
+      "who": [],
+      "fda": [],
+      "cfr": [],
+      "eu": {},
+      "specs": [],
+      "classes": []
+    },
+    "E487": {
+      "who": [],
+      "fda": [
+        "SODIUM LAURYL SULFATE"
+      ],
+      "cfr": [
+        "172.822"
+      ],
+      "eu": {},
+      "specs": [],
+      "classes": [
+        "EMULSIFIER"
+      ]
+    },
+    "E488": {
+      "who": [],
+      "fda": [],
+      "cfr": [],
+      "eu": {},
+      "specs": [],
+      "classes": []
+    },
+    "E489": {
+      "who": [],
+      "fda": [
+        "METHYL GLUCOSIDE-COCONUT OIL ESTER"
+      ],
+      "cfr": [
+        "172.816"
+      ],
+      "eu": {},
+      "specs": [],
+      "classes": []
+    },
+    "E490": {
+      "who": [],
+      "fda": [],
+      "cfr": [],
+      "eu": {},
+      "specs": [],
+      "classes": []
+    },
+    "E491": {
+      "who": [
+        2271
+      ],
+      "fda": [
+        "SORBITAN MONOSTEARATE"
+      ],
+      "cfr": [
+        "172.515",
+        "172.842",
+        "173.310",
+        "173.340"
+      ],
+      "eu": {
+        "E491": "Sorbitan monostearate"
+      },
+      "specs": [
+        "E 491 SORBITAN MONOSTEARATE"
+      ],
+      "classes": [
+        "EMULSIFIER",
+        "THICKENER",
+        "GLAZING AGENT"
+      ]
+    },
+    "E492": {
+      "who": [
+        3983
+      ],
+      "fda": [],
+      "cfr": [],
+      "eu": {
+        "E492": "Sorbitan tristearate"
+      },
+      "specs": [
+        "E 492 SORBITAN TRISTEARATE"
+      ],
+      "classes": [
+        "EMULSIFIER"
+      ]
+    },
+    "E493": {
+      "who": [
+        246,
+        5598
+      ],
+      "fda": [],
+      "cfr": [],
+      "eu": {
+        "E493": "Sorbitan monolaurate"
+      },
+      "specs": [
+        "E 493 SORBITAN MONOLAURATE"
+      ],
+      "classes": [
+        "EMULSIFIER",
+        "STABILIZER"
+      ]
+    },
+    "E494": {
+      "who": [
+        3008
+      ],
+      "fda": [
+        "SORBITAN MONOOLEATE"
+      ],
+      "cfr": [
+        "173.75"
+      ],
+      "eu": {
+        "E494": "Sorbitan monooleate"
+      },
+      "specs": [
+        "E 494 SORBITAN MONOOLEATE"
+      ],
+      "classes": [
+        "EMULSIFIER",
+        "STABILIZER"
+      ]
+    },
+    "E495": {
+      "who": [
+        3009
+      ],
+      "fda": [],
+      "cfr": [],
+      "eu": {
+        "E495": "Sorbitan monopalmitate"
+      },
+      "specs": [
+        "E 495 SORBITAN MONOPALMITATE"
+      ],
+      "classes": [
+        "EMULSIFIER"
+      ]
+    },
+    "E496": {
+      "who": [],
+      "fda": [],
+      "cfr": [],
+      "eu": {},
+      "specs": [],
+      "classes": []
+    },
+    "E497": {
+      "who": [],
+      "fda": [],
+      "cfr": [],
+      "eu": {},
+      "specs": [],
+      "classes": []
+    },
+    "E498": {
+      "who": [],
+      "fda": [],
+      "cfr": [],
+      "eu": {},
+      "specs": [],
+      "classes": []
+    },
+    "E500": {
+      "who": [],
+      "fda": [
+        "SODIUM CARBONATE",
+        "SODIUM BICARBONATE"
+      ],
+      "cfr": [
+        "173.310",
+        "184.1736",
+        "184.1742"
+      ],
+      "eu": {
+        "E500": "Sodium carbonates"
+      },
+      "specs": [
+        "E 500 (i) SODIUM CARBONATE",
+        "E 500 (ii) SODIUM HYDROGEN CARBONATE",
+        "E 500 (iii) SODIUM SESQUICARBONATE"
+      ],
+      "classes": [
+        "ANTIOXIDANT",
+        "ACIDITY REGULATOR",
+        "EMULSIFIER",
+        "FLAVOUR ENHANCER",
+        "RAISING AGENT"
+      ]
+    },
+    "E501": {
+      "who": [],
+      "fda": [
+        "POTASSIUM CARBONATE",
+        "POTASSIUM BICARBONATE"
+      ],
+      "cfr": [
+        "172.560",
+        "173.310",
+        "184.1613",
+        "184.1619"
+      ],
+      "eu": {
+        "E501": "Potassium carbonates"
+      },
+      "specs": [
+        "E 501 (i) POTASSIUM CARBONATE",
+        "E 501 (ii) POTASSIUM HYDROGEN CARBONATE"
+      ],
+      "classes": [
+        "RAISING AGENT",
+        "ACIDITY REGULATOR"
+      ]
+    },
+    "E503": {
+      "who": [],
+      "fda": [
+        "AMMONIUM CARBONATE",
+        "AMMONIUM BICARBONATE"
+      ],
+      "cfr": [
+        "184.1135",
+        "184.1137"
+      ],
+      "eu": {
+        "E503": "Ammonium carbonates"
+      },
+      "specs": [
+        "E 503 (i) AMMONIUM CARBONATE",
+        "E 503 (ii) AMMONIUM HYDROGEN CARBONATE"
+      ],
+      "classes": [
+        "RAISING AGENT",
+        "ACIDITY REGULATOR"
+      ]
+    },
+    "E504": {
+      "who": [],
+      "fda": [
+        "MAGNESIUM CARBONATE"
+      ],
+      "cfr": [
+        "184.1425"
+      ],
+      "eu": {
+        "E504": "Magnesium carbonates"
+      },
+      "specs": [
+        "E 504 (i) MAGNESIUM CARBONATE",
+        "E 504 (ii) MAGNESIUM HYDROXIDE CARBONATE"
+      ],
+      "classes": [
+        "ANTICAKING AGENT",
+        "FLAVOUR ENHANCER",
+        "HUMECTANT",
+        "ACIDITY REGULATOR"
+      ]
+    },
+    "E505": {
+      "who": [],
+      "fda": [
+        "FERROUS CARBONATE"
+      ],
+      "cfr": [],
+      "eu": {},
+      "specs": [],
+      "classes": []
+    },
+    "E507": {
+      "who": [
+        2799,
+        2841
+      ],
+      "fda": [
+        "HYDROCHLORIC ACID"
+      ],
+      "cfr": [
+        "182.1057"
+      ],
+      "eu": {
+        "E507": "Hydrochloric acid"
+      },
+      "specs": [
+        "E 507 HYDROCHLORIC ACID"
+      ],
+      "classes": [
+        "ACIDITY REGULATOR"
+      ]
+    },
+    "E508": {
+      "who": [
+        1874,
+        2705,
+        2704
+      ],
+      "fda": [
+        "POTASSIUM CHLORIDE"
+      ],
+      "cfr": [
+        "184.1622"
+      ],
+      "eu": {
+        "E508": "Potassium chloride"
+      },
+      "specs": [
+        "E 508 POTASSIUM CHLORIDE"
+      ],
+      "classes": [
+        "ENZYME",
+        "FLAVOUR ENHANCER",
+        "ACIDITY REGULATOR",
+        "THICKENER"
+      ]
+    },
+    "E509": {
+      "who": [
+        458
+      ],
+      "fda": [
+        "CALCIUM CHLORIDE"
+      ],
+      "cfr": [
+        "172.560",
+        "184.1193"
+      ],
+      "eu": {
+        "E509": "Calcium chloride"
+      },
+      "specs": [
+        "E 509 CALCIUM CHLORIDE"
+      ],
+      "classes": [
+        "ANTICAKING AGENT",
+        "ENZYME",
+        "FIRMING AGENT",
+        "HUMECTANT",
+        "ACIDITY REGULATOR"
+      ]
+    },
+    "E510": {
+      "who": [
+        138,
+        3028
+      ],
+      "fda": [
+        "AMMONIUM CHLORIDE"
+      ],
+      "cfr": [
+        "184.1138"
+      ],
+      "eu": {},
+      "specs": [],
+      "classes": [
+        "RAISING AGENT"
+      ]
+    },
+    "E511": {
+      "who": [
+        3331
+      ],
+      "fda": [
+        "MAGNESIUM CHLORIDE"
+      ],
+      "cfr": [
+        "172.560",
+        "184.1426"
+      ],
+      "eu": {
+        "E511": "Magnesium chloride"
+      },
+      "specs": [
+        "E 511 MAGNESIUM CHLORIDE"
+      ],
+      "classes": [
+        "COLOUR",
+        "FIRMING AGENT"
+      ]
+    },
+    "E512": {
+      "who": [
+        4291,
+        2722
+      ],
+      "fda": [
+        "STANNOUS CHLORIDE"
+      ],
+      "cfr": [
+        "172.180"
+      ],
+      "eu": {
+        "E512": "Stannous chloride"
+      },
+      "specs": [
+        "E 512 STANNOUS CHLORIDE"
+      ],
+      "classes": [
+        "ANTIOXIDANT"
+      ]
+    },
+    "E513": {
+      "who": [
+        2101
+      ],
+      "fda": [
+        "SULFURIC ACID"
+      ],
+      "cfr": [
+        "172.560",
+        "184.1095"
+      ],
+      "eu": {
+        "E513": "Sulphuric acid"
+      },
+      "specs": [
+        "E 513 SULPHURIC ACID"
+      ],
+      "classes": [
+        "FLAVOUR ENHANCER",
+        "ACIDITY REGULATOR"
+      ]
+    },
+    "E514": {
+      "who": [
+        3447,
+        5692
+      ],
+      "fda": [
+        "SODIUM SULFATE"
+      ],
+      "cfr": [
+        "172.615",
+        "173.310"
+      ],
+      "eu": {
+        "E514": "Sodium sulphates"
+      },
+      "specs": [
+        "E 514 (i) SODIUM SULPHATE",
+        "E 514 (ii) SODIUM HYDROGEN SULPHATE"
+      ],
+      "classes": [
+        "FLAVOUR ENHANCER",
+        "ACIDITY REGULATOR"
+      ]
+    },
+    "E515": {
+      "who": [
+        2482
+      ],
+      "fda": [
+        "POTASSIUM SULFATE"
+      ],
+      "cfr": [
+        "184.1643"
+      ],
+      "eu": {
+        "E515": "Potassium sulphates"
+      },
+      "specs": [
+        "E 515 (i) POTASSIUM SULPHATE",
+        "E 515 (ii) POTASSIUM HYDROGEN SULPHATE"
+      ],
+      "classes": [
+        "FLAVOUR ENHANCER"
+      ]
+    },
+    "E516": {
+      "who": [
+        1360
+      ],
+      "fda": [
+        "CALCIUM SULFATE"
+      ],
+      "cfr": [
+        "184.1230"
+      ],
+      "eu": {
+        "E516": "Calcium sulphate"
+      },
+      "specs": [
+        "E 516 CALCIUM SULPHATE"
+      ],
+      "classes": [
+        "SEQUESTRANT",
+        "ANTICAKING AGENT",
+        "RAISING AGENT",
+        "ACIDITY REGULATOR",
+        "THICKENER"
+      ]
+    },
+    "E517": {
+      "who": [],
+      "fda": [
+        "AMMONIUM SULFATE"
+      ],
+      "cfr": [
+        "184.1143"
+      ],
+      "eu": {
+        "E517": "Ammonium sulphate"
+      },
+      "specs": [
+        "E 517 AMMONIUM SULPHATE"
+      ],
+      "classes": [
+        "FIRMING AGENT",
+        "FLAVOUR ENHANCER",
+        "RAISING AGENT"
+      ]
+    },
+    "E518": {
+      "who": [
+        3645
+      ],
+      "fda": [
+        "MAGNESIUM SULFATE"
+      ],
+      "cfr": [
+        "184.1443"
+      ],
+      "eu": {},
+      "specs": [],
+      "classes": [
+        "ANTICAKING AGENT",
+        "EMULSIFIER",
+        "ACIDITY REGULATOR",
+        "THICKENER"
+      ]
+    },
+    "E519": {
+      "who": [
+        2824,
+        2903,
+        1353
+      ],
+      "fda": [
+        "COPPER SULFATE"
+      ],
+      "cfr": [
+        "184.1261"
+      ],
+      "eu": {},
+      "specs": [],
+      "classes": [
+        "PRESERVATIVE"
+      ]
+    },
+    "E520": {
+      "who": [
+        730
+      ],
+      "fda": [],
+      "cfr": [],
+      "eu": {
+        "E520": "Aluminium sulphate"
+      },
+      "specs": [
+        "E 520 ALUMINIUM SULPHATE"
+      ],
+      "classes": []
+    },
+    "E521": {
+      "who": [
+        844,
+        3623
+      ],
+      "fda": [],
+      "cfr": [],
+      "eu": {
+        "E521": "Aluminium sodium sulphate"
+      },
+      "specs": [
+        "E 521 ALUMINIUM SODIUM SULPHATE"
+      ],
+      "classes": []
+    },
+    "E522": {
+      "who": [
+        2374,
+        3123
+      ],
+      "fda": [],
+      "cfr": [],
+      "eu": {
+        "E522": "Aluminium potassium sulphate"
+      },
+      "specs": [
+        "E 522 ALUMINIUM POTASSIUM SULPHATE"
+      ],
+      "classes": []
+    },
+    "E523": {
+      "who": [
+        299,
+        5578
+      ],
+      "fda": [],
+      "cfr": [],
+      "eu": {
+        "E523": "Aluminium ammonium sulphate"
+      },
+      "specs": [
+        "E 523 ALUMINIUM AMMONIUM SULPHATE"
+      ],
+      "classes": []
+    },
+    "E524": {
+      "who": [
+        3939,
+        1388
+      ],
+      "fda": [
+        "SODIUM HYDROXIDE"
+      ],
+      "cfr": [
+        "172.560",
+        "173.310",
+        "184.1763"
+      ],
+      "eu": {
+        "E524": "Sodium hydroxide"
+      },
+      "specs": [
+        "E 524 SODIUM HYDROXIDE"
+      ],
+      "classes": [
+        "COLOUR",
+        "FLAVOUR ENHANCER",
+        "ACIDITY REGULATOR"
+      ]
+    },
+    "E525": {
+      "who": [
+        2446,
+        1387
+      ],
+      "fda": [
+        "POTASSIUM HYDROXIDE"
+      ],
+      "cfr": [
+        "172.841",
+        "184.1631"
+      ],
+      "eu": {
+        "E525": "Potassium hydroxide"
+      },
+      "specs": [
+        "E 525 POTASSIUM HYDROXIDE"
+      ],
+      "classes": [
+        "ACIDITY REGULATOR",
+        "THICKENER"
+      ]
+    },
+    "E526": {
+      "who": [
+        82,
+        3412
+      ],
+      "fda": [
+        "CALCIUM HYDROXIDE"
+      ],
+      "cfr": [
+        "184.1205"
+      ],
+      "eu": {
+        "E526": "Calcium hydroxide"
+      },
+      "specs": [
+        "E 526 CALCIUM HYDROXIDE"
+      ],
+      "classes": [
+        "FIRMING AGENT",
+        "ACIDITY REGULATOR"
+      ]
+    },
+    "E527": {
+      "who": [
+        134,
+        1494,
+        437
+      ],
+      "fda": [
+        "AMMONIUM HYDROXIDE"
+      ],
+      "cfr": [
+        "184.1139"
+      ],
+      "eu": {
+        "E527": "Ammonium hydroxide"
+      },
+      "specs": [
+        "E 527 AMMONIUM HYDROXIDE"
+      ],
+      "classes": [
+        "RAISING AGENT",
+        "ACIDITY REGULATOR",
+        "GLAZING AGENT"
+      ]
+    },
+    "E528": {
+      "who": [
+        2881
+      ],
+      "fda": [
+        "MAGNESIUM HYDROXIDE"
+      ],
+      "cfr": [
+        "184.1428"
+      ],
+      "eu": {
+        "E528": "Magnesium hydroxide"
+      },
+      "specs": [
+        "E 528 MAGNESIUM HYDROXIDE"
+      ],
+      "classes": [
+        "COLOUR",
+        "ACIDITY REGULATOR"
+      ]
+    },
+    "E529": {
+      "who": [
+        94,
+        3687
+      ],
+      "fda": [
+        "CALCIUM OXIDE"
+      ],
+      "cfr": [
+        "184.1210"
+      ],
+      "eu": {
+        "E529": "Calcium oxide"
+      },
+      "specs": [
+        "E 529 CALCIUM OXIDE"
+      ],
+      "classes": [
+        "ANTICAKING AGENT",
+        "FIRMING AGENT",
+        "ACIDITY REGULATOR"
+      ]
+    },
+    "E530": {
+      "who": [
+        2376
+      ],
+      "fda": [
+        "MAGNESIUM OXIDE"
+      ],
+      "cfr": [
+        "184.1431"
+      ],
+      "eu": {
+        "E530": "Magnesium oxide"
+      },
+      "specs": [
+        "E 530 MAGNESIUM OXIDE"
+      ],
+      "classes": [
+        "ANTICAKING AGENT",
+        "FLAVOUR ENHANCER",
+        "HUMECTANT",
+        "ACIDITY REGULATOR"
+      ]
+    },
+    "E535": {
+      "who": [
+        2761,
+        2728
+      ],
+      "fda": [
+        "YELLOW PRUSSIATE OF SODA"
+      ],
+      "cfr": [
+        "172.490"
+      ],
+      "eu": {
+        "E535": "Sodium ferrocyanide"
+      },
+      "specs": [
+        "E 535 SODIUM FERROCYANIDE"
+      ],
+      "classes": [
+        "ANTICAKING AGENT",
+        "HUMECTANT"
+      ]
+    },
+    "E536": {
+      "who": [
+        3529,
+        3881
+      ],
+      "fda": [],
+      "cfr": [],
+      "eu": {
+        "E536": "Potassium ferrocyanide"
+      },
+      "specs": [
+        "E 536 POTASSIUM FERROCYANIDE"
+      ],
+      "classes": []
+    },
+    "E537": {
+      "who": [],
+      "fda": [],
+      "cfr": [],
+      "eu": {},
+      "specs": [],
+      "classes": []
+    },
+    "E538": {
+      "who": [
+        2828,
+        3880
+      ],
+      "fda": [],
+      "cfr": [],
+      "eu": {
+        "E538": "Calcium ferrocyanide"
+      },
+      "specs": [
+        "E 538 CALCIUM FERROCYANIDE"
+      ],
+      "classes": []
+    },
+    "E539": {
+      "who": [
+        1812
+      ],
+      "fda": [
+        "SODIUM THIOSULFATE"
+      ],
+      "cfr": [
+        "184.1807"
+      ],
+      "eu": {},
+      "specs": [],
+      "classes": [
+        "PRESERVATIVE",
+        "ANTIOXIDANT",
+        "SEQUESTRANT",
+        "THICKENER"
+      ]
+    },
+    "E540": {
+      "who": [],
+      "fda": [],
+      "cfr": [],
+      "eu": {},
+      "specs": [],
+      "classes": []
+    },
+    "E541": {
+      "who": [],
+      "fda": [],
+      "cfr": [],
+      "eu": {
+        "E541": "Sodium aluminium phosphate acidic"
+      },
+      "specs": [
+        "E 541 SODIUM ALUMINIUM PHOSPHATE, ACIDIC"
+      ],
+      "classes": []
+    },
+    "E542": {
+      "who": [
+        1044,
+        185
+      ],
+      "fda": [],
+      "cfr": [],
+      "eu": {},
+      "specs": [],
+      "classes": [
+        "EMULSIFIER",
+        "HUMECTANT",
+        "SEQUESTRANT"
+      ]
+    },
+    "E543": {
+      "who": [],
+      "fda": [],
+      "cfr": [],
+      "eu": {},
+      "specs": [],
+      "classes": []
+    },
+    "E544": {
+      "who": [],
+      "fda": [],
+      "cfr": [],
+      "eu": {},
+      "specs": [],
+      "classes": []
+    },
+    "E545": {
+      "who": [],
+      "fda": [],
+      "cfr": [],
+      "eu": {},
+      "specs": [],
+      "classes": []
+    },
+    "E546": {
+      "who": [],
+      "fda": [],
+      "cfr": [],
+      "eu": {},
+      "specs": [],
+      "classes": []
+    },
+    "E550": {
+      "who": [],
+      "fda": [],
+      "cfr": [],
+      "eu": {},
+      "specs": [],
+      "classes": []
+    },
+    "E551": {
+      "who": [
+        2461,
+        2462
+      ],
+      "fda": [
+        "SILICON DIOXIDE"
+      ],
+      "cfr": [
+        "172.480",
+        "173.340",
+        "73.1"
+      ],
+      "eu": {
+        "E551": "Silicon dioxide"
+      },
+      "specs": [
+        "E 551 SILICON DIOXIDE"
+      ],
+      "classes": [
+        "ANTICAKING AGENT",
+        "ANTIOXIDANT",
+        "COLOUR",
+        "EMULSIFIER",
+        "HUMECTANT"
+      ]
+    },
+    "E552": {
+      "who": [
+        1559
+      ],
+      "fda": [
+        "CALCIUM SILICATE"
+      ],
+      "cfr": [
+        "172.410",
+        "182.2227"
+      ],
+      "eu": {
+        "E552": "Calcium silicate"
+      },
+      "specs": [
+        "E 552 CALCIUM SILICATE"
+      ],
+      "classes": [
+        "ANTICAKING AGENT",
+        "FLAVOUR ENHANCER"
+      ]
+    },
+    "E553": {
+      "who": [],
+      "fda": [
+        "MAGNESIUM SILICATE"
+      ],
+      "cfr": [
+        "182.2437"
+      ],
+      "eu": {
+        "E553a": "Magnesium silicate",
+        "E553b": "Talc"
+      },
+      "specs": [],
+      "classes": [
+        "ANTICAKING AGENT"
+      ]
+    },
+    "E553a": {
+      "who": [],
+      "fda": [],
+      "cfr": [],
+      "eu": {
+        "E553a": "Magnesium silicate"
+      },
+      "specs": [
+        "E 553a (i) MAGNESIUM SILICATE",
+        "E 553a (ii) MAGNESIUM TRISILICATE"
+      ],
+      "classes": []
+    },
+    "E553b": {
+      "who": [],
+      "fda": [
+        "TALC"
+      ],
+      "cfr": [],
+      "eu": {
+        "E553b": "Talc"
+      },
+      "specs": [
+        "E 553b TALC"
+      ],
+      "classes": [
+        "SWEETENER"
+      ]
+    },
+    "E554": {
+      "who": [
+        6297,
+        3601,
+        6298,
+        2371
+      ],
+      "fda": [],
+      "cfr": [],
+      "eu": {
+        "E554": "Sodium aluminium silicate"
+      },
+      "specs": [
+        "E 554 SODIUM ALUMINIUM SILICATE"
+      ],
+      "classes": []
+    },
+    "E555": {
+      "who": [
+        6200,
+        3124
+      ],
+      "fda": [
+        "MICA"
+      ],
+      "cfr": [],
+      "eu": {
+        "E555": "Potassium aluminium silicate"
+      },
+      "specs": [
+        "E 555 POTASSIUM ALUMINIUM SILICATE"
+      ],
+      "classes": [
+        "COLOUR"
+      ]
+    },
+    "E556": {
+      "who": [
+        3923,
+        1347,
+        85,
+        3249
+      ],
+      "fda": [],
+      "cfr": [],
+      "eu": {
+        "E556": "Calcium aluminium silicate ( 2 )"
+      },
+      "specs": [
+        "E 556 CALCIUM ALUMINIUM SILICATE"
+      ],
+      "classes": []
+    },
+    "E557": {
+      "who": [],
+      "fda": [],
+      "cfr": [],
+      "eu": {},
+      "specs": [],
+      "classes": []
+    },
+    "E558": {
+      "who": [
+        699
+      ],
+      "fda": [
+        "BENTONITE"
+      ],
+      "cfr": [
+        "184.1155"
+      ],
+      "eu": {
+        "E558": "Bentonite ( 3 )"
+      },
+      "specs": [],
+      "classes": [
+        "THICKENER"
+      ]
+    },
+    "E559": {
+      "who": [
+        843,
+        2175
+      ],
+      "fda": [],
+      "cfr": [],
+      "eu": {
+        "E559": "Aluminium silicate (Kaolin) ( 2 )"
+      },
+      "specs": [
+        "E 559 ALUMINIUM SILICATE (KAOLIN)"
+      ],
+      "classes": []
+    },
+    "E560": {
+      "who": [],
+      "fda": [],
+      "cfr": [],
+      "eu": {},
+      "specs": [],
+      "classes": []
+    },
+    "E561": {
+      "who": [],
+      "fda": [],
+      "cfr": [],
+      "eu": {},
+      "specs": [],
+      "classes": []
+    },
+    "E562": {
+      "who": [],
+      "fda": [],
+      "cfr": [],
+      "eu": {},
+      "specs": [],
+      "classes": []
+    },
+    "E563": {
+      "who": [],
+      "fda": [],
+      "cfr": [],
+      "eu": {},
+      "specs": [],
+      "classes": []
+    },
+    "E565": {
+      "who": [],
+      "fda": [],
+      "cfr": [],
+      "eu": {},
+      "specs": [],
+      "classes": []
+    },
+    "E566": {
+      "who": [],
+      "fda": [],
+      "cfr": [],
+      "eu": {},
+      "specs": [],
+      "classes": []
+    },
+    "E570": {
+      "who": [],
+      "fda": [
+        "FATTY ACIDS"
+      ],
+      "cfr": [
+        "172.860"
+      ],
+      "eu": {
+        "E570": "Fatty acids"
+      },
+      "specs": [
+        "E 570 FATTY ACIDS"
+      ],
+      "classes": [
+        "GLAZING AGENT"
+      ]
+    },
+    "E571": {
+      "who": [],
+      "fda": [],
+      "cfr": [],
+      "eu": {},
+      "specs": [],
+      "classes": []
+    },
+    "E572": {
+      "who": [],
+      "fda": [],
+      "cfr": [],
+      "eu": {},
+      "specs": [],
+      "classes": []
+    },
+    "E573": {
+      "who": [],
+      "fda": [],
+      "cfr": [],
+      "eu": {},
+      "specs": [],
+      "classes": []
+    },
+    "E574": {
+      "who": [
+        2851
+      ],
+      "fda": [
+        "D-GLUCONIC ACID"
+      ],
+      "cfr": [],
+      "eu": {
+        "E574": "Gluconic acid"
+      },
+      "specs": [
+        "E 574 GLUCONIC ACID"
+      ],
+      "classes": [
+        "SEQUESTRANT"
+      ]
+    },
+    "E575": {
+      "who": [
+        5589,
+        1370,
+        5590,
+        535
+      ],
+      "fda": [
+        "GLUCONO-DELTA LACTONE"
+      ],
+      "cfr": [
+        "184.1318"
+      ],
+      "eu": {
+        "E575": "Glucono-delta-lactone"
+      },
+      "specs": [
+        "E 575 GLUCONO-DELTA-LACTONE"
+      ],
+      "classes": [
+        "SEQUESTRANT",
+        "FLAVOUR ENHANCER",
+        "RAISING AGENT",
+        "ACIDITY REGULATOR"
+      ]
+    },
+    "E576": {
+      "who": [
+        2763,
+        1369
+      ],
+      "fda": [
+        "SODIUM GLUCONATE"
+      ],
+      "cfr": [
+        "182.6757"
+      ],
+      "eu": {
+        "E576": "Sodium gluconate"
+      },
+      "specs": [
+        "E 576 SODIUM GLUCONATE"
+      ],
+      "classes": [
+        "SEQUESTRANT",
+        "FLAVOUR ENHANCER"
+      ]
+    },
+    "E577": {
+      "who": [
+        4660,
+        1368
+      ],
+      "fda": [
+        "POTASSIUM GLUCONATE"
+      ],
+      "cfr": [],
+      "eu": {
+        "E577": "Potassium gluconate"
+      },
+      "specs": [
+        "E 577 POTASSIUM GLUCONATE"
+      ],
+      "classes": [
+        "SEQUESTRANT"
+      ]
+    },
+    "E578": {
+      "who": [
+        2190
+      ],
+      "fda": [
+        "CALCIUM GLUCONATE"
+      ],
+      "cfr": [
+        "184.1199"
+      ],
+      "eu": {
+        "E578": "Calcium gluconate"
+      },
+      "specs": [
+        "E 578 CALCIUM GLUCONATE"
+      ],
+      "classes": [
+        "SEQUESTRANT",
+        "FIRMING AGENT",
+        "FLAVOUR ENHANCER",
+        "THICKENER"
+      ]
+    },
+    "E579": {
+      "who": [
+        1395
+      ],
+      "fda": [
+        "FERROUS GLUCONATE"
+      ],
+      "cfr": [
+        "184.1308",
+        "73.160"
+      ],
+      "eu": {
+        "E579": "Ferrous gluconate"
+      },
+      "specs": [
+        "E 579 FERROUS GLUCONATE"
+      ],
+      "classes": [
+        "COLOUR"
+      ]
+    },
+    "E580": {
+      "who": [
+        2769
+      ],
+      "fda": [
+        "MAGNESIUM GLUCONATE"
+      ],
+      "cfr": [],
+      "eu": {},
+      "specs": [],
+      "classes": []
+    },
+    "E585": {
+      "who": [
+        1497
+      ],
+      "fda": [
+        "FERROUS LACTATE"
+      ],
+      "cfr": [
+        "184.1311",
+        "73.165"
+      ],
+      "eu": {
+        "E585": "Ferrous lactate"
+      },
+      "specs": [
+        "E 585 FERROUS LACTATE"
+      ],
+      "classes": [
+        "COLOUR"
+      ]
+    },
+    "E586": {
+      "who": [],
+      "fda": [],
+      "cfr": [],
+      "eu": {
+        "E586": "4-Hexylresorcinol"
+      },
+      "specs": [],
+      "classes": []
+    },
+    "E598": {
+      "who": [],
+      "fda": [],
+      "cfr": [],
+      "eu": {},
+      "specs": [],
+      "classes": []
+    },
+    "E599": {
+      "who": [],
+      "fda": [],
+      "cfr": [],
+      "eu": {},
+      "specs": [],
+      "classes": []
+    },
+    "E620": {
+      "who": [
+        668
+      ],
+      "fda": [
+        "L-GLUTAMIC ACID"
+      ],
+      "cfr": [
+        "172.320"
+      ],
+      "eu": {
+        "E620": "Glutamic acid"
+      },
+      "specs": [
+        "E 620 GLUTAMIC ACID"
+      ],
+      "classes": [
+        "ACIDITY REGULATOR"
+      ]
+    },
+    "E621": {
+      "who": [
+        992,
+        2267,
+        2257
+      ],
+      "fda": [
+        "MONOSODIUM GLUTAMATE"
+      ],
+      "cfr": [
+        "182.1"
+      ],
+      "eu": {
+        "E621": "Monosodium glutamate"
+      },
+      "specs": [
+        "E 621 MONOSODIUM GLUTAMATE"
+      ],
+      "classes": [
+        "FLAVOUR ENHANCER",
+        "ACIDITY REGULATOR",
+        "THICKENER"
+      ]
+    },
+    "E622": {
+      "who": [
+        4661,
+        4073
+      ],
+      "fda": [
+        "MONOPOTASSIUM GLUTAMATE"
+      ],
+      "cfr": [
+        "182.1516"
+      ],
+      "eu": {
+        "E622": "Monopotassium glutamate"
+      },
+      "specs": [
+        "E 622 MONOPOTASSIUM GLUTAMATE"
+      ],
+      "classes": [
+        "FLAVOUR ENHANCER"
+      ]
+    },
+    "E623": {
+      "who": [
+        3790
+      ],
+      "fda": [
+        "CALCIUM DIGLUTAMATE"
+      ],
+      "cfr": [],
+      "eu": {
+        "E623": "Calcium diglutamate"
+      },
+      "specs": [
+        "E 623 CALCIUM DIGLUTAMATE"
+      ],
+      "classes": []
+    },
+    "E624": {
+      "who": [
+        132,
+        468
+      ],
+      "fda": [
+        "MONOAMMONIUM GLUTAMATE"
+      ],
+      "cfr": [
+        "182.1500"
+      ],
+      "eu": {
+        "E624": "Monoammonium glutamate"
+      },
+      "specs": [
+        "E 624 MONOAMMONIUM GLUTAMATE"
+      ],
+      "classes": [
+        "FLAVOUR ENHANCER",
+        "THICKENER"
+      ]
+    },
+    "E625": {
+      "who": [
+        2708
+      ],
+      "fda": [],
+      "cfr": [],
+      "eu": {
+        "E625": "Magnesium diglutamate"
+      },
+      "specs": [
+        "E 625 MAGNESIUM DIGLUTAMATE"
+      ],
+      "classes": []
+    },
+    "E626": {
+      "who": [],
+      "fda": [],
+      "cfr": [],
+      "eu": {
+        "E626": "Guanylic acid"
+      },
+      "specs": [
+        "E 626 GUANYLIC ACID"
+      ],
+      "classes": []
+    },
+    "E627": {
+      "who": [
+        1890,
+        822
+      ],
+      "fda": [],
+      "cfr": [],
+      "eu": {
+        "E627": "Disodium guanylate"
+      },
+      "specs": [
+        "E 627 DISODIUM GUANYLATE"
+      ],
+      "classes": []
+    },
+    "E628": {
+      "who": [
+        3428,
+        1801
+      ],
+      "fda": [],
+      "cfr": [],
+      "eu": {
+        "E628": "Dipotassium guanylate"
+      },
+      "specs": [
+        "E 628 DIPOTASSIUM GUANYLATE"
+      ],
+      "classes": []
+    },
+    "E629": {
+      "who": [
+        1527
+      ],
+      "fda": [],
+      "cfr": [],
+      "eu": {
+        "E629": "Calcium guanylate"
+      },
+      "specs": [
+        "E 629 CALCIUM GUANYLATE"
+      ],
+      "classes": []
+    },
+    "E630": {
+      "who": [
+        565
+      ],
+      "fda": [],
+      "cfr": [],
+      "eu": {
+        "E630": "Inosinic acid"
+      },
+      "specs": [
+        "E 630 INOSINIC ACID"
+      ],
+      "classes": []
+    },
+    "E631": {
+      "who": [
+        4083,
+        2512
+      ],
+      "fda": [
+        "DISODIUM INOSINATE"
+      ],
+      "cfr": [
+        "172.535"
+      ],
+      "eu": {
+        "E631": "Disodium inosinate"
+      },
+      "specs": [
+        "E 631 DISODIUM INOSINATE"
+      ],
+      "classes": [
+        "FLAVOUR ENHANCER",
+        "THICKENER"
+      ]
+    },
+    "E632": {
+      "who": [
+        2775,
+        1803
+      ],
+      "fda": [],
+      "cfr": [],
+      "eu": {
+        "E632": "Dipotassium inosinate"
+      },
+      "specs": [
+        "E 632 DIPOTASSIUM INOSINATE"
+      ],
+      "classes": []
+    },
+    "E633": {
+      "who": [
+        83
+      ],
+      "fda": [],
+      "cfr": [],
+      "eu": {
+        "E633": "Calcium inosinate"
+      },
+      "specs": [
+        "E 633 CALCIUM INOSINATE"
+      ],
+      "classes": []
+    },
+    "E634": {
+      "who": [
+        2165
+      ],
+      "fda": [],
+      "cfr": [],
+      "eu": {
+        "E634": "Calcium 5′-ribonucleotides"
+      },
+      "specs": [
+        "E 634 CALCIUM 5'-RIBONUCLEOTIDE"
+      ],
+      "classes": []
+    },
+    "E635": {
+      "who": [
+        4140,
+        4002
+      ],
+      "fda": [],
+      "cfr": [],
+      "eu": {
+        "E635": "Disodium 5′-ribonucleotides"
+      },
+      "specs": [
+        "E 635 DISODIUM 5'-RIBONUCLEOTIDE"
+      ],
+      "classes": []
+    },
+    "E636": {
+      "who": [],
+      "fda": [
+        "MALTOL"
+      ],
+      "cfr": [
+        "172.515"
+      ],
+      "eu": {},
+      "specs": [],
+      "classes": [
+        "SWEETENER"
+      ]
+    },
+    "E637": {
+      "who": [],
+      "fda": [
+        "ETHYL MALTOL"
+      ],
+      "cfr": [
+        "172.515"
+      ],
+      "eu": {},
+      "specs": [],
+      "classes": [
+        "COLOUR"
+      ]
+    },
+    "E640": {
+      "who": [],
+      "fda": [],
+      "cfr": [],
+      "eu": {
+        "E640": "Glycine and its sodium salt"
+      },
+      "specs": [
+        "E 640 GLYCINE AND ITS SODIUM SALT"
+      ],
+      "classes": []
+    },
+    "E650": {
+      "who": [],
+      "fda": [
+        "ZINC ACETATE"
+      ],
+      "cfr": [],
+      "eu": {
+        "E650": "Zinc acetate"
+      },
+      "specs": [
+        "E 650 ZINC ACETATE"
+      ],
+      "classes": []
+    },
+    "E701": {
+      "who": [],
+      "fda": [],
+      "cfr": [],
+      "eu": {},
+      "specs": [],
+      "classes": []
+    },
+    "E702": {
+      "who": [
+        628
+      ],
+      "fda": [],
+      "cfr": [],
+      "eu": {},
+      "specs": [],
+      "classes": []
+    },
+    "E703": {
+      "who": [
+        3859
+      ],
+      "fda": [],
+      "cfr": [],
+      "eu": {},
+      "specs": [],
+      "classes": []
+    },
+    "E704": {
+      "who": [
+        4061
+      ],
+      "fda": [],
+      "cfr": [],
+      "eu": {},
+      "specs": [],
+      "classes": []
+    },
+    "E705": {
+      "who": [],
+      "fda": [],
+      "cfr": [],
+      "eu": {},
+      "specs": [],
+      "classes": []
+    },
+    "E706": {
+      "who": [],
+      "fda": [],
+      "cfr": [],
+      "eu": {},
+      "specs": [],
+      "classes": []
+    },
+    "E707": {
+      "who": [],
+      "fda": [],
+      "cfr": [],
+      "eu": {},
+      "specs": [],
+      "classes": []
+    },
+    "E708": {
+      "who": [],
+      "fda": [],
+      "cfr": [],
+      "eu": {},
+      "specs": [],
+      "classes": []
+    },
+    "E710": {
+      "who": [],
+      "fda": [],
+      "cfr": [],
+      "eu": {},
+      "specs": [],
+      "classes": []
+    },
+    "E711": {
+      "who": [],
+      "fda": [],
+      "cfr": [],
+      "eu": {},
+      "specs": [],
+      "classes": []
+    },
+    "E712": {
+      "who": [],
+      "fda": [],
+      "cfr": [],
+      "eu": {},
+      "specs": [],
+      "classes": []
+    },
+    "E713": {
+      "who": [
+        520
+      ],
+      "fda": [],
+      "cfr": [],
+      "eu": {},
+      "specs": [],
+      "classes": []
+    },
+    "E714": {
+      "who": [],
+      "fda": [],
+      "cfr": [],
+      "eu": {},
+      "specs": [],
+      "classes": []
+    },
+    "E715": {
+      "who": [],
+      "fda": [],
+      "cfr": [],
+      "eu": {},
+      "specs": [],
+      "classes": []
+    },
+    "E716": {
+      "who": [],
+      "fda": [],
+      "cfr": [],
+      "eu": {},
+      "specs": [],
+      "classes": []
+    },
+    "E717": {
+      "who": [
+        5871
+      ],
+      "fda": [],
+      "cfr": [],
+      "eu": {},
+      "specs": [],
+      "classes": []
+    },
+    "E900": {
+      "who": [],
+      "fda": [
+        "DIMETHYLPOLYSILOXANE"
+      ],
+      "cfr": [
+        "173.340"
+      ],
+      "eu": {
+        "E900": "Dimethyl polysiloxane"
+      },
+      "specs": [
+        "E 900 DIMETHYL POLYSILOXANE"
+      ],
+      "classes": []
+    },
+    "E901": {
+      "who": [
+        168
+      ],
+      "fda": [
+        "BEESWAX"
+      ],
+      "cfr": [],
+      "eu": {
+        "E901": "Beeswax, white and yellow"
+      },
+      "specs": [
+        "E 901 BEESWAX, WHITE AND YELLOW"
+      ],
+      "classes": [
+        "STABILIZER",
+        "THICKENER",
+        "CARRIER",
+        "GLAZING AGENT"
+      ]
+    },
+    "E902": {
+      "who": [
+        1401
+      ],
+      "fda": [],
+      "cfr": [],
+      "eu": {
+        "E902": "Candelilla wax"
+      },
+      "specs": [
+        "E 902 CANDELILLA WAX"
+      ],
+      "classes": [
+        "THICKENER",
+        "CARRIER"
+      ]
+    },
+    "E903": {
+      "who": [
+        939
+      ],
+      "fda": [],
+      "cfr": [],
+      "eu": {
+        "E903": "Carnauba wax"
+      },
+      "specs": [
+        "E 903 CARNAUBA WAX"
+      ],
+      "classes": [
+        "CARRIER"
+      ]
+    },
+    "E904": {
+      "who": [],
+      "fda": [],
+      "cfr": [],
+      "eu": {
+        "E904": "Shellac"
+      },
+      "specs": [
+        "E 904 SHELLAC"
+      ],
+      "classes": []
+    },
+    "E905": {
+      "who": [
+        3021
+      ],
+      "fda": [
+        "PARAFFIN WAX",
+        "PETROLEUM WAX"
+      ],
+      "cfr": [
+        "172.615",
+        "172.886",
+        "173.340"
+      ],
+      "eu": {
+        "E905": "Microcrystalline wax"
+      },
+      "specs": [
+        "E 905 MICROCRYSTALLINE WAX"
+      ],
+      "classes": [
+        "FLAVOUR ENHANCER",
+        "GLAZING AGENT"
+      ]
+    },
+    "E905a": {
+      "who": [
+        2803
+      ],
+      "fda": [],
+      "cfr": [],
+      "eu": {},
+      "specs": [],
+      "classes": []
+    },
+    "E905b": {
+      "who": [
+        2733
+      ],
+      "fda": [
+        "PETROLATUM"
+      ],
+      "cfr": [
+        "172.880",
+        "173.340"
+      ],
+      "eu": {},
+      "specs": [],
+      "classes": []
+    },
+    "E905c": {
+      "who": [
+        494,
+        282
+      ],
+      "fda": [
+        "PETROLEUM WAX"
+      ],
+      "cfr": [
+        "172.615",
+        "172.886",
+        "173.340"
+      ],
+      "eu": {},
+      "specs": [],
+      "classes": [
+        "GLAZING AGENT"
+      ]
+    },
+    "E906": {
+      "who": [],
+      "fda": [],
+      "cfr": [],
+      "eu": {},
+      "specs": [],
+      "classes": []
+    },
+    "E907": {
+      "who": [],
+      "fda": [],
+      "cfr": [],
+      "eu": {
+        "E907": "Hydrogenated poly-1-decene"
+      },
+      "specs": [
+        "E 907 HYDROGENATED POLY-1-DECENE"
+      ],
+      "classes": []
+    },
+    "E908": {
+      "who": [],
+      "fda": [
+        "RICE BRAN WAX"
+      ],
+      "cfr": [
+        "172.615",
+        "172.890"
+      ],
+      "eu": {},
+      "specs": [],
+      "classes": []
+    },
+    "E909": {
+      "who": [],
+      "fda": [],
+      "cfr": [],
+      "eu": {},
+      "specs": [],
+      "classes": []
+    },
+    "E910": {
+      "who": [],
+      "fda": [],
+      "cfr": [],
+      "eu": {},
+      "specs": [],
+      "classes": []
+    },
+    "E911": {
+      "who": [],
+      "fda": [],
+      "cfr": [],
+      "eu": {},
+      "specs": [],
+      "classes": []
+    },
+    "E912": {
+      "who": [],
+      "fda": [],
+      "cfr": [],
+      "eu": {},
+      "specs": [
+        "E 912 MONTAN ACID ESTERS"
+      ],
+      "classes": []
+    },
+    "E913": {
+      "who": [],
+      "fda": [],
+      "cfr": [],
+      "eu": {},
+      "specs": [],
+      "classes": []
+    },
+    "E914": {
+      "who": [],
+      "fda": [],
+      "cfr": [],
+      "eu": {
+        "E914": "Oxidised polyethylene wax"
+      },
+      "specs": [
+        "E 914 OXIDISED POLYETHYLENE WAX"
+      ],
+      "classes": []
+    },
+    "E915": {
+      "who": [],
+      "fda": [],
+      "cfr": [],
+      "eu": {},
+      "specs": [],
+      "classes": []
+    },
+    "E916": {
+      "who": [
+        887
+      ],
+      "fda": [
+        "CALCIUM IODATE"
+      ],
+      "cfr": [
+        "184.1206"
+      ],
+      "eu": {},
+      "specs": [],
+      "classes": []
+    },
+    "E917": {
+      "who": [
+        2776
+      ],
+      "fda": [
+        "POTASSIUM IODATE"
+      ],
+      "cfr": [
+        "184.1635"
+      ],
+      "eu": {},
+      "specs": [],
+      "classes": []
+    },
+    "E918": {
+      "who": [
+        1041
+      ],
+      "fda": [
+        "NITROGEN OXIDES"
+      ],
+      "cfr": [],
+      "eu": {},
+      "specs": [],
+      "classes": [
+        "PROPELLANT"
+      ]
+    },
+    "E919": {
+      "who": [],
+      "fda": [
+        "NITROSYL CHLORIDE"
+      ],
+      "cfr": [],
+      "eu": {},
+      "specs": [],
+      "classes": []
+    },
+    "E920": {
+      "who": [
+        4381
+      ],
+      "fda": [
+        "L-CYSTEINE"
+      ],
+      "cfr": [
+        "172.320",
+        "184.1271"
+      ],
+      "eu": {
+        "E920": "L-cysteine"
+      },
+      "specs": [
+        "E 920 L-CYSTEINE"
+      ],
+      "classes": [
+        "FLAVOUR ENHANCER"
+      ]
+    },
+    "E921": {
+      "who": [],
+      "fda": [
+        "L-CYSTINE"
+      ],
+      "cfr": [
+        "172.320"
+      ],
+      "eu": {},
+      "specs": [],
+      "classes": [
+        "FLAVOUR ENHANCER"
+      ]
+    },
+    "E922": {
+      "who": [
+        3683
+      ],
+      "fda": [
+        "POTASSIUM PERSULFATE"
+      ],
+      "cfr": [],
+      "eu": {},
+      "specs": [],
+      "classes": []
+    },
+    "E923": {
+      "who": [
+        2150
+      ],
+      "fda": [
+        "AMMONIUM PERSULFATE"
+      ],
+      "cfr": [],
+      "eu": {},
+      "specs": [],
+      "classes": []
+    },
+    "E924": {
+      "who": [],
+      "fda": [
+        "POTASSIUM BROMATE"
+      ],
+      "cfr": [
+        "172.730"
+      ],
+      "eu": {},
+      "specs": [],
+      "classes": [
+        "RAISING AGENT"
+      ]
+    },
+    "E924b": {
+      "who": [],
+      "fda": [
+        "CALCIUM BROMATE"
+      ],
+      "cfr": [],
+      "eu": {},
+      "specs": [],
+      "classes": [
+        "RAISING AGENT"
+      ]
+    },
+    "E925": {
+      "who": [
+        552
+      ],
+      "fda": [
+        "CHLORINE"
+      ],
+      "cfr": [],
+      "eu": {},
+      "specs": [],
+      "classes": [
+        "ACIDITY REGULATOR"
+      ]
+    },
+    "E926": {
+      "who": [
+        1422
+      ],
+      "fda": [
+        "CHLORINE DIOXIDE"
+      ],
+      "cfr": [
+        "173.300"
+      ],
+      "eu": {},
+      "specs": [],
+      "classes": []
+    },
+    "E927a": {
+      "who": [
+        538
+      ],
+      "fda": [
+        "AZODICARBONAMIDE"
+      ],
+      "cfr": [
+        "172.806"
+      ],
+      "eu": {},
+      "specs": [],
+      "classes": []
+    },
+    "E927b": {
+      "who": [
+        2177
+      ],
+      "fda": [
+        "UREA"
+      ],
+      "cfr": [
+        "184.1923"
+      ],
+      "eu": {
+        "E927b": "Carbamide"
+      },
+      "specs": [
+        "E 927b CARBAMIDE"
+      ],
+      "classes": [
+        "THICKENER"
+      ]
+    },
+    "E928": {
+      "who": [
+        171
+      ],
+      "fda": [
+        "BENZOYL PEROXIDE"
+      ],
+      "cfr": [
+        "184.1157"
+      ],
+      "eu": {},
+      "specs": [],
+      "classes": [
+        "COLOUR"
+      ]
+    },
+    "E929": {
+      "who": [],
+      "fda": [],
+      "cfr": [],
+      "eu": {},
+      "specs": [],
+      "classes": []
+    },
+    "E930": {
+      "who": [
+        111
+      ],
+      "fda": [
+        "CALCIUM PEROXIDE"
+      ],
+      "cfr": [],
+      "eu": {},
+      "specs": [],
+      "classes": [
+        "SEQUESTRANT"
+      ]
+    },
+    "E938": {
+      "who": [
+        1861
+      ],
+      "fda": [],
+      "cfr": [],
+      "eu": {
+        "E938": "Argon"
+      },
+      "specs": [
+        "E 938 ARGON"
+      ],
+      "classes": [
+        "PROPELLANT"
+      ]
+    },
+    "E939": {
+      "who": [
+        1880
+      ],
+      "fda": [
+        "HELIUM"
+      ],
+      "cfr": [
+        "184.1355"
+      ],
+      "eu": {
+        "E939": "Helium"
+      },
+      "specs": [
+        "E 939 HELIUM"
+      ],
+      "classes": []
+    },
+    "E940": {
+      "who": [
+        647
+      ],
+      "fda": [
+        "DICHLORODIFLUOROMETHANE"
+      ],
+      "cfr": [
+        "173.355"
+      ],
+      "eu": {},
+      "specs": [],
+      "classes": [
+        "PROPELLANT"
+      ]
+    },
+    "E941": {
+      "who": [
+        1040
+      ],
+      "fda": [
+        "NITROGEN"
+      ],
+      "cfr": [
+        "184.1540"
+      ],
+      "eu": {
+        "E941": "Nitrogen"
+      },
+      "specs": [
+        "E 941 NITROGEN"
+      ],
+      "classes": [
+        "PROPELLANT",
+        "ANTIOXIDANT"
+      ]
+    },
+    "E942": {
+      "who": [
+        1090
+      ],
+      "fda": [
+        "NITROUS OXIDE"
+      ],
+      "cfr": [
+        "184.1545"
+      ],
+      "eu": {
+        "E942": "Nitrous oxide"
+      },
+      "specs": [
+        "E 942 NITROUS OXIDE"
+      ],
+      "classes": [
+        "ANTIOXIDANT",
+        "PROPELLANT",
+        "FLAVOUR ENHANCER"
+      ]
+    },
+    "E943": {
+      "who": [
+        159
+      ],
+      "fda": [
+        "ISOBUTANE"
+      ],
+      "cfr": [],
+      "eu": {
+        "E943a": "Butane",
+        "E943b": "Isobutane"
+      },
+      "specs": [],
+      "classes": [
+        "PROPELLANT"
+      ]
+    },
+    "E943a": {
+      "who": [],
+      "fda": [
+        "N-BUTANE"
+      ],
+      "cfr": [],
+      "eu": {
+        "E943a": "Butane"
+      },
+      "specs": [
+        "E 943a BUTANE"
+      ],
+      "classes": [
+        "PROPELLANT"
+      ]
+    },
+    "E943b": {
+      "who": [],
+      "fda": [
+        "ISOBUTANE"
+      ],
+      "cfr": [],
+      "eu": {
+        "E943b": "Isobutane"
+      },
+      "specs": [
+        "E 943b ISOBUTANE"
+      ],
+      "classes": [
+        "PROPELLANT"
+      ]
+    },
+    "E944": {
+      "who": [
+        3112
+      ],
+      "fda": [
+        "PROPANE"
+      ],
+      "cfr": [
+        "184.1655"
+      ],
+      "eu": {
+        "E944": "Propane"
+      },
+      "specs": [
+        "E 944 PROPANE"
+      ],
+      "classes": [
+        "PROPELLANT"
+      ]
+    },
+    "E945": {
+      "who": [],
+      "fda": [
+        "CHLOROPENTAFLUOROETHANE"
+      ],
+      "cfr": [
+        "173.345"
+      ],
+      "eu": {},
+      "specs": [],
+      "classes": [
+        "PROPELLANT"
+      ]
+    },
+    "E946": {
+      "who": [],
+      "fda": [
+        "OCTAFLUOROCYCLOBUTANE"
+      ],
+      "cfr": [
+        "173.360"
+      ],
+      "eu": {},
+      "specs": [],
+      "classes": [
+        "PROPELLANT"
+      ]
+    },
+    "E948": {
+      "who": [
+        2739
+      ],
+      "fda": [],
+      "cfr": [],
+      "eu": {
+        "E948": "Oxygen"
+      },
+      "specs": [
+        "E 948 OXYGEN"
+      ],
+      "classes": [
+        "PROPELLANT"
+      ]
+    },
+    "E949": {
+      "who": [],
+      "fda": [],
+      "cfr": [],
+      "eu": {
+        "E949": "Hydrogen"
+      },
+      "specs": [
+        "E 949 HYDROGEN"
+      ],
+      "classes": []
+    },
+    "E950": {
+      "who": [
+        926
+      ],
+      "fda": [
+        "ACESULFAME POTASSIUM"
+      ],
+      "cfr": [
+        "172.800"
+      ],
+      "eu": {
+        "E950": "Acesulfame K"
+      },
+      "specs": [
+        "E 950 ACESULFAME K"
+      ],
+      "classes": [
+        "SWEETENER"
+      ]
+    },
+    "E951": {
+      "who": [
+        62
+      ],
+      "fda": [
+        "ASPARTAME"
+      ],
+      "cfr": [
+        "172.804"
+      ],
+      "eu": {
+        "E951": "Aspartame"
+      },
+      "specs": [
+        "E 951 ASPARTAME"
+      ],
+      "classes": [
+        "SWEETENER",
+        "FLAVOUR ENHANCER"
+      ]
+    },
+    "E952": {
+      "who": [
+        995
+      ],
+      "fda": [],
+      "cfr": [],
+      "eu": {
+        "E952": "Cyclamates"
+      },
+      "specs": [
+        "E 952 CYCLAMIC ACID AND ITS Na AND Ca SALTS"
+      ],
+      "classes": [
+        "SWEETENER"
+      ]
+    },
+    "E953": {
+      "who": [
+        1289
+      ],
+      "fda": [],
+      "cfr": [],
+      "eu": {
+        "E953": "Isomalt"
+      },
+      "specs": [
+        "E 953 ISOMALT"
+      ],
+      "classes": [
+        "SWEETENER"
+      ]
+    },
+    "E954": {
+      "who": [
+        3164
+      ],
+      "fda": [
+        "SACCHARIN"
+      ],
+      "cfr": [],
+      "eu": {
+        "E954": "Saccharins"
+      },
+      "specs": [
+        "E 954 SACCHARIN AND ITS Na. K AND Ca SALTS"
+      ],
+      "classes": [
+        "SWEETENER"
+      ]
+    },
+    "E955": {
+      "who": [
+        2340
+      ],
+      "fda": [
+        "SUCRALOSE"
+      ],
+      "cfr": [
+        "172.831"
+      ],
+      "eu": {
+        "E955": "Sucralose"
+      },
+      "specs": [
+        "E 955 SUCRALOSE"
+      ],
+      "classes": [
+        "SWEETENER"
+      ]
+    },
+    "E956": {
+      "who": [
+        1160
+      ],
+      "fda": [],
+      "cfr": [],
+      "eu": {},
+      "specs": [],
+      "classes": [
+        "SWEETENER"
+      ]
+    },
+    "E957": {
+      "who": [
+        4169
+      ],
+      "fda": [
+        "THAUMATIN"
+      ],
+      "cfr": [],
+      "eu": {
+        "E957": "Thaumatin"
+      },
+      "specs": [
+        "E 957 THAUMATIN"
+      ],
+      "classes": [
+        "SWEETENER"
+      ]
+    },
+    "E958": {
+      "who": [],
+      "fda": [],
+      "cfr": [],
+      "eu": {},
+      "specs": [],
+      "classes": []
+    },
+    "E959": {
+      "who": [],
+      "fda": [
+        "NEOHESPERIDIN DIHYDROCHALCONE"
+      ],
+      "cfr": [],
+      "eu": {
+        "E959": "Neohesperidine DC"
+      },
+      "specs": [
+        "E 959 NEOHESPERIDINE DIHYDROCHALCONE"
+      ],
+      "classes": []
+    },
+    "E960": {
+      "who": [
+        267
+      ],
+      "fda": [],
+      "cfr": [],
+      "eu": {},
+      "specs": [
+        "E 960 STEVIOL GLYCOSIDES"
+      ],
+      "classes": [
+        "SWEETENER"
+      ]
+    },
+    "E961": {
+      "who": [
+        5107
+      ],
+      "fda": [
+        "NEOTAME"
+      ],
+      "cfr": [
+        "172.829"
+      ],
+      "eu": {
+        "E961": "Neotame"
+      },
+      "specs": [
+        "E 961 NEOTAME"
+      ],
+      "classes": [
+        "SWEETENER",
+        "FLAVOUR ENHANCER"
+      ]
+    },
+    "E962": {
+      "who": [
+        1849
+      ],
+      "fda": [],
+      "cfr": [],
+      "eu": {
+        "E962": "Salt of aspartame-acesulfame"
+      },
+      "specs": [
+        "E 962 SALT OF ASPARTAME-ACESULFAME"
+      ],
+      "classes": [
+        "SWEETENER"
+      ]
+    },
+    "E965": {
+      "who": [
+        4276,
+        4277
+      ],
+      "fda": [],
+      "cfr": [],
+      "eu": {
+        "E965": "Maltitols"
+      },
+      "specs": [
+        "E 965 (i) MALTITOL",
+        "E 965 (ii) MALTITOL SYRUP"
+      ],
+      "classes": [
+        "STABILIZER",
+        "SWEETENER",
+        "HUMECTANT",
+        "THICKENER"
+      ]
+    },
+    "E966": {
+      "who": [
+        3084
+      ],
+      "fda": [],
+      "cfr": [],
+      "eu": {
+        "E966": "Lactitol"
+      },
+      "specs": [
+        "E 966 LACTITOL"
+      ],
+      "classes": [
+        "THICKENER",
+        "SWEETENER"
+      ]
+    },
+    "E967": {
+      "who": [
+        2620
+      ],
+      "fda": [
+        "XYLITOL"
+      ],
+      "cfr": [
+        "172.395"
+      ],
+      "eu": {
+        "E967": "Xylitol"
+      },
+      "specs": [
+        "E 967 XYLITOL"
+      ],
+      "classes": [
+        "SWEETENER",
+        "HUMECTANT"
+      ]
+    },
+    "E968": {
+      "who": [
+        961
+      ],
+      "fda": [],
+      "cfr": [],
+      "eu": {
+        "E968": "Erythritol"
+      },
+      "specs": [
+        "E 968 ERYTHRITOL"
+      ],
+      "classes": [
+        "SWEETENER",
+        "HUMECTANT",
+        "CARRIER"
+      ]
+    },
+    "E999": {
+      "who": [],
+      "fda": [],
+      "cfr": [],
+      "eu": {
+        "E999": "Quillaia extract"
+      },
+      "specs": [
+        "E 999 QUILLAIA EXTRACT"
+      ],
+      "classes": []
+    },
+    "E1000": {
+      "who": [
+        1950
+      ],
+      "fda": [
+        "CHOLIC ACID"
+      ],
+      "cfr": [],
+      "eu": {},
+      "specs": [],
+      "classes": [
+        "EMULSIFIER",
+        "ACIDITY REGULATOR"
+      ]
+    },
+    "E1001": {
+      "who": [
+        1951
+      ],
+      "fda": [],
+      "cfr": [],
+      "eu": {},
+      "specs": [],
+      "classes": [
+        "EMULSIFIER"
+      ]
+    },
+    "E1100": {
+      "who": [
+        811
+      ],
+      "fda": [],
+      "cfr": [],
+      "eu": {},
+      "specs": [],
+      "classes": []
+    },
+    "E1101": {
+      "who": [],
+      "fda": [],
+      "cfr": [],
+      "eu": {},
+      "specs": [],
+      "classes": []
+    },
+    "E1102": {
+      "who": [],
+      "fda": [],
+      "cfr": [],
+      "eu": {},
+      "specs": [],
+      "classes": []
+    },
+    "E1103": {
+      "who": [],
+      "fda": [],
+      "cfr": [],
+      "eu": {
+        "E1103": "Invertase"
+      },
+      "specs": [
+        "E 1103 INVERTASE"
+      ],
+      "classes": []
+    },
+    "E1104": {
+      "who": [],
+      "fda": [],
+      "cfr": [],
+      "eu": {},
+      "specs": [],
+      "classes": []
+    },
+    "E1105": {
+      "who": [],
+      "fda": [],
+      "cfr": [],
+      "eu": {
+        "E1105": "Lysozyme"
+      },
+      "specs": [
+        "E 1105 LYSOZYME"
+      ],
+      "classes": []
+    },
+    "E1200": {
+      "who": [],
+      "fda": [
+        "POLYDEXTROSE"
+      ],
+      "cfr": [
+        "172.841"
+      ],
+      "eu": {
+        "E1200": "Polydextrose"
+      },
+      "specs": [
+        "E 1200 POLYDEXTROSE"
+      ],
+      "classes": [
+        "HUMECTANT",
+        "THICKENER"
+      ]
+    },
+    "E1201": {
+      "who": [
+        4938
+      ],
+      "fda": [
+        "POLYVINYLPYRROLIDONE"
+      ],
+      "cfr": [
+        "173.55",
+        "73.1"
+      ],
+      "eu": {
+        "E1201": "Polyvinylpyrrolidone"
+      },
+      "specs": [
+        "E 1201 POLYVINYLPYRROLIDONE"
+      ],
+      "classes": [
+        "EMULSIFIER",
+        "STABILIZER",
+        "THICKENER"
+      ]
+    },
+    "E1202": {
+      "who": [
+        3736
+      ],
+      "fda": [
+        "POLYVINYL POLYPYRROLIDONE"
+      ],
+      "cfr": [
+        "173.50"
+      ],
+      "eu": {
+        "E1202": "Polyvinylpolypyrrolidone"
+      },
+      "specs": [
+        "E 1202 POLYVINYLPOLYPYRROLIDONE"
+      ],
+      "classes": [
+        "STABILIZER",
+        "GLAZING AGENT"
+      ]
+    },
+    "E1203": {
+      "who": [
+        4829
+      ],
+      "fda": [
+        "POLYVINYL ALCOHOL"
+      ],
+      "cfr": [
+        "73.1"
+      ],
+      "eu": {
+        "E1203": "Polyvinyl alcohol (PVA)"
+      },
+      "specs": [
+        "E 1203 POLYVINYL ALCOHOL"
+      ],
+      "classes": [
+        "THICKENER"
+      ]
+    },
+    "E1204": {
+      "who": [
+        4523
+      ],
+      "fda": [],
+      "cfr": [],
+      "eu": {
+        "E1204": "Pullulan"
+      },
+      "specs": [
+        "E 1204 PULLULAN"
+      ],
+      "classes": [
+        "THICKENER"
+      ]
+    },
+    "E1400": {
+      "who": [
+        2090,
+        2553
+      ],
+      "fda": [
+        "DEXTRIN"
+      ],
+      "cfr": [
+        "184.1277"
+      ],
+      "eu": {},
+      "specs": [],
+      "classes": [
+        "STABILIZER",
+        "THICKENER",
+        "ANTICAKING AGENT",
+        "FLAVOUR ENHANCER",
+        "HUMECTANT",
+        "SWEETENER"
+      ]
+    },
+    "E1401": {
+      "who": [
+        2036
+      ],
+      "fda": [],
+      "cfr": [],
+      "eu": {},
+      "specs": [],
+      "classes": [
+        "EMULSIFIER",
+        "STABILIZER",
+        "THICKENER"
+      ]
+    },
+    "E1402": {
+      "who": [],
+      "fda": [],
+      "cfr": [],
+      "eu": {},
+      "specs": [],
+      "classes": []
+    },
+    "E1403": {
+      "who": [
+        273
+      ],
+      "fda": [
+        "STARCH, BLEACHED"
+      ],
+      "cfr": [],
+      "eu": {},
+      "specs": [],
+      "classes": [
+        "EMULSIFIER",
+        "STABILIZER",
+        "THICKENER"
+      ]
+    },
+    "E1404": {
+      "who": [
+        889
+      ],
+      "fda": [],
+      "cfr": [],
+      "eu": {
+        "E1404": "Oxidised starch"
+      },
+      "specs": [
+        "E 1404 OXIDISED STARCH"
+      ],
+      "classes": [
+        "EMULSIFIER",
+        "THICKENER"
+      ]
+    },
+    "E1405": {
+      "who": [],
+      "fda": [],
+      "cfr": [],
+      "eu": {},
+      "specs": [],
+      "classes": []
+    },
+    "E1410": {
+      "who": [
+        2816
+      ],
+      "fda": [],
+      "cfr": [],
+      "eu": {
+        "E1410": "Monostarch phosphate"
+      },
+      "specs": [
+        "E 1410 MONOSTARCH PHOSPHATE"
+      ],
+      "classes": [
+        "STABILIZER",
+        "THICKENER"
+      ]
+    },
+    "E1411": {
+      "who": [
+        2822
+      ],
+      "fda": [],
+      "cfr": [],
+      "eu": {},
+      "specs": [],
+      "classes": [
+        "EMULSIFIER",
+        "THICKENER"
+      ]
+    },
+    "E1412": {
+      "who": [],
+      "fda": [],
+      "cfr": [],
+      "eu": {
+        "E1412": "Distarch phosphate"
+      },
+      "specs": [
+        "E 1412 DISTARCH PHOSPHATE"
+      ],
+      "classes": []
+    },
+    "E1413": {
+      "who": [
+        1068
+      ],
+      "fda": [],
+      "cfr": [],
+      "eu": {
+        "E1413": "Phosphated distarch phosphate"
+      },
+      "specs": [
+        "E 1413 PHOSPHATED DISTARCH PHOSPHATE"
+      ],
+      "classes": [
+        "STABILIZER",
+        "THICKENER"
+      ]
+    },
+    "E1414": {
+      "who": [
+        1765
+      ],
+      "fda": [],
+      "cfr": [],
+      "eu": {
+        "E1414": "Acetylated distarch phosphate"
+      },
+      "specs": [
+        "E 1414 ACETYLATED DISTARCH PHOSPHATE"
+      ],
+      "classes": [
+        "EMULSIFIER",
+        "STABILIZER",
+        "THICKENER"
+      ]
+    },
+    "E1420": {
+      "who": [],
+      "fda": [],
+      "cfr": [],
+      "eu": {
+        "E1420": "Acetylated starch"
+      },
+      "specs": [
+        "E 1420 ACETYLATED STARCH"
+      ],
+      "classes": []
+    },
+    "E1421": {
+      "who": [],
+      "fda": [],
+      "cfr": [],
+      "eu": {},
+      "specs": [],
+      "classes": []
+    },
+    "E1422": {
+      "who": [
+        78
+      ],
+      "fda": [],
+      "cfr": [],
+      "eu": {
+        "E1422": "Acetylated distarch adipate"
+      },
+      "specs": [
+        "E 1422 ACETYLATED DISTARCH ADIPATE"
+      ],
+      "classes": [
+        "EMULSIFIER",
+        "STABILIZER",
+        "THICKENER"
+      ]
+    },
+    "E1423": {
+      "who": [
+        79
+      ],
+      "fda": [],
+      "cfr": [],
+      "eu": {},
+      "specs": [],
+      "classes": [
+        "EMULSIFIER",
+        "THICKENER"
+      ]
+    },
+    "E1430": {
+      "who": [],
+      "fda": [],
+      "cfr": [],
+      "eu": {},
+      "specs": [],
+      "classes": []
+    },
+    "E1440": {
+      "who": [
+        3694
+      ],
+      "fda": [],
+      "cfr": [],
+      "eu": {
+        "E1440": "Hydroxy propyl starch"
+      },
+      "specs": [
+        "E 1440 HYDROXYPROPYL STARCH"
+      ],
+      "classes": [
+        "EMULSIFIER",
+        "STABILIZER",
+        "THICKENER"
+      ]
+    },
+    "E1441": {
+      "who": [],
+      "fda": [],
+      "cfr": [],
+      "eu": {},
+      "specs": [],
+      "classes": []
+    },
+    "E1442": {
+      "who": [
+        2343
+      ],
+      "fda": [],
+      "cfr": [],
+      "eu": {
+        "E1442": "Hydroxy propyl distarch phosphate"
+      },
+      "specs": [
+        "E 1442 HYDROXYPROPYL DISTARCH PHOSPHATE"
+      ],
+      "classes": [
+        "EMULSIFIER",
+        "STABILIZER",
+        "THICKENER"
+      ]
+    },
+    "E1443": {
+      "who": [
+        2342
+      ],
+      "fda": [],
+      "cfr": [],
+      "eu": {},
+      "specs": [],
+      "classes": [
+        "EMULSIFIER",
+        "THICKENER"
+      ]
+    },
+    "E1450": {
+      "who": [
+        340,
+        6199
+      ],
+      "fda": [],
+      "cfr": [],
+      "eu": {
+        "E1450": "Starch sodium octenyl succinate"
+      },
+      "specs": [
+        "E 1450 STARCH SODIUM OCTENYL SUCCINATE"
+      ],
+      "classes": [
+        "EMULSIFIER",
+        "STABILIZER",
+        "THICKENER"
+      ]
+    },
+    "E1451": {
+      "who": [],
+      "fda": [],
+      "cfr": [],
+      "eu": {
+        "E1451": "Acetylated oxidised starch"
+      },
+      "specs": [
+        "E 1451 ACETYLATED OXIDISED STARCH"
+      ],
+      "classes": []
+    },
+    "E1452": {
+      "who": [],
+      "fda": [],
+      "cfr": [],
+      "eu": {
+        "E1452": "Starch aluminium octenyl succinate"
+      },
+      "specs": [
+        "E 1452 STARCH ALUMINIUM OCTENYL SUCCINATE"
+      ],
+      "classes": []
+    },
+    "E1501": {
+      "who": [],
+      "fda": [],
+      "cfr": [],
+      "eu": {},
+      "specs": [],
+      "classes": []
+    },
+    "E1502": {
+      "who": [],
+      "fda": [],
+      "cfr": [],
+      "eu": {},
+      "specs": [],
+      "classes": []
+    },
+    "E1503": {
+      "who": [
+        96
+      ],
+      "fda": [],
+      "cfr": [],
+      "eu": {},
+      "specs": [],
+      "classes": []
+    },
+    "E1504": {
+      "who": [
+        3075
+      ],
+      "fda": [
+        "ETHYL ACETATE"
+      ],
+      "cfr": [
+        "172.560",
+        "173.228",
+        "182.60",
+        "73.1"
+      ],
+      "eu": {},
+      "specs": [],
+      "classes": [
+        "COLOUR",
+        "FLAVOUR ENHANCER"
+      ]
+    },
+    "E1505": {
+      "who": [
+        3286
+      ],
+      "fda": [
+        "TRIETHYL CITRATE"
+      ],
+      "cfr": [],
+      "eu": {
+        "E1505": "Triethyl citrate"
+      },
+      "specs": [
+        "E 1505 TRIETHYL CITRATE"
+      ],
+      "classes": [
+        "SEQUESTRANT",
+        "FLAVOUR ENHANCER"
+      ]
+    },
+    "E1510": {
+      "who": [
+        2404
+      ],
+      "fda": [],
+      "cfr": [],
+      "eu": {},
+      "specs": [],
+      "classes": []
+    },
+    "E1516": {
+      "who": [
+        2856
+      ],
+      "fda": [],
+      "cfr": [],
+      "eu": {},
+      "specs": [],
+      "classes": []
+    },
+    "E1517": {
+      "who": [],
+      "fda": [],
+      "cfr": [],
+      "eu": {
+        "E1517": "Glyceryl diacetate (diacetin)"
+      },
+      "specs": [
+        "E 1517 GLYCERYL DIACETATE"
+      ],
+      "classes": []
+    },
+    "E1518": {
+      "who": [
+        3893,
+        3091,
+        564
+      ],
+      "fda": [],
+      "cfr": [],
+      "eu": {
+        "E1518": "Glyceryl triacetate (triacetin)"
+      },
+      "specs": [
+        "E 1518 GLYCERYL TRIACETATE"
+      ],
+      "classes": [
+        "HUMECTANT"
+      ]
+    },
+    "E1519": {
+      "who": [
+        4724
+      ],
+      "fda": [
+        "BENZYL ALCOHOL"
+      ],
+      "cfr": [
+        "172.515"
+      ],
+      "eu": {
+        "E1519": "Benzyl alcohol"
+      },
+      "specs": [
+        "E 1519 BENZYL ALCOHOL"
+      ],
+      "classes": []
+    },
+    "E1520": {
+      "who": [
+        2698,
+        5597
+      ],
+      "fda": [
+        "PROPYLENE GLYCOL"
+      ],
+      "cfr": [
+        "184.1666"
+      ],
+      "eu": {
+        "E1520": "Propane-1, 2-diol (propylene glycol)"
+      },
+      "specs": [
+        "E 1520 PROPANE-1,2-DIOL"
+      ],
+      "classes": [
+        "HUMECTANT",
+        "ANTICAKING AGENT",
+        "ANTIOXIDANT",
+        "EMULSIFIER",
+        "FLAVOUR ENHANCER"
+      ]
+    },
+    "E1521": {
+      "who": [],
+      "fda": [],
+      "cfr": [],
+      "eu": {
+        "E1521": "Polyethylene glycol"
+      },
+      "specs": [
+        "E 1521 POLYETHYLENE GLYCOL"
+      ],
+      "classes": []
+    },
+    "E1525": {
+      "who": [],
+      "fda": [],
+      "cfr": [],
+      "eu": {},
+      "specs": [],
+      "classes": []
+    }
+  }
+}

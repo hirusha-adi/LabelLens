@@ -1,14 +1,20 @@
 {
     "code": "E541",
-    "name": "Sodium aluminium phosphate",
-    "href": "e541.htm",
-    "function": "Raising agent",
+    "names": "Sodium aluminium phosphate (i) Acidic (ii) Basic",
+    "display_name": "E541 (Sodium aluminium phosphate)",
+    "type": "emulsifier",
+    "status": "e",
+    "icon": "mdi-alert-circle",
     "more_info": {
-        "origin": "Synthetically produced from aluminium, phosphoric acid and sodium hydroxide.",
-        "characteristics": "",
-        "products": "bakery products, processed cheese",
-        "daily_intake": "",
-        "side_effects": "Aluminium impairs the calcium and phosphorous uptake by the body. The concentrations from E541 are generally so low that no effect is to be expected.",
-        "dietary_restrictions": "None. E541 can be used by all religious groups, vegetarians and vegans."
+        "banned_in": "Approved in the EU.",
+        "uses": "EU permissions include fine bakery wares. These permissions depend on the food category and its conditions of use.",
+        "articles": {
+            "EUR-Lex specifications": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231",
+            "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "EFSA": "https://www.efsa.europa.eu/en/efsajournal/pub/5372"
+        },
+        "side_effects": "EFSA found no concern for the assessed limited food uses.\nHigher-dose animal studies identified nervous-system effects of aluminium.",
+        "overview": "Sodium aluminium phosphate is classified in food technology as an emulsifier. Its technological role is to help oil and water stay mixed."
     }
 }

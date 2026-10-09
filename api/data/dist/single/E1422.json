@@ -1,0 +1,21 @@
+{
+    "code": "E1422",
+    "names": "Acetylated distarch adipate (stabiliser)",
+    "display_name": "E1422 (Acetylated distarch adipate)",
+    "type": "thickening agent",
+    "status": "e",
+    "icon": "mdi-check-circle",
+    "more_info": {
+        "banned_in": "Approved in the EU.",
+        "overview": "Acetylated distarch adipate is used as an emulsifier in food. Its technological role is to help oil and water remain mixed.",
+        "uses": "EU permissions include milk-based drinks and similar products intended for young children, unflavoured live fermented cream products and substitute products, both with a fat  content of less than 20 %. These permissions depend on the food category and its conditions of use.",
+        "daily_intake": "No ADI specified (JECFA, 2016).",
+        "articles": {
+            "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/78",
+            "EUR-Lex specifications": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231",
+            "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
+        },
+        "origin": "Starch is crosslinked with adipic anhydride and esterified with acetic anhydride. The product is a chemically modified carbohydrate."
+    }
+}

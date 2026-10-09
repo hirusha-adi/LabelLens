@@ -1,14 +1,17 @@
 {
     "code": "E949",
-    "name": "Hydrogen",
-    "href": "e949.htm",
-    "function": "Propellant",
+    "names": "Hydrogen",
+    "display_name": "E949 (Hydrogen)",
+    "type": "packaging gas",
+    "status": "e",
+    "icon": "mdi-check-circle",
     "more_info": {
-        "origin": "Natural gas. ",
-        "characteristics": "",
-        "products": "Gas packed products",
-        "daily_intake": "None determined",
-        "side_effects": "None known by use in foods.",
-        "dietary_restrictions": "None. E949 can be used by all religious groups, vegans and vegetarians."
+        "banned_in": "Approved in the EU.",
+        "articles": {
+            "EUR-Lex specifications": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231",
+            "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
+        },
+        "overview": "Hydrogen is classified in food technology as a packaging gas. Its technological role is to replace air in a food package."
     }
 }

@@ -1,14 +1,22 @@
 {
     "code": "E957",
-    "name": "Thaumatine",
-    "href": "None",
-    "function": "Sweetener",
+    "names": "Thaumatin (sweetener)",
+    "display_name": "E957 (Thaumatin)",
+    "type": "flavour enhancer",
+    "status": "e",
+    "icon": "mdi-check-circle",
     "more_info": {
-        "origin": "",
-        "characteristics": "",
-        "products": "",
-        "daily_intake": "",
-        "side_effects": "",
-        "dietary_restrictions": ""
+        "banned_in": "Approved in the EU.",
+        "overview": "Thaumatin is used as a sweetener in food. Its technological role is to provide sweetness.",
+        "uses": "EU permissions include flavoured drinks, flavoured fermented milk products including heat-treated products, edible ices, cocoa and chocolate products as covered by directive 2000/36/ec. These permissions depend on the food category and its conditions of use.",
+        "daily_intake": "No ADI specified (JECFA, 2025).",
+        "articles": {
+            "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/4169",
+            "EUR-Lex specifications": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231",
+            "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "EFSA": "https://www.efsa.europa.eu/en/efsajournal/pub/6884"
+        },
+        "side_effects": "EFSA found no concern for permitted food-use exposure in 2021.\nAnimal studies supported the absence of relevant adverse effects, with moderate confidence in the evidence."
     }
 }

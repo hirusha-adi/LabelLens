@@ -1,14 +1,22 @@
 {
     "code": "E414",
-    "name": "Gum Arabic",
-    "href": "e414.htm",
-    "function": "Natural thickening agent",
+    "names": "Acacia gum (gum arabic) (thickener) (stabiliser)",
+    "display_name": "E414 (Acacia gum)",
+    "type": "emulsifier",
+    "status": "e",
+    "icon": "mdi-check-circle",
     "more_info": {
-        "origin": "  A natural polysaccharide, produced from the tree Acacia senegal from tropical Africa.",
-        "characteristics": "Thickening agent, stabiliser and emulsifier. ",
-        "products": "Many different products.",
-        "daily_intake": "None specified.",
-        "side_effects": "None known in the concentrations used, although high concentrations bring about flatulence and bloating, due to fermentation by the intestinal microflora (in the same way as all indigestible polysaccharides).",
-        "dietary_restrictions": "Gum arabic can be used by all religious groups, vegans and vegetarians."
+        "banned_in": "Approved in the EU.",
+        "overview": "Acacia gum is used as an emulsifier in food. Its technological role is to help oil and water remain mixed.",
+        "uses": "EU permissions include milk-based drinks and similar products intended for young children, cocoa and chocolate products as covered by directive 2000/36/ec, table-top sweeteners in liquid form, table-top sweeteners in powder form. These permissions depend on the food category and its conditions of use.",
+        "daily_intake": "No ADI specified (JECFA, 1989).",
+        "articles": {
+            "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/1133",
+            "EUR-Lex specifications": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231",
+            "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
+        },
+        "origin": "Collected as dried gum exudate from Acacia senegal and related species. It contains plant polysaccharides and their mineral salts.",
+        "dietary_restrictions": "The specified starting material is plant derived and compatible with vegetarian and vegan diets. The specification does not establish halal or kosher certification."
     }
 }

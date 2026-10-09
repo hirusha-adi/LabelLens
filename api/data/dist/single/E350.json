@@ -1,14 +1,20 @@
 {
     "code": "E350",
-    "name": "Sodium malate",
-    "href": "e350.htm",
-    "function": "Sodium salt of malic acid",
+    "names": "Sodium malates (i) Sodium malate (ii) Sodium hydrogen malate",
+    "display_name": "E350 (Sodium malates)",
+    "type": "acidity regulator",
+    "status": "e",
+    "icon": "mdi-check-circle",
     "more_info": {
-        "origin": "Sodium salt of malic acid (), a natural acid present in fruits.",
-        "characteristics": "Sodium malate is used as a buffer and flavouring.",
-        "products": "S oft drinks, confectionery, etc.",
-        "daily_intake": "No limit, but the D,L - and D-isomers are not allowed in infant food, as infants lack the necessary enzymes to metabolise these compounds.",
-        "side_effects": "None known.",
-        "dietary_restrictions": "Malic acid and malates can be used by all religious groups, vegans and vegetarians."
+        "banned_in": "Approved in the EU.",
+        "overview": "Sodium malates is used as a humectant in food. Its technological role is to help retain moisture.",
+        "uses": "EU permissions include jam jellies and marmalades and similar products, other similar fruit or vegetable spreads. These permissions depend on the food category and its conditions of use.",
+        "daily_intake": "No ADI specified (JECFA, 1979).",
+        "articles": {
+            "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/4441",
+            "EUR-Lex specifications": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231",
+            "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
+        }
     }
 }

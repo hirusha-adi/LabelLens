@@ -1,14 +1,18 @@
 {
     "code": "E311",
-    "name": "Octyl gallate",
-    "href": "e311.htm",
-    "function": "Synthetic anti-oxidant",
+    "names": "Octyl gallate",
+    "display_name": "E311 (Octyl gallate)",
+    "type": "antioxidant",
+    "status": "",
+    "icon": "mdi-check-circle",
     "more_info": {
-        "origin": "Synthesised from octanol and gallic acid, which is produced from plant tannins.",
-        "characteristics": "Anti-oxidant in fatty products, especially added to prevent rancidity.",
-        "products": "Oils and fats, margarine, etc.",
-        "daily_intake": "Up to 0.5 mg/kg body weight.",
-        "side_effects": "It is degraded in the intestine to octanol and gallic acid. Gallic acid can cause eczema, stomach problems and hyperactivity.",
-        "dietary_restrictions": "Gallates can be used by all religious groups, vegans and vegetarians."
+        "overview": "Octyl gallate is used as an antioxidant in food. Its technological role is to slow oxidation in food.",
+        "daily_intake": "No ADI allocated (JECFA, 1996).",
+        "articles": {
+            "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/4118",
+            "EUR-Lex specifications": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231",
+            "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
+        }
     }
 }

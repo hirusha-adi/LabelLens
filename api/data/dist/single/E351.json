@@ -1,14 +1,17 @@
 {
     "code": "E351",
-    "name": "Potassium malate",
-    "href": "e351.htm",
-    "function": "Potassium salt of malic acid",
+    "names": "Potassium malate",
+    "display_name": "E351 (Potassium malate)",
+    "type": "acidity regulator",
+    "status": "e",
+    "icon": "mdi-check-circle",
     "more_info": {
-        "origin": "Potassium salts of malic acid (), a natural acid present in fruits.",
-        "characteristics": "Potassium malate is used as a buffer and flavouring.",
-        "products": "Ice cream, fried products, etc.",
-        "daily_intake": "No limit, but the D,L - and D-isomers are not allowed in infant food, as infants lack the necessary enzymes to metabolise these compounds.",
-        "side_effects": "None known.",
-        "dietary_restrictions": "Malic acid and malates can be used by all religious groups, vegans and vegetarians."
+        "banned_in": "Approved in the EU.",
+        "articles": {
+            "EUR-Lex specifications": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231",
+            "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
+        },
+        "overview": "Potassium malate is classified in food technology as an acidity regulator. Its technological role is to control acidity."
     }
 }

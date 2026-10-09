@@ -1,14 +1,24 @@
 {
     "code": "E170",
-    "name": "Calcium carbonate",
-    "href": "e170.htm",
-    "function": "White colour",
+    "names": "Calcium carbonate, Chalk",
+    "display_name": "E170 (Calcium carbonate)",
+    "type": "color (White)",
+    "status": "e u",
+    "icon": "mdi-check-circle",
     "more_info": {
-        "origin": "Natural white mineral.",
-        "characteristics": "",
-        "products": "Widely used",
-        "daily_intake": "",
-        "side_effects": "",
-        "dietary_restrictions": ""
+        "banned_in": "Approved in the EU.\nApproved in the US.\nUS food use is subject to the listed CFR provisions and their conditions, checked in 2026.",
+        "overview": "Calcium carbonate is used as an anti-caking agent in food. Its technological role is to help powders stay free-flowing.",
+        "uses": "EU permissions include edible caseinates, ripened cheese, cheese products (excluding products falling in category 16), cocoa and chocolate products as covered by directive 2000/36/ec. These permissions depend on the food category and its conditions of use.",
+        "daily_intake": "No ADI specified for the carbonate group (SCF, 1990; supported by EFSA, 2011).",
+        "articles": {
+            "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/549",
+            "EUR-Lex specifications": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231",
+            "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "eCFR Title 21": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=73",
+            "EFSA": "https://www.efsa.europa.eu/en/efsajournal/pub/2318"
+        },
+        "origin": "Obtained by grinding limestone or by precipitating calcium carbonate from solutions containing calcium and carbonate ions. It is an inorganic ingredient.",
+        "side_effects": "The 2011 EFSA review identified no concern from its assessed food uses.\nEffects in human and animal studies were associated with high calcium intakes and were not specific to this salt."
     }
 }

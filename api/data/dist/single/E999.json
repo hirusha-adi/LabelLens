@@ -1,14 +1,23 @@
 {
     "code": "E999",
-    "name": "Quillaia extract",
-    "href": "None",
-    "function": "Foaming agent",
+    "names": "Quillaia extract",
+    "display_name": "E999 (Quillaia extract)",
+    "type": "foaming agent",
+    "status": "e",
+    "icon": "mdi-check-circle",
     "more_info": {
-        "origin": "",
-        "characteristics": "",
-        "products": "",
-        "daily_intake": "",
-        "side_effects": "",
-        "dietary_restrictions": ""
+        "banned_in": "Approved in the EU.",
+        "uses": "EU permissions include flavoured drinks, cider and perry, food supplements supplied in a solid form excluding food supplements for infants and  young children’,, food supplements supplied in a liquid form excluding food supplements for infants and young children. These permissions depend on the food category and its conditions of use.",
+        "articles": {
+            "EUR-Lex specifications": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231",
+            "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "EFSA": "https://www.efsa.europa.eu/en/efsajournal/pub/5622"
+        },
+        "origin": "Extracted with water from Quillaia trees. The extract contains saponins along with sugars and other plant constituents.",
+        "dietary_restrictions": "The specified starting material is plant derived and compatible with vegetarian and vegan diets. The specification does not establish halal or kosher certification.",
+        "daily_intake": "3 mg saponins/kg body weight/day from quillaia extract (EFSA, 2019).",
+        "side_effects": "Assessed food-use estimates stayed below the limit.\nAnimal toxicity associated with the saponin component supported the limit.",
+        "overview": "Quillaia extract is classified in food technology as a foaming agent. Its technological role is to help create foam."
     }
 }

@@ -1,0 +1,16 @@
+{
+    "code": "E342",
+    "names": "Ammonium phosphates: (i) monoammonium phosphate (ii) diammonium phosphate",
+    "display_name": "E342 (Ammonium phosphates)",
+    "type": "acidity regulator",
+    "status": "",
+    "icon": "mdi-check-circle",
+    "more_info": {
+        "articles": {
+            "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/570",
+            "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
+        },
+        "overview": "Ammonium phosphates serves as an acidity regulator. Its food-processing role controls acidity."
+    }
+}

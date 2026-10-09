@@ -1,14 +1,20 @@
 {
     "code": "E953",
-    "name": "Isomalt",
-    "href": "None",
-    "function": "Sweetener",
+    "names": "Isomalt, Isomaltitol",
+    "display_name": "E953 (Isomalt)",
+    "type": "sweetener",
+    "status": "e",
+    "icon": "mdi-check-circle",
     "more_info": {
-        "origin": "",
-        "characteristics": "",
-        "products": "",
-        "daily_intake": "",
-        "side_effects": "",
-        "dietary_restrictions": ""
+        "banned_in": "Approved in the EU.",
+        "overview": "Isomalt is used as a sweetener in food. Its technological role is to provide sweetness.",
+        "daily_intake": "No ADI specified (JECFA, 1985).",
+        "articles": {
+            "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/1289",
+            "EUR-Lex specifications": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231",
+            "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
+        },
+        "origin": "Sucrose is first converted using microbial enzymes and then hydrogenated. This produces the two sugar-alcohol components of isomalt."
     }
 }

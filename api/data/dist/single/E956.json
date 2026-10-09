@@ -1,0 +1,17 @@
+{
+    "code": "E956",
+    "names": "Alitame",
+    "display_name": "E956 (Alitame)",
+    "type": "sweetener",
+    "status": "",
+    "icon": "mdi-check-circle",
+    "more_info": {
+        "overview": "Alitame is used as a sweetener in food. Its technological role is to provide sweetness.",
+        "daily_intake": "0-1 mg/kg body weight (1996) (JECFA, 2002).",
+        "articles": {
+            "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/1160",
+            "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
+        }
+    }
+}

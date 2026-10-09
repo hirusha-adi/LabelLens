@@ -1,14 +1,19 @@
 {
-    "code": "925",
-    "name": "Chlorine",
-    "href": "e925.htm",
-    "function": "Flour bleaching agent",
+    "code": "E925",
+    "names": "Chlorine",
+    "display_name": "E925 (Chlorine)",
+    "type": "preservative, bleach, improving agent",
+    "status": "u",
+    "icon": "mdi-check-circle",
     "more_info": {
-        "origin": "Natural gas, obtained from salt. ",
-        "characteristics": "",
-        "products": "Bread but not often used.",
-        "daily_intake": "Up to 2.5 mg/kg bodyweight",
-        "side_effects": "None known.",
-        "dietary_restrictions": "None. 925 can be used by all religious groups, vegans and vegetarians."
+        "overview": "Chlorine is used as an acidity regulator in food. Its technological role is to adjust or control the acidity of food.",
+        "articles": {
+            "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/552",
+            "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "eCFR Title 21": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=137"
+        },
+        "banned_in": "Approved in the US.\nUS permission is limited to the uses and conditions in 21 CFR 137.105, checked in 2026.",
+        "uses": "Permitted in the US for specified flour bleaching or ageing treatments, subject to the applicable standard of identity."
     }
 }

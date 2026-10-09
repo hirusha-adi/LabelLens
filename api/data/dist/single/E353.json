@@ -1,14 +1,22 @@
 {
     "code": "E353",
-    "name": "meta tartaric acid",
-    "href": "e353.htm",
-    "function": "Natural acid",
+    "names": "Metatartaric acid",
+    "display_name": "E353 (Metatartaric acid)",
+    "type": "emulsifier",
+    "status": "e",
+    "icon": "mdi-check-circle",
     "more_info": {
-        "origin": "Acid, present in sugar cane and produced from glucose.",
-        "characteristics": "Acidity regulator and metal scavenger.",
-        "products": "Wine, fruit juices, etc.",
-        "daily_intake": "Up to 30 mg/kg body weight",
-        "side_effects": "None known, metabolised in the body to tartaric acid.",
-        "dietary_restrictions": "E353 can be used by all religious groups, vegans and vegetarians."
+        "banned_in": "Approved in the EU.",
+        "uses": "EU permissions include fruit wine and made wine. These permissions depend on the food category and its conditions of use.",
+        "daily_intake": "240 mg tartaric acid/kg body weight/day, included in the combined L-tartaric acid and tartrate group (EFSA, 2020).",
+        "articles": {
+            "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/6462",
+            "EUR-Lex specifications": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231",
+            "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "EFSA": "https://www.efsa.europa.eu/en/efsajournal/pub/6031"
+        },
+        "side_effects": "EFSA found no concern at reported food-use levels.\nThe assessment assumes conversion to L-tartaric acid before systemic exposure.",
+        "overview": "Metatartaric acid is classified in food technology as an emulsifier. Its technological role is to help oil and water stay mixed."
     }
 }

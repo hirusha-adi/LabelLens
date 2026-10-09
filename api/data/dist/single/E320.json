@@ -1,14 +1,22 @@
 {
     "code": "E320",
-    "name": "Butylated hydroxyanisole",
-    "href": "e320.htm",
-    "function": "Synthetic anti-oxidant",
+    "names": "Butylated hydroxyanisole (BHA)",
+    "display_name": "E320 (Butylated hydroxyanisole)",
+    "type": "antioxidant",
+    "status": "e u",
+    "icon": "mdi-alert-circle",
     "more_info": {
-        "origin": "Synthetic antioxidant",
-        "characteristics": "Anti-oxidant in fats and fatty products to prevent rancidity.",
-        "products": "Wide range of fat-containing products.",
-        "daily_intake": "Up to 0.5 mg/kg body weight.",
-        "side_effects": "None known in the concentrations used, although some pseudo-allergic reactions have been reported. BHA in combination with high concentrations of vitamin C can produce free radicals, which can cause damage to the components of cells, including DNA. This has prompted the EU to restrict the use of BHA in the near future.",
-        "dietary_restrictions": "E320 can normally be consumed by all religious groups, vegans and vegetarians."
+        "banned_in": "Approved in the EU.\nApproved in the US.\nUS food use is subject to the listed CFR provisions and their conditions, checked in 2026.",
+        "overview": "Butylated hydroxyanisole is used as an antioxidant in food. Its technological role is to slow oxidation in food.",
+        "daily_intake": "1 mg/kg body weight/day (EFSA, 2011).",
+        "articles": {
+            "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/2140",
+            "EUR-Lex specifications": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231",
+            "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "eCFR Title 21": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=182",
+            "EFSA": "https://www.efsa.europa.eu/en/efsajournal/pub/2392"
+        },
+        "side_effects": "Refined food-use estimates were generally below EFSA's limit.\nHigh-dose animal studies reported effects on offspring growth and survival; rodent forestomach findings have uncertain human relevance."
     }
 }

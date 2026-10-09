@@ -1,0 +1,21 @@
+{
+    "code": "E553b",
+    "names": "Talc",
+    "display_name": "E553b (Talc)",
+    "type": "anti-caking agent",
+    "status": "e",
+    "icon": "mdi-alert-circle",
+    "more_info": {
+        "banned_in": "Approved in the EU.",
+        "overview": "Talc is used as a sweetener in food. Its technological role is to provide sweetness.",
+        "uses": "EU permissions include chewing gum, whole broken or flaked grain, non-heat-treated processed meat, heat-treated meat products. These permissions depend on the food category and its conditions of use.",
+        "articles": {
+            "EUR-Lex specifications": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231",
+            "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "EFSA": "https://www.efsa.europa.eu/en/efsajournal/pub/5375"
+        },
+        "origin": "A naturally occurring hydrated magnesium silicate mineral. Food-grade talc is required to be free of asbestos.",
+        "side_effects": "EFSA could not assess food-use safety because the toxicology data were insufficient in 2018.\nThe former shared silicate intake limit was considered obsolete."
+    }
+}

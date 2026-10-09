@@ -1,14 +1,24 @@
 {
     "code": "E460",
-    "name": "Cellulose",
-    "href": "e460.htm",
-    "function": "Natural fibre, thickening agent",
+    "names": "Cellulose (i) Microcrystalline cellulose (ii) Powdered cellulose",
+    "display_name": "E460 (Cellulose)",
+    "type": "emulsifier",
+    "status": "e",
+    "icon": "mdi-check-circle",
     "more_info": {
-        "origin": "Cellulose is the main polysaccharide and constituent of wood and all plant structures. Commercially prepared from wood.",
-        "characteristics": "Many different uses, mainly as thickening agent, but also as filler, dietary fibre, anti clumping agent and emulsfier.",
-        "products": "Many different products.",
-        "daily_intake": "None determined.",
-        "side_effects": "Cellulose is non soluble, but can be fermented in the large intestine. Large concentrations can cause intestinal problems, such as bloating, constipation and diarrhoea. Due to this fact it can not be used in weaning foods.",
-        "dietary_restrictions": "E460 can be consumed by all religious groups, vegans and vegetarians."
+        "banned_in": "Approved in the EU.",
+        "overview": "Cellulose is used as an emulsifier in food. Its technological role is to help oil and water remain mixed.",
+        "uses": "EU permissions include unflavoured live fermented cream products and substitute products, both with a fat  content of less than 20 %, table-top sweeteners in powder form, table-top sweeteners in tablets, herbs and spices. These permissions depend on the food category and its conditions of use.",
+        "daily_intake": "No numerical ADI needed (EFSA, 2018).",
+        "articles": {
+            "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/2373",
+            "EUR-Lex specifications": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231",
+            "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "EFSA": "https://www.efsa.europa.eu/en/efsajournal/pub/5047"
+        },
+        "origin": "Cellulose pulp comes from fibrous plant material. Microcrystalline cellulose is purified and partly broken down with mineral acid, while powdered cellulose is purified and mechanically reduced.",
+        "dietary_restrictions": "The specified starting material is plant derived and compatible with vegetarian and vegan diets. The specification does not establish halal or kosher certification.",
+        "side_effects": "Assessed food uses raised no concern.\nHigh-dose animal studies found no reproductive or developmental harm."
     }
 }

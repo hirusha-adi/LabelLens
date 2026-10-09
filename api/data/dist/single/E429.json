@@ -1,0 +1,17 @@
+{
+    "code": "E429",
+    "names": "Peptones",
+    "display_name": "E429 (Peptones)",
+    "type": "flavour enhancer",
+    "status": "u",
+    "icon": "mdi-check-circle",
+    "more_info": {
+        "banned_in": "Approved in the US.\nUS food use is subject to the listed CFR provisions and their conditions, checked in 2026.",
+        "overview": "Peptones is used as a flavour enhancer in food. Its technological role is to strengthen flavours already present in food.",
+        "articles": {
+            "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "eCFR Title 21": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=184"
+        }
+    }
+}

@@ -1,14 +1,25 @@
 {
     "code": "E475",
-    "name": "Polyglycerol esters of fatty acids",
-    "href": "e475.htm",
-    "function": "Semi-synthetic emulsifiers",
+    "names": "Polyglycerol esters of fatty acids",
+    "display_name": "E475 (Polyglycerol esters of fatty acids)",
+    "type": "emulsifier",
+    "status": "e u",
+    "icon": "mdi-check-circle",
     "more_info": {
-        "origin": "  Combination of polyglycerol and natural fats. Normal fat consists of glycerol and fatty acids, for these products additional glycerol is coupled to the normal glycerol. The fats are mainly from plant origin, but also fats of animal origin may be used. The product generally is a mixture of different components.",
-        "characteristics": "Emulsifiers and stabilisers.",
-        "products": "Bakery products",
-        "daily_intake": "Up to 25 mg/kg bodyweight",
-        "side_effects": "None known. The body metabolises all components identical to natural fat.",
-        "dietary_restrictions": "Although mainly vegetable oils are used, the use of animal fat (incl. pork) can not be excluded. Several groups, such as vegans, Muslims and Jews thus avoid these products. Only the producer can give detailed information on the origin of the fatty acids. Chemically the fatty acids from vegetable or animal origin are identical."
+        "banned_in": "Approved in the EU.\nApproved in the US.\nUS food use is subject to the listed CFR provisions and their conditions, checked in 2026.",
+        "overview": "Polyglycerol esters of fatty acids is used as an emulsifier in food. Its technological role is to help oil and water remain mixed.",
+        "uses": "EU permissions include meal replacement for weight control as referred to in Commission Regulation (EU) no 432/2012, flavoured fermented milk products including heat-treated products, dairy analogues, including beverage whiteners, other confectionery including breath freshening micro-sweets. These permissions depend on the food category and its conditions of use.",
+        "daily_intake": "No numerical ADI needed (EFSA, 2017).",
+        "articles": {
+            "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/3561",
+            "EUR-Lex specifications": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231",
+            "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "eCFR Title 21": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=172",
+            "EFSA": "https://www.efsa.europa.eu/en/efsajournal/pub/5089"
+        },
+        "origin": "Made by esterifying polyglycerol with edible fats, oils or their fatty acids. The polyglycerol component mainly contains short chains of glycerol units.",
+        "dietary_restrictions": "The fatty-acid feedstock is not specified as exclusively plant derived. Vegan, vegetarian, halal and kosher suitability cannot be established without the supplier identifying the raw material and processing.",
+        "side_effects": "EFSA found no concern for assessed food uses.\nA limited three-week human study reported no adverse findings at larger intakes."
     }
 }

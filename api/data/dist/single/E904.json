@@ -1,14 +1,23 @@
 {
     "code": "E904",
-    "name": "Lac, Shellac",
-    "href": "e904.htm",
-    "function": "Coating, glazing agent",
+    "names": "Shellac",
+    "display_name": "E904 (Shellac)",
+    "type": "glazing agent",
+    "status": "e",
+    "icon": "mdi-alert-circle",
     "more_info": {
-        "origin": "Natural polymer derived from certain species of lice from India .",
-        "characteristics": "",
-        "products": "Confectionary, fruits",
-        "daily_intake": "None determined",
-        "side_effects": "None known.",
-        "dietary_restrictions": "None. E904 can be used by all religious groups and vegetarians. Vegans generally avoid the product as there are still lice in the raw product. These are eliminated during purification."
+        "banned_in": "Approved in the EU.",
+        "uses": "EU permissions include entire fresh fruit and vegetables, cocoa and chocolate products as covered by directive 2000/36/ec, other confectionery including breath freshening micro-sweets, chewing gum. These permissions depend on the food category and its conditions of use.",
+        "articles": {
+            "EUR-Lex specifications": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231",
+            "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "EFSA": "https://www.efsa.europa.eu/en/efsajournal/pub/8897"
+        },
+        "origin": "Purified resin secreted by lac insects. Bleaching produces the specified food-grade shellac.",
+        "dietary_restrictions": "Derived from an insect secretion; it is unsuitable for vegan diets. Vegetarian acceptance depends on whether insect-derived ingredients are included. Halal and kosher certification was not established by the specification.",
+        "daily_intake": "4 mg/kg body weight/day for physically decoloured wax-free shellac (EFSA, 2024). The same value is temporary for chemically bleached wax-free shellac; it excludes wax-containing shellac.",
+        "side_effects": "Conservative food-use estimates slightly exceeded the limit in some groups, but EFSA did not consider that exceedance a safety concern.\nFor chemically bleached material, organochlorine impurities remained a data gap in 2024.",
+        "overview": "Shellac is classified in food technology as a glazing agent. Its technological role is to provide a surface coating."
     }
 }

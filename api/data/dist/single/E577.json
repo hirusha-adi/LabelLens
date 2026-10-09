@@ -1,14 +1,20 @@
 {
     "code": "E577",
-    "name": "Potassium gluconate",
-    "href": "e577.htm",
-    "function": "Sequestrant",
+    "names": "Potassium gluconate",
+    "display_name": "E577 (Potassium gluconate)",
+    "type": "sequestrant",
+    "status": "e",
+    "icon": "mdi-check-circle",
     "more_info": {
-        "origin": "Potassium salt of gluconic acid, .",
-        "characteristics": "",
-        "products": "Pudding powders, custard",
-        "daily_intake": "",
-        "side_effects": "None known",
-        "dietary_restrictions": "None. E577 can be used by all religious groups, vegetarians and vegans."
+        "banned_in": "Approved in the EU.",
+        "overview": "Potassium gluconate is used as a sequestrant in food. Its technological role is to bind metal ions.",
+        "uses": "EU permissions include table-top sweeteners in powder form, table-top sweeteners in tablets. These permissions depend on the food category and its conditions of use.",
+        "daily_intake": "No ADI specified (JECFA, 1998).",
+        "articles": {
+            "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/4660",
+            "EUR-Lex specifications": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231",
+            "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
+        }
     }
 }

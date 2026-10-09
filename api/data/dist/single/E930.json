@@ -1,14 +1,19 @@
 {
-    "code": "930",
-    "name": "Calciumperoxide",
-    "href": "e930.htm",
-    "function": "Bread enhancer",
+    "code": "E930",
+    "names": "Calcium peroxide (improving agent)",
+    "display_name": "E930 (Calcium peroxide)",
+    "type": "bleach",
+    "status": "u",
+    "icon": "mdi-check-circle",
     "more_info": {
-        "origin": "Synthetic. ",
-        "characteristics": "",
-        "products": "Bread, but practically not used.",
-        "daily_intake": "None determined",
-        "side_effects": "None known.",
-        "dietary_restrictions": "None. 930 can be used by all religious groups, vegans and vegetarians."
+        "overview": "Calcium peroxide is used as a sequestrant in food. Its technological role is to bind metal ions.",
+        "articles": {
+            "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/111",
+            "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "eCFR Title 21": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=136"
+        },
+        "banned_in": "Approved in the US.\nUS permission is limited to the uses and conditions in 21 CFR 136.110, checked in 2026.",
+        "uses": "Permitted in the US as a dough-conditioning ingredient in bread, rolls and buns under the specified limits."
     }
 }

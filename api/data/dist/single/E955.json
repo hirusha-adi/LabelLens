@@ -1,14 +1,24 @@
 {
     "code": "E955",
-    "name": "Sucralose",
-    "href": "None",
-    "function": "Sweetener",
+    "names": "Sucralose (Trichlorogalactosucrose)",
+    "display_name": "E955 (Sucralose)",
+    "type": "sweetener",
+    "status": "e u",
+    "icon": "mdi-alert-circle",
     "more_info": {
-        "origin": "",
-        "characteristics": "",
-        "products": "",
-        "daily_intake": "",
-        "side_effects": "",
-        "dietary_restrictions": ""
+        "banned_in": "Approved in the EU.\nApproved in the US.\nUS food use is subject to the listed CFR provisions and their conditions, checked in 2026.",
+        "overview": "Sucralose is used as a sweetener in food. Its technological role is to provide sweetness.",
+        "uses": "EU permissions include meal replacement for weight control as referred to in Commission Regulation (EU) no 432/2012, flavoured drinks, flavoured fermented milk products including heat-treated products, edible ices. These permissions depend on the food category and its conditions of use.",
+        "daily_intake": "15 mg/kg body weight/day (EFSA, 2026; previous limit retained).",
+        "articles": {
+            "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/2340",
+            "EUR-Lex specifications": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231",
+            "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "eCFR Title 21": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=172",
+            "EFSA": "https://www.efsa.europa.eu/en/plain-language-summary/re-evaluation-sucralose-e-955-food-additive"
+        },
+        "side_effects": "Currently authorised food uses raised no concern in the 2026 EFSA assessment.\nProlonged high-temperature use had unresolved breakdown-product uncertainties, preventing confirmation of the proposed bakery-use extension.",
+        "precautions": "EFSA identified uncertainty about breakdown products during prolonged high-temperature baking or frying in its 2026 assessment."
     }
 }

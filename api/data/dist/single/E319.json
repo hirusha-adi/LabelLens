@@ -1,14 +1,21 @@
 {
-    "code": "319",
-    "name": "Butylhydroxinon",
-    "href": "e319.htm",
-    "function": "Synthetic anti-oxidant",
+    "code": "E319",
+    "names": "tert-Butylhydroquinone (TBHQ)",
+    "display_name": "E319 (tert-Butylhydroquinone)",
+    "type": "antioxidant",
+    "status": "e",
+    "icon": "mdi-alert-circle",
     "more_info": {
-        "origin": "Synthetic antioxidant",
-        "characteristics": "Anti-oxidant in oils.",
-        "products": "Oils and fats.",
-        "daily_intake": "Up to 0.02 mg/kg body weight.",
-        "side_effects": "None known in the concentrations used.",
-        "dietary_restrictions": "319 can normally be consumed by all religious groups, vegans and vegetarians."
+        "banned_in": "Approved in the EU.",
+        "overview": "tert-Butylhydroquinone is used as an antioxidant in food. Its technological role is to slow oxidation in food.",
+        "daily_intake": "0-0.7 mg/kg body weight (JECFA, 1997).",
+        "articles": {
+            "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/3548",
+            "EUR-Lex specifications": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231",
+            "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "EFSA": "https://www.efsa.europa.eu/en/efsajournal/pub/4363"
+        },
+        "side_effects": "Refined food-use exposure estimates were below the limit in 2016.\nMaximum-permitted-use modelling exceeded it for some children; this estimates exposure rather than demonstrating illness."
     }
 }

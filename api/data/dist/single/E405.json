@@ -1,14 +1,21 @@
 {
     "code": "E405",
-    "name": "Propane-1, 2-diol alginate",
-    "href": "e405.htm",
-    "function": "Derived of alginic acid",
+    "names": "Propane-1,2-diol alginate (Propylene glycol alginate) (thickener) (stabiliser)",
+    "display_name": "E405 (Propane-1)",
+    "type": "emulsifier",
+    "status": "e u",
+    "icon": "mdi-check-circle",
     "more_info": {
-        "origin": "  Propylene glycol ester of alginic acid (), a natural polysaccharide, produced by different seaweeds of the family Phaeophyceae (Macrocystis pyrifera, Laminaria digitata, L. cloustoni, Ascophyllum nodosum)  in the USA and the UK.",
-        "characteristics": "Thickening agent. ",
-        "products": "Ice cream, confectionery, dressings, etc.",
-        "daily_intake": "Up to 70 mg/kg body weight.",
-        "side_effects": "None known in the concentrations used, although some people exhibit adverse reactions towards high concentrations of propylene glycol.",
-        "dietary_restrictions": "Alginic acid and alginates can be used by all religious groups, vegans and vegetarians."
+        "banned_in": "Approved in the EU.\nApproved in the US.\nUS food use is subject to the listed CFR provisions and their conditions, checked in 2026.",
+        "overview": "Propane-1 is used as an emulsifier in food. Its technological role is to help oil and water remain mixed.",
+        "uses": "EU permissions include meal replacement for weight control as referred to in Commission Regulation (EU) no 432/2012, flavoured drinks, edible ices, fruit and vegetable preparations excluding compote. These permissions depend on the food category and its conditions of use.",
+        "daily_intake": "0-70 mg/kg body weight (JECFA, 1993).",
+        "articles": {
+            "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/3113",
+            "EUR-Lex specifications": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231",
+            "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "eCFR Title 21": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=173"
+        }
     }
 }

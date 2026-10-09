@@ -1,14 +1,22 @@
 {
     "code": "E131",
-    "name": "Patent Blue V",
-    "href": "e131.htm",
-    "function": "Blue colour, synthetic",
+    "names": "Patent Blue V",
+    "display_name": "E131 (Patent Blue V)",
+    "type": "color (Dark blue)",
+    "status": "e",
+    "icon": "mdi-alert-circle",
     "more_info": {
-        "origin": "Synthetic blue colour.",
-        "characteristics": "Blue food colour. Very soluble in water.",
-        "products": "Many products.",
-        "daily_intake": "Up to 15 mg/kg body weight.",
-        "side_effects": "Side effects rarely occur in the concentrations used in foods. Rare allergic reactions have been described, due to coupling of the colour to (body) proteins. It can also function as a histamine liberator.",
-        "dietary_restrictions": "None; E131 can be consumed by all religious groups, vegans and vegetarians."
+        "banned_in": "Approved in the EU.",
+        "overview": "Patent Blue V is used as a color in food. Its technological role is to add or restore food colour.",
+        "uses": "EU permissions include dried fruit and vegetables, fruit and vegetables in vinegar oil or brine, canned or bottled fruit and vegetables, fruit and vegetable preparations excluding compote. These permissions depend on the food category and its conditions of use.",
+        "daily_intake": "0–5 mg/kg body weight/day (EFSA, 2013).",
+        "articles": {
+            "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/2513",
+            "EUR-Lex specifications": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231",
+            "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "EFSA": "https://www.efsa.europa.eu/en/efsajournal/pub/2818"
+        },
+        "side_effects": "Reported food-use estimates were below EFSA's limit.\nHigher modelled exposure using maximum permitted levels could exceed the limit in children; it does not establish that those children experienced harm."
     }
 }

@@ -1,14 +1,24 @@
 {
     "code": "E161b",
-    "name": "Lutein",
-    "href": "e161b.htm",
-    "function": "Natural, yellow colour",
+    "names": "Lutein",
+    "display_name": "E161b (Lutein)",
+    "type": "color (Orange-red to yellow)",
+    "status": "e",
+    "icon": "mdi-alert-circle",
     "more_info": {
-        "origin": "Natural colour, present in many plants. Commercially prepared from grass, nettles or Tagetes  species.",
-        "characteristics": "",
-        "products": "Rarely used. If used only in soups and alcoholic beverages.",
-        "daily_intake": "None determined.",
-        "side_effects": "",
-        "dietary_restrictions": ""
+        "banned_in": "Approved in the EU.",
+        "overview": "Lutein is used as a color in food. Its technological role is to add or restore food colour.",
+        "uses": "EU permissions include processed cheese, jam jellies and marmalades and similar products, other similar fruit or vegetable spreads, processed fish and fishery products including molluscs and crustaceans. These permissions depend on the food category and its conditions of use.",
+        "daily_intake": "1 mg/kg body weight/day for the assessed Tagetes erecta lutein preparation (EFSA, 2010).",
+        "articles": {
+            "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/2179",
+            "EUR-Lex specifications": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231",
+            "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "EFSA": "https://www.efsa.europa.eu/en/efsajournal/pub/1678"
+        },
+        "origin": "Extracted from edible plant material, including marigold flowers, using permitted solvents. The extract contains lutein together with related carotenoids.",
+        "dietary_restrictions": "The specified starting material is plant derived and compatible with vegetarian and vegan diets. The specification does not establish halal or kosher certification.",
+        "side_effects": "The assessment found no genotoxicity concern for the specified lutein preparation.\nHigh food-use exposure estimates exceeded the limit in some groups; long-term and multigeneration data were incomplete."
     }
 }

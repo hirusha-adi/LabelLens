@@ -51,6 +51,8 @@
     "Created previously missing individual file using the master identity and reviewed sources.",
     "status versus master: '' -> 'u'. Check whether the July 2026 proposed revocation has become final; the US flag reflects the currently loaded CFR and FDA inventory, despite JECFA rejection.",
     "Icon: JECFA rejected food-additive use in 1969; FDA proposed revocation for abandonment in 2026.",
-    "master status: '' -> 'u'. Aligned with the compound-specific researched single file; see status sources and review notes."
+    "master status: '' -> 'u'. Aligned with the compound-specific researched single file; see status sources and review notes.",
+    "status: '' -> 'u'; exact current EU/FDA identity check and retained regulatory sources. Empty flags include unconfirmed permissions, not inferred country bans.",
+    "Created the missing individual additive record and field provenance."
   ]
 }

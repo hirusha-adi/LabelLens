@@ -1,14 +1,16 @@
 {
-    "code": "923",
-    "name": "Ammonium persulphate",
-    "href": "e923.htm",
-    "function": "Bread enhancer",
+    "code": "E923",
+    "names": "Ammonium persulphate",
+    "display_name": "E923 (Ammonium persulphate)",
+    "type": "improving agent",
+    "status": "",
+    "icon": "mdi-check-circle",
     "more_info": {
-        "origin": "Produced from ammonium metasulphate and hydrogen peroxide ",
-        "characteristics": "",
-        "products": "Bread",
-        "daily_intake": "None determined",
-        "side_effects": "None known.",
-        "dietary_restrictions": "None. 923 can be used by all religious groups, vegans and vegetarians."
+        "articles": {
+            "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/2150",
+            "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
+        },
+        "overview": "Ammonium persulphate is classified in food technology as an improving agent. Its technological role is to modify flour or dough properties."
     }
 }

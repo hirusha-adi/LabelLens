@@ -1,14 +1,20 @@
 {
     "code": "E355",
-    "name": "Adipic acid",
-    "href": "e355.htm",
-    "function": "Natural acid",
+    "names": "Adipic acid",
+    "display_name": "E355 (Adipic acid)",
+    "type": "acidity regulator",
+    "status": "e u",
+    "icon": "mdi-check-circle",
     "more_info": {
-        "origin": "Natural acid present in beets and sugar cane (juice).",
-        "characteristics": "Acidity regulator, aroma compound and some other specific uses.",
-        "products": "Many different products.",
-        "daily_intake": "Up to 5 mg/kg body weight.",
-        "side_effects": "None known, it is metabolised in the body or excreted in the urine.",
-        "dietary_restrictions": "Adipic acid and adipates can be used by all religious groups, vegans and vegetarians."
+        "banned_in": "Approved in the EU.\nApproved in the US.\nUS food use is subject to the listed CFR provisions and their conditions, checked in 2026.",
+        "overview": "Adipic acid is used as a raising agent in food. Its technological role is to release gas that increases the volume of dough.",
+        "daily_intake": "For adipic acid: 0-5 mg/kg body weight (JECFA, 2025). This evaluation does not establish an ADI for every form in the named group. This is the combined limit for adipic acid and its specified salts.",
+        "articles": {
+            "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/194",
+            "EUR-Lex specifications": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231",
+            "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "eCFR Title 21": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=184"
+        }
     }
 }

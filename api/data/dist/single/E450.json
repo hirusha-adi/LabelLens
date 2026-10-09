@@ -1,14 +1,23 @@
 {
     "code": "E450",
-    "name": "Di- and polyphosphates",
-    "href": "e450.htm",
-    "function": "Salt of phosphoric acid",
+    "names": "Diphosphates (i) Disodium diphosphate (ii) Trisodium diphosphate (iii) Tetrasodium diphosphate (iv) Dipotassium diphosphate (v) Tetrapotassium diphosphate (vi) Dicalcium diphosphate (vii) Calcium dihydrogen diphosphate",
+    "display_name": "E450 (Diphosphates)",
+    "type": "emulsifier",
+    "status": "e u",
+    "icon": "mdi-alert-circle",
     "more_info": {
-        "origin": "Salts of sodium/potassium/calcium with phosphates. All are produced synthetically from the respective carbonates and phosphoric acid.",
-        "characteristics": "Buffers and emulsifiers. E450 (iii) also binds metals and prevents discoloration due to metals. E450 (vi) is also used as bread enhancer and calcium supplement.",
-        "products": "Many different products.",
-        "daily_intake": "Up to 70 mg/kg bodyweight for all phosphate containing additives",
-        "side_effects": "None known when used in foods. High concentrations of phosphates may disturb several metabolic processes as phosphate plays an important role in general metabolism.",
-        "dietary_restrictions": "E450 can be consumed by all religious groups, vegans and vegetarians."
+        "banned_in": "Approved in the EU.\nApproved in the US.\nUS food use is subject to the listed CFR provisions and their conditions, checked in 2026.",
+        "overview": "Diphosphates is used as an emulsifier in food. Its technological role is to help oil and water remain mixed.",
+        "uses": "EU permissions include bread and rolls, processed fish and fishery products including molluscs and crustaceans. These permissions depend on the food category and its conditions of use.",
+        "articles": {
+            "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/3616",
+            "EUR-Lex specifications": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231",
+            "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "eCFR Title 21": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=182",
+            "EFSA": "https://www.efsa.europa.eu/en/efsajournal/pub/5674"
+        },
+        "daily_intake": "40 mg phosphorus/kg body weight/day, combined phosphates (EFSA, 2019).",
+        "side_effects": "Estimated combined exposure exceeded the limit in some groups.\nAnimal evidence supports low acute toxicity."
     }
 }

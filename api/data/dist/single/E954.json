@@ -1,14 +1,22 @@
 {
     "code": "E954",
-    "name": "Sacharine",
-    "href": "None",
-    "function": "Sweetener",
+    "names": "Saccharin and its sodium, potassium and calcium salts",
+    "display_name": "E954 (Saccharin and its sodium)",
+    "type": "sweetener",
+    "status": "e",
+    "icon": "mdi-alert-circle",
     "more_info": {
-        "origin": "",
-        "characteristics": "",
-        "products": "",
-        "daily_intake": "",
-        "side_effects": "",
-        "dietary_restrictions": ""
+        "banned_in": "Approved in the EU.",
+        "overview": "Saccharin and its sodium is used as a sweetener in food. Its technological role is to provide sweetness.",
+        "uses": "EU permissions include meal replacement for weight control as referred to in Commission Regulation (EU) no 432/2012, flavoured drinks, flavoured fermented milk products including heat-treated products, edible ices. These permissions depend on the food category and its conditions of use.",
+        "daily_intake": "9 mg saccharin/kg body weight/day, expressed as free imide (EFSA, 2024).",
+        "articles": {
+            "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/3164",
+            "EUR-Lex specifications": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231",
+            "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "EFSA": "https://www.efsa.europa.eu/en/efsajournal/pub/9044"
+        },
+        "side_effects": "Assessed food-use exposure stayed below the limit.\nThe review identified potential genotoxic impurities associated with one manufacturing route and requested improved specifications."
     }
 }

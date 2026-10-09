@@ -1,14 +1,22 @@
 {
     "code": "E416",
-    "name": "Karaya gum",
-    "href": "e416.htm",
-    "function": "Natural thickening agent",
+    "names": "Karaya gum (thickener) (stabiliser)",
+    "display_name": "E416 (Karaya gum)",
+    "type": "emulsifier",
+    "status": "e",
+    "icon": "mdi-check-circle",
     "more_info": {
-        "origin": "  A natural polysaccharide, obtained from the tree Sterculia urens found in India, as well as some related trees.",
-        "characteristics": "Thickening agent, stabiliser and emulsifier. ",
-        "products": "M any different products.",
-        "daily_intake": "None specified.",
-        "side_effects": "None known in the concentrations used, although high concentrations bring about flatulence and bloating, due to fermentation by the intestinal microflora (in the same way as all indigestible polysaccharides). It has laxative properties.",
-        "dietary_restrictions": "Karaya gum can be used by all religious groups, vegans and vegetarians."
+        "banned_in": "Approved in the EU.",
+        "overview": "Karaya gum is used as an emulsifier in food. Its technological role is to help oil and water remain mixed.",
+        "uses": "EU permissions include flavoured fermented milk products including heat-treated products, chewing gum, sauces, potato- cereal- flour- or starch-based snacks. These permissions depend on the food category and its conditions of use.",
+        "daily_intake": "No ADI specified (JECFA, 1988).",
+        "articles": {
+            "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/1",
+            "EUR-Lex specifications": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231",
+            "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
+        },
+        "origin": "Collected as dried gum exudate from suitable Sterculia or Cochlospermum species. It contains acetylated plant polysaccharides.",
+        "dietary_restrictions": "The specified starting material is plant derived and compatible with vegetarian and vegan diets. The specification does not establish halal or kosher certification."
     }
 }

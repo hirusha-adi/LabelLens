@@ -1,14 +1,17 @@
 {
     "code": "E921",
-    "name": "L-Cystine",
-    "href": "e921.htm",
-    "function": "Bread enhancer",
+    "names": "L-cystine",
+    "display_name": "E921 (L-cystine)",
+    "type": "improving agent",
+    "status": "u",
+    "icon": "mdi-check-circle",
     "more_info": {
-        "origin": "An essential amino acid, present in all protein (essential indicates that it is needed by the human body). Derived from proteins, including animal protein and hair. ",
-        "characteristics": "",
-        "products": "Bread",
-        "daily_intake": "None determined",
-        "side_effects": "None known.",
-        "dietary_restrictions": "None. E921 can be obtained from animal sources, including pork. It should thus be avoided by Muslims, Jews, Hindus and vegans."
+        "banned_in": "Approved in the US.\nUS food use is subject to the listed CFR provisions and their conditions, checked in 2026.",
+        "overview": "L-cystine is used as a flavour enhancer in food. Its technological role is to strengthen flavours already present in food.",
+        "articles": {
+            "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "eCFR Title 21": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=172"
+        }
     }
 }

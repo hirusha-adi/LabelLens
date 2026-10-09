@@ -1,14 +1,20 @@
 {
     "code": "E631",
-    "name": "Sodium inosinate",
-    "href": "e631.htm",
-    "function": "Flavour enhancer",
+    "names": "Disodium inosinate",
+    "display_name": "E631 (Disodium inosinate)",
+    "type": "flavour enhancer",
+    "status": "e u",
+    "icon": "mdi-check-circle",
     "more_info": {
-        "origin": "Sodium salt of inosinic acid (), a natural acid, that is mainly present in animals. Commercially prepared from meat or fish (sardines). May also be produced by bacterial fermentation of sugars.",
-        "characteristics": "Flavour enhancer. Inosinic acid and inosinates do not have the specific umami taste but strongly enhance many other flavours, thereby reducing the amounts of salt or other flavour enhancers needed in a product.",
-        "products": "Used in many products.",
-        "daily_intake": "None determined. Inosinates may not be used in products intended for children under 12 weeks.",
-        "side_effects": "Asthmatic people should avoid inosinates. As inosinates are metabolised to purines, they should be avoided by people suffering from gout. However, the concentrations used are generally so low that no effects are to be expected.",
-        "dietary_restrictions": "Inosinates are generally produced from meat, but partly also from fish. They are thus not suitable for vegans and vegetarians, and in most cases not suitable for Jews, Muslims and Hindus, depending on the origin of the product. Only the producer can provide information on the origin."
+        "banned_in": "Approved in the EU.\nApproved in the US.\nUS food use is subject to the listed CFR provisions and their conditions, checked in 2026.",
+        "overview": "Disodium inosinate is used as a flavour enhancer in food. Its technological role is to strengthen flavours already present in food.",
+        "daily_intake": "No ADI specified (JECFA, 1993).",
+        "articles": {
+            "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/4083",
+            "EUR-Lex specifications": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231",
+            "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "eCFR Title 21": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=172"
+        }
     }
 }

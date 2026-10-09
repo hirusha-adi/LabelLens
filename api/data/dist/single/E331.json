@@ -1,14 +1,20 @@
 {
     "code": "E331",
-    "name": "Sodium citrates",
-    "href": "e331.htm",
-    "function": "Acidity regulators",
+    "names": "Sodium citrates (i) Monosodium citrate (ii) Disodium citrate (iii) Sodium citrate (trisodium citrate)",
+    "display_name": "E331 (Sodium citrates)",
+    "type": "acidity regulator",
+    "status": "e",
+    "icon": "mdi-check-circle",
     "more_info": {
-        "origin": "Sodium salts of citric acid, a compound found in every living organism, as it is part of the key metabolic pathways in all body cells. Large concentrations are found in citrus fruits, kiwi, strawberries and many other fruits. Commercially prepared by fermentation of molasses with the mould Aspergillus niger .",
-        "characteristics": "Citric acid and citrates have many functions \u0096 they increase the activity of many antioxidants, and exhibit some antioxidant activity. They are mainly used as acidity regulators as well as aroma compounds. They increase gel strength in marmalades and decrease enzymatic browning in fruits and fruit products.",
-        "products": "Wide range of products.",
-        "daily_intake": "No limit.",
-        "side_effects": "Citric acid is a normal component of body cells and will be degraded and used by the body without side effects. Pseudo-allergic reactions (intolerance) have been reported, but these are very rare. People with such intolerance should also avoid all soft fruits and berries and products made thereof. It does not cause cancer (see the following ).",
-        "dietary_restrictions": "Citric acid and citrates can normally be consumed by all religious groups, vegans and vegetarians. Citric acid does not cause allergic reactions in people who are allergic to oranges and other citrus fruits, as it is commercially made from sugar, not fruits."
+        "banned_in": "Approved in the EU.",
+        "overview": "Sodium citrates is used as a sequestrant in food. Its technological role is to bind metal ions.",
+        "uses": "EU permissions include edible caseinates, milk-based drinks and similar products intended for young children, unflavoured pasteurised and sterilised (including uht) milk, fats and oils essentially free from water  (excluding anhydrous milk fat). These permissions depend on the food category and its conditions of use.",
+        "daily_intake": "ADI classified as not limited (JECFA, 1979).",
+        "articles": {
+            "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/1811",
+            "EUR-Lex specifications": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231",
+            "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
+        }
     }
 }

@@ -1,0 +1,17 @@
+{
+    "code": "E264",
+    "names": "Ammonium acetate",
+    "display_name": "E264 (Ammonium acetate)",
+    "type": "preservative",
+    "status": "",
+    "icon": "mdi-check-circle",
+    "more_info": {
+        "daily_intake": "No ADI specified (JECFA, 1982).",
+        "articles": {
+            "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/438",
+            "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
+        },
+        "overview": "Ammonium acetate is classified in food technology as a preservative. Its technological role is to limit microbial spoilage."
+    }
+}

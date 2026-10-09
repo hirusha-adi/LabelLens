@@ -1,14 +1,19 @@
 {
     "code": "E356",
-    "name": "Sodium adipate",
-    "href": "e356.htm",
-    "function": "Acidity regulator",
+    "names": "Sodium adipate",
+    "display_name": "E356 (Sodium adipate)",
+    "type": "acidity regulator",
+    "status": "e",
+    "icon": "mdi-check-circle",
     "more_info": {
-        "origin": "Sodium salt of adipic acid, a natural acid present in beets and sugar cane (juice).",
-        "characteristics": "Acidity regulator",
-        "products": "Herbal salts",
-        "daily_intake": "Up to 5 mg/kg body weight",
-        "side_effects": "None known; it is metabolised in the body or excreted in the urine.",
-        "dietary_restrictions": "Adipic acid and adipates can be used by all religious groups, vegans and vegetarians."
+        "banned_in": "Approved in the EU.",
+        "daily_intake": "0-5 mg/kg body weight (JECFA, 1977). This is the combined limit for adipic acid and its specified salts.",
+        "articles": {
+            "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/2972",
+            "EUR-Lex specifications": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231",
+            "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
+        },
+        "overview": "Sodium adipate is classified in food technology as an acidity regulator. Its technological role is to control acidity."
     }
 }

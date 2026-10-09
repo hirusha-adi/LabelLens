@@ -1,0 +1,23 @@
+{
+    "code": "E968",
+    "names": "Erythritol",
+    "display_name": "E968 (Erythritol)",
+    "type": "sweetener",
+    "status": "e",
+    "icon": "mdi-alert-circle",
+    "more_info": {
+        "banned_in": "Approved in the EU.",
+        "overview": "Erythritol is used as a sweetener in food. Its technological role is to provide sweetness.",
+        "uses": "EU permissions include flavoured drinks. These permissions depend on the food category and its conditions of use.",
+        "daily_intake": "500 mg/kg body weight/day (EFSA, 2023).",
+        "articles": {
+            "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/961",
+            "EUR-Lex specifications": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231",
+            "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "EFSA": "https://www.efsa.europa.eu/en/efsajournal/pub/8430"
+        },
+        "origin": "Produced by fermentation of carbohydrates with suitable food-grade yeasts. The erythritol is then purified and dried.",
+        "side_effects": "High food-use exposure estimates exceeded the limit.\nHuman studies establish dose-related diarrhoea; repeated diarrhoea may disturb fluid and electrolyte balance."
+    }
+}

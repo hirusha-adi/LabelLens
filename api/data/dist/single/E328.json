@@ -1,0 +1,17 @@
+{
+    "code": "E328",
+    "names": "Ammonium lactate",
+    "display_name": "E328 (Ammonium lactate)",
+    "type": "acidity regulator",
+    "status": "",
+    "icon": "mdi-check-circle",
+    "more_info": {
+        "daily_intake": "ADI classified as not limited (JECFA, 1973).",
+        "articles": {
+            "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/136",
+            "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
+        },
+        "overview": "Ammonium lactate is classified in food technology as an acidity regulator. Its technological role is to control acidity."
+    }
+}

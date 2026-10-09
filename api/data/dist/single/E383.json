@@ -1,0 +1,15 @@
+{
+    "code": "E383",
+    "names": "Calcium glycerylphosphate",
+    "display_name": "E383 (Calcium glycerylphosphate)",
+    "type": "acidity regulator",
+    "status": "",
+    "icon": "mdi-check-circle",
+    "more_info": {
+        "articles": {
+            "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
+        },
+        "overview": "Calcium glycerylphosphate is classified in food technology as an acidity regulator. Its technological role is to control acidity."
+    }
+}

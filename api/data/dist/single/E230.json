@@ -1,14 +1,17 @@
 {
     "code": "E230",
-    "name": "Biphenyl",
-    "href": "e230.htm",
-    "function": "Synthetic preservative",
+    "names": "Biphenyl, diphenyl",
+    "display_name": "E230 (Biphenyl)",
+    "type": "preservative",
+    "status": "",
+    "icon": "mdi-check-circle",
     "more_info": {
-        "origin": "Synthesised from benzene.",
-        "characteristics": "White, water-insoluble powder used predominantly against Penicillium  fungi growing on citrus fruits. It is used to disinfect containers and in impregnating the wrapping of citrus fruits. Sometimes fruits are dipped in a solution of diphenyl, which slowly penetrates the peel and may be present in the fruit itself.",
-        "products": "Citrus fruits",
-        "daily_intake": "Up to 0.05 mg/kg body weight.",
-        "side_effects": "It is excreted unaltered by the kidneys. Sensitivity has been reported for people handling large consignments of citrus fruits (ships, trucks). Otherwise there are no side effects",
-        "dietary_restrictions": " diphenyl can be consumed by all religious groups, vegans and vegetarians."
+        "overview": "Biphenyl is used as a preservative in food. Its technological role is to help limit microbial spoilage.",
+        "daily_intake": "0-0.05 mg/kg body weight (JECFA, 1964).",
+        "articles": {
+            "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/957",
+            "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
+        }
     }
 }

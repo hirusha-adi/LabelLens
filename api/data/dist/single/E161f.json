@@ -1,14 +1,15 @@
 {
     "code": "E161f",
-    "name": "Rhodoxanthin",
-    "href": "e161f.htm",
-    "function": "Natural, yellow colour",
+    "names": "Rhodoxanthin",
+    "display_name": "E161f (Rhodoxanthin)",
+    "type": "color (Purple)",
+    "status": "",
+    "icon": "mdi-check-circle",
     "more_info": {
-        "origin": "Natural colour, present in many plants and birds. Commercially prepared from different plant species.",
-        "characteristics": "",
-        "products": "Rarely used.",
-        "daily_intake": "Up to 5 mg/kg bodyweight.",
-        "side_effects": "",
-        "dietary_restrictions": ""
+        "articles": {
+            "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
+        },
+        "overview": "Rhodoxanthin is classified in food technology as a color. Its technological role is to add or restore colour."
     }
 }

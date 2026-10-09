@@ -1,14 +1,18 @@
 {
     "code": "E948",
-    "name": "Oxygen",
-    "href": "e948.htm",
-    "function": "Propellant",
+    "names": "Oxygen",
+    "display_name": "E948 (Oxygen)",
+    "type": "packaging gas",
+    "status": "e",
+    "icon": "mdi-check-circle",
     "more_info": {
-        "origin": "Natural gas. ",
-        "characteristics": "",
-        "products": "Gas packed vegetables",
-        "daily_intake": "None determined",
-        "side_effects": "None known by use in foods.",
-        "dietary_restrictions": "None. E948 can be used by all religious groups, vegans and vegetarians."
+        "banned_in": "Approved in the EU.",
+        "overview": "Oxygen is used as a propellant in food. Its technological role is to expel food from its container.",
+        "articles": {
+            "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/2739",
+            "EUR-Lex specifications": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231",
+            "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
+        }
     }
 }

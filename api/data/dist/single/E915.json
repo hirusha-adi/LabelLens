@@ -1,14 +1,15 @@
 {
-    "code": "915",
-    "name": "Esters of Colophane",
-    "href": "e915.htm",
-    "function": "Stabiliser, flavour",
+    "code": "E915",
+    "names": "Esters of colophony",
+    "display_name": "E915 (Esters of colophony)",
+    "type": "glazing agent",
+    "status": "",
+    "icon": "mdi-check-circle",
     "more_info": {
-        "origin": "Resin obtained from the pine tree Pinus silvestris  and related species. ",
-        "characteristics": "",
-        "products": "Chewing gum. Citrus flavours.",
-        "daily_intake": "None determined",
-        "side_effects": "None known.",
-        "dietary_restrictions": "None. E915 can be used by all religious groups, vegans and vegetarians."
+        "articles": {
+            "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
+        },
+        "overview": "Esters of colophony is classified in food technology as a glazing agent. Its technological role is to provide a surface coating."
     }
 }

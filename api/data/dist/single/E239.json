@@ -1,14 +1,20 @@
 {
     "code": "E239",
-    "name": "Hexamine",
-    "href": "e239.htm",
-    "function": "Synthetic preservative",
+    "names": "Hexamine (hexamethylene tetramine)",
+    "display_name": "E239 (Hexamine)",
+    "type": "preservative",
+    "status": "e",
+    "icon": "mdi-check-circle",
     "more_info": {
-        "origin": "Commercially synthesised from formaldehyde and ammonia",
-        "characteristics": "Used as a preservative against fungi.",
-        "products": "Caviar, cheese, herring, preserved fish, etc.",
-        "daily_intake": "Up to 0.15 mg/kg body weight.",
-        "side_effects": "It is metabolised by the liver and excreted. High concentrations have considerable side effects; however, these concentrations are never reached in foods, due to the taste it imparts.",
-        "dietary_restrictions": " E239 can be consumed by all religious groups, vegans and vegetarians."
+        "banned_in": "Approved in the EU.",
+        "overview": "Hexamine is used as a preservative in food. Its technological role is to help limit microbial spoilage.",
+        "uses": "EU permissions include ripened cheese. These permissions depend on the food category and its conditions of use.",
+        "daily_intake": "0-0.15 mg/kg body weight (JECFA, 1973).",
+        "articles": {
+            "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/2415",
+            "EUR-Lex specifications": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231",
+            "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
+        }
     }
 }

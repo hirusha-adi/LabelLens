@@ -1,14 +1,21 @@
 {
-    "code": "905",
-    "name": "Paraffine, Vaseline",
-    "href": "e905.htm",
-    "function": "Coating, glazing agent",
+    "code": "E905",
+    "names": "Paraffins",
+    "display_name": "E905 (Paraffins)",
+    "type": "flavour enhancer",
+    "status": "u",
+    "icon": "mdi-check-circle",
     "more_info": {
-        "origin": "Synthetic mixture of hydrocarbons.",
-        "characteristics": "",
-        "products": "Many different products, also in pharmaceutical and cosmetic preparations.",
-        "daily_intake": "None determined",
-        "side_effects": "None known, but has laxative effects in high concentrations.",
-        "dietary_restrictions": "None. E905 can be used by all religious groups, vegans and vegetarians."
+        "banned_in": "Approved in the US.\nUS food use is subject to the listed CFR provisions and their conditions, checked in 2026.",
+        "overview": "Paraffins is used as a flavour enhancer in food. Its technological role is to strengthen flavours already present in food.",
+        "uses": "EU permissions include entire fresh fruit and vegetables, other confectionery including breath freshening micro-sweets, chewing gum. These permissions depend on the food category and its conditions of use.",
+        "daily_intake": "ADI withdrawn (JECFA, 1995).",
+        "articles": {
+            "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/3021",
+            "EUR-Lex specifications": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231",
+            "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "eCFR Title 21": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=173"
+        }
     }
 }

@@ -90,6 +90,10 @@ def regulatory_lines(text, status, prefix, errors):
 def validate_additive(code, errors):
     path = ROOT / "dist/single" / f"{code}.json"
     obj = read_json(path, errors)
+    validate_record(code, obj, errors)
+
+
+def validate_record(code, obj, errors):
     if not isinstance(obj, dict):
         errors.append(f"{code}: additive must be an object")
         return
@@ -148,6 +152,11 @@ def validate_additive(code, errors):
         # Require traceability for descriptions too, not only health/legal text.
         for field in {"status", "icon", "names", "type", "display_name"} | (info.keys() - {"articles"}):
             links = fields.get(field)
+            # Names and existing categories are explicitly supplied by the master.
+            # Keep their local provenance instead of attributing them to a website.
+            supplied = source.get("inputs", {}).get(field)
+            if field in {"names", "type", "display_name"} and supplied == "development/ins-summary-original.json":
+                continue
             if not isinstance(links, list) or not links or any(not url(link) for link in links):
                 errors.append(f"{code}: missing or invalid sources for {field}")
     for field in ("gaps", "changes"):
@@ -155,6 +164,53 @@ def validate_additive(code, errors):
         if not isinstance(value, list) or any(not isinstance(item, str) or not item.strip() for item in value):
             errors.append(f"{code}: source {field} must be a list of nonempty strings")
     empty_strings(source, f"{code}.sources", errors)
+
+
+def validate_aggregate(selected, errors):
+    records = read_json(ROOT / "dist/ins-full.json", errors)
+    if not isinstance(records, list):
+        errors.append("dist/ins-full.json: must be an array")
+        return
+    indexed = {}
+    for item in records:
+        if not isinstance(item, dict) or not isinstance(item.get("code"), str):
+            errors.append("dist/ins-full.json: each entry must have a string code")
+            continue
+        code = item["code"]
+        if code in indexed:
+            errors.append(f"dist/ins-full.json: duplicate code {code}")
+        indexed[code] = item
+    for code in sorted(selected):
+        if code not in indexed:
+            errors.append(f"dist/ins-full.json: missing {code}")
+            continue
+        path = ROOT / "dist/single" / f"{code}.json"
+        if path.is_file():
+            single = read_json(path, errors)
+            if indexed[code] != single:
+                errors.append(f"dist/ins-full.json: {code} differs from its individual file")
+
+
+def validate_loaded_urls(selected, errors):
+    ledger = read_json(ROOT / "development/url-checks.json", errors)
+    checks = ledger.get("checks", {}) if isinstance(ledger, dict) else {}
+    for code in sorted(selected):
+        record = read_json(ROOT / "dist/single" / f"{code}.json", errors)
+        source = read_json(ROOT / "development/sources" / f"{code}.json", errors)
+        used = set()
+        if isinstance(record, dict):
+            info = record.get("more_info", {})
+            articles = info.get("articles", {}) if isinstance(info, dict) else {}
+            if isinstance(articles, dict):
+                used.update(value for value in articles.values() if isinstance(value, str))
+        if isinstance(source, dict) and isinstance(source.get("fields"), dict):
+            for links in source["fields"].values():
+                if isinstance(links, list):
+                    used.update(link for link in links if isinstance(link, str))
+        for link in sorted(used):
+            receipt = checks.get(link, {})
+            if not isinstance(receipt, dict) or receipt.get("loaded") is not True:
+                errors.append(f"{code}: URL has no successful load receipt: {link}")
 
 
 def main():
@@ -182,6 +238,8 @@ def main():
             errors.append(f"{code!r}: invalid selected code")
             continue
         validate_additive(code, errors)
+    validate_aggregate(selected, errors)
+    validate_loaded_urls(selected, errors)
     for error in errors:
         print(error, file=sys.stderr)
     scope = "BATCH ONLY" if args.codes else "FULL DATASET"

@@ -1,14 +1,23 @@
 {
     "code": "E962",
-    "name": "Salt of aspartame-acesulfame",
-    "href": "None",
-    "function": "Sweetener",
+    "names": "Aspartame-acesulfame salt (sweetener)",
+    "display_name": "E962 (Aspartame-acesulfame salt)",
+    "type": "stabiliser",
+    "status": "e",
+    "icon": "mdi-check-circle",
     "more_info": {
-        "origin": "",
-        "characteristics": "",
-        "products": "",
-        "daily_intake": "",
-        "side_effects": "",
-        "dietary_restrictions": ""
+        "banned_in": "Approved in the EU.",
+        "overview": "Aspartame-acesulfame salt is used as a sweetener in food. Its technological role is to provide sweetness.",
+        "uses": "EU permissions include meal replacement for weight control as referred to in Commission Regulation (EU) no 432/2012, flavoured drinks, flavoured fermented milk products including heat-treated products, edible ices. These permissions depend on the food category and its conditions of use.",
+        "articles": {
+            "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/1849",
+            "EUR-Lex specifications": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231",
+            "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "EFSA": "https://www.efsa.europa.eu/en/efsajournal/pub/10259"
+        },
+        "origin": "Made by combining aspartame and acesulfame potassium in acidic solution and crystallising the resulting salt. Potassium and moisture are removed during processing.",
+        "daily_intake": "Component limits: 40 mg aspartame/kg body weight/day and 15 mg acesulfame K/kg body weight/day (EFSA, 2026). No separate salt ADI was derived.",
+        "side_effects": "The salt separates into its two sweetener components. Their assessed food-use exposure raised no concern in 2026.\nThe assessment applies the separate component intake limits."
     }
 }

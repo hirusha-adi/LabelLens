@@ -1,14 +1,21 @@
 {
     "code": "E296",
-    "name": "Malic acid",
-    "href": "e296.htm",
-    "function": "Acid",
+    "names": "Malic acid (acid)",
+    "display_name": "E296 (Malic acid)",
+    "type": "acidity regulator",
+    "status": "e u",
+    "icon": "mdi-check-circle",
     "more_info": {
-        "origin": "Malic acid is a natural acid present in most fruits and many vegetables. Commercially made by chemical synthesis. It is part of the metabolic pathway of every living cell.",
-        "characteristics": "Used as acid, flavour compound and colour stabilizer in apple- and grapejuice.",
-        "products": "many different products",
-        "daily_intake": "",
-        "side_effects": "",
-        "dietary_restrictions": ""
+        "banned_in": "Approved in the EU.\nApproved in the US.\nUS food use is subject to the listed CFR provisions and their conditions, checked in 2026.",
+        "overview": "Malic acid is used as a flavour enhancer in food. Its technological role is to strengthen flavours already present in food.",
+        "uses": "EU permissions include peeled cut and shredded fruit and vegetables, canned or bottled fruit and vegetables, jam jellies and marmalades and similar products, other similar fruit or vegetable spreads. These permissions depend on the food category and its conditions of use.",
+        "daily_intake": "No ADI specified (JECFA, 1969).",
+        "articles": {
+            "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/4939",
+            "EUR-Lex specifications": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231",
+            "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "eCFR Title 21": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=184"
+        }
     }
 }

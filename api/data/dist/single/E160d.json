@@ -1,14 +1,21 @@
 {
     "code": "E160d",
-    "name": "Lycopene",
-    "href": "e160d.htm",
-    "function": "Natural red colour",
+    "names": "Lycopene",
+    "display_name": "E160d (Lycopene)",
+    "type": "color (Bright to deep red)",
+    "status": "e",
+    "icon": "mdi-check-circle",
     "more_info": {
-        "origin": "Natural colour, present in many yellow and red plants and fruits. Commercially isolated from tomatoes. See also the background file on .",
-        "characteristics": "",
-        "products": "Many different products.",
-        "daily_intake": "None determined.",
-        "side_effects": "None known.",
-        "dietary_restrictions": "None; E160d can be consumed by all religious groups, vegans and vegetarians."
+        "banned_in": "Approved in the EU.",
+        "overview": "Lycopene is used as a color in food. Its technological role is to add or restore food colour.",
+        "uses": "EU permissions include meal replacement for weight control as referred to in Commission Regulation (EU) no 432/2012, flavoured drinks, flavoured fermented milk products including heat-treated products, edible cheese rind. These permissions depend on the food category and its conditions of use.",
+        "daily_intake": "For lycopene: No ADI specified (JECFA, 2009). This evaluation does not establish an ADI for every form in the named group.",
+        "articles": {
+            "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/2876",
+            "EUR-Lex specifications": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231",
+            "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
+        },
+        "origin": "Specified lycopene preparations can be made by chemical synthesis, extracted from tomatoes, or produced by fermentation with Blakeslea trispora. The source depends on the preparation."
     }
 }

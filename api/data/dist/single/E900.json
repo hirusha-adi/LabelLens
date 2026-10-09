@@ -1,14 +1,19 @@
 {
     "code": "E900",
-    "name": "Dimethyl-polysiloxane",
-    "href": "e900.htm",
-    "function": "Anti-foaming agent",
+    "names": "Dimethyl polysiloxane (anti-foaming agent)",
+    "display_name": "E900 (Dimethyl polysiloxane)",
+    "type": "anti-caking agent",
+    "status": "e u",
+    "icon": "mdi-check-circle",
     "more_info": {
-        "origin": "Synthetic polymer.",
-        "characteristics": "",
-        "products": "Industrial oils, soups, juices",
-        "daily_intake": "Up to 1,5 mg/kg bodyweight",
-        "side_effects": "None known",
-        "dietary_restrictions": "None. E900 can be used by all religious groups, vegetarians and vegans."
+        "banned_in": "Approved in the EU.\nApproved in the US.\nUS food use is subject to the listed CFR provisions and their conditions, checked in 2026.",
+        "uses": "EU permissions include flavoured drinks, fats and oils essentially free from water  (excluding anhydrous milk fat), canned or bottled fruit and vegetables, jam jellies and marmalades and similar products. These permissions depend on the food category and its conditions of use.",
+        "articles": {
+            "EUR-Lex specifications": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231",
+            "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "eCFR Title 21": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=173"
+        },
+        "overview": "Dimethyl polysiloxane is classified in food technology as an anti-caking agent. Its technological role is to keep powders free-flowing."
     }
 }

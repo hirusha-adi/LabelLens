@@ -1,14 +1,22 @@
 {
     "code": "E535",
-    "name": "Sodium ferrocyanide",
-    "href": "e535.htm",
-    "function": "Anti caking agent",
+    "names": "Sodium ferrocyanide (acidity regulator)",
+    "display_name": "E535 (Sodium ferrocyanide)",
+    "type": "anti-caking agent",
+    "status": "e u",
+    "icon": "mdi-check-circle",
     "more_info": {
-        "origin": "Prepared from hydrogen ferrocyanide and sodium hydroxide.",
-        "characteristics": "",
-        "products": "Salt",
-        "daily_intake": "",
-        "side_effects": "None in the concentrations used. Use is very limited, partly due to the strong yellow colour.",
-        "dietary_restrictions": "None. E535 can be used by all religious groups, vegetarians and vegans."
+        "banned_in": "Approved in the EU.\nApproved in the US.\nUS food use is subject to the listed CFR provisions and their conditions, checked in 2026.",
+        "overview": "Sodium ferrocyanide is used as an anti-caking agent in food. Its technological role is to help powders stay free-flowing.",
+        "daily_intake": "0.03 mg ferrocyanide ion/kg body weight/day, combined ferrocyanides (EFSA, 2018).",
+        "articles": {
+            "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/2761",
+            "EUR-Lex specifications": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231",
+            "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "eCFR Title 21": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=172",
+            "EFSA": "https://www.efsa.europa.eu/en/efsajournal/pub/5374"
+        },
+        "side_effects": "Assessed food uses raised no concern.\nHigher-dose animal kidney effects supported the group limit."
     }
 }

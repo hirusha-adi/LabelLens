@@ -1,0 +1,21 @@
+{
+    "code": "E522",
+    "names": "Aluminium potassium sulphate",
+    "display_name": "E522 (Aluminium potassium sulphate)",
+    "type": "acidity regulator",
+    "status": "e",
+    "icon": "mdi-alert-circle",
+    "more_info": {
+        "banned_in": "Approved in the EU.",
+        "daily_intake": "No ADI allocated (JECFA, 1978).",
+        "articles": {
+            "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/2374",
+            "EUR-Lex specifications": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231",
+            "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "EFSA": "https://www.efsa.europa.eu/en/efsajournal/pub/5372"
+        },
+        "side_effects": "EFSA found no concern for the assessed limited food uses.\nHigher-dose animal studies identified nervous-system effects of aluminium.",
+        "overview": "Aluminium potassium sulphate is classified in food technology as an acidity regulator. Its technological role is to control acidity."
+    }
+}

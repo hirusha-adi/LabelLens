@@ -1,0 +1,22 @@
+{
+    "code": "E1520",
+    "names": "Propylene glycol",
+    "display_name": "E1520 (Propylene glycol)",
+    "type": "humectant",
+    "status": "e u",
+    "icon": "mdi-check-circle",
+    "more_info": {
+        "banned_in": "Approved in the EU.\nApproved in the US.\nUS food use is subject to the listed CFR provisions and their conditions, checked in 2026.",
+        "overview": "Propylene glycol is used as a humectant in food. Its technological role is to help retain moisture.",
+        "daily_intake": "25 mg/kg body weight/day (EFSA, 2018).",
+        "articles": {
+            "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/2698",
+            "EUR-Lex specifications": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231",
+            "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "eCFR Title 21": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=184",
+            "EFSA": "https://www.efsa.europa.eu/en/efsajournal/pub/5235"
+        },
+        "side_effects": "Refined estimates from assessed food uses stayed below the limit.\nThe opinion found no reason to revise the existing intake limit."
+    }
+}

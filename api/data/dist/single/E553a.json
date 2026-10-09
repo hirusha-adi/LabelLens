@@ -1,0 +1,20 @@
+{
+    "code": "E553a",
+    "names": "(i) Magnesium silicate (ii) Magnesium trisilicate",
+    "display_name": "E553a (Magnesium silicate)",
+    "type": "anti-caking agent",
+    "status": "e",
+    "icon": "mdi-alert-circle",
+    "more_info": {
+        "banned_in": "Approved in the EU.",
+        "uses": "EU permissions include chewing gum. These permissions depend on the food category and its conditions of use.",
+        "articles": {
+            "EUR-Lex specifications": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231",
+            "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "EFSA": "https://www.efsa.europa.eu/en/efsajournal/pub/5375"
+        },
+        "side_effects": "EFSA could not assess food-use safety because the toxicology data were insufficient in 2018.\nThe former shared silicate intake limit was considered obsolete.",
+        "overview": "Magnesium silicate is classified in food technology as an anti-caking agent. Its technological role is to keep powders free-flowing."
+    }
+}

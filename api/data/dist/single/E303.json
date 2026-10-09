@@ -1,0 +1,17 @@
+{
+    "code": "E303",
+    "names": "Potassium ascorbate",
+    "display_name": "E303 (Potassium ascorbate)",
+    "type": "antioxidant",
+    "status": "",
+    "icon": "mdi-check-circle",
+    "more_info": {
+        "overview": "Potassium ascorbate is used as an antioxidant in food. Its technological role is to slow oxidation in food.",
+        "daily_intake": "No ADI specified (JECFA, 1981).",
+        "articles": {
+            "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/3233",
+            "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
+        }
+    }
+}

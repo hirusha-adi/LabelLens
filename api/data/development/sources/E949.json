@@ -1,0 +1,42 @@
+{
+  "code": "E949",
+  "checked": "2026-10-10",
+  "fields": {
+    "status": [
+      "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+      "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
+    ],
+    "icon": [
+      "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+      "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
+    ],
+    "banned_in": [
+      "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818"
+    ],
+    "names": [
+      "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231"
+    ],
+    "overview": [
+      "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818"
+    ]
+  },
+  "inputs": {
+    "display_name": "development/ins-summary-original.json",
+    "type": "development/ins-summary-original.json",
+    "overview": "development/ins-summary-original.json"
+  },
+  "gaps": [
+    "Current US food-use permission was not established for the exact identity in the FDA inventory and available direct-food CFR sections; no u flag is asserted.",
+    "Specific food-use examples were not confirmed; uses omitted.",
+    "A current, unambiguous food-additive ADI and its basis were not confirmed; daily_intake omitted.",
+    "No sufficiently specific compound-level source was retained for origin; field omitted.",
+    "No sufficiently specific compound-level source was retained for side_effects; field omitted.",
+    "No sufficiently specific compound-level source was retained for dietary_restrictions; field omitted.",
+    "No sufficiently specific compound-level source was retained for interactions; field omitted.",
+    "No sufficiently specific compound-level source was retained for precautions; field omitted."
+  ],
+  "changes": [
+    "Replaced the legacy layout with rich fields and removed unsupported inherited health, dietary and intake assertions.",
+    "name/href/function and characteristics/products replaced by the required rich schema; only sourced facts were retained."
+  ]
+}

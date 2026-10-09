@@ -1,14 +1,17 @@
 {
     "code": "E479",
-    "name": "Esterified soy oil",
-    "href": "e479.htm",
-    "function": "Semi-synthetic emulsifiers",
+    "names": "Esterified soy oil",
+    "display_name": "E479 (Esterified soy oil)",
+    "type": "Semi-synthetic emulsifiers",
+    "status": "",
+    "icon": "mdi-check-circle",
     "more_info": {
-        "origin": "  Produced by heating soy-oil in the presence of free fatty acids. The fatty acids are mainly from plant origin, but also fats of animal origin may be used. The product generally is a mixture of different components.",
-        "characteristics": "Emulsifiers and stabilisers.",
-        "products": "Bakery products",
-        "daily_intake": "Up to 30 mg/kg bodyweight",
-        "side_effects": "The product is a normal fat and will be metabolised in the normal way.",
-        "dietary_restrictions": "Although mainly vegetable oils are used, the use of animal fat (incl. pork) can not be excluded. Several groups, such as vegans, Muslims and Jews thus avoid these products. Only the producer can give detailed information on the origin of the fatty acids. Chemically the fatty acids from vegetable or animal origin are identical."
+        "overview": "Esterified soy oil is used as an emulsifier in food. Its technological role is to help oil and water remain mixed.",
+        "daily_intake": "0-30 mg/kg body weight (JECFA, 1992).",
+        "articles": {
+            "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/3681",
+            "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
+        }
     }
 }

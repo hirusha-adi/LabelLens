@@ -47,6 +47,7 @@
   "changes": [
     "Created previously missing individual file using the master identity and reviewed sources.",
     "Icon: JECFA allocated no ADI and records withdrawal of specifications.",
-    "master names: 'Alkannin[11]' -> 'Alkannin'. Removed an imported [11] citation marker; WHO identifies the compound as Alkannin."
+    "master names: 'Alkannin[11]' -> 'Alkannin'. Removed an imported [11] citation marker; WHO identifies the compound as Alkannin.",
+    "Created the missing individual additive record and field provenance."
   ]
 }

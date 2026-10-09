@@ -1,14 +1,20 @@
 {
     "code": "E297",
-    "name": "Fumaric acid",
-    "href": "e297.htm",
-    "function": "Natural acid",
+    "names": "Fumaric acid",
+    "display_name": "E297 (Fumaric acid)",
+    "type": "acidity regulator",
+    "status": "e",
+    "icon": "mdi-check-circle",
     "more_info": {
-        "origin": "Fumaric acid is a natural acid present in many fruits and vegetables. Commercially made by fermentation of sugar by fungi or by chemical synthesis. It is part of the metabolic pathway in every living cell.",
-        "characteristics": "Used as acid and structure stabilizer in a large range of products. Also used as acid source in baking powder",
-        "products": "many different products",
-        "daily_intake": "",
-        "side_effects": "",
-        "dietary_restrictions": ""
+        "banned_in": "Approved in the EU.",
+        "overview": "Fumaric acid is used as a raising agent in food. Its technological role is to release gas that increases the volume of dough.",
+        "uses": "EU permissions include flavoured drinks, flavoured fermented milk products including heat-treated products, other confectionery including breath freshening micro-sweets, chewing gum. These permissions depend on the food category and its conditions of use.",
+        "daily_intake": "For fumaric acid: No ADI specified (JECFA, 1999). This evaluation does not establish an ADI for every form in the named group.",
+        "articles": {
+            "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/1723",
+            "EUR-Lex specifications": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231",
+            "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
+        }
     }
 }

@@ -1,0 +1,21 @@
+{
+    "code": "E443",
+    "names": "Brominated vegetable oil",
+    "display_name": "E443 (Brominated vegetable oil)",
+    "type": "emulsifier",
+    "status": "",
+    "icon": "mdi-alert-circle",
+    "more_info": {
+        "daily_intake": "No ADI allocated (JECFA, 1970).",
+        "articles": {
+            "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/2686",
+            "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "FDA": "https://www.fda.gov/food/hfp-constituent-updates/fda-revokes-regulation-allowing-use-brominated-vegetable-oil-bvo-food"
+        },
+        "banned_in": "Banned in: United States.\nFDA withdrew its food-use authorisation in 2024; the compliance period ended in 2025.",
+        "overview": "Brominated vegetable oil is vegetable oil chemically modified with bromine. It was used to keep citrus flavouring dispersed in some drinks.",
+        "origin": "Made by modifying vegetable oil with bromine. Its starting oil is plant derived and chemically processed.",
+        "side_effects": "FDA concluded that the intended food use could no longer be considered safe after reviewing new studies.\nThe animal findings indicated potential human health effects; they do not quantify a clinical risk from an individual serving."
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "code": "E924b",
+    "names": "Calcium bromate",
+    "display_name": "E924b (Calcium bromate)",
+    "type": "improving agent",
+    "status": "u",
+    "icon": "mdi-check-circle",
+    "more_info": {
+        "overview": "Calcium bromate is used as a raising agent in food. Its technological role is to release gas that increases the volume of dough.",
+        "articles": {
+            "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "eCFR Title 21": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=136"
+        },
+        "banned_in": "Approved in the US.\nUS permission is limited to the uses and conditions in 21 CFR 136.110, checked in 2026.",
+        "uses": "Permitted in the US as a dough-conditioning ingredient in bread, rolls and buns under the specified limits."
+    }
+}

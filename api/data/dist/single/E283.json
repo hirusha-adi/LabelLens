@@ -1,14 +1,21 @@
 {
     "code": "E283",
-    "name": "Potassium propionate",
-    "href": "e283.htm",
-    "function": "Natural salt",
+    "names": "Potassium propionate",
+    "display_name": "E283 (Potassium propionate)",
+    "type": "preservative",
+    "status": "e",
+    "icon": "mdi-check-circle",
     "more_info": {
-        "origin": "Potassium salt of propionic acid, a natural acid present in small quantities in many foods, sometimes in high concentrations produced by bacteria in fermented foods, such as types of Swiss cheese. It is also produced on a large scale by the bacteria in the large intestine.",
-        "characteristics": "Propionic acid and propionates are used as preservatives, mainly against fungi.",
-        "products": "bakery products",
-        "daily_intake": "no limit",
-        "side_effects": "",
-        "dietary_restrictions": ""
+        "banned_in": "Approved in the EU.",
+        "overview": "Potassium propionate is used as a preservative in food. Its technological role is to help limit microbial spoilage.",
+        "daily_intake": "ADI classified as not limited (JECFA, 1973).",
+        "articles": {
+            "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/2401",
+            "EUR-Lex specifications": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231",
+            "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "EFSA": "https://www.efsa.europa.eu/en/efsajournal/pub/3779"
+        },
+        "side_effects": "EFSA found no concern at permitted food concentrations.\nHigher-concentration animal exposure caused local digestive-tract changes; human relevance depends on concentration."
     }
 }

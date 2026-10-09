@@ -1,14 +1,19 @@
 {
     "code": "E914",
-    "name": "Oxidized polyethylene wax",
-    "href": "e914.htm",
-    "function": "Coating, glazing agent",
+    "names": "Oxidized polyethylene wax, oxidized polyethylene",
+    "display_name": "E914 (Oxidized polyethylene wax)",
+    "type": "glazing agent",
+    "status": "e",
+    "icon": "mdi-check-circle",
     "more_info": {
-        "origin": "",
-        "characteristics": "",
-        "products": "",
-        "daily_intake": "",
-        "side_effects": "",
-        "dietary_restrictions": ""
+        "banned_in": "Approved in the EU.",
+        "uses": "EU permissions include entire fresh fruit and vegetables. These permissions depend on the food category and its conditions of use.",
+        "articles": {
+            "EUR-Lex specifications": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231",
+            "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
+        },
+        "origin": "Made by mild oxidation of polyethylene. It is a synthetic wax containing polar reaction products.",
+        "overview": "Oxidized polyethylene wax is classified in food technology as a glazing agent. Its technological role is to provide a surface coating."
     }
 }

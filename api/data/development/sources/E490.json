@@ -1,0 +1,49 @@
+{
+  "code": "E490",
+  "checked": "2026-10-10",
+  "fields": {
+    "status": [
+      "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+      "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=184"
+    ],
+    "icon": [
+      "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+      "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
+    ],
+    "type": [
+      "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+      "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=184"
+    ],
+    "banned_in": [
+      "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+      "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=184"
+    ],
+    "overview": [
+      "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+      "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=184"
+    ],
+    "origin": [
+      "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=184"
+    ],
+    "daily_intake": [
+      "https://www.efsa.europa.eu/en/efsajournal/pub/5235"
+    ]
+  },
+  "inputs": {
+    "names": "development/ins-summary-original.json",
+    "display_name": "development/ins-summary-original.json"
+  },
+  "gaps": [
+    "Specific food-use examples were not confirmed; uses omitted.",
+    "No sufficiently specific compound-level source was retained for side_effects; field omitted.",
+    "No sufficiently specific compound-level source was retained for dietary_restrictions; field omitted.",
+    "No sufficiently specific compound-level source was retained for interactions; field omitted.",
+    "No sufficiently specific compound-level source was retained for precautions; field omitted."
+  ],
+  "changes": [
+    "Replaced the legacy layout with rich fields and removed unsupported inherited health, dietary and intake assertions.",
+    "status: '' -> 'e u'; exact current EU/FDA identity check and retained regulatory sources. Empty flags include unconfirmed permissions, not inferred country bans.",
+    "code: '490' -> 'E490'; restored the required prefix and filename identity.",
+    "name/href/function and characteristics/products replaced by the required rich schema; only sourced facts were retained."
+  ]
+}

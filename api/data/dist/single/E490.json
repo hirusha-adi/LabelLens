@@ -1,14 +1,18 @@
 {
-    "code": "490",
-    "name": "Propylene glycol",
-    "href": "e490.htm",
-    "function": "solvent",
+    "code": "E490",
+    "names": "Propane-1,2-diol",
+    "display_name": "E490 (Propane-1)",
+    "type": "carrier",
+    "status": "e u",
+    "icon": "mdi-check-circle",
     "more_info": {
-        "origin": "  Synthetic product prepared from propylene from oil.",
-        "characteristics": "Solvent for flavours and anti-oxidants.",
-        "products": "Different products",
-        "daily_intake": "Up to 25 mg/kg bodyweight",
-        "side_effects": "It is metabolised to acetic and pyruvic acids, both are normal constituents of the body. High concentrations cause eczema, but not when used in foods.",
-        "dietary_restrictions": "490 can be used by all religious groups, vegans and vegetarians."
+        "articles": {
+            "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
+        },
+        "banned_in": "Approved in the EU.\nApproved in the US.\nThis legacy code names propane-1,2-diol, regulated as E1520 in the EU; identity was checked in 2026.",
+        "overview": "Propane-1,2-diol is the chemical also known as propylene glycol. It is used as a carrier or solvent for specified food ingredients.",
+        "origin": "A synthetic glycol made by chemical processing; the CFR describes manufacture from propylene chlorohydrin or from glycerol.",
+        "daily_intake": "25 mg/kg body weight/day for propane-1,2-diol (EFSA, 2018)."
     }
 }

@@ -1,14 +1,15 @@
 {
     "code": "E485",
-    "name": "Renamed as 441",
-    "href": "e441.htm",
-    "function": "",
+    "names": "Sodium stearoyl fumarate",
+    "display_name": "E485 (Sodium stearoyl fumarate)",
+    "type": "emulsifier",
+    "status": "",
+    "icon": "mdi-check-circle",
     "more_info": {
-        "origin": "Obtained from animal by-products, such as bones and hides. It can be produced from all species of animals.",
-        "characteristics": "Thickening and gelling agent",
-        "products": "Many different products",
-        "daily_intake": "None determined",
-        "side_effects": "None known when used in foods",
-        "dietary_restrictions": "441 can not be used by vegans and vegetarians. Use by religious groups, such as Muslims and Jews is restricted, due to the origin of the product. Unfortunately information on origin can only be obtained from the producer. Specific halal gelatin is made from cattle."
+        "articles": {
+            "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
+        },
+        "overview": "Sodium stearoyl fumarate is classified in food technology as an emulsifier. Its technological role is to help oil and water stay mixed."
     }
 }

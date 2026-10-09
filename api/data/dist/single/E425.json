@@ -1,0 +1,22 @@
+{
+    "code": "E425",
+    "names": "Konjac (i) Konjac gum (ii) Konjac glucomannane",
+    "display_name": "E425 (Konjac)",
+    "type": "emulsifier",
+    "status": "e",
+    "icon": "mdi-alert-circle",
+    "more_info": {
+        "banned_in": "Approved in the EU.",
+        "articles": {
+            "EUR-Lex specifications": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231",
+            "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "EFSA": "https://www.efsa.europa.eu/en/efsajournal/pub/4864"
+        },
+        "origin": "Konjac gum and konjac glucomannan are obtained from konjac tubers. Water extraction produces the gum, while washing konjac flour with aqueous ethanol yields the glucomannan preparation.",
+        "dietary_restrictions": "The specified starting material is plant derived and compatible with vegetarian and vegan diets. The specification does not establish halal or kosher certification.",
+        "daily_intake": "No numerical ADI needed under the assessed conditions of use (EFSA, 2017).",
+        "side_effects": "EFSA found no concern for assessed food uses.\nIn a study of 3 g/day for 12 weeks, some adults reported abdominal discomfort, diarrhoea or constipation.",
+        "overview": "Konjac is classified in food technology as an emulsifier. Its technological role is to help oil and water stay mixed."
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "code": "E1505",
+    "names": "Triethyl citrate",
+    "display_name": "E1505 (Triethyl citrate)",
+    "type": "foam stabiliser",
+    "status": "e",
+    "icon": "mdi-check-circle",
+    "more_info": {
+        "banned_in": "Approved in the EU.",
+        "overview": "Triethyl citrate is used as a sequestrant in food. Its technological role is to bind metal ions.",
+        "uses": "EU permissions include processed eggs and egg products, food supplements supplied in a solid form excluding food supplements for infants and  young children’,. These permissions depend on the food category and its conditions of use.",
+        "articles": {
+            "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/3286",
+            "EUR-Lex specifications": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231",
+            "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
+        }
+    }
+}

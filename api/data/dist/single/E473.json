@@ -1,14 +1,25 @@
 {
     "code": "E473",
-    "name": "Sugar esters of fatty acids",
-    "href": "e473.htm",
-    "function": "Semi-synthetic emulsifiers",
+    "names": "Sucrose esters of fatty acids",
+    "display_name": "E473 (Sucrose esters of fatty acids)",
+    "type": "emulsifier",
+    "status": "e u",
+    "icon": "mdi-alert-circle",
     "more_info": {
-        "origin": "  Esters of sugar and synthetic fats, produced from glycerol and natural fatty acids. The fatty acids are mainly from plant origin, but also fats of animal origin may be used. The product generally is a mixture of different components, with a composition similar to partially digested natural fat esterified with sugar.",
-        "characteristics": "Emulsifiers and stabilisers.",
-        "products": "M any different products",
-        "daily_intake": "16 mg/kg bodyweight",
-        "side_effects": "None known. The products are first digested to sugar and fats. The body metabolises all components identical to sugar and natural fat. The individual components of the mono- and diglycerides are also produced normally in the body when digesting normal fat.",
-        "dietary_restrictions": "Although mainly vegetable oils are used, the use of animal fat (incl. pork) can not be excluded. Several groups, such as vegans, Muslims and Jews thus avoid these products. Only the producer can give detailed information on the origin of the fatty acids. Chemically the fatty acids from vegetable or animal origin are identical."
+        "banned_in": "Approved in the EU.\nApproved in the US.\nUS food use is subject to the listed CFR provisions and their conditions, checked in 2026.",
+        "overview": "Sucrose esters of fatty acids is used as an emulsifier in food. Its technological role is to help oil and water remain mixed.",
+        "uses": "EU permissions include milk-based drinks and similar products intended for young children. These permissions depend on the food category and its conditions of use.",
+        "daily_intake": "0-30 mg/kg body weight (JECFA, 1997). This is a combined limit for sucrose fatty-acid esters and sucroglycerides.",
+        "articles": {
+            "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/2736",
+            "EUR-Lex specifications": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231",
+            "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "eCFR Title 21": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=172",
+            "EFSA": "https://www.efsa.europa.eu/en/efsajournal/pub/5087"
+        },
+        "origin": "Prepared by combining sucrose with suitable food fatty-acid derivatives, or recovered from sucroglycerides. This is a chemically processed sugar-and-fat ingredient.",
+        "dietary_restrictions": "The fatty-acid feedstock is not specified as exclusively plant derived. Vegan, vegetarian, halal and kosher suitability cannot be established without the supplier identifying the raw material and processing.",
+        "side_effects": "The 2018 food-use exposure estimates exceeded the limit for several groups.\nEFSA considered the estimates likely to overstate actual exposure."
     }
 }

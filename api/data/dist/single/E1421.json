@@ -1,0 +1,15 @@
+{
+    "code": "E1421",
+    "names": "Starch acetate esterified with vinyl acetate (stabiliser)",
+    "display_name": "E1421 (Starch acetate esterified with vinyl acetate)",
+    "type": "thickening agent",
+    "status": "",
+    "icon": "mdi-check-circle",
+    "more_info": {
+        "articles": {
+            "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
+        },
+        "overview": "Starch acetate esterified with vinyl acetate is classified in food technology as a thickening agent. Its technological role is to increase thickness."
+    }
+}

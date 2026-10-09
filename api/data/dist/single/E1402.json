@@ -1,0 +1,15 @@
+{
+    "code": "E1402",
+    "names": "Alkaline modified starch (stabiliser)",
+    "display_name": "E1402 (Alkaline modified starch)",
+    "type": "thickening agent",
+    "status": "",
+    "icon": "mdi-check-circle",
+    "more_info": {
+        "articles": {
+            "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
+        },
+        "overview": "Alkaline modified starch is classified in food technology as a thickening agent. Its technological role is to increase thickness."
+    }
+}

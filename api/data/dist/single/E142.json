@@ -1,14 +1,22 @@
 {
     "code": "E142",
-    "name": "Green S",
-    "href": "e142.htm",
-    "function": "Green colour, synthetic",
+    "names": "Green S",
+    "display_name": "E142 (Green S)",
+    "type": "color (Green)",
+    "status": "e",
+    "icon": "mdi-alert-circle",
     "more_info": {
-        "origin": "",
-        "characteristics": "Green food colour. E142 is soluble in water, but unstable in acid or alkaline solutions.",
-        "products": "Many products.",
-        "daily_intake": "Up to 5 mg/kg body weight.",
-        "side_effects": "Very few side effects are known. In some cases allergies or anaemia have been reported.",
-        "dietary_restrictions": "None; E142 can be consumed by all religious groups, vegans and vegetarians."
+        "banned_in": "Approved in the EU.",
+        "overview": "Green S is used as a color in food. Its technological role is to add or restore food colour.",
+        "uses": "EU permissions include canned or bottled fruit and vegetables, jam jellies and marmalades and similar products, other similar fruit or vegetable spreads, processed fish and fishery products including molluscs and crustaceans. These permissions depend on the food category and its conditions of use.",
+        "daily_intake": "0–5 mg/kg body weight/day (EFSA, 2010).",
+        "articles": {
+            "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/611",
+            "EUR-Lex specifications": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231",
+            "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "EFSA": "https://www.efsa.europa.eu/en/efsajournal/pub/1851"
+        },
+        "side_effects": "Refined food-use estimates were below EFSA's limit.\nHigher maximum-use estimates exceeded the limit for some children. Genotoxicity data were incomplete, although long-term and reproductive studies were negative."
     }
 }

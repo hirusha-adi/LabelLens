@@ -49,6 +49,7 @@
   ],
   "changes": [
     "Created previously missing individual file using the master identity and reviewed sources.",
-    "Icon: JECFA could not complete the safety evaluation and described sensitisation reports."
+    "Icon: JECFA could not complete the safety evaluation and described sensitisation reports.",
+    "Created the missing individual additive record and field provenance."
   ]
 }
