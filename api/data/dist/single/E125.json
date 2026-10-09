@@ -1,0 +1,17 @@
+{
+    "code": "E125",
+    "names": "Ponceau SX, Scarlet GN",
+    "display_name": "E125 (Ponceau SX)",
+    "type": "color (Red)",
+    "status": "",
+    "icon": "mdi-alert-circle",
+    "more_info": {
+        "banned_in": "Banned in: United States.\nFDA terminated its remaining food-use certificates for FD&C Red No. 4 in 1976.",
+        "overview": "Ponceau SX, also called Scarlet GN or FD&C Red No. 4, is a red azo colour. It was formerly used in food, including maraschino cherries. Its historical E125 number does not confer current approval.",
+        "articles": {
+            "FDA inventory": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?id=FDCRed4&set=ColorAdditives",
+            "eCFR": "https://www.ecfr.gov/current/title-21/section-81.30",
+            "Wikipedia": "https://en.wikipedia.org/wiki/Scarlet_GN"
+        }
+    }
+}

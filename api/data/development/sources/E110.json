@@ -1,0 +1,80 @@
+{
+  "code": "E110",
+  "checked": "2026-10-10",
+  "fields": {
+    "names": [
+      "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32012R0231",
+      "https://www.ecfr.gov/current/title-21/section-74.706"
+    ],
+    "display_name": [
+      "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32012R0231",
+      "https://www.ecfr.gov/current/title-21/section-74.706"
+    ],
+    "type": [
+      "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32012R0231",
+      "https://www.ecfr.gov/current/title-21/section-74.706"
+    ],
+    "status": [
+      "https://ec.europa.eu/food/food-feed-portal/backend/api/policy-items/POL-FAD-IMPORT-2989",
+      "https://www.ecfr.gov/current/title-21/section-74.706"
+    ],
+    "icon": [
+      "https://efsa.onlinelibrary.wiley.com/doi/10.2903/j.efsa.2014.3765",
+      "https://www.efsa.europa.eu/en/press/news/091112"
+    ],
+    "overview": [
+      "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32012R0231",
+      "https://www.ecfr.gov/current/title-21/section-74.706"
+    ],
+    "origin": [
+      "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32012R0231",
+      "https://www.ecfr.gov/current/title-21/section-74.706"
+    ],
+    "daily_intake": [
+      "https://efsa.onlinelibrary.wiley.com/doi/10.2903/j.efsa.2014.3765"
+    ],
+    "side_effects": [
+      "https://efsa.onlinelibrary.wiley.com/doi/10.2903/j.efsa.2014.3765",
+      "https://www.efsa.europa.eu/en/press/news/091112"
+    ],
+    "uses": [
+      "https://ec.europa.eu/food/food-feed-portal/backend/api/policy-items/POL-FAD-IMPORT-2989",
+      "https://ec.europa.eu/food/food-feed-portal/backend/api/food_categories?domain_code=fad",
+      "https://www.ecfr.gov/current/title-21/section-74.706"
+    ],
+    "banned_in": [
+      "https://ec.europa.eu/food/food-feed-portal/backend/api/policy-items/POL-FAD-IMPORT-2989",
+      "https://www.ecfr.gov/current/title-21/section-74.706",
+      "https://efsa.onlinelibrary.wiley.com/doi/10.2903/j.efsa.2014.3765"
+    ]
+  },
+  "gaps": [
+    "dietary_restrictions: no specific applicable claim verified in the reviewed compound record, regulatory listings and safety assessment; omitted.",
+    "interactions: no specific applicable claim verified in the reviewed compound record, regulatory listings and safety assessment; omitted.",
+    "precautions: no specific applicable claim verified in the reviewed compound record, regulatory listings and safety assessment; omitted.",
+    "Country ban list: no compound-specific national prohibition verified in the sources reviewed; omission does not establish absence of bans worldwide.",
+    "dietary_restrictions: the old universal vegan/vegetarian/religious suitability guarantee was not verified. Chemical identity or synthetic origin alone does not establish commercial preparation or process certification."
+  ],
+  "changes": [
+    "Replaced the old 2.5 mg/kg intake value with the 2014 EFSA ADI; removed unverified universal salicylate, histamine and asthma claims.",
+    "names: absent -> 'Sunset Yellow FCF (Orange Yellow S, FD&C Yellow 6)'. Names/type follow the master; identity and legal flags follow the field sources.",
+    "display_name: absent -> 'E110 (Sunset Yellow FCF)'. Names/type follow the master; identity and legal flags follow the field sources.",
+    "type: absent -> 'color (Yellow-orange)'. Names/type follow the master; identity and legal flags follow the field sources.",
+    "status: absent -> 'e u'. Names/type follow the master; identity and legal flags follow the field sources.",
+    "icon: absent -> 'mdi-alert-circle'. Names/type follow the master; identity and legal flags follow the field sources.",
+    "more_info.banned_in: added. Rewritten in original plain language using the field sources; unverified old claims are not retained.",
+    "more_info.overview: added. Rewritten in original plain language using the field sources; unverified old claims are not retained.",
+    "more_info.origin: replaced. Rewritten in original plain language using the field sources; unverified old claims are not retained.",
+    "more_info.daily_intake: replaced. Rewritten in original plain language using the field sources; unverified old claims are not retained.",
+    "more_info.side_effects: replaced. Rewritten in original plain language using the field sources; unverified old claims are not retained.",
+    "more_info.uses: added. Rewritten in original plain language using the field sources; unverified old claims are not retained.",
+    "more_info.articles: added. Replaced with correctly labeled sources that loaded successfully; removed consumer-health and unsourced secondary links.",
+    "name: removed obsolete basic-layout key; identity/function now use the rich schema.",
+    "href: removed obsolete basic-layout key; identity/function now use the rich schema.",
+    "function: removed obsolete basic-layout key; identity/function now use the rich schema.",
+    "more_info.characteristics: removed; no verified compound-specific food-use claim retained. See gaps.",
+    "more_info.dietary_restrictions: removed; no verified compound-specific food-use claim retained. See gaps.",
+    "more_info.products: removed; no verified compound-specific food-use claim retained. See gaps.",
+    "Icon: EFSA imposed a temporary reduced ADI in 2009; the uncertainty was reassessed and the ADI revised in 2014."
+  ]
+}

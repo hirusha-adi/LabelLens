@@ -1,0 +1,56 @@
+{
+  "code": "E121",
+  "checked": "2026-10-10",
+  "fields": {
+    "names": [
+      "https://www.ecfr.gov/current/title-21/section-74.302"
+    ],
+    "display_name": [
+      "https://www.ecfr.gov/current/title-21/section-74.302"
+    ],
+    "type": [
+      "https://www.ecfr.gov/current/title-21/section-74.302"
+    ],
+    "status": [
+      "https://ec.europa.eu/food/food-feed-portal/backend/api/policy-items?foodDomain=fin&authorisationType=fad_auth",
+      "https://www.ecfr.gov/current/title-21/section-74.302",
+      "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?id=CitrusRed2&set=ColorAdditives"
+    ],
+    "icon": [
+      "https://www.inchem.org/documents/jecfa/jecmono/v46aje10.htm",
+      "https://www.fda.gov/news-events/press-announcements/fda-takes-further-steps-remove-outdated-authorizations-color-additives-food"
+    ],
+    "overview": [
+      "https://www.ecfr.gov/current/title-21/section-74.302"
+    ],
+    "daily_intake": [
+      "https://www.inchem.org/documents/jecfa/jecmono/v46aje10.htm"
+    ],
+    "side_effects": [
+      "https://www.inchem.org/documents/jecfa/jecmono/v46aje10.htm"
+    ],
+    "uses": [
+      "https://www.ecfr.gov/current/title-21/section-74.302"
+    ],
+    "banned_in": [
+      "https://www.ecfr.gov/current/title-21/section-74.302",
+      "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?id=CitrusRed2&set=ColorAdditives",
+      "https://www.fda.gov/news-events/press-announcements/fda-takes-further-steps-remove-outdated-authorizations-color-additives-food"
+    ]
+  },
+  "gaps": [
+    "origin: a commercial synthesis description was found in PubChem search results but the compound page loaded a browser challenge; it was not used as verified evidence.",
+    "WHO database narrative contains an apparent missing negation inconsistent with its NOT TO BE USED heading; the original 1969 monograph was read to resolve the safety conclusion.",
+    "dietary_restrictions: no specific applicable claim verified in the reviewed compound record, regulatory listings and safety assessment; omitted.",
+    "interactions: no specific applicable claim verified in the reviewed compound record, regulatory listings and safety assessment; omitted.",
+    "precautions: no specific applicable claim verified in the reviewed compound record, regulatory listings and safety assessment; omitted.",
+    "Country ban list: no compound-specific national prohibition verified in the sources reviewed; omission does not establish absence of bans worldwide.",
+    "dietary_restrictions: the old universal vegan/vegetarian/religious suitability guarantee was not verified. Chemical identity or synthetic origin alone does not establish commercial preparation or process certification."
+  ],
+  "changes": [
+    "Created previously missing individual file using the master identity and reviewed sources.",
+    "status versus master: '' -> 'u'. Check whether the July 2026 proposed revocation has become final; the US flag reflects the currently loaded CFR and FDA inventory, despite JECFA rejection.",
+    "Icon: JECFA rejected food-additive use in 1969; FDA proposed revocation for abandonment in 2026.",
+    "master status: '' -> 'u'. Aligned with the compound-specific researched single file; see status sources and review notes."
+  ]
+}

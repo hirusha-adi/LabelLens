@@ -3,13 +3,13 @@
         "code": "E100",
         "names": "Curcumin (from turmeric)",
         "type": "color (Yellow-orange)",
-        "status": "e u"
+        "status": "e"
     },
     {
         "code": "E100ii",
         "names": "Turmeric",
         "type": "color (Yellow-orange)",
-        "status": "e u"
+        "status": "u"
     },
     {
         "code": "E101",
@@ -19,9 +19,9 @@
     },
     {
         "code": "E101ii",
-        "names": "Riboflavin-5'-Phosphate",
+        "names": "Riboflavin-5'-phosphate sodium",
         "type": "color (Yellow-orange)",
-        "status": "e"
+        "status": "e u"
     },
     {
         "code": "E102",
@@ -31,7 +31,7 @@
     },
     {
         "code": "E103",
-        "names": "Alkannin[11]",
+        "names": "Alkannin",
         "type": "color (Red-brown)",
         "status": ""
     },
@@ -51,7 +51,7 @@
         "code": "E106",
         "names": "Riboflavin-5-Sodium Phosphate",
         "type": "color (Yellow)",
-        "status": ""
+        "status": "e u"
     },
     {
         "code": "E107",
@@ -81,7 +81,7 @@
         "code": "E121",
         "names": "Citrus Red 2",
         "type": "color (Dark red)",
-        "status": ""
+        "status": "u"
     },
     {
         "code": "E122",

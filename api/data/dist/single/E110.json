@@ -1,14 +1,21 @@
 {
     "code": "E110",
-    "name": "Sunset Yellow FCF",
-    "href": "e110.htm",
-    "function": "Yellow colour, azo dye",
+    "names": "Sunset Yellow FCF (Orange Yellow S, FD&C Yellow 6)",
+    "display_name": "E110 (Sunset Yellow FCF)",
+    "type": "color (Yellow-orange)",
+    "status": "e u",
+    "icon": "mdi-alert-circle",
     "more_info": {
-        "origin": "Synthetic azo dye. See  for a background on azo dyes.",
-        "characteristics": "Yellow food colour. Very soluble in water.",
-        "products": "Many products.",
-        "daily_intake": "Up to 2.5 mg/kg body weight.",
-        "side_effects": "Since it is an azo dye, it may elicit intolerance in people intolerant to salicylates. Additionally, it is a histamine liberator, and may intensify symptoms of asthma. In combination with benzoates, it is also implicated in hyperactivity in children.",
-        "dietary_restrictions": "None; E110 can be consumed by all religious groups, vegans and vegetarians."
+        "banned_in": "Approved in the EU.\nApproved in the US.\nEFSA replaced its temporary ADI with a revised ADI after reviewing additional data in 2014.",
+        "overview": "Sunset Yellow FCF is a synthetic azo colour that gives foods an orange shade. Orange Yellow S and FD&C Yellow No. 6 are other names for the same colour. Food-grade material consists mainly of the dye's salts.",
+        "origin": "Synthetic. Diazotised aminobenzenesulfonic acid is coupled with a hydroxynaphthalenesulfonic acid; the sodium salt is isolated and dried.",
+        "daily_intake": "4 mg/kg body weight per day (EFSA, 2014). This replaced EFSA's temporary 1 mg/kg body weight per day ADI from 2009.",
+        "side_effects": "At reported food uses and levels, EFSA's 2014 assessment found no safety concern and estimated exposures below its revised ADI. The limited evidence did not firmly link this individual dye with intolerance reactions or behavioural effects seen with mixtures.\nHigh-dose rat feeding studies provided the toxicology basis for the ADI; these studies are not evidence of the same effects at ordinary food intakes.",
+        "uses": "Permitted EU uses include confectionery, flavoured drinks, mustard, sauces and desserts, subject to limits. US batches of FD&C Yellow No. 6 require certification.",
+        "articles": {
+            "EFSA Journal": "https://efsa.onlinelibrary.wiley.com/doi/10.2903/j.efsa.2014.3765",
+            "eCFR": "https://www.ecfr.gov/current/title-21/section-74.706",
+            "European Commission database": "https://ec.europa.eu/food/food-feed-portal/backend/api/policy-items/POL-FAD-IMPORT-2989"
+        }
     }
 }

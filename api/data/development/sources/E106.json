@@ -1,0 +1,81 @@
+{
+  "code": "E106",
+  "checked": "2026-10-10",
+  "fields": {
+    "names": [
+      "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32012R0231",
+      "https://www.ecfr.gov/current/title-21/section-184.1697"
+    ],
+    "display_name": [
+      "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32012R0231",
+      "https://www.ecfr.gov/current/title-21/section-184.1697"
+    ],
+    "type": [
+      "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32012R0231",
+      "https://www.ecfr.gov/current/title-21/section-184.1697"
+    ],
+    "status": [
+      "https://ec.europa.eu/food/food-feed-portal/backend/api/policy-items/POL-FAD-IMPORT-2986",
+      "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32012R0231",
+      "https://www.ecfr.gov/current/title-21/section-184.1697"
+    ],
+    "icon": [
+      "https://efsa.onlinelibrary.wiley.com/doi/10.2903/j.efsa.2013.3357"
+    ],
+    "overview": [
+      "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32012R0231",
+      "https://www.ecfr.gov/current/title-21/section-184.1697"
+    ],
+    "origin": [
+      "https://www.ecfr.gov/current/title-21/section-184.1697"
+    ],
+    "daily_intake": [
+      "https://www.inchem.org/documents/jecfa/jeceval/jec_2101.htm",
+      "https://efsa.onlinelibrary.wiley.com/doi/10.2903/j.efsa.2013.3357"
+    ],
+    "side_effects": [
+      "https://efsa.onlinelibrary.wiley.com/doi/10.2903/j.efsa.2013.3357"
+    ],
+    "uses": [
+      "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32012R0231",
+      "https://www.ecfr.gov/current/title-21/section-184.1697"
+    ],
+    "banned_in": [
+      "https://ec.europa.eu/food/food-feed-portal/backend/api/policy-items/POL-FAD-IMPORT-2986",
+      "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32012R0231",
+      "https://www.ecfr.gov/current/title-21/section-184.1697"
+    ]
+  },
+  "gaps": [
+    "dietary_restrictions: no specific applicable claim verified in the reviewed compound record, regulatory listings and safety assessment; omitted.",
+    "interactions: no specific applicable claim verified in the reviewed compound record, regulatory listings and safety assessment; omitted.",
+    "precautions: no specific applicable claim verified in the reviewed compound record, regulatory listings and safety assessment; omitted.",
+    "Country ban list: no compound-specific national prohibition verified in the sources reviewed; omission does not establish absence of bans worldwide.",
+    "dietary_restrictions: the old universal vegan/vegetarian/religious suitability guarantee was not verified. Chemical identity or synthetic origin alone does not establish commercial preparation or process certification."
+  ],
+  "changes": [
+    "Mapped the explicitly named sodium phosphate compound to the E101(ii) specification; preserved the existing E106 filename.",
+    "names: absent -> 'Riboflavin-5-Sodium Phosphate'. Names/type follow the master; identity and legal flags follow the field sources.",
+    "display_name: absent -> \"E106 (Riboflavin-5'-phosphate sodium)\". Names/type follow the master; identity and legal flags follow the field sources.",
+    "type: absent -> 'color (Yellow)'. Names/type follow the master; identity and legal flags follow the field sources.",
+    "status: absent -> 'e u'. Names/type follow the master; identity and legal flags follow the field sources.",
+    "icon: absent -> 'mdi-check-circle'. Names/type follow the master; identity and legal flags follow the field sources.",
+    "more_info.banned_in: added. Rewritten in original plain language using the field sources; unverified old claims are not retained.",
+    "more_info.overview: added. Rewritten in original plain language using the field sources; unverified old claims are not retained.",
+    "more_info.origin: replaced. Rewritten in original plain language using the field sources; unverified old claims are not retained.",
+    "more_info.daily_intake: replaced. Rewritten in original plain language using the field sources; unverified old claims are not retained.",
+    "more_info.side_effects: replaced. Rewritten in original plain language using the field sources; unverified old claims are not retained.",
+    "more_info.uses: added. Rewritten in original plain language using the field sources; unverified old claims are not retained.",
+    "more_info.articles: added. Replaced with correctly labeled sources that loaded successfully; removed consumer-health and unsourced secondary links.",
+    "name: removed obsolete basic-layout key; identity/function now use the rich schema.",
+    "href: removed obsolete basic-layout key; identity/function now use the rich schema.",
+    "function: removed obsolete basic-layout key; identity/function now use the rich schema.",
+    "more_info.characteristics: removed; no verified compound-specific food-use claim retained. See gaps.",
+    "more_info.dietary_restrictions: removed; no verified compound-specific food-use claim retained. See gaps.",
+    "more_info.products: removed; no verified compound-specific food-use claim retained. See gaps.",
+    "status versus master: '' -> 'e u'. Check the sodium-salt identity, changed food approval flags and legacy code mapping; US nutrient use does not confer colour approval. EFSA and JECFA ADI conclusions differ.",
+    "Icon: No ban or notable food-use safety concern located in the reviewed sources. This is a limited source review, not evidence of worldwide absence of risk.",
+    "master status: '' -> 'e u'. Aligned with the compound-specific researched single file; see status sources and review notes.",
+    "side_effects: shortened the shared EFSA assessment summary while preserving its food-use conclusion and high-intake evidence gap."
+  ]
+}

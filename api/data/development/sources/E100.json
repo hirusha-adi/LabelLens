@@ -1,0 +1,74 @@
+{
+  "code": "E100",
+  "checked": "2026-10-10",
+  "fields": {
+    "names": [
+      "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32012R0231"
+    ],
+    "display_name": [
+      "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32012R0231"
+    ],
+    "type": [
+      "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32012R0231"
+    ],
+    "status": [
+      "https://ec.europa.eu/food/food-feed-portal/backend/api/policy-items/POL-FAD-IMPORT-2985",
+      "https://www.fda.gov/industry/color-additives/summary-color-additives-use-united-states-foods-drugs-cosmetics-and-medical-devices",
+      "https://www.ecfr.gov/current/title-21/section-73.615"
+    ],
+    "icon": [
+      "https://efsa.onlinelibrary.wiley.com/doi/10.2903/j.efsa.2010.1679",
+      "https://efsa.onlinelibrary.wiley.com/doi/10.2903/j.efsa.2014.3876"
+    ],
+    "overview": [
+      "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32012R0231"
+    ],
+    "origin": [
+      "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32012R0231"
+    ],
+    "daily_intake": [
+      "https://efsa.onlinelibrary.wiley.com/doi/10.2903/j.efsa.2010.1679"
+    ],
+    "side_effects": [
+      "https://efsa.onlinelibrary.wiley.com/doi/10.2903/j.efsa.2010.1679",
+      "https://efsa.onlinelibrary.wiley.com/doi/10.2903/j.efsa.2014.3876"
+    ],
+    "uses": [
+      "https://ec.europa.eu/food/food-feed-portal/backend/api/policy-items/POL-FAD-IMPORT-2985",
+      "https://ec.europa.eu/food/food-feed-portal/backend/api/food_categories?domain_code=fad"
+    ],
+    "dietary_restrictions": [
+      "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32012R0231"
+    ],
+    "banned_in": [
+      "https://ec.europa.eu/food/food-feed-portal/backend/api/policy-items/POL-FAD-IMPORT-2985",
+      "https://www.fda.gov/industry/color-additives/summary-color-additives-use-united-states-foods-drugs-cosmetics-and-medical-devices",
+      "https://www.ecfr.gov/current/title-21/section-73.615"
+    ]
+  },
+  "gaps": [
+    "interactions: no specific applicable claim verified in the reviewed compound record, regulatory listings and safety assessment; omitted.",
+    "precautions: no specific applicable claim verified in the reviewed compound record, regulatory listings and safety assessment; omitted.",
+    "Country ban list: no compound-specific national prohibition verified in the sources reviewed; omission does not establish absence of bans worldwide.",
+    "Religious suitability: no compound-specific halal or kosher certification verified; no universal religious claim made.",
+    "US status: turmeric oleoresin has a food-colour listing, but whether it covers the purified E100 preparation was not confirmed; the US flag is omitted pending identity review."
+  ],
+  "changes": [
+    "Removed supplement doses, medical uses, drug interaction lists and treatment instructions from the former turmeric text. They did not describe the food additive.",
+    "dietary_restrictions: vegan/vegetarian statement is an inference restricted to the plant pigment itself, based on the compound-specific extraction specification.",
+    "icon: 'mdi-check-circle' -> 'mdi-alert-circle'. Names/type follow the master; identity and legal flags follow the field sources.",
+    "more_info.banned_in: replaced. Rewritten in original plain language using the field sources; unverified old claims are not retained.",
+    "more_info.overview: replaced. Rewritten in original plain language using the field sources; unverified old claims are not retained.",
+    "more_info.origin: replaced. Rewritten in original plain language using the field sources; unverified old claims are not retained.",
+    "more_info.daily_intake: replaced. Rewritten in original plain language using the field sources; unverified old claims are not retained.",
+    "more_info.side_effects: replaced. Rewritten in original plain language using the field sources; unverified old claims are not retained.",
+    "more_info.uses: replaced. Rewritten in original plain language using the field sources; unverified old claims are not retained.",
+    "more_info.dietary_restrictions: added. Rewritten in original plain language using the field sources; unverified old claims are not retained.",
+    "more_info.articles: replaced. Replaced with correctly labeled sources that loaded successfully; removed consumer-health and unsourced secondary links.",
+    "more_info.interactions: removed; no verified compound-specific food-use claim retained. See gaps.",
+    "more_info.precautions: removed; no verified compound-specific food-use claim retained. See gaps.",
+    "Icon: EFSA identified possible ADI exceedance for some high-consuming children in 2014.",
+    "status: 'e u' -> 'e'. FDA's 21 CFR 73.615 lists turmeric oleoresin, a combination of flavour and colour principles; an exact US food listing for the purified curcumin preparation in the EU specification was not verified. This removes an unverified flag, not a claim of prohibition.",
+    "master status: 'e u' -> 'e'. Aligned with the compound-specific researched single file; see status sources and review notes."
+  ]
+}

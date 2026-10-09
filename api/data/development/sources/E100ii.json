@@ -1,0 +1,81 @@
+{
+  "code": "E100ii",
+  "checked": "2026-10-10",
+  "fields": {
+    "names": [
+      "https://www.ecfr.gov/current/title-21/section-73.600",
+      "https://www.inchem.org/documents/jecfa/jeceval/jec_2353.htm"
+    ],
+    "display_name": [
+      "https://www.ecfr.gov/current/title-21/section-73.600",
+      "https://www.inchem.org/documents/jecfa/jeceval/jec_2353.htm"
+    ],
+    "type": [
+      "https://www.ecfr.gov/current/title-21/section-73.600",
+      "https://www.inchem.org/documents/jecfa/jeceval/jec_2353.htm"
+    ],
+    "status": [
+      "https://ec.europa.eu/food/food-feed-portal/backend/api/policy-items?foodDomain=fin&authorisationType=fad_auth",
+      "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32012R0231",
+      "https://www.ecfr.gov/current/title-21/section-73.600"
+    ],
+    "icon": [
+      "https://www.ecfr.gov/current/title-21/section-73.600",
+      "https://www.inchem.org/documents/jecfa/jeceval/jec_2353.htm"
+    ],
+    "overview": [
+      "https://www.ecfr.gov/current/title-21/section-73.600",
+      "https://www.inchem.org/documents/jecfa/jeceval/jec_2353.htm"
+    ],
+    "origin": [
+      "https://www.ecfr.gov/current/title-21/section-73.600"
+    ],
+    "daily_intake": [
+      "https://www.inchem.org/documents/jecfa/jeceval/jec_2353.htm"
+    ],
+    "uses": [
+      "https://en.wikipedia.org/wiki/Turmeric",
+      "https://www.ecfr.gov/current/title-21/section-73.600"
+    ],
+    "dietary_restrictions": [
+      "https://www.ecfr.gov/current/title-21/section-73.600"
+    ],
+    "banned_in": [
+      "https://ec.europa.eu/food/food-feed-portal/backend/api/policy-items?foodDomain=fin&authorisationType=fad_auth",
+      "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32012R0231",
+      "https://www.ecfr.gov/current/title-21/section-73.600"
+    ]
+  },
+  "gaps": [
+    "side_effects: no current food-use-specific human effects assessment verified for turmeric powder; curcumin extract and supplement findings were not transferred.",
+    "interactions: no specific applicable claim verified in the reviewed compound record, regulatory listings and safety assessment; omitted.",
+    "precautions: no specific applicable claim verified in the reviewed compound record, regulatory listings and safety assessment; omitted.",
+    "Country ban list: no compound-specific national prohibition verified in the sources reviewed; omission does not establish absence of bans worldwide.",
+    "Religious suitability: no compound-specific halal or kosher certification verified; no universal religious claim made."
+  ],
+  "changes": [
+    "dietary_restrictions: vegan/vegetarian suitability inferred only for the plant rhizome identified by FDA.",
+    "code: 'E100(ii)' -> 'E100ii'. Names/type follow the master; identity and legal flags follow the field sources.",
+    "names: absent -> 'Turmeric'. Names/type follow the master; identity and legal flags follow the field sources.",
+    "display_name: absent -> 'E100ii (Turmeric)'. Names/type follow the master; identity and legal flags follow the field sources.",
+    "type: absent -> 'color (Yellow-orange)'. Names/type follow the master; identity and legal flags follow the field sources.",
+    "status: absent -> 'u'. Names/type follow the master; identity and legal flags follow the field sources.",
+    "icon: absent -> 'mdi-check-circle'. Names/type follow the master; identity and legal flags follow the field sources.",
+    "more_info.banned_in: added. Rewritten in original plain language using the field sources; unverified old claims are not retained.",
+    "more_info.overview: added. Rewritten in original plain language using the field sources; unverified old claims are not retained.",
+    "more_info.origin: replaced. Rewritten in original plain language using the field sources; unverified old claims are not retained.",
+    "more_info.daily_intake: replaced. Rewritten in original plain language using the field sources; unverified old claims are not retained.",
+    "more_info.uses: added. Rewritten in original plain language using the field sources; unverified old claims are not retained.",
+    "more_info.dietary_restrictions: replaced. Rewritten in original plain language using the field sources; unverified old claims are not retained.",
+    "more_info.articles: added. Replaced with correctly labeled sources that loaded successfully; removed consumer-health and unsourced secondary links.",
+    "name: removed obsolete basic-layout key; identity/function now use the rich schema.",
+    "href: removed obsolete basic-layout key; identity/function now use the rich schema.",
+    "function: removed obsolete basic-layout key; identity/function now use the rich schema.",
+    "more_info.characteristics: removed; no verified compound-specific food-use claim retained. See gaps.",
+    "more_info.side_effects: removed; no verified compound-specific food-use claim retained. See gaps.",
+    "more_info.products: removed; no verified compound-specific food-use claim retained. See gaps.",
+    "status versus master: 'e u' -> 'u'. Check INS 100(ii) powder versus EU E100 extract; the EU flag was removed because an exact colour listing was not verified.",
+    "Icon: No ban or notable food-use safety concern located in the reviewed sources. This is a limited source review, not evidence of worldwide absence of risk.",
+    "master status: 'e u' -> 'u'. Aligned with the compound-specific researched single file; see status sources and review notes."
+  ]
+}

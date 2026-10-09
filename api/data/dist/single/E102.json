@@ -6,20 +6,18 @@
     "status": "e u",
     "icon": "mdi-alert-circle",
     "more_info": {
-        "banned_in": "Banned in: Austria, Germany, Norway, United Arab Emirates.\nApproved by the FDA.\nIn 2013, the European Union ruled that 'the overall weight of evidence' did not support the finding that yellow #5 was toxic to genes, but the ruling called for further study.",
-        "overview": "Tartrazine (E102 food additive) is a food coloring of synthetic origin. It is not found in nature in its pure form. The E102 colorant is extracted from coal tar, a manufacturing waste product.  By its physical form, tartrazine is a water-soluble powder of yellow color with a golden tint. Under the influence of sunlight, the E102 additive can disintegrate into simpler compounds.",
-        "origin": "Synthetic azo dye.",
-        "daily_intake": "Up to 7.5 mg/kg body weight.",
-        "side_effects": "Inconclusive for humans due to lack of research.\nNo side effects are known for pure tartrazine, except in people who are intolerant to salicylates (aspirin, berries, fruits); in that case tartrazine also induces intolerance symptoms. In combination with benzoates (E210-215), tartrazine is implicated in a large percentage of cases of ADHD syndrome (hyperactivity) in children. Asthmatics may also experience symptoms following consumption of tartrazine, as it is a known histamine-liberating agent.\nRefer to the VeryWellHealth article listed below to learn more about research done on rats about Tartrazine.",
-        "uses": "The most common  E102 additive (tartrazine) is found in confectionery products and drinks of yellow colors of all tints: candies, cakes, carbonated drinks. Also, E102 colorant is often found in canned fruits and vegetables, mustard, soups and yogurts.",
+        "banned_in": "Approved in the EU.\nApproved in the US.",
+        "overview": "Tartrazine is a manufactured azo dye that gives food a yellow colour. It is sold in the US as FD&C Yellow No. 5. Food-grade material is a purified salt mixture meeting colour specifications.",
+        "origin": "Synthetic. An aromatic sulfonic acid is diazotised, coupled to a pyrazole compound, and the dye is purified as its sodium salt.",
+        "daily_intake": "0–10 mg/kg body weight per day (JECFA, 2016). EFSA retained 7.5 mg/kg body weight per day in 2009; these are distinct assessments.",
+        "side_effects": "At food-use levels, EFSA reported intolerance reactions in a small fraction of people; reactions can occur within the ADI. Studies of colour mixtures with sodium benzoate do not establish that tartrazine alone causes behavioural changes.\nAt high experimental doses, reduced body weight in rats was the endpoint for JECFA's 2016 ADI. This animal evidence does not establish the same effect at food-use levels in humans.",
+        "uses": "Examples include certain flavoured processed cheeses, processed peas and fish products. Other permitted uses depend on the food category; US batches require FDA certification.",
+        "precautions": "EFSA noted that sensitive individuals may react at intakes within the ADI.",
         "articles": {
-            "FAO": "https://www.fao.org/gsfaonline/additives/details.html?id=86",
-            "EU": "https://ec.europa.eu/food/food-feed-portal/screen/food-additives/search/details/POL-FAD-IMPORT-2987",
-            "Wikipedia": "https://en.wikipedia.org/wiki/Tartrazine",
-            "PubChem": "https://pubchem.ncbi.nlm.nih.gov/compound/Tartrazine",
-            "PubMed": "https://pubmed.ncbi.nlm.nih.gov/3169655/",
-            "VeryWellHealth": "https://www.verywellhealth.com/tartrazine-free-diet-83227",
-            "ScienceDirect": "https://www.sciencedirect.com/topics/agricultural-and-biological-sciences/tartrazine"
+            "EFSA Journal": "https://efsa.onlinelibrary.wiley.com/doi/abs/10.2903/j.efsa.2009.1331",
+            "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/2017",
+            "eCFR": "https://www.ecfr.gov/current/title-21/section-74.705",
+            "European Commission database": "https://ec.europa.eu/food/food-feed-portal/backend/api/policy-items/POL-FAD-IMPORT-2987"
         }
     }
 }

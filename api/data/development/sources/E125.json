@@ -1,0 +1,48 @@
+{
+  "code": "E125",
+  "checked": "2026-10-10",
+  "fields": {
+    "names": [
+      "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?id=FDCRed4&set=ColorAdditives",
+      "https://en.wikipedia.org/wiki/Scarlet_GN"
+    ],
+    "display_name": [
+      "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?id=FDCRed4&set=ColorAdditives",
+      "https://en.wikipedia.org/wiki/Scarlet_GN"
+    ],
+    "type": [
+      "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?id=FDCRed4&set=ColorAdditives",
+      "https://en.wikipedia.org/wiki/Scarlet_GN"
+    ],
+    "status": [
+      "https://ec.europa.eu/food/food-feed-portal/backend/api/policy-items?foodDomain=fin&authorisationType=fad_auth",
+      "https://www.ecfr.gov/current/title-21/section-81.30",
+      "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?id=FDCRed4&set=ColorAdditives"
+    ],
+    "icon": [
+      "https://www.ecfr.gov/current/title-21/section-81.30"
+    ],
+    "overview": [
+      "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?id=FDCRed4&set=ColorAdditives",
+      "https://en.wikipedia.org/wiki/Scarlet_GN"
+    ],
+    "banned_in": [
+      "https://www.ecfr.gov/current/title-21/section-81.30",
+      "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?id=FDCRed4&set=ColorAdditives"
+    ]
+  },
+  "gaps": [
+    "daily_intake: no compound-specific ADI confirmed in the reviewed FDA inventory/CFR and WHO/INCHEM searches; no value transferred from Ponceau 4R or 6R.",
+    "origin: no specific applicable claim verified in the reviewed compound record, regulatory listings and safety assessment; omitted.",
+    "side_effects: no specific applicable claim verified in the reviewed compound record, regulatory listings and safety assessment; omitted.",
+    "uses: no specific applicable claim verified in the reviewed compound record, regulatory listings and safety assessment; omitted.",
+    "dietary_restrictions: no specific applicable claim verified in the reviewed compound record, regulatory listings and safety assessment; omitted.",
+    "interactions: no specific applicable claim verified in the reviewed compound record, regulatory listings and safety assessment; omitted.",
+    "precautions: no specific applicable claim verified in the reviewed compound record, regulatory listings and safety assessment; omitted.",
+    "dietary_restrictions: the old universal vegan/vegetarian/religious suitability guarantee was not verified. Chemical identity or synthetic origin alone does not establish commercial preparation or process certification."
+  ],
+  "changes": [
+    "Created previously missing individual file using the master identity and reviewed sources.",
+    "Icon: FDA prohibits US food use under the cancellation of certificates provision."
+  ]
+}

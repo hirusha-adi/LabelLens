@@ -1,0 +1,2478 @@
+{
+  "checked": "2026-10-10",
+  "url": "https://ec.europa.eu/food/food-feed-portal/backend/api/policy-items?foodDomain=fin&authorisationType=fad_auth",
+  "items": [
+    {
+      "policyItemCode": "POL-FAD-IMPORT-2981",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Group I, Additives",
+      "eNumber": "Group I"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3077",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Ascorbic acid",
+      "eNumber": "E 300"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3078",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Sodium ascorbate",
+      "eNumber": "E 301"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-2989",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Sunset Yellow FCF/Orange Yellow S",
+      "eNumber": "E 110"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-2984",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Group IV, Polyols",
+      "eNumber": "Group IV"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3075",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Malic acid",
+      "eNumber": "E 296"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-2985",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Curcumin",
+      "eNumber": "E 100"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-2991",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Azorubine, Carmoisine",
+      "eNumber": "E 122"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-2982",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Group II, Colours at <em>quantum satis</em>",
+      "eNumber": "Group II"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-2986",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Riboflavins",
+      "eNumber": "E 101"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-2992",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Amaranth",
+      "eNumber": "E 123"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-2987",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Tartrazine",
+      "eNumber": "E 102"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-2993",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Ponceau 4R, Cochineal Red A",
+      "eNumber": "E 124"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-2988",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Quinoline Yellow",
+      "eNumber": "E 104"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3058",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Sodium nitrite",
+      "eNumber": "E 250"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3091",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Sodium erythorbate",
+      "eNumber": "E 316"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3059",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Sodium nitrate",
+      "eNumber": "E 251"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3092",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Tertiary-butyl hydroquinone (TBHQ)",
+      "eNumber": "E 319"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3093",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Butylated hydroxyanisole (BHA)",
+      "eNumber": "E 320"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3094",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Butylated hydroxytoluene (BHT)",
+      "eNumber": "E 321"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3095",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Lecithins",
+      "eNumber": "E 322"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3061",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Potassium nitrate",
+      "eNumber": "E 252"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3062",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Acetic acid",
+      "eNumber": "E 260"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3104",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Sodium tartrates",
+      "eNumber": "E 335"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3096",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Sodium lactate",
+      "eNumber": "E 325"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3063",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Potassium acetates",
+      "eNumber": "E 261"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3105",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Potassium tartrates",
+      "eNumber": "E 336"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3097",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Potassium lactate",
+      "eNumber": "E 326"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3064",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Sodium acetates",
+      "eNumber": "E 262"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3106",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Sodium potassium tartrate",
+      "eNumber": "E 337"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3107",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Phosphoric acid",
+      "eNumber": "E 338"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3098",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Calcium lactate",
+      "eNumber": "E 327"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3065",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Calcium acetate",
+      "eNumber": "E 263"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3080",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Fatty acid esters of ascorbic acid",
+      "eNumber": "E 304"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3099",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Citric acid",
+      "eNumber": "E 330"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3066",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Lactic acid",
+      "eNumber": "E 270"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3081",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Tocopherol-rich extract",
+      "eNumber": "E 306"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3082",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Alpha-tocopherol",
+      "eNumber": "E 307"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3067",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Propionic acid",
+      "eNumber": "E 280"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3083",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Gamma-tocopherol",
+      "eNumber": "E 308"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3068",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Propionic acid - propionates",
+      "eNumber": "E 280 - 283"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3084",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Delta-tocopherol",
+      "eNumber": "E 309"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3100",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Sodium citrates",
+      "eNumber": "E 331"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3069",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Sodium propionate",
+      "eNumber": "E 281"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3070",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Calcium propionate",
+      "eNumber": "E 282"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3085",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Propyl gallate",
+      "eNumber": "E 310"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3086",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Propyl gallate, TBHQ and BHA",
+      "eNumber": "E 310 - 320"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3071",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Potassium propionate",
+      "eNumber": "E 283"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3072",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Boric acid",
+      "eNumber": "E 284"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3073",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Sodium tetraborate (borax)",
+      "eNumber": "E 285"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3074",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Carbon dioxide",
+      "eNumber": "E 290"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3087",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Propyl gallate, TBHQ, BHA and BHT",
+      "eNumber": "E 310 - 321"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3101",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Potassium citrates",
+      "eNumber": "E 332"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3076",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Fumaric acid",
+      "eNumber": "E 297"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3088",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Octyl gallate",
+      "eNumber": "E 311/REMOVED FROM UNION LIST"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3089",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Dodecyl gallate",
+      "eNumber": "E 312/REMOVED FROM THE UNION LIST"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3090",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Erythorbic acid",
+      "eNumber": "E 315"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3109",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Sodium phosphates",
+      "eNumber": "E 339"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3102",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Calcium citrates",
+      "eNumber": "E 333"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-2994",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Erythrosine",
+      "eNumber": "E 127"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-2995",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Allura Red AC",
+      "eNumber": "E 129"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3057",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Nitrites",
+      "eNumber": "E 249 - 250"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-2996",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Patent Blue V",
+      "eNumber": "E 131"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3013",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Lycopene",
+      "eNumber": "E 160d"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3039",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "p-hydroxybenzoates (PHB)",
+      "eNumber": "E 214 - 219"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3040",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Sodium ethyl p-hydroxybenzoate",
+      "eNumber": "E 215"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3041",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Methyl p-hydroxybenzoate",
+      "eNumber": "E 218"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-2997",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Indigotine, Indigo carmine",
+      "eNumber": "E 132"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-2998",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Brilliant Blue FCF",
+      "eNumber": "E 133"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3042",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Sodium methyl p-hydroxybenzoate",
+      "eNumber": "E 219"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3043",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Sulphur dioxide",
+      "eNumber": "E 220"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-2999",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Chlorophylls and Chlorophyllins",
+      "eNumber": "E 140"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3044",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Sulphur dioxide - sulphites",
+      "eNumber": "E 220 - 228"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3000",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Copper complexes of chlorophylls and chlorophyllins",
+      "eNumber": "E 141"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3014",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Beta-apo-8'-carotenal (C 30)",
+      "eNumber": "E 160e"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3015",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Lutein",
+      "eNumber": "E 161b"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3028",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Sorbic acid - potassium sorbate; p-hydroxybenzoates",
+      "eNumber": "E 200 - 202; 214 - 219"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3029",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Sorbic acid \u2013 potassium sorbate; Benzoic acid \u2013 benzoates",
+      "eNumber": "E 200 - 213"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3001",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Green S",
+      "eNumber": "E 142"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3002",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Plain caramel",
+      "eNumber": "E 150a"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3016",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Canthaxanthin",
+      "eNumber": "E 161g"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3017",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Beetroot Red, betanin",
+      "eNumber": "E 162"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3003",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Caramels",
+      "eNumber": "E 150a-d"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3018",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Anthocyanins",
+      "eNumber": "E 163"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3004",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Caustic sulphite caramel",
+      "eNumber": "E 150b"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3045",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Sodium sulphite",
+      "eNumber": "E 221"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3030",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Sorbic acid - potassium sorbate; Benzoic acid - benzoates; p-hydroxybenzoates",
+      "eNumber": "E 200 - 219"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3005",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Ammonia caramel",
+      "eNumber": "E 150c"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3006",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Sulphite ammonia caramel",
+      "eNumber": "E 150d"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3019",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Calcium carbonate",
+      "eNumber": "E 170"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3046",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Sodium hydrogen sulphite",
+      "eNumber": "E 222"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3047",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Sodium metabisulphite",
+      "eNumber": "E 223"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3048",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Potassium metabisulphite",
+      "eNumber": "E 224"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3031",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Potassium sorbate",
+      "eNumber": "E 202"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3032",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Calcium sorbate/Deleted from the Union list",
+      "eNumber": "E 203"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3007",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Brilliant Black PN",
+      "eNumber": "E 151"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3008",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Vegetable carbon",
+      "eNumber": "E 153"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3020",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Titanium dioxide",
+      "eNumber": "E 171"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3021",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Iron oxides and hydroxides",
+      "eNumber": "E 172"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3049",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Calcium sulphite",
+      "eNumber": "E 226"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3050",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Calcium hydrogen sulphite",
+      "eNumber": "E 227"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3051",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Potassium hydrogen sulphite",
+      "eNumber": "E 228"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3033",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Benzoic acid",
+      "eNumber": "E 210"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3034",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Benzoic acid - benzoates (BA)",
+      "eNumber": "E 210 - 213"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3009",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Brown HT",
+      "eNumber": "E 155"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3010",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Carotenes",
+      "eNumber": "E 160a"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3022",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Aluminium",
+      "eNumber": "E 173"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3023",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Silver",
+      "eNumber": "E 174"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3052",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Nisin",
+      "eNumber": "E 234"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3024",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Gold",
+      "eNumber": "E 175"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3053",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Natamycin",
+      "eNumber": "E 235"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3054",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Hexamethylene tetramine",
+      "eNumber": "E 239"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3011",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Annatto, Bixin, Norbixin/Deleted from the Union List of authorised additives",
+      "eNumber": "E 160b"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3025",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Litholrubine BK",
+      "eNumber": "E 180"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3026",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Sorbic acid",
+      "eNumber": "E 200"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3027",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Sorbic acid - potassium sorbate (SA)",
+      "eNumber": "E 200 - 202"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3055",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Dimethyl dicarbonate",
+      "eNumber": "E 242"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3035",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Sodium benzoate",
+      "eNumber": "E 211"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3036",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Potassium benzoate",
+      "eNumber": "E 212"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3012",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Paprika extract, capsanthin, capsorubin",
+      "eNumber": "E 160c"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3056",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Potassium nitrite",
+      "eNumber": "E 249"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3037",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Calcium benzoate",
+      "eNumber": "E 213"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3038",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Ethyl-p-hydroxybenzoate",
+      "eNumber": "E 214"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3339",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Medium viscosity mineral oil",
+      "eNumber": null
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3340",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Iron (III) meso-Tartrate",
+      "eNumber": "E 534"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3341",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Calcium lignosulfonate (40-65)",
+      "eNumber": null
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3319",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Acetylated distarch phosphate",
+      "eNumber": "E 1414"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3320",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Acetylated starch",
+      "eNumber": "E 1420"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3321",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Acetylated distarch adipate",
+      "eNumber": "E 1422"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3293",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Aspartame",
+      "eNumber": "E 951"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3322",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Hydroxy propyl starch",
+      "eNumber": "E 1440"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3323",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Hydroxy propyl distarch phosphate",
+      "eNumber": "E 1442 "
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3298",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Thaumatin",
+      "eNumber": "E 957"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3324",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Starch sodium octenyl succinate",
+      "eNumber": "E 1450"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3325",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Acetylated oxidised starch",
+      "eNumber": "E 1451"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3326",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Starch Aluminium Octenyl Succinate",
+      "eNumber": "E 1452"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3327",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Triethyl citrate",
+      "eNumber": "E 1505"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3299",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Neohesperidine DC",
+      "eNumber": "E 959"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3328",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Glyceryl diacetate (diacetin)",
+      "eNumber": "E 1517"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3329",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Glyceryl triacetate (triacetin)",
+      "eNumber": "E 1518"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3302",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Maltitols",
+      "eNumber": "E 965"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3330",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Benzyl alcohol",
+      "eNumber": "E 1519"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3331",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Propane-1, 2-diol (propylene glycol)",
+      "eNumber": "E 1520"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3332",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Polyethylene glycol",
+      "eNumber": "E 1521"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3294",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Cyclamic acid and its Na and Ca salts",
+      "eNumber": "E 952"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3303",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Lactitol",
+      "eNumber": "E 966"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3304",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Xylitol",
+      "eNumber": "E 967"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3305",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Erythritol",
+      "eNumber": "E 968"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3306",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Quillaia extract",
+      "eNumber": "E 999"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3307",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Invertase",
+      "eNumber": "E 1103"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3295",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Isomalt",
+      "eNumber": "E 953"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3308",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Lysozyme",
+      "eNumber": "E 1105"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3296",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Saccharin and its Na, K and Ca salts",
+      "eNumber": "E 954"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3300",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Neotame",
+      "eNumber": "E 961"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3309",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Polydextrose",
+      "eNumber": "E 1200"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3310",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Polyvinylpyrrolidone",
+      "eNumber": "E 1201"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3311",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Polyvinylpolypyrrolidone",
+      "eNumber": "E 1202"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3312",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Polyvinyl alcohol (PVA)",
+      "eNumber": "E 1203"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3334",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Polyvinylpyrrolidone-vinyl acetate copolymer",
+      "eNumber": "E 1208"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3313",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Pullulan",
+      "eNumber": "E 1204"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3314",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Basic methacrylate copolymer",
+      "eNumber": "E 1205"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3335",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "High viscosity mineral oils",
+      "eNumber": "E 905a"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3336",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Tricalcium phosphate",
+      "eNumber": "E 341 (iii)"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3315",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Oxidised starch",
+      "eNumber": "E 1404"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3316",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Monostarch phosphate",
+      "eNumber": "E 1410"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3337",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Octenyl succinic acid modified gum arabic",
+      "eNumber": "E 423"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3338",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Polyglycitol syrup",
+      "eNumber": "E 964"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3297",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Sucralose",
+      "eNumber": "E 955"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3317",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Distarch phosphate",
+      "eNumber": "E 1412"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3318",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Phosphated distarch phosphate",
+      "eNumber": "E 1413"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3301",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Salt of aspartame-acesulfame",
+      "eNumber": "E 962"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3238",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Sodium aluminium silicate",
+      "eNumber": "E 554"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3239",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Potassium aluminium silicate",
+      "eNumber": "E 555"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3205",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Hydrochloric acid",
+      "eNumber": "E 507"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3206",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Potassium chloride",
+      "eNumber": "E 508"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3273",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Beeswax, white and yellow",
+      "eNumber": "E 901"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3240",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Calcium aluminium silicate",
+      "eNumber": "E 556"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3241",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Bentonite",
+      "eNumber": "E 558"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3242",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Aluminium silicate (Kaolin)",
+      "eNumber": "E 559"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3188",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Propane-1,2-diol esters of fatty acids",
+      "eNumber": "E 477"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3207",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Calcium chloride",
+      "eNumber": "E 509"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3243",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Fatty acids",
+      "eNumber": "E 570"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3244",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Gluconic acid",
+      "eNumber": "E 574"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3245",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Glucono-delta-lactone",
+      "eNumber": "E 575"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3208",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Magnesium chloride",
+      "eNumber": "E 511"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3209",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Stannous chloride",
+      "eNumber": "E 512"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3210",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Sulphuric acid",
+      "eNumber": "E 513"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3274",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Candelilla wax",
+      "eNumber": "E 902"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3189",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Thermally oxidized soya bean oil interacted with mono and diglycerides of fatty acids",
+      "eNumber": "E 479b"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3190",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Sodium stearoyl-2-lactylate",
+      "eNumber": "E 481"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3191",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Sodium and Calcium stearoyl-2-lactylates",
+      "eNumber": "E 481 - 482"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3211",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Sodium sulphates",
+      "eNumber": "E 514"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3212",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Potassium sulphates",
+      "eNumber": "E 515"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3213",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Calcium sulphate",
+      "eNumber": "E 516"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3275",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Carnauba wax",
+      "eNumber": "E 903"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3246",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Sodium gluconate",
+      "eNumber": "E 576"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3247",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Potassium gluconate",
+      "eNumber": "E 577"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3214",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Ammonium sulphate",
+      "eNumber": "E 517"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3215",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Aluminium sulphate",
+      "eNumber": "E 520"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3216",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Aluminium sulphates",
+      "eNumber": "E 520 - 523"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3248",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Calcium gluconate",
+      "eNumber": "E 578"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3249",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Ferrous gluconate",
+      "eNumber": "E 579"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3217",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Aluminium sodium sulphate",
+      "eNumber": "E 521"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3218",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Aluminium potassium sulphate",
+      "eNumber": "E 522"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3276",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Shellac",
+      "eNumber": "E 904"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3250",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Ferrous lactate",
+      "eNumber": "E 585"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3251",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "4-Hexylresorcinol",
+      "eNumber": "E 586"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3192",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Calcium stearoyl-2-lactylate",
+      "eNumber": "E 482"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3193",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Stearyl tartrate",
+      "eNumber": "E 483"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3219",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Aluminium ammonium sulphate",
+      "eNumber": "E 523"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3220",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Sodium hydroxide",
+      "eNumber": "E 524"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3277",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Microcrystalline wax",
+      "eNumber": "E 905"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3252",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Glutamic acid",
+      "eNumber": "E 620"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3253",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Glutamic acid - glutamates",
+      "eNumber": "E 620 - 625"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3254",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Monosodium glutamate",
+      "eNumber": "E 621"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3194",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Sorbitan monostearate",
+      "eNumber": "E 491"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3195",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Sorbitan esters",
+      "eNumber": "E 491 - 495"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3221",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Hydroxides",
+      "eNumber": "E 524 - 528"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3222",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Potassium hydroxide",
+      "eNumber": "E 525"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3278",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Hydrogenated poly-1-decene",
+      "eNumber": "E 907"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3255",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Monopotassium glutamate",
+      "eNumber": "E 622"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3256",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Calcium diglutamate",
+      "eNumber": "E 623"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3223",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Calcium hydroxide",
+      "eNumber": "E 526"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3279",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Montan acid esters",
+      "eNumber": "E 912"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3280",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Oxidised polyethylene wax",
+      "eNumber": "E 914"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3281",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "L-cysteine",
+      "eNumber": "E 920"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3257",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Monoammonium glutamate",
+      "eNumber": "E 624"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3258",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Magnesium diglutamate",
+      "eNumber": "E 625"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3259",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Guanylic acid",
+      "eNumber": "E 626"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3196",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Sorbitan tristearate",
+      "eNumber": "E 492"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3224",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Ammonium hydroxide",
+      "eNumber": "E 527"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3225",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Magnesium hydroxide",
+      "eNumber": "E 528"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3282",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Carbamide",
+      "eNumber": "E 927b"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3283",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Argon",
+      "eNumber": "E 938"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3260",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Ribonucleotides",
+      "eNumber": "E 626 - 635"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3261",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Disodium guanylate",
+      "eNumber": "E 627"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3197",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Sorbitan monolaurate",
+      "eNumber": "E 493"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3198",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Sorbitan monooleate",
+      "eNumber": "E 494"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3199",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Sorbitan monopalmitate",
+      "eNumber": "E 495"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3226",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Calcium oxide",
+      "eNumber": "E 529"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3227",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Magnesium oxide",
+      "eNumber": "E 530"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3228",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Sodium ferrocyanide",
+      "eNumber": "E 535"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3284",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Helium",
+      "eNumber": "E 939"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3285",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Nitrogen",
+      "eNumber": "E 941"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3286",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Nitrous oxide",
+      "eNumber": "E 942"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3262",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Dipotassium guanylate",
+      "eNumber": "E 628"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3263",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Calcium guanylate",
+      "eNumber": "E 629"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3264",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Inosinic acid",
+      "eNumber": "E 630"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3200",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Sodium carbonates",
+      "eNumber": "E 500"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3229",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Ferrocyanides",
+      "eNumber": "E 535 - 538"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3230",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Potassium ferrocyanide",
+      "eNumber": "E 536"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3287",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Butane",
+      "eNumber": "E 943a"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3288",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Isobutane",
+      "eNumber": "E 943b"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3289",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Propane",
+      "eNumber": "E 944"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3265",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Disodium inosinate",
+      "eNumber": "E 631"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3266",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Dipotassium inosinate",
+      "eNumber": "E 632"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3267",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Calcium inosinate",
+      "eNumber": "E 633"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3201",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Carbonates",
+      "eNumber": "E 500 - 504"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3231",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Calcium ferrocyanide",
+      "eNumber": "E 538"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3232",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Sodium aluminium phosphate acidic",
+      "eNumber": "E 541"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3233",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Silicon dioxide",
+      "eNumber": "E 551"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3290",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Oxygen",
+      "eNumber": "E 948"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3291",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Hydrogen",
+      "eNumber": "E 949"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3268",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Calcium 5'-ribonucleotides",
+      "eNumber": "E 634"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3269",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Disodium 5'-ribonucleotides",
+      "eNumber": "E 635"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3202",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Potassium carbonate",
+      "eNumber": "E 501"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3234",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": null,
+      "eNumber": null
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3235",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Calcium silicate",
+      "eNumber": "E 552"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3292",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Acesulfame K",
+      "eNumber": "E 950"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3270",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Glycine and its sodium salt",
+      "eNumber": "E 640"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3271",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Zinc acetate",
+      "eNumber": "E 650"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3203",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Ammonium carbonates",
+      "eNumber": "E 503"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3236",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Magnesium silicate ",
+      "eNumber": "E 553a"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3237",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Talc",
+      "eNumber": "E 553b"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3272",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Dimethyl polysiloxane",
+      "eNumber": "E 900"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3204",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Magnesium carbonates",
+      "eNumber": "E 504"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3342",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Stigmasterol-rich plant sterols",
+      "eNumber": "E 499"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3343",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Magnesium diphosphate",
+      "eNumber": null
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3369",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Monk fruit extract",
+      "eNumber": "E XXX"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3371",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Safe Tracers\u00a0",
+      "eNumber": null
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3373",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "D-a-tocopheryln polyethylene glycol-1000 succinate",
+      "eNumber": null
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3374",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Low-substituted hydroxypropyl cellulose (L-HPC)",
+      "eNumber": "E 463a"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3375",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Polyphenol-rich extract (PRE)",
+      "eNumber": null
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3376",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Glycolipids",
+      "eNumber": "E 246"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3377",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Antimicrobial inclusion complex",
+      "eNumber": null
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3379",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Annatto bixin",
+      "eNumber": "E 160b(i)"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3345",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Chlorine dioxide",
+      "eNumber": "E 926"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3346",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "L-leucine",
+      "eNumber": "E 641"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3347",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Hydrogen peroxide",
+      "eNumber": null
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3348",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Cystine",
+      "eNumber": null
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3349",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Ethyl lauroyl arginate",
+      "eNumber": "E 243"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3351",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Polyvinyl alcohol-polyethylene glycol-graft co-polymer",
+      "eNumber": "E 1209"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3352",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Potassium Cinnamate",
+      "eNumber": null
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3380",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Annatto norbixin",
+      "eNumber": "E 160b(ii)"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3353",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Dihydroquercetin",
+      "eNumber": null
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3354",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Neutral Methacrylate Copolymer",
+      "eNumber": "E 1206"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3355",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Anionic methacrylate copolymer",
+      "eNumber": "E 1207"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3356",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Anthrapen",
+      "eNumber": ".."
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3357",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Silicon dioxide - silicates",
+      "eNumber": "E 551 - 553"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3381",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Jagua (Genipin-Glycine) Blue",
+      "eNumber": null
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3382",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Sodium diacetate\u00a0",
+      "eNumber": "E 262(ii)"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3383",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Sulfasin, hudrogen peroxide solution",
+      "eNumber": null
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3384",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Blue Galdieria extract/ Phycocyanin",
+      "eNumber": null
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3358",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Kopal",
+      "eNumber": "....."
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3359",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Galactomannan",
+      "eNumber": "......"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3360",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Magnesium dihydrogen diphosphate",
+      "eNumber": "E 450 (ix)"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3385",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Buffered vinegar",
+      "eNumber": "E 267"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3386",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Soy leghemoglobin",
+      "eNumber": null
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3361",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Sodium hydrogenate carbonate",
+      "eNumber": "E 500 (ii)"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3387",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Oat lecithin",
+      "eNumber": "E322a"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3362",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Potassium hydrogen carbonate",
+      "eNumber": "E 501(ii)"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3363",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Plain caramel, Caustic sulphite caramel and Sulphite ammonia caramel",
+      "eNumber": "E 150a,b,d"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3365",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Powdered cellulose",
+      "eNumber": "E 460(ii)"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3366",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Potassium Polyaspartate",
+      "eNumber": "E456"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3185",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Sucroglycerides",
+      "eNumber": "E 474"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3186",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Polyglycerol esters of fatty acids",
+      "eNumber": "E 475"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3131",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Calcium alginate",
+      "eNumber": "E 404"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3132",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Propane-1, 2-diol alginate",
+      "eNumber": "E 405"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3147",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Konjac",
+      "eNumber": "E 425"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3148",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Soybean hemicellulose",
+      "eNumber": "E 426"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3168",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Hydroxypropyl cellulose",
+      "eNumber": "E 463"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3169",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Hydroxypropyl methyl cellulose",
+      "eNumber": "E 464"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3110",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Potassium phosphates",
+      "eNumber": "E 340"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3149",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Cassia gum",
+      "eNumber": "E 427"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3170",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Ethyl methyl cellulose",
+      "eNumber": "E 465"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3111",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Calcium phosphates",
+      "eNumber": "E 341"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3112",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Magnesium phosphates",
+      "eNumber": "E 343"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3150",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Polyoxyethylene (40) stearate",
+      "eNumber": "E 431"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3151",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Polyoxyethylene sorbitan monolaurate (polysorbate 20)",
+      "eNumber": "E 432"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3152",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Polysorbates",
+      "eNumber": "E 432 - 436"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3171",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Sodium carboxy methyl cellulose, cellulose gum",
+      "eNumber": "E 466"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3113",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Sodium malates ",
+      "eNumber": "E 350"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3114",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Potassium malate",
+      "eNumber": "E 351"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3133",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Agar",
+      "eNumber": "E 406"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3172",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Cross-linked sodium carboxy methyl cellulose",
+      "eNumber": "E 468"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3173",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Enzymatically hydrolysed carboxy methyl cellulose",
+      "eNumber": "E 469"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3115",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Calcium malates ",
+      "eNumber": "E 352"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3116",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Metatartaric acid",
+      "eNumber": "E 353"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3134",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Carrageenan",
+      "eNumber": "E 407"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3174",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Sodium, potassium and calcium salts of fatty acids",
+      "eNumber": "E 470a"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3175",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Magnesium salts of fatty acids",
+      "eNumber": "E 470b"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3117",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Calcium tartrate",
+      "eNumber": "E 354"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3118",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Adipic acid",
+      "eNumber": "E 355"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3119",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Adipic acid - adipates",
+      "eNumber": "E 355 - 357"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3135",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Processed euchema seaweed",
+      "eNumber": "E 407a"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3136",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Locust bean gum",
+      "eNumber": "E 410"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3153",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Polyoxyethylene sorbitan monooleate (polysorbate 80)",
+      "eNumber": "E 433"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3154",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Polyoxyethylene sorbitan monopalmitate (polysorbate 40)",
+      "eNumber": "E 434"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3176",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Mono-and diglycerides of fatty acids",
+      "eNumber": "E 471"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3120",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Sodium adipate",
+      "eNumber": "E 356"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3121",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Potassium adipate",
+      "eNumber": "E 357"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3155",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Polyoxyethylene sorbitan monostearate (polysorbate 60)",
+      "eNumber": "E 435"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3156",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Polyoxyethylene sorbitan tristearate (polysorbate 65)",
+      "eNumber": "E 436"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3157",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Pectins",
+      "eNumber": "E 440"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3122",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Succinic acid",
+      "eNumber": "E 363"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3137",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Guar gum",
+      "eNumber": "E 412"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3177",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Acetic acid esters of mono- and diglycerides of fatty acids",
+      "eNumber": "E 472a"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3123",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Triammonium citrate",
+      "eNumber": "E 380"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3124",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Calcium disodium ethylene diamine tetra-acetate (Calcium disodium EDTA)",
+      "eNumber": "E 385"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3158",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Ammonium phosphatides",
+      "eNumber": "E 442"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3178",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Lactic acid esters of mono- and diglycerides of fatty acids",
+      "eNumber": "E 472b"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3179",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Citric acid esters of mono- and diglycerides of fatty acids",
+      "eNumber": "E 472c"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3125",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Extracts of rosemary",
+      "eNumber": "E 392"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3138",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Tragacanth",
+      "eNumber": "E 413"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3139",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Gum arabic (acacia gum)",
+      "eNumber": "E 414"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3159",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Sucrose acetate isobutyrate",
+      "eNumber": "E 444"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3160",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Glycerol esters of wood rosins",
+      "eNumber": "E 445"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3140",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Xanthan gum",
+      "eNumber": "E 415"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3161",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Diphosphates",
+      "eNumber": "E 450"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3180",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Tartaric acid esters of mono- and diglycerides of fatty acids",
+      "eNumber": "E 472d"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3181",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Mono and diacetyl tartaric acid esters of mono- and diglycerides of fatty acids",
+      "eNumber": "E 472e"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3182",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Mixed acetic and tartaric acid esters of mono- and diglycerides  of fatty acids",
+      "eNumber": "E 472f"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3162",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Triphosphates",
+      "eNumber": "E 451"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3163",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Polyphosphates",
+      "eNumber": "E 452"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3183",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Sucrose esters of fatty acids",
+      "eNumber": "E 473"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3184",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Sucrose esters of fatty acids-sucroglycerides",
+      "eNumber": "E 473 - 474"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3141",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Karaya gum",
+      "eNumber": "E 416"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3164",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Beta-cyclodextrin",
+      "eNumber": "E 459"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3126",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Alginic acid",
+      "eNumber": "E 400"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3127",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Alginic acid - alginates",
+      "eNumber": "E 400 - 404"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3142",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Tara gum",
+      "eNumber": "E 417"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3128",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Sodium alginate",
+      "eNumber": "E 401"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3143",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Gellan gum",
+      "eNumber": "E 418"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3144",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Sorbitols",
+      "eNumber": "E 420"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3166",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Methyl cellulose",
+      "eNumber": "E 461"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3167",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Ethyl cellulose",
+      "eNumber": "E 462"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3129",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Potassium alginate",
+      "eNumber": "E 402"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3130",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Ammonium alginate",
+      "eNumber": "E 403"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3145",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Mannitol",
+      "eNumber": "E 421"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3146",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Glycerol",
+      "eNumber": "E 422"
+    },
+    {
+      "policyItemCode": "POL-FAD-06121",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "<p>Steviol glycosides from Stevia</p>",
+      "eNumber": "E960a"
+    },
+    {
+      "policyItemCode": "POL-FAD-06122",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "<p>Enzymatically produced steviol glycosides</p>",
+      "eNumber": "E960c"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3378",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "<p>Carbomer</p>",
+      "eNumber": "1210"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3367",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Trimagnesium dicitrate anhydrous (TMDC)",
+      "eNumber": "xxx"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-2990",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "<p>Carminic acid, Carmine</p>",
+      "eNumber": "E 120"
+    },
+    {
+      "policyItemCode": "POL-FAD-10321",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "<p>Trimagnesium dicitrate</p>",
+      "eNumber": "E345(i)"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3364",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "<p>Cellulose&nbsp;</p>",
+      "eNumber": null
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3187",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Polyglycerol polyricinoleate",
+      "eNumber": "E476"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3165",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "<p>Microcrystalline cellulose, Cellulose gel</p>",
+      "eNumber": "E 460(i)"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3372",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Silicon dioxide - silicates\u00a0",
+      "eNumber": "E 551-559"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3079",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Calcium ascorbate",
+      "eNumber": "E 302"
+    },
+    {
+      "policyItemCode": "POL-FAD-13301",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "<p>Steviol glycosides from fermentation\u2019</p>",
+      "eNumber": "E 960b"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3103",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Tartaric acid (L(+)-)",
+      "eNumber": "E 334"
+    },
+    {
+      "policyItemCode": "POL-FAD-12021",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "<p>Tartaric acid \u2013 tartrates&nbsp;</p>",
+      "eNumber": "E 334 \u2013 337 and E 354:\u00a0"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3344",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Advantame",
+      "eNumber": "E 969"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3060",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Nitrates",
+      "eNumber": "E 251 - 252"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-2983",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Group III, Colours with combined maximum limit",
+      "eNumber": "Group III"
+    },
+    {
+      "policyItemCode": "POL-FAD-06101",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "<p>Steviol glycosides</p>",
+      "eNumber": "E 960a - 960d"
+    },
+    {
+      "policyItemCode": "POL-FAD-IMPORT-3108",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "Phosphoric acid - phosphates - di - tri- and polyphosphates",
+      "eNumber": "E 338 - 341, E 343 and E 450 - 452"
+    },
+    {
+      "policyItemCode": "POL-FAD-16782",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "<p>L-Ascorbyl Palmitate</p>",
+      "eNumber": "E 304(i)"
+    },
+    {
+      "policyItemCode": "POL-FAD-06123",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "<p>Glucosylated steviol glycosides</p>",
+      "eNumber": "E960d"
+    },
+    {
+      "policyItemCode": "POL-FAD-16781",
+      "policyItemStatus": "PUBLISHED",
+      "displayName": "<p>Cellulose</p>",
+      "eNumber": "E 460"
+    }
+  ]
+}

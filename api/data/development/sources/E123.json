@@ -1,0 +1,80 @@
+{
+  "code": "E123",
+  "checked": "2026-10-10",
+  "fields": {
+    "names": [
+      "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32012R0231",
+      "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?id=FDCRed2&set=ColorAdditives"
+    ],
+    "display_name": [
+      "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32012R0231",
+      "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?id=FDCRed2&set=ColorAdditives"
+    ],
+    "type": [
+      "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32012R0231",
+      "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?id=FDCRed2&set=ColorAdditives"
+    ],
+    "status": [
+      "https://ec.europa.eu/food/food-feed-portal/backend/api/policy-items/POL-FAD-IMPORT-2992",
+      "https://www.ecfr.gov/current/title-21/section-81.30",
+      "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?id=FDCRed2&set=ColorAdditives"
+    ],
+    "icon": [
+      "https://www.ecfr.gov/current/title-21/section-81.30",
+      "https://efsa.onlinelibrary.wiley.com/doi/10.2903/j.efsa.2010.1649"
+    ],
+    "overview": [
+      "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32012R0231",
+      "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?id=FDCRed2&set=ColorAdditives"
+    ],
+    "origin": [
+      "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32012R0231"
+    ],
+    "daily_intake": [
+      "https://efsa.onlinelibrary.wiley.com/doi/10.2903/j.efsa.2010.1649",
+      "https://www.inchem.org/documents/jecfa/jeceval/jec_94.htm"
+    ],
+    "side_effects": [
+      "https://efsa.onlinelibrary.wiley.com/doi/10.2903/j.efsa.2010.1649",
+      "https://efsa.onlinelibrary.wiley.com/doi/10.2903/j.efsa.2013.3442"
+    ],
+    "uses": [
+      "https://ec.europa.eu/food/food-feed-portal/backend/api/policy-items/POL-FAD-IMPORT-2992",
+      "https://ec.europa.eu/food/food-feed-portal/backend/api/food_categories?domain_code=fad",
+      "https://www.ecfr.gov/current/title-21/section-81.30"
+    ],
+    "banned_in": [
+      "https://ec.europa.eu/food/food-feed-portal/backend/api/policy-items/POL-FAD-IMPORT-2992",
+      "https://www.ecfr.gov/current/title-21/section-81.30",
+      "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?id=FDCRed2&set=ColorAdditives"
+    ]
+  },
+  "gaps": [
+    "dietary_restrictions: no specific applicable claim verified in the reviewed compound record, regulatory listings and safety assessment; omitted.",
+    "interactions: no specific applicable claim verified in the reviewed compound record, regulatory listings and safety assessment; omitted.",
+    "precautions: no specific applicable claim verified in the reviewed compound record, regulatory listings and safety assessment; omitted.",
+    "dietary_restrictions: the old universal vegan/vegetarian/religious suitability guarantee was not verified. Chemical identity or synthetic origin alone does not establish commercial preparation or process certification."
+  ],
+  "changes": [
+    "Replaced the old 0.5 mg/kg intake statement with separately attributed assessments; added the specifically sourced United States prohibition.",
+    "names: absent -> 'Amaranth (FD&C Red 2)'. Names/type follow the master; identity and legal flags follow the field sources.",
+    "display_name: absent -> 'E123 (Amaranth)'. Names/type follow the master; identity and legal flags follow the field sources.",
+    "type: absent -> 'color (Dark red)'. Names/type follow the master; identity and legal flags follow the field sources.",
+    "status: absent -> 'e'. Names/type follow the master; identity and legal flags follow the field sources.",
+    "icon: absent -> 'mdi-alert-circle'. Names/type follow the master; identity and legal flags follow the field sources.",
+    "more_info.banned_in: added. Rewritten in original plain language using the field sources; unverified old claims are not retained.",
+    "more_info.overview: added. Rewritten in original plain language using the field sources; unverified old claims are not retained.",
+    "more_info.origin: replaced. Rewritten in original plain language using the field sources; unverified old claims are not retained.",
+    "more_info.daily_intake: replaced. Rewritten in original plain language using the field sources; unverified old claims are not retained.",
+    "more_info.side_effects: replaced. Rewritten in original plain language using the field sources; unverified old claims are not retained.",
+    "more_info.uses: added. Rewritten in original plain language using the field sources; unverified old claims are not retained.",
+    "more_info.articles: added. Replaced with correctly labeled sources that loaded successfully; removed consumer-health and unsourced secondary links.",
+    "name: removed obsolete basic-layout key; identity/function now use the rich schema.",
+    "href: removed obsolete basic-layout key; identity/function now use the rich schema.",
+    "function: removed obsolete basic-layout key; identity/function now use the rich schema.",
+    "more_info.characteristics: removed; no verified compound-specific food-use claim retained. See gaps.",
+    "more_info.dietary_restrictions: removed; no verified compound-specific food-use claim retained. See gaps.",
+    "more_info.products: removed; no verified compound-specific food-use claim retained. See gaps.",
+    "Icon: FDA prohibits US food use; EFSA lowered the ADI in 2010."
+  ]
+}

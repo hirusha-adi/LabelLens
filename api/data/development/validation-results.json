@@ -1,0 +1,47 @@
+{
+  "checked": "2026-10-10",
+  "batch_codes": [
+    "E100",
+    "E100ii",
+    "E101",
+    "E101ii",
+    "E106",
+    "E102",
+    "E103",
+    "E104",
+    "E105",
+    "E107",
+    "E110",
+    "E111",
+    "E120",
+    "E121",
+    "E122",
+    "E123",
+    "E124",
+    "E125",
+    "E126",
+    "E127"
+  ],
+  "batch": {
+    "codes": 20,
+    "errors": 0,
+    "exit_code": 0
+  },
+  "validator_contract_tests": {
+    "tests": 10,
+    "result": "passed"
+  },
+  "full": {
+    "codes": 522,
+    "errors": 5091,
+    "exit_code": 1,
+    "reason": "Untouched todo records are still basic or missing. No reviewed batch record failed full validation."
+  },
+  "progress": {
+    "needs-review": 19,
+    "done": 1,
+    "todo": 502
+  },
+  "source_urls_loaded": 71,
+  "next_code": "E128"
+}

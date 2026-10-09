@@ -1,14 +1,22 @@
 {
     "code": "E122",
-    "name": "Azorubine",
-    "href": "e122.htm",
-    "function": "Red colour, azo dye",
+    "names": "Carmoisine (azorubine)",
+    "display_name": "E122 (Carmoisine)",
+    "type": "color (Red to maroon)",
+    "status": "e",
+    "icon": "mdi-alert-circle",
     "more_info": {
-        "origin": "Synthetic azo dye. See  for a background on azo dyes.",
-        "characteristics": "Red food colour. Very soluble in water.",
-        "products": "Many products.",
-        "daily_intake": "Up to 4 mg/kg body weight.",
-        "side_effects": "Since it is an azo dye, it may elicit intolerance in people intolerant to salicylates. Additionally, it is a histamine liberator, and may intensify symptoms of asthma. In combination with benzoates, it is also implicated in hyperactivity in children.",
-        "dietary_restrictions": "None; E122 can be consumed by all religious groups, vegans and vegetarians."
+        "banned_in": "Approved in the EU.",
+        "overview": "Carmoisine, also called azorubine, is a red azo food colour. Food-grade material consists mainly of colouring salts. It gives foods red to maroon shades.",
+        "origin": "A synthetic azo dye, generally supplied as its sodium salt.",
+        "daily_intake": "4 mg/kg body weight per day (EFSA, 2009), retained in the 2015 exposure assessment.",
+        "side_effects": "At reported food uses, EFSA's refined 2015 exposure estimates were below the ADI. Limited evidence did not establish this individual colour as a cause of intolerance reactions or behavioural effects reported for mixtures.\nA model using maximum permitted levels estimated that some high-consuming toddlers and children could exceed the ADI. This is an intake estimate, not an observed clinical effect.",
+        "uses": "Examples include certain fruit preserves, flavoured processed cheeses and fish products, subject to EU food-category limits.",
+        "articles": {
+            "EFSA Journal (2009)": "https://efsa.onlinelibrary.wiley.com/doi/10.2903/j.efsa.2009.1332",
+            "EFSA Journal (2015)": "https://efsa.onlinelibrary.wiley.com/doi/10.2903/j.efsa.2015.4072",
+            "European Commission database": "https://ec.europa.eu/food/food-feed-portal/backend/api/policy-items/POL-FAD-IMPORT-2991",
+            "Wikipedia": "https://en.wikipedia.org/wiki/Carmoisine"
+        }
     }
 }

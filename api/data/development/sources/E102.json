@@ -1,0 +1,72 @@
+{
+  "code": "E102",
+  "checked": "2026-10-10",
+  "fields": {
+    "names": [
+      "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32012R0231",
+      "https://www.ecfr.gov/current/title-21/section-74.705"
+    ],
+    "display_name": [
+      "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32012R0231",
+      "https://www.ecfr.gov/current/title-21/section-74.705"
+    ],
+    "type": [
+      "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32012R0231",
+      "https://www.ecfr.gov/current/title-21/section-74.705"
+    ],
+    "status": [
+      "https://ec.europa.eu/food/food-feed-portal/backend/api/policy-items/POL-FAD-IMPORT-2987",
+      "https://www.ecfr.gov/current/title-21/section-74.705"
+    ],
+    "icon": [
+      "https://efsa.onlinelibrary.wiley.com/doi/abs/10.2903/j.efsa.2009.1331",
+      "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/2017"
+    ],
+    "overview": [
+      "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32012R0231",
+      "https://www.ecfr.gov/current/title-21/section-74.705"
+    ],
+    "origin": [
+      "https://www.ecfr.gov/current/title-21/section-74.705"
+    ],
+    "daily_intake": [
+      "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/2017",
+      "https://efsa.onlinelibrary.wiley.com/doi/abs/10.2903/j.efsa.2009.1331"
+    ],
+    "side_effects": [
+      "https://efsa.onlinelibrary.wiley.com/doi/abs/10.2903/j.efsa.2009.1331",
+      "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/2017"
+    ],
+    "uses": [
+      "https://ec.europa.eu/food/food-feed-portal/backend/api/policy-items/POL-FAD-IMPORT-2987",
+      "https://ec.europa.eu/food/food-feed-portal/backend/api/food_categories?domain_code=fad",
+      "https://www.ecfr.gov/current/title-21/section-74.705"
+    ],
+    "precautions": [
+      "https://efsa.onlinelibrary.wiley.com/doi/abs/10.2903/j.efsa.2009.1331"
+    ],
+    "banned_in": [
+      "https://ec.europa.eu/food/food-feed-portal/backend/api/policy-items/POL-FAD-IMPORT-2987",
+      "https://www.ecfr.gov/current/title-21/section-74.705"
+    ]
+  },
+  "gaps": [
+    "Old banned_in claim: national bans in Austria, Germany, Norway and United Arab Emirates were not confirmed by the EU/FDA listings and compound assessments checked; those countries were removed from the ban line.",
+    "dietary_restrictions: no specific applicable claim verified in the reviewed compound record, regulatory listings and safety assessment; omitted.",
+    "interactions: no specific applicable claim verified in the reviewed compound record, regulatory listings and safety assessment; omitted.",
+    "Country ban list: no compound-specific national prohibition verified in the sources reviewed; omission does not establish absence of bans worldwide.",
+    "dietary_restrictions: the old universal vegan/vegetarian/religious suitability guarantee was not verified. Chemical identity or synthetic origin alone does not establish commercial preparation or process certification."
+  ],
+  "changes": [
+    "Removed the unverified four-country ban list and claims that tartrazine causes ADHD in a large percentage of children, is generally a histamine liberator, or is extracted from coal-tar waste.",
+    "more_info.banned_in: replaced. Rewritten in original plain language using the field sources; unverified old claims are not retained.",
+    "more_info.overview: replaced. Rewritten in original plain language using the field sources; unverified old claims are not retained.",
+    "more_info.origin: replaced. Rewritten in original plain language using the field sources; unverified old claims are not retained.",
+    "more_info.daily_intake: replaced. Rewritten in original plain language using the field sources; unverified old claims are not retained.",
+    "more_info.side_effects: replaced. Rewritten in original plain language using the field sources; unverified old claims are not retained.",
+    "more_info.uses: replaced. Rewritten in original plain language using the field sources; unverified old claims are not retained.",
+    "more_info.precautions: added. Rewritten in original plain language using the field sources; unverified old claims are not retained.",
+    "more_info.articles: replaced. Replaced with correctly labeled sources that loaded successfully; removed consumer-health and unsourced secondary links.",
+    "Icon: EFSA identified intolerance reactions, including within the ADI, in 2009."
+  ]
+}

@@ -1,14 +1,22 @@
 {
     "code": "E104",
-    "name": "Quinoline Yellow",
-    "href": "e104.htm",
-    "function": "Green-yellow colour, synthetic",
+    "names": "Quinoline Yellow WS",
+    "display_name": "E104 (Quinoline Yellow)",
+    "type": "color (Dull or greenish yellow)",
+    "status": "e",
+    "icon": "mdi-alert-circle",
     "more_info": {
-        "origin": "Synthetic non-azo dye.",
-        "characteristics": "Yellow food colour. Very soluble in water.",
-        "products": "Many different products.",
-        "daily_intake": "Up to 10 mg/kg body weight.",
-        "side_effects": "There are no side effects known in the concentrations used, although E104 may act as a histamine liberator.",
-        "dietary_restrictions": "None; E104 can be consumed by all religious groups, vegans and vegetarians."
+        "banned_in": "Approved in the EU.\nEU permitted levels and categories were reduced from 2013; no US food-colour listing was verified in 2026.",
+        "overview": "Quinoline Yellow WS is a yellow food dye based on sulfonated quinophthalone compounds. It is a mixture of colouring salts rather than a single pure molecule. Its role in food is to supply yellow colour.",
+        "origin": "Synthetic. A quinolyl indandione starting material is sulfonated to make the dye mixture, mainly supplied as sodium salts.",
+        "daily_intake": "0.5 mg/kg body weight per day (EFSA, 2009). JECFA established 0–3 mg/kg body weight per day in 2016; the two bodies' values differ.",
+        "side_effects": "At food-use levels, EFSA could not firmly attribute reported intolerance reactions to this dye because the evidence was limited. Its 2015 assessment estimated exposure below the ADI after EU use limits were reduced.\nHigh-dose animal toxicity studies supplied the basis for the ADIs. They do not demonstrate comparable effects at normal human food intakes.",
+        "uses": "Examples of permitted EU categories include confectionery, flavoured drinks, desserts and some sauces, with category-specific limits.",
+        "articles": {
+            "EFSA Journal (2009)": "https://efsa.onlinelibrary.wiley.com/doi/10.2903/j.efsa.2009.1329",
+            "EFSA Journal (2015)": "https://efsa.onlinelibrary.wiley.com/doi/10.2903/j.efsa.2015.4070",
+            "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/871",
+            "European Commission database": "https://ec.europa.eu/food/food-feed-portal/backend/api/policy-items/POL-FAD-IMPORT-2988"
+        }
     }
 }

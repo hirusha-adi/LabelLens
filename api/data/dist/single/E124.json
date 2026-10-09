@@ -1,14 +1,22 @@
 {
     "code": "E124",
-    "name": "Ponceau 4R",
-    "href": "e124.htm",
-    "function": "Red colour, azo dye",
+    "names": "Ponceau 4R (Cochineal Red A, Brilliant Scarlet 4R)",
+    "display_name": "E124 (Ponceau 4R)",
+    "type": "color (Red)",
+    "status": "e",
+    "icon": "mdi-alert-circle",
     "more_info": {
-        "origin": "Synthetic azo dye. See  for a background on azo dyes.",
-        "characteristics": "Red food colour. Very soluble in water.",
-        "products": "Many products.",
-        "daily_intake": "Up to 4 mg/kg body weight.",
-        "side_effects": "Since it is an azo dye, it may elicit intolerance in people intolerant to salicylates. Additionally, it is a histamine liberator, and may intensify symptoms of asthma. In combination with benzoates, it is also implicated in hyperactivity in children.",
-        "dietary_restrictions": "None; E124 can be consumed by all religious groups, vegans and vegetarians."
+        "banned_in": "Approved in the EU.\nEU permitted levels and categories were reduced from 2013; no US food-colour listing was verified in 2026.",
+        "overview": "Ponceau 4R is a red azo food colour. It is also called Cochineal Red A or New Coccine. Its colour comes from a manufactured dye rather than the insect extract used for carmine.",
+        "origin": "Synthetic. Diazotised naphthionic acid is coupled with a naphthol disulfonic acid, and the product is converted to its sodium salt.",
+        "daily_intake": "0.7 mg/kg body weight per day (EFSA, 2009). JECFA allocated 0–4 mg/kg body weight per day in 1983; the assessments differ.",
+        "side_effects": "At food-use levels, limited evidence did not firmly establish this dye alone as a cause of intolerance or behavioural effects. EFSA's refined 2015 exposure assessment found no ADI exceedance after EU limits were reduced.\nKidney changes in a long-term mouse study were used to derive the ADI. This animal finding is not evidence of the same effect at ordinary human food intakes.",
+        "uses": "EU permitted categories include confectionery, flavoured drinks, desserts and certain sausages, subject to specific limits.",
+        "articles": {
+            "EFSA Journal (2009)": "https://efsa.onlinelibrary.wiley.com/doi/10.2903/j.efsa.2009.1328",
+            "EFSA Journal (2015)": "https://efsa.onlinelibrary.wiley.com/doi/10.2903/j.efsa.2015.4073",
+            "WHO JECFA (INCHEM)": "https://www.inchem.org/documents/jecfa/jeceval/jec_1959.htm",
+            "European Commission database": "https://ec.europa.eu/food/food-feed-portal/backend/api/policy-items/POL-FAD-IMPORT-2993"
+        }
     }
 }

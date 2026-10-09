@@ -1,14 +1,23 @@
 {
     "code": "E127",
-    "name": "Erythrosine",
-    "href": "e127.htm",
-    "function": "Red colour, synthetic",
+    "names": "Erythrosine (FD&C Red 3)",
+    "display_name": "E127 (Erythrosine)",
+    "type": "color (Red)",
+    "status": "e u",
+    "icon": "mdi-alert-circle",
     "more_info": {
-        "origin": "Synthetic iodine-containing red dye.",
-        "characteristics": "Red food colour. Very soluble in water.",
-        "products": "Many products.",
-        "daily_intake": "Up to 0.1 mg/kg body weight.",
-        "side_effects": "Few side effects in the concentrations used in foods. Increased hyperactivity has been reported in a few cases, as well as a possible connection with mutagenicity. Erythrosine causes an increased photosensitivity in people with sensitivity to sunlight. In high concentrations erythrosine interferes with iodine metabolism. However, these concentrations cannot be reached through the consumption of food.",
-        "dietary_restrictions": "None; E127 can be consumed by all religious groups, vegans and vegetarians."
+        "banned_in": "Approved in the EU.\nApproved in the US.\nFDA issued a revocation order in 2025; the food-use listing ends on 15 January 2027, so the US flag is retained for the 2026 check.",
+        "overview": "Erythrosine is a red xanthene food dye also known as FD&C Red No. 3. EU food use is limited to particular cherry products. Its US listing has a future food-use termination date.",
+        "origin": "Synthetic. Fluorescein, formed from resorcinol and phthalic anhydride, is iodinated to make the colour, which is supplied mainly as a sodium salt.",
+        "daily_intake": "0–0.1 mg/kg body weight per day (EFSA, 2011, retaining the earlier JECFA/SCF ADI).",
+        "side_effects": "At the food-use exposures estimated in 2011, EFSA found no safety concern and estimates were below the ADI.\nHigh experimental exposure caused thyroid tumours in rats; EFSA considered the mechanism to have limited relevance to humans. FDA's 2025 revocation order applied the US statutory prohibition on colour additives that induce cancer in humans or animals.",
+        "uses": "EU authorization covers cocktail and candied cherries, and Bigarreaux cherries in syrup or cocktails. US food use remains in its transition period.",
+        "articles": {
+            "EFSA Journal": "https://efsa.onlinelibrary.wiley.com/doi/10.2903/j.efsa.2011.1854",
+            "FDA inventory": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?id=FDCRed3&set=ColorAdditives",
+            "FDA (2025)": "https://www.fda.gov/food/food-ingredients-packaging/fda-encourages-food-manufacturers-accelerate-phasing-out-use-fdc-red-no-3-foods-2027-deadline",
+            "eCFR": "https://www.ecfr.gov/current/title-21/section-74.303",
+            "European Commission database": "https://ec.europa.eu/food/food-feed-portal/backend/api/policy-items/POL-FAD-IMPORT-2994"
+        }
     }
 }

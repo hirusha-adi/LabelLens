@@ -1,14 +1,17 @@
 {
     "code": "E107",
-    "name": "Yellow 2G",
-    "href": "e107.htm",
-    "function": "Yellow colour, azo dye",
+    "names": "Yellow 2G",
+    "display_name": "E107 (Yellow 2G)",
+    "type": "color (Yellow)",
+    "status": "",
+    "icon": "mdi-alert-circle",
     "more_info": {
-        "origin": "Synthetic azo dye. See  for a background on azo dyes.",
-        "characteristics": "Yellow food colour. Very soluble in water.",
-        "products": "",
-        "daily_intake": "No ADI determined.",
-        "side_effects": "Since it is an azo dye, E107 is implicated in allergies, hyperactivity and asthma. Use is limited and the colour may be banned in the near future.",
-        "dietary_restrictions": "None; E107 can be consumed by all religious groups, vegans and vegetarians."
+        "banned_in": "JECFA records withdrawn specifications in 1984; no current EU or US food-colour listing was verified in 2026.",
+        "overview": "Yellow 2G is an azo colour identified as C.I. Food Yellow 5 or Acid Yellow 17. Its food-colouring function is to supply yellow colour. JECFA records it as INS 107.",
+        "daily_intake": "No ADI allocated (JECFA, 1979). The earlier temporary ADI is not the latest decision in the reviewed record.",
+        "articles": {
+            "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/3225",
+            "Wikipedia": "https://en.wikipedia.org/wiki/Yellow_2G"
+        }
     }
 }

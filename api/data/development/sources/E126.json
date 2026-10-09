@@ -1,0 +1,54 @@
+{
+  "code": "E126",
+  "checked": "2026-10-10",
+  "fields": {
+    "names": [
+      "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/3822",
+      "https://en.wikipedia.org/wiki/Ponceau_6R"
+    ],
+    "display_name": [
+      "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/3822",
+      "https://en.wikipedia.org/wiki/Ponceau_6R"
+    ],
+    "type": [
+      "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/3822",
+      "https://en.wikipedia.org/wiki/Ponceau_6R"
+    ],
+    "status": [
+      "https://ec.europa.eu/food/food-feed-portal/backend/api/policy-items?foodDomain=fin&authorisationType=fad_auth",
+      "https://www.fda.gov/industry/color-additives/summary-color-additives-use-united-states-foods-drugs-cosmetics-and-medical-devices"
+    ],
+    "icon": [
+      "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/3822",
+      "https://www.inchem.org/documents/jecfa/jecmono/v06je27.htm"
+    ],
+    "overview": [
+      "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/3822",
+      "https://en.wikipedia.org/wiki/Ponceau_6R"
+    ],
+    "daily_intake": [
+      "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/3822"
+    ],
+    "side_effects": [
+      "https://www.inchem.org/documents/jecfa/jecmono/v06je27.htm"
+    ],
+    "banned_in": [
+      "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/3822",
+      "https://ec.europa.eu/food/food-feed-portal/backend/api/policy-items?foodDomain=fin&authorisationType=fad_auth",
+      "https://www.fda.gov/industry/color-additives/summary-color-additives-use-united-states-foods-drugs-cosmetics-and-medical-devices"
+    ]
+  },
+  "gaps": [
+    "origin: no specific applicable claim verified in the reviewed compound record, regulatory listings and safety assessment; omitted.",
+    "uses: no specific applicable claim verified in the reviewed compound record, regulatory listings and safety assessment; omitted.",
+    "dietary_restrictions: no specific applicable claim verified in the reviewed compound record, regulatory listings and safety assessment; omitted.",
+    "interactions: no specific applicable claim verified in the reviewed compound record, regulatory listings and safety assessment; omitted.",
+    "precautions: no specific applicable claim verified in the reviewed compound record, regulatory listings and safety assessment; omitted.",
+    "Country ban list: no compound-specific national prohibition verified in the sources reviewed; omission does not establish absence of bans worldwide.",
+    "dietary_restrictions: the old universal vegan/vegetarian/religious suitability guarantee was not verified. Chemical identity or synthetic origin alone does not establish commercial preparation or process certification."
+  ],
+  "changes": [
+    "Created previously missing individual file using the master identity and reviewed sources.",
+    "Icon: JECFA could not complete the safety evaluation and described sensitisation reports."
+  ]
+}

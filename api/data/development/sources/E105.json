@@ -1,0 +1,47 @@
+{
+  "code": "E105",
+  "checked": "2026-10-10",
+  "fields": {
+    "names": [
+      "https://www.inchem.org/documents/jecfa/jeceval/jec_851.htm"
+    ],
+    "display_name": [
+      "https://www.inchem.org/documents/jecfa/jeceval/jec_851.htm"
+    ],
+    "type": [
+      "https://www.inchem.org/documents/jecfa/jeceval/jec_851.htm"
+    ],
+    "status": [
+      "https://ec.europa.eu/food/food-feed-portal/backend/api/policy-items?foodDomain=fin&authorisationType=fad_auth",
+      "https://www.fda.gov/industry/color-additives/summary-color-additives-use-united-states-foods-drugs-cosmetics-and-medical-devices"
+    ],
+    "icon": [
+      "https://www.inchem.org/documents/jecfa/jeceval/jec_851.htm"
+    ],
+    "overview": [
+      "https://www.inchem.org/documents/jecfa/jeceval/jec_851.htm"
+    ],
+    "daily_intake": [
+      "https://www.inchem.org/documents/jecfa/jeceval/jec_851.htm"
+    ],
+    "banned_in": [
+      "https://www.inchem.org/documents/jecfa/jeceval/jec_851.htm",
+      "https://ec.europa.eu/food/food-feed-portal/backend/api/policy-items?foodDomain=fin&authorisationType=fad_auth",
+      "https://www.fda.gov/industry/color-additives/summary-color-additives-use-united-states-foods-drugs-cosmetics-and-medical-devices"
+    ]
+  },
+  "gaps": [
+    "origin: no compound-specific manufacturing route confirmed.",
+    "side_effects: no verified food-use-level or high-dose human/animal effects claim for this exact C.I. 13015 compound. The IARC Yellow AB record has a different identity and was not used.",
+    "uses: no specific applicable claim verified in the reviewed compound record, regulatory listings and safety assessment; omitted.",
+    "dietary_restrictions: no specific applicable claim verified in the reviewed compound record, regulatory listings and safety assessment; omitted.",
+    "interactions: no specific applicable claim verified in the reviewed compound record, regulatory listings and safety assessment; omitted.",
+    "precautions: no specific applicable claim verified in the reviewed compound record, regulatory listings and safety assessment; omitted.",
+    "Country ban list: no compound-specific national prohibition verified in the sources reviewed; omission does not establish absence of bans worldwide.",
+    "dietary_restrictions: the old universal vegan/vegetarian/religious suitability guarantee was not verified. Chemical identity or synthetic origin alone does not establish commercial preparation or process certification."
+  ],
+  "changes": [
+    "Created previously missing individual file using the master identity and reviewed sources.",
+    "Icon: JECFA postponed its ADI decision and subsequently withdrew specifications."
+  ]
+}

@@ -1,0 +1,431 @@
+{
+  "checked": "2026-10-10",
+  "checks": {
+    "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/1457": {
+      "checked": "2026-10-10",
+      "loaded": true,
+      "method": "web reader",
+      "note": "Content loaded and read during this research session; success refers to readable content, not only an HTTP response."
+    },
+    "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/2017": {
+      "checked": "2026-10-10",
+      "loaded": true,
+      "method": "web reader",
+      "note": "Content loaded and read during this research session; success refers to readable content, not only an HTTP response."
+    },
+    "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/2359": {
+      "checked": "2026-10-10",
+      "loaded": true,
+      "method": "web reader",
+      "note": "Content loaded and read during this research session; success refers to readable content, not only an HTTP response."
+    },
+    "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/3225": {
+      "checked": "2026-10-10",
+      "loaded": true,
+      "method": "web reader",
+      "note": "Content loaded and read during this research session; success refers to readable content, not only an HTTP response."
+    },
+    "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/3822": {
+      "checked": "2026-10-10",
+      "loaded": true,
+      "method": "web reader",
+      "note": "Content loaded and read during this research session; success refers to readable content, not only an HTTP response."
+    },
+    "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/871": {
+      "checked": "2026-10-10",
+      "loaded": true,
+      "method": "web reader",
+      "note": "Content loaded and read during this research session; success refers to readable content, not only an HTTP response."
+    },
+    "https://ec.europa.eu/food/food-feed-portal/backend/api/food_categories?domain_code=fad": {
+      "checked": "2026-10-10",
+      "loaded": true,
+      "method": "Python requests, JSON parsed",
+      "note": "HTTP 200; API data read and compound identities or food category references inspected."
+    },
+    "https://ec.europa.eu/food/food-feed-portal/backend/api/policy-items/POL-FAD-IMPORT-2985": {
+      "checked": "2026-10-10",
+      "loaded": true,
+      "method": "Python requests, JSON parsed",
+      "note": "HTTP 200; API data read and compound identities or food category references inspected."
+    },
+    "https://ec.europa.eu/food/food-feed-portal/backend/api/policy-items/POL-FAD-IMPORT-2986": {
+      "checked": "2026-10-10",
+      "loaded": true,
+      "method": "Python requests, JSON parsed",
+      "note": "HTTP 200; API data read and compound identities or food category references inspected."
+    },
+    "https://ec.europa.eu/food/food-feed-portal/backend/api/policy-items/POL-FAD-IMPORT-2987": {
+      "checked": "2026-10-10",
+      "loaded": true,
+      "method": "Python requests, JSON parsed",
+      "note": "HTTP 200; API data read and compound identities or food category references inspected."
+    },
+    "https://ec.europa.eu/food/food-feed-portal/backend/api/policy-items/POL-FAD-IMPORT-2988": {
+      "checked": "2026-10-10",
+      "loaded": true,
+      "method": "Python requests, JSON parsed",
+      "note": "HTTP 200; API data read and compound identities or food category references inspected."
+    },
+    "https://ec.europa.eu/food/food-feed-portal/backend/api/policy-items/POL-FAD-IMPORT-2989": {
+      "checked": "2026-10-10",
+      "loaded": true,
+      "method": "Python requests, JSON parsed",
+      "note": "HTTP 200; API data read and compound identities or food category references inspected."
+    },
+    "https://ec.europa.eu/food/food-feed-portal/backend/api/policy-items/POL-FAD-IMPORT-2990": {
+      "checked": "2026-10-10",
+      "loaded": true,
+      "method": "Python requests, JSON parsed",
+      "note": "HTTP 200; API data read and compound identities or food category references inspected."
+    },
+    "https://ec.europa.eu/food/food-feed-portal/backend/api/policy-items/POL-FAD-IMPORT-2991": {
+      "checked": "2026-10-10",
+      "loaded": true,
+      "method": "Python requests, JSON parsed",
+      "note": "HTTP 200; API data read and compound identities or food category references inspected."
+    },
+    "https://ec.europa.eu/food/food-feed-portal/backend/api/policy-items/POL-FAD-IMPORT-2992": {
+      "checked": "2026-10-10",
+      "loaded": true,
+      "method": "Python requests, JSON parsed",
+      "note": "HTTP 200; API data read and compound identities or food category references inspected."
+    },
+    "https://ec.europa.eu/food/food-feed-portal/backend/api/policy-items/POL-FAD-IMPORT-2993": {
+      "checked": "2026-10-10",
+      "loaded": true,
+      "method": "Python requests, JSON parsed",
+      "note": "HTTP 200; API data read and compound identities or food category references inspected."
+    },
+    "https://ec.europa.eu/food/food-feed-portal/backend/api/policy-items/POL-FAD-IMPORT-2994": {
+      "checked": "2026-10-10",
+      "loaded": true,
+      "method": "Python requests, JSON parsed",
+      "note": "HTTP 200; API data read and compound identities or food category references inspected."
+    },
+    "https://ec.europa.eu/food/food-feed-portal/backend/api/policy-items?foodDomain=fin&authorisationType=fad_auth": {
+      "checked": "2026-10-10",
+      "loaded": true,
+      "method": "Python requests, JSON parsed",
+      "note": "HTTP 200; API data read and compound identities or food category references inspected."
+    },
+    "https://efsa.onlinelibrary.wiley.com/doi/10.2903/j.efsa.2009.1328": {
+      "checked": "2026-10-10",
+      "loaded": true,
+      "method": "web reader",
+      "note": "Content loaded and read during this research session; success refers to readable content, not only an HTTP response."
+    },
+    "https://efsa.onlinelibrary.wiley.com/doi/10.2903/j.efsa.2009.1329": {
+      "checked": "2026-10-10",
+      "loaded": true,
+      "method": "web reader",
+      "note": "Content loaded and read during this research session; success refers to readable content, not only an HTTP response."
+    },
+    "https://efsa.onlinelibrary.wiley.com/doi/10.2903/j.efsa.2009.1332": {
+      "checked": "2026-10-10",
+      "loaded": true,
+      "method": "web reader",
+      "note": "Content loaded and read during this research session; success refers to readable content, not only an HTTP response."
+    },
+    "https://efsa.onlinelibrary.wiley.com/doi/10.2903/j.efsa.2010.1649": {
+      "checked": "2026-10-10",
+      "loaded": true,
+      "method": "web reader",
+      "note": "Content loaded and read during this research session; success refers to readable content, not only an HTTP response."
+    },
+    "https://efsa.onlinelibrary.wiley.com/doi/10.2903/j.efsa.2010.1679": {
+      "checked": "2026-10-10",
+      "loaded": true,
+      "method": "web reader",
+      "note": "Content loaded and read during this research session; success refers to readable content, not only an HTTP response."
+    },
+    "https://efsa.onlinelibrary.wiley.com/doi/10.2903/j.efsa.2011.1854": {
+      "checked": "2026-10-10",
+      "loaded": true,
+      "method": "web reader",
+      "note": "Content loaded and read during this research session; success refers to readable content, not only an HTTP response."
+    },
+    "https://efsa.onlinelibrary.wiley.com/doi/10.2903/j.efsa.2013.3357": {
+      "checked": "2026-10-10",
+      "loaded": true,
+      "method": "web reader",
+      "note": "Content loaded and read during this research session; success refers to readable content, not only an HTTP response."
+    },
+    "https://efsa.onlinelibrary.wiley.com/doi/10.2903/j.efsa.2013.3442": {
+      "checked": "2026-10-10",
+      "loaded": true,
+      "method": "web reader",
+      "note": "Content loaded and read during this research session; success refers to readable content, not only an HTTP response."
+    },
+    "https://efsa.onlinelibrary.wiley.com/doi/10.2903/j.efsa.2014.3765": {
+      "checked": "2026-10-10",
+      "loaded": true,
+      "method": "web reader",
+      "note": "Content loaded and read during this research session; success refers to readable content, not only an HTTP response."
+    },
+    "https://efsa.onlinelibrary.wiley.com/doi/10.2903/j.efsa.2014.3876": {
+      "checked": "2026-10-10",
+      "loaded": true,
+      "method": "web reader",
+      "note": "Content loaded and read during this research session; success refers to readable content, not only an HTTP response."
+    },
+    "https://efsa.onlinelibrary.wiley.com/doi/10.2903/j.efsa.2015.4070": {
+      "checked": "2026-10-10",
+      "loaded": true,
+      "method": "web reader",
+      "note": "Content loaded and read during this research session; success refers to readable content, not only an HTTP response."
+    },
+    "https://efsa.onlinelibrary.wiley.com/doi/10.2903/j.efsa.2015.4072": {
+      "checked": "2026-10-10",
+      "loaded": true,
+      "method": "web reader",
+      "note": "Content loaded and read during this research session; success refers to readable content, not only an HTTP response."
+    },
+    "https://efsa.onlinelibrary.wiley.com/doi/10.2903/j.efsa.2015.4073": {
+      "checked": "2026-10-10",
+      "loaded": true,
+      "method": "web reader",
+      "note": "Content loaded and read during this research session; success refers to readable content, not only an HTTP response."
+    },
+    "https://efsa.onlinelibrary.wiley.com/doi/10.2903/j.efsa.2015.4288": {
+      "checked": "2026-10-10",
+      "loaded": true,
+      "method": "web reader",
+      "note": "Content loaded and read during this research session; success refers to readable content, not only an HTTP response."
+    },
+    "https://efsa.onlinelibrary.wiley.com/doi/abs/10.2903/j.efsa.2009.1331": {
+      "checked": "2026-10-10",
+      "loaded": true,
+      "method": "web reader",
+      "note": "Content loaded and read during this research session; success refers to readable content, not only an HTTP response."
+    },
+    "https://en.wikipedia.org/wiki/Alkannin": {
+      "checked": "2026-10-10",
+      "loaded": true,
+      "method": "web reader",
+      "note": "Readable article loaded through the web reader; direct requests were blocked. Used only for identity and general description."
+    },
+    "https://en.wikipedia.org/wiki/Carmoisine": {
+      "checked": "2026-10-10",
+      "loaded": true,
+      "method": "web reader",
+      "note": "Readable article loaded through the web reader; direct requests were blocked. Used only for identity and general description."
+    },
+    "https://en.wikipedia.org/wiki/Fast_Yellow_AB": {
+      "checked": "2026-10-10",
+      "loaded": true,
+      "method": "web reader",
+      "note": "Readable article loaded through the web reader; direct requests were blocked. Used only for identity and general description."
+    },
+    "https://en.wikipedia.org/wiki/Orange_GGN": {
+      "checked": "2026-10-10",
+      "loaded": true,
+      "method": "web reader",
+      "note": "Readable article loaded through the web reader; direct requests were blocked. Used only for identity and general description."
+    },
+    "https://en.wikipedia.org/wiki/Ponceau_6R": {
+      "checked": "2026-10-10",
+      "loaded": true,
+      "method": "web reader",
+      "note": "Readable article loaded through the web reader; direct requests were blocked. Used only for identity and general description."
+    },
+    "https://en.wikipedia.org/wiki/Scarlet_GN": {
+      "checked": "2026-10-10",
+      "loaded": true,
+      "method": "web reader",
+      "note": "Readable article loaded through the web reader; direct requests were blocked. Used only for identity and general description."
+    },
+    "https://en.wikipedia.org/wiki/Turmeric": {
+      "checked": "2026-10-10",
+      "loaded": true,
+      "method": "web reader",
+      "note": "Readable article loaded through the web reader; direct requests were blocked. Used only for identity and general description."
+    },
+    "https://en.wikipedia.org/wiki/Yellow_2G": {
+      "checked": "2026-10-10",
+      "loaded": true,
+      "method": "web reader",
+      "note": "Readable article loaded through the web reader; direct requests were blocked. Used only for identity and general description."
+    },
+    "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32012R0231": {
+      "checked": "2026-10-10",
+      "loaded": true,
+      "method": "Python requests, HTML parsed",
+      "note": "Initial request returned HTTP 200 with the specifications text, which was read. A later attempt returned a blank HTTP 202 challenge; the earlier readable response was used."
+    },
+    "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?id=CitrusRed2&set=ColorAdditives": {
+      "checked": "2026-10-10",
+      "loaded": true,
+      "method": "web reader",
+      "note": "Content loaded and read during this research session; success refers to readable content, not only an HTTP response."
+    },
+    "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?id=FDCRed2&set=ColorAdditives": {
+      "checked": "2026-10-10",
+      "loaded": true,
+      "method": "web reader",
+      "note": "Content loaded and read during this research session; success refers to readable content, not only an HTTP response."
+    },
+    "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?id=FDCRed3&set=ColorAdditives": {
+      "checked": "2026-10-10",
+      "loaded": true,
+      "method": "web reader",
+      "note": "Content loaded and read during this research session; success refers to readable content, not only an HTTP response."
+    },
+    "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?id=FDCRed4&set=ColorAdditives": {
+      "checked": "2026-10-10",
+      "loaded": true,
+      "method": "web reader",
+      "note": "Content loaded and read during this research session; success refers to readable content, not only an HTTP response."
+    },
+    "https://inchem.org/documents/jecfa/jecmono/v12je15.htm": {
+      "checked": "2026-10-10",
+      "loaded": true,
+      "method": "Python requests and/or web reader",
+      "note": "Readable JECFA evaluation or monograph loaded and read; source was inspected rather than relying on a search snippet."
+    },
+    "https://www.ecfr.gov/current/title-21/section-184.1697": {
+      "checked": "2026-10-10",
+      "loaded": true,
+      "method": "web reader",
+      "note": "Readable regulation loaded through the web reader, with the compound provision inspected. Direct requests returned an access challenge and were not counted as readable evidence."
+    },
+    "https://www.ecfr.gov/current/title-21/section-73.100": {
+      "checked": "2026-10-10",
+      "loaded": true,
+      "method": "web reader",
+      "note": "Readable regulation loaded through the web reader, with the compound provision inspected. Direct requests returned an access challenge and were not counted as readable evidence."
+    },
+    "https://www.ecfr.gov/current/title-21/section-73.450": {
+      "checked": "2026-10-10",
+      "loaded": true,
+      "method": "web reader",
+      "note": "Readable regulation loaded through the web reader, with the compound provision inspected. Direct requests returned an access challenge and were not counted as readable evidence."
+    },
+    "https://www.ecfr.gov/current/title-21/section-73.600": {
+      "checked": "2026-10-10",
+      "loaded": true,
+      "method": "web reader",
+      "note": "Readable regulation loaded through the web reader, with the compound provision inspected. Direct requests returned an access challenge and were not counted as readable evidence."
+    },
+    "https://www.ecfr.gov/current/title-21/section-73.615": {
+      "checked": "2026-10-10",
+      "loaded": true,
+      "method": "web reader",
+      "note": "Readable regulation loaded through the web reader, with the compound provision inspected. Direct requests returned an access challenge and were not counted as readable evidence."
+    },
+    "https://www.ecfr.gov/current/title-21/section-74.302": {
+      "checked": "2026-10-10",
+      "loaded": true,
+      "method": "web reader",
+      "note": "Readable regulation loaded through the web reader, with the compound provision inspected. Direct requests returned an access challenge and were not counted as readable evidence."
+    },
+    "https://www.ecfr.gov/current/title-21/section-74.303": {
+      "checked": "2026-10-10",
+      "loaded": true,
+      "method": "web reader",
+      "note": "Readable regulation loaded through the web reader, with the compound provision inspected. Direct requests returned an access challenge and were not counted as readable evidence."
+    },
+    "https://www.ecfr.gov/current/title-21/section-74.705": {
+      "checked": "2026-10-10",
+      "loaded": true,
+      "method": "web reader",
+      "note": "Readable regulation loaded through the web reader, with the compound provision inspected. Direct requests returned an access challenge and were not counted as readable evidence."
+    },
+    "https://www.ecfr.gov/current/title-21/section-74.706": {
+      "checked": "2026-10-10",
+      "loaded": true,
+      "method": "web reader",
+      "note": "Readable regulation loaded through the web reader, with the compound provision inspected. Direct requests returned an access challenge and were not counted as readable evidence."
+    },
+    "https://www.ecfr.gov/current/title-21/section-81.30": {
+      "checked": "2026-10-10",
+      "loaded": true,
+      "method": "web reader",
+      "note": "Readable regulation loaded through the web reader, with the compound provision inspected. Direct requests returned an access challenge and were not counted as readable evidence."
+    },
+    "https://www.efsa.europa.eu/en/press/news/091112": {
+      "checked": "2026-10-10",
+      "loaded": true,
+      "method": "web reader",
+      "note": "Content loaded and read during this research session; success refers to readable content, not only an HTTP response."
+    },
+    "https://www.efsa.europa.eu/en/press/news/170807": {
+      "checked": "2026-10-10",
+      "loaded": true,
+      "method": "web reader",
+      "note": "Content loaded and read during this research session; success refers to readable content, not only an HTTP response."
+    },
+    "https://www.fda.gov/food/food-ingredients-packaging/fda-encourages-food-manufacturers-accelerate-phasing-out-use-fdc-red-no-3-foods-2027-deadline": {
+      "checked": "2026-10-10",
+      "loaded": true,
+      "method": "web reader",
+      "note": "Content loaded and read during this research session; success refers to readable content, not only an HTTP response."
+    },
+    "https://www.fda.gov/industry/color-additives/summary-color-additives-use-united-states-foods-drugs-cosmetics-and-medical-devices": {
+      "checked": "2026-10-10",
+      "loaded": true,
+      "method": "web reader",
+      "note": "Content loaded and read during this research session; success refers to readable content, not only an HTTP response."
+    },
+    "https://www.fda.gov/news-events/press-announcements/fda-takes-further-steps-remove-outdated-authorizations-color-additives-food": {
+      "checked": "2026-10-10",
+      "loaded": true,
+      "method": "web reader",
+      "note": "Content loaded and read during this research session; success refers to readable content, not only an HTTP response."
+    },
+    "https://www.inchem.org/documents/jecfa/jeceval/jec_1796.htm": {
+      "checked": "2026-10-10",
+      "loaded": true,
+      "method": "Python requests and/or web reader",
+      "note": "Readable JECFA evaluation or monograph loaded and read; source was inspected rather than relying on a search snippet."
+    },
+    "https://www.inchem.org/documents/jecfa/jeceval/jec_1959.htm": {
+      "checked": "2026-10-10",
+      "loaded": true,
+      "method": "Python requests and/or web reader",
+      "note": "Readable JECFA evaluation or monograph loaded and read; source was inspected rather than relying on a search snippet."
+    },
+    "https://www.inchem.org/documents/jecfa/jeceval/jec_2099.htm": {
+      "checked": "2026-10-10",
+      "loaded": true,
+      "method": "Python requests and/or web reader",
+      "note": "Readable JECFA evaluation or monograph loaded and read; source was inspected rather than relying on a search snippet."
+    },
+    "https://www.inchem.org/documents/jecfa/jeceval/jec_2101.htm": {
+      "checked": "2026-10-10",
+      "loaded": true,
+      "method": "Python requests and/or web reader",
+      "note": "Readable JECFA evaluation or monograph loaded and read; source was inspected rather than relying on a search snippet."
+    },
+    "https://www.inchem.org/documents/jecfa/jeceval/jec_2353.htm": {
+      "checked": "2026-10-10",
+      "loaded": true,
+      "method": "Python requests and/or web reader",
+      "note": "Readable JECFA evaluation or monograph loaded and read; source was inspected rather than relying on a search snippet."
+    },
+    "https://www.inchem.org/documents/jecfa/jeceval/jec_851.htm": {
+      "checked": "2026-10-10",
+      "loaded": true,
+      "method": "Python requests and/or web reader",
+      "note": "Readable JECFA evaluation or monograph loaded and read; source was inspected rather than relying on a search snippet."
+    },
+    "https://www.inchem.org/documents/jecfa/jeceval/jec_94.htm": {
+      "checked": "2026-10-10",
+      "loaded": true,
+      "method": "Python requests and/or web reader",
+      "note": "Readable JECFA evaluation or monograph loaded and read; source was inspected rather than relying on a search snippet."
+    },
+    "https://www.inchem.org/documents/jecfa/jecmono/v06je27.htm": {
+      "checked": "2026-10-10",
+      "loaded": true,
+      "method": "Python requests and/or web reader",
+      "note": "Readable JECFA evaluation or monograph loaded and read; source was inspected rather than relying on a search snippet."
+    },
+    "https://www.inchem.org/documents/jecfa/jecmono/v46aje10.htm": {
+      "checked": "2026-10-10",
+      "loaded": true,
+      "method": "Python requests and/or web reader",
+      "note": "Readable JECFA evaluation or monograph loaded and read; source was inspected rather than relying on a search snippet."
+    }
+  }
+}

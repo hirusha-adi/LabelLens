@@ -1,0 +1,18 @@
+{
+    "code": "E103",
+    "names": "Alkannin",
+    "display_name": "E103 (Alkannin)",
+    "type": "color (Red-brown)",
+    "status": "",
+    "icon": "mdi-alert-circle",
+    "more_info": {
+        "banned_in": "JECFA records withdrawn specifications in 1984; this is not a national ban.",
+        "overview": "Alkannin is a red-brown pigment found in plants including dyer's alkanet. Its historical food-colour identity is INS 103. A numbering-system entry does not establish current food-use approval.",
+        "origin": "Plant-derived. The natural dye is obtained by extracting dyer's alkanet, Alkanna tinctoria.",
+        "daily_intake": "No ADI allocated (JECFA, 1977).",
+        "articles": {
+            "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/2359",
+            "Wikipedia": "https://en.wikipedia.org/wiki/Alkannin"
+        }
+    }
+}

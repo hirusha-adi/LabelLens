@@ -1,0 +1,17 @@
+{
+    "code": "E105",
+    "names": "Fast Yellow AB",
+    "display_name": "E105 (Fast Yellow AB)",
+    "type": "color (Yellow)",
+    "status": "",
+    "icon": "mdi-alert-circle",
+    "more_info": {
+        "banned_in": "JECFA records withdrawn specifications in 1984; no current EU or US food-colour listing was verified in 2026.",
+        "overview": "Fast Yellow AB is a monoazo colour also identified as C.I. Food Yellow 2. Its historical food-colouring role is to supply yellow colour. JECFA identifies it under the former E105 number.",
+        "daily_intake": "ADI decision postponed (JECFA, 1977). This is not an ADI stated as unspecified.",
+        "articles": {
+            "WHO JECFA (INCHEM)": "https://www.inchem.org/documents/jecfa/jeceval/jec_851.htm",
+            "Wikipedia": "https://en.wikipedia.org/wiki/Fast_Yellow_AB"
+        }
+    }
+}

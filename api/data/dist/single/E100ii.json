@@ -1,14 +1,21 @@
 {
-    "code": "E100(ii)",
-    "name": "Turmeric",
-    "href": "e100.htm",
-    "function": "Orange-yellow colour",
+    "code": "E100ii",
+    "names": "Turmeric",
+    "display_name": "E100ii (Turmeric)",
+    "type": "color (Yellow-orange)",
+    "status": "u",
+    "icon": "mdi-check-circle",
     "more_info": {
-        "origin": "Natural colour isolated from the roots and stem of Yellowroot (Curcuma longa  and Curcuma domestica). Turmeric is the crude extract, whereas curcumin is the purified compound. It imparts the yellow colour to curry powder. More on curcumin, click .",
-        "characteristics": "Food colour, whose colour ranges from yellow to red, depending on pH (acidity). It is not very soluble in water.",
-        "products": "Many different products.",
-        "daily_intake": "Up to 1 mg/kg body weight for curcumin, and 0.3 mg/kg for turmeric.",
-        "side_effects": "No side effects known in the concentrations used in foods.",
-        "dietary_restrictions": "None; E100 can be consumed by all religious groups, vegans and vegetarians. "
+        "banned_in": "Approved in the US.\nINS 100(ii) identifies turmeric; the EU database lists E100 as curcumin, so a separate EU colour approval for turmeric powder was not verified in 2026.",
+        "overview": "Turmeric is the ground rhizome of Curcuma longa. It provides yellow to orange colour and flavour. The INS entry for turmeric powder is distinct from the concentrated curcumin colour.",
+        "origin": "Plant-derived. The colour material described by FDA is made by grinding turmeric rhizomes.",
+        "daily_intake": "No ADI allocated for turmeric (JECFA, 1986). JECFA noted that turmeric is often treated as a food rather than a food additive.",
+        "uses": "Used as a spice in foods such as curries and mustard. FDA permits turmeric as a colour in foods generally, subject to standards of identity and good manufacturing practice.",
+        "dietary_restrictions": "Ground turmeric is a plant ingredient and is compatible with vegan and vegetarian diets.",
+        "articles": {
+            "eCFR": "https://www.ecfr.gov/current/title-21/section-73.600",
+            "WHO JECFA (INCHEM)": "https://www.inchem.org/documents/jecfa/jeceval/jec_2353.htm",
+            "Wikipedia": "https://en.wikipedia.org/wiki/Turmeric"
+        }
     }
 }

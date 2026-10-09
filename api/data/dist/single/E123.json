@@ -1,14 +1,23 @@
 {
     "code": "E123",
-    "name": "Amaranth",
-    "href": "e123.htm",
-    "function": "Red colour, azo dye",
+    "names": "Amaranth (FD&C Red 2)",
+    "display_name": "E123 (Amaranth)",
+    "type": "color (Dark red)",
+    "status": "e",
+    "icon": "mdi-alert-circle",
     "more_info": {
-        "origin": "Synthetic azo dye. See  for a background on azo dyes.",
-        "characteristics": "Red food colour. Very soluble in water.",
-        "products": "Many products.",
-        "daily_intake": "Up to 0.5 mg/kg body weight.",
-        "side_effects": "Since it is an azo dye, it may elicit intolerance in people intolerant to salicylates. Additionally, it is a histamine liberator, and may intensify symptoms of asthma. In combination with benzoates, it is also implicated in hyperactivity in children. A connection between tumours and amaranth has been established in rats, but not (un)proven in humans. Nevertheless, many countries have restricted the use pending further tests, and the ADI has been reduced to 0.5 mg/kg.",
-        "dietary_restrictions": "None; E123 can be consumed by all religious groups, vegans and vegetarians."
+        "banned_in": "Banned in: United States.\nApproved in the EU.\nFDA cancelled food-use certificates for FD&C Red No. 2 in 1976.",
+        "overview": "Amaranth is a synthetic red azo colour, also known as FD&C Red No. 2. It supplies red shades in foods where its use is permitted. The dye is chemically identified under C.I. Food Red 9.",
+        "origin": "Synthetic. Naphthalenesulfonic acid compounds are coupled to form the dye, which is supplied mainly as the sodium salt.",
+        "daily_intake": "0.15 mg/kg body weight per day (EFSA, 2010). JECFA allocated 0–0.5 mg/kg body weight per day in 1984; the values differ.",
+        "side_effects": "At estimated food-use exposure, EFSA's 2013 refined assessment placed all assessed age groups below its ADI. This estimates intake and does not establish that no individual reactions occur.\nLong-term and reproductive/developmental animal studies were used to derive EFSA's lower ADI in 2010; these are experimental hazard data rather than demonstrated effects at ordinary human food intakes.",
+        "uses": "EU permitted uses include certain alcoholic drinks and fish roe other than sturgeon caviar, with limits. Use in US food is prohibited.",
+        "articles": {
+            "EFSA Journal (2010)": "https://efsa.onlinelibrary.wiley.com/doi/10.2903/j.efsa.2010.1649",
+            "EFSA Journal (2013)": "https://efsa.onlinelibrary.wiley.com/doi/10.2903/j.efsa.2013.3442",
+            "eCFR": "https://www.ecfr.gov/current/title-21/section-81.30",
+            "FDA inventory": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?id=FDCRed2&set=ColorAdditives",
+            "WHO JECFA (INCHEM)": "https://www.inchem.org/documents/jecfa/jeceval/jec_94.htm"
+        }
     }
 }
