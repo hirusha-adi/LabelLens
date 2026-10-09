@@ -3,13 +3,18 @@
     "names": "Succistearin",
     "display_name": "E446 (Succistearin)",
     "type": "emulsifier",
-    "status": "",
+    "status": "u",
     "icon": "mdi-check-circle",
     "more_info": {
-        "overview": "Succistearin is used as an emulsifier in food. Its technological role is to help oil and water remain mixed.",
+        "overview": "Succistearin is a manufactured emulsifier also called stearoyl propylene glycol hydrogen succinate. The preparation is made by reacting succinic anhydride, fully hydrogenated vegetable oil and propylene glycol. Its specified function is to help emulsify shortenings and edible oils used in bakery preparations. FDA lists cakes, cake mixes, fillings, icings, pastries and toppings for this application.",
         "articles": {
             "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
-            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
-        }
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "eCFR": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=172",
+            "EUR-Lex": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02008R1333-20260818"
+        },
+        "origin": "A chemically processed plant-oil preparation made from fully hydrogenated vegetable oil, succinic anhydride and propylene glycol.",
+        "uses": "Used in shortenings and edible oils intended for cakes, cake mixes, fillings, icings, pastries and toppings.",
+        "banned_in": "Approved in the US.\nUS food use follows the preparation-specific conditions in 21 CFR 172.765, checked in 2026."
     }
 }

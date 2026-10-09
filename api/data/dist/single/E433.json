@@ -1,21 +1,25 @@
 {
     "code": "E433",
     "names": "Polyoxyethene (20) sorbitan monooleate (polysorbate 80)",
-    "display_name": "E433 (Polyoxyethene)",
+    "display_name": "E433 (Polysorbate 80)",
     "type": "emulsifier",
     "status": "e u",
     "icon": "mdi-check-circle",
     "more_info": {
         "banned_in": "Approved in the EU.\nApproved in the US.\nUS food use is subject to the listed CFR provisions and their conditions, checked in 2026.",
-        "overview": "Polyoxyethene is used as an emulsifier in food. Its technological role is to help oil and water remain mixed.",
+        "overview": "Polysorbate 80 is a mixture of ethoxylated sorbitol-derived esters of oleic acid; its preparation contains approximately 20 oxyethylene units per sorbitol-derived unit. Its emulsifying role is to help form or maintain mixtures of oil and water in the finished food. The preparation is made from partial esters of sorbitol and its anhydrides with oleic acid. The esters are additionally reacted with ethylene oxide. The specified preparation is an oily liquid with a colour between lemon yellow and amber. The specification identifies water solubility as one of its properties.",
         "articles": {
             "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/3735",
             "EUR-Lex specifications": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231",
             "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
             "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
-            "eCFR Title 21": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=73"
+            "eCFR Title 21": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=73",
+            "EUR-Lex": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32012R0231",
+            "EUR-Lex (2)": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02008R1333-20260818",
+            "WHO JECFA (2)": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/2507"
         },
         "origin": "Made from partial esters of sorbitol and its anhydrides with oleic acid. The esters are additionally reacted with ethylene oxide. The specification does not identify a single biological source for the fatty acid.",
-        "dietary_restrictions": "The fatty-acid feedstock is not specified as exclusively plant derived. Vegan, vegetarian, halal and kosher suitability cannot be established without the supplier identifying the raw material and processing."
+        "dietary_restrictions": "The fatty-acid feedstock is not specified as exclusively plant derived. Vegan, vegetarian, halal and kosher suitability cannot be established without the supplier identifying the raw material and processing.",
+        "uses": "Examples in the EU food-use list include certain other confectionery including breath freshening microsweets; chewing gum; decorations, coatings and fillings, except fruit-based fillings covered by category 4.2.4; flavoured drinks; flavoured fermented milk products including heat-treated products; sweet baked goods.\nThe entries apply to particular food categories and may limit the amount, the preparation or the way it is used; they do not show how often the additive appears in retail products."
     }
 }

@@ -7,7 +7,7 @@
     "icon": "mdi-alert-circle",
     "more_info": {
         "banned_in": "Approved in the US.\nFDA proposed revoking the orange-skin colour listing for industry abandonment in July 2026; the reviewed inventory still records that proposal.",
-        "overview": "Citrus Red 2 is a dye used to colour orange skins. Its US food authorization is restricted to certain mature oranges. It is not an authorization to colour foods generally.",
+        "overview": "Citrus Red No. 2 is a synthetic azo dye whose principal component is a dimethoxyphenylazo naphthol compound. Its US food application is unusually narrow: colouring the skin of mature oranges not intended for processing, with the stated packinghouse exception. The limit is 2 mg/kg calculated from the weight of the whole fruit. It is not a general-purpose colour for drinks, sweets or other citrus products under that regulation.",
         "daily_intake": "No safe intake determined; JECFA concluded that this colour should not be used as a food additive (1969).",
         "side_effects": "Human effects at the restricted food-use level were not established in the reviewed JECFA monograph.\nAnimal studies reviewed in 1969 reported bladder changes and other toxicity at experimental doses, with inconsistent tumour findings. JECFA considered the unexplained results sufficient to reject food-additive use; this is not proof of cancer at the permitted orange-skin exposure.",
         "uses": "US authorization covers the skins of mature oranges not intended for processing, with a limit of 2 mg/kg calculated on the whole fruit.",
@@ -16,7 +16,8 @@
             "FDA inventory": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?id=CitrusRed2&set=ColorAdditives",
             "FDA (2026)": "https://www.fda.gov/news-events/press-announcements/fda-takes-further-steps-remove-outdated-authorizations-color-additives-food",
             "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/1457",
-            "WHO toxicology (INCHEM)": "https://www.inchem.org/documents/jecfa/jecmono/v46aje10.htm"
+            "WHO toxicology (INCHEM)": "https://www.inchem.org/documents/jecfa/jecmono/v46aje10.htm",
+            "eCFR (2)": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=74"
         }
     }
 }

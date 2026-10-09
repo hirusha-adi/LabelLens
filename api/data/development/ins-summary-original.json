@@ -1137,7 +1137,7 @@
     "code": "E383",
     "names": "Calcium glycerylphosphate",
     "type": "acidity regulator",
-    "status": ""
+    "status": "u"
   },
   {
     "code": "E384",
@@ -1155,7 +1155,7 @@
     "code": "E386",
     "names": "Disodium ethylene diamine tetraacetate (Disodium EDTA)",
     "type": "sequestrant",
-    "status": ""
+    "status": "u"
   },
   {
     "code": "E387",
@@ -1323,7 +1323,7 @@
     "code": "E419",
     "names": "Gum ghatti (thickener) (stabiliser)",
     "type": "emulsifier",
-    "status": ""
+    "status": "u"
   },
   {
     "code": "E420",
@@ -1455,7 +1455,7 @@
     "code": "E446",
     "names": "Succistearin",
     "type": "emulsifier",
-    "status": ""
+    "status": "u"
   },
   {
     "code": "E450",
@@ -1645,9 +1645,9 @@
   },
   {
     "code": "E478",
-    "names": "Lactylated fatty acid esters of glycerol and propane-1",
+    "names": "Lactylated fatty acid esters of glycerol and propylene glycol",
     "type": "emulsifier",
-    "status": ""
+    "status": "u"
   },
   {
     "code": "E479",
@@ -1713,7 +1713,7 @@
     "code": "E488",
     "names": "Ethoxylated Mono- and Di-Glycerides",
     "type": "emulsifier",
-    "status": ""
+    "status": "u"
   },
   {
     "code": "E489",
@@ -2102,31 +2102,31 @@
   {
     "code": "E561",
     "names": "Vermiculite",
-    "type": "unclassified",
+    "type": "feed binder (anti-caking)",
     "status": ""
   },
   {
     "code": "E562",
     "names": "Sepiolite",
-    "type": "unclassified",
+    "type": "feed binder (anti-caking)",
     "status": ""
   },
   {
     "code": "E563",
     "names": "Sepiolitic clay",
-    "type": "unclassified",
+    "type": "feed binder (anti-caking)",
     "status": ""
   },
   {
     "code": "E565",
     "names": "Lignosulphonates",
-    "type": "unclassified",
+    "type": "feed binder",
     "status": ""
   },
   {
     "code": "E566",
     "names": "Natrolite-phonolite",
-    "type": "unclassified",
+    "type": "feed anti-caking agent",
     "status": ""
   },
   {
@@ -2151,7 +2151,7 @@
     "code": "E573",
     "names": "Aluminium stearate",
     "type": "Anti caking agent",
-    "status": ""
+    "status": "u"
   },
   {
     "code": "E574",
@@ -2216,7 +2216,7 @@
   {
     "code": "E599",
     "names": "Perlite",
-    "type": "unclassified",
+    "type": "feed anti-caking agent",
     "status": ""
   },
   {
@@ -2318,13 +2318,13 @@
   {
     "code": "E636",
     "names": "Maltol",
-    "type": "Flavour enhancer",
+    "type": "flavouring",
     "status": "u"
   },
   {
     "code": "E637",
     "names": "Ethylmaltol",
-    "type": "Flavour enhancer",
+    "type": "flavouring",
     "status": "u"
   },
   {
@@ -2535,7 +2535,7 @@
     "code": "E913",
     "names": "Lanolin, sheep wool grease",
     "type": "glazing agent",
-    "status": ""
+    "status": "u"
   },
   {
     "code": "E914",
@@ -2852,13 +2852,13 @@
   {
     "code": "E1100",
     "names": "Amylase",
-    "type": "stabiliser, flavour enhancer",
+    "type": "enzyme",
     "status": ""
   },
   {
     "code": "E1101",
     "names": "Proteases ((i)Protease, (ii)Papain, (iii)Bromelain, (iv)Ficin)",
-    "type": "stabiliser, flavour enhancer",
+    "type": "enzyme",
     "status": ""
   },
   {
@@ -2876,7 +2876,7 @@
   {
     "code": "E1104",
     "names": "Lipases",
-    "type": "unclassified",
+    "type": "enzyme",
     "status": ""
   },
   {
@@ -2948,7 +2948,7 @@
   {
     "code": "E1405",
     "names": "Enzyme treated starch",
-    "type": "unclassified",
+    "type": "thickening agent (stabiliser and emulsifier)",
     "status": ""
   },
   {

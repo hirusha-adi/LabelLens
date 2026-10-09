@@ -11,12 +11,15 @@
             "EUR-Lex specifications": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231",
             "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
             "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
-            "EFSA": "https://www.efsa.europa.eu/en/efsajournal/pub/4864"
+            "EFSA": "https://www.efsa.europa.eu/en/efsajournal/pub/4864",
+            "EUR-Lex": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32012R0231",
+            "EUR-Lex (2)": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02008R1333-20260818"
         },
         "origin": "Konjac gum and konjac glucomannan are obtained from konjac tubers. Water extraction produces the gum, while washing konjac flour with aqueous ethanol yields the glucomannan preparation.",
         "dietary_restrictions": "The specified starting material is plant derived and compatible with vegetarian and vegan diets. The specification does not establish halal or kosher certification.",
         "daily_intake": "No numerical ADI needed under the assessed conditions of use (EFSA, 2017).",
         "side_effects": "EFSA found no concern for assessed food uses.\nIn a study of 3 g/day for 12 weeks, some adults reported abdominal discomfort, diarrhoea or constipation.",
-        "overview": "Konjac is classified in food technology as an emulsifier. Its technological role is to help oil and water stay mixed."
+        "overview": "Konjac preparations contain glucomannan, a polysaccharide composed of glucose and mannose from the tuber of Amorphophallus konjac. Its emulsifying role is to help form or maintain mixtures of oil and water in the finished food. Konjac gum and konjac glucomannan are obtained from konjac tubers. Water extraction produces the gum, while washing konjac flour with aqueous ethanol yields the glucomannan preparation. One specified form is supplied as white powder.",
+        "uses": "Examples in the EU food-use list include certain cocoa and Chocolate products as covered by Directive 2000/36/EC; other confectionery including breath freshening microsweets; chewing gum; decorations, coatings and fillings, except fruit-based fillings covered by category 4.2.4; fruit juices as defined by Directive 2001/112/EC and vegetable juices; flavoured fermented milk products including heat-treated products.\nThe entries apply to particular food categories and may limit the amount, the preparation or the way it is used; they do not show how often the additive appears in retail products."
     }
 }

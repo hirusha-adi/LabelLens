@@ -7,14 +7,16 @@
     "icon": "mdi-check-circle",
     "more_info": {
         "banned_in": "Approved in the EU.",
-        "overview": "Beeswax is used as a stabilizer in food. Its technological role is to help maintain the structure of food.",
-        "uses": "EU permissions include edible ices, entire fresh fruit and vegetables, cocoa and chocolate products as covered by directive 2000/36/ec, other confectionery including breath freshening micro-sweets. These permissions depend on the food category and its conditions of use.",
+        "overview": "Beeswax is wax recovered from honeycomb; white beeswax is produced by bleaching the yellow material. It forms a surface coating that gives the food a shiny appearance or provides a protective finish. Beeswax is recovered by melting honeycomb walls with hot water and removing foreign material. White beeswax is made by bleaching yellow beeswax. The specified material is supplied as white crystalline material or small sheets. The specification describes it as effectively insoluble in water.",
+        "uses": "Examples in the EU food-use list include certain cocoa and Chocolate products as covered by Directive 2000/36/EC; other confectionery including breath freshening microsweets; chewing gum; decorations, coatings and fillings, except fruit-based fillings covered by category 4.2.4; coffee, coffee extracts; sweet baked goods.\nThe entries apply to particular food categories and may limit the amount, the preparation or the way it is used; they do not show how often the additive appears in retail products.",
         "daily_intake": "No ADI specified (JECFA, 2005).",
         "articles": {
             "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/168",
             "EUR-Lex specifications": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231",
             "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
-            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "EUR-Lex": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32012R0231",
+            "EUR-Lex (2)": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02008R1333-20260818"
         },
         "origin": "Beeswax is recovered by melting honeycomb walls with hot water and removing foreign material. White beeswax is made by bleaching yellow beeswax.",
         "dietary_restrictions": "Derived from honeybee wax; it is unsuitable for vegan diets. Vegetarian acceptance depends on whether bee products are included. Halal and kosher certification was not established by the specification."

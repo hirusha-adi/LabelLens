@@ -7,14 +7,17 @@
     "icon": "mdi-check-circle",
     "more_info": {
         "banned_in": "Approved in the EU.",
-        "overview": "Acacia gum is used as an emulsifier in food. Its technological role is to help oil and water remain mixed.",
-        "uses": "EU permissions include milk-based drinks and similar products intended for young children, cocoa and chocolate products as covered by directive 2000/36/ec, table-top sweeteners in liquid form, table-top sweeteners in powder form. These permissions depend on the food category and its conditions of use.",
+        "overview": "Acacia gum, also called gum arabic, is a dried tree exudate containing polysaccharides and their calcium, magnesium and potassium salts. Its emulsifying role is to help form or maintain mixtures of oil and water in the finished food. Collected as dried gum exudate from Acacia senegal and related species. It contains plant polysaccharides and their mineral salts. The specified material is supplied as white powder or granules.",
+        "uses": "Examples in the EU food-use list include certain cocoa and Chocolate products as covered by Directive 2000/36/EC; other confectionery including breath freshening microsweets; chewing gum; decorations, coatings and fillings, except fruit-based fillings covered by category 4.2.4; fruit juices as defined by Directive 2001/112/EC and vegetable juices; flavoured fermented milk products including heat-treated products.\nThe entries apply to particular food categories and may limit the amount, the preparation or the way it is used; they do not show how often the additive appears in retail products.",
         "daily_intake": "No ADI specified (JECFA, 1989).",
         "articles": {
             "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/1133",
             "EUR-Lex specifications": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231",
             "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
-            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "EUR-Lex": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32012R0231",
+            "EUR-Lex (2)": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02008R1333-20260818",
+            "WHO JECFA (2)": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/865"
         },
         "origin": "Collected as dried gum exudate from Acacia senegal and related species. It contains plant polysaccharides and their mineral salts.",
         "dietary_restrictions": "The specified starting material is plant derived and compatible with vegetarian and vegan diets. The specification does not establish halal or kosher certification."

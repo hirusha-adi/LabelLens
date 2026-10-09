@@ -8,8 +8,9 @@
     "more_info": {
         "articles": {
             "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
-            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "EUR-Lex": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02008R1333-20260818"
         },
-        "overview": "Lecitin citrate is classified in food technology as an acidity regulator. Its technological role is to control acidity."
+        "overview": "Lecitin citrate is a historical label supplied with an acidity-regulator classification. A specific chemical or commercial preparation under this exact name was not confirmed in the reviewed sources. It should not be assumed to be ordinary lecithin or a particular citrate salt. The preparation's manufacture, typical food applications and intake assessment remain unconfirmed."
     }
 }

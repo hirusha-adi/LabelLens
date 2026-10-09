@@ -8,7 +8,9 @@
     "more_info": {
         "articles": {
             "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
-            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
-        }
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "Wikipedia": "https://en.wikipedia.org/wiki/Phytic_acid"
+        },
+        "overview": "Phytic acid is an inositol compound bearing six phosphate groups. It occurs in plant material, especially seeds, and its salts are called phytates. The multiple phosphate groups can bind metal ions. This broad historical entry identifies the acid rather than one specified phytate salt. Natural occurrence in food does not establish a commercial additive preparation or its current food-use conditions."
     }
 }

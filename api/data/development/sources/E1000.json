@@ -12,8 +12,7 @@
     ],
     "overview": [
       "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/1950",
-      "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
-      "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818"
+      "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02008R1333-20260818"
     ],
     "daily_intake": [
       "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/1950"
@@ -36,6 +35,7 @@
   ],
   "changes": [
     "Replaced the legacy layout with rich fields and removed unsupported inherited health, dietary and intake assertions.",
-    "Created the missing individual additive record and field provenance."
+    "Created the missing individual additive record and field provenance.",
+    "2026-10-10 description expansion: overview replaced or added with compound-specific detail from the linked field sources."
   ]
 }

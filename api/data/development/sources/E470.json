@@ -19,24 +19,8 @@
       "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=184"
     ],
     "overview": [
-      "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/5229",
-      "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/3614",
-      "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/93",
-      "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/140",
-      "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/2545",
-      "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/1623",
-      "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/3251",
-      "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/137",
-      "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/1619",
-      "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/1621",
-      "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/3001",
-      "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/845",
-      "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/2546",
-      "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/4275",
-      "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/1620",
-      "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/633",
-      "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
-      "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818"
+      "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32012R0231",
+      "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02008R1333-20260818"
     ],
     "daily_intake": [
       "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/5229"
@@ -58,6 +42,7 @@
   "changes": [
     "status: '' -> 'e u'; positive flags require a matching current EU listing or direct-food FDA provision.",
     "Replaced the legacy layout with rich fields and removed unsupported inherited health, dietary and intake assertions.",
-    "name/href/function and characteristics/products replaced by the required rich schema; only sourced facts were retained."
+    "name/href/function and characteristics/products replaced by the required rich schema; only sourced facts were retained.",
+    "2026-10-10 description expansion: overview replaced or added with compound-specific detail from the linked field sources."
   ]
 }

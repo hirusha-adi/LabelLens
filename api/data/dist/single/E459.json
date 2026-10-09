@@ -7,17 +7,19 @@
     "icon": "mdi-alert-circle",
     "more_info": {
         "banned_in": "Approved in the EU.",
-        "uses": "EU permissions include flavoured drinks, other confectionery including breath freshening micro-sweets, food supplements supplied in a solid form excluding food supplements for infants and  young children’,. These permissions depend on the food category and its conditions of use.",
+        "uses": "Examples in the EU food-use list include certain other confectionery including breath freshening microsweets; flavoured drinks; food supplements supplied in a solid form, excluding food supplements for infants and young children.\nThe entries apply to particular food categories and may limit the amount, the preparation or the way it is used; they do not show how often the additive appears in retail products.",
         "daily_intake": "5 mg/kg body weight/day (EFSA, 2016).",
         "articles": {
             "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/2066",
             "EUR-Lex specifications": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231",
             "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
             "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
-            "EFSA": "https://www.efsa.europa.eu/en/efsajournal/pub/4628"
+            "EFSA": "https://www.efsa.europa.eu/en/efsajournal/pub/4628",
+            "EUR-Lex": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32012R0231",
+            "EUR-Lex (2)": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02008R1333-20260818"
         },
         "origin": "Made by treating partially hydrolysed starch with a microbial cycloglycosyltransferase enzyme. The product consists of rings containing seven glucose units.",
         "side_effects": "Refined food-use estimates exceeded the limit for several groups.\nThe reviewed animal studies did not indicate genotoxicity or cancer; the limit incorporates a safety margin.",
-        "overview": "Beta-cyclodextrin is classified in food technology as an emulsifier. Its technological role is to help oil and water stay mixed."
+        "overview": "Beta-cyclodextrin is a cyclic carbohydrate containing seven glucose units, manufactured by an enzyme-mediated conversion of starch. Its emulsifying role is to help form or maintain mixtures of oil and water in the finished food. Made by treating partially hydrolysed starch with a microbial cycloglycosyltransferase enzyme. The product consists of rings containing seven glucose units. The specified material is supplied as white crystalline material or solid. Only a limited amount dissolves in water, according to the specification."
     }
 }

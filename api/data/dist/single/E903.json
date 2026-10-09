@@ -7,14 +7,16 @@
     "icon": "mdi-check-circle",
     "more_info": {
         "banned_in": "Approved in the EU.",
-        "overview": "Carnauba wax is used as a carrier in food. Its technological role is to help disperse another ingredient.",
-        "uses": "EU permissions include entire fresh fruit and vegetables, cocoa and chocolate products as covered by directive 2000/36/ec, other confectionery including breath freshening micro-sweets, chewing gum. These permissions depend on the food category and its conditions of use.",
+        "overview": "Carnauba wax is a purified leaf wax from the Brazilian wax palm, Copernicia cerifera. It forms a surface coating that gives the food a shiny appearance or provides a protective finish. Purified wax obtained from carnauba palm leaves and leaf buds. It is plant derived. The specified material is supplied as yellow powder or flakes. The specification describes it as effectively insoluble in water.",
+        "uses": "Examples in the EU food-use list include certain cocoa and Chocolate products as covered by Directive 2000/36/EC; other confectionery including breath freshening microsweets; chewing gum; decorations, coatings and fillings, except fruit-based fillings covered by category 4.2.4; coffee, coffee extracts; sweet baked goods.\nThe entries apply to particular food categories and may limit the amount, the preparation or the way it is used; they do not show how often the additive appears in retail products.",
         "daily_intake": "0-7 mg/kg body weight (JECFA, 1992).",
         "articles": {
             "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/939",
             "EUR-Lex specifications": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231",
             "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
-            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "EUR-Lex": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32012R0231",
+            "EUR-Lex (2)": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02008R1333-20260818"
         },
         "origin": "Purified wax obtained from carnauba palm leaves and leaf buds. It is plant derived.",
         "dietary_restrictions": "The specified starting material is plant derived and compatible with vegetarian and vegan diets. The specification does not establish halal or kosher certification."

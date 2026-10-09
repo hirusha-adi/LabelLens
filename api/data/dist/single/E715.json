@@ -8,7 +8,9 @@
     "more_info": {
         "articles": {
             "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
-            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
-        }
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "Wikipedia": "https://en.wikipedia.org/wiki/Avoparcin"
+        },
+        "overview": "Avoparcin is a glycopeptide antibiotic preparation. Its antimicrobial action is associated with activity against Gram-positive bacteria, and its historical context includes animal-feed use. That context differs from technological addition to foods eaten by people. The retained entry does not establish a current direct human-food permission or a typical retail-food example."
     }
 }

@@ -10,8 +10,9 @@
         "articles": {
             "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
             "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
-            "eCFR Title 21": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=173"
+            "eCFR Title 21": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=173",
+            "Wikipedia": "https://en.wikipedia.org/wiki/Formaldehyde"
         },
-        "overview": "Formaldehyde is classified in food technology as a preservative. Its technological role is to limit microbial spoilage."
+        "overview": "Formaldehyde, also called methanal, is the simplest aldehyde. It is a small reactive compound distinct from the larger resins and polymers made using it. The historical entry records a preservative classification. FDA describes a narrow processing context in which it preserves certain dimethylpolysiloxane-containing defoaming preparations. That provision does not establish general addition of formaldehyde to finished foods."
     }
 }

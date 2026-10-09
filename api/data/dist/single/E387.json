@@ -7,13 +7,15 @@
     "icon": "mdi-check-circle",
     "more_info": {
         "banned_in": "Approved in the US.\nUS food use is subject to the listed CFR provisions and their conditions, checked in 2026.",
-        "overview": "Oxystearin is used as an emulsifier in food. Its technological role is to help oil and water remain mixed.",
+        "overview": "Oxystearin is a mixture of glycerides containing partially oxidised stearic and other fatty acids. It is produced by controlled heating of hydrogenated cottonseed or soybean oil in air with a suitable catalyst. In the specified food uses it controls crystallisation and helps food release from processing surfaces. The US applications are in vegetable oils and shortenings, with a maximum of 0.125% of the oil or shortening weight.",
         "daily_intake": "ADI withdrawn (JECFA, 1973).",
         "articles": {
             "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/4154",
             "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
             "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
-            "eCFR Title 21": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=173"
-        }
+            "eCFR Title 21": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=173",
+            "eCFR": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=172"
+        },
+        "origin": "Manufactured by heating hydrogenated cottonseed or soybean oil in air under controlled catalytic conditions. The treatment partially oxidises the fatty-acid glycerides. The starting oils in the FDA definition are plant-derived, while the finished additive is chemically processed."
     }
 }

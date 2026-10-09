@@ -24,6 +24,7 @@
     ],
     "overview": [
       "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32012R0231",
+      "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02008R1333-20260818",
       "https://www.ecfr.gov/current/title-21/section-73.450",
       "https://www.efsa.europa.eu/en/press/news/170807"
     ],
@@ -36,9 +37,7 @@
       "https://efsa.onlinelibrary.wiley.com/doi/10.2903/j.efsa.2013.3357"
     ],
     "uses": [
-      "https://ec.europa.eu/food/food-feed-portal/backend/api/policy-items/POL-FAD-IMPORT-2986",
-      "https://ec.europa.eu/food/food-feed-portal/backend/api/food_categories?domain_code=fad",
-      "https://www.ecfr.gov/current/title-21/section-73.450"
+      "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02008R1333-20260818"
     ],
     "banned_in": [
       "https://ec.europa.eu/food/food-feed-portal/backend/api/policy-items/POL-FAD-IMPORT-2986",
@@ -67,6 +66,8 @@
     "more_info.precautions: removed; no verified compound-specific food-use claim retained. See gaps.",
     "Icon: No ban or notable food-use safety concern located in the reviewed sources. This is a limited source review, not evidence of worldwide absence of risk.",
     "side_effects: shortened the shared EFSA assessment summary while preserving its food-use conclusion and high-intake evidence gap.",
-    "daily_intake: corrected against the readable current WHO evaluation history, including the 2021 replacement of the riboflavin group ADI and the 2003 curcumin evaluation year."
+    "daily_intake: corrected against the readable current WHO evaluation history, including the 2021 replacement of the riboflavin group ADI and the 2003 curcumin evaluation year.",
+    "2026-10-10 description expansion: overview replaced or added with compound-specific detail from the linked field sources.",
+    "2026-10-10 description expansion: uses replaced or added with compound-specific detail from the linked field sources."
   ]
 }

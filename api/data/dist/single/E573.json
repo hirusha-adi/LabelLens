@@ -3,13 +3,17 @@
     "names": "Aluminium stearate",
     "display_name": "E573 (Aluminium stearate)",
     "type": "Anti caking agent",
-    "status": "",
+    "status": "u",
     "icon": "mdi-check-circle",
     "more_info": {
         "articles": {
             "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
-            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "PubChem": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/12496/description/JSON",
+            "eCFR": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=172",
+            "EUR-Lex": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02008R1333-20260818"
         },
-        "overview": "Aluminium stearate is classified in food technology as an anti-caking agent. Its technological role is to keep powders free-flowing."
+        "overview": "Aluminium stearate describes an aluminium salt of stearic acid, with the compound record specifically identifying the tristearate form. It is a fatty-acid salt rather than elemental aluminium. FDA's food-grade fatty-acid-salt provision includes aluminium salts for binding, emulsifying and reducing caking. The applicable identity and manufacturing conditions must refer to the actual salt preparation. Cosmetic and industrial grades cannot establish the suitability of a food-grade material.",
+        "banned_in": "Approved in the US.\nUS food use follows the preparation-specific conditions in 21 CFR 172.863, checked in 2026."
     }
 }

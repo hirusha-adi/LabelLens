@@ -7,14 +7,17 @@
     "icon": "mdi-check-circle",
     "more_info": {
         "banned_in": "Approved in the EU.",
-        "overview": "Beetroot Red is used as a color in food. Its technological role is to add or restore food colour.",
-        "uses": "EU permissions include dried fruit and vegetables, fruit and vegetables in vinegar oil or brine, canned or bottled fruit and vegetables, fruit and vegetable preparations excluding compote. These permissions depend on the food category and its conditions of use.",
+        "overview": "Beetroot red is a beet-derived colouring preparation containing betalain pigments, principally the red pigment betanin. It is used to add colour or restore colour lost during food manufacture. Red beet roots are pressed or extracted with water, then the coloured material is concentrated or refined. Betanin is the main red pigment. The specified material is supplied as deep red powder or liquid.",
+        "uses": "Examples in the EU food-use list include certain other confectionery including breath freshening microsweets; chewing gum; decorations, coatings and fillings, except fruit-based fillings covered by category 4.2.4; flavoured drinks; flavoured fermented milk products including heat-treated products; unripened cheese excluding products falling in category 16.\nThe entries apply to particular food categories and may limit the amount, the preparation or the way it is used; they do not show how often the additive appears in retail products.",
         "daily_intake": "No ADI specified (JECFA, 1987).",
         "articles": {
             "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/877",
             "EUR-Lex specifications": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231",
             "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
-            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "EUR-Lex": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32012R0231",
+            "EUR-Lex (2)": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02008R1333-20260818",
+            "WHO JECFA (2)": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/878"
         },
         "origin": "Red beet roots are pressed or extracted with water, then the coloured material is concentrated or refined. Betanin is the main red pigment.",
         "dietary_restrictions": "The specified starting material is plant derived and compatible with vegetarian and vegan diets. The specification does not establish halal or kosher certification."

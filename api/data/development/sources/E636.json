@@ -17,14 +17,16 @@
       "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=172"
     ],
     "overview": [
-      "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
-      "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818"
+      "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=172",
+      "https://en.wikipedia.org/wiki/Maltol"
+    ],
+    "type": [
+      "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=172"
     ]
   },
   "inputs": {
     "names": "development/ins-summary-original.json",
-    "display_name": "development/ins-summary-original.json",
-    "type": "development/ins-summary-original.json"
+    "display_name": "development/ins-summary-original.json"
   },
   "gaps": [
     "Current EU food-use permission was not established for the exact identity or complete group named by this entry; no e flag is asserted.",
@@ -40,6 +42,8 @@
     "status: '' -> 'u'; positive flags require a matching current EU listing or direct-food FDA provision.",
     "Replaced the legacy layout with rich fields and removed unsupported inherited health, dietary and intake assertions.",
     "code: '636' -> 'E636'; restored the required prefix and filename identity.",
-    "name/href/function and characteristics/products replaced by the required rich schema; only sourced facts were retained."
+    "name/href/function and characteristics/products replaced by the required rich schema; only sourced facts were retained.",
+    "2026-10-10 description expansion: overview replaced or added with compound-specific detail from the linked field sources.",
+    "type: 'Flavour enhancer' -> 'flavouring'; use the specific function identified in the linked regulation or specification, preserving animal-feed scope where applicable."
   ]
 }

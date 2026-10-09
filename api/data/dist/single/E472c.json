@@ -7,14 +7,18 @@
     "icon": "mdi-check-circle",
     "more_info": {
         "banned_in": "Approved in the EU.",
-        "overview": "Citric acid esters of mono- and diglycerides of fatty acids is used as an emulsifier in food. Its technological role is to help oil and water remain mixed.",
-        "uses": "EU permissions include milk-based drinks and similar products intended for young children, fats and oils essentially free from water  (excluding anhydrous milk fat), cocoa and chocolate products as covered by directive 2000/36/ec. These permissions depend on the food category and its conditions of use.",
+        "overview": "E472c covers glycerol esters combining citric acid with fatty acids from edible fats and oils; the preparation is a mixture that may retain small quantities of its starting materials. Its emulsifying role is to help form or maintain mixtures of oil and water in the finished food. A mixture of glycerol esters containing citric acid and fatty acids from food fats or oils. The specification does not establish a single animal or plant source for the fatty-acid component. The preparation ranges from a yellowish or pale-brown liquid to a waxy or semi-solid material.",
+        "uses": "Examples in the EU food-use list include certain cocoa and Chocolate products as covered by Directive 2000/36/EC; other confectionery including breath freshening microsweets; chewing gum; decorations, coatings and fillings, except fruit-based fillings covered by category 4.2.4; fruit juices as defined by Directive 2001/112/EC and vegetable juices; flavoured fermented milk products including heat-treated products.\nThe entries apply to particular food categories and may limit the amount, the preparation or the way it is used; they do not show how often the additive appears in retail products.",
         "daily_intake": "No ADI specified (JECFA, 2019).",
         "articles": {
             "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/1420",
             "EUR-Lex specifications": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231",
             "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
-            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "EUR-Lex": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32012R0231",
+            "EUR-Lex (2)": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02008R1333-20260818",
+            "WHO JECFA (2)": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/1391",
+            "WHO JECFA (3)": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/2701"
         },
         "origin": "A mixture of glycerol esters containing citric acid and fatty acids from food fats or oils. The specification does not establish a single animal or plant source for the fatty-acid component.",
         "dietary_restrictions": "The fatty-acid feedstock is not specified as exclusively plant derived. Vegan, vegetarian, halal and kosher suitability cannot be established without the supplier identifying the raw material and processing."

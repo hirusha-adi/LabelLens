@@ -7,14 +7,16 @@
     "icon": "mdi-check-circle",
     "more_info": {
         "banned_in": "Approved in the EU.",
-        "uses": "EU permissions include ripened cheese, cheese products (excluding products falling in category 16), beer and malt beverages, fruit wine and made wine. These permissions depend on the food category and its conditions of use.",
+        "uses": "Examples in the EU food-use list include certain ripened cheese; cheese products; beer and malt beverages.\nThe entries apply to particular food categories and may limit the amount, the preparation or the way it is used; they do not show how often the additive appears in retail products.",
         "articles": {
             "EUR-Lex specifications": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231",
             "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
-            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "EUR-Lex": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32012R0231",
+            "EUR-Lex (2)": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02008R1333-20260818"
         },
         "origin": "Obtained from hen egg white, usually as the hydrochloride salt. It is an animal-derived enzyme protein.",
         "dietary_restrictions": "Derived from egg white; it is unsuitable for vegan diets and compatible with ovo-vegetarian diets. Halal and kosher certification was not established by the specification.",
-        "overview": "Lysozyme is classified in food technology as a preservative. Its technological role is to limit microbial spoilage."
+        "overview": "Lysozyme is an enzyme protein obtained from hens' egg white; it breaks bonds in bacterial cell-wall material, particularly in Gram-positive bacteria. Its preservative role is to limit spoilage caused by microorganisms and extend the storage life of the food. Obtained from hen egg white, usually as the hydrochloride salt. It is an animal-derived enzyme protein. The specified material is supplied as white powder."
     }
 }

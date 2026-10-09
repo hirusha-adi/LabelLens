@@ -8,7 +8,9 @@
     "more_info": {
         "articles": {
             "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
-            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
-        }
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "Wikipedia": "https://en.wikipedia.org/wiki/Benzathine_benzylpenicillin"
+        },
+        "overview": "Penicillin G benzathine is a benzathine salt preparation of benzylpenicillin. It is a long-acting medicinal antibiotic preparation, chemically distinct from the procaine, sodium and potassium salt forms. This entry retains its historical antimicrobial identity. The general compound description does not establish a current use as an ingredient added directly to human food."
     }
 }

@@ -8,8 +8,10 @@
     "more_info": {
         "articles": {
             "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
-            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "FAO": "https://www.fao.org/4/w6355e/w6355e0o.htm",
+            "Wikipedia": "https://en.wikipedia.org/wiki/Modified_starch"
         },
-        "overview": "Hydroxy propyl distarch glycerine is classified in food technology as a thickening agent. Its technological role is to increase thickness."
+        "overview": "Hydroxypropyl distarch glycerine is a historical modified-starch designation combining hydroxypropyl modification with a glycerol-related starch identity. Hydroxypropylated starch and phosphate-crosslinked starch have separate specified treatments in the JECFA document. That document does not establish a complete current manufacturing specification for this legacy designation. A typical current food example and preparation-specific intake basis were not confirmed, so another modified starch's assessment is not assigned to it."
     }
 }

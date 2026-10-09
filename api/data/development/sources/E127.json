@@ -23,6 +23,8 @@
       "https://www.fda.gov/food/food-ingredients-packaging/fda-encourages-food-manufacturers-accelerate-phasing-out-use-fdc-red-no-3-foods-2027-deadline"
     ],
     "overview": [
+      "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32012R0231",
+      "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02008R1333-20260818",
       "https://ec.europa.eu/food/food-feed-portal/backend/api/policy-items/POL-FAD-IMPORT-2994",
       "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?id=FDCRed3&set=ColorAdditives"
     ],
@@ -37,8 +39,7 @@
       "https://www.fda.gov/food/food-ingredients-packaging/fda-encourages-food-manufacturers-accelerate-phasing-out-use-fdc-red-no-3-foods-2027-deadline"
     ],
     "uses": [
-      "https://ec.europa.eu/food/food-feed-portal/backend/api/policy-items/POL-FAD-IMPORT-2994",
-      "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?id=FDCRed3&set=ColorAdditives"
+      "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02008R1333-20260818"
     ],
     "banned_in": [
       "https://ec.europa.eu/food/food-feed-portal/backend/api/policy-items/POL-FAD-IMPORT-2994",
@@ -74,6 +75,8 @@
     "more_info.dietary_restrictions: removed; no verified compound-specific food-use claim retained. See gaps.",
     "more_info.products: removed; no verified compound-specific food-use claim retained. See gaps.",
     "Icon: FDA ordered revocation of food authorization in 2025 because of the statutory animal-cancer provision.",
-    "name/href/function and characteristics/products replaced by the required rich schema; only sourced facts were retained."
+    "name/href/function and characteristics/products replaced by the required rich schema; only sourced facts were retained.",
+    "2026-10-10 description expansion: overview replaced or added with compound-specific detail from the linked field sources.",
+    "2026-10-10 description expansion: uses replaced or added with compound-specific detail from the linked field sources."
   ]
 }

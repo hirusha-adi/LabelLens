@@ -8,8 +8,10 @@
     "more_info": {
         "articles": {
             "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
-            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "PubChem": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Sodium%20erythorbate/description/JSON",
+            "EUR-Lex": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02008R1333-20260818"
         },
-        "overview": "Sodium erythorbin is classified in food technology as an antioxidant. Its technological role is to slow oxidation."
+        "overview": "Sodium erythorbate is the sodium salt of erythorbic acid; the source uses this established chemical name for the preparation. The supplied historical label is sodium erythorbin. The entry's antioxidant classification concerns food protection from oxidative deterioration. Exact identity and conditions should be established before applying another antioxidant's evaluation."
     }
 }

@@ -10,8 +10,10 @@
         "articles": {
             "EUR-Lex specifications": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231",
             "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
-            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "EUR-Lex": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32012R0231",
+            "EUR-Lex (2)": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02008R1333-20260818"
         },
-        "overview": "Calcium tartrate is classified in food technology as an emulsifier. Its technological role is to help oil and water stay mixed."
+        "overview": "Calcium tartrate is a calcium salt of tartaric acid specified in hydrated form. Its emulsifying role is to help form or maintain mixtures of oil and water in the finished food. The specified material is supplied as off-white powder or crystalline material. Only a limited amount dissolves in water, according to the specification."
     }
 }

@@ -8,8 +8,10 @@
     "more_info": {
         "articles": {
             "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
-            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "PubChem": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Sodium%20propylparaben/description/JSON",
+            "EUR-Lex": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02008R1333-20260818"
         },
-        "overview": "Sodium propyl para-hydroxybenzoate is classified in food technology as a preservative. Its technological role is to limit microbial spoilage."
+        "overview": "Sodium propyl para-hydroxybenzoate is the sodium form of propylparaben. The PubChem record identifies the salt separately from the free ester. Its historical preservative classification concerns this particular preparation. An evaluation or permission for methylparaben or ethylparaben cannot be assumed to apply to the propyl preparation."
     }
 }

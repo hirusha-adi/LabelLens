@@ -6,11 +6,12 @@
     "status": "",
     "icon": "mdi-check-circle",
     "more_info": {
-        "overview": "Bone phosphate is used as an emulsifier in food. Its technological role is to help oil and water remain mixed.",
+        "overview": "Edible bone phosphate is a mixture of calcium phosphates containing mainly tribasic calcium phosphate. JECFA describes the material as a heterogeneous residual preparation, so it should not be equated with every purified calcium-phosphate salt. Its listed functions include emulsifying, retaining moisture and binding metal ions. The historical entry describes the bone-phosphate preparation specifically, while related phosphates have separate identities.",
         "articles": {
             "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/1044",
             "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
-            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "WHO JECFA (2)": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/185"
         }
     }
 }

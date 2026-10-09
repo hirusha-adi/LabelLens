@@ -7,15 +7,17 @@
     "icon": "mdi-check-circle",
     "more_info": {
         "banned_in": "Approved in the EU.",
-        "overview": "Thaumatin is used as a sweetener in food. Its technological role is to provide sweetness.",
-        "uses": "EU permissions include flavoured drinks, flavoured fermented milk products including heat-treated products, edible ices, cocoa and chocolate products as covered by directive 2000/36/ec. These permissions depend on the food category and its conditions of use.",
+        "overview": "Thaumatin is a preparation of sweet proteins from Thaumatococcus daniellii fruit, with a sweetness far greater than sucrose. It is used to strengthen an existing taste or aroma in the food. The specified material is supplied as cream-coloured powder. The specification identifies water solubility as one of its properties.",
+        "uses": "Examples in the EU food-use list include certain cocoa and Chocolate products as covered by Directive 2000/36/EC; other confectionery including breath freshening microsweets; chewing gum; decorations, coatings and fillings, except fruit-based fillings covered by category 4.2.4; flavoured drinks; flavoured fermented milk products including heat-treated products.\nThe entries apply to particular food categories and may limit the amount, the preparation or the way it is used; they do not show how often the additive appears in retail products.",
         "daily_intake": "No ADI specified (JECFA, 2025).",
         "articles": {
             "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/4169",
             "EUR-Lex specifications": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231",
             "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
             "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
-            "EFSA": "https://www.efsa.europa.eu/en/efsajournal/pub/6884"
+            "EFSA": "https://www.efsa.europa.eu/en/efsajournal/pub/6884",
+            "EUR-Lex": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32012R0231",
+            "EUR-Lex (2)": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02008R1333-20260818"
         },
         "side_effects": "EFSA found no concern for permitted food-use exposure in 2021.\nAnimal studies supported the absence of relevant adverse effects, with moderate confidence in the evidence."
     }

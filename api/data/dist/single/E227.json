@@ -7,15 +7,19 @@
     "icon": "mdi-alert-circle",
     "more_info": {
         "banned_in": "Approved in the EU.",
-        "overview": "Calcium hydrogen sulphite is used as a preservative in food. Its technological role is to help limit microbial spoilage.",
+        "overview": "Calcium hydrogen sulphite is an inorganic calcium hydrogen sulphite preparation within the sulphite preservative family. Its firming role is to help fruit or vegetable tissues remain firm, or support the formation of a gel. The specified material is supplied as yellow liquid.",
         "daily_intake": "0–0.7 mg sulphur dioxide equivalents/kg body weight/day, combined JECFA sulphite group (JECFA, 1998).\nEFSA withdrew its temporary group ADI in 2022.",
         "articles": {
             "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/81",
             "EUR-Lex specifications": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231",
             "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
             "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
-            "EFSA": "https://www.efsa.europa.eu/en/plain-language-summary/follow-re-evaluation-sulfur-dioxide-e-220-sodium-sulfite-e-221-sodium"
+            "EFSA": "https://www.efsa.europa.eu/en/plain-language-summary/follow-re-evaluation-sulfur-dioxide-e-220-sodium-sulfite-e-221-sodium",
+            "EUR-Lex": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32012R0231",
+            "EUR-Lex (2)": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02008R1333-20260818",
+            "WHO JECFA (2)": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/454"
         },
-        "side_effects": "Food-use exposure may concern high consumers (EFSA, 2022).\nToxicology gaps prevented a new intake limit."
+        "side_effects": "Food-use exposure may concern high consumers (EFSA, 2022).\nToxicology gaps prevented a new intake limit.",
+        "uses": "Examples in the EU food-use list include certain other confectionery including breath freshening microsweets; decorations, coatings and fillings, except fruit-based fillings covered by category 4.2.4; fruit juices as defined by Directive 2001/112/EC and vegetable juices; sweet baked goods; potato-, cereal-, flour- or starch-based snacks; processed nuts.\nThe entries apply to particular food categories and may limit the amount, the preparation or the way it is used; they do not show how often the additive appears in retail products."
     }
 }

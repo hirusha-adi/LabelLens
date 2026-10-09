@@ -24,7 +24,7 @@
     ],
     "overview": [
       "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/3822",
-      "https://en.wikipedia.org/wiki/Ponceau_6R"
+      "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02008R1333-20260818"
     ],
     "daily_intake": [
       "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/3822"
@@ -50,6 +50,7 @@
   "changes": [
     "Created previously missing individual file using the master identity and reviewed sources.",
     "Icon: JECFA could not complete the safety evaluation and described sensitisation reports.",
-    "Created the missing individual additive record and field provenance."
+    "Created the missing individual additive record and field provenance.",
+    "2026-10-10 description expansion: overview replaced or added with compound-specific detail from the linked field sources."
   ]
 }

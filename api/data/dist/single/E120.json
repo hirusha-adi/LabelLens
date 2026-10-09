@@ -7,17 +7,19 @@
     "icon": "mdi-alert-circle",
     "more_info": {
         "banned_in": "Approved in the EU.\nApproved in the US.",
-        "overview": "Cochineal extract and carmine are red colours whose main pigment is carminic acid. Carmine is a metal complex made from that pigment. In foods these materials produce red shades.",
+        "overview": "Cochineal extract and carmine are red colours whose main pigment is carminic acid. Carmine is a metal complex made from that pigment. In foods these materials produce red shades. The specified material is supplied as deep red powder or liquid.",
         "origin": "Animal-derived, specifically from dried female cochineal insects. Extraction releases carminic acid; reaction with aluminium forms carmine, sometimes with other metal ions.",
         "daily_intake": "2.5 mg carminic acid/kg body weight per day (EFSA, 2015). This expresses the earlier 5 mg carmine/kg body weight ADI in terms of carminic acid content.",
         "side_effects": "At food-use levels, allergic reactions to cochineal/carmine can occur; EFSA could not establish a threshold dose for allergy. Residual proteins were identified as a reason to improve purification.\nThe animal toxicity studies reviewed by EFSA did not justify lowering the existing ADI; this does not remove the separate allergy risk.",
-        "uses": "Examples of permitted EU uses include certain red cheeses, fruit preparations, breakfast cereals and meat products. US use as cochineal extract or carmine is subject to food standards and good manufacturing practice.",
+        "uses": "Examples in the EU food-use list include certain other confectionery including breath freshening microsweets; chewing gum; decorations, coatings and fillings, except fruit-based fillings covered by category 4.2.4; flavoured drinks; flavoured fermented milk products including heat-treated products; unripened cheese excluding products falling in category 16.\nThe entries apply to particular food categories and may limit the amount, the preparation or the way it is used; they do not show how often the additive appears in retail products.",
         "dietary_restrictions": "Not suitable for vegan or vegetarian diets because the colour is extracted from insects.",
         "precautions": "EFSA identified allergenic material in E120 and recommended manufacturing purification steps because no allergy threshold could be established.",
         "articles": {
             "EFSA Journal": "https://efsa.onlinelibrary.wiley.com/doi/10.2903/j.efsa.2015.4288",
             "eCFR": "https://www.ecfr.gov/current/title-21/section-73.100",
-            "European Commission database": "https://ec.europa.eu/food/food-feed-portal/backend/api/policy-items/POL-FAD-IMPORT-2990"
+            "European Commission database": "https://ec.europa.eu/food/food-feed-portal/backend/api/policy-items/POL-FAD-IMPORT-2990",
+            "EUR-Lex": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32012R0231",
+            "EUR-Lex (2)": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02008R1333-20260818"
         }
     }
 }

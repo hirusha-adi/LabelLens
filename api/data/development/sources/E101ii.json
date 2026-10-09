@@ -24,6 +24,7 @@
     ],
     "overview": [
       "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32012R0231",
+      "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02008R1333-20260818",
       "https://www.ecfr.gov/current/title-21/section-184.1697"
     ],
     "origin": [
@@ -38,8 +39,7 @@
       "https://efsa.onlinelibrary.wiley.com/doi/10.2903/j.efsa.2013.3357"
     ],
     "uses": [
-      "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32012R0231",
-      "https://www.ecfr.gov/current/title-21/section-184.1697"
+      "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02008R1333-20260818"
     ],
     "banned_in": [
       "https://ec.europa.eu/food/food-feed-portal/backend/api/policy-items/POL-FAD-IMPORT-2986",
@@ -75,6 +75,8 @@
     "side_effects: shortened the shared EFSA assessment summary while preserving its food-use conclusion and high-intake evidence gap.",
     "daily_intake: corrected against the readable current WHO evaluation history, including the 2021 replacement of the riboflavin group ADI and the 2003 curcumin evaluation year.",
     "status: 'e' -> 'e u'; exact current EU/FDA identity check and retained regulatory sources. Empty flags include unconfirmed permissions, not inferred country bans.",
-    "code: 'E101a' -> 'E101ii'; restored the required prefix and filename identity."
+    "code: 'E101a' -> 'E101ii'; restored the required prefix and filename identity.",
+    "2026-10-10 description expansion: overview replaced or added with compound-specific detail from the linked field sources.",
+    "2026-10-10 description expansion: uses replaced or added with compound-specific detail from the linked field sources."
   ]
 }

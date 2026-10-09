@@ -7,13 +7,14 @@
     "icon": "mdi-check-circle",
     "more_info": {
         "banned_in": "Approved in the US.\nUS food use is subject to the listed CFR provisions and their conditions, checked in 2026.",
-        "overview": "Sodium sorbate is used as a preservative in food. Its technological role is to help limit microbial spoilage.",
+        "overview": "Sodium sorbate is the sodium salt of sorbic acid, identified by JECFA as a preservative preparation. Its preservative function is to limit microbial spoilage during storage. The available identity record does not establish a typical retail-food example for this exact preparation. Commercial specifications and legal conditions need to refer to the particular substance or preparation named here.",
         "daily_intake": "0-25 mg/kg body weight (JECFA, 1985). This is a combined sorbic-acid and sorbate limit, expressed as sorbic acid.",
         "articles": {
             "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/4755",
             "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
             "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
-            "eCFR Title 21": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=182"
+            "eCFR Title 21": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=182",
+            "EUR-Lex": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02008R1333-20260818"
         }
     }
 }

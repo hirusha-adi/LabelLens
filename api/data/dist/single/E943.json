@@ -7,12 +7,14 @@
     "icon": "mdi-check-circle",
     "more_info": {
         "banned_in": "Approved in the EU.",
-        "overview": "Butane is used as a propellant in food. Its technological role is to expel food from its container.",
+        "overview": "This grouped entry covers butane and isobutane, two four-carbon hydrocarbon gases with different molecular arrangements. The current EU specifications distinguish straight-chain butane as E943a and branched isobutane as E943b. Both are supplied as gases or liquefied gases for propellant applications. They have separate purity and composition requirements. The grouped name should therefore be read together with the particular gas preparation.",
         "daily_intake": "For butane: No ADI allocated (JECFA, 1979). This evaluation does not establish an ADI for every form in the named group.",
         "articles": {
             "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/159",
             "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
-            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "EUR-Lex": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32012R0231",
+            "EUR-Lex (2)": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02008R1333-20260818"
         }
     }
 }

@@ -23,7 +23,6 @@
       "https://www.ecfr.gov/current/title-21/section-81.30"
     ],
     "overview": [
-      "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?id=FDCRed4&set=ColorAdditives",
       "https://en.wikipedia.org/wiki/Scarlet_GN"
     ],
     "banned_in": [
@@ -44,6 +43,7 @@
   "changes": [
     "Created previously missing individual file using the master identity and reviewed sources.",
     "Icon: FDA prohibits US food use under the cancellation of certificates provision.",
-    "Created the missing individual additive record and field provenance."
+    "Created the missing individual additive record and field provenance.",
+    "2026-10-10 description expansion: overview replaced or added with compound-specific detail from the linked field sources."
   ]
 }

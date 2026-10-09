@@ -10,9 +10,11 @@
         "articles": {
             "EUR-Lex specifications": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231",
             "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
-            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "EUR-Lex": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32012R0231",
+            "EUR-Lex (2)": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02008R1333-20260818"
         },
         "origin": "Starch is esterified with octenylsuccinic anhydride and treated with aluminium sulphate. The product is a chemically modified carbohydrate.",
-        "overview": "Starch aluminium octenyl succinate is a chemically modified starch. Its EU permission includes specified carrier use in vitamin preparations."
+        "overview": "Starch aluminium octenyl succinate is a modified starch made by octenylsuccinate esterification followed by treatment with aluminium sulphate. The specification defines the treatment and composition of this particular starch derivative. Its carrier role is to dissolve, dilute or distribute another food ingredient in a preparation. Starch is esterified with octenylsuccinic anhydride and treated with aluminium sulphate. The product is a chemically modified carbohydrate. The specified material is supplied as white powder or granules."
     }
 }

@@ -2,13 +2,15 @@
     "code": "E562",
     "names": "Sepiolite",
     "display_name": "E562 (Sepiolite)",
-    "type": "unclassified",
+    "type": "feed binder (anti-caking)",
     "status": "",
     "icon": "mdi-check-circle",
     "more_info": {
         "articles": {
             "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
-            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
-        }
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "EUR-Lex": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32025R0757"
+        },
+        "overview": "Sepiolite is a natural hydrated magnesium silicate. The EU feed specification defines a particular mined mineral preparation with minimum sepiolite content and limits on other clay components. Its technological feed functions are binding and reducing caking. These are uses in feedingstuffs rather than evidence of ordinary addition to human foods. The specified mineral preparation is distinct from the broader sepiolitic-clay mixture."
     }
 }

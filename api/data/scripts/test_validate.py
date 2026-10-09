@@ -141,6 +141,25 @@ class ValidatorContractTests(unittest.TestCase):
         self.item["more_info"]["side_effects"] = "Test claim without a source."
         self.assertTrue(self.errors())
 
+    def test_overview_length_contract(self):
+        self.source["fields"]["overview"] = ["https://example.org/a"]
+        for count in (1, 7):
+            with self.subTest(count=count):
+                self.item["more_info"]["overview"] = " ".join(["A sentence."] * count)
+                self.assertTrue(self.errors())
+        for count in (2, 6):
+            with self.subTest(count=count):
+                self.item["more_info"]["overview"] = " ".join(["A sentence."] * count)
+                self.assertEqual(self.errors(), [])
+
+    def test_overview_decimal_and_chemical_notation(self):
+        self.source["fields"]["overview"] = ["https://example.org/a"]
+        self.item["more_info"]["overview"] = (
+            "A preparation with activity EC 3.2.1.1 is specified. "
+            "It has a concentration of 0.5 percent."
+        )
+        self.assertEqual(self.errors(), [])
+
     def test_aggregate_missing_duplicate_and_drift(self):
         path = self.root / "dist/ins-full.json"
         for records in ([], [self.item, self.item], [dict(self.item, names="Stale name")]):

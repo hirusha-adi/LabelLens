@@ -7,15 +7,17 @@
     "icon": "mdi-check-circle",
     "more_info": {
         "banned_in": "Approved in the EU.",
-        "overview": "Tragacanth is used as an emulsifier in food. Its technological role is to help oil and water remain mixed.",
-        "uses": "EU permissions include table-top sweeteners in liquid form, table-top sweeteners in powder form. These permissions depend on the food category and its conditions of use.",
+        "overview": "Tragacanth is a dried plant exudate containing several high-molecular-weight polysaccharides from Astragalus stems and branches. Its emulsifying role is to help form or maintain mixtures of oil and water in the finished food. Collected as dried gum exudate from the stems and branches of Astragalus species. It is a mixture of plant polysaccharides. The specified material is supplied as white powder or liquid.",
+        "uses": "Examples in the EU food-use list include certain cocoa and Chocolate products as covered by Directive 2000/36/EC; other confectionery including breath freshening microsweets; chewing gum; decorations, coatings and fillings, except fruit-based fillings covered by category 4.2.4; fruit juices as defined by Directive 2001/112/EC and vegetable juices; flavoured fermented milk products including heat-treated products.\nThe entries apply to particular food categories and may limit the amount, the preparation or the way it is used; they do not show how often the additive appears in retail products.",
         "daily_intake": "No numerical ADI needed (EFSA, 2017).",
         "articles": {
             "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/2211",
             "EUR-Lex specifications": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231",
             "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
             "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
-            "EFSA": "https://www.efsa.europa.eu/en/efsajournal/pub/4789"
+            "EFSA": "https://www.efsa.europa.eu/en/efsajournal/pub/4789",
+            "EUR-Lex": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32012R0231",
+            "EUR-Lex (2)": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02008R1333-20260818"
         },
         "origin": "Collected as dried gum exudate from the stems and branches of Astragalus species. It is a mixture of plant polysaccharides.",
         "dietary_restrictions": "The specified starting material is plant derived and compatible with vegetarian and vegan diets. The specification does not establish halal or kosher certification.",

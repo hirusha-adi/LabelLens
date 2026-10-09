@@ -19,7 +19,6 @@
       "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=184"
     ],
     "overview": [
-      "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
       "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=184"
     ],
     "origin": [
@@ -44,6 +43,8 @@
     "Replaced the legacy layout with rich fields and removed unsupported inherited health, dietary and intake assertions.",
     "status: '' -> 'e u'; exact current EU/FDA identity check and retained regulatory sources. Empty flags include unconfirmed permissions, not inferred country bans.",
     "code: '490' -> 'E490'; restored the required prefix and filename identity.",
-    "name/href/function and characteristics/products replaced by the required rich schema; only sourced facts were retained."
+    "name/href/function and characteristics/products replaced by the required rich schema; only sourced facts were retained.",
+    "2026-10-10 description expansion: overview replaced or added with compound-specific detail from the linked field sources.",
+    "2026-10-10 description expansion: origin replaced or added with compound-specific detail from the linked field sources."
   ]
 }

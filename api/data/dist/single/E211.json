@@ -7,7 +7,7 @@
     "icon": "mdi-alert-circle",
     "more_info": {
         "banned_in": "Approved in the EU.\nApproved in the US.\nUS food use is subject to the listed CFR provisions and their conditions, checked in 2026.",
-        "overview": "Sodium benzoate is used as a preservative in food. Its technological role is to help limit microbial spoilage.",
+        "overview": "Sodium benzoate is a sodium salt of benzoic acid, specified as a distinct chemical preparation for food manufacture. Its preservative role is to limit spoilage caused by microorganisms and extend the storage life of the food. The specified material is supplied as white powder or crystalline material. The specification identifies water solubility as one of its properties.",
         "daily_intake": "0–20 mg/kg body weight/day, combined JECFA benzoate group expressed as benzoic acid equivalents (JECFA, 2021).\n5 mg/kg body weight/day, combined benzoic acid and benzoates expressed as benzoic acid (EFSA, 2016).",
         "articles": {
             "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/4530",
@@ -15,8 +15,12 @@
             "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
             "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
             "eCFR Title 21": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=184",
-            "EFSA": "https://www.efsa.europa.eu/en/efsajournal/pub/4433"
+            "EFSA": "https://www.efsa.europa.eu/en/efsajournal/pub/4433",
+            "EUR-Lex": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32012R0231",
+            "EUR-Lex (2)": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02008R1333-20260818",
+            "WHO JECFA (2)": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/1098"
         },
-        "side_effects": "Food-use exposure estimates exceeded the group limit in some children.\nThe reviewed evidence did not indicate genotoxic or cancer effects."
+        "side_effects": "Food-use exposure estimates exceeded the group limit in some children.\nThe reviewed evidence did not indicate genotoxic or cancer effects.",
+        "uses": "Examples in the EU food-use list include certain other confectionery including breath freshening microsweets; chewing gum; fruit juices as defined by Directive 2001/112/EC and vegetable juices; flavoured fermented milk products including heat-treated products; sauces; extra jam and extra jelly as defined by Directive 2001/113/EC.\nThe entries apply to particular food categories and may limit the amount, the preparation or the way it is used; they do not show how often the additive appears in retail products."
     }
 }

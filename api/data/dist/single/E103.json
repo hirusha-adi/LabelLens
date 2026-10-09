@@ -7,12 +7,14 @@
     "icon": "mdi-alert-circle",
     "more_info": {
         "banned_in": "JECFA records withdrawn specifications in 1984; this is not a national ban.",
-        "overview": "Alkannin is a red-brown pigment found in plants including dyer's alkanet. Its historical food-colour identity is INS 103. A numbering-system entry does not establish current food-use approval.",
+        "overview": "Alkannin is a hydroxy-naphthoquinone pigment associated with dyer's alkanet. The natural colour is obtained by extracting the plant. Its red-brown pigment has a historical food-colour identity under INS 103. JECFA retains the identity record but records withdrawn specifications, so the name does not establish a current food-use permission.",
         "origin": "Plant-derived. The natural dye is obtained by extracting dyer's alkanet, Alkanna tinctoria.",
         "daily_intake": "No ADI allocated (JECFA, 1977).",
         "articles": {
             "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/2359",
-            "Wikipedia": "https://en.wikipedia.org/wiki/Alkannin"
+            "Wikipedia": "https://en.wikipedia.org/wiki/Alkannin",
+            "PubChem": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Alkannin/description/JSON",
+            "EUR-Lex": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02008R1333-20260818"
         }
     }
 }

@@ -29,3 +29,23 @@ At completion add extras to the master, sync all individual files, rebuild the
 summary preserving its existing consumer contract, run full validation and write
 the report. The earlier plan's aggregate deferral and needs-review workflow are
 superseded by the user's latest instructions.
+
+# Description expansion for every code
+
+The next user request applies to all 522 records. Expand every overview within
+the 2 to 6 sentence format, explaining the exact substance, food function,
+composition and other characteristics established by the linked sources.
+Improve companion uses, origin and other fields where specific evidence exists.
+Keep uncertainty explicit for historical names, preparations and feed materials.
+
+Retain authored prose and field URLs in
+development/research/description-enrichment.json. Apply it with
+scripts/enrich-descriptions.py --require-all to the primary aggregate first,
+then synchronise individual files with scripts/full-split.py. Source corrections
+to names, classifications and approval flags alongside the description changes.
+Record readable URL loads, preserve unsupported-field gaps and keep all 522
+progress entries done without introducing a human review queue.
+
+At completion run the full validator and its contract tests, verify that
+reapplying the catalog leaves records unchanged, update the report with field
+coverage and cumulative corrections, and commit the entire expansion locally.

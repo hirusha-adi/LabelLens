@@ -6,10 +6,12 @@
     "status": "",
     "icon": "mdi-check-circle",
     "more_info": {
-        "overview": "Sodium dehydroacetate is used as a color in food. Its technological role is to add or restore food colour.",
+        "overview": "Sodium dehydroacetate is the sodium form of dehydroacetic acid. The PubChem identity record distinguishes the sodium preparation from the free acid. Its historical food category is preservative. Specific current food examples, manufacturing details and an applicable daily-intake evaluation were not confirmed for the salt.",
         "articles": {
             "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
-            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "PubChem": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Sodium%20dehydroacetate/description/JSON",
+            "EUR-Lex": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02008R1333-20260818"
         }
     }
 }

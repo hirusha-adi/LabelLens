@@ -8,8 +8,10 @@
     "more_info": {
         "articles": {
             "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
-            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "PubChem": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Heptylparaben/description/JSON",
+            "EUR-Lex": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02008R1333-20260818"
         },
-        "overview": "Heptyl p-hydroxybenzoate is classified in food technology as a preservative. Its technological role is to limit microbial spoilage."
+        "overview": "Heptyl para-hydroxybenzoate is a benzoate ester formed from para-hydroxybenzoic acid and a seven-carbon alcohol group. This entry identifies the heptyl ester specifically. Its historical preservative classification is distinct from that of other paraben esters. Current food examples, a commercial production route and a applicable intake limit were not confirmed for this record."
     }
 }

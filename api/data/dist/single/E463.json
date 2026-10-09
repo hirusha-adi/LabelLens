@@ -7,8 +7,8 @@
     "icon": "mdi-check-circle",
     "more_info": {
         "banned_in": "Approved in the EU.\nApproved in the US.\nUS food use is subject to the listed CFR provisions and their conditions, checked in 2026.",
-        "overview": "Hydroxypropyl cellulose is used as an emulsifier in food. Its technological role is to help oil and water remain mixed.",
-        "uses": "EU permissions include table-top sweeteners in liquid form, table-top sweeteners in powder form, table-top sweeteners in tablets. These permissions depend on the food category and its conditions of use.",
+        "overview": "Hydroxypropyl cellulose is plant cellulose partly modified with hydroxypropyl ether groups. Its emulsifying role is to help form or maintain mixtures of oil and water in the finished food. The specified material is supplied as white powder or granules. EU permissions include table-top sweeteners in liquid form, table-top sweeteners in powder form, table-top sweeteners in tablets.",
+        "uses": "Examples in the EU food-use list include certain cocoa and Chocolate products as covered by Directive 2000/36/EC; other confectionery including breath freshening microsweets; chewing gum; decorations, coatings and fillings, except fruit-based fillings covered by category 4.2.4; fruit juices as defined by Directive 2001/112/EC and vegetable juices; flavoured fermented milk products including heat-treated products.\nThe entries apply to particular food categories and may limit the amount, the preparation or the way it is used; they do not show how often the additive appears in retail products.",
         "daily_intake": "No numerical ADI needed (EFSA, 2018).",
         "articles": {
             "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/609",
@@ -16,8 +16,12 @@
             "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
             "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
             "eCFR Title 21": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=172",
-            "EFSA": "https://www.efsa.europa.eu/en/efsajournal/pub/5047"
+            "EFSA": "https://www.efsa.europa.eu/en/efsajournal/pub/5047",
+            "EUR-Lex": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32012R0231",
+            "EUR-Lex (2)": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02008R1333-20260818",
+            "WHO JECFA (2)": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/875"
         },
-        "side_effects": "Assessed food uses raised no concern.\nHigh-dose animal studies found no reproductive or developmental harm."
+        "side_effects": "Assessed food uses raised no concern.\nHigh-dose animal studies found no reproductive or developmental harm.",
+        "origin": "Plant-derived fibrous cellulose chemically modified by introducing hydroxypropyl ether groups."
     }
 }

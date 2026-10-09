@@ -8,8 +8,9 @@
     "more_info": {
         "articles": {
             "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
-            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "Wikipedia": "https://en.wikipedia.org/wiki/Wax_ester"
         },
-        "overview": "Wax esters is classified in food technology as a glazing agent. Its technological role is to provide a surface coating."
+        "overview": "Wax esters are compounds formed from fatty acids and fatty alcohols. They occur as major components of several natural waxes, including beeswax and carnauba wax. Different acid and alcohol components produce different compositions and physical properties. This historical entry uses a family name for glazing materials. The name alone cannot identify the raw-material source or one preparation-specific food-use assessment."
     }
 }

@@ -11,21 +11,26 @@
       "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
     ],
     "overview": [
-      "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818"
+      "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=184"
+    ],
+    "origin": [
+      "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=184"
+    ],
+    "uses": [
+      "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=184"
+    ],
+    "type": [
+      "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=184"
     ]
   },
   "inputs": {
     "names": "development/ins-summary-original.json",
-    "display_name": "development/ins-summary-original.json",
-    "type": "development/ins-summary-original.json",
-    "overview": "development/ins-summary-original.json"
+    "display_name": "development/ins-summary-original.json"
   },
   "gaps": [
     "Current EU food-use permission was not established for the exact identity or complete group named by this entry; no e flag is asserted.",
     "Current US food-use permission was not established for the exact identity in the FDA inventory and available direct-food CFR sections; no u flag is asserted.",
-    "Specific food-use examples were not confirmed; uses omitted.",
     "A current, unambiguous food-additive ADI and its basis were not confirmed; daily_intake omitted.",
-    "No sufficiently specific compound-level source was retained for origin; field omitted.",
     "No sufficiently specific compound-level source was retained for side_effects; field omitted.",
     "No sufficiently specific compound-level source was retained for dietary_restrictions; field omitted.",
     "No sufficiently specific compound-level source was retained for interactions; field omitted.",
@@ -33,6 +38,10 @@
   ],
   "changes": [
     "Replaced the legacy layout with rich fields and removed unsupported inherited health, dietary and intake assertions.",
-    "Created the missing individual additive record and field provenance."
+    "Created the missing individual additive record and field provenance.",
+    "2026-10-10 description expansion: overview replaced or added with compound-specific detail from the linked field sources.",
+    "2026-10-10 description expansion: origin replaced or added with compound-specific detail from the linked field sources.",
+    "2026-10-10 description expansion: uses replaced or added with compound-specific detail from the linked field sources.",
+    "type: 'stabiliser, flavour enhancer' -> 'enzyme'; use the specific function identified in the linked regulation or specification, preserving animal-feed scope where applicable."
   ]
 }

@@ -25,6 +25,7 @@
     ],
     "overview": [
       "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32012R0231",
+      "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02008R1333-20260818",
       "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?id=FDCRed2&set=ColorAdditives"
     ],
     "origin": [
@@ -39,9 +40,7 @@
       "https://efsa.onlinelibrary.wiley.com/doi/10.2903/j.efsa.2013.3442"
     ],
     "uses": [
-      "https://ec.europa.eu/food/food-feed-portal/backend/api/policy-items/POL-FAD-IMPORT-2992",
-      "https://ec.europa.eu/food/food-feed-portal/backend/api/food_categories?domain_code=fad",
-      "https://www.ecfr.gov/current/title-21/section-81.30"
+      "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02008R1333-20260818"
     ],
     "banned_in": [
       "https://ec.europa.eu/food/food-feed-portal/backend/api/policy-items/POL-FAD-IMPORT-2992",
@@ -76,6 +75,8 @@
     "more_info.dietary_restrictions: removed; no verified compound-specific food-use claim retained. See gaps.",
     "more_info.products: removed; no verified compound-specific food-use claim retained. See gaps.",
     "Icon: FDA prohibits US food use; EFSA lowered the ADI in 2010.",
-    "name/href/function and characteristics/products replaced by the required rich schema; only sourced facts were retained."
+    "name/href/function and characteristics/products replaced by the required rich schema; only sourced facts were retained.",
+    "2026-10-10 description expansion: overview replaced or added with compound-specific detail from the linked field sources.",
+    "2026-10-10 description expansion: uses replaced or added with compound-specific detail from the linked field sources."
   ]
 }

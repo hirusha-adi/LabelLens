@@ -12,9 +12,12 @@
             "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/843",
             "EUR-Lex specifications": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231",
             "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
-            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "EUR-Lex": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32012R0231",
+            "EUR-Lex (2)": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02008R1333-20260818"
         },
         "origin": "Prepared by purifying kaolinitic clay without calcination. The food-grade specification requires the material to be free of asbestos.",
-        "overview": "Aluminium silicate is classified in food technology as an anti-caking agent. Its technological role is to keep powders free-flowing."
+        "overview": "Aluminium silicate, or kaolin, is purified natural clay containing kaolinite and associated minerals; the specification excludes calcination and requires asbestos-free material. Its anti-caking role is to reduce the tendency of particles in a food powder to stick together. Prepared by purifying kaolinitic clay without calcination. The food-grade specification requires the material to be free of asbestos. The specified material is supplied as white powder or flakes.",
+        "uses": "Examples in the EU food-use list include certain dairy analogues, including beverage whiteners; vegetable oil pan spray.\nThe entries apply to particular food categories and may limit the amount, the preparation or the way it is used; they do not show how often the additive appears in retail products."
     }
 }

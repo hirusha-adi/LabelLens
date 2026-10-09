@@ -6,12 +6,13 @@
     "status": "",
     "icon": "mdi-check-circle",
     "more_info": {
-        "overview": "Hydroxy propyl distarch glycerol is used as an emulsifier in food. Its technological role is to help oil and water remain mixed.",
+        "overview": "Hydroxypropyl distarch glycerol is a historical modified-starch identity combining hydroxypropyl and glycerol-related modifications. The JECFA record retains earlier evaluations and records withdrawn specifications. The designation therefore describes a historical preparation, with current manufacturing details and food-use conditions unconfirmed. Related modified starches have their own separate identities and evaluations.",
         "daily_intake": "No ADI allocated (JECFA, 1982).",
         "articles": {
             "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/2342",
             "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
-            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "EUR-Lex": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02008R1333-20260818"
         }
     }
 }

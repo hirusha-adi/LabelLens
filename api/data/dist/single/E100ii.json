@@ -7,7 +7,7 @@
     "icon": "mdi-check-circle",
     "more_info": {
         "banned_in": "Approved in the US.\nINS 100(ii) identifies turmeric; the EU database lists E100 as curcumin, so a separate EU colour approval for turmeric powder was not verified in 2026.",
-        "overview": "Turmeric is the ground rhizome of Curcuma longa. It provides yellow to orange colour and flavour. The INS entry for turmeric powder is distinct from the concentrated curcumin colour.",
+        "overview": "Turmeric colour is the ground rhizome of Curcuma longa, the same plant material used as a spice. It contains a mixture of plant constituents rather than only the isolated curcumin pigment. FDA defines this preparation separately from turmeric oleoresin and allows its use to colour foods under manufacturing and food-standard conditions. Its food role can therefore involve both the colour and the flavour of the ground spice.",
         "origin": "Plant-derived. The colour material described by FDA is made by grinding turmeric rhizomes.",
         "daily_intake": "No ADI allocated for turmeric (JECFA, 1986). JECFA noted that turmeric is often treated as a food rather than a food additive.",
         "uses": "Used as a spice in foods such as curries and mustard. FDA permits turmeric as a colour in foods generally, subject to standards of identity and good manufacturing practice.",
@@ -15,7 +15,8 @@
         "articles": {
             "eCFR": "https://www.ecfr.gov/current/title-21/section-73.600",
             "WHO JECFA (INCHEM)": "https://www.inchem.org/documents/jecfa/jeceval/jec_2353.htm",
-            "Wikipedia": "https://en.wikipedia.org/wiki/Turmeric"
+            "Wikipedia": "https://en.wikipedia.org/wiki/Turmeric",
+            "eCFR (2)": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=73"
         }
     }
 }

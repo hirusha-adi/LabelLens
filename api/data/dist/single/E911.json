@@ -8,8 +8,9 @@
     "more_info": {
         "articles": {
             "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
-            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "Wikipedia": "https://en.wikipedia.org/wiki/Fatty_acid_methyl_ester"
         },
-        "overview": "Methyl esters of fatty acids is classified in food technology as a glazing agent. Its technological role is to provide a surface coating."
+        "overview": "Methyl esters of fatty acids is a group name for fatty-acid compounds esterified with methanol. They can be produced by transesterification of fats, and their composition depends on the starting fatty-acid mixture. The group includes individual esters such as methyl palmitate, methyl stearate and methyl oleate. This historical glazing-agent entry does not identify one food-grade product. Industrial uses of these esters do not establish typical food uses or an intake limit."
     }
 }

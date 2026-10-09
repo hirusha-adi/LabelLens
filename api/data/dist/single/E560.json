@@ -8,8 +8,9 @@
     "more_info": {
         "articles": {
             "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
-            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "Wikipedia": "https://en.wikipedia.org/wiki/Potassium_silicate"
         },
-        "overview": "Potassium silicate is classified in food technology as an anti-caking agent. Its technological role is to keep powders free-flowing."
+        "overview": "Potassium silicate is an inorganic silicate preparation containing potassium and silicon-oxygen components. Different potassium-to-silica proportions can occur in materials described by this broad name. This historical dataset entry gives it an anti-caking classification. The reviewed general description does not establish a specific food-grade composition or typical human-food use. Its industrial applications are a separate context."
     }
 }

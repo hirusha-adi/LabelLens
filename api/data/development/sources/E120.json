@@ -23,6 +23,7 @@
     ],
     "overview": [
       "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32012R0231",
+      "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02008R1333-20260818",
       "https://www.ecfr.gov/current/title-21/section-73.100"
     ],
     "origin": [
@@ -36,9 +37,7 @@
       "https://efsa.onlinelibrary.wiley.com/doi/10.2903/j.efsa.2015.4288"
     ],
     "uses": [
-      "https://ec.europa.eu/food/food-feed-portal/backend/api/policy-items/POL-FAD-IMPORT-2990",
-      "https://ec.europa.eu/food/food-feed-portal/backend/api/food_categories?domain_code=fad",
-      "https://www.ecfr.gov/current/title-21/section-73.100"
+      "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02008R1333-20260818"
     ],
     "dietary_restrictions": [
       "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32012R0231"
@@ -78,6 +77,8 @@
     "more_info.characteristics: removed; no verified compound-specific food-use claim retained. See gaps.",
     "more_info.products: removed; no verified compound-specific food-use claim retained. See gaps.",
     "Icon: EFSA identified an allergy risk without a threshold dose in 2015.",
-    "name/href/function and characteristics/products replaced by the required rich schema; only sourced facts were retained."
+    "name/href/function and characteristics/products replaced by the required rich schema; only sourced facts were retained.",
+    "2026-10-10 description expansion: overview replaced or added with compound-specific detail from the linked field sources.",
+    "2026-10-10 description expansion: uses replaced or added with compound-specific detail from the linked field sources."
   ]
 }

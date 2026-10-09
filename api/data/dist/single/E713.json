@@ -10,8 +10,9 @@
         "articles": {
             "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/520",
             "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
-            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "EUR-Lex": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02008R1333-20260818"
         },
-        "overview": "Tylosin is an antibiotic identified in JECFA's veterinary-drug evaluations. A veterinary residue evaluation does not establish permission to add it directly to human food."
+        "overview": "Tylosin is an antimicrobial veterinary-drug ingredient also recorded under the names Tylan and Tylon. Its presence here is a legacy antibiotic entry. The reviewed JECFA evaluation concerns residues associated with animal treatment. That residue assessment does not establish permission to add the substance directly to human food."
     }
 }

@@ -7,7 +7,7 @@
     "icon": "mdi-alert-circle",
     "more_info": {
         "banned_in": "Approved in the EU.\nApproved in the US.\nUS food use is subject to the listed CFR provisions and their conditions, checked in 2026.",
-        "overview": "Butylated hydroxyanisole is used as an antioxidant in food. Its technological role is to slow oxidation in food.",
+        "overview": "Butylated hydroxyanisole, usually abbreviated BHA, is a mixture of two isomers of a phenolic antioxidant. Its antioxidant role is to slow oxidation that can cause rancidity or unwanted colour changes during storage. The specified material is supplied as white flakes or waxy solid. The specification describes it as effectively insoluble in water.",
         "daily_intake": "1 mg/kg body weight/day (EFSA, 2011).",
         "articles": {
             "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/2140",
@@ -15,8 +15,12 @@
             "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
             "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
             "eCFR Title 21": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=182",
-            "EFSA": "https://www.efsa.europa.eu/en/efsajournal/pub/2392"
+            "EFSA": "https://www.efsa.europa.eu/en/efsajournal/pub/2392",
+            "EUR-Lex": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32012R0231",
+            "EUR-Lex (2)": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02008R1333-20260818",
+            "WHO JECFA (2)": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/1910"
         },
-        "side_effects": "Refined food-use estimates were generally below EFSA's limit.\nHigh-dose animal studies reported effects on offspring growth and survival; rodent forestomach findings have uncertain human relevance."
+        "side_effects": "Refined food-use estimates were generally below EFSA's limit.\nHigh-dose animal studies reported effects on offspring growth and survival; rodent forestomach findings have uncertain human relevance.",
+        "uses": "Examples in the EU food-use list include certain sweet baked goods; sauces; potato-, cereal-, flour- or starch-based snacks; processed nuts; nut butters and nut spreads; non-heat–treated meat products.\nThe entries apply to particular food categories and may limit the amount, the preparation or the way it is used; they do not show how often the additive appears in retail products."
     }
 }

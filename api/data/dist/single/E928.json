@@ -7,13 +7,14 @@
     "icon": "mdi-check-circle",
     "more_info": {
         "banned_in": "Approved in the US.\nUS food use is subject to the listed CFR provisions and their conditions, checked in 2026.",
-        "overview": "Benzoyl peroxide is used as a color in food. Its technological role is to add or restore food colour.",
+        "overview": "Benzoyl peroxide, also called dibenzoyl peroxide, is a crystalline organic peroxide used for bleaching in food manufacture. FDA describes chemical synthesis from benzoyl chloride, sodium hydroxide and hydrogen peroxide. The listed applications include flour and certain milk, whey and cheese processes. Its food-processing identity should be distinguished from medicinal preparations using the same chemical.",
         "daily_intake": "No ADI specified (JECFA, 2004).",
         "articles": {
             "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/171",
             "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
             "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
             "eCFR Title 21": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=184"
-        }
+        },
+        "origin": "Manufactured by reacting benzoyl chloride, sodium hydroxide and hydrogen peroxide. The resulting benzoyl peroxide is a synthetic crystalline compound. The food-grade specification and use conditions apply to the additive preparation."
     }
 }

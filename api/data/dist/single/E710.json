@@ -8,7 +8,9 @@
     "more_info": {
         "articles": {
             "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
-            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
-        }
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "Wikipedia": "https://en.wikipedia.org/wiki/Spiramycin"
+        },
+        "overview": "Spiramycins are macrolide antibiotic compounds associated with spiramycin preparations. The broad plural name does not identify one pure component or medicinal formulation. This entry is retained among historical antimicrobial designations. Clinical or veterinary descriptions of spiramycin are different from a direct food-additive application, which was not confirmed for the entry."
     }
 }

@@ -22,7 +22,6 @@
       "https://www.inchem.org/documents/jecfa/jeceval/jec_1796.htm"
     ],
     "overview": [
-      "https://www.inchem.org/documents/jecfa/jeceval/jec_1796.htm",
       "https://en.wikipedia.org/wiki/Orange_GGN"
     ],
     "daily_intake": [
@@ -49,6 +48,7 @@
   "changes": [
     "Created previously missing individual file using the master identity and reviewed sources.",
     "Icon: JECFA postponed the ADI decision and records withdrawal of specifications.",
-    "Created the missing individual additive record and field provenance."
+    "Created the missing individual additive record and field provenance.",
+    "2026-10-10 description expansion: overview replaced or added with compound-specific detail from the linked field sources."
   ]
 }

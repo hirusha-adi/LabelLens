@@ -10,8 +10,9 @@
         "articles": {
             "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/136",
             "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
-            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "EUR-Lex": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02008R1333-20260818"
         },
-        "overview": "Ammonium lactate is classified in food technology as an acidity regulator. Its technological role is to control acidity."
+        "overview": "Ammonium lactate is the ammonium salt of lactic acid, identified by JECFA for acidity control and flour treatment. Its acidity-control function is to adjust or maintain food pH. The available identity record does not establish a typical retail-food example for this exact preparation. Commercial specifications and legal conditions need to refer to the particular substance or preparation named here."
     }
 }

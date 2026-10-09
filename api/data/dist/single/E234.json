@@ -7,14 +7,16 @@
     "icon": "mdi-check-circle",
     "more_info": {
         "banned_in": "Approved in the EU.",
-        "overview": "Nisin is used as a preservative in food. Its technological role is to help limit microbial spoilage.",
-        "uses": "EU permissions include other creams, unripened cheese excluding products falling in category 16, ripened cheese, processed cheese. These permissions depend on the food category and its conditions of use.",
+        "overview": "Nisin is a preparation of closely related antimicrobial polypeptides produced by Lactococcus lactis bacteria. Its preservative role is to limit spoilage caused by microorganisms and extend the storage life of the food. Produced by fermentation with Lactococcus lactis strains. Nisin is a mixture of closely related antimicrobial peptides. The specified material is supplied as white powder.",
+        "uses": "Examples in the EU food-use list include certain unripened cheese excluding products falling in category 16; ripened cheese; other creams; desserts excluding products covered in categories 1, 3 and 4; processed eggs and egg products.\nThe entries apply to particular food categories and may limit the amount, the preparation or the way it is used; they do not show how often the additive appears in retail products.",
         "daily_intake": "0-2 mg/kg body weight (JECFA, 2024).",
         "articles": {
             "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/572",
             "EUR-Lex specifications": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231",
             "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
-            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "EUR-Lex": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32012R0231",
+            "EUR-Lex (2)": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02008R1333-20260818"
         },
         "origin": "Produced by fermentation with Lactococcus lactis strains. Nisin is a mixture of closely related antimicrobial peptides."
     }

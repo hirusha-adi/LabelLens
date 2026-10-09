@@ -8,8 +8,9 @@
     "more_info": {
         "articles": {
             "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
-            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "Wikipedia": "https://en.wikipedia.org/wiki/Ammonium_fumarate"
         },
-        "overview": "Ammonium fumarate is classified in food technology as an acidity regulator. Its technological role is to control acidity."
+        "overview": "Ammonium fumarate is an ammonium salt of fumaric acid. The described diammonium composition contains two ammonium ions for each fumarate unit. This distinguishes it from free fumaric acid and from sodium or calcium fumarates. The dataset retains its historical acidity-regulator classification. A current, preparation-specific human-food example was not confirmed."
     }
 }

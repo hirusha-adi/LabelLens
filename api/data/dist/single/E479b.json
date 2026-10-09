@@ -10,10 +10,13 @@
         "articles": {
             "EUR-Lex specifications": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231",
             "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
-            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "EUR-Lex": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32012R0231",
+            "EUR-Lex (2)": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02008R1333-20260818"
         },
         "origin": "Thermally oxidised soybean oil is combined with mono- and diglycerides of food fatty acids under heated vacuum conditions. The soybean oil is plant derived; the glyceride feedstock requires separate identification.",
         "dietary_restrictions": "The fatty-acid feedstock is not specified as exclusively plant derived. Vegan, vegetarian, halal and kosher suitability cannot be established without the supplier identifying the raw material and processing.",
-        "overview": "Thermally oxidized soya bean oil interacted with mono- and diglycerides of fatty acids is classified in food technology as an emulsifier. Its technological role is to help oil and water stay mixed."
+        "overview": "E479b is a complex glyceride mixture made by reacting thermally oxidised soybean oil with mono- and diglycerides of food fatty acids. Its emulsifying role is to help form or maintain mixtures of oil and water in the finished food. Thermally oxidised soybean oil is combined with mono- and diglycerides of food fatty acids under heated vacuum conditions. The soybean oil is plant derived; the glyceride feedstock requires separate identification. The specified material is supplied as yellow waxy solid. The specification describes it as effectively insoluble in water.",
+        "uses": "Examples in the EU food-use list include certain other fat and oil emulsions including spreads as defined by Council Regulation No 1234/2007 and liquid emulsions.\nThe entries apply to particular food categories and may limit the amount, the preparation or the way it is used; they do not show how often the additive appears in retail products."
     }
 }

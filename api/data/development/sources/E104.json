@@ -22,7 +22,8 @@
       "https://www.efsa.europa.eu/en/press/news/091112"
     ],
     "overview": [
-      "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32012R0231"
+      "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32012R0231",
+      "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02008R1333-20260818"
     ],
     "origin": [
       "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32012R0231"
@@ -38,8 +39,7 @@
       "https://www.efsa.europa.eu/en/press/news/091112"
     ],
     "uses": [
-      "https://ec.europa.eu/food/food-feed-portal/backend/api/policy-items/POL-FAD-IMPORT-2988",
-      "https://ec.europa.eu/food/food-feed-portal/backend/api/food_categories?domain_code=fad"
+      "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02008R1333-20260818"
     ],
     "banned_in": [
       "https://ec.europa.eu/food/food-feed-portal/backend/api/policy-items/POL-FAD-IMPORT-2988",
@@ -75,6 +75,8 @@
     "more_info.dietary_restrictions: removed; no verified compound-specific food-use claim retained. See gaps.",
     "more_info.products: removed; no verified compound-specific food-use claim retained. See gaps.",
     "Icon: EFSA reduced the ADI in 2009; EU use levels were subsequently reduced.",
-    "name/href/function and characteristics/products replaced by the required rich schema; only sourced facts were retained."
+    "name/href/function and characteristics/products replaced by the required rich schema; only sourced facts were retained.",
+    "2026-10-10 description expansion: overview replaced or added with compound-specific detail from the linked field sources.",
+    "2026-10-10 description expansion: uses replaced or added with compound-specific detail from the linked field sources."
   ]
 }

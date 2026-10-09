@@ -22,6 +22,8 @@
       "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231"
     ],
     "overview": [
+      "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32012R0231",
+      "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02008R1333-20260818",
       "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/3113",
       "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/1291",
       "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/585",
@@ -29,7 +31,7 @@
       "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818"
     ],
     "uses": [
-      "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818"
+      "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02008R1333-20260818"
     ],
     "daily_intake": [
       "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/3113"
@@ -49,6 +51,8 @@
   "changes": [
     "Replaced the legacy layout with rich fields and removed unsupported inherited health, dietary and intake assertions.",
     "status: 'e' -> 'e u'; 21 CFR 172.858; 21 CFR 173.340. Empty flags include unconfirmed permissions, not inferred country bans.",
-    "name/href/function and characteristics/products replaced by the required rich schema; only sourced facts were retained."
+    "name/href/function and characteristics/products replaced by the required rich schema; only sourced facts were retained.",
+    "2026-10-10 description expansion: overview replaced or added with compound-specific detail from the linked field sources.",
+    "2026-10-10 description expansion: uses replaced or added with compound-specific detail from the linked field sources."
   ]
 }

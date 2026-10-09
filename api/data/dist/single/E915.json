@@ -8,8 +8,11 @@
     "more_info": {
         "articles": {
             "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
-            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "Wikipedia": "https://en.wikipedia.org/wiki/Colophony",
+            "eCFR": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=172"
         },
-        "overview": "Esters of colophony is classified in food technology as a glazing agent. Its technological role is to provide a surface coating."
+        "overview": "Colophony, also called rosin, is a resin material obtained from pine and related plants. This historical entry refers to esters of its resin acids rather than to unmodified rosin alone. Ester identity depends on the alcohol component used in the preparation. The broad group is listed here as a glazing material, while current food examples for a specific ester were not confirmed. It cannot be equated automatically with the separately specified glycerol esters of wood rosin.",
+        "uses": "FDA lists particular glycerol and pentaerythritol esters of specified gum, wood or tall-oil rosins as plasticising materials in chewing-gum base. This does not identify a permission for every ester covered by the broad legacy name."
     }
 }

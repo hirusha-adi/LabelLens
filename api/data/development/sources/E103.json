@@ -22,8 +22,9 @@
       "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/2359"
     ],
     "overview": [
+      "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Alkannin/description/JSON",
       "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/2359",
-      "https://en.wikipedia.org/wiki/Alkannin"
+      "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02008R1333-20260818"
     ],
     "origin": [
       "https://en.wikipedia.org/wiki/Alkannin"
@@ -48,6 +49,7 @@
     "Created previously missing individual file using the master identity and reviewed sources.",
     "Icon: JECFA allocated no ADI and records withdrawal of specifications.",
     "master names: 'Alkannin[11]' -> 'Alkannin'. Removed an imported [11] citation marker; WHO identifies the compound as Alkannin.",
-    "Created the missing individual additive record and field provenance."
+    "Created the missing individual additive record and field provenance.",
+    "2026-10-10 description expansion: overview replaced or added with compound-specific detail from the linked field sources."
   ]
 }

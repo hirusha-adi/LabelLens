@@ -16,8 +16,8 @@
       "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=182"
     ],
     "overview": [
-      "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
-      "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818"
+      "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32012R0231",
+      "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02008R1333-20260818"
     ],
     "side_effects": [
       "https://www.efsa.europa.eu/en/efsajournal/pub/5375"
@@ -39,6 +39,7 @@
   "changes": [
     "status: '' -> 'e u'; positive flags require a matching current EU listing or direct-food FDA provision.",
     "Replaced the legacy layout with rich fields and removed unsupported inherited health, dietary and intake assertions.",
-    "name/href/function and characteristics/products replaced by the required rich schema; only sourced facts were retained."
+    "name/href/function and characteristics/products replaced by the required rich schema; only sourced facts were retained.",
+    "2026-10-10 description expansion: overview replaced or added with compound-specific detail from the linked field sources."
   ]
 }

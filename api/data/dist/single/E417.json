@@ -7,17 +7,20 @@
     "icon": "mdi-check-circle",
     "more_info": {
         "banned_in": "Approved in the EU.",
-        "overview": "Tara gum is used as a stabilizer in food. Its technological role is to help maintain the structure of food.",
+        "overview": "Tara gum is a galactomannan obtained from the seed endosperm of Caesalpinia spinosa; its mannose-to-galactose ratio is about three to one. Its stabilising role is to help a food maintain its physical consistency or the distribution of its ingredients. Made by grinding the seed endosperm of the tara plant. The principal material is a galactomannan polysaccharide. The specified material is supplied as white powder. The specification identifies water solubility as one of its properties.",
         "daily_intake": "No numerical ADI needed (EFSA, 2017).",
         "articles": {
             "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/4115",
             "EUR-Lex specifications": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231",
             "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
             "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
-            "EFSA": "https://www.efsa.europa.eu/en/efsajournal/pub/4863"
+            "EFSA": "https://www.efsa.europa.eu/en/efsajournal/pub/4863",
+            "EUR-Lex": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32012R0231",
+            "EUR-Lex (2)": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02008R1333-20260818"
         },
         "origin": "Made by grinding the seed endosperm of the tara plant. The principal material is a galactomannan polysaccharide.",
         "dietary_restrictions": "The specified starting material is plant derived and compatible with vegetarian and vegan diets. The specification does not establish halal or kosher certification.",
-        "side_effects": "EFSA found no concern for assessed food uses.\nAnimal studies found no adverse effects at the highest tested doses."
+        "side_effects": "EFSA found no concern for assessed food uses.\nAnimal studies found no adverse effects at the highest tested doses.",
+        "uses": "Examples in the EU food-use list include certain cocoa and Chocolate products as covered by Directive 2000/36/EC; other confectionery including breath freshening microsweets; chewing gum; decorations, coatings and fillings, except fruit-based fillings covered by category 4.2.4; fruit juices as defined by Directive 2001/112/EC and vegetable juices; flavoured fermented milk products including heat-treated products.\nThe entries apply to particular food categories and may limit the amount, the preparation or the way it is used; they do not show how often the additive appears in retail products."
     }
 }

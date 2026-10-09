@@ -13,6 +13,7 @@
             "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
             "eCFR Title 21": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=172"
         },
-        "overview": "Azodicarbonamide is classified in food technology as an improving agent. Its technological role is to modify flour or dough properties."
+        "overview": "Azodicarbonamide is a defined organic compound used as a flour-ageing and dough-conditioning agent. FDA describes use in cereal flour and bread baking. The permitted concentration is no more than 45 parts per million relative to the flour. This is a manufacturing use limit, with separate restrictions imposed by the applicable food standards.",
+        "uses": "Used for flour ageing and dough conditioning in cereal flour and bread baking. The US maximum is 45 parts per million relative to flour, subject to applicable food standards."
     }
 }

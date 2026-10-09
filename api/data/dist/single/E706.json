@@ -8,7 +8,9 @@
     "more_info": {
         "articles": {
             "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
-            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
-        }
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "Wikipedia": "https://en.wikipedia.org/wiki/Benzylpenicillin"
+        },
+        "overview": "Penicillin G sodium is the sodium salt of benzylpenicillin. Its antibiotic component is the same benzylpenicillin structure identified in the related salt entries, but the salt preparation is different. The entry is retained as a historical antimicrobial identity. A medicinal description or a veterinary residue assessment does not establish a food-additive application for this salt."
     }
 }

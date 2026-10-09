@@ -8,8 +8,9 @@
     "more_info": {
         "articles": {
             "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
-            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "Wikipedia": "https://en.wikipedia.org/wiki/Glucose_oxidase"
         },
-        "overview": "Glucose oxidase is classified in food technology as an antioxidant. Its technological role is to slow oxidation."
+        "overview": "Glucose oxidase is an enzyme that oxidises glucose using oxygen and produces glucono-delta-lactone and hydrogen peroxide. It occurs in several biological sources, including certain fungi. Its biochemical reaction is distinct from simply adding a small-molecule antioxidant. Food-processing activity depends on the availability of glucose and oxygen and on the particular enzyme preparation. The general identity source does not establish one commercial production strain or a typical current finished-food example."
     }
 }

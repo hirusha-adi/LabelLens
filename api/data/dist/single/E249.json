@@ -7,14 +7,17 @@
     "icon": "mdi-check-circle",
     "more_info": {
         "banned_in": "Approved in the EU.",
-        "overview": "Potassium nitrite is used as a preservative in food. Its technological role is to help limit microbial spoilage.",
+        "overview": "Potassium nitrite is an inorganic potassium salt of the nitrite ion, used in specified preservative applications. Its preservative role is to limit spoilage caused by microorganisms and extend the storage life of the food. The specified material is supplied as white granules.",
         "daily_intake": "0–0.07 mg nitrite ion/kg body weight/day, all sources combined (JECFA, 2002). The evaluation excludes infants below three months.",
         "articles": {
             "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/2842",
             "EUR-Lex specifications": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231",
             "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
-            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "EUR-Lex": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32012R0231",
+            "EUR-Lex (2)": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02008R1333-20260818"
         },
-        "precautions": "The JECFA intake limit does not apply to infants below three months of age."
+        "precautions": "The JECFA intake limit does not apply to infants below three months of age.",
+        "uses": "Examples in the EU food-use list include certain meat preparations as defined by Regulation No 853/2004; non-heat–treated meat products.\nThe entries apply to particular food categories and may limit the amount, the preparation or the way it is used; they do not show how often the additive appears in retail products."
     }
 }

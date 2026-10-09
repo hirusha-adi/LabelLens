@@ -8,8 +8,9 @@
     "more_info": {
         "articles": {
             "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
-            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "Wikipedia": "https://en.wikipedia.org/wiki/Sodium_formate"
         },
-        "overview": "Sodium formate is classified in food technology as a preservative. Its technological role is to limit microbial spoilage."
+        "overview": "Sodium formate is the sodium salt of formic acid. It is generally supplied as a white crystalline material and can act as a buffer in chemical formulations. This entry records its historical food-additive designation. The reviewed description does not identify a typical current human-food example. Industrial uses of the same chemical do not establish a food-grade preparation or food-use conditions."
     }
 }

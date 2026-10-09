@@ -8,8 +8,10 @@
     "more_info": {
         "articles": {
             "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
-            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "PubChem": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Rubixanthin/description/JSON",
+            "EUR-Lex": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02008R1333-20260818"
         },
-        "overview": "Rubixanthin is classified in food technology as a color. Its technological role is to add or restore colour."
+        "overview": "Rubixanthin is a naturally occurring xanthophyll pigment with an alcohol group and a gamma-carotene-related structure. The chemical record identifies it as a plant metabolite and a colour. This historical entry concerns the isolated pigment. Its presence in plants does not establish current permission or a commercial extraction method for food use."
     }
 }

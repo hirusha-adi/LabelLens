@@ -7,11 +7,12 @@
     "icon": "mdi-alert-circle",
     "more_info": {
         "banned_in": "JECFA records withdrawn specifications in 1984; no current EU or US food-colour listing was verified in 2026.",
-        "overview": "Yellow 2G is an azo colour identified as C.I. Food Yellow 5 or Acid Yellow 17. Its food-colouring function is to supply yellow colour. JECFA records it as INS 107.",
+        "overview": "Yellow 2G is a synthetic azo dye specified as the disodium salt of a chlorinated, sulphonated pyrazole-containing colour molecule. Its colouring function is to add or restore colour in the food. The available identity record does not establish a typical retail-food example for this exact preparation.",
         "daily_intake": "No ADI allocated (JECFA, 1979). The earlier temporary ADI is not the latest decision in the reviewed record.",
         "articles": {
             "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/3225",
-            "Wikipedia": "https://en.wikipedia.org/wiki/Yellow_2G"
+            "Wikipedia": "https://en.wikipedia.org/wiki/Yellow_2G",
+            "EUR-Lex": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02008R1333-20260818"
         }
     }
 }

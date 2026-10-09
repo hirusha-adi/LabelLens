@@ -7,15 +7,19 @@
     "icon": "mdi-check-circle",
     "more_info": {
         "banned_in": "Approved in the EU.",
-        "overview": "Ammonium phosphatides is used as an emulsifier in food. Its technological role is to help oil and water remain mixed.",
-        "uses": "EU permissions include cocoa and chocolate products as covered by directive 2000/36/ec, other confectionery including breath freshening micro-sweets. These permissions depend on the food category and its conditions of use.",
+        "overview": "Ammonium phosphatides are mixtures of ammonium compounds of phosphatidic acids derived from edible fats and oils. Its emulsifying role is to help form or maintain mixtures of oil and water in the finished food. The specified material is supplied as solid. The specification describes it as effectively insoluble in water.",
+        "uses": "Examples in the EU food-use list include certain cocoa and Chocolate products as covered by Directive 2000/36/EC; other confectionery including breath freshening microsweets; decorations, coatings and fillings, except fruit-based fillings covered by category 4.2.4.\nThe entries apply to particular food categories and may limit the amount, the preparation or the way it is used; they do not show how often the additive appears in retail products.",
         "daily_intake": "30 mg/kg body weight/day (EFSA, 2016).",
         "articles": {
             "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/276",
             "EUR-Lex specifications": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231",
             "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
             "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
-            "EFSA": "https://www.efsa.europa.eu/en/efsajournal/pub/4597"
+            "EFSA": "https://www.efsa.europa.eu/en/efsajournal/pub/4597",
+            "EUR-Lex": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32012R0231",
+            "EUR-Lex (2)": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02008R1333-20260818",
+            "WHO JECFA (2)": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/1638",
+            "WHO JECFA (3)": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/2973"
         },
         "side_effects": "Assessed food-use estimates were below the limit.\nAnimal chronic and developmental studies found no effects at the tested high doses used in the assessment."
     }

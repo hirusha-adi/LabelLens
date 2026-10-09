@@ -8,8 +8,9 @@
     "more_info": {
         "articles": {
             "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
-            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "Wikipedia": "https://en.wikipedia.org/wiki/Zinc_silicate"
         },
-        "overview": "Zinc silicate is classified in food technology as an anti-caking agent. Its technological role is to keep powders free-flowing."
+        "overview": "Zinc silicate is a broad name used for more than one zinc-containing silicate mineral or chemical composition. It does not identify one uniquely defined food-grade preparation. The historical dataset places this entry among anti-caking agents, but a current commercial human-food example was not confirmed. Manufacturing and intake information for another metal silicate cannot be assigned to this broad identity."
     }
 }

@@ -7,15 +7,17 @@
     "icon": "mdi-alert-circle",
     "more_info": {
         "banned_in": "Approved in the EU.",
-        "overview": "Boric acid is used as a preservative in food. Its technological role is to help limit microbial spoilage.",
-        "uses": "EU permissions include fish roe. These permissions depend on the food category and its conditions of use.",
+        "overview": "Boric acid is an inorganic boron compound that also occurs naturally as the mineral sassolite. Its preservative role is to limit spoilage caused by microorganisms and extend the storage life of the food. The specified material is supplied as white powder or crystalline material. EU permissions include fish roe.",
+        "uses": "Examples in the EU food-use list include certain fish roe.\nThe entries apply to particular food categories and may limit the amount, the preparation or the way it is used; they do not show how often the additive appears in retail products.",
         "daily_intake": "0.16 mg boron/kg body weight/day, combined boric acid and borax (EFSA, 2013).",
         "articles": {
             "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/1110",
             "EUR-Lex specifications": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231",
             "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
             "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
-            "EFSA": "https://www.efsa.europa.eu/en/efsajournal/pub/3407"
+            "EFSA": "https://www.efsa.europa.eu/en/efsajournal/pub/3407",
+            "EUR-Lex": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32012R0231",
+            "EUR-Lex (2)": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02008R1333-20260818"
         },
         "side_effects": "EFSA considered regular exceedance from assessed food uses unlikely.\nHigher-dose animal studies found reproductive and developmental effects that supported the limit."
     }

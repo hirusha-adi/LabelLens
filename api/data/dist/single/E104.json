@@ -7,16 +7,18 @@
     "icon": "mdi-alert-circle",
     "more_info": {
         "banned_in": "Approved in the EU.\nEU permitted levels and categories were reduced from 2013; no US food-colour listing was verified in 2026.",
-        "overview": "Quinoline Yellow WS is a yellow food dye based on sulfonated quinophthalone compounds. It is a mixture of colouring salts rather than a single pure molecule. Its role in food is to supply yellow colour.",
+        "overview": "Quinoline Yellow WS is a yellow food dye based on sulfonated quinophthalone compounds. It is a mixture of colouring salts rather than a single pure molecule. Its role in food is to supply yellow colour. The specified material is supplied as yellow powder or granules.",
         "origin": "Synthetic. A quinolyl indandione starting material is sulfonated to make the dye mixture, mainly supplied as sodium salts.",
         "daily_intake": "0.5 mg/kg body weight per day (EFSA, 2009). JECFA established 0–3 mg/kg body weight per day in 2016; the two bodies' values differ.",
         "side_effects": "At food-use levels, EFSA could not firmly attribute reported intolerance reactions to this dye because the evidence was limited. Its 2015 assessment estimated exposure below the ADI after EU use limits were reduced.\nHigh-dose animal toxicity studies supplied the basis for the ADIs. They do not demonstrate comparable effects at normal human food intakes.",
-        "uses": "Examples of permitted EU categories include confectionery, flavoured drinks, desserts and some sauces, with category-specific limits.",
+        "uses": "Examples in the EU food-use list include certain other confectionery including breath freshening microsweets; chewing gum; decorations, coatings and fillings, except fruit-based fillings covered by category 4.2.4; flavoured drinks; flavoured fermented milk products including heat-treated products; edible cheese rind.\nThe entries apply to particular food categories and may limit the amount, the preparation or the way it is used; they do not show how often the additive appears in retail products.",
         "articles": {
             "EFSA Journal (2009)": "https://efsa.onlinelibrary.wiley.com/doi/10.2903/j.efsa.2009.1329",
             "EFSA Journal (2015)": "https://efsa.onlinelibrary.wiley.com/doi/10.2903/j.efsa.2015.4070",
             "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/871",
-            "European Commission database": "https://ec.europa.eu/food/food-feed-portal/backend/api/policy-items/POL-FAD-IMPORT-2988"
+            "European Commission database": "https://ec.europa.eu/food/food-feed-portal/backend/api/policy-items/POL-FAD-IMPORT-2988",
+            "EUR-Lex": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32012R0231",
+            "EUR-Lex (2)": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02008R1333-20260818"
         }
     }
 }

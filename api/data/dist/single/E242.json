@@ -7,8 +7,8 @@
     "icon": "mdi-check-circle",
     "more_info": {
         "banned_in": "Approved in the EU.\nApproved in the US.\nUS food use is subject to the listed CFR provisions and their conditions, checked in 2026.",
-        "overview": "Dimethyl dicarbonate is used as a preservative in food. Its technological role is to help limit microbial spoilage.",
-        "uses": "EU permissions include flavoured drinks, other, wine and other products defined in annex vii part ii of regulation (eu) no 1308/2013, cider and perry. These permissions depend on the food category and its conditions of use.",
+        "overview": "Dimethyl dicarbonate is a reactive liquid used during beverage manufacture; it decomposes in water after treatment. Its preservative role is to limit spoilage caused by microorganisms and extend the storage life of the food. The specified material is supplied as colourless liquid. EU permissions include flavoured drinks, other, wine and other products defined in annex vii part ii of regulation (eu) no 1308/2013, cider and perry.",
+        "uses": "Examples in the EU food-use list include certain flavoured drinks; other; wine and other products defined in Part II of Annex VII to Regulation No 1308/2013.\nThe entries apply to particular food categories and may limit the amount, the preparation or the way it is used; they do not show how often the additive appears in retail products.",
         "daily_intake": "No ADI specified (JECFA, 1990).",
         "articles": {
             "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/1032",
@@ -16,7 +16,10 @@
             "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
             "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
             "eCFR Title 21": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=172",
-            "EFSA": "https://www.efsa.europa.eu/en/efsajournal/pub/4319"
+            "EFSA": "https://www.efsa.europa.eu/en/efsajournal/pub/4319",
+            "EUR-Lex": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32012R0231",
+            "EUR-Lex (2)": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02008R1333-20260818",
+            "WHO JECFA (2)": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/1212"
         },
         "side_effects": "EFSA found no indication of concern at reported beverage-use levels in 2015. The additive rapidly reacts or breaks down before consumption.\nThe reaction products were assessed, but data were insufficient for an ADI."
     }

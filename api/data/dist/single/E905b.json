@@ -12,8 +12,9 @@
             "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/2733",
             "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
             "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
-            "eCFR Title 21": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=173"
+            "eCFR Title 21": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=173",
+            "eCFR": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=172"
         },
-        "overview": "Petrolatum is a mixture of petroleum-derived hydrocarbons. Its US-authorised uses include specified release, lubricant and protective-coating applications."
+        "overview": "Petrolatum is a purified semi-solid mixture of saturated petroleum hydrocarbons. Its physical consistency distinguishes it from liquid mineral oil and solid petroleum wax. FDA describes food-processing uses as a lubricant, release agent or coating, including certain bakery, confectionery and fruit or vegetable applications. The permitted amount is application-specific and the material must meet the prescribed purity tests."
     }
 }

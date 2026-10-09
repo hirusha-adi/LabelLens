@@ -23,8 +23,10 @@
       "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818"
     ],
     "overview": [
-      "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
-      "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231"
+      "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32012R0231",
+      "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02008R1333-20260818",
+      "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231",
+      "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818"
     ]
   },
   "inputs": {
@@ -42,6 +44,7 @@
   "changes": [
     "Replaced the legacy layout with rich fields and removed unsupported inherited health, dietary and intake assertions.",
     "type: empty original category filled as carrier, supported by the regulatory use.",
-    "Created the missing individual additive record and field provenance."
+    "Created the missing individual additive record and field provenance.",
+    "2026-10-10 description expansion: overview replaced or added with compound-specific detail from the linked field sources."
   ]
 }

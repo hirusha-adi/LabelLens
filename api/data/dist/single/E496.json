@@ -8,8 +8,10 @@
     "more_info": {
         "articles": {
             "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
-            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "PubChem": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/9920343/description/JSON",
+            "PubChem (2)": "https://pubchem.ncbi.nlm.nih.gov/compound/26266-58-0"
         },
-        "overview": "Sorbitan trioleate is classified in food technology as an emulsifier. Its technological role is to help oil and water stay mixed."
+        "overview": "Sorbitan trioleate is an ester preparation also known as Span 85 or anhydrosorbitol trioleate. Its defined structure contains a sorbitan-derived component and three oleate ester groups. The chemical record describes it as a surface-active or emulsifying ingredient. This historical entry does not establish a current direct human-food application, and properties of other sorbitan esters cannot supply an intake limit for it."
     }
 }

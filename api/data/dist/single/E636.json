@@ -2,16 +2,17 @@
     "code": "E636",
     "names": "Maltol",
     "display_name": "E636 (Maltol)",
-    "type": "Flavour enhancer",
+    "type": "flavouring",
     "status": "u",
     "icon": "mdi-check-circle",
     "more_info": {
         "banned_in": "Approved in the US.\nUS food use is subject to the listed CFR provisions and their conditions, checked in 2026.",
-        "overview": "Maltol is used as a sweetener in food. Its technological role is to provide sweetness.",
+        "overview": "Maltol is the flavouring compound 3-hydroxy-2-methyl-4H-pyran-4-one. It is a white crystalline material associated with a sweet, caramel-like aroma. Its food purpose is flavouring rather than providing the bulk sweetness of sugar. FDA lists maltol among synthetic flavouring substances, used at the minimum amount needed for the intended effect.",
         "articles": {
             "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
             "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
-            "eCFR Title 21": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=172"
+            "eCFR Title 21": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=172",
+            "Wikipedia": "https://en.wikipedia.org/wiki/Maltol"
         }
     }
 }

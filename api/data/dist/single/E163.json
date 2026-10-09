@@ -7,15 +7,17 @@
     "icon": "mdi-alert-circle",
     "more_info": {
         "banned_in": "Approved in the EU.",
-        "overview": "Anthocyanins is used as a color in food. Its technological role is to add or restore food colour.",
-        "uses": "EU permissions include ripened cheese, cheese products (excluding products falling in category 16), dried fruit and vegetables, fruit and vegetables in vinegar oil or brine. These permissions depend on the food category and its conditions of use.",
+        "overview": "Anthocyanins are a group of pigments extracted from edible fruit or vegetables; preparations may contain several different pigment structures and their glycosides. It is used to add colour or restore colour lost during food manufacture. Extracted from edible fruits or vegetables using permitted water-based or solvent processes. The extract is concentrated and may be dried. The specified material is supplied as red powder or liquid.",
+        "uses": "Examples in the EU food-use list include certain other confectionery including breath freshening microsweets; chewing gum; decorations, coatings and fillings, except fruit-based fillings covered by category 4.2.4; flavoured drinks; flavoured fermented milk products including heat-treated products; unripened cheese excluding products falling in category 16.\nThe entries apply to particular food categories and may limit the amount, the preparation or the way it is used; they do not show how often the additive appears in retail products.",
         "daily_intake": "No ADI allocated (JECFA, 1982).",
         "articles": {
             "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/1491",
             "EUR-Lex specifications": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231",
             "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
             "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
-            "EFSA": "https://www.efsa.europa.eu/en/efsajournal/pub/3145"
+            "EFSA": "https://www.efsa.europa.eu/en/efsajournal/pub/3145",
+            "EUR-Lex": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32012R0231",
+            "EUR-Lex (2)": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02008R1333-20260818"
         },
         "origin": "Extracted from edible fruits or vegetables using permitted water-based or solvent processes. The extract is concentrated and may be dried.",
         "dietary_restrictions": "The specified starting material is plant derived and compatible with vegetarian and vegan diets. The specification does not establish halal or kosher certification.",

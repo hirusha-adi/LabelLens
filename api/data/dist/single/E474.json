@@ -7,15 +7,18 @@
     "icon": "mdi-check-circle",
     "more_info": {
         "banned_in": "Approved in the EU.",
-        "overview": "Sucroglycerides is used as an emulsifier in food. Its technological role is to help oil and water remain mixed.",
+        "overview": "Sucroglycerides are mixtures of sucrose fatty-acid esters and residual mono-, di- and triglycerides from the starting fat or oil. Its emulsifying role is to help form or maintain mixtures of oil and water in the finished food. Produced by reacting sucrose with an edible fat or oil. The mixture contains sucrose fatty-acid esters and residual glycerides. The specified material is supplied as off-white powder or solid.",
         "daily_intake": "0-30 mg/kg body weight (JECFA, 1997). This is a combined limit for sucrose fatty-acid esters and sucroglycerides.",
         "articles": {
             "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/2341",
             "EUR-Lex specifications": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231",
             "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
-            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "EUR-Lex": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32012R0231",
+            "EUR-Lex (2)": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02008R1333-20260818"
         },
         "origin": "Produced by reacting sucrose with an edible fat or oil. The mixture contains sucrose fatty-acid esters and residual glycerides.",
-        "dietary_restrictions": "The fatty-acid feedstock is not specified as exclusively plant derived. Vegan, vegetarian, halal and kosher suitability cannot be established without the supplier identifying the raw material and processing."
+        "dietary_restrictions": "The fatty-acid feedstock is not specified as exclusively plant derived. Vegan, vegetarian, halal and kosher suitability cannot be established without the supplier identifying the raw material and processing.",
+        "uses": "Examples in the EU food-use list include certain other confectionery including breath freshening microsweets; chewing gum; decorations, coatings and fillings, except fruit-based fillings covered by category 4.2.4; flavoured drinks; flavoured fermented milk products including heat-treated products; sweet baked goods.\nThe entries apply to particular food categories and may limit the amount, the preparation or the way it is used; they do not show how often the additive appears in retail products."
     }
 }

@@ -7,14 +7,16 @@
     "icon": "mdi-check-circle",
     "more_info": {
         "banned_in": "Approved in the EU.",
-        "overview": "Cassia gum is used as an emulsifier in food. Its technological role is to help oil and water remain mixed.",
-        "uses": "EU permissions include flavoured fermented milk products including heat-treated products, processed cheese, edible ices, heat-treated meat products. These permissions depend on the food category and its conditions of use.",
+        "overview": "Cassia gum is the purified ground seed endosperm of Cassia tora and Cassia obtusifolia, consisting mainly of a galactomannan polysaccharide. Its emulsifying role is to help form or maintain mixtures of oil and water in the finished food. Cassia seeds are dehusked, their germ is removed, and the endosperm is milled. The gum is further purified with propan-2-ol. The specified material is supplied as off-white powder.",
+        "uses": "Examples in the EU food-use list include certain decorations, coatings and fillings, except fruit-based fillings covered by category 4.2.4; flavoured fermented milk products including heat-treated products; processed cheese; sauces; frozen desserts; heat–treated meat products.\nThe entries apply to particular food categories and may limit the amount, the preparation or the way it is used; they do not show how often the additive appears in retail products.",
         "daily_intake": "No ADI specified (JECFA, 2019).",
         "articles": {
             "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/5876",
             "EUR-Lex specifications": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231",
             "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
-            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "EUR-Lex": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32012R0231",
+            "EUR-Lex (2)": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02008R1333-20260818"
         },
         "origin": "Cassia seeds are dehusked, their germ is removed, and the endosperm is milled. The gum is further purified with propan-2-ol.",
         "dietary_restrictions": "The specified starting material is plant derived and compatible with vegetarian and vegan diets. The specification does not establish halal or kosher certification."

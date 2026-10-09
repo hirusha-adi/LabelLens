@@ -7,13 +7,15 @@
     "icon": "mdi-check-circle",
     "more_info": {
         "banned_in": "Approved in the US.\nUS food use is subject to the listed CFR provisions and their conditions, checked in 2026.",
-        "overview": "Dioctyl sodium sulphosuccinate is used as an emulsifier in food. Its technological role is to help oil and water remain mixed.",
+        "overview": "Dioctyl sodium sulfosuccinate is a surface-active ingredient also known as docusate sodium. Its food role is to help wet and disperse ingredients in specified preparations. FDA describes applications in fumaric-acid-containing dry gelatine desserts, beverage bases and fruit drinks, as well as other narrowly listed processing uses. The permitted amounts depend on the application.",
         "daily_intake": "0-0.1 mg/kg body weight (JECFA, 2025).",
         "articles": {
             "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/954",
             "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
             "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
-            "eCFR Title 21": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=73"
-        }
+            "eCFR Title 21": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=73",
+            "eCFR": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=172"
+        },
+        "uses": "Specified US applications include fumaric-acid-containing dry gelatine desserts, beverage bases and fruit drinks; unrefined cane-sugar processing; solubilising certain gums; and dispersing cocoa fat in some drinks and cocoa preparations. Application-specific limits apply."
     }
 }

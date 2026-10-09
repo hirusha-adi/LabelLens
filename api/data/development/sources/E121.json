@@ -21,7 +21,7 @@
       "https://www.fda.gov/news-events/press-announcements/fda-takes-further-steps-remove-outdated-authorizations-color-additives-food"
     ],
     "overview": [
-      "https://www.ecfr.gov/current/title-21/section-74.302"
+      "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=74"
     ],
     "daily_intake": [
       "https://www.inchem.org/documents/jecfa/jecmono/v46aje10.htm"
@@ -53,6 +53,7 @@
     "Icon: JECFA rejected food-additive use in 1969; FDA proposed revocation for abandonment in 2026.",
     "master status: '' -> 'u'. Aligned with the compound-specific researched single file; see status sources and review notes.",
     "status: '' -> 'u'; exact current EU/FDA identity check and retained regulatory sources. Empty flags include unconfirmed permissions, not inferred country bans.",
-    "Created the missing individual additive record and field provenance."
+    "Created the missing individual additive record and field provenance.",
+    "2026-10-10 description expansion: overview replaced or added with compound-specific detail from the linked field sources."
   ]
 }

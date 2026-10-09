@@ -8,8 +8,9 @@
     "more_info": {
         "articles": {
             "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
-            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "Wikipedia": "https://en.wikipedia.org/wiki/Benzoin_resin"
         },
-        "overview": "Gum benzoic is classified in food technology as a flavour enhancer. Its technological role is to strengthen existing flavours."
+        "overview": "Gum benzoic is a historical label whose precise commercial specification was not confirmed. The similarly named gum benzoin is a fragrant plant resin obtained from Styrax trees and has a complex composition. A similar name does not establish that every preparation under this entry is identical to that resin. Current human-food uses and a preparation-specific intake value under the supplied designation remain unconfirmed."
     }
 }

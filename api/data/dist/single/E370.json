@@ -1,15 +1,16 @@
 {
     "code": "E370",
     "names": "1,4-Heptonolactone",
-    "display_name": "E370 (1)",
+    "display_name": "E370 (1,4-Heptonolactone)",
     "type": "acidity regulator",
     "status": "",
     "icon": "mdi-check-circle",
     "more_info": {
         "articles": {
             "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
-            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "PubChem": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/78942/description/JSON"
         },
-        "overview": "1 is classified in food technology as an acidity regulator. Its technological role is to control acidity."
+        "overview": "1,4-Heptonolactone is a hydroxyl-containing lactone, a cyclic ester related to a seven-carbon sugar acid. The compound record describes a five-membered oxygen-containing ring with several hydroxyl groups. This chemical identity distinguishes it from glucono-delta-lactone. The historical entry assigns an acidity-regulating role, but a particular commercial food preparation and typical current food examples were not confirmed."
     }
 }

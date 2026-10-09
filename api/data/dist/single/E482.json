@@ -7,17 +7,20 @@
     "icon": "mdi-alert-circle",
     "more_info": {
         "banned_in": "Approved in the EU.\nApproved in the US.\nUS food use is subject to the listed CFR provisions and their conditions, checked in 2026.",
-        "overview": "Calcium stearoyl-2-lactylate is used as an emulsifier in food. Its technological role is to help oil and water remain mixed.",
+        "overview": "Calcium stearoyl lactylate is a mixture of calcium salts formed from stearic and lactic acids, including related stearoyl-lactyl compounds. Its emulsifying role is to help form or maintain mixtures of oil and water in the finished food. Made by reacting stearic acid with lactic acid to produce calcium salts of stearoyl lactylic acids. Other food fatty acids may be present in the stearic-acid feedstock. The specified material is supplied as white powder or solid. It dissolves in hot water under the specified test conditions.",
         "articles": {
             "EUR-Lex specifications": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231",
             "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
             "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
             "eCFR Title 21": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=172",
-            "EFSA": "https://www.efsa.europa.eu/en/efsajournal/pub/3144"
+            "EFSA": "https://www.efsa.europa.eu/en/efsajournal/pub/3144",
+            "EUR-Lex": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32012R0231",
+            "EUR-Lex (2)": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02008R1333-20260818"
         },
         "origin": "Made by reacting stearic acid with lactic acid to produce calcium salts of stearoyl lactylic acids. Other food fatty acids may be present in the stearic-acid feedstock.",
         "dietary_restrictions": "The fatty-acid feedstock is not specified as exclusively plant derived. Vegan, vegetarian, halal and kosher suitability cannot be established without the supplier identifying the raw material and processing.",
         "daily_intake": "22 mg/kg body weight/day, combined sodium and calcium stearoyl lactylates (EFSA, 2013).",
-        "side_effects": "Estimated food-use exposure exceeded the group limit in some populations.\nAnimal chronic-toxicity evidence supported the limit; no genotoxicity concern was identified."
+        "side_effects": "Estimated food-use exposure exceeded the group limit in some populations.\nAnimal chronic-toxicity evidence supported the limit; no genotoxicity concern was identified.",
+        "uses": "Examples in the EU food-use list include certain other confectionery including breath freshening microsweets; chewing gum; decorations, coatings and fillings, except fruit-based fillings covered by category 4.2.4; flavoured drinks; flavoured fermented milk products including heat-treated products; bread and rolls.\nThe entries apply to particular food categories and may limit the amount, the preparation or the way it is used; they do not show how often the additive appears in retail products."
     }
 }

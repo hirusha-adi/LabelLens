@@ -7,11 +7,12 @@
     "icon": "mdi-check-circle",
     "more_info": {
         "banned_in": "Approved in the US.\nUS food use is subject to the listed CFR provisions and their conditions, checked in 2026.",
-        "overview": "Octafluorocyclobutane is used as a propellant in food. Its technological role is to expel food from its container.",
+        "overview": "Octafluorocyclobutane is a fluorinated cyclic compound used as a propellant and aerating agent in specified foamed or sprayed foods. FDA describes use alone or with carbon dioxide, nitrous oxide or propane. Food-grade material must meet the regulation's purity and impurity limits. The applicable food standard must permit this use.",
         "articles": {
             "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
             "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
             "eCFR Title 21": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=173"
-        }
+        },
+        "uses": "Used as a propellant and aerating agent in specified foamed or sprayed foods. It may be used alone or with carbon dioxide, nitrous oxide or propane, subject to the US regulation and applicable food standards."
     }
 }

@@ -7,13 +7,15 @@
     "icon": "mdi-check-circle",
     "more_info": {
         "banned_in": "Approved in the EU.\nApproved in the US.\nUS food use is subject to the listed CFR provisions and their conditions, checked in 2026.",
-        "overview": "Sodium carbonates is used as an antioxidant in food. Its technological role is to slow oxidation in food.",
-        "uses": "EU permissions include edible caseinates, milk-based drinks and similar products intended for young children, butter and concentrated butter and butter oil and anhydrous milk fat, unprocessed molluscs and crustaceans. These permissions depend on the food category and its conditions of use.",
+        "overview": "E500 covers sodium carbonate, sodium hydrogen carbonate and sodium sesquicarbonate, which are distinct carbonate preparations. One specified form is supplied as white powder or crystalline material. EU permissions include edible caseinates, milk-based drinks and similar products intended for young children, butter and concentrated butter and butter oil and anhydrous milk fat, unprocessed molluscs and crustaceans.",
+        "uses": "Examples in the EU food-use list include certain cocoa and Chocolate products as covered by Directive 2000/36/EC; other confectionery including breath freshening microsweets; chewing gum; decorations, coatings and fillings, except fruit-based fillings covered by category 4.2.4; fruit juices as defined by Directive 2001/112/EC and vegetable juices; flavoured fermented milk products including heat-treated products.\nThe entries apply to particular food categories and may limit the amount, the preparation or the way it is used; they do not show how often the additive appears in retail products.",
         "articles": {
             "EUR-Lex specifications": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231",
             "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
             "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
-            "eCFR Title 21": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=184"
+            "eCFR Title 21": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=184",
+            "EUR-Lex": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32012R0231",
+            "EUR-Lex (2)": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02008R1333-20260818"
         }
     }
 }

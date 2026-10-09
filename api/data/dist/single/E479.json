@@ -6,12 +6,14 @@
     "status": "",
     "icon": "mdi-check-circle",
     "more_info": {
-        "overview": "Esterified soy oil is used as an emulsifier in food. Its technological role is to help oil and water remain mixed.",
+        "overview": "Esterified soy oil is a broad historical name associated in the JECFA INS 479 record with thermally oxidised soybean oil interacted with mono- and diglycerides. The assessed preparation is also called TOSOM. JECFA identifies its technological function as emulsifying. That specific preparation should be distinguished from untreated soybean oil and from other esterified oils. Its preparation-specific evaluation does not describe every product that could be called esterified soy oil.",
         "daily_intake": "0-30 mg/kg body weight (JECFA, 1992).",
         "articles": {
             "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/3681",
             "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
-            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
-        }
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "WHO JECFA (2)": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/2463"
+        },
+        "origin": "A chemically processed soybean-oil preparation interacted with mono- and diglycerides. The soybean-oil component is plant derived; the identity record does not fix the origin of all glyceride feedstocks."
     }
 }

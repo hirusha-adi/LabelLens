@@ -19,7 +19,8 @@
       "https://www.inchem.org/documents/jecfa/jeceval/jec_851.htm"
     ],
     "overview": [
-      "https://www.inchem.org/documents/jecfa/jeceval/jec_851.htm"
+      "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Fast%20Yellow%20AB/description/JSON",
+      "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02008R1333-20260818"
     ],
     "daily_intake": [
       "https://www.inchem.org/documents/jecfa/jeceval/jec_851.htm"
@@ -43,6 +44,7 @@
   "changes": [
     "Created previously missing individual file using the master identity and reviewed sources.",
     "Icon: JECFA postponed its ADI decision and subsequently withdrew specifications.",
-    "Created the missing individual additive record and field provenance."
+    "Created the missing individual additive record and field provenance.",
+    "2026-10-10 description expansion: overview replaced or added with compound-specific detail from the linked field sources."
   ]
 }

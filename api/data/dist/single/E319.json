@@ -7,15 +7,18 @@
     "icon": "mdi-alert-circle",
     "more_info": {
         "banned_in": "Approved in the EU.",
-        "overview": "tert-Butylhydroquinone is used as an antioxidant in food. Its technological role is to slow oxidation in food.",
+        "overview": "Tert-butylhydroquinone, usually abbreviated TBHQ, is a defined phenolic antioxidant. Its antioxidant role is to slow oxidation that can cause rancidity or unwanted colour changes during storage. The specified material is supplied as white crystalline material or solid. The specification describes it as effectively insoluble in water.",
         "daily_intake": "0-0.7 mg/kg body weight (JECFA, 1997).",
         "articles": {
             "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/3548",
             "EUR-Lex specifications": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231",
             "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
             "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
-            "EFSA": "https://www.efsa.europa.eu/en/efsajournal/pub/4363"
+            "EFSA": "https://www.efsa.europa.eu/en/efsajournal/pub/4363",
+            "EUR-Lex": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32012R0231",
+            "EUR-Lex (2)": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02008R1333-20260818"
         },
-        "side_effects": "Refined food-use exposure estimates were below the limit in 2016.\nMaximum-permitted-use modelling exceeded it for some children; this estimates exposure rather than demonstrating illness."
+        "side_effects": "Refined food-use exposure estimates were below the limit in 2016.\nMaximum-permitted-use modelling exceeded it for some children; this estimates exposure rather than demonstrating illness.",
+        "uses": "Examples in the EU food-use list include certain sweet baked goods; sauces; potato-, cereal-, flour- or starch-based snacks; processed nuts; nut butters and nut spreads; non-heat–treated meat products.\nThe entries apply to particular food categories and may limit the amount, the preparation or the way it is used; they do not show how often the additive appears in retail products."
     }
 }

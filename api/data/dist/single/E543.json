@@ -8,8 +8,9 @@
     "more_info": {
         "articles": {
             "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
-            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "EUR-Lex": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32012R0231"
         },
-        "overview": "Calcium sodium polyphosphate is classified in food technology as an emulsifier. Its technological role is to help oil and water stay mixed."
+        "overview": "Calcium sodium polyphosphate is a condensed-phosphate preparation containing both calcium and sodium components. The EU specification names the corresponding sodium calcium polyphosphate preparation and describes a glassy solid form. It differs from an orthophosphate salt containing only one phosphate unit. This historical designation does not itself establish equivalence to every preparation in the current E452 group. Typical foods under the exact legacy label were not confirmed."
     }
 }

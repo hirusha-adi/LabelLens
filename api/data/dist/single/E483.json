@@ -10,10 +10,12 @@
             "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/5181",
             "EUR-Lex specifications": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231",
             "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
-            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "EUR-Lex": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32012R0231",
+            "EUR-Lex (2)": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02008R1333-20260818"
         },
         "origin": "Made by esterifying tartaric acid with commercial stearyl alcohol. The alcohol mixture also contains palmityl alcohol.",
         "dietary_restrictions": "The fatty-acid feedstock is not specified as exclusively plant derived. Vegan, vegetarian, halal and kosher suitability cannot be established without the supplier identifying the raw material and processing.",
-        "overview": "Stearyl tartrate is classified in food technology as an emulsifier. Its technological role is to help oil and water stay mixed."
+        "overview": "Stearyl tartrate is principally a diester of tartaric acid and commercial stearyl alcohol, which may also contain palmityl alcohol. Its emulsifying role is to help form or maintain mixtures of oil and water in the finished food. Made by esterifying tartaric acid with commercial stearyl alcohol. The alcohol mixture also contains palmityl alcohol. The specified material is supplied as cream-coloured solid."
     }
 }

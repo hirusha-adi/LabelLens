@@ -7,14 +7,16 @@
     "icon": "mdi-check-circle",
     "more_info": {
         "banned_in": "Approved in the EU.",
-        "overview": "Pullulan is used as a thickener in food. Its technological role is to increase the thickness of food.",
-        "uses": "EU permissions include other confectionery including breath freshening micro-sweets, food supplements supplied in a solid form excluding food supplements for infants and  young children’,. These permissions depend on the food category and its conditions of use.",
+        "overview": "Pullulan is a fermentation-derived glucan consisting mainly of maltotriose units joined by alpha-1,6 linkages. Produced by fermenting food-grade hydrolysed starch with a non-toxin-producing Aureobasidium pullulans strain. The fungal cells, pigments and other impurities are removed from the polymer preparation. The specified material is supplied as off-white powder. The specification identifies water solubility as one of its properties.",
+        "uses": "Examples in the EU food-use list include certain other confectionery including breath freshening microsweets; food supplements supplied in a solid form, excluding food supplements for infants and young children.\nThe entries apply to particular food categories and may limit the amount, the preparation or the way it is used; they do not show how often the additive appears in retail products.",
         "daily_intake": "No ADI specified (JECFA, 2011).",
         "articles": {
             "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/4523",
             "EUR-Lex specifications": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231",
             "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
-            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "EUR-Lex": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32012R0231",
+            "EUR-Lex (2)": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02008R1333-20260818"
         },
         "origin": "Produced by fermenting food-grade hydrolysed starch with a non-toxin-producing Aureobasidium pullulans strain. The fungal cells, pigments and other impurities are removed from the polymer preparation."
     }

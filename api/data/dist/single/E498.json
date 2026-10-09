@@ -8,7 +8,9 @@
     "more_info": {
         "articles": {
             "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
-            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
-        }
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "EUR-Lex": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32012R0231"
+        },
+        "overview": "This historical group name describes partial polyglycerol esters of polycondensed fatty acids from castor oil. A related current specification, polyglycerol polyricinoleate, combines polyglycerol with condensed castor-oil fatty acids for emulsifying applications. The supplied broad designation was not confirmed as an exact equivalent of that specified preparation. Consequently, its identity description does not transfer E476's approval, intake limit or food examples to this entry."
     }
 }

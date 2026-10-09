@@ -11,8 +11,11 @@
             "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/2776",
             "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
             "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
-            "eCFR Title 21": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=184"
+            "eCFR Title 21": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=184",
+            "eCFR": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=136"
         },
-        "overview": "Potassium iodate is an inorganic salt used in flour treatment. It modifies dough or flour properties under the permitted conditions."
+        "overview": "Potassium iodate is an inorganic potassium salt of iodic acid. FDA describes manufacture by reacting iodine with potassium hydroxide. The direct-food application in this regulation is dough strengthening during bread manufacture. That application has a flour-based use limit and should be distinguished from separate nutrient or salt-iodisation applications.",
+        "origin": "FDA describes chemical preparation by reacting iodine with potassium hydroxide. The resulting potassium iodate is an inorganic salt. The reviewed food-use definition describes synthetic preparation rather than biological extraction.",
+        "uses": "Used as a dough strengthener in bread manufacture. The US regulation sets a maximum of 0.0075% relative to flour weight. The bread standard also sets a combined limit for its specified dough-conditioning group."
     }
 }

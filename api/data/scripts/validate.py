@@ -127,6 +127,10 @@ def validate_record(code, obj, errors):
             errors.append(f"{code}.{key}: must be plain text")
         elif key != "articles" and re.search(r"<[^>]+>|\[\d+\]|\[[^\]]+\]\(", value):
             errors.append(f"{code}.{key}: HTML, markdown or citation marker")
+    if isinstance(info.get("overview"), str):
+        sentences = re.split(r"(?<=[.!?])\s+(?=[A-Z])", info["overview"].strip())
+        if not 2 <= len(sentences) <= 6:
+            errors.append(f"{code}.overview: must contain 2 to 6 sentences")
     if "banned_in" in info and isinstance(status, str):
         regulatory_lines(info["banned_in"], status, code, errors)
     elif status:

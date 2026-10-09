@@ -8,8 +8,9 @@
     "more_info": {
         "articles": {
             "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
-            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "Health Canada": "https://webprod.hc-sc.gc.ca/nhpid-bdipsn/ingredReq?id=493"
         },
-        "overview": "Sodium stearoyl fumarate is classified in food technology as an emulsifier. Its technological role is to help oil and water stay mixed."
+        "overview": "This historical label names a sodium stearoyl fumarate preparation. Health Canada separately identifies sodium stearyl fumarate as the sodium salt of a monooctadecyl ester of fumaric acid. The similar names should not be treated as proof of identical identity without a preparation specification. The source identifies a natural-health-product ingredient, not a current direct food-additive application. Typical human-food uses under the supplied designation remain unconfirmed."
     }
 }

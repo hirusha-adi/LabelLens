@@ -7,13 +7,15 @@
     "icon": "mdi-check-circle",
     "more_info": {
         "banned_in": "Approved in the EU.\nApproved in the US.\nUS food use is subject to the listed CFR provisions and their conditions, checked in 2026.",
-        "overview": "Ammonium sulphate is used as a firming agent in food. Its technological role is to help maintain firmness.",
+        "overview": "Ammonium sulphate is an inorganic salt containing ammonium and sulphate ions. Its acidity-regulating role is to adjust or maintain the pH of the food. The specified material is supplied as white powder or crystalline material. The specification identifies water solubility as one of its properties.",
         "articles": {
             "EUR-Lex specifications": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231",
             "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
             "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
             "eCFR Title 21": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=184",
-            "EFSA": "https://www.efsa.europa.eu/en/efsajournal/pub/5868"
+            "EFSA": "https://www.efsa.europa.eu/en/efsajournal/pub/5868",
+            "EUR-Lex": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32012R0231",
+            "EUR-Lex (2)": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02008R1333-20260818"
         },
         "daily_intake": "No numerical ADI needed (EFSA, 2019).",
         "side_effects": "Assessed food exposure raised no concern.\nHigher-dose human sulphate intake can cause laxative effects."

@@ -1,17 +1,19 @@
 {
     "code": "E430",
     "names": "Polyoxyethene (8) stearate (emulsifier)",
-    "display_name": "E430 (Polyoxyethene)",
+    "display_name": "E430 (Polyoxyethylene (8) stearate)",
     "type": "stabiliser",
     "status": "",
     "icon": "mdi-check-circle",
     "more_info": {
-        "overview": "Polyoxyethene is used as an emulsifier in food. Its technological role is to help oil and water remain mixed.",
+        "overview": "Polyoxyethylene (8) stearate is a mixture of mono- and diesters of stearic acid with polyoxyethylene diols, together with unreacted polyol. The available identity record does not establish a typical retail-food example for this exact preparation. Commercial specifications and legal conditions need to refer to the particular substance or preparation named here.",
         "daily_intake": "0-25 mg/kg body weight (JECFA, 1973). The limit covers polyoxyethylene (8) and (40) stearates together.",
         "articles": {
             "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/1350",
             "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
-            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "WHO JECFA (2)": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/3587",
+            "EUR-Lex": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02008R1333-20260818"
         }
     }
 }

@@ -12,6 +12,8 @@
             "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
             "eCFR Title 21": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=172"
         },
-        "overview": "Rice bran wax is classified in food technology as a glazing agent. Its technological role is to provide a surface coating."
+        "overview": "Rice bran wax is the refined wax recovered from rice bran. FDA specifies a melting range of 75 to 80 degrees Celsius for the listed material, along with limits on its chemical quality measurements. It is used as a coating on candy and fresh fruit or vegetables and as a plasticising material in chewing gum. Those applications have separate maximum concentrations.",
+        "origin": "Recovered and refined from rice bran. It is a plant-derived wax preparation whose melting range and chemical quality measurements must match the specified food grade. The regulation identifies the raw material and the refined product, but does not prescribe one complete extraction process.",
+        "uses": "Used as a coating on candy and fresh fruit or vegetables, with a US maximum of 50 parts per million. It is also listed as a plasticising material in chewing gum, at up to 2.5%."
     }
 }

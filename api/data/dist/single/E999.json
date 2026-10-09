@@ -7,17 +7,19 @@
     "icon": "mdi-check-circle",
     "more_info": {
         "banned_in": "Approved in the EU.",
-        "uses": "EU permissions include flavoured drinks, cider and perry, food supplements supplied in a solid form excluding food supplements for infants and  young children’,, food supplements supplied in a liquid form excluding food supplements for infants and young children. These permissions depend on the food category and its conditions of use.",
+        "uses": "Examples in the EU food-use list include certain flavoured drinks; food supplements supplied in a solid form, excluding food supplements for infants and young children; food supplements supplied in a liquid form, excluding food supplements for infants and young children; cider and perry.\nThe entries apply to particular food categories and may limit the amount, the preparation or the way it is used; they do not show how often the additive appears in retail products.",
         "articles": {
             "EUR-Lex specifications": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231",
             "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
             "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
-            "EFSA": "https://www.efsa.europa.eu/en/efsajournal/pub/5622"
+            "EFSA": "https://www.efsa.europa.eu/en/efsajournal/pub/5622",
+            "EUR-Lex": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32012R0231",
+            "EUR-Lex (2)": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02008R1333-20260818"
         },
         "origin": "Extracted with water from Quillaia trees. The extract contains saponins along with sugars and other plant constituents.",
         "dietary_restrictions": "The specified starting material is plant derived and compatible with vegetarian and vegan diets. The specification does not establish halal or kosher certification.",
         "daily_intake": "3 mg saponins/kg body weight/day from quillaia extract (EFSA, 2019).",
         "side_effects": "Assessed food-use estimates stayed below the limit.\nAnimal toxicity associated with the saponin component supported the limit.",
-        "overview": "Quillaia extract is classified in food technology as a foaming agent. Its technological role is to help create foam."
+        "overview": "Quillaia extract is a water-extracted tree preparation containing triterpenoid saponins, along with sugars, tannins and other extracted substances. Extracted with water from Quillaia trees. The extract contains saponins along with sugars and other plant constituents. The specified material is supplied as brown powder or liquid."
     }
 }

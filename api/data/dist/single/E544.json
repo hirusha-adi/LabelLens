@@ -8,8 +8,9 @@
     "more_info": {
         "articles": {
             "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
-            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "EUR-Lex": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32012R0231"
         },
-        "overview": "Calcium polyphosphate is classified in food technology as an emulsifier. Its technological role is to help oil and water stay mixed."
+        "overview": "Calcium polyphosphate is a calcium preparation of condensed phosphoric acids, also called calcium metaphosphate in the EU specification. Its composition can involve a distribution of phosphate-chain lengths rather than one identical small molecule. The specified preparation is supplied as a white material. This historical entry is retained separately from the current E452 grouped designation. A precise food-use or intake claim must identify the preparation covered by its source."
     }
 }

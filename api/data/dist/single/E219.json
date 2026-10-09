@@ -10,8 +10,11 @@
         "articles": {
             "EUR-Lex specifications": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231",
             "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
-            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "EUR-Lex": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32012R0231",
+            "EUR-Lex (2)": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02008R1333-20260818"
         },
-        "overview": "Sodium methyl para-hydroxybenzoate is classified in food technology as a preservative. Its technological role is to limit microbial spoilage."
+        "overview": "Sodium methyl para-hydroxybenzoate is the sodium salt of methylparaben, a paraben-family preservative supplied as a hygroscopic powder. Its preservative role is to limit spoilage caused by microorganisms and extend the storage life of the food. The specified material is supplied as white powder.",
+        "uses": "Examples in the EU food-use list include certain other confectionery including breath freshening microsweets; decorations, coatings and fillings, except fruit-based fillings covered by category 4.2.4; non-heat–treated meat products; table-top sweeteners in liquid form.\nThe entries apply to particular food categories and may limit the amount, the preparation or the way it is used; they do not show how often the additive appears in retail products."
     }
 }

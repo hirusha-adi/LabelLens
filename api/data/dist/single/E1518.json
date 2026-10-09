@@ -7,14 +7,18 @@
     "icon": "mdi-check-circle",
     "more_info": {
         "banned_in": "Approved in the EU.",
-        "overview": "Glyceryl triacetate or triacetin is used as a humectant in food. Its technological role is to help retain moisture.",
-        "uses": "EU permissions include chewing gum. These permissions depend on the food category and its conditions of use.",
+        "overview": "Triacetin is glyceryl triacetate, in which glycerol is esterified with three acetate groups. Its moisture-control role is to help prevent a food from drying out. The specified material is supplied as colourless liquid. EU permissions include chewing gum.",
+        "uses": "Examples in the EU food-use list include certain chewing gum.\nThe entries apply to particular food categories and may limit the amount, the preparation or the way it is used; they do not show how often the additive appears in retail products.",
         "daily_intake": "For triacetin: No ADI specified (JECFA, 2002). This evaluation does not establish an ADI for every form in the named group.",
         "articles": {
             "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/3893",
             "EUR-Lex specifications": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231",
             "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
-            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "EUR-Lex": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32012R0231",
+            "EUR-Lex (2)": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02008R1333-20260818",
+            "WHO JECFA (2)": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/3091",
+            "WHO JECFA (3)": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/564"
         }
     }
 }

@@ -3094,10 +3094,9 @@
       "note": "Readable article loaded through the web reader; direct requests were blocked. Used only for identity and general description."
     },
     "https://en.wikipedia.org/wiki/Orange_GGN": {
-      "checked": "2026-10-10",
       "loaded": true,
-      "method": "web reader",
-      "note": "Readable article loaded through the web reader; direct requests were blocked. Used only for identity and general description."
+      "checked": "2026-10-10",
+      "method": "Web reader returned readable page text; description, identification or assessment section inspected."
     },
     "https://en.wikipedia.org/wiki/Ponceau_6R": {
       "checked": "2026-10-10",
@@ -3106,10 +3105,9 @@
       "note": "Readable article loaded through the web reader; direct requests were blocked. Used only for identity and general description."
     },
     "https://en.wikipedia.org/wiki/Scarlet_GN": {
-      "checked": "2026-10-10",
       "loaded": true,
-      "method": "web reader",
-      "note": "Readable article loaded through the web reader; direct requests were blocked. Used only for identity and general description."
+      "checked": "2026-10-10",
+      "method": "Web reader returned readable identification or specification text."
     },
     "https://en.wikipedia.org/wiki/Turmeric": {
       "checked": "2026-10-10",
@@ -3134,10 +3132,10 @@
       "http_status": 200
     },
     "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32012R0231": {
-      "checked": "2026-10-10",
       "loaded": true,
-      "method": "Python requests, HTML parsed",
-      "note": "Initial request returned HTTP 200 with the specifications text, which was read. A later attempt returned a blank HTTP 202 challenge; the earlier readable response was used."
+      "checked": "2026-10-10",
+      "method": "HTTP GET and parsed compound specification or food-category tables",
+      "http_status": 200
     },
     "https://food.ec.europa.eu/food-safety/food-improvement-agents/additives/re-evaluation_en": {
       "checked": "2026-10-10",
@@ -3751,6 +3749,486 @@
       "loaded": true,
       "method": "Python requests and/or web reader",
       "note": "Readable JECFA evaluation or monograph loaded and read; source was inspected rather than relying on a search snippet."
+    },
+    "https://www.fao.org/fileadmin/user_upload/jecfa_additives/docs/Monograph1/Additive-171.pdf": {
+      "loaded": true,
+      "checked": "2026-10-10",
+      "method": "HTTP GET and readable web-tool PDF extraction",
+      "http_status": 200
+    },
+    "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Alkannin/description/JSON": {
+      "loaded": true,
+      "checked": "2026-10-10",
+      "method": "HTTP GET, parsed PubChem description JSON",
+      "http_status": 200
+    },
+    "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Fast%20Yellow%20AB/description/JSON": {
+      "loaded": true,
+      "checked": "2026-10-10",
+      "method": "HTTP GET, parsed PubChem description JSON",
+      "http_status": 200
+    },
+    "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Ponceau%20SX/description/JSON": {
+      "loaded": true,
+      "checked": "2026-10-10",
+      "method": "HTTP GET, parsed PubChem description JSON",
+      "http_status": 200
+    },
+    "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Citrus%20Red%202/description/JSON": {
+      "loaded": true,
+      "checked": "2026-10-10",
+      "method": "HTTP GET, parsed PubChem description JSON",
+      "http_status": 200
+    },
+    "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Red%202G/description/JSON": {
+      "loaded": true,
+      "checked": "2026-10-10",
+      "method": "HTTP GET, parsed PubChem description JSON",
+      "http_status": 200
+    },
+    "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Fast%20Green%20FCF/description/JSON": {
+      "loaded": true,
+      "checked": "2026-10-10",
+      "method": "HTTP GET, parsed PubChem description JSON",
+      "http_status": 200
+    },
+    "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Indanthrene%20blue%20RS/description/JSON": {
+      "loaded": true,
+      "checked": "2026-10-10",
+      "method": "HTTP GET, parsed PubChem description JSON",
+      "http_status": 200
+    },
+    "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Flavoxanthin/description/JSON": {
+      "loaded": true,
+      "checked": "2026-10-10",
+      "method": "HTTP GET, parsed PubChem description JSON",
+      "http_status": 200
+    },
+    "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/beta-Cryptoxanthin/description/JSON": {
+      "loaded": true,
+      "checked": "2026-10-10",
+      "method": "HTTP GET, parsed PubChem description JSON",
+      "http_status": 200
+    },
+    "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Rubixanthin/description/JSON": {
+      "loaded": true,
+      "checked": "2026-10-10",
+      "method": "HTTP GET, parsed PubChem description JSON",
+      "http_status": 200
+    },
+    "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Violaxanthin/description/JSON": {
+      "loaded": true,
+      "checked": "2026-10-10",
+      "method": "HTTP GET, parsed PubChem description JSON",
+      "http_status": 200
+    },
+    "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Carbon%20black/description/JSON": {
+      "loaded": true,
+      "checked": "2026-10-10",
+      "method": "HTTP GET, parsed PubChem description JSON",
+      "http_status": 200
+    },
+    "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Rhodoxanthin/description/JSON": {
+      "loaded": true,
+      "checked": "2026-10-10",
+      "method": "HTTP GET, parsed PubChem description JSON",
+      "http_status": 200
+    },
+    "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Zeaxanthin/description/JSON": {
+      "loaded": true,
+      "checked": "2026-10-10",
+      "method": "HTTP GET, parsed PubChem description JSON",
+      "http_status": 200
+    },
+    "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Brown%20FK/description/JSON": {
+      "loaded": true,
+      "checked": "2026-10-10",
+      "method": "HTTP GET, parsed PubChem description JSON",
+      "http_status": 200
+    },
+    "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Astaxanthin/description/JSON": {
+      "loaded": true,
+      "checked": "2026-10-10",
+      "method": "HTTP GET, parsed PubChem description JSON",
+      "http_status": 200
+    },
+    "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Orcein/description/JSON": {
+      "loaded": true,
+      "checked": "2026-10-10",
+      "method": "HTTP GET, parsed PubChem description JSON",
+      "http_status": 200
+    },
+    "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Citranaxanthin/description/JSON": {
+      "loaded": true,
+      "checked": "2026-10-10",
+      "method": "HTTP GET, parsed PubChem description JSON",
+      "http_status": 200
+    },
+    "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Sodium%20propylparaben/description/JSON": {
+      "loaded": true,
+      "checked": "2026-10-10",
+      "method": "HTTP GET, parsed PubChem description JSON",
+      "http_status": 200
+    },
+    "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Heptylparaben/description/JSON": {
+      "loaded": true,
+      "checked": "2026-10-10",
+      "method": "HTTP GET, parsed PubChem description JSON",
+      "http_status": 200
+    },
+    "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Sodium%20o-phenylphenate/description/JSON": {
+      "loaded": true,
+      "checked": "2026-10-10",
+      "method": "HTTP GET, parsed PubChem description JSON",
+      "http_status": 200
+    },
+    "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Calcium%20formate/description/JSON": {
+      "loaded": true,
+      "checked": "2026-10-10",
+      "method": "HTTP GET, parsed PubChem description JSON",
+      "http_status": 200
+    },
+    "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Formic%20acid/description/JSON": {
+      "loaded": true,
+      "checked": "2026-10-10",
+      "method": "HTTP GET, parsed PubChem description JSON",
+      "http_status": 200
+    },
+    "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Dehydroacetic%20acid/description/JSON": {
+      "loaded": true,
+      "checked": "2026-10-10",
+      "method": "HTTP GET, parsed PubChem description JSON",
+      "http_status": 200
+    },
+    "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Sodium%20dehydroacetate/description/JSON": {
+      "loaded": true,
+      "checked": "2026-10-10",
+      "method": "HTTP GET, parsed PubChem description JSON",
+      "http_status": 200
+    },
+    "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Ethyl%20gallate/description/JSON": {
+      "loaded": true,
+      "checked": "2026-10-10",
+      "method": "HTTP GET, parsed PubChem description JSON",
+      "http_status": 200
+    },
+    "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Sodium%20erythorbate/description/JSON": {
+      "loaded": true,
+      "checked": "2026-10-10",
+      "method": "HTTP GET, parsed PubChem description JSON",
+      "http_status": 200
+    },
+    "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Ammonium%20lactate/description/JSON": {
+      "loaded": true,
+      "checked": "2026-10-10",
+      "method": "HTTP GET, parsed PubChem description JSON",
+      "http_status": 200
+    },
+    "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02008R1333-20260818": {
+      "loaded": true,
+      "checked": "2026-10-10",
+      "method": "HTTP GET and parsed compound specification or food-category tables",
+      "http_status": 200
+    },
+    "https://en.wikipedia.org/wiki/Phytic_acid": {
+      "loaded": true,
+      "checked": "2026-10-10",
+      "method": "Web reader returned readable page text; description, identification or assessment section inspected."
+    },
+    "https://en.wikipedia.org/wiki/Poloxamer": {
+      "loaded": true,
+      "checked": "2026-10-10",
+      "method": "Web reader returned readable page text; description, identification or assessment section inspected."
+    },
+    "https://en.wikipedia.org/wiki/Tetracycline_antibiotics": {
+      "loaded": true,
+      "checked": "2026-10-10",
+      "method": "Web reader returned readable page text; description, identification or assessment section inspected."
+    },
+    "https://en.wikipedia.org/wiki/Benzylpenicillin": {
+      "loaded": true,
+      "checked": "2026-10-10",
+      "method": "Web reader returned readable page text; description, identification or assessment section inspected."
+    },
+    "https://en.wikipedia.org/wiki/Procaine_benzylpenicillin": {
+      "loaded": true,
+      "checked": "2026-10-10",
+      "method": "Web reader returned readable page text; description, identification or assessment section inspected."
+    },
+    "https://en.wikipedia.org/wiki/Benzathine_benzylpenicillin": {
+      "loaded": true,
+      "checked": "2026-10-10",
+      "method": "Web reader returned readable page text; description, identification or assessment section inspected."
+    },
+    "https://en.wikipedia.org/wiki/Virginiamycin": {
+      "loaded": true,
+      "checked": "2026-10-10",
+      "method": "Web reader returned readable page text; description, identification or assessment section inspected."
+    },
+    "https://en.wikipedia.org/wiki/Bambermycin": {
+      "loaded": true,
+      "checked": "2026-10-10",
+      "method": "Web reader returned readable page text; description, identification or assessment section inspected."
+    },
+    "https://en.wikipedia.org/wiki/Monensin": {
+      "loaded": true,
+      "checked": "2026-10-10",
+      "method": "Web reader returned readable page text; description, identification or assessment section inspected."
+    },
+    "https://en.wikipedia.org/wiki/Avoparcin": {
+      "loaded": true,
+      "checked": "2026-10-10",
+      "method": "Web reader returned readable page text; description, identification or assessment section inspected."
+    },
+    "https://en.wikipedia.org/wiki/Salinomycin": {
+      "loaded": true,
+      "checked": "2026-10-10",
+      "method": "Web reader returned readable page text; description, identification or assessment section inspected."
+    },
+    "https://en.wikipedia.org/wiki/Tannin": {
+      "loaded": true,
+      "checked": "2026-10-10",
+      "method": "Web reader returned readable page text; description, identification or assessment section inspected."
+    },
+    "https://en.wikipedia.org/wiki/Sodium_formate": {
+      "loaded": true,
+      "checked": "2026-10-10",
+      "method": "Web reader returned readable page text; description, identification or assessment section inspected."
+    },
+    "https://en.wikipedia.org/wiki/Magnesium_lactate": {
+      "loaded": true,
+      "checked": "2026-10-10",
+      "method": "Web reader returned readable page text; description, identification or assessment section inspected."
+    },
+    "https://en.wikipedia.org/wiki/Ammonium_malate": {
+      "loaded": true,
+      "checked": "2026-10-10",
+      "method": "Web reader returned readable page text; description, identification or assessment section inspected."
+    },
+    "https://en.wikipedia.org/wiki/Ammonium_fumarate": {
+      "loaded": true,
+      "checked": "2026-10-10",
+      "method": "Web reader returned readable page text; description, identification or assessment section inspected."
+    },
+    "https://en.wikipedia.org/wiki/Calcium_pyrophosphate": {
+      "loaded": true,
+      "checked": "2026-10-10",
+      "method": "Web reader returned readable page text; description, identification or assessment section inspected."
+    },
+    "https://en.wikipedia.org/wiki/Zinc_silicate": {
+      "loaded": true,
+      "checked": "2026-10-10",
+      "method": "Web reader returned readable page text; description, identification or assessment section inspected."
+    },
+    "https://en.wikipedia.org/wiki/Potassium_silicate": {
+      "loaded": true,
+      "checked": "2026-10-10",
+      "method": "Web reader returned readable page text; description, identification or assessment section inspected."
+    },
+    "https://en.wikipedia.org/wiki/Iron(II)_carbonate": {
+      "loaded": true,
+      "checked": "2026-10-10",
+      "method": "Web reader returned readable page text; description, identification or assessment section inspected."
+    },
+    "https://en.wikipedia.org/wiki/Sodium_metasilicate": {
+      "loaded": true,
+      "checked": "2026-10-10",
+      "method": "Web reader returned readable page text; description, identification or assessment section inspected."
+    },
+    "https://en.wikipedia.org/wiki/Ammonium_stearate": {
+      "loaded": true,
+      "checked": "2026-10-10",
+      "method": "Web reader returned readable page text; description, identification or assessment section inspected."
+    },
+    "https://en.wikipedia.org/wiki/Glycyrrhizin": {
+      "loaded": true,
+      "checked": "2026-10-10",
+      "method": "Web reader returned readable page text; description, identification or assessment section inspected."
+    },
+    "https://en.wikipedia.org/wiki/Maltol": {
+      "loaded": true,
+      "checked": "2026-10-10",
+      "method": "Web reader returned readable page text; description, identification or assessment section inspected."
+    },
+    "https://en.wikipedia.org/wiki/Ethyl_maltol": {
+      "loaded": true,
+      "checked": "2026-10-10",
+      "method": "Web reader returned readable page text; description, identification or assessment section inspected."
+    },
+    "https://en.wikipedia.org/wiki/Lanolin": {
+      "loaded": true,
+      "checked": "2026-10-10",
+      "method": "Web reader returned readable page text; description, identification or assessment section inspected."
+    },
+    "https://en.wikipedia.org/wiki/Spermaceti": {
+      "loaded": true,
+      "checked": "2026-10-10",
+      "method": "Web reader returned readable page text; description, identification or assessment section inspected."
+    },
+    "https://en.wikipedia.org/wiki/Wax_ester": {
+      "loaded": true,
+      "checked": "2026-10-10",
+      "method": "Web reader returned readable page text; description, identification or assessment section inspected."
+    },
+    "https://en.wikipedia.org/wiki/Benzoin_resin": {
+      "loaded": true,
+      "checked": "2026-10-10",
+      "method": "Web reader returned readable page text; description, identification or assessment section inspected."
+    },
+    "https://en.wikipedia.org/wiki/Colophony": {
+      "loaded": true,
+      "checked": "2026-10-10",
+      "method": "Web reader returned readable page text; description, identification or assessment section inspected."
+    },
+    "https://en.wikipedia.org/wiki/Hydroxyethyl_cellulose": {
+      "loaded": true,
+      "checked": "2026-10-10",
+      "method": "Web reader returned readable page text; description, identification or assessment section inspected."
+    },
+    "https://en.wikipedia.org/wiki/Glucose_oxidase": {
+      "loaded": true,
+      "checked": "2026-10-10",
+      "method": "Web reader returned readable page text; description, identification or assessment section inspected."
+    },
+    "https://en.wikipedia.org/wiki/Potassium_persulfate": {
+      "loaded": true,
+      "checked": "2026-10-10",
+      "method": "Web reader returned readable page text; description, identification or assessment section inspected."
+    },
+    "https://en.wikipedia.org/wiki/Ammonium_persulfate": {
+      "loaded": true,
+      "checked": "2026-10-10",
+      "method": "Web reader returned readable page text; description, identification or assessment section inspected."
+    },
+    "https://efsa.onlinelibrary.wiley.com/doi/10.2903/j.efsa.2020.6160": {
+      "loaded": true,
+      "checked": "2026-10-10",
+      "method": "Web reader returned readable page text; description, identification or assessment section inspected."
+    },
+    "https://efsa.onlinelibrary.wiley.com/doi/10.2903/j.efsa.2025.9365": {
+      "loaded": true,
+      "checked": "2026-10-10",
+      "method": "Web reader returned readable page text; description, identification or assessment section inspected."
+    },
+    "https://efsa.onlinelibrary.wiley.com/doi/10.2903/j.efsa.2015.4160": {
+      "loaded": true,
+      "checked": "2026-10-10",
+      "method": "Web reader returned readable page text; description, identification or assessment section inspected."
+    },
+    "https://efsa.onlinelibrary.wiley.com/doi/10.2903/j.efsa.2025.9781": {
+      "loaded": true,
+      "checked": "2026-10-10",
+      "method": "Web reader returned readable page text; description, identification or assessment section inspected."
+    },
+    "https://efsa.onlinelibrary.wiley.com/doi/10.2903/j.efsa.2023.8457": {
+      "loaded": true,
+      "checked": "2026-10-10",
+      "method": "Web reader returned readable page text; description, identification or assessment section inspected."
+    },
+    "https://efsa.onlinelibrary.wiley.com/doi/10.2903/j.efsa.2014.3643": {
+      "loaded": true,
+      "checked": "2026-10-10",
+      "method": "Web reader returned readable page text; description, identification or assessment section inspected."
+    },
+    "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32025R0757": {
+      "loaded": true,
+      "checked": "2026-10-10",
+      "method": "Web reader returned readable page text; description, identification or assessment section inspected."
+    },
+    "https://www.fao.org/4/w6355e/w6355e0o.htm": {
+      "loaded": true,
+      "checked": "2026-10-10",
+      "method": "Web reader returned readable page text; description, identification or assessment section inspected."
+    },
+    "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/1,3-butanediol/description/JSON": {
+      "loaded": true,
+      "checked": "2026-10-10",
+      "method": "HTTP GET and parsed PubChem description JSON",
+      "http_status": 200
+    },
+    "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/9920343/description/JSON": {
+      "loaded": true,
+      "checked": "2026-10-10",
+      "method": "HTTP GET and parsed PubChem compound description JSON",
+      "http_status": 200
+    },
+    "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/122213/description/JSON": {
+      "loaded": true,
+      "checked": "2026-10-10",
+      "method": "HTTP GET and parsed PubChem compound description JSON",
+      "http_status": 200
+    },
+    "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/12496/description/JSON": {
+      "loaded": true,
+      "checked": "2026-10-10",
+      "method": "HTTP GET and parsed PubChem compound description JSON",
+      "http_status": 200
+    },
+    "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/78942/description/JSON": {
+      "loaded": true,
+      "checked": "2026-10-10",
+      "method": "HTTP GET and parsed PubChem compound description JSON",
+      "http_status": 200
+    },
+    "https://en.wikipedia.org/wiki/Spiramycin": {
+      "loaded": true,
+      "checked": "2026-10-10",
+      "method": "Web reader returned readable identification or specification text."
+    },
+    "https://en.wikipedia.org/wiki/Calcium_aluminate": {
+      "loaded": true,
+      "checked": "2026-10-10",
+      "method": "Web reader returned readable identification or specification text."
+    },
+    "https://en.wikipedia.org/wiki/Fatty_acid_methyl_ester": {
+      "loaded": true,
+      "checked": "2026-10-10",
+      "method": "Web reader returned readable identification or specification text."
+    },
+    "https://en.wikipedia.org/wiki/Modified_starch": {
+      "loaded": true,
+      "checked": "2026-10-10",
+      "method": "Web reader returned readable identification or specification text."
+    },
+    "https://en.wikipedia.org/wiki/Guaiacum": {
+      "loaded": true,
+      "checked": "2026-10-10",
+      "method": "Web reader returned readable identification or specification text."
+    },
+    "https://en.wikipedia.org/wiki/Formaldehyde": {
+      "loaded": true,
+      "checked": "2026-10-10",
+      "method": "Web reader returned readable identification or specification text."
+    },
+    "https://en.wikipedia.org/wiki/Food_orange_7": {
+      "loaded": true,
+      "checked": "2026-10-10",
+      "method": "Web reader returned readable identification or specification text."
+    },
+    "https://en.wikipedia.org/wiki/Ammonium_polyphosphate": {
+      "loaded": true,
+      "checked": "2026-10-10",
+      "method": "Web reader returned readable identification or specification text."
+    },
+    "https://fr.wikipedia.org/wiki/Heptonolactone": {
+      "loaded": true,
+      "checked": "2026-10-10",
+      "method": "Web reader returned readable identification or specification text."
+    },
+    "https://www.fao.org/input/download/report/702/al31_12e.pdf": {
+      "loaded": true,
+      "checked": "2026-10-10",
+      "method": "Web reader returned readable identification or specification text."
+    },
+    "https://webprod.hc-sc.gc.ca/nhpid-bdipsn/ingredReq?id=493": {
+      "loaded": true,
+      "checked": "2026-10-10",
+      "method": "Web reader returned readable identification or specification text."
+    },
+    "https://pubchem.ncbi.nlm.nih.gov/compound/26266-58-0": {
+      "loaded": true,
+      "checked": "2026-10-10",
+      "method": "Web search reader returned the full indexed PubChem compound record, including structure, identifiers and physical description. Direct open displayed a JavaScript requirement."
     }
   }
 }

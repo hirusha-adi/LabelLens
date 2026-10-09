@@ -7,15 +7,18 @@
     "icon": "mdi-check-circle",
     "more_info": {
         "banned_in": "Approved in the EU.",
-        "overview": "Sodium erythorbate is used as an antioxidant in food. Its technological role is to slow oxidation in food.",
-        "uses": "EU permissions include non-heat-treated processed meat, heat-treated meat products, unprocessed fish, processed fish and fishery products including molluscs and crustaceans. These permissions depend on the food category and its conditions of use.",
+        "overview": "Sodium erythorbate is a sodium salt of erythorbic acid, specified as a distinct chemical preparation for food manufacture. Its antioxidant role is to slow oxidation that can cause rancidity or unwanted colour changes during storage. The specified material is supplied as white crystalline material or solid. The specification identifies water solubility as one of its properties.",
+        "uses": "Examples in the EU food-use list include certain non-heat–treated meat products; heat–treated meat products; processed fish and fishery products including molluscs and crustaceans; fish roe; unprocessed fish.\nThe entries apply to particular food categories and may limit the amount, the preparation or the way it is used; they do not show how often the additive appears in retail products.",
         "daily_intake": "6 mg/kg body weight/day, combined erythorbic acid and sodium erythorbate (EFSA, 2016).",
         "articles": {
             "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/2641",
             "EUR-Lex specifications": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231",
             "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
             "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
-            "EFSA": "https://www.efsa.europa.eu/en/efsajournal/pub/4360"
+            "EFSA": "https://www.efsa.europa.eu/en/efsajournal/pub/4360",
+            "EUR-Lex": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32012R0231",
+            "EUR-Lex (2)": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02008R1333-20260818",
+            "WHO JECFA (2)": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/1550"
         },
         "side_effects": "Assessed food-use estimates remained below the limit.\nAnimal body-weight effects at higher doses supported the limit; the review found no genotoxicity concern."
     }

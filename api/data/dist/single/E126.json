@@ -7,13 +7,14 @@
     "icon": "mdi-alert-circle",
     "more_info": {
         "banned_in": "JECFA records withdrawn specifications in 1984; no current EU or US food-colour listing was verified in 2026.",
-        "overview": "Ponceau 6R is a red azo colour identified as C.I. Food Red 8. JECFA lists it under the former E126 designation. Its intended food function is colouring.",
+        "overview": "Ponceau 6R is a synthetic azo colour specified as a tetrasodium salt of a sulphonated naphthalene dye. Its colouring function is to add or restore colour in the food. The available identity record does not establish a typical retail-food example for this exact preparation. Commercial specifications and legal conditions need to refer to the particular substance or preparation named here.",
         "daily_intake": "ADI decision postponed (JECFA, 1977); no ADI allocated in the 1974 assessment.",
         "side_effects": "The 1974 JECFA monograph reported human sensitisation after oral intake. The small evidence base did not establish a reliable frequency or threshold at food-use levels.\nThe long-term animal studies were too small and incomplete to assess toxicity adequately, and reproductive data were missing. This assessment gap does not establish safety at high doses.",
         "articles": {
             "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/3822",
             "WHO toxicology (INCHEM)": "https://www.inchem.org/documents/jecfa/jecmono/v06je27.htm",
-            "Wikipedia": "https://en.wikipedia.org/wiki/Ponceau_6R"
+            "Wikipedia": "https://en.wikipedia.org/wiki/Ponceau_6R",
+            "EUR-Lex": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02008R1333-20260818"
         }
     }
 }

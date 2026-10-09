@@ -2,13 +2,18 @@
     "code": "E566",
     "names": "Natrolite-phonolite",
     "display_name": "E566 (Natrolite-phonolite)",
-    "type": "unclassified",
+    "type": "feed anti-caking agent",
     "status": "",
-    "icon": "mdi-check-circle",
+    "icon": "mdi-alert-circle",
     "more_info": {
         "articles": {
             "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
-            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
-        }
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "EFSA Journal (Wiley)": "https://efsa.onlinelibrary.wiley.com/doi/10.2903/j.efsa.2023.8457"
+        },
+        "overview": "Natrolite-phonolite is a natural mixture of aluminosilicate minerals from volcanic rock. The preparation assessed by EFSA contains natrolite together with feldspar and other mineral components. It is made by quarrying, crushing, heat conditioning and fine grinding. Its proposed technological use is to reduce caking in animal feed. The mineral mixture and source deposit are part of the identity of the preparation assessed.",
+        "origin": "Mineral-derived. The assessed preparation is made from volcanic rock quarried in the Kaiserstuhl area of Germany, then crushed, milled, conditioned at 350 to 400 degrees Celsius and finely ground.",
+        "precautions": "EFSA could not conclude on target-animal safety of the assessed natrolite-phonolite feed preparation in 2023. Risks associated with possible nanoparticles could not be assessed for animals, consumers or users; handling also raised sensitisation concerns. These findings concern the specified feed material and do not establish a typical direct human-food use.",
+        "banned_in": "EFSA identified safety concerns or unresolved safety data for the animal-feed preparation in 2023."
     }
 }

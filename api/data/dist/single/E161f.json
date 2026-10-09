@@ -8,8 +8,10 @@
     "more_info": {
         "articles": {
             "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
-            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "PubChem": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Rhodoxanthin/description/JSON",
+            "EUR-Lex": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02008R1333-20260818"
         },
-        "overview": "Rhodoxanthin is classified in food technology as a color. Its technological role is to add or restore colour."
+        "overview": "Rhodoxanthin is a chemically defined xanthophyll pigment in the oxygen-containing carotenoid family. The historical entry classifies it as a food colour. The chemical description establishes the pigment identity, while current food examples and manufacture were not confirmed. An intake value for a different xanthophyll cannot be applied to this entry."
     }
 }

@@ -7,11 +7,13 @@
     "icon": "mdi-check-circle",
     "more_info": {
         "banned_in": "Approved in the US.\nUS food use is subject to the listed CFR provisions and their conditions, checked in 2026.",
-        "overview": "Bakers yeast glycan is used as an emulsifier in food. Its technological role is to help oil and water remain mixed.",
+        "overview": "Bakers yeast glycan is processed cell-wall material from Saccharomyces cerevisiae yeast. It contains predominantly long-chain carbohydrates, with glycan and mannan components in an approximate two-to-one ratio. Its food functions include thickening, stabilising, emulsifying and adjusting texture. FDA describes use in salad dressings, dessert and sour-cream alternatives, cheese-spread alternatives and some snack dips.",
         "articles": {
             "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
             "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
             "eCFR Title 21": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=172"
-        }
+        },
+        "origin": "Produced from the cell walls of Saccharomyces cerevisiae, the yeast used in baking. The walls are broken into small particles, washed, pasteurised and dried. This is a processed microbial material, predominantly cell-wall carbohydrates.",
+        "uses": "FDA lists salad dressings, frozen-dessert alternatives, sour-cream alternatives, cheese-spread alternatives and cheese- or sour-cream-flavoured snack dips. Salad dressing has a 5% maximum, while the other listed uses follow their stated manufacturing limits."
     }
 }

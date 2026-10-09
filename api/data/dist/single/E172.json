@@ -7,15 +7,19 @@
     "icon": "mdi-alert-circle",
     "more_info": {
         "banned_in": "Approved in the EU.",
-        "overview": "Iron oxides and iron hydroxides is used as a color in food. Its technological role is to add or restore food colour.",
-        "uses": "EU permissions include entire fresh fruit and vegetables, fruit and vegetable preparations excluding compote, processed fish and fishery products including molluscs and crustaceans. These permissions depend on the food category and its conditions of use.",
+        "overview": "Iron oxides and hydroxides are inorganic colouring pigments with different compositions producing yellow, red, brown or black shades. It is used to add colour or restore colour lost during food manufacture. Iron oxides and hydroxides are manufactured synthetically and purified to limit contamination by other metals. The different oxide forms provide yellow, red, brown or black pigments. The specified material is supplied as yellow powder. The specification describes it as effectively insoluble in water.",
+        "uses": "Examples in the EU food-use list include certain other confectionery including breath freshening microsweets; chewing gum; decorations, coatings and fillings, except fruit-based fillings covered by category 4.2.4; flavoured drinks; flavoured fermented milk products including heat-treated products; unripened cheese excluding products falling in category 16.\nThe entries apply to particular food categories and may limit the amount, the preparation or the way it is used; they do not show how often the additive appears in retail products.",
         "daily_intake": "0-0.5 mg/kg body weight (JECFA, 1999).",
         "articles": {
             "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/949",
             "EUR-Lex specifications": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231",
             "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
             "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
-            "EFSA": "https://www.efsa.europa.eu/en/efsajournal/pub/4317"
+            "EFSA": "https://www.efsa.europa.eu/en/efsajournal/pub/4317",
+            "EUR-Lex": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32012R0231",
+            "EUR-Lex (2)": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02008R1333-20260818",
+            "WHO JECFA (2)": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/948",
+            "WHO JECFA (3)": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/1699"
         },
         "origin": "Iron oxides and hydroxides are manufactured synthetically and purified to limit contamination by other metals. The different oxide forms provide yellow, red, brown or black pigments.",
         "side_effects": "EFSA could not complete a food-additive safety assessment in 2015 because the available data were insufficient.\nSome laboratory cell tests were positive for DNA effects; their significance for human food exposure remained unresolved."

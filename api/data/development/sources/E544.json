@@ -11,14 +11,13 @@
       "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
     ],
     "overview": [
-      "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818"
+      "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32012R0231"
     ]
   },
   "inputs": {
     "names": "development/ins-summary-original.json",
     "display_name": "development/ins-summary-original.json",
-    "type": "development/ins-summary-original.json",
-    "overview": "development/ins-summary-original.json"
+    "type": "development/ins-summary-original.json"
   },
   "gaps": [
     "Current EU food-use permission was not established for the exact identity or complete group named by this entry; no e flag is asserted.",
@@ -34,6 +33,7 @@
   "changes": [
     "Replaced the legacy layout with rich fields and removed unsupported inherited health, dietary and intake assertions.",
     "code: '544' -> 'E544'; restored the required prefix and filename identity.",
-    "name/href/function and characteristics/products replaced by the required rich schema; only sourced facts were retained."
+    "name/href/function and characteristics/products replaced by the required rich schema; only sourced facts were retained.",
+    "2026-10-10 description expansion: overview replaced or added with compound-specific detail from the linked field sources."
   ]
 }

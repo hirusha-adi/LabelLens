@@ -8,8 +8,11 @@
     "more_info": {
         "articles": {
             "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
-            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "Wikipedia": "https://en.wikipedia.org/wiki/Spermaceti"
         },
-        "overview": "Spermaceti wax is classified in food technology as a glazing agent. Its technological role is to provide a surface coating."
+        "overview": "Spermaceti is an animal wax associated with the sperm whale. It consists mainly of wax esters, especially cetyl palmitate, with a smaller triglyceride component. It solidifies on cooling and is insoluble in water. This historical glazing-agent entry concerns that wax mixture. It should not be treated as a plant wax or as a description of every synthetic cetyl-palmitate preparation.",
+        "origin": "Animal-derived wax historically recovered from the spermaceti organ of sperm whales. The material is a mixture predominantly containing wax esters.",
+        "dietary_restrictions": "The natural wax is animal derived and is not suitable for vegans or vegetarians. The reviewed description does not establish halal or kosher certification."
     }
 }

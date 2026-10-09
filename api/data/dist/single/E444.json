@@ -7,16 +7,19 @@
     "icon": "mdi-check-circle",
     "more_info": {
         "banned_in": "Approved in the EU.",
-        "overview": "Sucrose acetate isobutyrate is used as a flavour enhancer in food. Its technological role is to strengthen flavours already present in food.",
-        "uses": "EU permissions include flavoured drinks. These permissions depend on the food category and its conditions of use.",
+        "overview": "Sucrose acetate isobutyrate is a mixture of sucrose esters containing acetate and isobutyrate groups, produced by reacting sucrose with the corresponding anhydrides. Its emulsifying role is to help form or maintain mixtures of oil and water in the finished food. The specified preparation is a pale, straw-coloured liquid. The specification describes it as effectively insoluble in water.",
+        "uses": "Examples in the EU food-use list include certain flavoured drinks; other alcoholic beverages including mixtures of alcoholic beverages with non-alcoholic beverages and other alcoholic beverages based on distilled alcohol with alcoholic strength by volume less than 15 %.\nThe entries apply to particular food categories and may limit the amount, the preparation or the way it is used; they do not show how often the additive appears in retail products.",
         "daily_intake": "20 mg/kg body weight/day (EFSA, 2016).",
         "articles": {
             "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/508",
             "EUR-Lex specifications": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231",
             "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
             "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
-            "EFSA": "https://www.efsa.europa.eu/en/efsajournal/pub/4489"
+            "EFSA": "https://www.efsa.europa.eu/en/efsajournal/pub/4489",
+            "EUR-Lex": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32012R0231",
+            "EUR-Lex (2)": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02008R1333-20260818"
         },
-        "side_effects": "Assessed food-use estimates were below the limit.\nAnimal chronic and reproductive studies found no effects at the highest tested dose used to derive the limit."
+        "side_effects": "Assessed food-use estimates were below the limit.\nAnimal chronic and reproductive studies found no effects at the highest tested dose used to derive the limit.",
+        "origin": "Chemically manufactured from food-grade sucrose reacted with acetic and isobutyric anhydrides, followed by distillation. The final ingredient is an ester mixture."
     }
 }

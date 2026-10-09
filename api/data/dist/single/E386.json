@@ -3,15 +3,19 @@
     "names": "Disodium ethylene diamine tetraacetate (Disodium EDTA)",
     "display_name": "E386 (Disodium ethylene diamine tetraacetate)",
     "type": "sequestrant",
-    "status": "",
+    "status": "u",
     "icon": "mdi-check-circle",
     "more_info": {
-        "overview": "Disodium ethylene diamine tetraacetate is used as a preservative in food. Its technological role is to help limit microbial spoilage.",
-        "daily_intake": "0-2.5 mg/kg body weight (JECFA, 1973).",
+        "overview": "Disodium EDTA is the disodium salt of ethylenediaminetetraacetic acid, also called disodium edetate. Its metal-binding action can help preserve foods and retain their colour. FDA describes particular applications in canned legumes, strawberry pie filling, dressings, sauces, mayonnaise and some other foods. These applications have individual limits, and some allow use together with calcium disodium EDTA. The two EDTA preparations are separately specified ingredients.",
+        "daily_intake": "0-2.5 mg/kg body weight, expressed as calcium disodium EDTA (JECFA, 1973). The assessment states that no excess disodium EDTA is to remain in food.",
         "articles": {
             "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/386",
             "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
-            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
-        }
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "eCFR": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=172",
+            "EUR-Lex": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02008R1333-20260818"
+        },
+        "uses": "Specified US uses include certain canned legumes, strawberry pie filling, dressings, mayonnaise, sauces, frozen potatoes and cooked sausage. The permitted purpose and amount depend on the food.",
+        "banned_in": "Approved in the US.\nUS food use follows the preparation-specific conditions in 21 CFR 172.135, checked in 2026."
     }
 }

@@ -8,7 +8,9 @@
     "more_info": {
         "articles": {
             "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
-            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
-        }
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "Wikipedia": "https://en.wikipedia.org/wiki/Tetracycline_antibiotics"
+        },
+        "overview": "Tetracyclines is the name of a family of antimicrobial compounds, including tetracycline and related derivatives. The members share a related chemical framework but are separately identified substances. This is a historical antibiotic entry, not the name of a conventional colour, preservative mixture or texture ingredient. The general identity source does not establish a current direct human-food application for the entire family."
     }
 }

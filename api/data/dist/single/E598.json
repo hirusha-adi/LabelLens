@@ -8,7 +8,9 @@
     "more_info": {
         "articles": {
             "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
-            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
-        }
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "Wikipedia": "https://en.wikipedia.org/wiki/Calcium_aluminate"
+        },
+        "overview": "Synthetic calcium aluminates is a group name for materials made from calcium-oxide and aluminium-oxide components. Several calcium-to-aluminium compositions and crystalline phases are possible. A general chemical description therefore does not identify one commercial additive preparation. The exact material and technological food function covered by this historical designation were not confirmed. Industrial calcium-aluminate materials cannot be treated as evidence of a food-grade product."
     }
 }

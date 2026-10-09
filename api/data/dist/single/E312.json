@@ -6,13 +6,16 @@
     "status": "",
     "icon": "mdi-check-circle",
     "more_info": {
-        "overview": "Dodecyl gallate is used as an antioxidant in food. Its technological role is to slow oxidation in food.",
+        "overview": "Dodecyl gallate is the dodecyl ester of gallic acid, specified as a phenolic antioxidant for food use. Its antioxidant role is to slow oxidation that can cause rancidity or unwanted colour changes during storage. The specified material is supplied as white solid. The specification describes it as effectively insoluble in water.",
         "daily_intake": "No ADI allocated (JECFA, 1996).",
         "articles": {
             "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/1885",
             "EUR-Lex specifications": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231",
             "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
-            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "EUR-Lex": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32012R0231",
+            "EUR-Lex (2)": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02008R1333-20260818",
+            "WHO JECFA (2)": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/3821"
         }
     }
 }

@@ -7,13 +7,15 @@
     "icon": "mdi-check-circle",
     "more_info": {
         "banned_in": "Approved in the EU.\nApproved in the US.\nUS food use is subject to the listed CFR provisions and their conditions, checked in 2026.",
-        "overview": "Fatty acid salts is used as an emulsifier in food. Its technological role is to help oil and water remain mixed.",
+        "overview": "Fatty-acid salts is a group name covering salts made with different metals and fatty-acid preparations. The EU specifications distinguish sodium, potassium and calcium salts from magnesium salts. Their technological functions include emulsifying and reducing caking, depending on the particular preparation and application. Powder, flake and crystalline forms occur in the specifications. The broad E470 label does not identify the metal, fatty-acid feedstock or one uniform commercial product.",
         "daily_intake": "For sodium oleate: No ADI specified (JECFA, 1988). This evaluation does not establish an ADI for every form in the named group.",
         "articles": {
             "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/5229",
             "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
             "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
-            "eCFR Title 21": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=184"
+            "eCFR Title 21": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=184",
+            "EUR-Lex": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32012R0231",
+            "EUR-Lex (2)": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02008R1333-20260818"
         }
     }
 }

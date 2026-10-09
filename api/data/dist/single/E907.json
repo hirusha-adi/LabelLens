@@ -7,15 +7,17 @@
     "icon": "mdi-check-circle",
     "more_info": {
         "banned_in": "Approved in the EU.",
-        "uses": "EU permissions include dried fruit and vegetables, other confectionery including breath freshening micro-sweets, chewing gum. These permissions depend on the food category and its conditions of use.",
+        "uses": "Examples in the EU food-use list include certain other confectionery including breath freshening microsweets; chewing gum; decorations, coatings and fillings, except fruit-based fillings covered by category 4.2.4; dried fruit and vegetables.\nThe entries apply to particular food categories and may limit the amount, the preparation or the way it is used; they do not show how often the additive appears in retail products.",
         "articles": {
             "EUR-Lex specifications": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231",
             "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
             "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
-            "EFSA": "https://www.efsa.europa.eu/en/efsajournal/pub/6034"
+            "EFSA": "https://www.efsa.europa.eu/en/efsajournal/pub/6034",
+            "EUR-Lex": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32012R0231",
+            "EUR-Lex (2)": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02008R1333-20260818"
         },
         "daily_intake": "20 mg/kg body weight/day (EFSA, 2020).",
         "side_effects": "Maximum-permitted-use estimates were below the limit.\nThe limit used animal subchronic evidence; longer-term and reproductive studies were unavailable.",
-        "overview": "Hydrogenated poly-1-decene is a synthetic hydrocarbon wax. It is used as a glazing ingredient on the surface of specified foods."
+        "overview": "Hydrogenated poly-1-decene is a mixture of hydrogenated decene oligomers, specified as a synthetic hydrocarbon preparation. It forms a surface coating that gives the food a shiny appearance or provides a protective finish. The specification describes it as effectively insoluble in water. EU permissions include dried fruit and vegetables, other confectionery including breath freshening micro-sweets, chewing gum."
     }
 }

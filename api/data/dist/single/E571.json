@@ -8,8 +8,9 @@
     "more_info": {
         "articles": {
             "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
-            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "Wikipedia": "https://en.wikipedia.org/wiki/Ammonium_stearate"
         },
-        "overview": "Ammonium stearate is classified in food technology as an anti-caking agent. Its technological role is to keep powders free-flowing."
+        "overview": "Ammonium stearate is the ammonium salt of stearic acid. It can be prepared by reacting stearic acid with ammonium carbonate or ammonium hydroxide. The fatty-acid salt is chemically different from magnesium, calcium or aluminium stearate. The dataset retains a historical anti-caking classification, while a current human-food example for the exact preparation was not confirmed."
     }
 }

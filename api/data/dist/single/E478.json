@@ -1,15 +1,20 @@
 {
     "code": "E478",
-    "names": "Lactylated fatty acid esters of glycerol and propane-1",
-    "display_name": "E478 (Lactylated fatty acid esters of glycerol and propane-1)",
+    "names": "Lactylated fatty acid esters of glycerol and propylene glycol",
+    "display_name": "E478 (Lactylated glycerol and propylene glycol esters)",
     "type": "emulsifier",
-    "status": "",
+    "status": "u",
     "icon": "mdi-check-circle",
     "more_info": {
         "articles": {
             "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
-            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "eCFR": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=172",
+            "EUR-Lex": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02008R1333-20260818"
         },
-        "overview": "Lactylated fatty acid esters of glycerol and propane-1 is classified in food technology as an emulsifier. Its technological role is to help oil and water stay mixed."
+        "overview": "Lactylated fatty acid esters of glycerol and propylene glycol are a manufactured mixture of fatty-acid esters further modified with lactic-acid groups. FDA describes production by lactylating a product made from edible fats or oils reacted with propylene glycol. The specified preparation has emulsifying, plasticising and surface-active functions in food. Its composition is controlled through limits on combined lactic acid and acidity. The starting fat or oil source is not fixed by the generic ingredient name.",
+        "origin": "Manufactured by reacting edible fats or oils with propylene glycol, then lactylating the resulting material. The regulation does not restrict all fat or oil feedstocks to one plant or animal source.",
+        "uses": "Used as an emulsifier, plasticiser or surface-active ingredient in food at the amount needed for the intended effect, under 21 CFR 172.850. The regulation does not supply a list of typical retail-food examples.",
+        "banned_in": "Approved in the US.\nUS use follows the preparation-specific conditions of 21 CFR 172.850, checked in 2026."
     }
 }

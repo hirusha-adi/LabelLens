@@ -7,11 +7,12 @@
     "icon": "mdi-check-circle",
     "more_info": {
         "banned_in": "Approved in the US.\nUS food use is subject to the listed CFR provisions and their conditions, checked in 2026.",
-        "overview": "Ethoxyquin is used as an antioxidant in food. Its technological role is to slow oxidation in food.",
+        "overview": "Ethoxyquin is a defined quinoline-derived antioxidant. In the direct-food application described by FDA, it protects the colour of paprika, ground chilli and chilli powder. This permission has a maximum concentration of 100 parts per million. The same regulation separately discusses residues from animal-feed use; those residue limits describe a different exposure route.",
         "articles": {
             "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
             "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
             "eCFR Title 21": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=172"
-        }
+        },
+        "uses": "Used to protect colour during manufacture of paprika, ground chilli and chilli powder. The US limit for that direct-food use is 100 parts per million. Animal-feed residues are addressed separately in the regulation and are not an example of adding ethoxyquin to a retail food."
     }
 }

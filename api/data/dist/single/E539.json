@@ -7,13 +7,15 @@
     "icon": "mdi-check-circle",
     "more_info": {
         "banned_in": "Approved in the US.\nUS food use is subject to the listed CFR provisions and their conditions, checked in 2026.",
-        "overview": "Sodium thiosulphate is used as a preservative in food. Its technological role is to help limit microbial spoilage.",
+        "overview": "Sodium thiosulphate is an inorganic sodium salt chemically distinct from sodium sulphite. FDA describes manufacturing routes involving sulphur and sulphite, or reactions and oxidation of sulphide materials. Its listed direct-food functions are formulation assistance and reduction, with applications in alcoholic beverages and table salt. JECFA also identifies preservative and antioxidant functions for this compound.",
         "daily_intake": "0-0.7 mg/kg body weight (JECFA, 1998). The JECFA group limit is expressed as sulphur dioxide equivalents.",
         "articles": {
             "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/1812",
             "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
             "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
             "eCFR Title 21": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=184"
-        }
+        },
+        "origin": "Chemically manufactured. FDA describes production from sulphides and sulphur dioxide, from sulphur and sulphite, or by oxidation of metal sulphides or hydrosulphides.",
+        "uses": "FDA lists formulation-aid and reducing-agent uses in alcoholic beverages and table salt. The stated maximum levels are 0.00005% and 0.1%, respectively, in the served foods."
     }
 }

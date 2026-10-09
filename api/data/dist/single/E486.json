@@ -8,8 +8,9 @@
     "more_info": {
         "articles": {
             "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
-            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "EUR-Lex": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02008R1333-20260818"
         },
-        "overview": "Calcium stearoyl fumarate is classified in food technology as an emulsifier. Its technological role is to help oil and water stay mixed."
+        "overview": "This historical label names a calcium stearoyl fumarate preparation. The supplied classification places it among emulsifiers, but a compound specification that establishes the exact ester and calcium-salt composition was not confirmed. It should not be assigned the properties of sodium stearyl fumarate or a stearoyl lactylate merely because the names are similar. Manufacture, typical food examples and a preparation-specific intake limit remain unconfirmed."
     }
 }

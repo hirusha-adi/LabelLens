@@ -8,8 +8,9 @@
     "more_info": {
         "articles": {
             "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
-            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "PubChem": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/122213/description/JSON"
         },
-        "overview": "Magnesium pyrophosphate is classified in food technology as an emulsifier. Its technological role is to help oil and water stay mixed."
+        "overview": "Magnesium pyrophosphate is a magnesium salt of diphosphoric acid, also called magnesium diphosphate. The defined anhydrous compound contains two magnesium atoms for each diphosphate group. This distinguishes it from magnesium orthophosphates and from broad magnesium-polyphosphate mixtures. The historical dataset assigns an emulsifying role, while a particular food-grade preparation and typical current food examples were not confirmed."
     }
 }

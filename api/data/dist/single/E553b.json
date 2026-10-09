@@ -7,13 +7,15 @@
     "icon": "mdi-alert-circle",
     "more_info": {
         "banned_in": "Approved in the EU.",
-        "overview": "Talc is used as a sweetener in food. Its technological role is to provide sweetness.",
-        "uses": "EU permissions include chewing gum, whole broken or flaked grain, non-heat-treated processed meat, heat-treated meat products. These permissions depend on the food category and its conditions of use.",
+        "overview": "Talc is a naturally occurring hydrated magnesium silicate; the food-grade specification requires the material to be free of asbestos. Its anti-caking role is to reduce the tendency of particles in a food powder to stick together. A naturally occurring hydrated magnesium silicate mineral. Food-grade talc is required to be free of asbestos. The specified material is supplied as white powder. The specification describes it as effectively insoluble in water.",
+        "uses": "Examples in the EU food-use list include certain chewing gum; meat preparations as defined by Regulation No 853/2004; non-heat–treated meat products; whole, broken, or flaked grain; dairy analogues, including beverage whiteners; vegetable oil pan spray.\nThe entries apply to particular food categories and may limit the amount, the preparation or the way it is used; they do not show how often the additive appears in retail products.",
         "articles": {
             "EUR-Lex specifications": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231",
             "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
             "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
-            "EFSA": "https://www.efsa.europa.eu/en/efsajournal/pub/5375"
+            "EFSA": "https://www.efsa.europa.eu/en/efsajournal/pub/5375",
+            "EUR-Lex": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32012R0231",
+            "EUR-Lex (2)": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02008R1333-20260818"
         },
         "origin": "A naturally occurring hydrated magnesium silicate mineral. Food-grade talc is required to be free of asbestos.",
         "side_effects": "EFSA could not assess food-use safety because the toxicology data were insufficient in 2018.\nThe former shared silicate intake limit was considered obsolete."

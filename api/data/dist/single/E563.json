@@ -2,13 +2,17 @@
     "code": "E563",
     "names": "Sepiolitic clay",
     "display_name": "E563 (Sepiolitic clay)",
-    "type": "unclassified",
+    "type": "feed binder (anti-caking)",
     "status": "",
-    "icon": "mdi-check-circle",
+    "icon": "mdi-alert-circle",
     "more_info": {
         "articles": {
             "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
-            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
-        }
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "EFSA Journal (Wiley)": "https://efsa.onlinelibrary.wiley.com/doi/10.2903/j.efsa.2025.9365"
+        },
+        "overview": "Sepiolitic clay is a mineral mixture containing sepiolite, illite and other clay or non-clay components. EFSA's 2025 assessment specifies minimum proportions of sepiolite and illite for the preparation it evaluated. Its technological application is as a binder and anti-caking material in animal feed. The composition is therefore a mixture rather than pure sepiolite. The feed assessment does not supply a typical human-food example for this legacy entry.",
+        "precautions": "EFSA's 2025 assessment described respiratory and skin sensitisation and an inhalation risk from dust and silica in the sepiolitic-clay feed preparation. The concerns relate to handling the feed material, not a demonstrated effect from eating foods produced by treated animals.",
+        "banned_in": "EFSA identified safety concerns or unresolved safety data for the animal-feed preparation in 2025."
     }
 }

@@ -8,8 +8,9 @@
     "more_info": {
         "articles": {
             "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
-            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "Wikipedia": "https://en.wikipedia.org/wiki/Iron(II)_carbonate"
         },
-        "overview": "Ferrous carbonate is classified in food technology as an acidity regulator. Its technological role is to control acidity."
+        "overview": "Ferrous carbonate is the inorganic iron(II) salt of carbonate. Its naturally occurring mineral form is siderite, while the same chemical identity can also be prepared synthetically. The iron oxidation state distinguishes it from ferric compounds. The historical dataset classifies it as an acidity regulator, but a particular food-grade preparation and typical current food examples were not confirmed."
     }
 }

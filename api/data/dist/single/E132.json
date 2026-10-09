@@ -7,14 +7,20 @@
     "icon": "mdi-check-circle",
     "more_info": {
         "banned_in": "Approved in the EU.\nApproved in the US.\nUS food use is subject to the listed CFR provisions and their conditions, checked in 2026.",
-        "overview": "Indigo carmine is used as a color in food. Its technological role is to add or restore food colour.",
+        "overview": "Indigo carmine, also called indigotine or FD&C Blue 2, is a sulphonated indigo dye supplied mainly as disodium salts. It is used to add colour or restore colour lost during food manufacture. The specified material is supplied as deep blue powder or granules.",
         "daily_intake": "0-5 mg/kg body weight (JECFA, 2018).",
         "articles": {
             "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/3093",
             "EUR-Lex specifications": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231",
             "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
             "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
-            "eCFR Title 21": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=74"
-        }
+            "eCFR Title 21": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=74",
+            "EUR-Lex": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32012R0231",
+            "EUR-Lex (2)": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02008R1333-20260818",
+            "WHO JECFA (2)": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/2109",
+            "WHO JECFA (3)": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/2814"
+        },
+        "uses": "Examples in the EU food-use list include certain other confectionery including breath freshening microsweets; chewing gum; decorations, coatings and fillings, except fruit-based fillings covered by category 4.2.4; flavoured drinks; flavoured fermented milk products including heat-treated products; unripened cheese excluding products falling in category 16.\nThe entries apply to particular food categories and may limit the amount, the preparation or the way it is used; they do not show how often the additive appears in retail products.",
+        "origin": "Chemically manufactured by sulphonating indigo with sulphuric acid, followed by isolation and purification of the dye. The FDA specification describes a synthetic indigo starting material."
     }
 }

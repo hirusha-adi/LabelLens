@@ -7,18 +7,20 @@
     "icon": "mdi-alert-circle",
     "more_info": {
         "banned_in": "Approved in the EU.\nFDA lists turmeric oleoresin under 21 CFR 73.615; coverage of the purified E100 curcumin preparation was not verified in 2026.",
-        "overview": "Curcumin is the principal yellow pigment in turmeric. Food-grade E100 is a concentrated extract containing curcumin and related pigments. It adds yellow to orange colour to foods.",
+        "overview": "Curcumin is the principal yellow pigment in turmeric. Food-grade E100 is a concentrated extract containing curcumin and related pigments. It adds yellow to orange colour to foods. The specified material is supplied as yellow powder or crystalline material.",
         "origin": "Plant-derived. Ground turmeric rhizomes are extracted with solvents, and the extract is crystallised to concentrate the colouring compounds.",
         "daily_intake": "0–3 mg/kg body weight per day (JECFA, 2003); 3 mg/kg body weight per day (EFSA, 2010).",
         "side_effects": "At food-use exposures, EFSA retained its ADI; its 2014 assessment nevertheless estimated that some high-consuming toddlers and children could reach or exceed it. These are exposure estimates, not observed symptoms.\nAt high experimental doses, reduced weight gain in second-generation rats was the endpoint used to set the ADI. This animal evidence does not establish the same effect at ordinary human food intakes.",
-        "uses": "Examples of permitted EU uses include certain processed cheeses, spreads, fruit preparations and processed potato products. The categories and limits depend on the food.",
+        "uses": "Examples in the EU food-use list include certain other confectionery including breath freshening microsweets; chewing gum; decorations, coatings and fillings, except fruit-based fillings covered by category 4.2.4; flavoured drinks; flavoured fermented milk products including heat-treated products; unripened cheese excluding products falling in category 16.\nThe entries apply to particular food categories and may limit the amount, the preparation or the way it is used; they do not show how often the additive appears in retail products.",
         "dietary_restrictions": "The pigment is extracted from turmeric, a plant, so the pigment itself is compatible with vegan and vegetarian diets.",
         "articles": {
             "EFSA Journal (2010)": "https://efsa.onlinelibrary.wiley.com/doi/10.2903/j.efsa.2010.1679",
             "EFSA Journal (2014)": "https://efsa.onlinelibrary.wiley.com/doi/10.2903/j.efsa.2014.3876",
             "eCFR": "https://www.ecfr.gov/current/title-21/section-73.615",
             "European Commission database": "https://ec.europa.eu/food/food-feed-portal/backend/api/policy-items/POL-FAD-IMPORT-2985",
-            "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/1355"
+            "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/1355",
+            "EUR-Lex": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32012R0231",
+            "EUR-Lex (2)": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02008R1333-20260818"
         }
     }
 }

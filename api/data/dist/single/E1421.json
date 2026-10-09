@@ -8,8 +8,10 @@
     "more_info": {
         "articles": {
             "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
-            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "eCFR": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=172"
         },
-        "overview": "Starch acetate esterified with vinyl acetate is classified in food technology as a thickening agent. Its technological role is to increase thickness."
+        "overview": "This legacy entry describes starch acetate made using vinyl acetate as the acetylating reagent. Acetyl groups are introduced into the starch rather than the ingredient being a mixture of untreated starch and vinyl acetate. FDA's modified-food-starch regulation identifies vinyl-acetate esterification and limits the resulting acetyl-group content. The specific modification distinguishes the preparation from phosphate-crosslinked and hydroxypropylated starches. Current food examples under this historical designation were not confirmed.",
+        "origin": "Chemically modified starch made by acetylation with vinyl acetate. The manufacturing reagent and final starch derivative are different substances."
     }
 }

@@ -7,11 +7,13 @@
     "icon": "mdi-alert-circle",
     "more_info": {
         "banned_in": "JECFA records withdrawn specifications in 1984; no current EU or US food-colour listing was verified in 2026.",
-        "overview": "Fast Yellow AB is a monoazo colour also identified as C.I. Food Yellow 2. Its historical food-colouring role is to supply yellow colour. JECFA identifies it under the former E105 number.",
+        "overview": "Fast Yellow AB is an azo dye supplied as an organic sodium salt. The dye molecule contains two sulphonate groups, and the PubChem identity record also describes use as a biological stain. Its appearance in historical food-colour lists concerns a former technological use. Current approval and food-use conditions must refer to the exact dye preparation.",
         "daily_intake": "ADI decision postponed (JECFA, 1977). This is not an ADI stated as unspecified.",
         "articles": {
             "WHO JECFA (INCHEM)": "https://www.inchem.org/documents/jecfa/jeceval/jec_851.htm",
-            "Wikipedia": "https://en.wikipedia.org/wiki/Fast_Yellow_AB"
+            "Wikipedia": "https://en.wikipedia.org/wiki/Fast_Yellow_AB",
+            "PubChem": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Fast%20Yellow%20AB/description/JSON",
+            "EUR-Lex": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02008R1333-20260818"
         }
     }
 }

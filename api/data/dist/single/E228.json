@@ -7,7 +7,7 @@
     "icon": "mdi-alert-circle",
     "more_info": {
         "banned_in": "Approved in the EU.\nApproved in the US.\nUS food use is subject to the listed CFR provisions and their conditions, checked in 2026.",
-        "overview": "Potassium hydrogen sulphite is used as a preservative in food. Its technological role is to help limit microbial spoilage.",
+        "overview": "Potassium hydrogen sulphite is an inorganic potassium hydrogen sulphite preparation within the sulphite preservative family. Its preservative role is to limit spoilage caused by microorganisms and extend the storage life of the food. The specified material is supplied as colourless liquid.",
         "daily_intake": "0–0.7 mg sulphur dioxide equivalents/kg body weight/day, combined JECFA sulphite group (JECFA, 1998).\nEFSA withdrew its temporary group ADI in 2022.",
         "articles": {
             "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/2445",
@@ -15,8 +15,11 @@
             "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
             "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
             "eCFR Title 21": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=182",
-            "EFSA": "https://www.efsa.europa.eu/en/plain-language-summary/follow-re-evaluation-sulfur-dioxide-e-220-sodium-sulfite-e-221-sodium"
+            "EFSA": "https://www.efsa.europa.eu/en/plain-language-summary/follow-re-evaluation-sulfur-dioxide-e-220-sodium-sulfite-e-221-sodium",
+            "EUR-Lex": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32012R0231",
+            "EUR-Lex (2)": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02008R1333-20260818"
         },
-        "side_effects": "Food-use exposure may concern high consumers (EFSA, 2022).\nToxicology gaps prevented a new intake limit."
+        "side_effects": "Food-use exposure may concern high consumers (EFSA, 2022).\nToxicology gaps prevented a new intake limit.",
+        "uses": "Examples in the EU food-use list include certain other confectionery including breath freshening microsweets; decorations, coatings and fillings, except fruit-based fillings covered by category 4.2.4; fruit juices as defined by Directive 2001/112/EC and vegetable juices; sweet baked goods; potato-, cereal-, flour- or starch-based snacks; processed nuts.\nThe entries apply to particular food categories and may limit the amount, the preparation or the way it is used; they do not show how often the additive appears in retail products."
     }
 }

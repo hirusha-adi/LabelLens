@@ -12,6 +12,7 @@
             "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
             "eCFR Title 21": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=172"
         },
-        "overview": "Methyl glucoside-coconut oil ester is classified in food technology as an emulsifier. Its technological role is to help oil and water stay mixed."
+        "overview": "Methyl glucoside-coconut oil ester is a specified mixture of sugar-derived and coconut-oil-derived ester material. FDA identifies applications that help crystallisation of sucrose and dextrose and provide surface activity in molasses. The molasses application has a maximum of 320 parts per million. The regulation defines the commercial preparation by chemical quality measurements rather than a single molecular formula.",
+        "uses": "Used to assist crystallisation of sucrose or dextrose, and as a surfactant in molasses. The US molasses use is limited to 320 parts per million; crystallisation use is limited to the minimum quantity needed for the intended effect."
     }
 }

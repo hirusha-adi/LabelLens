@@ -8,8 +8,9 @@
     "more_info": {
         "articles": {
             "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
-            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "Wikipedia": "https://en.wikipedia.org/wiki/Ammonium_malate"
         },
-        "overview": "Ammonium malate is classified in food technology as an acidity regulator. Its technological role is to control acidity."
+        "overview": "Ammonium malate refers to salts containing ammonium and malate, the acid-derived component of malic acid. Both monoammonium and diammonium compositions are described, and the malate component can have different stereochemical forms. The generic name therefore does not identify one identical commercial preparation. This historical entry assigns an acidity-regulating role, while specific manufacture and current food examples remain unconfirmed."
     }
 }

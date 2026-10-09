@@ -7,14 +7,16 @@
     "icon": "mdi-alert-circle",
     "more_info": {
         "banned_in": "Approved in the EU.",
-        "overview": "Silver is used as a color in food. Its technological role is to add or restore food colour.",
-        "uses": "EU permissions include other confectionery including breath freshening micro-sweets. These permissions depend on the food category and its conditions of use.",
+        "overview": "Silver colour consists of metallic silver in powder or small-sheet form, used to impart a silver appearance to permitted foods. It is used to add colour or restore colour lost during food manufacture. The material is supplied as silver-coloured powder or small sheets. EU permissions include other confectionery including breath freshening micro-sweets.",
+        "uses": "Examples in the EU food-use list include certain other confectionery including breath freshening microsweets; decorations, coatings and fillings, except fruit-based fillings covered by category 4.2.4; spirit drinks as defined in Regulation 2019/787.\nThe entries apply to particular food categories and may limit the amount, the preparation or the way it is used; they do not show how often the additive appears in retail products.",
         "articles": {
             "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/3411",
             "EUR-Lex specifications": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231",
             "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
             "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
-            "EFSA": "https://www.efsa.europa.eu/en/efsajournal/pub/4364"
+            "EFSA": "https://www.efsa.europa.eu/en/efsajournal/pub/4364",
+            "EUR-Lex": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32012R0231",
+            "EUR-Lex (2)": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02008R1333-20260818"
         },
         "side_effects": "EFSA could not assess food-use safety in 2016 because the tested materials and food additive were insufficiently characterised.\nSilver-ion release and particle size were unresolved issues; this does not establish harm at a particular food dose."
     }

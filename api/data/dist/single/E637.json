@@ -2,16 +2,18 @@
     "code": "E637",
     "names": "Ethylmaltol",
     "display_name": "E637 (Ethylmaltol)",
-    "type": "Flavour enhancer",
+    "type": "flavouring",
     "status": "u",
     "icon": "mdi-check-circle",
     "more_info": {
         "banned_in": "Approved in the US.\nUS food use is subject to the listed CFR provisions and their conditions, checked in 2026.",
-        "overview": "Ethylmaltol is used as a color in food. Its technological role is to add or restore food colour.",
+        "overview": "Ethyl maltol is the flavouring compound 2-ethyl-3-hydroxy-4H-pyran-4-one. It resembles maltol chemically, with an ethyl group in place of maltol's methyl group. The white solid has a sweet aroma often described as caramel-like and is used in confectionery flavouring. FDA lists it as a synthetic flavouring substance under manufacturing conditions. Its flavouring role is distinct from adding colour to a food.",
         "articles": {
             "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
             "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
-            "eCFR Title 21": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=172"
-        }
+            "eCFR Title 21": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=172",
+            "Wikipedia": "https://en.wikipedia.org/wiki/Ethyl_maltol"
+        },
+        "uses": "Used in confectionery flavouring. FDA lists ethyl maltol as a synthetic flavouring substance under good manufacturing practice."
     }
 }

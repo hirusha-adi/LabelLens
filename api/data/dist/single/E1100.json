@@ -2,15 +2,18 @@
     "code": "E1100",
     "names": "Amylase",
     "display_name": "E1100 (Amylase)",
-    "type": "stabiliser, flavour enhancer",
+    "type": "enzyme",
     "status": "",
     "icon": "mdi-check-circle",
     "more_info": {
         "articles": {
             "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/811",
             "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
-            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "eCFR": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=184"
         },
-        "overview": "Amylase is classified in food technology as a flavour enhancer. Its technological role is to strengthen existing flavours."
+        "overview": "Amylases are enzymes that break down starch into smaller carbohydrate molecules. This entry names an enzyme family rather than one production strain or commercial preparation. For example, FDA describes an alpha-amylase obtained by fermentation of Bacillus stearothermophilus for making maltodextrins and nutritive carbohydrate sweeteners. The enzyme acts during processing; its source organism and preparation specifications remain relevant to the particular ingredient.",
+        "origin": "Production depends on the amylase preparation. One FDA-specified alpha-amylase is recovered from the culture filtrate of a pure bacterial fermentation using Bacillus stearothermophilus.",
+        "uses": "The specified bacterial alpha-amylase is used during starch processing to produce maltodextrins and nutritive carbohydrate sweeteners."
     }
 }

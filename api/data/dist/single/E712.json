@@ -8,7 +8,9 @@
     "more_info": {
         "articles": {
             "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
-            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
-        }
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "Wikipedia": "https://en.wikipedia.org/wiki/Bambermycin"
+        },
+        "overview": "Flavomycin is a name associated with the bambermycin antibiotic complex. The preparation includes moenomycin components produced by Streptomyces bacteria. Its historical context is antimicrobial use rather than providing colour, sweetness or texture in human food. The broad product identity does not establish a current direct human-food application or a food-additive intake limit."
     }
 }

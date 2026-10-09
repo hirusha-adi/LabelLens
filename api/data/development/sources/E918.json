@@ -11,9 +11,8 @@
       "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
     ],
     "overview": [
-      "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/1041",
-      "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
-      "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818"
+      "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=137",
+      "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/1041"
     ],
     "type": [
       "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/1041",
@@ -45,6 +44,7 @@
     "type: empty category filled as propellant from the identified technological function.",
     "Replaced the legacy layout with rich fields and removed unsupported inherited health, dietary and intake assertions.",
     "status: '' -> 'u'; exact current EU/FDA identity check and retained regulatory sources. Empty flags include unconfirmed permissions, not inferred country bans.",
-    "Created the missing individual additive record and field provenance."
+    "Created the missing individual additive record and field provenance.",
+    "2026-10-10 description expansion: overview replaced or added with compound-specific detail from the linked field sources."
   ]
 }

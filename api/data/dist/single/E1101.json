@@ -2,14 +2,17 @@
     "code": "E1101",
     "names": "Proteases ((i)Protease, (ii)Papain, (iii)Bromelain, (iv)Ficin)",
     "display_name": "E1101 (Proteases)",
-    "type": "stabiliser, flavour enhancer",
+    "type": "enzyme",
     "status": "",
     "icon": "mdi-check-circle",
     "more_info": {
         "articles": {
             "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
-            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "eCFR": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=184"
         },
-        "overview": "Proteases is classified in food technology as a flavour enhancer. Its technological role is to strengthen existing flavours."
+        "overview": "Proteases are enzymes that split peptide bonds in proteins. This entry includes papain from papaya, bromelain from pineapple and ficin from fig-plant latex, as well as other protease preparations. FDA also describes bacterial proteases obtained by fermentation of specified Bacillus strains. Their technological action is protein breakdown, with the resulting effect depending on the food process and enzyme preparation. An evaluation of one source or enzyme cannot describe every member of the family.",
+        "origin": "The named plant preparations include papain from papaya latex, bromelain from pineapple and ficin from fig-tree latex. Other specified proteases are microbial preparations recovered from bacterial fermentation.",
+        "uses": "Protease applications depend on the enzyme preparation. FDA's specified mixed bacterial carbohydrase-protease preparation is used in alcoholic beverages, candy, nutritive sweeteners and protein hydrolysates."
     }
 }

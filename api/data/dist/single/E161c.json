@@ -8,8 +8,10 @@
     "more_info": {
         "articles": {
             "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
-            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "PubChem": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/beta-Cryptoxanthin/description/JSON",
+            "EUR-Lex": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02008R1333-20260818"
         },
-        "overview": "Cryptoxanthin is classified in food technology as a color. Its technological role is to add or restore colour."
+        "overview": "Beta-cryptoxanthin is a carotenoid containing an alcohol group, chemically derived from the beta-carotene structure. The compound occurs in plants, including papaya and oranges. This historical entry concerns its pigment identity. Occurrence in fruit does not establish a production route, food-use permission or intake limit for an isolated commercial colour."
     }
 }

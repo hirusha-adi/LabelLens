@@ -7,14 +7,16 @@
     "icon": "mdi-check-circle",
     "more_info": {
         "banned_in": "Approved in the EU.",
-        "overview": "Sodium tartrates is used as a stabilizer in food. Its technological role is to help maintain the structure of food.",
-        "uses": "EU permissions include canned or bottled fruit and vegetables. These permissions depend on the food category and its conditions of use.",
+        "overview": "E335 covers monosodium and disodium tartrate, which are different sodium salts of tartaric acid. Its acidity-regulating role is to adjust or maintain the pH of the food. One specified form is supplied as colourless crystalline material. EU permissions include canned or bottled fruit and vegetables.",
+        "uses": "Examples in the EU food-use list include certain canned or bottled fruit and vegetables.\nThe entries apply to particular food categories and may limit the amount, the preparation or the way it is used; they do not show how often the additive appears in retail products.",
         "daily_intake": "0-30 mg/kg body weight (JECFA, 1973). The combined group limit is expressed as L(+)-tartaric acid.",
         "articles": {
             "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/2318",
             "EUR-Lex specifications": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231",
             "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
-            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "EUR-Lex": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32012R0231",
+            "EUR-Lex (2)": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02008R1333-20260818"
         }
     }
 }

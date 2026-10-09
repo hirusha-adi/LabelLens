@@ -12,7 +12,7 @@
             "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
             "eCFR Title 21": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=184"
         },
-        "overview": "Nicotinic acid is niacin, a form of vitamin B3. It is used to supply this nutrient in food.",
+        "overview": "Nicotinic acid, also called niacin, is the nutrient compound chemically named 3-pyridinecarboxylic acid. Food-grade material is a stable white crystalline solid that dissolves in water and alcohol. FDA identifies its direct-food function as nutrient supplementation. This older E-number entry refers to nicotinic acid, so it should be distinguished from other niacin-related ingredients.",
         "uses": "Used for nutrient fortification under current US good-manufacturing-practice conditions."
     }
 }

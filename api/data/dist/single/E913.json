@@ -3,13 +3,20 @@
     "names": "Lanolin, sheep wool grease",
     "display_name": "E913 (Lanolin)",
     "type": "glazing agent",
-    "status": "",
+    "status": "u",
     "icon": "mdi-check-circle",
     "more_info": {
         "articles": {
             "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
-            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "Wikipedia": "https://en.wikipedia.org/wiki/Lanolin",
+            "eCFR": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=172",
+            "EUR-Lex": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02008R1333-20260818"
         },
-        "overview": "Lanolin is classified in food technology as a glazing agent. Its technological role is to provide a surface coating."
+        "overview": "Lanolin is the waxy material recovered from sheep wool. It contains a complex mixture of long-chain esters, together with smaller amounts of related alcohols, acids and hydrocarbons. Its protective role on wool and its wax-like consistency distinguish it from a simple triglyceride oil. FDA lists lanolin as a plasticising material in chewing-gum base. That specified gum-base use is a different technological role from the historical glazing classification.",
+        "origin": "Animal-derived material recovered from sheep wool during wool washing and separation, then refined. It is a complex wool-wax preparation rather than a single purified molecule.",
+        "dietary_restrictions": "Lanolin is an animal-derived wool wax and is not vegan. The reviewed identity source does not establish vegetarian suitability or halal and kosher certification of a food-use preparation.",
+        "uses": "Used as a plasticising or softening material in chewing-gum base under 21 CFR 172.615.",
+        "banned_in": "Approved in the US.\nUS food use follows the preparation-specific conditions in 21 CFR 172.615, checked in 2026."
     }
 }

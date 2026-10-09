@@ -9,8 +9,9 @@
         "articles": {
             "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/2404",
             "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
-            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "EUR-Lex": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02008R1333-20260818"
         },
-        "overview": "Ethanol serves as a carrier. Its food-processing role helps dissolve or disperse another ingredient."
+        "overview": "Ethanol, also called ethyl alcohol, is a two-carbon alcohol used as a carrier solvent and extraction solvent in food processing. Its carrier function is to help distribute another ingredient within a preparation. The available identity record does not establish a typical retail-food example for this exact preparation."
     }
 }

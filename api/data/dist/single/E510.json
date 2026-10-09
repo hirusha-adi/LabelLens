@@ -7,13 +7,15 @@
     "icon": "mdi-check-circle",
     "more_info": {
         "banned_in": "Approved in the US.\nUS food use is subject to the listed CFR provisions and their conditions, checked in 2026.",
-        "overview": "Ammonium chloride is used as a raising agent in food. Its technological role is to release gas that increases the volume of dough.",
+        "overview": "Ammonium chloride is an inorganic salt of ammonium and chloride. FDA describes manufacture either through salt reactions in solution or by reacting aqueous hydrogen chloride with ammonia, followed by crystallisation. Food functions include dough strengthening, leavening, flavour enhancement and processing assistance. It is chemically different from ammonia solution.",
         "daily_intake": "ADI classified as not limited (JECFA, 1979).",
         "articles": {
             "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/138",
             "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
             "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
-            "eCFR Title 21": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=184"
-        }
+            "eCFR Title 21": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=184",
+            "WHO JECFA (2)": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/3028"
+        },
+        "origin": "Manufactured by salt reactions in solution followed by crystallisation, or by reacting aqueous hydrogen chloride with gaseous ammonia. These are chemical-manufacturing routes for an inorganic salt. The FDA definition describes the reactions and recovery of the crystals."
     }
 }

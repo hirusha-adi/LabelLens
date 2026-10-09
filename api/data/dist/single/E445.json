@@ -7,16 +7,19 @@
     "icon": "mdi-alert-circle",
     "more_info": {
         "banned_in": "Approved in the EU.",
-        "overview": "Glycerol esters of wood rosins is used as an emulsifier in food. Its technological role is to help oil and water remain mixed.",
-        "uses": "EU permissions include flavoured drinks, entire fresh fruit and vegetables, other confectionery including breath freshening micro-sweets. These permissions depend on the food category and its conditions of use.",
+        "overview": "Glycerol esters of wood rosin are mixtures of resin-acid esters made from refined rosin extracted from aged pine stumps. Its emulsifying role is to help form or maintain mixtures of oil and water in the finished food. The specified material is supplied as yellow solid. The specification describes it as effectively insoluble in water.",
+        "uses": "Examples in the EU food-use list include certain other confectionery including breath freshening microsweets; flavoured drinks; entire fresh fruit and vegetables; spirit drinks as defined in Regulation 2019/787.\nThe entries apply to particular food categories and may limit the amount, the preparation or the way it is used; they do not show how often the additive appears in retail products.",
         "daily_intake": "0–25 mg/kg body weight (JECFA, 2013).",
         "articles": {
             "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/3527",
             "EUR-Lex specifications": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231",
             "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
             "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
-            "EFSA": "https://www.efsa.europa.eu/en/efsajournal/pub/5370"
+            "EFSA": "https://www.efsa.europa.eu/en/efsajournal/pub/5370",
+            "EUR-Lex": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32012R0231",
+            "EUR-Lex (2)": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02008R1333-20260818"
         },
-        "side_effects": "The 2018 safety conclusions depended on the pine species and extract composition.\nPreparations from some other pine species lacked adequate evidence for assessment."
+        "side_effects": "The 2018 safety conclusions depended on the pine species and extract composition.\nPreparations from some other pine species lacked adequate evidence for assessment.",
+        "origin": "Plant-resin material obtained by solvent extraction of aged pine stumps, refining and glycerol esterification. The wood-rosin specification excludes gum-rosin and tall-oil-rosin preparations."
     }
 }

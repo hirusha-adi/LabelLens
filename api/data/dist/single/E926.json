@@ -11,8 +11,9 @@
             "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/1422",
             "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
             "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
-            "eCFR Title 21": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=173"
+            "eCFR Title 21": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=173",
+            "eCFR": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=137"
         },
-        "overview": "Chlorine dioxide is classified in food technology as a bleach. Its technological role is to alter colour during specified processing treatments."
+        "overview": "Chlorine dioxide is a defined chlorine oxide used in controlled food-processing treatments. FDA specifies preparation, residual limits and use conditions for applications such as washing certain produce and poultry-processing use. The US flour standard separately lists it for flour bleaching and artificial ageing. These different processing applications have different conditions and do not define a single ordinary dietary dose."
     }
 }

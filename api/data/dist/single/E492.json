@@ -7,14 +7,16 @@
     "icon": "mdi-check-circle",
     "more_info": {
         "banned_in": "Approved in the EU.",
-        "overview": "Sorbitan tristearate is used as an emulsifier in food. Its technological role is to help oil and water remain mixed.",
-        "uses": "EU permissions include cocoa and chocolate products as covered by directive 2000/36/ec, other confectionery including breath freshening micro-sweets. These permissions depend on the food category and its conditions of use.",
+        "overview": "Sorbitan tristearate is a mixture of partial esters of sorbitol and its anhydrides with stearic acid; the commercial preparation is not a single pure ester. Its emulsifying role is to help form or maintain mixtures of oil and water in the finished food. Made from partial esters of sorbitol and its anhydrides with stearic acid. The specification does not identify a single biological source for the fatty acid. The preparation can be cream-to-tan beads or flakes, or a firm waxy solid. The specification describes it as effectively insoluble in water.",
+        "uses": "Examples in the EU food-use list include certain cocoa and Chocolate products as covered by Directive 2000/36/EC; other confectionery including breath freshening microsweets; chewing gum; decorations, coatings and fillings, except fruit-based fillings covered by category 4.2.4; other; flavoured fermented milk products including heat-treated products.\nThe entries apply to particular food categories and may limit the amount, the preparation or the way it is used; they do not show how often the additive appears in retail products.",
         "articles": {
             "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/3983",
             "EUR-Lex specifications": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231",
             "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
             "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
-            "EFSA": "https://www.efsa.europa.eu/en/efsajournal/pub/4788"
+            "EFSA": "https://www.efsa.europa.eu/en/efsajournal/pub/4788",
+            "EUR-Lex": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32012R0231",
+            "EUR-Lex (2)": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02008R1333-20260818"
         },
         "origin": "Made from partial esters of sorbitol and its anhydrides with stearic acid. The specification does not identify a single biological source for the fatty acid.",
         "dietary_restrictions": "The fatty-acid feedstock is not specified as exclusively plant derived. Vegan, vegetarian, halal and kosher suitability cannot be established without the supplier identifying the raw material and processing.",

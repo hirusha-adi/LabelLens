@@ -8,8 +8,10 @@
     "more_info": {
         "articles": {
             "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
-            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "Wikipedia": "https://en.wikipedia.org/wiki/Modified_starch",
+            "FAO": "https://www.fao.org/4/w6355e/w6355e0o.htm"
         },
-        "overview": "Distarch glycerine is classified in food technology as a thickening agent. Its technological role is to increase thickness."
+        "overview": "Distarch glycerine is a historical designation for a glycerol-related modified starch. The name is associated with older crosslinked-starch classifications, while current specifications distinguish several other crosslinking and esterification treatments. The exact manufacturing method covered by this legacy code was not confirmed. Its historical thickening role concerns food consistency, but a current preparation-specific food example and intake basis remain unconfirmed."
     }
 }

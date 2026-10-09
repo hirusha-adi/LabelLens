@@ -9,6 +9,9 @@
     "icon": [
       "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
       "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
+    ],
+    "overview": [
+      "https://en.wikipedia.org/wiki/Virginiamycin"
     ]
   },
   "inputs": {
@@ -19,7 +22,6 @@
   "gaps": [
     "Current EU food-use permission was not established for the exact identity or complete group named by this entry; no e flag is asserted.",
     "Current US food-use permission was not established for the exact identity in the FDA inventory and available direct-food CFR sections; no u flag is asserted.",
-    "No compound-specific technological description was confirmed; overview omitted.",
     "Specific food-use examples were not confirmed; uses omitted.",
     "A current, unambiguous food-additive ADI and its basis were not confirmed; daily_intake omitted.",
     "No sufficiently specific compound-level source was retained for origin; field omitted.",
@@ -27,10 +29,12 @@
     "No sufficiently specific compound-level source was retained for dietary_restrictions; field omitted.",
     "No sufficiently specific compound-level source was retained for interactions; field omitted.",
     "No sufficiently specific compound-level source was retained for precautions; field omitted.",
-    "This is a legacy veterinary-antibiotic entry; no direct human-food additive use or additive ADI was established."
+    "This is a legacy veterinary-antibiotic entry; no direct human-food additive use or additive ADI was established.",
+    "The identity source describes an antimicrobial compound or family; a current direct human-food application was not confirmed. Medicinal dosing and veterinary residue limits were not inserted as food-additive intake limits."
   ],
   "changes": [
     "Replaced the legacy layout with rich fields and removed unsupported inherited health, dietary and intake assertions.",
-    "Created the missing individual additive record and field provenance."
+    "Created the missing individual additive record and field provenance.",
+    "2026-10-10 description expansion: overview replaced or added with compound-specific detail from the linked field sources."
   ]
 }

@@ -17,8 +17,10 @@
       "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=172"
     ],
     "overview": [
-      "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
-      "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818"
+      "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=172"
+    ],
+    "uses": [
+      "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=172"
     ]
   },
   "inputs": {
@@ -28,7 +30,6 @@
   },
   "gaps": [
     "Current EU food-use permission was not established for the exact identity or complete group named by this entry; no e flag is asserted.",
-    "Specific food-use examples were not confirmed; uses omitted.",
     "A current, unambiguous food-additive ADI and its basis were not confirmed; daily_intake omitted.",
     "No sufficiently specific compound-level source was retained for origin; field omitted.",
     "No sufficiently specific compound-level source was retained for side_effects; field omitted.",
@@ -39,6 +40,8 @@
   "changes": [
     "Replaced the legacy layout with rich fields and removed unsupported inherited health, dietary and intake assertions.",
     "status: '' -> 'u'; 21 CFR 172.822. Empty flags include unconfirmed permissions, not inferred country bans.",
-    "Created the missing individual additive record and field provenance."
+    "Created the missing individual additive record and field provenance.",
+    "2026-10-10 description expansion: overview replaced or added with compound-specific detail from the linked field sources.",
+    "2026-10-10 description expansion: uses replaced or added with compound-specific detail from the linked field sources."
   ]
 }

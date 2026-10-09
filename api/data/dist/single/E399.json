@@ -7,11 +7,13 @@
     "icon": "mdi-check-circle",
     "more_info": {
         "banned_in": "Approved in the US.\nUS food use is subject to the listed CFR provisions and their conditions, checked in 2026.",
-        "overview": "Calcium lactobionate is used as a firming agent in food. Its technological role is to help maintain firmness.",
+        "overview": "Calcium lactobionate is the calcium salt of lactobionic acid, made through oxidation of lactose. It is chemically different from calcium lactate or calcium gluconate. FDA describes its food function as a firming agent in dry pudding mixes. The permitted amount is the quantity needed to produce that technological effect.",
         "articles": {
             "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
             "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
             "eCFR Title 21": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=172"
-        }
+        },
+        "origin": "Manufactured by oxidising lactose to lactobionic acid and producing its calcium salt. The route uses a lactose starting material. The reviewed regulation does not identify the source of every commercial lactose feedstock or certify a product's dietary suitability.",
+        "uses": "Used as a firming agent in dry pudding mixes. The US regulation permits the quantity required to produce that effect; it does not provide a general list of unrelated retail foods."
     }
 }

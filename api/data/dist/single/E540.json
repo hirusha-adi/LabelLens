@@ -8,8 +8,9 @@
     "more_info": {
         "articles": {
             "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
-            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "Wikipedia": "https://en.wikipedia.org/wiki/Calcium_pyrophosphate"
         },
-        "overview": "Dicalcium diphosphate is classified in food technology as an emulsifier. Its technological role is to help oil and water stay mixed."
+        "overview": "Dicalcium diphosphate is calcium pyrophosphate, a calcium salt containing the diphosphate group. That group joins two phosphorus-containing units and differs from orthophosphate. Calcium pyrophosphate can occur in different hydrated or crystalline forms. The historical dataset entry does not identify a single form or a specific current commercial food application. An assessment of a different calcium phosphate cannot define this preparation."
     }
 }

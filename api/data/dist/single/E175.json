@@ -7,14 +7,16 @@
     "icon": "mdi-alert-circle",
     "more_info": {
         "banned_in": "Approved in the EU.",
-        "uses": "EU permissions include other confectionery including breath freshening micro-sweets. These permissions depend on the food category and its conditions of use.",
+        "uses": "Examples in the EU food-use list include certain other confectionery including breath freshening microsweets; decorations, coatings and fillings, except fruit-based fillings covered by category 4.2.4; spirit drinks as defined in Regulation 2019/787.\nThe entries apply to particular food categories and may limit the amount, the preparation or the way it is used; they do not show how often the additive appears in retail products.",
         "articles": {
             "EUR-Lex specifications": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231",
             "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
             "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
-            "EFSA": "https://www.efsa.europa.eu/en/efsajournal/pub/4362"
+            "EFSA": "https://www.efsa.europa.eu/en/efsajournal/pub/4362",
+            "EUR-Lex": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32012R0231",
+            "EUR-Lex (2)": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02008R1333-20260818"
         },
         "side_effects": "EFSA had insufficient evidence for a food-use risk assessment in 2016.\nPoor solubility suggests limited systemic exposure, but the lack of toxicity studies prevents a firm conclusion about higher doses.",
-        "overview": "Gold is classified in food technology as a color. Its technological role is to add or restore colour."
+        "overview": "Gold colour consists of metallic gold in powder or small-sheet form, used to impart a gold appearance to permitted foods. It is used to add colour or restore colour lost during food manufacture. The material is supplied as gold-coloured powder or small sheets. EU permissions include other confectionery including breath freshening micro-sweets."
     }
 }

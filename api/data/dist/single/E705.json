@@ -8,7 +8,9 @@
     "more_info": {
         "articles": {
             "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
-            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
-        }
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "Wikipedia": "https://en.wikipedia.org/wiki/Benzylpenicillin"
+        },
+        "overview": "Penicillin G potassium is the potassium salt of benzylpenicillin. It belongs to the penicillin antibiotic family and is a different salt preparation from penicillin G sodium, procaine or benzathine. This entry preserves a historical antimicrobial designation. The general description concerns a medicinal compound and does not establish a typical current application as an ingredient added to human food."
     }
 }

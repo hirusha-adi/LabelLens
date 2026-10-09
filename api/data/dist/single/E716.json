@@ -8,7 +8,9 @@
     "more_info": {
         "articles": {
             "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
-            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
-        }
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "Wikipedia": "https://en.wikipedia.org/wiki/Salinomycin"
+        },
+        "overview": "Salinomycin is a polyether ionophore antibiotic. Its chemical structure and ion-transport activity distinguish it from the penicillin and tetracycline entries. The general description concerns an antimicrobial compound with veterinary and research uses. This historical dataset entry does not establish a current direct human-food application."
     }
 }

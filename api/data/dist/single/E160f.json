@@ -8,8 +8,10 @@
     "more_info": {
         "articles": {
             "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
-            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "Wikipedia": "https://en.wikipedia.org/wiki/Food_orange_7"
         },
-        "overview": "Ethyl ester of beta-apo-8'-carotenic acid is classified in food technology as a color. Its technological role is to add or restore colour."
+        "overview": "Food Orange 7 is the ethyl ester of beta-apo-8'-carotenic acid. It is an orange-red carotenoid pigment with an ester structure, chemically distinct from the aldehyde beta-apo-8'-carotenal. The general description identifies commercial preparation from apocarotenal. This historical entry concerns the isolated colour preparation, while present food-use conditions must refer to the exact material.",
+        "origin": "The general description identifies commercial production from apocarotenal. The reviewed source does not establish one exclusively plant-derived feedstock route for the final isolated colour."
     }
 }

@@ -8,7 +8,9 @@
     "more_info": {
         "articles": {
             "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
-            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
-        }
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "eCFR": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=172"
+        },
+        "overview": "This entry describes polymers containing oxyethylene and oxypropylene units. Their properties depend on the relative amounts, chain lengths and arrangement of these units. FDA defines particular block-copolymer preparations for specific surface-active food applications, including a wetting preparation used with fumaric acid in fruit-flavoured drinks. Such a specification identifies one preparation; it does not define a single composition or food-use permission for every polymer in this broad entry."
     }
 }

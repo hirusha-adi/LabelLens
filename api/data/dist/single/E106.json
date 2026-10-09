@@ -7,17 +7,19 @@
     "icon": "mdi-check-circle",
     "more_info": {
         "banned_in": "Approved in the EU.\nApproved in the US.\nE106 is retained as the repository identifier; the matching EU specification is E101(ii), not a separate E106 approval (checked in 2026).",
-        "overview": "Riboflavin-5'-phosphate sodium is a phosphate derivative of vitamin B2. It provides yellow colour under the EU E101(ii) specification. FDA also lists it as a nutrient ingredient, which is a different permitted function from colouring.",
+        "overview": "Riboflavin-5'-phosphate sodium is the sodium salt of a phosphate ester of vitamin B2; specified preparations may also contain smaller amounts of riboflavin and its diphosphate. Riboflavin-5'-phosphate sodium is a phosphate derivative of vitamin B2. It provides yellow colour under the EU E101(ii) specification. FDA also lists it as a nutrient ingredient, which is a different permitted function from colouring. The specified riboflavin phosphate is a yellow-to-orange powder that absorbs moisture.",
         "origin": "Made by chemically phosphorylating riboflavin. The sodium salt is supplied in a hydrated form; the FDA provision lists several phosphorylation reagents.",
         "daily_intake": "No ADI specified, as a group expressed as riboflavin (JECFA, 2021). This replaced the earlier 0–0.5 mg/kg body weight group ADI. EFSA did not allocate an ADI in 2013 because of incomplete long-term data.",
         "side_effects": "At authorised food-use levels, EFSA found no safety concern in 2013.\nFor high combined intakes, evidence was insufficient to assess adverse effects.",
-        "uses": "A yellow food colour in the EU riboflavin group. In the US, 21 CFR 184.1697 covers nutrient supplementation of milk products and use in infant formula under the applicable conditions.",
+        "uses": "Examples in the EU food-use list include certain other confectionery including breath freshening microsweets; chewing gum; decorations, coatings and fillings, except fruit-based fillings covered by category 4.2.4; flavoured drinks; flavoured fermented milk products including heat-treated products; unripened cheese excluding products falling in category 16.\nThe entries apply to particular food categories and may limit the amount, the preparation or the way it is used; they do not show how often the additive appears in retail products.",
         "articles": {
             "EFSA Journal": "https://efsa.onlinelibrary.wiley.com/doi/10.2903/j.efsa.2013.3357",
             "eCFR": "https://www.ecfr.gov/current/title-21/section-184.1697",
             "WHO JECFA (INCHEM)": "https://www.inchem.org/documents/jecfa/jeceval/jec_2101.htm",
             "European Commission database": "https://ec.europa.eu/food/food-feed-portal/backend/api/policy-items/POL-FAD-IMPORT-2986",
-            "WHO JECFA (2021)": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/4093"
+            "WHO JECFA (2021)": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/4093",
+            "EUR-Lex": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32012R0231",
+            "EUR-Lex (2)": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02008R1333-20260818"
         }
     }
 }

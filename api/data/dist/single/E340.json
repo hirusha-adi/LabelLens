@@ -7,14 +7,20 @@
     "icon": "mdi-alert-circle",
     "more_info": {
         "banned_in": "Approved in the EU.",
-        "overview": "Potassium phosphates is used as a stabilizer in food. Its technological role is to help maintain the structure of food.",
-        "uses": "EU permissions include milk-based drinks and similar products intended for young children. These permissions depend on the food category and its conditions of use.",
+        "overview": "E340 covers mono-, di- and tripotassium orthophosphate, supplied in several anhydrous or hydrated forms. Its antioxidant role is to slow oxidation that can cause rancidity or unwanted colour changes during storage. One specified form is supplied as white powder or crystalline material. EU permissions include milk-based drinks and similar products intended for young children.",
+        "uses": "Examples in the EU food-use list include certain other confectionery including breath freshening microsweets; chewing gum; decorations, coatings and fillings, except fruit-based fillings covered by category 4.2.4; water, including natural mineral water as defined in Directive 2009/54/EC and spring water and all other bottled or packed waters; flavoured fermented milk products including heat-treated products; unripened cheese excluding products falling in category 16.\nThe entries apply to particular food categories and may limit the amount, the preparation or the way it is used; they do not show how often the additive appears in retail products.",
         "articles": {
             "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/2985",
             "EUR-Lex specifications": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231",
             "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
             "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
-            "EFSA": "https://www.efsa.europa.eu/en/efsajournal/pub/5674"
+            "EFSA": "https://www.efsa.europa.eu/en/efsajournal/pub/5674",
+            "EUR-Lex": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32012R0231",
+            "EUR-Lex (2)": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02008R1333-20260818",
+            "WHO JECFA (2)": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/1677",
+            "WHO JECFA (3)": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/505",
+            "WHO JECFA (4)": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/1363",
+            "WHO JECFA (5)": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/1532"
         },
         "daily_intake": "40 mg phosphorus/kg body weight/day, combined phosphates (EFSA, 2019).",
         "side_effects": "Estimated combined exposure exceeded the limit in some groups.\nAnimal evidence supports low acute toxicity."

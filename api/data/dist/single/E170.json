@@ -7,8 +7,8 @@
     "icon": "mdi-check-circle",
     "more_info": {
         "banned_in": "Approved in the EU.\nApproved in the US.\nUS food use is subject to the listed CFR provisions and their conditions, checked in 2026.",
-        "overview": "Calcium carbonate is used as an anti-caking agent in food. Its technological role is to help powders stay free-flowing.",
-        "uses": "EU permissions include edible caseinates, ripened cheese, cheese products (excluding products falling in category 16), cocoa and chocolate products as covered by directive 2000/36/ec. These permissions depend on the food category and its conditions of use.",
+        "overview": "Calcium carbonate is an inorganic calcium salt; the food specification covers both finely ground limestone and material made by precipitation. It is used to add colour or restore colour lost during food manufacture. Obtained by grinding limestone or by precipitating calcium carbonate from solutions containing calcium and carbonate ions. It is an inorganic ingredient. The specified material is supplied as white powder or crystalline material. The specification describes it as effectively insoluble in water.",
+        "uses": "Examples in the EU food-use list include certain cocoa and Chocolate products as covered by Directive 2000/36/EC; other confectionery including breath freshening microsweets; chewing gum; decorations, coatings and fillings, except fruit-based fillings covered by category 4.2.4; fruit juices as defined by Directive 2001/112/EC and vegetable juices; flavoured fermented milk products including heat-treated products.\nThe entries apply to particular food categories and may limit the amount, the preparation or the way it is used; they do not show how often the additive appears in retail products.",
         "daily_intake": "No ADI specified for the carbonate group (SCF, 1990; supported by EFSA, 2011).",
         "articles": {
             "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/549",
@@ -16,7 +16,10 @@
             "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
             "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
             "eCFR Title 21": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=73",
-            "EFSA": "https://www.efsa.europa.eu/en/efsajournal/pub/2318"
+            "EFSA": "https://www.efsa.europa.eu/en/efsajournal/pub/2318",
+            "EUR-Lex": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32012R0231",
+            "EUR-Lex (2)": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02008R1333-20260818",
+            "WHO JECFA (2)": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/457"
         },
         "origin": "Obtained by grinding limestone or by precipitating calcium carbonate from solutions containing calcium and carbonate ions. It is an inorganic ingredient.",
         "side_effects": "The 2011 EFSA review identified no concern from its assessed food uses.\nEffects in human and animal studies were associated with high calcium intakes and were not specific to this salt."

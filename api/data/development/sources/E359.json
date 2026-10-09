@@ -14,14 +14,14 @@
       "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/928"
     ],
     "overview": [
-      "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818"
+      "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/928",
+      "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02008R1333-20260818"
     ]
   },
   "inputs": {
     "names": "development/ins-summary-original.json",
     "display_name": "development/ins-summary-original.json",
-    "type": "development/ins-summary-original.json",
-    "overview": "development/ins-summary-original.json"
+    "type": "development/ins-summary-original.json"
   },
   "gaps": [
     "Current EU food-use permission was not established for the exact identity or complete group named by this entry; no e flag is asserted.",
@@ -35,6 +35,7 @@
   ],
   "changes": [
     "Replaced the legacy layout with rich fields and removed unsupported inherited health, dietary and intake assertions.",
-    "Created the missing individual additive record and field provenance."
+    "Created the missing individual additive record and field provenance.",
+    "2026-10-10 description expansion: overview replaced or added with compound-specific detail from the linked field sources."
   ]
 }

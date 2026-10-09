@@ -7,15 +7,17 @@
     "icon": "mdi-alert-circle",
     "more_info": {
         "banned_in": "Approved in the EU.\nApproved in the US.\nEFSA replaced its temporary ADI with a revised ADI after reviewing additional data in 2014.",
-        "overview": "Sunset Yellow FCF is a synthetic azo colour that gives foods an orange shade. Orange Yellow S and FD&C Yellow No. 6 are other names for the same colour. Food-grade material consists mainly of the dye's salts.",
+        "overview": "Sunset Yellow FCF is a synthetic azo colour that gives foods an orange shade. Orange Yellow S and FD&C Yellow No. 6 are other names for the same colour. Food-grade material consists mainly of the dye's salts. The specified material is supplied as red powder or granules.",
         "origin": "Synthetic. Diazotised aminobenzenesulfonic acid is coupled with a hydroxynaphthalenesulfonic acid; the sodium salt is isolated and dried.",
         "daily_intake": "4 mg/kg body weight per day (EFSA, 2014). This replaced EFSA's temporary 1 mg/kg body weight per day ADI from 2009.",
         "side_effects": "At reported food uses and levels, EFSA's 2014 assessment found no safety concern and estimated exposures below its revised ADI. The limited evidence did not firmly link this individual dye with intolerance reactions or behavioural effects seen with mixtures.\nHigh-dose rat feeding studies provided the toxicology basis for the ADI; these studies are not evidence of the same effects at ordinary food intakes.",
-        "uses": "Permitted EU uses include confectionery, flavoured drinks, mustard, sauces and desserts, subject to limits. US batches of FD&C Yellow No. 6 require certification.",
+        "uses": "Examples in the EU food-use list include certain other confectionery including breath freshening microsweets; chewing gum; decorations, coatings and fillings, except fruit-based fillings covered by category 4.2.4; flavoured drinks; flavoured fermented milk products including heat-treated products; sauces.\nThe entries apply to particular food categories and may limit the amount, the preparation or the way it is used; they do not show how often the additive appears in retail products.",
         "articles": {
             "EFSA Journal": "https://efsa.onlinelibrary.wiley.com/doi/10.2903/j.efsa.2014.3765",
             "eCFR": "https://www.ecfr.gov/current/title-21/section-74.706",
-            "European Commission database": "https://ec.europa.eu/food/food-feed-portal/backend/api/policy-items/POL-FAD-IMPORT-2989"
+            "European Commission database": "https://ec.europa.eu/food/food-feed-portal/backend/api/policy-items/POL-FAD-IMPORT-2989",
+            "EUR-Lex": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32012R0231",
+            "EUR-Lex (2)": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02008R1333-20260818"
         }
     }
 }

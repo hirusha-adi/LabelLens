@@ -3,15 +3,21 @@
     "names": "Gum ghatti (thickener) (stabiliser)",
     "display_name": "E419 (Gum ghatti)",
     "type": "emulsifier",
-    "status": "",
+    "status": "u",
     "icon": "mdi-check-circle",
     "more_info": {
-        "overview": "Gum ghatti is used as an emulsifier in food. Its technological role is to help oil and water remain mixed.",
+        "overview": "Gum ghatti is a tree-exudate gum also called Indian gum. It comes from wounds in the bark of Anogeissus latifolia and forms viscous preparations in water. Its food role includes emulsifying ingredients so that dispersed components remain mixed. FDA specifies use in non-alcoholic beverages and beverage bases, with a different maximum for other food categories. The source tree and gum identity distinguish it from gum arabic and other plant gums.",
         "daily_intake": "No ADI specified (JECFA, 2017).",
         "articles": {
             "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/1207",
             "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
-            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
-        }
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "eCFR": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=184",
+            "EUR-Lex": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02008R1333-20260818"
+        },
+        "origin": "Plant-derived exudate collected from wounds in the bark of Anogeissus latifolia, a tree found in India and Sri Lanka.",
+        "uses": "An emulsifier in non-alcoholic beverages and beverage bases, with a US maximum of 0.2% in the served food. The FDA regulation sets a 0.1% maximum for other food categories.",
+        "dietary_restrictions": "The gum itself is plant derived and compatible with vegan and vegetarian diets. This origin does not establish halal or kosher certification of a commercial preparation.",
+        "banned_in": "Approved in the US.\nUS food use follows the preparation-specific conditions in 21 CFR 184.1333, checked in 2026."
     }
 }

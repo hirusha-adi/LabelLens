@@ -8,7 +8,9 @@
     "more_info": {
         "articles": {
             "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
-            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
-        }
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "Wikipedia": "https://en.wikipedia.org/wiki/Monensin"
+        },
+        "overview": "Monensin A is a polyether ionophore antibiotic component. Its ion-binding structure allows it to transport monovalent ions across lipid membranes. The general identity source discusses veterinary and biochemical contexts. This historical entry does not establish a typical current use as an ingredient added directly to human food."
     }
 }

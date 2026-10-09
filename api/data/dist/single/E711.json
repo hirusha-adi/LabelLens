@@ -8,7 +8,9 @@
     "more_info": {
         "articles": {
             "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
-            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
-        }
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "Wikipedia": "https://en.wikipedia.org/wiki/Virginiamycin"
+        },
+        "overview": "Virginiamycin is a streptogramin antibiotic mixture containing the components virginiamycin M1 and S1. The mixture therefore differs from a single purified antibiotic molecule. This entry retains a historical antimicrobial designation. Descriptions of agricultural or fermentation uses do not establish a typical current use as an ingredient added directly to human food."
     }
 }

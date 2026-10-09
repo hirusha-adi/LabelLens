@@ -6,12 +6,14 @@
     "status": "",
     "icon": "mdi-check-circle",
     "more_info": {
-        "overview": "Citranaxanthin is used as a color in food. Its technological role is to add or restore food colour.",
+        "overview": "Citranaxanthin is an apo-carotenoid ketone, whose carbon skeleton is shorter than that of beta-carotene. The chemical record identifies colouring activity. This historical entry concerns that particular pigment rather than the carotenoid family as a whole. A typical current food example and commercial manufacturing route were not confirmed.",
         "daily_intake": "No ADI allocated (JECFA, 1987).",
         "articles": {
             "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/1418",
             "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
-            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "PubChem": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Citranaxanthin/description/JSON",
+            "EUR-Lex": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02008R1333-20260818"
         }
     }
 }

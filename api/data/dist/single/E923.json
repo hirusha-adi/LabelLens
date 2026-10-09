@@ -9,8 +9,10 @@
         "articles": {
             "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/2150",
             "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
-            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "Wikipedia": "https://en.wikipedia.org/wiki/Ammonium_persulfate",
+            "eCFR": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=172"
         },
-        "overview": "Ammonium persulphate is classified in food technology as an improving agent. Its technological role is to modify flour or dough properties."
+        "overview": "Ammonium persulphate is an inorganic salt containing ammonium and peroxydisulphate. Its chemical role is oxidation, which distinguishes it from ordinary ammonium sulphate. FDA lists ammonium persulphate among reagents for a particular modified-starch bleaching process, subject to process limits. That permission concerns treated food starch and does not establish unrestricted addition of the free reagent to finished foods."
     }
 }

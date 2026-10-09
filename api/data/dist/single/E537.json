@@ -8,8 +8,9 @@
     "more_info": {
         "articles": {
             "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
-            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "FAO": "https://www.fao.org/input/download/report/702/al31_12e.pdf"
         },
-        "overview": "Ferrous hexacyanomanganate is classified in food technology as an anti-caking agent. Its technological role is to keep powders free-flowing."
+        "overview": "Ferrous hexacyanomanganate is listed as INS 537 in the 2008 Codex committee report, with an anti-caking function. The function concerns helping powdered ingredients remain free flowing. The historical list establishes the name and technological classification but does not provide a compound specification or typical retail-food example. It should not be assigned the chemistry or intake evaluation of the separately named ferrocyanide salts."
     }
 }

@@ -7,15 +7,18 @@
     "icon": "mdi-check-circle",
     "more_info": {
         "banned_in": "Approved in the EU.",
-        "overview": "Propane-1 is used as an emulsifier in food. Its technological role is to help oil and water remain mixed.",
-        "uses": "EU permissions include meal replacement for weight control as referred to in Commission Regulation (EU) no 432/2012, flavoured fermented milk products including heat-treated products, dairy analogues, including beverage whiteners, edible ices. These permissions depend on the food category and its conditions of use.",
+        "overview": "Propylene glycol esters of fatty acids are mixtures of mono- and diesters combining propane-1,2-diol with edible fatty acids. Its emulsifying role is to help form or maintain mixtures of oil and water in the finished food. A mixture of propylene glycol esters of fatty acids found in edible fats and oils. The fatty-acid feedstock is not restricted to a single biological source. The specified material is supplied as white flakes or liquid.",
+        "uses": "Examples in the EU food-use list include certain other confectionery including breath freshening microsweets; chewing gum; decorations, coatings and fillings, except fruit-based fillings covered by category 4.2.4; flavoured fermented milk products including heat-treated products; sweet baked goods; frozen desserts.\nThe entries apply to particular food categories and may limit the amount, the preparation or the way it is used; they do not show how often the additive appears in retail products.",
         "daily_intake": "25 mg propylene glycol/kg body weight/day, equivalent to 80 mg E477/kg body weight/day under the specified composition limit (EFSA, 2018).",
         "articles": {
             "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/3114",
             "EUR-Lex specifications": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231",
             "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
             "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
-            "EFSA": "https://www.efsa.europa.eu/en/efsajournal/pub/5497"
+            "EFSA": "https://www.efsa.europa.eu/en/efsajournal/pub/5497",
+            "EUR-Lex": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32012R0231",
+            "EUR-Lex (2)": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02008R1333-20260818",
+            "WHO JECFA (2)": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/683"
         },
         "origin": "A mixture of propylene glycol esters of fatty acids found in edible fats and oils. The fatty-acid feedstock is not restricted to a single biological source.",
         "dietary_restrictions": "The fatty-acid feedstock is not specified as exclusively plant derived. Vegan, vegetarian, halal and kosher suitability cannot be established without the supplier identifying the raw material and processing.",

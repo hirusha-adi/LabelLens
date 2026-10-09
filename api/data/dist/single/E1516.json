@@ -10,8 +10,9 @@
         "articles": {
             "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/2856",
             "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
-            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "EUR-Lex": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02008R1333-20260818"
         },
-        "overview": "Glyceryl monoacetate is classified in food technology as a flavour solvent. Its technological role is to dissolve or disperse flavouring ingredients."
+        "overview": "Glyceryl monoacetate is a glycerol ester containing one acetate group, identified by JECFA as a carrier solvent. The available identity record does not establish a typical retail-food example for this exact preparation. Commercial specifications and legal conditions need to refer to the particular substance or preparation named here."
     }
 }

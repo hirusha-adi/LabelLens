@@ -7,15 +7,19 @@
     "icon": "mdi-check-circle",
     "more_info": {
         "banned_in": "Approved in the EU.",
-        "overview": "Polyglycerol polyricinoleate is used as an emulsifier in food. Its technological role is to help oil and water remain mixed.",
-        "uses": "EU permissions include edible ices, cocoa and chocolate products as covered by directive 2000/36/ec, other confectionery including breath freshening micro-sweets, sauces. These permissions depend on the food category and its conditions of use.",
+        "overview": "Polyglycerol polyricinoleate, commonly abbreviated PGPR, is made by esterifying polyglycerol with condensed castor-oil fatty acids. Its emulsifying role is to help form or maintain mixtures of oil and water in the finished food. Made by esterifying polyglycerol with condensed fatty acids from castor oil. It is a chemically processed ingredient with a plant-oil fatty-acid component. The specified material is supplied as liquid. The specification describes it as effectively insoluble in water.",
+        "uses": "Examples in the EU food-use list include certain cocoa and Chocolate products as covered by Directive 2000/36/EC; other confectionery including breath freshening microsweets; decorations, coatings and fillings, except fruit-based fillings covered by category 4.2.4; sauces; frozen desserts; other fat and oil emulsions including spreads as defined by Council Regulation No 1234/2007 and liquid emulsions.\nThe entries apply to particular food categories and may limit the amount, the preparation or the way it is used; they do not show how often the additive appears in retail products.",
         "daily_intake": "25 mg/kg body weight/day (EFSA, 2017).",
         "articles": {
             "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/221",
             "EUR-Lex specifications": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231",
             "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
             "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
-            "EFSA": "https://www.efsa.europa.eu/en/efsajournal/pub/4743"
+            "EFSA": "https://www.efsa.europa.eu/en/efsajournal/pub/4743",
+            "EUR-Lex": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32012R0231",
+            "EUR-Lex (2)": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02008R1333-20260818",
+            "WHO JECFA (2)": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/4009",
+            "WHO JECFA (3)": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/3166"
         },
         "origin": "Made by esterifying polyglycerol with condensed fatty acids from castor oil. It is a chemically processed ingredient with a plant-oil fatty-acid component.",
         "dietary_restrictions": "The fatty-acid component comes from castor oil, but the polyglycerol feedstock is not specified. Vegan, vegetarian, halal and kosher suitability requires supplier information.",

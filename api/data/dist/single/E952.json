@@ -7,14 +7,16 @@
     "icon": "mdi-alert-circle",
     "more_info": {
         "banned_in": "Banned in: United States.\nApproved in the EU.\nThe US prohibition follows the 1969 cyclamate order.",
-        "overview": "Cyclamic acid and its sodium and calcium salts is used as a sweetener in food. Its technological role is to provide sweetness.",
-        "uses": "EU permissions include meal replacement for weight control as referred to in Commission Regulation (EU) no 432/2012, flavoured drinks, flavoured fermented milk products including heat-treated products, canned or bottled fruit and vegetables. These permissions depend on the food category and its conditions of use.",
+        "overview": "E952 covers cyclamic acid and its sodium and calcium salts, which are related high-intensity sweetener preparations. It provides sweetness when added to the food or used in a table-top sweetener preparation. The specified material is supplied as white powder or crystalline material. The specification identifies water solubility as one of its properties.",
+        "uses": "Examples in the EU food-use list include certain other confectionery including breath freshening microsweets; decorations, coatings and fillings, except fruit-based fillings covered by category 4.2.4; fruit nectars as defined by Directive 2001/112/EC and vegetable nectars and similar products; flavoured fermented milk products including heat-treated products; extra jam and extra jelly as defined by Directive 2001/113/EC; desserts excluding products covered in categories 1, 3 and 4.\nThe entries apply to particular food categories and may limit the amount, the preparation or the way it is used; they do not show how often the additive appears in retail products.",
         "daily_intake": "0-11 mg/kg body weight (JECFA, 2009).",
         "articles": {
             "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/995",
             "EUR-Lex specifications": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231",
             "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
-            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "EUR-Lex": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32012R0231",
+            "EUR-Lex (2)": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02008R1333-20260818"
         }
     }
 }

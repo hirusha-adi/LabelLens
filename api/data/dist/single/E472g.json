@@ -7,13 +7,15 @@
     "icon": "mdi-check-circle",
     "more_info": {
         "banned_in": "Approved in the US.\nUS food use is subject to the listed CFR provisions and their conditions, checked in 2026.",
-        "overview": "Succinylated monoglycerides is used as an emulsifier in food. Its technological role is to help oil and water remain mixed.",
+        "overview": "Succinylated monoglycerides are mixtures of succinic-acid esters of mono- and diglycerides. The starting glycerides are made from edible fats or oils, or by directly esterifying glycerol with food fatty acids. FDA describes use as an emulsifier in shortening and as a dough conditioner in bread manufacture. These applications have different concentration limits, and the starting fat source is not fixed by the name.",
         "daily_intake": "No ADI allocated (JECFA, 1982).",
         "articles": {
             "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/2339",
             "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
             "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
             "eCFR Title 21": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=172"
-        }
+        },
+        "origin": "Produced by adding succinic-acid ester groups to mono- and diglycerides. FDA describes glyceride starting materials made either from edible fats and oils or by reacting glycerol with food fatty acids. The particular fat or fatty-acid source is not fixed by this definition.",
+        "uses": "Used as an emulsifier in liquid or plastic shortenings and as a dough conditioner in bread baking. The US maxima are 3% of shortening weight and 0.5% of flour weight, respectively, subject to the relevant food standards."
     }
 }

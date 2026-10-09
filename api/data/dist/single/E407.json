@@ -7,8 +7,8 @@
     "icon": "mdi-alert-circle",
     "more_info": {
         "banned_in": "Approved in the EU.\nApproved in the US.\nUS food use is subject to the listed CFR provisions and their conditions, checked in 2026.",
-        "overview": "Carrageenan is used as an emulsifier in food. Its technological role is to help oil and water remain mixed.",
-        "uses": "EU permissions include milk-based drinks and similar products intended for young children, unflavoured pasteurised cream (excluding reduced fat creams), unflavoured live fermented cream products and substitute products, both with a fat  content of less than 20 %, jam jellies and marmalades and similar products. These permissions depend on the food category and its conditions of use.",
+        "overview": "Carrageenan is a group of sulphated galactose-based polysaccharides extracted from red seaweeds; kappa, iota and lambda forms differ in sulphation. Its emulsifying role is to help form or maintain mixtures of oil and water in the finished food. Extracted from red seaweeds with water or dilute alkali. Food-grade carrageenan contains large sulphated polysaccharides and is distinct from deliberately degraded carrageenan. The specified material is supplied as colourless powder. It dissolves in hot water under the specified test conditions.",
+        "uses": "Examples in the EU food-use list include certain cocoa and Chocolate products as covered by Directive 2000/36/EC; other confectionery including breath freshening microsweets; chewing gum; decorations, coatings and fillings, except fruit-based fillings covered by category 4.2.4; fruit juices as defined by Directive 2001/112/EC and vegetable juices; flavoured fermented milk products including heat-treated products.\nThe entries apply to particular food categories and may limit the amount, the preparation or the way it is used; they do not show how often the additive appears in retail products.",
         "daily_intake": "75 mg/kg body weight/day, combined carrageenan and processed Eucheuma seaweed; temporary in the 2018 EFSA assessment.",
         "articles": {
             "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/377",
@@ -16,7 +16,13 @@
             "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
             "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
             "eCFR Title 21": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=172",
-            "EFSA": "https://www.efsa.europa.eu/en/efsajournal/pub/5238"
+            "EFSA": "https://www.efsa.europa.eu/en/efsajournal/pub/5238",
+            "EUR-Lex": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32012R0231",
+            "EUR-Lex (2)": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02008R1333-20260818",
+            "WHO JECFA (2)": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/994",
+            "WHO JECFA (3)": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/466",
+            "WHO JECFA (4)": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/2052",
+            "WHO JECFA (5)": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/1718"
         },
         "origin": "Extracted from red seaweeds with water or dilute alkali. Food-grade carrageenan contains large sulphated polysaccharides and is distinct from deliberately degraded carrageenan.",
         "dietary_restrictions": "The specified starting material is plant derived and compatible with vegetarian and vegan diets. The specification does not establish halal or kosher certification.",

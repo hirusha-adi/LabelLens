@@ -2,13 +2,18 @@
     "code": "E565",
     "names": "Lignosulphonates",
     "display_name": "E565 (Lignosulphonates)",
-    "type": "unclassified",
+    "type": "feed binder",
     "status": "",
-    "icon": "mdi-check-circle",
+    "icon": "mdi-alert-circle",
     "more_info": {
         "articles": {
             "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
-            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
-        }
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "EFSA Journal (Wiley)": "https://efsa.onlinelibrary.wiley.com/doi/10.2903/j.efsa.2015.4160"
+        },
+        "overview": "Lignosulphonates are lignin-derived polymer preparations obtained during sulphite pulping of plant material. EFSA evaluated calcium, sodium and magnesium preparations together for a feed-binder application. Their binding function helps hold feed ingredients together. The mixture of large lignin-derived molecules distinguishes them from a single purified chemical. These feed uses do not establish permission for direct addition of every lignosulphonate to human food.",
+        "origin": "Plant-derived lignin material chemically converted during sulphite pulping. The assessed preparations are lignosulphonate salts containing calcium, sodium or magnesium.",
+        "precautions": "EFSA identified inhalation of dust from the evaluated feed preparation as a hazard for handlers in its 2015 assessment. This occupational finding does not describe an adverse effect from eating food made from treated animals.",
+        "banned_in": "EFSA identified an inhalation hazard for handlers of the evaluated feed preparation in 2015."
     }
 }

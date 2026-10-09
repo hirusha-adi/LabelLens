@@ -20,6 +20,8 @@
       "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231"
     ],
     "overview": [
+      "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32012R0231",
+      "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02008R1333-20260818",
       "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/2482",
       "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
       "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818"
@@ -37,11 +39,13 @@
     ],
     "display_name": [
       "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231"
+    ],
+    "uses": [
+      "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02008R1333-20260818"
     ]
   },
   "inputs": {},
   "gaps": [
-    "Specific food-use examples were not confirmed; uses omitted.",
     "No sufficiently specific compound-level source was retained for origin; field omitted.",
     "No sufficiently specific compound-level source was retained for dietary_restrictions; field omitted.",
     "No sufficiently specific compound-level source was retained for interactions; field omitted.",
@@ -52,6 +56,8 @@
     "Replaced the legacy layout with rich fields and removed unsupported inherited health, dietary and intake assertions.",
     "names: 'Potassium Sulphates (i) Potassium Sulphate (ii)' -> 'Potassium sulphates: (i) potassium sulphate (ii) potassium hydrogen sulphate'; corrected the identity against the compound-specific regulatory specification.",
     "status: 'e' -> 'e u'; 21 CFR 184.1643. Empty flags include unconfirmed permissions, not inferred country bans.",
-    "name/href/function and characteristics/products replaced by the required rich schema; only sourced facts were retained."
+    "name/href/function and characteristics/products replaced by the required rich schema; only sourced facts were retained.",
+    "2026-10-10 description expansion: overview replaced or added with compound-specific detail from the linked field sources.",
+    "2026-10-10 description expansion: uses replaced or added with compound-specific detail from the linked field sources."
   ]
 }

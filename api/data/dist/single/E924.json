@@ -7,12 +7,14 @@
     "icon": "mdi-alert-circle",
     "more_info": {
         "banned_in": "Approved in the US.\nUS food use is subject to the listed CFR provisions and their conditions, checked in 2026.",
-        "overview": "Potassium bromate is used as a raising agent in food. Its technological role is to release gas that increases the volume of dough.",
+        "overview": "Potassium bromate is an inorganic potassium salt of bromic acid used in some specified flour and grain-processing applications. The current US regulation includes a narrowly defined use in malting barley. Other US food standards separately address bread and bromated flour. JECFA's assessment of bromate remaining in bread raises a different question from the identity and technological purpose of the treatment.",
         "articles": {
             "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
             "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
             "eCFR Title 21": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=172",
-            "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/4265"
+            "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/4265",
+            "eCFR": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=137",
+            "eCFR (2)": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=136"
         },
         "daily_intake": "JECFA judged use as a flour-treatment agent unacceptable (1992, reaffirmed 1995); no current food-use ADI was established.",
         "side_effects": "JECFA reaffirmed its concern about bromate residues remaining in bread in 1995.\nThat evaluation did not establish an acceptable flour-treatment exposure."

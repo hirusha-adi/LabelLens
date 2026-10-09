@@ -11,10 +11,16 @@
       "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
     ],
     "overview": [
-      "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/1462"
+      "https://www.fao.org/fileadmin/user_upload/jecfa_additives/docs/Monograph1/Additive-171.pdf"
     ],
     "daily_intake": [
       "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/1462"
+    ],
+    "origin": [
+      "https://www.fao.org/fileadmin/user_upload/jecfa_additives/docs/Monograph1/Additive-171.pdf"
+    ],
+    "dietary_restrictions": [
+      "https://www.fao.org/fileadmin/user_upload/jecfa_additives/docs/Monograph1/Additive-171.pdf"
     ]
   },
   "inputs": {
@@ -26,15 +32,17 @@
     "Current EU food-use permission was not established for the exact identity or complete group named by this entry; no e flag is asserted.",
     "Current US food-use permission was not established for the exact identity in the FDA inventory and available direct-food CFR sections; no u flag is asserted.",
     "Specific food-use examples were not confirmed; uses omitted.",
-    "No sufficiently specific compound-level source was retained for origin; field omitted.",
     "No sufficiently specific compound-level source was retained for side_effects; field omitted.",
-    "No sufficiently specific compound-level source was retained for dietary_restrictions; field omitted.",
     "No sufficiently specific compound-level source was retained for interactions; field omitted.",
-    "No sufficiently specific compound-level source was retained for precautions; field omitted."
+    "No sufficiently specific compound-level source was retained for precautions; field omitted.",
+    "Gelatine: animal species and halal/kosher certification were not established for a particular commercial product; no universal religious suitability is asserted."
   ],
   "changes": [
     "Replaced the legacy layout with rich fields and removed unsupported inherited health, dietary and intake assertions.",
     "code: '441' -> 'E441'; restored the required prefix and filename identity.",
-    "name/href/function and characteristics/products replaced by the required rich schema; only sourced facts were retained."
+    "name/href/function and characteristics/products replaced by the required rich schema; only sourced facts were retained.",
+    "2026-10-10 description expansion: overview replaced or added with compound-specific detail from the linked field sources.",
+    "2026-10-10 description expansion: origin replaced or added with compound-specific detail from the linked field sources.",
+    "2026-10-10 description expansion: dietary_restrictions replaced or added with compound-specific detail from the linked field sources."
   ]
 }

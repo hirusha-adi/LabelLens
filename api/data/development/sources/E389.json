@@ -18,8 +18,7 @@
     ],
     "overview": [
       "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/2124",
-      "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
-      "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818"
+      "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02008R1333-20260818"
     ],
     "type": [
       "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/2124",
@@ -47,6 +46,7 @@
     "type: empty category filled as antioxidant from the identified technological function.",
     "Replaced the legacy layout with rich fields and removed unsupported inherited health, dietary and intake assertions.",
     "status: '' -> 'u'; 21 CFR 182.3280. Empty flags include unconfirmed permissions, not inferred country bans.",
-    "Created the missing individual additive record and field provenance."
+    "Created the missing individual additive record and field provenance.",
+    "2026-10-10 description expansion: overview replaced or added with compound-specific detail from the linked field sources."
   ]
 }

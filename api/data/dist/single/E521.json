@@ -13,9 +13,12 @@
             "EUR-Lex specifications": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231",
             "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
             "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
-            "EFSA": "https://www.efsa.europa.eu/en/efsajournal/pub/5372"
+            "EFSA": "https://www.efsa.europa.eu/en/efsajournal/pub/5372",
+            "EUR-Lex": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32012R0231",
+            "EUR-Lex (2)": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02008R1333-20260818"
         },
         "side_effects": "EFSA found no concern for the assessed limited food uses.\nHigher-dose animal studies identified nervous-system effects of aluminium.",
-        "overview": "Aluminium sodium sulphate is classified in food technology as a firming agent. Its technological role is to help maintain firmness."
+        "overview": "Aluminium sodium sulphate is a hydrated double sulphate salt of aluminium and sodium, also known as sodium alum. Its firming role is to help fruit or vegetable tissues remain firm, or support the formation of a gel. The specified material is supplied as white powder or crystalline material. The specification identifies water solubility as one of its properties.",
+        "uses": "Examples in the EU food-use list include certain other confectionery including breath freshening microsweets.\nThe entries apply to particular food categories and may limit the amount, the preparation or the way it is used; they do not show how often the additive appears in retail products."
     }
 }

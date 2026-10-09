@@ -9,8 +9,10 @@
         "banned_in": "Approved in the EU.",
         "articles": {
             "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
-            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "EUR-Lex": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32012R0231",
+            "EUR-Lex (2)": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02008R1333-20260818"
         },
-        "overview": "Esters of mono- and diglycerides is classified in food technology as an emulsifier. Its technological role is to help oil and water stay mixed."
+        "overview": "E472 is a group label for acid esters of mono- and diglycerides of fatty acids. The specified subgroups use acetic, lactic, citric or tartaric acids, including acetylated-tartaric and mixed-acid preparations. They help maintain mixtures of ingredients through their emulsifying action. Physical forms and water dispersibility differ between subgroups, ranging from mobile liquids to waxy solids. The precise suffix identifies the preparation, so the group name alone is insufficient to assign one composition or intake assessment."
     }
 }

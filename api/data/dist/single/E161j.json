@@ -6,10 +6,12 @@
     "status": "",
     "icon": "mdi-check-circle",
     "more_info": {
-        "overview": "Astaxanthin is used as a color in food. Its technological role is to add or restore food colour.",
+        "overview": "Astaxanthin is a carotenoid with both alcohol and ketone groups. It occurs in animals such as crustaceans and also in plants, and can occur free or in esterified or protein-associated forms. This entry identifies the pigment substance. The source of a commercial preparation must be established separately from the pigment's natural occurrence.",
         "articles": {
             "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
-            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "PubChem": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Astaxanthin/description/JSON",
+            "EUR-Lex": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02008R1333-20260818"
         }
     }
 }

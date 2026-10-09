@@ -22,6 +22,8 @@
       "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231"
     ],
     "overview": [
+      "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32012R0231",
+      "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02008R1333-20260818",
       "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/3196",
       "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
       "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818"
@@ -31,6 +33,12 @@
     ],
     "side_effects": [
       "https://www.efsa.europa.eu/en/efsajournal/pub/5047"
+    ],
+    "uses": [
+      "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02008R1333-20260818"
+    ],
+    "origin": [
+      "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32012R0231"
     ]
   },
   "inputs": {
@@ -38,8 +46,6 @@
     "type": "development/ins-summary-original.json"
   },
   "gaps": [
-    "Specific food-use examples were not confirmed; uses omitted.",
-    "No sufficiently specific compound-level source was retained for origin; field omitted.",
     "No sufficiently specific compound-level source was retained for dietary_restrictions; field omitted.",
     "No sufficiently specific compound-level source was retained for interactions; field omitted.",
     "No sufficiently specific compound-level source was retained for precautions; field omitted."
@@ -48,6 +54,9 @@
     "Replaced the legacy layout with rich fields and removed unsupported inherited health, dietary and intake assertions.",
     "status: 'e' -> 'e u'; 21 CFR 172.868; 21 CFR 73.1. Empty flags include unconfirmed permissions, not inferred country bans.",
     "code: '462' -> 'E462'; restored the required prefix and filename identity.",
-    "name/href/function and characteristics/products replaced by the required rich schema; only sourced facts were retained."
+    "name/href/function and characteristics/products replaced by the required rich schema; only sourced facts were retained.",
+    "2026-10-10 description expansion: overview replaced or added with compound-specific detail from the linked field sources.",
+    "2026-10-10 description expansion: uses replaced or added with compound-specific detail from the linked field sources.",
+    "2026-10-10 description expansion: origin replaced or added with compound-specific detail from the linked field sources."
   ]
 }

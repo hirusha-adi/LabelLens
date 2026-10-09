@@ -4,14 +4,18 @@
     "display_name": "E586 (4-Hexylresorcinol)",
     "type": "antioxidant",
     "status": "e",
-    "icon": "mdi-check-circle",
+    "icon": "mdi-alert-circle",
     "more_info": {
-        "banned_in": "Approved in the EU.",
-        "uses": "EU permissions include unprocessed molluscs and crustaceans. These permissions depend on the food category and its conditions of use.",
+        "banned_in": "Approved in the EU.\nEFSA could not establish an ADI and required more data before wider use in 2014.",
+        "uses": "Used to prevent melanosis, or darkening, in shrimps and related crustaceans. EFSA's 2014 assessment accepted this limited use provided residues in crustacean meat did not exceed 2 mg/kg.",
         "articles": {
             "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
-            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "EFSA Journal (Wiley)": "https://efsa.onlinelibrary.wiley.com/doi/10.2903/j.efsa.2014.3643",
+            "EUR-Lex": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02008R1333-20260818"
         },
-        "overview": "4-Hexylresorcinol is classified in food technology as an antioxidant. Its technological role is to slow oxidation."
+        "overview": "4-Hexylresorcinol is an organic resorcinol derivative used to control browning in crustaceans. Its food application is prevention of melanosis, the darkening that can develop in shrimps and related crustaceans. EFSA assessed that particular antioxidant use in 2014. The accepted application is linked to a residue limit in crustacean meat, rather than unrestricted use as an antioxidant throughout foods.",
+        "daily_intake": "No ADI established because the available database was insufficient (EFSA, 2014). EFSA accepted the limited crustacean application with residues not exceeding 2 mg/kg in crustacean meat; this residue limit is not a daily intake limit.",
+        "side_effects": "At the assessed food exposure: EFSA considered the margin between estimated dietary exposure and the experimental toxicity benchmark sufficient for the limited shrimp and crustacean application in 2014. This was a regulatory assessment, not evidence from a trial showing that every exposure has no effects.\nAt higher experimental exposure: mouse studies identified kidney damage as the most sensitive toxicity endpoint. EFSA found the data inadequate for an ADI and required additional reproductive-toxicity data before any expansion of use."
     }
 }

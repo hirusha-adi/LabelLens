@@ -7,7 +7,7 @@
     "icon": "mdi-check-circle",
     "more_info": {
         "banned_in": "Approved in the US.\nUS food use is subject to the listed CFR provisions and their conditions, checked in 2026.",
-        "overview": "Paraffins is used as a flavour enhancer in food. Its technological role is to strengthen flavours already present in food.",
+        "overview": "The E905 specification describes refined solid saturated hydrocarbon waxes from petroleum or synthetic feedstocks. It is used to strengthen an existing taste or aroma in the food. The specified material is supplied as white waxy solid. The specification describes it as effectively insoluble in water.",
         "uses": "EU permissions include entire fresh fruit and vegetables, other confectionery including breath freshening micro-sweets, chewing gum. These permissions depend on the food category and its conditions of use.",
         "daily_intake": "ADI withdrawn (JECFA, 1995).",
         "articles": {
@@ -15,7 +15,10 @@
             "EUR-Lex specifications": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231",
             "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
             "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
-            "eCFR Title 21": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=173"
-        }
+            "eCFR Title 21": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=173",
+            "EUR-Lex": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32012R0231",
+            "EUR-Lex (2)": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02008R1333-20260818"
+        },
+        "origin": "A refined solid hydrocarbon mixture obtained from petroleum or synthetic feedstocks. The specification does not restrict the material to one natural petroleum source."
     }
 }

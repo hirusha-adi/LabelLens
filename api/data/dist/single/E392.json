@@ -7,14 +7,16 @@
     "icon": "mdi-check-circle",
     "more_info": {
         "banned_in": "Approved in the EU.",
-        "overview": "Extracts of rosemary is used as an antioxidant in food. Its technological role is to slow oxidation in food.",
-        "uses": "EU permissions include vegetable oil pan spray, fats and oils essentially free from water  (excluding anhydrous milk fat), fruit and vegetable preparations excluding compote, nut butters and nut spreads. These permissions depend on the food category and its conditions of use.",
+        "overview": "Rosemary extracts contain several antioxidant substances, including phenolic acids, flavonoids and diterpenoids; they are concentrated extracts rather than whole culinary rosemary. Its antioxidant role is to slow oxidation that can cause rancidity or unwanted colour changes during storage. Extracted from rosemary leaves. The preparation contains antioxidant phenolic compounds, including diterpenes. The specification describes it as effectively insoluble in water.",
+        "uses": "Examples in the EU food-use list include certain chewing gum; decorations, coatings and fillings, except fruit-based fillings covered by category 4.2.4; sweet baked goods; sauces; potato-, cereal-, flour- or starch-based snacks; processed nuts.\nThe entries apply to particular food categories and may limit the amount, the preparation or the way it is used; they do not show how often the additive appears in retail products.",
         "daily_intake": "0–0.6 mg/kg body weight (expressed as carnosic acid and carnosol) (JECFA, 2025).",
         "articles": {
             "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/6311",
             "EUR-Lex specifications": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231",
             "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
-            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "EUR-Lex": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32012R0231",
+            "EUR-Lex (2)": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02008R1333-20260818"
         },
         "origin": "Extracted from rosemary leaves. The preparation contains antioxidant phenolic compounds, including diterpenes.",
         "dietary_restrictions": "The specified starting material is plant derived and compatible with vegetarian and vegan diets. The specification does not establish halal or kosher certification."

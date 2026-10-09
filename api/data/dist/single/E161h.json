@@ -6,12 +6,15 @@
     "status": "",
     "icon": "mdi-check-circle",
     "more_info": {
-        "overview": "Zeaxanthin is used as a color in food. Its technological role is to add or restore food colour.",
+        "overview": "Zeaxanthin is a carotenoid alcohol related to the beta-carotene structure. The JECFA source identifies a synthetic zeaxanthin preparation and distinguishes its form within the INS system. The pigment has colouring and nutrient functions in that record. The named preparation and group scope matter when interpreting the separately reported intake evaluation.",
         "daily_intake": "No ADI specified (JECFA, 2018).",
         "articles": {
             "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/4907",
             "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
-            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "PubChem": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Zeaxanthin/description/JSON",
+            "WHO JECFA (2)": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/4908",
+            "EUR-Lex": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02008R1333-20260818"
         }
     }
 }

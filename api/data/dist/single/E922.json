@@ -9,8 +9,9 @@
         "articles": {
             "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/3683",
             "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
-            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "Wikipedia": "https://en.wikipedia.org/wiki/Potassium_persulfate"
         },
-        "overview": "Potassium persulphate is classified in food technology as an improving agent. Its technological role is to modify flour or dough properties."
+        "overview": "Potassium persulphate, also called potassium peroxydisulphate, is an inorganic oxidising salt. The specified chemical contains potassium and the peroxydisulphate ion, distinguishing it from ordinary potassium sulphate. It is a white solid whose dissolution increases with warmer water. The dataset retains a historical flour-treatment classification. A current human-food use for this exact preparation was not confirmed."
     }
 }

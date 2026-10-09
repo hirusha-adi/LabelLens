@@ -10,8 +10,10 @@
         "articles": {
             "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
             "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
-            "eCFR Title 21": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=172"
+            "eCFR Title 21": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=172",
+            "PubChem": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Dehydroacetic%20acid/description/JSON",
+            "EUR-Lex": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02008R1333-20260818"
         },
-        "overview": "Dehydroacetic acid is classified in food technology as a preservative. Its technological role is to limit microbial spoilage."
+        "overview": "Dehydroacetic acid is a substituted pyran-dione compound with antimicrobial activity. Its food role is preservative use in specified applications. FDA describes a restricted application involving cut or peeled squash. That permission and its conditions concern this compound specifically, rather than all related dehydroacetate preparations."
     }
 }

@@ -10,8 +10,10 @@
         "articles": {
             "EUR-Lex specifications": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231",
             "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
-            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "EUR-Lex": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32012R0231",
+            "EUR-Lex (2)": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02008R1333-20260818"
         },
-        "overview": "Glyceryl diacetate or diacetin is classified in food technology as a flavour solvent. Its technological role is to dissolve or disperse flavouring ingredients."
+        "overview": "Diacetin is a mixture of two glyceryl diacetate isomers, with small amounts of monoacetin and triacetin permitted in the specified preparation. The specified material is supplied as colourless liquid. The specification identifies water solubility as one of its properties."
     }
 }

@@ -7,15 +7,21 @@
     "icon": "mdi-alert-circle",
     "more_info": {
         "banned_in": "Approved in the EU.",
-        "overview": "Annatto is used as a color in food. Its technological role is to add or restore food colour.",
-        "uses": "EU permissions include processed fish and fishery products including molluscs and crustaceans. These permissions depend on the food category and its conditions of use.",
+        "overview": "Annatto colours come from the outer coating of Bixa orellana seeds; the principal colouring substances are bixin and norbixin. It is used to add colour or restore colour lost during food manufacture. The pigments come from the coating of annatto seeds. Extraction produces bixin-rich preparations, while alkaline treatment converts bixin into norbixin. One specified form is a reddish-brown powder, suspension or solution.",
+        "uses": "Examples in the EU food-use list include certain processed fish and fishery products including molluscs and crustaceans.\nThe permitted food categories and limits differ between the separately specified preparations. These listed examples do not establish the prevalence of the ingredient in retail foods.",
         "daily_intake": "6 mg bixin/kg body weight/day and 0.3 mg norbixin/kg body weight/day for the specified assessed extracts (EFSA, 2016).",
         "articles": {
             "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/3651",
             "EUR-Lex specifications": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231",
             "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
             "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
-            "EFSA": "https://www.efsa.europa.eu/en/efsajournal/pub/4544"
+            "EFSA": "https://www.efsa.europa.eu/en/efsajournal/pub/4544",
+            "EUR-Lex": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32012R0231",
+            "EUR-Lex (2)": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02008R1333-20260818",
+            "WHO JECFA (2)": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/4371",
+            "WHO JECFA (3)": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/3655",
+            "WHO JECFA (4)": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/4744",
+            "WHO JECFA (5)": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/3653"
         },
         "origin": "The pigments come from the coating of annatto seeds. Extraction produces bixin-rich preparations, while alkaline treatment converts bixin into norbixin.",
         "dietary_restrictions": "The specified starting material is plant derived and compatible with vegetarian and vegan diets. The specification does not establish halal or kosher certification.",

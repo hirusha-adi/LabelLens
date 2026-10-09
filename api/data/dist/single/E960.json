@@ -6,17 +6,20 @@
     "status": "e",
     "icon": "mdi-alert-circle",
     "more_info": {
-        "overview": "Steviol glycosides is used as a sweetener in food. Its technological role is to provide sweetness.",
+        "overview": "Steviol glycosides are a group of sweet substances based on a steviol structure; the current food-additive list distinguishes several production-specific preparations. It provides sweetness when added to the food or used in a table-top sweetener preparation. The specified leaf-extract form is produced by extracting stevia leaves with water, purifying the extract and recrystallising the glycosides. Other currently authorised steviol-glycoside forms have their own specifications. The specified material is supplied as white powder. Only a limited amount dissolves in water, according to the specification.",
         "daily_intake": "0–4 mg steviol equivalents/kg body weight/day, combined steviol glycosides (JECFA, 2026).",
         "articles": {
             "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/267",
             "EUR-Lex specifications": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231",
             "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
-            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "EUR-Lex": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32012R0231",
+            "EUR-Lex (2)": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02008R1333-20260818"
         },
         "origin": "The specified leaf-extract form is produced by extracting stevia leaves with water, purifying the extract and recrystallising the glycosides. Other currently authorised steviol-glycoside forms have their own specifications.",
         "dietary_restrictions": "For the specified stevia-leaf extract, the starting material is plant derived. This does not establish the source or religious certification of every preparation in the wider steviol-glycoside group.",
         "banned_in": "Approved in the EU.\nEU permission applies to the specified E960a–E960d preparations under the 2026 consolidated rules.",
-        "side_effects": "In 2026, JECFA retained the intake limit and did not identify new toxicity evidence requiring a revision.\nA conservative high-consumption estimate for children exceeded the limit; its significance was qualified by exposure-model uncertainty."
+        "side_effects": "In 2026, JECFA retained the intake limit and did not identify new toxicity evidence requiring a revision.\nA conservative high-consumption estimate for children exceeded the limit; its significance was qualified by exposure-model uncertainty.",
+        "uses": "Examples in the EU food-use list include certain cocoa and Chocolate products as covered by Directive 2000/36/EC; other confectionery including breath freshening microsweets; chewing gum; decorations, coatings and fillings, except fruit-based fillings covered by category 4.2.4; fruit nectars as defined by Directive 2001/112/EC and vegetable nectars and similar products; flavoured fermented milk products including heat-treated products.\nThe permitted food categories and limits differ between the separately specified preparations. These listed examples do not establish the prevalence of the ingredient in retail foods."
     }
 }

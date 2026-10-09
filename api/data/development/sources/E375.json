@@ -43,6 +43,7 @@
     "status: '' -> 'u'; positive flags require a matching current EU listing or direct-food FDA provision.",
     "Replaced the legacy layout with rich fields and removed unsupported inherited health, dietary and intake assertions.",
     "code: '375' -> 'E375'; restored the required prefix and filename identity.",
-    "name/href/function and characteristics/products replaced by the required rich schema; only sourced facts were retained."
+    "name/href/function and characteristics/products replaced by the required rich schema; only sourced facts were retained.",
+    "2026-10-10 description expansion: overview replaced or added with compound-specific detail from the linked field sources."
   ]
 }

@@ -8,8 +8,9 @@
     "more_info": {
         "articles": {
             "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
-            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "Wikipedia": "https://en.wikipedia.org/wiki/Hydroxyethyl_cellulose"
         },
-        "overview": "Hydroxyethyl cellulose is classified in food technology as a thickening agent. Its technological role is to increase thickness."
+        "overview": "Hydroxyethyl cellulose is a chemically modified cellulose polymer used to thicken aqueous formulations. Hydroxyethyl groups are attached to the cellulose structure, changing its behaviour in water. The preparation is distinct from hydroxypropyl cellulose and ethyl hydroxyethyl cellulose. The reviewed general identity source does not establish a typical current human-food application for this historical entry. Non-food formulation uses cannot determine its food-grade suitability."
     }
 }

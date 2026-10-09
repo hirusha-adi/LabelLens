@@ -8,8 +8,10 @@
     "more_info": {
         "articles": {
             "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
-            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "PubChem": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Violaxanthin/description/JSON",
+            "EUR-Lex": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02008R1333-20260818"
         },
-        "overview": "Violaxanthin is classified in food technology as a color. Its technological role is to add or restore colour."
+        "overview": "Violaxanthin is a chemically defined carotenoid colour; the PubChem record identifies the all-trans form specifically. Its pigment identity is distinct from other substances in the xanthophyll family. The current sources do not establish a typical permitted food example for this historical entry. Preparation-specific manufacture and food-intake information remain unconfirmed."
     }
 }

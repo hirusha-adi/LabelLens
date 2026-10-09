@@ -6,12 +6,13 @@
     "status": "",
     "icon": "mdi-alert-circle",
     "more_info": {
-        "overview": "Red 2G is used as a color in food. Its technological role is to add or restore food colour.",
+        "overview": "Red 2G is a synthetic azo colour specified as a disodium salt of an acetamido-substituted naphthalene dye. Its colouring function is to add or restore colour in the food. The available identity record does not establish a typical retail-food example for this exact preparation. Commercial specifications and legal conditions need to refer to the particular substance or preparation named here.",
         "daily_intake": "Historical ADI: 0–0.1 mg/kg body weight (JECFA, 1981). Codex food-use provisions were withdrawn in 2018.",
         "articles": {
             "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/228",
             "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
-            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "EUR-Lex": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02008R1333-20260818"
         },
         "banned_in": "Codex food-use provisions were withdrawn in 2018; JECFA did not re-evaluate the dye that year."
     }

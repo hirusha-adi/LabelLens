@@ -7,16 +7,18 @@
     "icon": "mdi-alert-circle",
     "more_info": {
         "banned_in": "Approved in the EU.\nEU permitted levels and categories were reduced from 2013; no US food-colour listing was verified in 2026.",
-        "overview": "Ponceau 4R is a red azo food colour. It is also called Cochineal Red A or New Coccine. Its colour comes from a manufactured dye rather than the insect extract used for carmine.",
+        "overview": "Ponceau 4R is a red azo food colour. It is also called Cochineal Red A or New Coccine. Its colour comes from a manufactured dye rather than the insect extract used for carmine. The specified colour is supplied as reddish powder or granules.",
         "origin": "Synthetic. Diazotised naphthionic acid is coupled with a naphthol disulfonic acid, and the product is converted to its sodium salt.",
         "daily_intake": "0.7 mg/kg body weight per day (EFSA, 2009). JECFA allocated 0–4 mg/kg body weight per day in 1983; the assessments differ.",
         "side_effects": "At food-use levels, limited evidence did not firmly establish this dye alone as a cause of intolerance or behavioural effects. EFSA's refined 2015 exposure assessment found no ADI exceedance after EU limits were reduced.\nKidney changes in a long-term mouse study were used to derive the ADI. This animal finding is not evidence of the same effect at ordinary human food intakes.",
-        "uses": "EU permitted categories include confectionery, flavoured drinks, desserts and certain sausages, subject to specific limits.",
+        "uses": "Examples in the EU food-use list include certain other confectionery including breath freshening microsweets; chewing gum; decorations, coatings and fillings, except fruit-based fillings covered by category 4.2.4; flavoured drinks; flavoured fermented milk products including heat-treated products; non-heat–treated meat products.\nThe entries apply to particular food categories and may limit the amount, the preparation or the way it is used; they do not show how often the additive appears in retail products.",
         "articles": {
             "EFSA Journal (2009)": "https://efsa.onlinelibrary.wiley.com/doi/10.2903/j.efsa.2009.1328",
             "EFSA Journal (2015)": "https://efsa.onlinelibrary.wiley.com/doi/10.2903/j.efsa.2015.4073",
             "WHO JECFA (INCHEM)": "https://www.inchem.org/documents/jecfa/jeceval/jec_1959.htm",
-            "European Commission database": "https://ec.europa.eu/food/food-feed-portal/backend/api/policy-items/POL-FAD-IMPORT-2993"
+            "European Commission database": "https://ec.europa.eu/food/food-feed-portal/backend/api/policy-items/POL-FAD-IMPORT-2993",
+            "EUR-Lex": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32012R0231",
+            "EUR-Lex (2)": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02008R1333-20260818"
         }
     }
 }

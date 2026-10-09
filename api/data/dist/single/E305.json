@@ -6,12 +6,14 @@
     "status": "",
     "icon": "mdi-check-circle",
     "more_info": {
-        "overview": "Ascorbyl stearate is used as an antioxidant in food. Its technological role is to slow oxidation in food.",
+        "overview": "Ascorbyl stearate is an ester combining ascorbic acid and stearic acid, also described as vitamin C stearate. Its antioxidant function is to slow oxidative deterioration during storage. The available identity record does not establish a typical retail-food example for this exact preparation. Commercial specifications and legal conditions need to refer to the particular substance or preparation named here.",
         "daily_intake": "No ADI specified (JECFA, 2025).",
         "articles": {
             "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/61",
             "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
-            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "WHO JECFA (2)": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/5093",
+            "EUR-Lex": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02008R1333-20260818"
         }
     }
 }

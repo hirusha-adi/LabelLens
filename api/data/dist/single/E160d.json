@@ -7,14 +7,19 @@
     "icon": "mdi-check-circle",
     "more_info": {
         "banned_in": "Approved in the EU.",
-        "overview": "Lycopene is used as a color in food. Its technological role is to add or restore food colour.",
-        "uses": "EU permissions include meal replacement for weight control as referred to in Commission Regulation (EU) no 432/2012, flavoured drinks, flavoured fermented milk products including heat-treated products, edible cheese rind. These permissions depend on the food category and its conditions of use.",
+        "overview": "Lycopene is a red carotenoid pigment; the specification covers synthetic material as well as preparations extracted from tomatoes or produced by fungal fermentation. It is used to add colour or restore colour lost during food manufacture. Specified lycopene preparations can be made by chemical synthesis, extracted from tomatoes, or produced by fermentation with Blakeslea trispora. The source depends on the preparation. The specified material is supplied as red powder or crystalline material. The specification describes it as effectively insoluble in water.",
+        "uses": "Examples in the EU food-use list include certain other confectionery including breath freshening microsweets; chewing gum; decorations, coatings and fillings, except fruit-based fillings covered by category 4.2.4; flavoured drinks; flavoured fermented milk products including heat-treated products; edible cheese rind.\nThe entries apply to particular food categories and may limit the amount, the preparation or the way it is used; they do not show how often the additive appears in retail products.",
         "daily_intake": "For lycopene: No ADI specified (JECFA, 2009). This evaluation does not establish an ADI for every form in the named group.",
         "articles": {
             "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/2876",
             "EUR-Lex specifications": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231",
             "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
-            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "EUR-Lex": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32012R0231",
+            "EUR-Lex (2)": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02008R1333-20260818",
+            "WHO JECFA (2)": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/5572",
+            "WHO JECFA (3)": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/5880",
+            "WHO JECFA (4)": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/5573"
         },
         "origin": "Specified lycopene preparations can be made by chemical synthesis, extracted from tomatoes, or produced by fermentation with Blakeslea trispora. The source depends on the preparation."
     }

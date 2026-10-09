@@ -6,12 +6,13 @@
     "status": "",
     "icon": "mdi-check-circle",
     "more_info": {
-        "overview": "Cholic acid is used as an emulsifier in food. Its technological role is to help oil and water remain mixed.",
+        "overview": "Cholic acid is a defined steroid-structure acid, chemically a trihydroxy cholanic acid, with a historical emulsifier classification. Its emulsifying function is to help maintain mixtures of oil and water. The available identity record does not establish a typical retail-food example for this exact preparation. Commercial specifications and legal conditions need to refer to the particular substance or preparation named here.",
         "daily_intake": "0-1.25 mg/kg body weight (JECFA, 1973).",
         "articles": {
             "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/1950",
             "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
-            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
+            "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+            "EUR-Lex": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02008R1333-20260818"
         }
     }
 }

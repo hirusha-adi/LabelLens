@@ -7,8 +7,8 @@
     "icon": "mdi-alert-circle",
     "more_info": {
         "banned_in": "Approved in the EU.\nApproved in the US.\nUS food use is subject to the listed CFR provisions and their conditions, checked in 2026.",
-        "overview": "Butylated hydroxytoluene is used as an antioxidant in food. Its technological role is to slow oxidation in food.",
-        "uses": "EU permissions include fats and oils essentially free from water  (excluding anhydrous milk fat). These permissions depend on the food category and its conditions of use.",
+        "overview": "Butylated hydroxytoluene, usually abbreviated BHT, is a defined phenolic antioxidant. Its antioxidant role is to slow oxidation that can cause rancidity or unwanted colour changes during storage. The specified material is supplied as white crystalline material or solid. The specification describes it as effectively insoluble in water.",
+        "uses": "Examples in the EU food-use list include certain fats and oils essentially free from water; other fat and oil emulsions including spreads as defined by Council Regulation No 1234/2007 and liquid emulsions.\nThe entries apply to particular food categories and may limit the amount, the preparation or the way it is used; they do not show how often the additive appears in retail products.",
         "daily_intake": "0.25 mg/kg body weight/day (EFSA, 2012).",
         "articles": {
             "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/2142",
@@ -16,7 +16,10 @@
             "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
             "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
             "eCFR Title 21": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=172",
-            "EFSA": "https://www.efsa.europa.eu/en/efsajournal/pub/2588"
+            "EFSA": "https://www.efsa.europa.eu/en/efsajournal/pub/2588",
+            "EUR-Lex": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32012R0231",
+            "EUR-Lex (2)": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02008R1333-20260818",
+            "WHO JECFA (2)": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/1911"
         },
         "side_effects": "Mean food-use estimates were below EFSA's limit.\nSome high-consumption child estimates exceeded it; animal reproductive and liver findings supported the limit."
     }
