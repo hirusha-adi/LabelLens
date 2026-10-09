@@ -103,40 +103,6 @@ export const regions = {
 
 export const emptyPreferences = () => ({ allergies: [], diet: "none", dietLevel: "avoid", groups: {}, additives: [], sensitivities: [] });
 
-/** The demo account, created the first time the server starts with an empty database. */
-export const demoAccount = {
-  email: "sam.rivera@gmail.com",
-  password: "labellens",
-  name: "Sam Rivera",
-  plan: "family",
-  preferences: {
-    allergies: [
-      { name: "Peanuts", level: "avoid", custom: false },
-      { name: "Tree nuts", level: "avoid", custom: false },
-      { name: "Milk", level: "warn", custom: false },
-    ],
-    diet: "vegan",
-    dietLevel: "avoid",
-    groups: { artificial_colours: "avoid", artificial_sweeteners: "warn", flavour_enhancers: "warn" },
-    additives: ["E951", "E171"],
-    sensitivities: ["children"],
-  },
-  saved: ["E171", "E102", "E951", "E621"],
-  // Hours before the account is created, so the list always reads "Today" and "Yesterday".
-  history: [
-    { name: "Fruit gummies", hoursAgo: 2, verdict: "avoid", codes: ["E102", "E211", "E330", "E621", "E110"] },
-    { name: "Sparkling lemonade", hoursAgo: 7, verdict: "caution", codes: ["E330", "E211", "E950"] },
-    { name: "Oat crackers", hoursAgo: 24, verdict: "safe", codes: ["E322"] },
-    { name: "Instant noodles", hoursAgo: 29, verdict: "caution", codes: ["E621", "E330", "E331", "E415", "E160a", "E300"] },
-    { name: "Greek yogurt", hoursAgo: 33, verdict: "safe", codes: [] },
-  ],
-  family: [
-    { id: "me", name: "Sam (you)", role: "admin", initials: "SR", icon: null, tone: "primary", short: "Vegan · 3 allergies", summary: "Vegan · peanuts, tree nuts, milk", selected: true },
-    { id: "alex", name: "Alex", role: null, initials: "AL", icon: null, tone: "secondary", short: "Gluten · Halal", summary: "Halal · gluten", selected: false },
-    { id: "mia", name: "Mia, 6", role: null, initials: null, icon: "child_care", tone: "tertiary", short: "Peanuts · child", summary: "Peanuts · stricter for children", selected: true },
-  ],
-};
-
 export const FAMILY_MAX = 5;
 export const FAMILY_NOTE =
   "Shared history: every family member sees scans made with Family. Grown-ups can invite others by email; children's profiles don't need an account.";

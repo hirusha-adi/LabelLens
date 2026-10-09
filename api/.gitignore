@@ -1,2 +1,7 @@
 node_modules/
 var/
+
+# Keys and other secrets. Only the example file is tracked.
+.env
+.env.*
+!.env.example

@@ -113,6 +113,10 @@ class Store(private val context: Context) {
             runCatching { user = AppJson.decodeFromString<User>(text) }
         }
         api.token = local.getString(KEY_TOKEN, null)
+        api.refreshToken = local.getString(KEY_REFRESH_TOKEN, null)
+        api.onSessionRefreshed = { token, refresh ->
+            local.edit().putString(KEY_TOKEN, token).putString(KEY_REFRESH_TOKEN, refresh).apply()
+        }
         if (api.token == null) user = null
         if (catalogueFile.exists()) {
             runCatching { applyCatalogue(AppJson.decodeFromString<Catalogue>(catalogueFile.readText())) }
@@ -213,26 +217,46 @@ class Store(private val context: Context) {
     suspend fun login(email: String, password: String): Outcome =
         call { openSession(api.post<Credentials, AuthResponse>("/auth/login", Credentials(email, password))) }
 
-    suspend fun loginWithGoogle(): Outcome = call { openSession(api.post<AuthResponse>("/auth/google")) }
+    suspend fun loginWithGoogle(idToken: String, nonce: String): Outcome =
+        call { openSession(api.post<GoogleBody, AuthResponse>("/auth/google", GoogleBody(idToken, nonce))) }
 
-    suspend fun signUp(name: String, email: String, password: String): Outcome =
-        call { openSession(api.post<Credentials, AuthResponse>("/auth/signup", Credentials(email, password, name))) }
+    /**
+     * The sign-up waiting for its email to be confirmed. Kept in memory only, so the
+     * password is never written to the phone; if the app is closed, the user logs in instead.
+     */
+    var pendingVerification by mutableStateOf<Credentials?>(null)
+        private set
+
+    suspend fun signUp(name: String, email: String, password: String): Outcome = call {
+        val response = api.post<Credentials, AuthResponse>("/auth/signup", Credentials(email, password, name))
+        if (response.token == null) pendingVerification = Credentials(email, password, name) else openSession(response)
+    }
+
+    fun cancelVerification() {
+        pendingVerification = null
+    }
 
     suspend fun forgotPassword(email: String): Result<ForgotResponse> =
         runCatching { api.post<EmailBody, ForgotResponse>("/auth/forgot", EmailBody(email)) }
 
-    suspend fun resendVerification(): Outcome = call { api.post<Ok>("/auth/resend-verification") }
+    suspend fun resendVerification(): Outcome {
+        val pending = pendingVerification ?: return Outcome.Failure("Sign up again to get a new email.")
+        return call { api.post<EmailBody, Ok>("/auth/resend-verification", EmailBody(pending.email)) }
+    }
 
-    /** Asks the server whether the email has been confirmed yet. */
+    /** Tries to log in with the pending sign-up. Works as soon as the email has been confirmed. */
     suspend fun checkVerified(): Boolean {
-        val fresh = runCatching { api.get<User>("/me") }.getOrNull() ?: return false
-        applyUser(fresh)
-        return fresh.verified
+        val pending = pendingVerification ?: return false
+        val confirmed = login(pending.email, pending.password) is Outcome.Success
+        if (confirmed) pendingVerification = null
+        return confirmed
     }
 
     private suspend fun openSession(auth: AuthResponse) {
-        api.token = auth.token
-        local.edit().putString(KEY_TOKEN, auth.token).putBoolean(KEY_ENTERED, true).apply()
+        val token = auth.token ?: return
+        api.token = token
+        api.refreshToken = auth.refreshToken
+        local.edit().putString(KEY_TOKEN, token).putString(KEY_REFRESH_TOKEN, auth.refreshToken).putBoolean(KEY_ENTERED, true).apply()
         applyUser(auth.user)
         history = null
         loadAccount()
@@ -245,8 +269,9 @@ class Store(private val context: Context) {
 
     private fun clearSession() {
         api.token = null
+        api.refreshToken = null
         applyUser(null)
-        local.edit().remove(KEY_TOKEN).remove(KEY_PREFERENCES).apply()
+        local.edit().remove(KEY_TOKEN).remove(KEY_REFRESH_TOKEN).remove(KEY_PREFERENCES).apply()
         preferences = Preferences()
         saved = emptyList()
         history = null
@@ -465,6 +490,7 @@ class Store(private val context: Context) {
         private const val KEY_PREFERENCES = "preferences"
         private const val KEY_USER = "user"
         private const val KEY_TOKEN = "token"
+        private const val KEY_REFRESH_TOKEN = "refreshToken"
         private const val KEY_ONBOARDED = "onboarded"
         private const val KEY_ENTERED = "entered"
         private const val KEY_REGION = "region"

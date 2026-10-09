@@ -119,8 +119,23 @@ data class User(
     val stats: UserStats = UserStats(),
 )
 
+/**
+ * What the API sends after logging in, signing up or refreshing. [token] is null when the
+ * account was created but the email still has to be confirmed.
+ */
 @Serializable
-data class AuthResponse(val token: String, val user: User)
+data class AuthResponse(
+    val token: String? = null,
+    val refreshToken: String? = null,
+    val user: User,
+    val needsVerification: Boolean = false,
+)
+
+@Serializable
+data class RefreshBody(val refreshToken: String)
+
+@Serializable
+data class GoogleBody(val idToken: String, val nonce: String)
 
 @Serializable
 data class Credentials(val email: String, val password: String, val name: String = "")

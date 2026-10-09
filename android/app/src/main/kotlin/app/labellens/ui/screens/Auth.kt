@@ -41,6 +41,9 @@ import androidx.compose.ui.text.input.PasswordVisualTransformation
 import androidx.compose.ui.text.input.VisualTransformation
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
+import androidx.lifecycle.compose.LifecycleResumeEffect
+import app.labellens.data.GoogleResult
+import app.labellens.data.GoogleSignIn
 import app.labellens.data.Outcome
 import app.labellens.data.Screen
 import app.labellens.data.Store
@@ -127,6 +130,7 @@ private fun ErrorBanner(text: String) {
 @Composable
 fun LoginScreen() {
     val store = LocalStore.current
+    val context = LocalContext.current
     val scope = rememberCoroutineScope()
     var email by rememberSaveable { mutableStateOf("") }
     var password by rememberSaveable { mutableStateOf("") }
@@ -182,7 +186,13 @@ fun LoginScreen() {
             GoogleButton(enabled = !loading) {
                 loading = true
                 error = null
-                scope.launch { finish(store.loginWithGoogle()) }
+                scope.launch {
+                    when (val google = GoogleSignIn.request(context)) {
+                        is GoogleResult.Token -> finish(store.loginWithGoogle(google.idToken, google.nonce))
+                        GoogleResult.Cancelled -> loading = false
+                        is GoogleResult.Failed -> finish(Outcome.Failure(google.message))
+                    }
+                }
             }
             Row(Modifier.fillMaxWidth().padding(top = 12.dp), horizontalArrangement = Arrangement.Center, verticalAlignment = Alignment.CenterVertically) {
                 T("New here?", hg(500, 15), color = cs.onSurfaceVariant)
@@ -229,7 +239,16 @@ fun CreateAccountScreen() {
     fun finish(outcome: Outcome, verify: Boolean) {
         loading = false
         when (outcome) {
-            is Outcome.Success -> if (verify) store.nav.reset(Screen.VerifyEmail) else enterApp(store)
+            is Outcome.Success -> when {
+                // Email confirmation is on: wait for the link to be opened.
+                store.pendingVerification != null -> store.nav.reset(Screen.VerifyEmail)
+                verify -> {
+                    store.draft = store.preferences
+                    enterApp(store)
+                    store.nav.push(Screen.PrefsStep(0))
+                }
+                else -> enterApp(store)
+            }
             is Outcome.Failure -> failure = outcome.message
         }
     }
@@ -260,7 +279,13 @@ fun CreateAccountScreen() {
             GoogleButton(enabled = !loading) {
                 loading = true
                 failure = null
-                scope.launch { finish(store.loginWithGoogle(), verify = false) }
+                scope.launch {
+                    when (val google = GoogleSignIn.request(context)) {
+                        is GoogleResult.Token -> finish(store.loginWithGoogle(google.idToken, google.nonce), verify = false)
+                        GoogleResult.Cancelled -> loading = false
+                        is GoogleResult.Failed -> finish(Outcome.Failure(google.message), verify = false)
+                    }
+                }
             }
             OrDivider("or with email")
             Field(name, { name = it }, "Name (optional)", enabled = !loading, keyboardOptions = KeyboardOptions(imeAction = ImeAction.Next))
@@ -421,17 +446,25 @@ fun VerifyEmailScreen() {
     val store = LocalStore.current
     val context = LocalContext.current
     val scope = rememberCoroutineScope()
-    val email = store.user?.email.orEmpty()
+    val email = store.pendingVerification?.email.orEmpty()
 
-    LaunchedEffect(Unit) {
-        while (true) {
-            delay(2000)
+    // Confirmation shows up as a log-in that starts working. Check when the user comes
+    // back from their email app, and now and then while the screen stays open. The slow
+    // pace is deliberate: sign-in attempts are rate limited.
+    var checks by remember { mutableIntStateOf(0) }
+    LifecycleResumeEffect(Unit) {
+        checks++
+        onPauseOrDispose { }
+    }
+    LaunchedEffect(checks) {
+        while (store.pendingVerification != null) {
             if (store.checkVerified()) {
                 store.draft = store.preferences
                 enterApp(store)
                 store.nav.push(Screen.PrefsStep(0))
                 break
             }
+            delay(15_000)
         }
     }
 
@@ -445,7 +478,11 @@ fun VerifyEmailScreen() {
                             store.snack(if (store.resendVerification() is Outcome.Success) "Email sent again" else "Couldn't resend. Check your connection and try again.")
                         }
                     }, Modifier.weight(1f))
-                    TextAction("Change email", { store.logout() }, Modifier.weight(1f))
+                    TextAction("Change email", {
+                        store.cancelVerification()
+                        store.nav.reset(Screen.Welcome)
+                        store.nav.push(Screen.CreateAccount)
+                    }, Modifier.weight(1f))
                 }
             }
         },

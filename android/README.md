@@ -39,12 +39,19 @@ LABELLENS_CATALOGUE=/tmp/catalogue.json ./gradlew :app:testDebugUnitTest
 
 Label photos are read on the phone with ML Kit text recognition and are never sent anywhere. The additive list (522 additives) is saved on the phone after the first connection, so scanning and search work offline. On later starts the app asks the API whether the list has changed and only downloads it again if it has. Additive pages, history, saved additives and purchases need the API.
 
+Accounts are real: sign-up sends a confirmation email through Supabase, and the confirm-email screen moves on once the link has been opened. The app keeps the access token and its refresh token in private app storage and renews the access token by itself when it expires. The password is never stored.
+
+### Google sign-in
+
+"Continue with Google" uses Credential Manager to show Google's account picker, then sends the ID token to the API, which signs in through Supabase. It needs two OAuth clients in one Google Cloud project:
+
+- a **Web application** client, whose ID is in `app/build.gradle.kts` (override with `-PgoogleWebClientId=...`) and, with its secret, in Supabase's Google provider
+- an **Android** client with package `app.labellens` and the SHA-1 of the key the build is signed with. Add one per key: debug, release, and Play App Signing. A missing one is the usual reason sign-in works in debug and fails in release.
+
 ## What is a placeholder
 
 - **Verdicts.** Safe, Caution and Avoid are worked out by rules in the API, because the dataset has no rating. See [../api/README.md](../api/README.md).
-- **Billing.** "Start free trial" calls the API, which always says yes. Google Play Billing is not wired in.
-- **Google sign-in.** "Continue with Google" logs in the demo account.
-- **Email.** No email is sent. The confirmation screen moves on by itself after a few seconds.
+- **Billing.** "Start free trial" calls the API, which grants the plan without payment. Google Play Billing is not wired in.
 - **Some settings rows.** Change email, change password, notifications, download my data and adding a family profile show a "not available in this preview build" message.
 - **Links out of the app** (help, terms, privacy, licence) point at placeholder pages in this repository.
 

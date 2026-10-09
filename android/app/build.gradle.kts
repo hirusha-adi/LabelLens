@@ -9,6 +9,12 @@ plugins {
 // -PapiBaseUrl=http://192.168.1.20:8787 to reach it over Wi-Fi instead.
 val apiBaseUrl = providers.gradleProperty("apiBaseUrl").getOrElse("http://127.0.0.1:8787")
 
+// The OAuth "Web application" client ID from Google Cloud, the same one entered in Supabase's
+// Google provider. It is public by design. The Android OAuth client (package name + SHA-1)
+// must exist in the same Google project, but its ID is not used anywhere.
+val googleWebClientId = providers.gradleProperty("googleWebClientId")
+    .getOrElse("989048634874-irjt4kp906tl68ba2jcv1ciepinclj9v.apps.googleusercontent.com")
+
 android {
     namespace = "app.labellens"
     compileSdk = 37
@@ -21,6 +27,7 @@ android {
         versionName = "2.0.0"
 
         buildConfigField("String", "API_BASE_URL", "\"$apiBaseUrl\"")
+        buildConfigField("String", "GOOGLE_WEB_CLIENT_ID", "\"$googleWebClientId\"")
     }
 
     buildTypes {
@@ -54,6 +61,10 @@ dependencies {
     implementation(libs.kotlinx.serialization.json)
 
     implementation(libs.mlkit.text.recognition)
+
+    implementation(libs.androidx.credentials)
+    implementation(libs.androidx.credentials.play.services)
+    implementation(libs.google.id)
 
     testImplementation(libs.junit)
 }
