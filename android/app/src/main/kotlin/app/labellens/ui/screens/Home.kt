@@ -228,7 +228,7 @@ private fun OfflineBanner(store: Store) {
             T(if (ready) "Scanning still works offline" else "Connect once to get started", hg(700, 15, 20), color = cs.onTertiaryContainer)
             T(
                 if (ready) {
-                    "All ${store.meta.totalCount} additives are saved on this phone (updated ${store.meta.syncedLabel}). Sync and purchases need a connection."
+                    "All ${store.meta.totalCount} additives are saved on this phone (updated ${store.lastSyncLabel}). Sync and purchases need a connection."
                 } else {
                     "The additive list hasn't been downloaded yet. It is saved on this phone after the first connection."
                 },

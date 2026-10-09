@@ -46,6 +46,9 @@ class Store(private val context: Context) {
     private var index: Map<String, Additive> = emptyMap()
     var meta by mutableStateOf(CatalogueMeta())
         private set
+    /** When the additive list was last confirmed with the API, in epoch milliseconds. 0 if never. */
+    var lastSync by mutableStateOf(0L)
+        private set
     var offline by mutableStateOf(false)
         private set
     var options by mutableStateOf(PreferenceOptions())
@@ -113,6 +116,7 @@ class Store(private val context: Context) {
         if (api.token == null) user = null
         if (catalogueFile.exists()) {
             runCatching { applyCatalogue(AppJson.decodeFromString<Catalogue>(catalogueFile.readText())) }
+            lastSync = local.getLong(KEY_LAST_SYNC, 0L)
         }
         nav.reset(
             when {
@@ -137,16 +141,35 @@ class Store(private val context: Context) {
 
     private suspend fun loadCatalogue() {
         try {
-            val fresh = api.get<Catalogue>("/additives")
-            applyCatalogue(fresh)
+            // Null means the copy on the phone is still current.
+            val fresh = api.getIfChanged<Catalogue>("/additives", if (catalogue.isEmpty()) "" else meta.version)
+            if (fresh != null) {
+                applyCatalogue(fresh)
+                details.clear()
+                withContext(Dispatchers.IO) { catalogueFile.writeText(AppJson.encodeToString(fresh)) }
+            }
             offline = false
-            withContext(Dispatchers.IO) { catalogueFile.writeText(AppJson.encodeToString(fresh)) }
+            lastSync = System.currentTimeMillis()
+            local.edit().putLong(KEY_LAST_SYNC, lastSync).apply()
         } catch (e: IOException) {
             offline = true
         } catch (e: Exception) {
+            // The server answered, just not with something usable. Keep what is on the phone.
             offline = false
         }
     }
+
+    /** "today", "yesterday" or "3 days ago", for the offline banner. */
+    val lastSyncLabel: String
+        get() {
+            if (lastSync == 0L) return "never"
+            val days = ((System.currentTimeMillis() - lastSync) / 86_400_000L).toInt()
+            return when (days) {
+                0 -> "today"
+                1 -> "yesterday"
+                else -> "$days days ago"
+            }
+        }
 
     private fun applyCatalogue(value: Catalogue) {
         catalogue = value.additives
@@ -158,7 +181,7 @@ class Store(private val context: Context) {
         try {
             applyUser(api.get<User>("/me"))
         } catch (e: ApiException) {
-            // The sample API keeps sessions in memory, so a restart signs everyone out.
+            // The session is gone on the server: logged out elsewhere, or the account was deleted.
             if (e.status == 401) clearSession()
             return
         } catch (e: IOException) {
@@ -445,5 +468,6 @@ class Store(private val context: Context) {
         private const val KEY_ONBOARDED = "onboarded"
         private const val KEY_ENTERED = "entered"
         private const val KEY_REGION = "region"
+        private const val KEY_LAST_SYNC = "lastSync"
     }
 }

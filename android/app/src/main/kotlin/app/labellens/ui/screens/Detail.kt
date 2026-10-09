@@ -254,11 +254,32 @@ private fun DetailBody(additive: Additive, detail: AdditiveDetail) {
             verticalArrangement = Arrangement.spacedBy(10.dp),
         ) {
             detail.regulatory.forEach { line ->
-                val banned = line.kind == "banned"
+                val (icon, tint) = when (line.kind) {
+                    "banned" -> "block" to statusColors.avoid.color
+                    "approved" -> "check_circle" to statusColors.safe.color
+                    else -> "info" to cs.onSurfaceVariant
+                }
                 Row(horizontalArrangement = Arrangement.spacedBy(12.dp)) {
-                    Sym(if (banned) "block" else "check_circle", size = 22.dp, tint = if (banned) statusColors.avoid.color else statusColors.safe.color, fill = true)
+                    Sym(icon, size = 22.dp, tint = tint, fill = line.kind != "note")
                     T(bold(line.text), hg(500, 14, 20), Modifier.weight(1f))
                 }
+            }
+        }
+    }
+
+    if (detail.sections.isEmpty()) {
+        // About a third of the list has no written entry yet: only a name, category and approval status.
+        Row(
+            Modifier.padding(start = 16.dp, end = 16.dp, top = 10.dp).fillMaxWidth().clip(RoundedCornerShape(20.dp)).background(cs.surfaceContainerLow).padding(16.dp),
+            horizontalArrangement = Arrangement.spacedBy(12.dp),
+        ) {
+            Sym("description", size = 22.dp, tint = cs.onSurfaceVariant)
+            Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(2.dp)) {
+                T("No detailed entry yet", hg(700, 15, 20))
+                T(
+                    "We know what ${additive.name} is used for, but don't have side effects, origin or intake limits for it. The links below are a good place to look.",
+                    hg(400, 14, 20), color = cs.onSurfaceVariant,
+                )
             }
         }
     }

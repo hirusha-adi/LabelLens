@@ -6,7 +6,7 @@ This is an Android app that uses OCR to identify food additives from ingredient 
 | Folder | What it is |
 | --- | --- |
 | [android/](android/) | The app. Kotlin and Jetpack Compose. |
-| [api/](api/) | A small sample API the app talks to. Every value in it is a hardcoded placeholder. |
+| [api/](api/) | The API the app talks to. Serves the additive dataset in `api/data/` and keeps accounts. |
 | [design/](design/) | The design handoff the app was built from. |
 
 ## Run it
@@ -27,6 +27,6 @@ adb reverse tcp:8787 tcp:8787   # lets the phone reach the API on this computer
 ./gradlew :app:installDebug
 ```
 
-Log in with the demo account, `sam.rivera@gmail.com` / `labellens`, to see a Family plan with history, saved additives and preferences already filled in. Or create an account with any email to start on the Free plan.
+Log in with the demo account, `sam.rivera@gmail.com` / `labellens`, to see a Family plan with history, saved additives and preferences already filled in. Or create an account with any email to start on the Free plan. Accounts are kept in `api/var/db.json`.
 
 See [android/README.md](android/README.md) and [api/README.md](api/README.md) for more.

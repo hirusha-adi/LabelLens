@@ -1,0 +1,884 @@
+{
+  "400": {
+    "code": "E400",
+    "name": "Alginic acid",
+    "href": "e400.htm",
+    "function": "Natural thickening agent",
+    "more_info": {
+      "origin": "  Natural polysaccharide, produced by different seaweeds of the family Phaeophyceae (Macrocystis pyrifera, Laminaria digitata, L. cloustoni, Ascophyllum nodosum)  in the USA and the UK.",
+      "characteristics": "Thickening agent and emulsifier. ",
+      "products": "Many different products.",
+      "daily_intake": "None specified.",
+      "side_effects": "None known in the concentrations used. High concentrations lead to impairment of iron uptake, as the iron is bound.",
+      "dietary_restrictions": "Alginic acid and alginates can be used by all religious groups, vegans and vegetarians."
+    }
+  },
+  "401": {
+    "code": "E401",
+    "name": "Sodium alginate",
+    "href": "e401.htm",
+    "function": "Natural thickening agent",
+    "more_info": {
+      "origin": "  Sodium salt of alginic acid (E400), a natural polysaccharide, produced by different seaweeds of the family Phaeophyceae (Macrocystis pyrifera, Laminaria digitata, L. cloustoni, Ascophyllum nodosum)  in the USA and the UK.",
+      "characteristics": "Thickening agent and emulsifier. ",
+      "products": "Many different products.",
+      "daily_intake": "None specified.",
+      "side_effects": "None known in the concentrations used. High concentrations lead to impairment of iron uptake, as the iron is bound.",
+      "dietary_restrictions": "Alginic acid and alginates can be used by all religious groups, vegans and vegetarians."
+    }
+  },
+  "402": {
+    "code": "E402",
+    "name": "Potassium alginate",
+    "href": "e402.htm",
+    "function": "Natural thickening agent",
+    "more_info": {
+      "origin": "  Potassium salt of alginic acid (), a natural polysaccharide, produced by different seaweeds of the family Phaeophyceae (Macrocystis pyrifera, Laminaria digitata, L. cloustoni, Ascophyllum nodosum)  in the USA and the UK.",
+      "characteristics": "Thickening agent and emulsifier. ",
+      "products": "Many different products, mainly for low-salt/sodium products.",
+      "daily_intake": "None specified.",
+      "side_effects": "None known in the concentrations used. High concentrations lead to impairment of iron uptake, as the iron is bound.",
+      "dietary_restrictions": "Alginic acid and alginates can be used by all religious groups, vegans and vegetarians."
+    }
+  },
+  "403": {
+    "code": "E403",
+    "name": "Ammonium alginate",
+    "href": "e403.htm",
+    "function": "Natural thickening agent",
+    "more_info": {
+      "origin": "  Ammonium salt of alginic acid (E400), a natural polysaccharide, produced by different seaweeds of the family Phaeophyceae (Macrocystis pyrifera, Laminaria digitata, L. cloustoni, Ascophyllum nodosum)  in the USA and the UK.",
+      "characteristics": "Thickening agent and emulsifier. ",
+      "products": "Soft drinks, food colours, icings, etc.",
+      "daily_intake": "None specified.",
+      "side_effects": "None known in the concentrations used. High concentrations lead to impairment of iron uptake, as the iron is bound.",
+      "dietary_restrictions": "Alginic acid and alginates can be used by all religious groups, vegans and vegetarians."
+    }
+  },
+  "404": {
+    "code": "E404",
+    "name": "Calcium alginate",
+    "href": "e404.htm",
+    "function": "Natural thickening agent",
+    "more_info": {
+      "origin": "  Calcium salt of alginic acid (E400), a natural polysaccharide, produced by different seaweeds of the family Phaeophyceae (Macrocystis pyrifera, Laminaria digitata, L. cloustoni, Ascophyllum nodosum)  in the USA and the UK.",
+      "characteristics": "Thickening agent, emulsifier, prevents crystallisation in frozen products. ",
+      "products": "Ice cream and frozen bakery products.",
+      "daily_intake": "None specified.",
+      "side_effects": "None known in the concentrations used. High concentrations lead to impairment of iron uptake, as the iron is bound.",
+      "dietary_restrictions": "Alginic acid and alginates can be used by all religious groups, vegans and vegetarians."
+    }
+  },
+  "405": {
+    "code": "E405",
+    "name": "Propane-1, 2-diol alginate",
+    "href": "e405.htm",
+    "function": "Derived of alginic acid",
+    "more_info": {
+      "origin": "  Propylene glycol ester of alginic acid (), a natural polysaccharide, produced by different seaweeds of the family Phaeophyceae (Macrocystis pyrifera, Laminaria digitata, L. cloustoni, Ascophyllum nodosum)  in the USA and the UK.",
+      "characteristics": "Thickening agent. ",
+      "products": "Ice cream, confectionery, dressings, etc.",
+      "daily_intake": "Up to 70 mg/kg body weight.",
+      "side_effects": "None known in the concentrations used, although some people exhibit adverse reactions towards high concentrations of propylene glycol.",
+      "dietary_restrictions": "Alginic acid and alginates can be used by all religious groups, vegans and vegetarians."
+    }
+  },
+  "406": {
+    "code": "E406",
+    "name": "Agar",
+    "href": "e406.htm",
+    "function": "Natural thickening agent",
+    "more_info": {
+      "origin": "  A natural polysaccharide, produced by different seaweeds of the family Rhodophyceae (Gelidium amansii, G. cartilagineum)  in the USA and Japan.",
+      "characteristics": "Thickening agent and stabiliser. ",
+      "products": "Many different products.",
+      "daily_intake": "No limit.",
+      "side_effects": "None known in the concentrations used, although high concentrations bring about flatulence and bloating, due to fermentation by the intestinal microflora (in the same way as all indigestible polysaccharides).",
+      "dietary_restrictions": "Agar can be used by all religious groups, vegans and vegetarians."
+    }
+  },
+  "407": {
+    "code": "E407",
+    "name": "Carrageenan",
+    "href": "e407.htm",
+    "function": "Natural thickening agent",
+    "more_info": {
+      "origin": "  A natural polysaccharide, produced by different seaweeds (Chrondrus crispus, Gigartina stellata, Euchema spinosum, E. cottonii)  in Europe, Asia and America. It is a complex mixture of polysaccharides. E407a has a slightly different composition; moreover, it contains a considerable amount of cellulose.",
+      "characteristics": "Thickening agent and stabiliser. ",
+      "products": "Many different products.",
+      "daily_intake": "None specified.",
+      "side_effects": "None known in the concentrations used, although high concentrations bring about flatulence and bloating, due to fermentation by the intestinal microflora (in the same way as all indigestible polysaccharides). Short-chain carrageenans may cause intestinal leakage and are not permitted for use in foods.",
+      "dietary_restrictions": "Carrageenans can be used by all religious groups, vegans and vegetarians."
+    }
+  },
+  "408": {
+    "code": "408",
+    "name": "Furcelleran",
+    "href": "e408.htm",
+    "function": "Natural thickening agent",
+    "more_info": {
+      "origin": "  A natural polysaccharide, produced from seaweed (Furcellaria fastigata)  in Denmark. Sometimes it is placed under E407, due to the fact that they have similar chemical structures.",
+      "characteristics": "Thickening agent, stabiliser and emulsifier. ",
+      "products": "Products for diabetics.",
+      "daily_intake": "Up to 75 mg/kg body weight.",
+      "side_effects": "None known in the concentrations used, although high concentrations bring about flatulence and bloating, due to fermentation by the intestinal microflora (in the same way as all indigestible polysaccharides).",
+      "dietary_restrictions": "Furcelleran can be used by all religious groups, vegans and vegetarians."
+    }
+  },
+  "410": {
+    "code": "E410",
+    "name": "Locust bean gum",
+    "href": "e410.htm",
+    "function": "Natural thickening agent",
+    "more_info": {
+      "origin": "  A natural polysaccharide, produced from the carob tree (Ceratonia siliqua)  found mostly in the Mediterranean region.",
+      "characteristics": "Thickening agent, stabiliser and emulsifier. ",
+      "products": "Many different products.",
+      "daily_intake": "None specified.",
+      "side_effects": "None known in the concentrations used, although high concentrations bring about flatulence and bloating, due to fermentation by the intestinal microflora (in the same way as all indigestible polysaccharides).",
+      "dietary_restrictions": "Locust bean gum can be used by all religious groups, vegans and vegetarians."
+    }
+  },
+  "411": {
+    "code": "E411",
+    "name": "Oat Gum",
+    "href": "e411.htm",
+    "function": "Natural thickening agent",
+    "more_info": {
+      "origin": "  A natural polysaccharide, produced from oats .",
+      "characteristics": "Thickening agent. ",
+      "products": "Practically not used.",
+      "daily_intake": "None specified.",
+      "side_effects": "None known in the concentrations used, although high concentrations bring about flatulence and bloating, due to fermentation by the intestinal microflora (in the same way as all indigestible polysaccharides).",
+      "dietary_restrictions": "Oat gum can be used by all religious groups, vegans and vegetarians."
+    }
+  },
+  "412": {
+    "code": "E412",
+    "name": "Guar Gum",
+    "href": "e412.htm",
+    "function": "Natural thickening agent",
+    "more_info": {
+      "origin": "  A natural polysaccharide, produced from the guar shrub (Cyamopsis tetragonolobus)  found in Pakistan and India.",
+      "characteristics": "Thickening agent, stabiliser and emulsifier. ",
+      "products": "Many different products.",
+      "daily_intake": "None specified.",
+      "side_effects": "None known in the concentrations used, although high concentrations bring about flatulence and bloating, due to fermentation by the intestinal microflora (in the same way as all indigestible polysaccharides).",
+      "dietary_restrictions": "Guar gum can be used by all religious groups, vegans and vegetarians."
+    }
+  },
+  "413": {
+    "code": "E413",
+    "name": "Tragacanth",
+    "href": "e413.htm",
+    "function": "Natural thickening agent",
+    "more_info": {
+      "origin": "  A natural polysaccharide, produced from the tree Astralagus gummifer found in Iran, Syria and Turkey.",
+      "characteristics": "Thickening agent, stabiliser and emulsifier. ",
+      "products": "Many different products.",
+      "daily_intake": "None specified.",
+      "side_effects": "None known in the concentrations used, although high concentrations bring about flatulence and bloating, due to fermentation by the intestinal microflora (in the same way as all indigestible polysaccharides).",
+      "dietary_restrictions": "Gum tragacanth can be used by all religious groups, vegans and vegetarians."
+    }
+  },
+  "414": {
+    "code": "E414",
+    "name": "Gum Arabic",
+    "href": "e414.htm",
+    "function": "Natural thickening agent",
+    "more_info": {
+      "origin": "  A natural polysaccharide, produced from the tree Acacia senegal from tropical Africa.",
+      "characteristics": "Thickening agent, stabiliser and emulsifier. ",
+      "products": "Many different products.",
+      "daily_intake": "None specified.",
+      "side_effects": "None known in the concentrations used, although high concentrations bring about flatulence and bloating, due to fermentation by the intestinal microflora (in the same way as all indigestible polysaccharides).",
+      "dietary_restrictions": "Gum arabic can be used by all religious groups, vegans and vegetarians."
+    }
+  },
+  "415": {
+    "code": "E415",
+    "name": "Xanthan gum",
+    "href": "e415.htm",
+    "function": "Natural thickening agent",
+    "more_info": {
+      "origin": "  A natural polysaccharide, produced by the bacterium Xanthomonas campestris from sugar and molasses.",
+      "characteristics": "Thickening agent, stabiliser and emulsifier. ",
+      "products": "Many different products.",
+      "daily_intake": "None specified.",
+      "side_effects": "None known in the concentrations used, although high concentrations bring about flatulence and bloating, due to fermentation by the intestinal microflora (in the same way as all indigestible polysaccharides).",
+      "dietary_restrictions": "Xanthan gum can be used by all religious groups, vegans and vegetarians."
+    }
+  },
+  "416": {
+    "code": "E416",
+    "name": "Karaya gum",
+    "href": "e416.htm",
+    "function": "Natural thickening agent",
+    "more_info": {
+      "origin": "  A natural polysaccharide, obtained from the tree Sterculia urens found in India, as well as some related trees.",
+      "characteristics": "Thickening agent, stabiliser and emulsifier. ",
+      "products": "M any different products.",
+      "daily_intake": "None specified.",
+      "side_effects": "None known in the concentrations used, although high concentrations bring about flatulence and bloating, due to fermentation by the intestinal microflora (in the same way as all indigestible polysaccharides). It has laxative properties.",
+      "dietary_restrictions": "Karaya gum can be used by all religious groups, vegans and vegetarians."
+    }
+  },
+  "417": {
+    "code": "E417",
+    "name": "Tara gum",
+    "href": "e417.htm",
+    "function": "Natural thickening agent",
+    "more_info": {
+      "origin": "  A natural polysaccharide (glactomannan), obtained from the tree     Cesalpinia spinosa native to South America, but also cultivated in the Mediterranean region.",
+      "characteristics": "Thickening agent",
+      "products": "Many different products.",
+      "daily_intake": "None specified (temporary ADI was specified at 0,25 mg/kg body weight)",
+      "side_effects": "None known in the concentrations used, although higher concentrations bring about flatulence and bloating, due to fermentation by the intestinal microflora (in the same way as all indigestible polysaccharides). It may have laxative properties. High concentrations can not be reached in foods due to the viscosity of the product.",
+      "dietary_restrictions": "Tara gum can be used by all religious groups, vegans and vegetarians."
+    }
+  },
+  "418": {
+    "code": "E418",
+    "name": "Gellan gum",
+    "href": "e418.htm",
+    "function": "Natural thickening agent",
+    "more_info": {
+      "origin": "  A natural polysaccharide, produced by the bacterium Pseudomonas elodea from starch.",
+      "characteristics": "Thickening agent and stabiliser. ",
+      "products": "Dairy products, dressings, juices, etc.",
+      "daily_intake": "None specified.",
+      "side_effects": "None known in the concentrations used, although high concentrations bring about flatulence and bloating, due to fermentation by the intestinal microflora (in the same way as all indigestible polysaccharides). It has laxative properties.",
+      "dietary_restrictions": "Gellan gum can be used by all religious groups, vegans and vegetarians."
+    }
+  },
+  "420": {
+    "code": "E420",
+    "name": "Sorbitol",
+    "href": "e420.htm",
+    "function": "Natural sugar alcohol",
+    "more_info": {
+      "origin": "  A natural carbohydrate alcohol, present in many berries and fruits, e.g., apples, prunes, cherries and grapes. It is commercially produced from glucose (dextrose).",
+      "characteristics": "Stabiliser, low-calorie sweetener, bulking agent, etc. ",
+      "products": "Many bakery and confectionery products.",
+      "daily_intake": "There are no limits to the intake of E420; however, its use is not allowed for infants younger than 1 year of age, as it may cause severe diarrhoea.",
+      "side_effects": "Sorbitol is partly absorbed and metabolised as fructose by the body; the remaining fraction is fermented in the large intestine. During fermentation, gases are produced, which may cause bloating and flatulence. In intolerant persons it can act as a laxative. There are normally no side effects in the concentrations used; however, some intolerant persons show gas formation at an intake as low as 5 grams of sorbitol. Side effects normally occur after an intake of 25-30 grams in a single dose, which is far above the usage in normal foods.",
+      "dietary_restrictions": "Sorbitol can be used by all religious groups, vegans and vegetarians. The term carbohydrate alcohol is a chemical definition; sorbitol does not contain alcohol (ethanol)."
+    }
+  },
+  "421": {
+    "code": "E421",
+    "name": "Mannitol",
+    "href": "e421.htm",
+    "function": "Natural sugar alcohol",
+    "more_info": {
+      "origin": "  A natural carbohydrate alcohol, present in many plants, e.g., conifers, seaweed and mushrooms. It is commercially produced from glucose (dextrose).",
+      "characteristics": "Anti-caking agent, low-calorie sweetener, bulking agent, etc.",
+      "products": "Bakery and confectionery products.",
+      "daily_intake": "Up to 160 mg/kg body weight.",
+      "side_effects": "Mannitol is largely absorbed and metabolised as glucose by the body. The remaining fraction is fermented in the large intestine. During fermentation, gases are produced, which may cause bloating and flatulence. In intolerant persons it can act as a laxative. Side effects normally occur after an intake of 25-30 grams in a single dose, which is far above the usage in normal foods.",
+      "dietary_restrictions": "Mannitol can be used by all religious groups, vegans and vegetarians. The term carbohydrate alcohol is a chemical definition; mannitol does not contain alcohol (ethanol)."
+    }
+  },
+  "422": {
+    "code": "E422",
+    "name": "Glycerol",
+    "href": "e422.htm",
+    "function": "Natural alcohol",
+    "more_info": {
+      "origin": "  A natural carbohydrate alcohol, which is one of the components of all fats. It is also present in low concentrations in blood. It is commercially produced either synthetically from propene, or by bacterial fermentation of sugars; it is not produced from fat.",
+      "characteristics": "Low-calorie sweetener, humectant (helps keep food moist), etc.",
+      "products": "Bakery and confectionery products.",
+      "daily_intake": "Not specified.",
+      "side_effects": "Glycerol is absorbed and metabolised as glucose (by the body) into fats.",
+      "dietary_restrictions": "Glycerol can be used by all religious groups, vegans and vegetarians. The term carbohydrate alcohol is a chemical definition; glycerol does not contain alcohol (ethanol)."
+    }
+  },
+  "430": {
+    "code": "430",
+    "name": "Polyoxyethylene(8) stearate",
+    "href": "e430.htm",
+    "function": "",
+    "more_info": {
+      "origin": "  Synthetic compound, produced from ethylene oxide (a synthetic compound) and stearic acid (a natural fatty acid).",
+      "characteristics": "Emulsifier ",
+      "products": "Sauces and (mainly) cosmetics.",
+      "daily_intake": "Up to 25 mg/kg body weight for the entire group of compounds in the 430-E436 range; on the other hand, it has not been specified for the individual compounds.",
+      "side_effects": "None known in the concentrations used. People intolerant of propylene glycol should also avoid the group of 430-E436.",
+      "dietary_restrictions": "These compounds (430-E436) contain fatty acids, which are nearly always from vegetable oils; however, use of animal fat (including pork) cannot be fully ruled out. Chemically, the origin of these compounds cannot be determined; only the producer may provide information on the origin."
+    }
+  },
+  "431": {
+    "code": "E431",
+    "name": "Polyoxyethylene (40) stearate",
+    "href": "e431.htm",
+    "function": "Synthetic emulsifier",
+    "more_info": {
+      "origin": "  E431 is a synthetic compound, produced from ethylene oxide (a synthetic compound) and stearic acid (a natural fatty acid).",
+      "characteristics": "Emulsifier ",
+      "products": "Bakery products, puddings, etc.",
+      "daily_intake": "Up to 25 mg/kg body weight for the entire group of compounds in the 430-E436 range; on the other hand, it has not been specified for the individual compounds.",
+      "side_effects": "None known in the concentrations used. People intolerant of propylene glycol should also avoid the group of 430-E436.",
+      "dietary_restrictions": "These compounds (430-E436) contain fatty acids, which are nearly always from vegetable oils; however, use of animal fat (including pork) cannot be fully ruled out. Chemically, the origin of these compounds cannot be determined; only the producer may provide information on the origin."
+    }
+  },
+  "432": {
+    "code": "E432",
+    "name": "Polyoxyethylene-20-sorbitan monolaurate",
+    "href": "e432.htm",
+    "function": "Synthetic emulsifier",
+    "more_info": {
+      "origin": "  E432 is a synthetic compound, produced from ethylene oxide (a synthetic compound), sorbitol (see E420) and lauric acid (a natural fatty acid).",
+      "characteristics": "Emulsifier. ",
+      "products": "Ice cream, soft drinks, etc.",
+      "daily_intake": "Up to 25 mg/kg body weight for the entire group of compounds in the 430-E436 range; on the other hand, it has not been specified for the individual compounds.",
+      "side_effects": "  None known in the concentrations used. People intolerant of propylene glycol should also avoid the 430-E436 group.",
+      "dietary_restrictions": "  These compounds (430-E436) contain fatty acids, which are nearly always from vegetable oils; however, use of animal fat (including pork) cannot be fully ruled out. Chemically, the origin of these compounds cannot be determined; only the producer may provide information on the origin."
+    }
+  },
+  "433": {
+    "code": "E433",
+    "name": "Polyoxyethylene-20-sorbitan mono-oleate",
+    "href": "e433.htm",
+    "function": "Synthetic emulsifier",
+    "more_info": {
+      "origin": "",
+      "characteristics": "",
+      "products": "",
+      "daily_intake": "",
+      "side_effects": "",
+      "dietary_restrictions": ""
+    }
+  },
+  "434": {
+    "code": "E434",
+    "name": "Polyoxyethylene-20-sorbitan monopalmitate",
+    "href": "e434.htm",
+    "function": "Synthetic emulsifier",
+    "more_info": {
+      "origin": "  E434 is a synthetic compound, produced from ethylene oxide (a synthetic compound), sorbitol (see E420) and palmitic acid (a natural fatty acid).",
+      "characteristics": "Emulsifier. ",
+      "products": "Cakes",
+      "daily_intake": "Up to 25 mg/kg body weight for the entire group of compounds in the 430-E436 range; on the other hand, it has not been specified for the individual compounds.",
+      "side_effects": "None known in the concentrations used. People intolerant of propylene glycol should also avoid the group of 430-E436",
+      "dietary_restrictions": "These compounds (430-E436) contain fatty acids, which are nearly always from vegetable oils; however, use of animal fat (including pork) cannot be fully ruled out. Chemically, the origin of these compounds cannot be determined; only the producer may provide information on the origin."
+    }
+  },
+  "435": {
+    "code": "E435",
+    "name": "Polyoxyethylene-20-sorbitan monostearate",
+    "href": "e435.htm",
+    "function": "Synthetic emulsifier",
+    "more_info": {
+      "origin": "  E435 is a synthetic compound, produced from ethylene oxide (a synthetic compound), sorbitol (see E420) and stearic acid (a natural fatty acid).",
+      "characteristics": "Emulsifier. ",
+      "products": "Many different products.",
+      "daily_intake": "Up to 25 mg/kg body weight for the entire group of compounds in the 430-E436 range; on the other hand, it has not been specified for the individual compounds.",
+      "side_effects": "None known in the concentrations used. People intolerant of propylene glycol should also avoid the group of 430-E436.",
+      "dietary_restrictions": "These compounds (430-E436) contain fatty acids, which are nearly always from vegetable oils; however, use of animal fat (including pork) cannot be fully ruled out. Chemically, the origin of these compounds cannot be determined; only the producer may provide information on the origin."
+    }
+  },
+  "436": {
+    "code": "E436",
+    "name": "Polyoxyethylene-20-sorbitan tristearate",
+    "href": "e436.htm",
+    "function": "Synthetic emulsifier",
+    "more_info": {
+      "origin": "  E436 is a synthetic compound, produced from ethylene oxide (a synthetic compound), sorbitol (see E420) and stearic acid (a natural fatty acid).",
+      "characteristics": "Emulsifier, anti-foaming agent, etc. ",
+      "products": "Many different products.",
+      "daily_intake": "Up to 25 mg/kg body weight for the entire group of compounds in the 430-E436 range; on the other hand, it has not been specified for the individual compounds.",
+      "side_effects": "  None known in the concentrations used. People intolerant of propylene glycol should also avoid the group of 430-E436.",
+      "dietary_restrictions": "  These compounds (430-E436) contain fatty acids, which are nearly always from vegetable oils; however, use of animal fat (including pork) cannot be fully ruled out. Chemically, the origin of these compounds cannot be determined; only the producer may provide information on the origin."
+    }
+  },
+  "440": {
+    "code": "E440",
+    "name": "Pectin",
+    "href": "e440.htm",
+    "function": "Natural thickening agent",
+    "more_info": {
+      "origin": "  Pectin is a natural acid polysaccharide present in nearly all fruits, especially apples, quinces and oranges. It is commercially produced from apple pulp and orange peels. Sodium, potassium, and ammonium pectates are the respective salts of pectin. Amidated pectin is prepared by treating pectin with ammonia, after which amides are formed at the acid side chains.",
+      "characteristics": "Thickening agent, emulsifier, stabiliser, etc. ",
+      "products": "Marmalades, fruit jellies and sauces, and many other different products.",
+      "daily_intake": "Not specified.",
+      "side_effects": "Pectin acts as a thickening agent; thus, it may cause intestinal problems when present in high concentrations. As a result of its thickening effect, it is also used in diet preparations, where it reduces the feeling of hunger. It can be fermented in the large intestine, resulting in flatulence.",
+      "dietary_restrictions": "None; pectin and pectates can be used by all religious groups, vegans and vegetarians."
+    }
+  },
+  "441": {
+    "code": "441",
+    "name": "Gelatin (no longer valid)",
+    "href": "e441.htm",
+    "function": "Natural thickening agent",
+    "more_info": {
+      "origin": "Obtained from animal by-products, such as bones and hides. It can be produced from all species of animals.",
+      "characteristics": "Thickening and gelling agent",
+      "products": "Many different products",
+      "daily_intake": "None determined",
+      "side_effects": "None known when used in foods",
+      "dietary_restrictions": "441 can not be used by vegans and vegetarians. Use by religious groups, such as Muslims and Jews is restricted, due to the origin of the product. Unfortunately information on origin can only be obtained from the producer. Specific halal gelatin is made from cattle."
+    }
+  },
+  "442": {
+    "code": "E442",
+    "name": "Ammonium phosphatides",
+    "href": "e442.htm",
+    "function": "Synthetic emulsifier",
+    "more_info": {
+      "origin": "Obtained from ammonia and ph osphorylated fatty acids, mainly from rapeseed oil.",
+      "characteristics": "Stabiliser and emulsifier.",
+      "products": "Only used in chocolate and cocoa products",
+      "daily_intake": "Up to 30 mg/kg bodyweight",
+      "side_effects": "None known when used in foods",
+      "dietary_restrictions": "E442 is generally produced with rapeseed oil and can thus be consumed by all religious groups. However, the use of animal fat (incl. pork) can not be completed excluded."
+    }
+  },
+  "450": {
+    "code": "E450",
+    "name": "Di- and polyphosphates",
+    "href": "e450.htm",
+    "function": "Salt of phosphoric acid",
+    "more_info": {
+      "origin": "Salts of sodium/potassium/calcium with phosphates. All are produced synthetically from the respective carbonates and phosphoric acid.",
+      "characteristics": "Buffers and emulsifiers. E450 (iii) also binds metals and prevents discoloration due to metals. E450 (vi) is also used as bread enhancer and calcium supplement.",
+      "products": "Many different products.",
+      "daily_intake": "Up to 70 mg/kg bodyweight for all phosphate containing additives",
+      "side_effects": "None known when used in foods. High concentrations of phosphates may disturb several metabolic processes as phosphate plays an important role in general metabolism.",
+      "dietary_restrictions": "E450 can be consumed by all religious groups, vegans and vegetarians."
+    }
+  },
+  "451": {
+    "code": "E451",
+    "name": "Triphosphates",
+    "href": "e451.htm",
+    "function": "Salt of phosphoric acid",
+    "more_info": {
+      "origin": "Salts of sodium/potassium with phosphates. All are produced synthetically from the respective carbonates and phosphoric acid.",
+      "characteristics": "Buffers, stabiliser and emulsifiers. Also used to retain water during processing.",
+      "products": "Many different products.",
+      "daily_intake": "Up to 70 mg/kg bodyweight for all phosphate containing additives",
+      "side_effects": "None known when used in foods. High concentrations of phosphates may disturb several metabolic processes as phosphate plays an important role in general metabolism.",
+      "dietary_restrictions": "E451 can be consumed by all religious groups, vegans and vegetarians."
+    }
+  },
+  "452": {
+    "code": "E452",
+    "name": "Polyphosphates",
+    "href": "e452.htm",
+    "function": "Salt of phosphoric acid",
+    "more_info": {
+      "origin": "Salts of sodium/potassium/calcium/ammonium with phosphates. All are produced synthetically from the respective carbonates and phosphoric acid.",
+      "characteristics": "Sequestrants (metal binders), stabiliser and emulsifiers. Also used to retain water during processing and storage.",
+      "products": "Many different products.",
+      "daily_intake": "Up to 70 mg/kg bodyweight for all phosphate containing additives",
+      "side_effects": "None known when used in foods. High concentrations of phosphates may disturb several metabolic processes as phosphate plays an important role in general metabolism.",
+      "dietary_restrictions": "E452 can be consumed by all religious groups, vegans and vegetarians."
+    }
+  },
+  "460": {
+    "code": "E460",
+    "name": "Cellulose",
+    "href": "e460.htm",
+    "function": "Natural fibre, thickening agent",
+    "more_info": {
+      "origin": "Cellulose is the main polysaccharide and constituent of wood and all plant structures. Commercially prepared from wood.",
+      "characteristics": "Many different uses, mainly as thickening agent, but also as filler, dietary fibre, anti clumping agent and emulsfier.",
+      "products": "Many different products.",
+      "daily_intake": "None determined.",
+      "side_effects": "Cellulose is non soluble, but can be fermented in the large intestine. Large concentrations can cause intestinal problems, such as bloating, constipation and diarrhoea. Due to this fact it can not be used in weaning foods.",
+      "dietary_restrictions": "E460 can be consumed by all religious groups, vegans and vegetarians."
+    }
+  },
+  "461": {
+    "code": "E461",
+    "name": "Methyl cellulose",
+    "href": "e461.htm",
+    "function": "Semi-synthetic thickening agent",
+    "more_info": {
+      "origin": "  CMC is prepared from cellulose, the main polysaccharide and constituent of wood and all plant structures. Commercially prepared from wood and chemically methylated.",
+      "characteristics": "Many different uses, mainly as thickening agent, but also as filler, dietary fibre, anti clumping agent and emulsfier.",
+      "products": "Many different products.",
+      "daily_intake": "None determined.",
+      "side_effects": "Methylcellulose is practically non soluble, but can be fermented in the large intestine. Large concentrations can cause intestinal problems, such as bloating, constipation and diarrhoea.",
+      "dietary_restrictions": "E461 can be consumed by all religious groups, vegans and vegetarians."
+    }
+  },
+  "462": {
+    "code": "462",
+    "name": "Ethyl cellulose",
+    "href": "e462.htm",
+    "function": "Semi-synthetic thickening agent",
+    "more_info": {
+      "origin": "  Ethylcellulose is prepared from cellulose, the main polysaccharide and constituent of wood and all plant structures. Commercially prepared from wood and chemically ethylated.",
+      "characteristics": "Many different uses, mainly as thickening agent, but also as filler, dietary fibre, anti clumping agent and emulsfier.",
+      "products": "Few products, and no longer permitted as emulsifier in the EU.",
+      "daily_intake": "None determined.",
+      "side_effects": "Ethylcellulose is practically non soluble, but can be fermented in the large intestine. Large concentrations can cause intestinal problems, such as bloating, constipation and diarrhoea.",
+      "dietary_restrictions": "462 can be consumed by all religious groups, vegans and vegetarians."
+    }
+  },
+  "463": {
+    "code": "E463",
+    "name": "Hydroxypropyl cellulose",
+    "href": "e463.htm",
+    "function": "Semi-synthetic thickening agent",
+    "more_info": {
+      "origin": "  Hydroxypropylcellulose is prepared from cellulose, the main polysaccharide and constituent of wood and all plant structures. Commercially prepared from wood and chemically propylated.",
+      "characteristics": "Many different uses, mainly as thickening agent, but also as filler, dietary fibre, anti clumping agent and emulsfier. Similar as cellulose, but better soluble in water.",
+      "products": "many different products",
+      "daily_intake": "None determined.",
+      "side_effects": "Hydroxypropyl cellulose is quite soluble, and can be fermented in the large intestine. Large concentrations can cause intestinal problems, such as bloating, constipation and diarrhoea.",
+      "dietary_restrictions": "E463 can be consumed by all religious groups, vegans and vegetarians."
+    }
+  },
+  "464": {
+    "code": "E464",
+    "name": "Hydroxypropylmethyl cellulose",
+    "href": "e464.htm",
+    "function": "Semi-synthetic thickening agent",
+    "more_info": {
+      "origin": "  Hydroxypropylmethylcellulose is prepared from cellulose, the main polysaccharide and constituent of wood and all plant structures. Commercially prepared from wood and chemically modified.",
+      "characteristics": "Many different uses, mainly as thickening agent, but also as filler, dietary fibre, anti clumping agent and emulsfier. Similar as cellulose, but better soluble in water.",
+      "products": "many different products",
+      "daily_intake": "None determined.",
+      "side_effects": "Hydroxypropylmethyl cellulose is quite soluble, and can be fermented in the large intestine. Large concentrations can cause intestinal problems, such as bloating, constipation and diarrhoea.",
+      "dietary_restrictions": "    E464 can be consumed by all religious groups, vegans and vegetarians."
+    }
+  },
+  "465": {
+    "code": "E465",
+    "name": "Methylethyl cellulose",
+    "href": "e465.htm",
+    "function": "Semi-synthetic thickening agent",
+    "more_info": {
+      "origin": "  Methylethylcellulose is prepared from cellulose, the main polysaccharide and constituent of wood and all plant structures. Commercially prepared from wood and chemically modified.",
+      "characteristics": "Many different uses, mainly as thickening agent, but also as filler, dietary fibre, anti clumping agent and emulsfier. Similar as cellulose, but with some different characteristics.",
+      "products": "  M any different products",
+      "daily_intake": "None determined.",
+      "side_effects": "Methylethyl cellulose is not very soluble, and can be fermented in the large intestine. Large concentrations can cause intestinal problems, such as bloating, constipation and diarrhoea.",
+      "dietary_restrictions": "E465 can be consumed by all religious groups, vegans and vegetarians."
+    }
+  },
+  "466": {
+    "code": "E466",
+    "name": "Carboxymethyl cellulose",
+    "href": "e466.htm",
+    "function": "Semi-synthetic thickening agent",
+    "more_info": {
+      "origin": "  Carboxymethylcellulose is prepared from cellulose, the main polysaccharide and constituent of wood and all plant structures. Commercially prepared from wood and chemically modified.",
+      "characteristics": "Many different uses, mainly as thickening agent, but also as filler, dietary fibre, anti clumping agent and emulsfier. Similar as cellulose, but very soluble in water.",
+      "products": "M any different products",
+      "daily_intake": "None determined.",
+      "side_effects": "  Carboxymethyl cellulose is very soluble, and can be fermented in the large intestine. Large concentrations can cause intestinal problems, such as bloating, constipation and diarrhoea.",
+      "dietary_restrictions": "  E466 can be consumed by all religious groups, vegans and vegetarians."
+    }
+  },
+  "470": {
+    "code": "E470",
+    "name": "Fatty acid salts",
+    "href": "e470.htm",
+    "function": "Semi-synthetic emulsifiers",
+    "more_info": {
+      "origin": "  Salts of natural fatty acids, mainly from plant origin, but also fats of animal origin may be used. The acids are a mixture of stearic-, oleic-, palmitic- and myristinic acid.",
+      "characteristics": "Emulsifiers and stabilisers.",
+      "products": "M any different products",
+      "daily_intake": "None determined.",
+      "side_effects": "None known. The body metabolises the products as any other fat.",
+      "dietary_restrictions": "Although mainly vegetable oils are used, the use of animal fat (incl. pork) can not be excluded. Several groups, such as vegans, Muslims and Jews thus avoid these products. Only the producer can give detailed information on the origin of the fatty acids. Chemically the fatty acids from vegetable or animal origin are identical."
+    }
+  },
+  "471": {
+    "code": "E471",
+    "name": "Mono- and di-glycerides of fatty acids",
+    "href": "e471.htm",
+    "function": "Semi-synthetic emulsifiers",
+    "more_info": {
+      "origin": "  Synthetic fats, produced from glycerol and natural fatty acids, mainly from plant origin, but also fats of animal origin may be used. The product generally is a mixture of different products, with a composition similar to partially digested natural fat.",
+      "characteristics": "Emulsifiers and stabilisers.",
+      "products": "Many different products.",
+      "daily_intake": "None determined.",
+      "side_effects": "None known. The body metabolises the products as any other fat. The individual components are also produced normally in the body when digesting normal fat.",
+      "dietary_restrictions": "Although mainly vegetable oils are used, the use of animal fat (incl. pork) can not be excluded. Several groups, such as vegans, Muslims and Jews thus avoid these products. Only the producer can give detailed information on the origin of the fatty acids. Chemically the fatty acids from vegetable or animal origin are identical."
+    }
+  },
+  "472": {
+    "code": "E472",
+    "name": "Esters of mono- and diglycerides",
+    "href": "e472.htm",
+    "function": "Semi-synthetic emulsifiers",
+    "more_info": {
+      "origin": "  Esters of synthetic fats, produced from glycerol, natural fatty acids and another organic acid (acetic, lactic, tartaric, citric). The fatty acids are mainly from plant origin, but also fats of animal origin may be used. The product generally is a mixture of different components, with a composition similar to partially digested natural fat esterified with other natural acids..",
+      "characteristics": "Emulsifiers and stabilisers.",
+      "products": "M any different products",
+      "daily_intake": "None determined except for 30 mg/kg bodyweight of tartaric acid for E472d-f.",
+      "side_effects": "None known. The products are first digested to the individual acids and the fats. The body metabolises all components identical to the normal acids and natural fat. The individual components of the mono- and diglycerides are also produced normally in the body when digesting normal fat.",
+      "dietary_restrictions": "Although mainly vegetable oils are used, the use of animal fat (incl. pork) can not be excluded. Several groups, such as vegans, Muslims and Jews thus avoid these products. Only the producer can give detailed information on the origin of the fatty acids. Chemically the fatty acids from vegetable or animal origin are identical."
+    }
+  },
+  "473": {
+    "code": "E473",
+    "name": "Sugar esters of fatty acids",
+    "href": "e473.htm",
+    "function": "Semi-synthetic emulsifiers",
+    "more_info": {
+      "origin": "  Esters of sugar and synthetic fats, produced from glycerol and natural fatty acids. The fatty acids are mainly from plant origin, but also fats of animal origin may be used. The product generally is a mixture of different components, with a composition similar to partially digested natural fat esterified with sugar.",
+      "characteristics": "Emulsifiers and stabilisers.",
+      "products": "M any different products",
+      "daily_intake": "16 mg/kg bodyweight",
+      "side_effects": "None known. The products are first digested to sugar and fats. The body metabolises all components identical to sugar and natural fat. The individual components of the mono- and diglycerides are also produced normally in the body when digesting normal fat.",
+      "dietary_restrictions": "Although mainly vegetable oils are used, the use of animal fat (incl. pork) can not be excluded. Several groups, such as vegans, Muslims and Jews thus avoid these products. Only the producer can give detailed information on the origin of the fatty acids. Chemically the fatty acids from vegetable or animal origin are identical."
+    }
+  },
+  "474": {
+    "code": "E474",
+    "name": "Sugarglycerides",
+    "href": "e474.htm",
+    "function": "Semi-synthetic emulsifiers",
+    "more_info": {
+      "origin": "  Esters of sugar and fats, produced from sugar and natural fats. The fats are mainly from plant origin, but also fats of animal origin may be used. The product generally is a mixture of different components.",
+      "characteristics": "Emulsifiers and stabilisers.",
+      "products": "M any different products",
+      "daily_intake": "16 mg/kg bodyweight",
+      "side_effects": "None known. The products are first digested to sugar and fats. The body metabolises all components identical to sugar and natural fat.",
+      "dietary_restrictions": "Although mainly vegetable oils are used, the use of animal fat (incl. pork) can not be excluded. Several groups, such as vegans, Muslims and Jews thus avoid these products. Only the producer can give detailed information on the origin of the fatty acids. Chemically the fatty acids from vegetable or animal origin are identical."
+    }
+  },
+  "475": {
+    "code": "E475",
+    "name": "Polyglycerol esters of fatty acids",
+    "href": "e475.htm",
+    "function": "Semi-synthetic emulsifiers",
+    "more_info": {
+      "origin": "  Combination of polyglycerol and natural fats. Normal fat consists of glycerol and fatty acids, for these products additional glycerol is coupled to the normal glycerol. The fats are mainly from plant origin, but also fats of animal origin may be used. The product generally is a mixture of different components.",
+      "characteristics": "Emulsifiers and stabilisers.",
+      "products": "Bakery products",
+      "daily_intake": "Up to 25 mg/kg bodyweight",
+      "side_effects": "None known. The body metabolises all components identical to natural fat.",
+      "dietary_restrictions": "Although mainly vegetable oils are used, the use of animal fat (incl. pork) can not be excluded. Several groups, such as vegans, Muslims and Jews thus avoid these products. Only the producer can give detailed information on the origin of the fatty acids. Chemically the fatty acids from vegetable or animal origin are identical."
+    }
+  },
+  "476": {
+    "code": "E476",
+    "name": "Polyglycerol polyricinoleate",
+    "href": "e476.htm",
+    "function": "Semi-synthetic emulsifiers",
+    "more_info": {
+      "origin": "  Combination of polyglycerol and castoroil (oil of the tree Ricinus sp. ). Normal fat consists of glycerol and fatty acids, for these products additional glycerol is coupled to the normal glycerol. The product generally is a mixture of different components.",
+      "characteristics": "Emulsifiers and stabilisers.",
+      "products": "Bakery products",
+      "daily_intake": "Up to 7.5 mg/kg bodyweight",
+      "side_effects": "None known.",
+      "dietary_restrictions": "E476 can be consumed by all religious groups, vegans and vegetarians."
+    }
+  },
+  "477": {
+    "code": "E477",
+    "name": "Propyleneglycol esters of fatty acids",
+    "href": "e477.htm",
+    "function": "Semi-synthetic emulsifiers",
+    "more_info": {
+      "origin": "  Combination of propanediol and natural fats. Normal fat consists of glycerol and fatty acids, for these products glycerol is replaced by propanediol. The fats are mainly from plant origin, but also fats of animal origin may be used. The product generally is a mixture of different components.",
+      "characteristics": "Emulsifiers and stabilisers.",
+      "products": "Bakery products",
+      "daily_intake": "Up to 25 mg/kg bodyweight for propyleneglycol",
+      "side_effects": "Both components are normally present in the body and will be metabolised in the normal way. High concentrations of propyleneglycol can cause eczema in sensitive persons, but not normally from the use in foods.",
+      "dietary_restrictions": "Although mainly vegetable oils are used, the use of animal fat (incl. pork) can not be excluded. Several groups, such as vegans, Muslims and Jews thus avoid these products. Only the producer can give detailed information on the origin of the fatty acids. Chemically the fatty acids from vegetable or animal origin are identical."
+    }
+  },
+  "478": {
+    "code": "E478",
+    "name": "Mixture of glycerol- and propyleneglycol esters of lactic acid and fatty acids",
+    "href": "e478.htm",
+    "function": "Semi-synthetic emulsifiers",
+    "more_info": {
+      "origin": "  Combination of lactic acid, glycerol, propanediol and natural fats. Normal fat consists of glycerol and fatty acids, for these products glycerol is replaced by propanediol. The fats are mainly from plant origin, but also fats of animal origin may be used. The product generally is a mixture of different components.",
+      "characteristics": "Emulsifiers and stabilisers.",
+      "products": "Bakery products",
+      "daily_intake": "Up to 25 mg/kg bodyweight for propyleneglycol",
+      "side_effects": "All components are normally present in the body and will be metabolised in the normal way. High concentrations of propyleneglycol can cause eczema in sensitive persons, but not normally from the use in foods.",
+      "dietary_restrictions": "Although mainly vegetable oils are used, the use of animal fat (incl. pork) can not be excluded. Several groups, such as vegans, Muslims and Jews thus avoid these products. Only the producer can give detailed information on the origin of the fatty acids. Chemically the fatty acids from vegetable or animal origin are identical."
+    }
+  },
+  "479": {
+    "code": "E479",
+    "name": "Esterified soy oil",
+    "href": "e479.htm",
+    "function": "Semi-synthetic emulsifiers",
+    "more_info": {
+      "origin": "  Produced by heating soy-oil in the presence of free fatty acids. The fatty acids are mainly from plant origin, but also fats of animal origin may be used. The product generally is a mixture of different components.",
+      "characteristics": "Emulsifiers and stabilisers.",
+      "products": "Bakery products",
+      "daily_intake": "Up to 30 mg/kg bodyweight",
+      "side_effects": "The product is a normal fat and will be metabolised in the normal way.",
+      "dietary_restrictions": "Although mainly vegetable oils are used, the use of animal fat (incl. pork) can not be excluded. Several groups, such as vegans, Muslims and Jews thus avoid these products. Only the producer can give detailed information on the origin of the fatty acids. Chemically the fatty acids from vegetable or animal origin are identical."
+    }
+  },
+  "480": {
+    "code": "480",
+    "name": "Dioctyl sodium sulphosuccinate",
+    "href": "e480.htm",
+    "function": "Synthetic emulsifier",
+    "more_info": {
+      "origin": "  Produced by a reaction of octane with maleic acid anhydride, followed by a reaction with sodium bisulphite.",
+      "characteristics": "Emulsifier",
+      "products": "Bakery products, but mainly used in pharmaceutical preparations",
+      "daily_intake": "Up to 2.5 mg/kg bodyweight",
+      "side_effects": "The product acts as a laxative.",
+      "dietary_restrictions": "None, 480 can be used by all religious groups, vegans and vegetarians."
+    }
+  },
+  "481": {
+    "code": "E481",
+    "name": "Sodium stearoyl lactate",
+    "href": "e481.htm",
+    "function": "Semi-synthetic emulsifier",
+    "more_info": {
+      "origin": "  Combination of stearic acid and lactic acid, resulting in a mixture of several components. The origin of stearic acid can be or plant or animal fat, although in practice nearly always vegetable oil will be used.",
+      "characteristics": "Emulsifier and stabiliser",
+      "products": "Bakery products",
+      "daily_intake": "Up to 20 mg/kg bodyweight",
+      "side_effects": "None, both lactic acid and stearic acid are normal products in human metabolism.",
+      "dietary_restrictions": "Although mainly vegetable oils are used, the use of animal fat (incl. pork) can not be excluded. Several groups, such as vegans, Muslims and Jews thus avoid these products. Only the producer can give detailed information on the origin of the fatty acids. Chemically the fatty acids from vegetable or animal origin are identical."
+    }
+  },
+  "482": {
+    "code": "E482",
+    "name": "Calcium stearoyl lactate",
+    "href": "e482.htm",
+    "function": "Semi-synthetic emulsifier",
+    "more_info": {
+      "origin": "  Combination of calcium, stearic acid and lactic acid, resulting in a mixture of several components. The origin of stearic acid can be or plant or animal fat, although in practice nearly always vegetable oil will be used.",
+      "characteristics": "Emulsifier and stabiliser",
+      "products": "Bakery products",
+      "daily_intake": "Up to 20 mg/kg bodyweight",
+      "side_effects": "None, both calcium, lactic acid and stearic acid are normal products in human metabolism.",
+      "dietary_restrictions": "Although mainly vegetable oils are used, the use of animal fat (incl. pork) can not be excluded. Several groups, such as vegans, Muslims and Jews thus avoid these products. Only the producer can give detailed information on the origin of the fatty acids. Chemically the fatty acids from vegetable or animal origin are identical."
+    }
+  },
+  "483": {
+    "code": "E483",
+    "name": "Stearyl tartrate",
+    "href": "e483.htm",
+    "function": "Semi-synthetic emulsifier",
+    "more_info": {
+      "origin": "  Combination of stearic acid and tartaric acid, resulting in a mixture of several components. The origin of stearic acid can be or plant or animal fat, although in practice nearly always vegetable oil will be used.",
+      "characteristics": "Emulsifier and stabiliser",
+      "products": "Bakery products",
+      "daily_intake": "Up to 20 mg/kg bodyweight",
+      "side_effects": "None, both tartaric and stearic acid are normal products in human metabolism.",
+      "dietary_restrictions": "Although mainly vegetable oils are used, the use of animal fat (incl. pork) can not be excluded. Several groups, such as vegans, Muslims and Jews thus avoid these products. Only the producer can give detailed information on the origin of the fatty acids. Chemically the fatty acids from vegetable or animal origin are identical."
+    }
+  },
+  "484": {
+    "code": "484",
+    "name": "Stearyl citrate",
+    "href": "e484.htm",
+    "function": "Semi-synthetic emulsifier",
+    "more_info": {
+      "origin": "  Combination of stearic acid and citric acid, resulting in a mixture of several components. The origin of stearic acid can be or plant or animal fat, although in practice nearly always vegetable oil will be used.",
+      "characteristics": "Emulsifier and stabiliser",
+      "products": "Bakery products",
+      "daily_intake": "Up to 50 mg/kg bodyweight",
+      "side_effects": "None, both citric and stearic acid are normal products in human metabolism.",
+      "dietary_restrictions": "Although mainly vegetable oils are used, the use of animal fat (incl. pork) can not be excluded. Several groups, such as vegans, Muslims and Jews thus avoid these products. Only the producer can give detailed information on the origin of the fatty acids. Chemically the fatty acids from vegetable or animal origin are identical."
+    }
+  },
+  "485": {
+    "code": "E485",
+    "name": "Renamed as 441",
+    "href": "e441.htm",
+    "function": "",
+    "more_info": {
+      "origin": "Obtained from animal by-products, such as bones and hides. It can be produced from all species of animals.",
+      "characteristics": "Thickening and gelling agent",
+      "products": "Many different products",
+      "daily_intake": "None determined",
+      "side_effects": "None known when used in foods",
+      "dietary_restrictions": "441 can not be used by vegans and vegetarians. Use by religious groups, such as Muslims and Jews is restricted, due to the origin of the product. Unfortunately information on origin can only be obtained from the producer. Specific halal gelatin is made from cattle."
+    }
+  },
+  "490": {
+    "code": "490",
+    "name": "Propylene glycol",
+    "href": "e490.htm",
+    "function": "solvent",
+    "more_info": {
+      "origin": "  Synthetic product prepared from propylene from oil.",
+      "characteristics": "Solvent for flavours and anti-oxidants.",
+      "products": "Different products",
+      "daily_intake": "Up to 25 mg/kg bodyweight",
+      "side_effects": "It is metabolised to acetic and pyruvic acids, both are normal constituents of the body. High concentrations cause eczema, but not when used in foods.",
+      "dietary_restrictions": "490 can be used by all religious groups, vegans and vegetarians."
+    }
+  },
+  "491": {
+    "code": "E491",
+    "name": "Sorbitane mono stearate",
+    "href": "e491.htm",
+    "function": "Semi-synthetic emulsifier",
+    "more_info": {
+      "origin": "  Produced from sorbitol and stearic acid, a normal fatty acid from vegetable or animal origin.",
+      "characteristics": "Emulsifier and stabiliser",
+      "products": "Different products",
+      "daily_intake": "Up to 25 mg/kg bodyweight",
+      "side_effects": "It is metabolised to sorbitol and stearic acid, both are metabolised without any side effects.",
+      "dietary_restrictions": "Although mainly vegetable oils are used, the use of animal fat (incl. pork) can not be excluded. Several groups, such as vegans, Muslims and Jews thus avoid these products. Only the producer can give detailed information on the origin of the fatty acids. Chemically the fatty acids from vegetable or animal origin are identical."
+    }
+  },
+  "492": {
+    "code": "E492",
+    "name": "Sorbitane tri stearate",
+    "href": "e492.htm",
+    "function": "Semi-synthetic emulsifier",
+    "more_info": {
+      "origin": "  Produced from sorbitol and stearic acid, a normal fatty acid from vegetable or animal origin.",
+      "characteristics": "Emulsifier and stabiliser",
+      "products": "Different products",
+      "daily_intake": "Up to 25 mg/kg bodyweight",
+      "side_effects": "It is metabolised to sorbitol and stearic acid, both are metabolised without any side effects.",
+      "dietary_restrictions": "Although mainly vegetable oils are used, the use of animal fat (incl. pork) can not be excluded. Several groups, such as vegans, Muslims and Jews thus avoid these products. Only the producer can give detailed information on the origin of the fatty acids. Chemically the fatty acids from vegetable or animal origin are identical."
+    }
+  },
+  "493": {
+    "code": "E493",
+    "name": "Sorbitane mono laurate",
+    "href": "e493.htm",
+    "function": "Semi-synthetic emulsifier",
+    "more_info": {
+      "origin": "  Produced from sorbitol and lauric acid, a normal fatty acid from vegetable or animal origin.",
+      "characteristics": "Emulsifier and stabiliser",
+      "products": "Different products",
+      "daily_intake": "Up to 25 mg/kg bodyweight",
+      "side_effects": "It is metabolised to sorbitol and lauric acid, both are metabolised without any side effects.",
+      "dietary_restrictions": "Although mainly vegetable oils are used, the use of animal fat (incl. pork) can not be excluded. Several groups, such as vegans, Muslims and Jews thus avoid these products. Only the producer can give detailed information on the origin of the fatty acids. Chemically the fatty acids from vegetable or animal origin are identical."
+    }
+  },
+  "494": {
+    "code": "E494",
+    "name": "Sorbitane mono oleate",
+    "href": "e494.htm",
+    "function": "Semi-synthetic emulsifier",
+    "more_info": {
+      "origin": "  Produced from sorbitol and oleic acid, a normal fatty acid from vegetable or animal origin.",
+      "characteristics": "Emulsifier and stabiliser",
+      "products": "Different products",
+      "daily_intake": "Up to 25 mg/kg bodyweight",
+      "side_effects": "  It is metabolised to sorbitol and oleic acid, both are metabolised without any side effects.",
+      "dietary_restrictions": "  Although mainly vegetable oils are used, the use of animal fat (incl. pork) can not be excluded. Several groups, such as vegans, Muslims and Jews thus avoid these products. Only the producer can give detailed information on the origin of the fatty acids. Chemically the fatty acids from vegetable or animal origin are identical."
+    }
+  },
+  "495": {
+    "code": "E495",
+    "name": "Sorbitane mono palmitate",
+    "href": "e495.htm",
+    "function": "Semi-synthetic emulsifier",
+    "more_info": {
+      "origin": "  Produced from sorbitol and palmitic acid, a normal fatty acid from vegetable or animal origin.",
+      "characteristics": "Emulsifier and stabiliser",
+      "products": "Different products",
+      "daily_intake": "Up to 25 mg/kg bodyweight",
+      "side_effects": "It is metabolised to sorbitol and palmitic acid, both are metabolised without any side effects.",
+      "dietary_restrictions": "Although mainly vegetable oils are used, the use of animal fat (incl. pork) can not be excluded. Several groups, such as vegans, Muslims and Jews thus avoid these products. Only the producer can give detailed information on the origin of the fatty acids. Chemically the fatty acids from vegetable or animal origin are identical."
+    }
+  }
+}

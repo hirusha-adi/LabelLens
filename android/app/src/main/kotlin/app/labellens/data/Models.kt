@@ -19,9 +19,12 @@ enum class Verdict(val label: String, val icon: String) {
 @Serializable
 data class CatalogueMeta(
     val totalCount: Int = 0,
+    /** How many additives have a full entry. The rest only have a name, category and approval status. */
+    val detailedCount: Int = 0,
     val updatedLabel: String = "",
-    val syncedLabel: String = "",
     val sources: String = "",
+    /** Changes when the list does. Sent back to the API so an unchanged list is not downloaded again. */
+    val version: String = "",
 )
 
 @Serializable
@@ -39,6 +42,7 @@ data class Additive(
     val sensitivities: List<String> = emptyList(),
     val origin: String = "synthetic",
     val bannedIn: List<String> = emptyList(),
+    val hasDetail: Boolean = true,
 ) {
     val verdict get() = Verdict.of(status)
     val title get() = "$code · $name"

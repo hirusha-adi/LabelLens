@@ -4,7 +4,7 @@ plugins {
     alias(libs.plugins.kotlin.serialization)
 }
 
-// Where the sample API in ../api is reachable from the phone. The default works on a
+// Where the API in ../api is reachable from the phone. The default works on a
 // device or emulator after `adb reverse tcp:8787 tcp:8787`. Override with
 // -PapiBaseUrl=http://192.168.1.20:8787 to reach it over Wi-Fi instead.
 val apiBaseUrl = providers.gradleProperty("apiBaseUrl").getOrElse("http://127.0.0.1:8787")

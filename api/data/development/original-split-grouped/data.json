@@ -1,0 +1,716 @@
+{
+  "100": {
+    "code": "E100",
+    "name": "Curcumin",
+    "href": "e100.htm",
+    "function": "Orange-yellow colour",
+    "more_info": {
+      "origin": "Natural colour isolated from the roots and stem of Yellowroot (Curcuma longa  and Curcuma domestica). Turmeric is the crude extract, whereas curcumin is the purified compound. It imparts the yellow colour to curry powder. More on curcumin, click .",
+      "characteristics": "Food colour, whose colour ranges from yellow to red, depending on pH (acidity). It is not very soluble in water.",
+      "products": "Many different products.",
+      "daily_intake": "Up to 1 mg/kg body weight for curcumin, and 0.3 mg/kg for turmeric.",
+      "side_effects": "No side effects known in the concentrations used in foods.",
+      "dietary_restrictions": "None; E100 can be consumed by all religious groups, vegans and vegetarians. "
+    }
+  },
+  "100(ii)": {
+    "code": "E100(ii)",
+    "name": "Turmeric",
+    "href": "e100.htm",
+    "function": "Orange-yellow colour",
+    "more_info": {
+      "origin": "Natural colour isolated from the roots and stem of Yellowroot (Curcuma longa  and Curcuma domestica). Turmeric is the crude extract, whereas curcumin is the purified compound. It imparts the yellow colour to curry powder. More on curcumin, click .",
+      "characteristics": "Food colour, whose colour ranges from yellow to red, depending on pH (acidity). It is not very soluble in water.",
+      "products": "Many different products.",
+      "daily_intake": "Up to 1 mg/kg body weight for curcumin, and 0.3 mg/kg for turmeric.",
+      "side_effects": "No side effects known in the concentrations used in foods.",
+      "dietary_restrictions": "None; E100 can be consumed by all religious groups, vegans and vegetarians. "
+    }
+  },
+  "101": {
+    "code": "E101",
+    "name": "Riboflavin",
+    "href": "e101.htm",
+    "function": "Yellow colour, vitamin B2",
+    "more_info": {
+      "origin": "Natural colour present in many foods such as milk, eggs, liver and vegetables. Commercially prepared from yeasts. It is also manufactured synthetically.",
+      "characteristics": "Yellow food colour. Not very soluble in water.",
+      "products": "Many different products.",
+      "daily_intake": "Up to 0.5 mg/kg body weight.",
+      "side_effects": "No side effects known in the concentrations used in foods.",
+      "dietary_restrictions": "None; E101 can be consumed by all religious groups, vegans and vegetarians. Although it can be produced from milk, this is not done commercially."
+    }
+  },
+  "101(ii)": {
+    "code": "E101(ii)",
+    "name": "Riboflavin- 5'- Phosphate",
+    "href": "e101.htm",
+    "function": "Yellow colour, vitamin B2",
+    "more_info": {
+      "origin": "Natural colour present in many foods such as milk, eggs, liver and vegetables. Commercially prepared from yeasts. It is also manufactured synthetically.",
+      "characteristics": "Yellow food colour. Not very soluble in water.",
+      "products": "Many different products.",
+      "daily_intake": "Up to 0.5 mg/kg body weight.",
+      "side_effects": "No side effects known in the concentrations used in foods.",
+      "dietary_restrictions": "None; E101 can be consumed by all religious groups, vegans and vegetarians. Although it can be produced from milk, this is not done commercially."
+    }
+  },
+  "102": {
+    "code": "E102",
+    "name": "Tartrazine",
+    "href": "e102.htm",
+    "function": "Yellow colour, azo dye",
+    "more_info": {
+      "origin": "Synthetic azo dye. See  for a background on azo dyes.",
+      "characteristics": "Yellow food colour. Very soluble in water.",
+      "products": "Many different products.",
+      "daily_intake": "Up to 7.5 mg/kg body weight.",
+      "side_effects": "Tartrazine is an azo dye. No side effects are known for pure tartrazine, except in people who are intolerant to salicylates (aspirin, berries, fruits); in that case tartrazine also induces intolerance symptoms. In combination with benzoates (E210-215), tartrazine is implicated in a large percentage of cases of ADHD syndrome (hyperactivity) in children. Asthmatics may also experience symptoms following consumption of tartrazine, as it is a known histamine-liberating agent.",
+      "dietary_restrictions": "None; E102 can be consumed by all religious groups, vegans and vegetarians."
+    }
+  },
+  "104": {
+    "code": "E104",
+    "name": "Quinoline Yellow",
+    "href": "e104.htm",
+    "function": "Green-yellow colour, synthetic",
+    "more_info": {
+      "origin": "Synthetic non-azo dye.",
+      "characteristics": "Yellow food colour. Very soluble in water.",
+      "products": "Many different products.",
+      "daily_intake": "Up to 10 mg/kg body weight.",
+      "side_effects": "There are no side effects known in the concentrations used, although E104 may act as a histamine liberator.",
+      "dietary_restrictions": "None; E104 can be consumed by all religious groups, vegans and vegetarians."
+    }
+  },
+  "106": {
+    "code": "E106",
+    "name": "Riboflavin-5-Sodium Phosphate",
+    "href": "e101.htm",
+    "function": "Yellow colour, vitamin B2",
+    "more_info": {
+      "origin": "Natural colour present in many foods such as milk, eggs, liver and vegetables. Commercially prepared from yeasts. It is also manufactured synthetically.",
+      "characteristics": "Yellow food colour. Not very soluble in water.",
+      "products": "Many different products.",
+      "daily_intake": "Up to 0.5 mg/kg body weight.",
+      "side_effects": "No side effects known in the concentrations used in foods.",
+      "dietary_restrictions": "None; E101 can be consumed by all religious groups, vegans and vegetarians. Although it can be produced from milk, this is not done commercially."
+    }
+  },
+  "107": {
+    "code": "E107",
+    "name": "Yellow 2G",
+    "href": "e107.htm",
+    "function": "Yellow colour, azo dye",
+    "more_info": {
+      "origin": "Synthetic azo dye. See  for a background on azo dyes.",
+      "characteristics": "Yellow food colour. Very soluble in water.",
+      "products": "",
+      "daily_intake": "No ADI determined.",
+      "side_effects": "Since it is an azo dye, E107 is implicated in allergies, hyperactivity and asthma. Use is limited and the colour may be banned in the near future.",
+      "dietary_restrictions": "None; E107 can be consumed by all religious groups, vegans and vegetarians."
+    }
+  },
+  "110": {
+    "code": "E110",
+    "name": "Sunset Yellow FCF",
+    "href": "e110.htm",
+    "function": "Yellow colour, azo dye",
+    "more_info": {
+      "origin": "Synthetic azo dye. See  for a background on azo dyes.",
+      "characteristics": "Yellow food colour. Very soluble in water.",
+      "products": "Many products.",
+      "daily_intake": "Up to 2.5 mg/kg body weight.",
+      "side_effects": "Since it is an azo dye, it may elicit intolerance in people intolerant to salicylates. Additionally, it is a histamine liberator, and may intensify symptoms of asthma. In combination with benzoates, it is also implicated in hyperactivity in children.",
+      "dietary_restrictions": "None; E110 can be consumed by all religious groups, vegans and vegetarians."
+    }
+  },
+  "120": {
+    "code": "E120",
+    "name": "Carmine, Cochineal",
+    "href": "e120.htm",
+    "function": "Red colour, natural",
+    "more_info": {
+      "origin": "Natural red food colour isolated from the insects     Dactylopius coccus, living on different species of succulents. E120(i) is the pure colour, whereas E120(ii) is the crude extract. For more information, see the background file on .",
+      "characteristics": "Red food colour. Very soluble in water.",
+      "products": "Many products.",
+      "daily_intake": "Up to 5 mg/kg body weight.",
+      "side_effects": "No side effects in the concentrations used in foods. Increased hyperactivity has been reported in a few cases. Contact allergy is well known when used in cosmetics.",
+      "dietary_restrictions": "As it is extracted from insects, E120 cannot be consumed by vegans and vegetarians and neither by some religious groups."
+    }
+  },
+  "122": {
+    "code": "E122",
+    "name": "Azorubine",
+    "href": "e122.htm",
+    "function": "Red colour, azo dye",
+    "more_info": {
+      "origin": "Synthetic azo dye. See  for a background on azo dyes.",
+      "characteristics": "Red food colour. Very soluble in water.",
+      "products": "Many products.",
+      "daily_intake": "Up to 4 mg/kg body weight.",
+      "side_effects": "Since it is an azo dye, it may elicit intolerance in people intolerant to salicylates. Additionally, it is a histamine liberator, and may intensify symptoms of asthma. In combination with benzoates, it is also implicated in hyperactivity in children.",
+      "dietary_restrictions": "None; E122 can be consumed by all religious groups, vegans and vegetarians."
+    }
+  },
+  "123": {
+    "code": "E123",
+    "name": "Amaranth",
+    "href": "e123.htm",
+    "function": "Red colour, azo dye",
+    "more_info": {
+      "origin": "Synthetic azo dye. See  for a background on azo dyes.",
+      "characteristics": "Red food colour. Very soluble in water.",
+      "products": "Many products.",
+      "daily_intake": "Up to 0.5 mg/kg body weight.",
+      "side_effects": "Since it is an azo dye, it may elicit intolerance in people intolerant to salicylates. Additionally, it is a histamine liberator, and may intensify symptoms of asthma. In combination with benzoates, it is also implicated in hyperactivity in children. A connection between tumours and amaranth has been established in rats, but not (un)proven in humans. Nevertheless, many countries have restricted the use pending further tests, and the ADI has been reduced to 0.5 mg/kg.",
+      "dietary_restrictions": "None; E123 can be consumed by all religious groups, vegans and vegetarians."
+    }
+  },
+  "124": {
+    "code": "E124",
+    "name": "Ponceau 4R",
+    "href": "e124.htm",
+    "function": "Red colour, azo dye",
+    "more_info": {
+      "origin": "Synthetic azo dye. See  for a background on azo dyes.",
+      "characteristics": "Red food colour. Very soluble in water.",
+      "products": "Many products.",
+      "daily_intake": "Up to 4 mg/kg body weight.",
+      "side_effects": "Since it is an azo dye, it may elicit intolerance in people intolerant to salicylates. Additionally, it is a histamine liberator, and may intensify symptoms of asthma. In combination with benzoates, it is also implicated in hyperactivity in children.",
+      "dietary_restrictions": "None; E124 can be consumed by all religious groups, vegans and vegetarians."
+    }
+  },
+  "127": {
+    "code": "E127",
+    "name": "Erythrosine",
+    "href": "e127.htm",
+    "function": "Red colour, synthetic",
+    "more_info": {
+      "origin": "Synthetic iodine-containing red dye.",
+      "characteristics": "Red food colour. Very soluble in water.",
+      "products": "Many products.",
+      "daily_intake": "Up to 0.1 mg/kg body weight.",
+      "side_effects": "Few side effects in the concentrations used in foods. Increased hyperactivity has been reported in a few cases, as well as a possible connection with mutagenicity. Erythrosine causes an increased photosensitivity in people with sensitivity to sunlight. In high concentrations erythrosine interferes with iodine metabolism. However, these concentrations cannot be reached through the consumption of food.",
+      "dietary_restrictions": "None; E127 can be consumed by all religious groups, vegans and vegetarians."
+    }
+  },
+  "128": {
+    "code": "E128",
+    "name": "Red 2G",
+    "href": "e128.htm",
+    "function": "Red colour, synthetic",
+    "more_info": {
+      "origin": "Synthetic azo dye.",
+      "characteristics": "Red food colour. Very soluble in water.",
+      "products": "Restricted use in confectionery and meat products.",
+      "daily_intake": "Up to 0.1 mg/kg body weight.",
+      "side_effects": "Since it is an azo dye, it may elicit intolerance in people intolerant to salicylates. Additionally, it is a histamine liberator, and may intensify symptoms of asthma. In combination with benzoates, it is also implicated in hyperactivity in children. Furthermore, Red 2G may well bring about anaemia and it is possibly mutagenic. Consequently, its use has been very much restricted and the ADI reduced.",
+      "dietary_restrictions": "None; E128 can be consumed by all religious groups, vegans and vegetarians."
+    }
+  },
+  "129": {
+    "code": "E129",
+    "name": "Allura Red AC",
+    "href": "e129.htm",
+    "function": "Red colour, azo dye",
+    "more_info": {
+      "origin": "Synthetic azo dye. See  for a background on azo dyes.",
+      "characteristics": "Red food colour. Very soluble in water.",
+      "products": "Restricted use in confectionery and meat products.",
+      "daily_intake": "Up to 7 mg/kg body weight.",
+      "side_effects": "Since it is an azo dye, it may elicit intolerance in people intolerant to salicylates. Additionally, it is a histamine liberator, and may intensify symptoms of asthma. In combination with benzoates, it is also implicated in hyperactivity in children. One of its degradation products causes bladder cancer in animals when present in high concentrations.",
+      "dietary_restrictions": "None; E129 can be consumed by all religious groups, vegans and vegetarians."
+    }
+  },
+  "131": {
+    "code": "E131",
+    "name": "Patent Blue V",
+    "href": "e131.htm",
+    "function": "Blue colour, synthetic",
+    "more_info": {
+      "origin": "Synthetic blue colour.",
+      "characteristics": "Blue food colour. Very soluble in water.",
+      "products": "Many products.",
+      "daily_intake": "Up to 15 mg/kg body weight.",
+      "side_effects": "Side effects rarely occur in the concentrations used in foods. Rare allergic reactions have been described, due to coupling of the colour to (body) proteins. It can also function as a histamine liberator.",
+      "dietary_restrictions": "None; E131 can be consumed by all religious groups, vegans and vegetarians."
+    }
+  },
+  "132": {
+    "code": "E132",
+    "name": "Indigotine",
+    "href": "e132.htm",
+    "function": "Blue colour, synthetic",
+    "more_info": {
+      "origin": "Blue colour, naturally present in the shrub Indigofera tinctoria , though commercially it is produced synthetically.",
+      "characteristics": "Blue food colour. Very soluble in water.",
+      "products": "Many products.",
+      "daily_intake": "Up to 5 mg/kg body weight.",
+      "side_effects": "Side effects rarely occur in the concentrations used in foods. Rare allergic reactions have been described, due to coupling of the colour to (body) proteins. It can also function as a histamine liberator.",
+      "dietary_restrictions": "None; E132 can be consumed by all religious groups, vegans and vegetarians."
+    }
+  },
+  "133": {
+    "code": "E133",
+    "name": "Brilliant Blue FCF",
+    "href": "e133.htm",
+    "function": "Blue colour, synthetic",
+    "more_info": {
+      "origin": "Synthetic blue colour.",
+      "characteristics": "Blue food colour. Very soluble in water.",
+      "products": "Ice cream and a few other food products, but mostly in cosmetics.",
+      "daily_intake": "Up to 12.5 mg/kg body weight.",
+      "side_effects": "Side effects rarely occur in the concentrations used. Some allergic reactions have been reported.",
+      "dietary_restrictions": "None; E133 can be consumed by all religious groups, vegans and vegetarians."
+    }
+  },
+  "140": {
+    "code": "E140",
+    "name": "Chlorophylls",
+    "href": "e140.htm",
+    "function": "Green colour, natural",
+    "more_info": {
+      "origin": "Natural green colour, present in all plants and algae. Commercially extracted from nettles, grass and alfalfa.",
+      "characteristics": "Green, water-soluble food colour.",
+      "products": "Many products.",
+      "daily_intake": "None determined.",
+      "side_effects": "No side effects are known.",
+      "dietary_restrictions": "None; E140 can be consumed by all religious groups, vegans and vegetarians."
+    }
+  },
+  "141": {
+    "code": "E141",
+    "name": "Copper complexes of chlorophyll",
+    "href": "e141.htm",
+    "function": "Green colour, synthetic",
+    "more_info": {
+      "origin": "",
+      "characteristics": "Green food colour. E141 (i) is soluble in water, whereas E141 (ii) is soluble in oil.",
+      "products": "Many products.",
+      "daily_intake": "Up to 15 mg/kg body weight.",
+      "side_effects": "No side effects are known. Copper is released when E141 is heated; however, copper concentrations from this compound will not reach toxic levels.",
+      "dietary_restrictions": "None; E141 can be consumed by all religious groups, vegans and vegetarians."
+    }
+  },
+  "142": {
+    "code": "E142",
+    "name": "Green S",
+    "href": "e142.htm",
+    "function": "Green colour, synthetic",
+    "more_info": {
+      "origin": "",
+      "characteristics": "Green food colour. E142 is soluble in water, but unstable in acid or alkaline solutions.",
+      "products": "Many products.",
+      "daily_intake": "Up to 5 mg/kg body weight.",
+      "side_effects": "Very few side effects are known. In some cases allergies or anaemia have been reported.",
+      "dietary_restrictions": "None; E142 can be consumed by all religious groups, vegans and vegetarians."
+    }
+  },
+  "150a-d": {
+    "code": "E150a-d",
+    "name": "Caramel",
+    "href": "e150.htm",
+    "function": "Brown colour",
+    "more_info": {
+      "origin": "",
+      "characteristics": "Brown to black colours. Soluble in water and with a specific, sometimes bitter, taste.",
+      "products": "Many products.",
+      "daily_intake": "Up to 200 mg/kg body weight for E150c and E150d, whereas there is no ADI for E150a and/or E150b.",
+      "side_effects": "Side effects are manifested from the use of E150c and E150d, where intestinal problems may occur after ingestion of large amounts. Due to the complex nature of the mixtures, toxicology tests are still being carried out.",
+      "dietary_restrictions": "None; E150 can be consumed by all religious groups, vegans and vegetarians."
+    }
+  },
+  "151": {
+    "code": "E151",
+    "name": "Brilliant black BN",
+    "href": "e151.htm",
+    "function": "Black colour, azo dye",
+    "more_info": {
+      "origin": "Synthetic azo dye. See  for a background on azo dyes.",
+      "characteristics": "Black food colour. Very soluble in water.",
+      "products": "Restricted use, but in large product range.",
+      "daily_intake": "Up to 1-5 mg/kg body weight.",
+      "side_effects": "Since it is an azo dye, it may elicit intolerance in people intolerant to salicylates. Additionally, it is a histamine liberator, and may intensify symptoms of asthma. In combination with benzoates, it is also implicated in hyperactivity in children. In the intestines, it can be transformed by bacteria into possibly hazardous compounds, hence the rather low ADI and restricted use.",
+      "dietary_restrictions": "None; E151 can be consumed by all religious groups, vegans and vegetarians."
+    }
+  },
+  "153": {
+    "code": "E153",
+    "name": "Carbon",
+    "href": "e153.htm",
+    "function": "Natural black colour",
+    "more_info": {
+      "origin": "",
+      "characteristics": "",
+      "products": "",
+      "daily_intake": "None determined.",
+      "side_effects": "",
+      "dietary_restrictions": ""
+    }
+  },
+  "154": {
+    "code": "E154",
+    "name": "Brown FK",
+    "href": "e154.htm",
+    "function": "Brown colour, azo dye",
+    "more_info": {
+      "origin": "",
+      "characteristics": "Brown food colour. Very soluble in water.",
+      "products": "",
+      "daily_intake": "None determined.",
+      "side_effects": "Since it is an azo dye, it may elicit intolerance in people intolerant to salicylates. Additionally, it is a histamine liberator, and may intensify symptoms of asthma. In combination with benzoates, it is also implicated in hyperactivity in children. Some of the compounds in the mixture may be mutagenic; hence the use is restricted to a few products.",
+      "dietary_restrictions": "None; E154 can be consumed by all religious groups, vegans and vegetarians."
+    }
+  },
+  "155": {
+    "code": "E155",
+    "name": "Brown HT",
+    "href": "e155.htm",
+    "function": "Brown colour, azo dye",
+    "more_info": {
+      "origin": "",
+      "characteristics": "Brown food colour. Very soluble in water.",
+      "products": "Restricted use in confectionery and bakery products.",
+      "daily_intake": "Up to 1.5 mg/kg body weight.",
+      "side_effects": "Since it is an azo dye, it may elicit intolerance in people intolerant to salicylates. Additionally, it is a histamine liberator, and may intensify symptoms of asthma. In combination with benzoates, it is also implicated in hyperactivity in children.",
+      "dietary_restrictions": "None; E155 can be consumed by all religious groups, vegans and vegetarians."
+    }
+  },
+  "160a": {
+    "code": "E160a",
+    "name": "Alfa-, Beta- and Gamma- Carotene",
+    "href": "e160a.htm",
+    "function": "Natural orange-yellow colour",
+    "more_info": {
+      "origin": "Natural colour isolated from several plants; however, it is obtained commercially from carrots. Carotenes occur as isomers, consisting of a series of chemically identical, but sterically different components. The actual composition differs between the plant species.",
+      "characteristics": "Water-insoluble food colour whose colour ranges from yellow to orange, depending on the solvent used for extraction.",
+      "products": "Many different products.",
+      "daily_intake": "Up to 5 mg/kg body weight for E160a (i), whereas none has been determined for the other compounds.",
+      "side_effects": "No side effects known in the concentrations used in foods. High concentrations will result in yellow discoloration of the skin. As carotene is a source of vitamin A (2 parts of carotene equal 1 part of vitamin A), high concentrations will cause symptoms of vitamin A toxicity.",
+      "dietary_restrictions": "None; E160a can be consumed by all religious groups, vegans and vegetarians."
+    }
+  },
+  "160b": {
+    "code": "E160b",
+    "name": "Annatto, Bixin, Norbixin",
+    "href": "e160b.htm",
+    "function": "Natural yellow colour",
+    "more_info": {
+      "origin": "Natural colour isolated from the seeds of the  tree (Bixa orellana ). Annatto is the name of the crude extract, whereas bixin is the fat-soluble colour and norbixin the water-soluble colour.",
+      "characteristics": "Food colour whose colour ranges from red to brown depending on the solvent used for extraction.",
+      "products": "Many different products.",
+      "daily_intake": "Up to 2.5 mg/kg body weight for annatto, and 0.065 mg/kg body weight for bixin.",
+      "side_effects": "Annatto can cause allergies and eczema. It is not always known which component in the mixture is the causative agent of the side effects.",
+      "dietary_restrictions": "None; E160b can be consumed by all religious groups, vegans and vegetarians."
+    }
+  },
+  "160c": {
+    "code": "E160c",
+    "name": "Bell pepper (Paprika) extract",
+    "href": "e160c.htm",
+    "function": "Natural orange colour",
+    "more_info": {
+      "origin": "Natural colour isolated from the bell pepper, Capsicum annuum . This mixture mainly contains capsacain and capsorubin.",
+      "characteristics": "",
+      "products": "Many different products.",
+      "daily_intake": "None determined.",
+      "side_effects": "None known",
+      "dietary_restrictions": "None; E160c can be consumed by all religious groups, vegans and vegetarians."
+    }
+  },
+  "160d": {
+    "code": "E160d",
+    "name": "Lycopene",
+    "href": "e160d.htm",
+    "function": "Natural red colour",
+    "more_info": {
+      "origin": "Natural colour, present in many yellow and red plants and fruits. Commercially isolated from tomatoes. See also the background file on .",
+      "characteristics": "",
+      "products": "Many different products.",
+      "daily_intake": "None determined.",
+      "side_effects": "None known.",
+      "dietary_restrictions": "None; E160d can be consumed by all religious groups, vegans and vegetarians."
+    }
+  },
+  "160e": {
+    "code": "E160e",
+    "name": "Beta-apo-8'-carotenal",
+    "href": "e160e.htm",
+    "function": "Natural orange-yellow colour",
+    "more_info": {
+      "origin": "Natural colour, present in many plants. It is made commercially from carotene or isolated from plants.",
+      "characteristics": "",
+      "products": "Many different products.",
+      "daily_intake": "Up to 2.5 mg/kg body weight.",
+      "side_effects": "No side effects known in the concentrations used in foods. High concentrations will result in yellow discoloration of the skin. As E160e is a source of vitamin A, high concentrations will cause symptoms of vitamin A toxicity.",
+      "dietary_restrictions": "None; E160e can be consumed by all religious groups, vegans and vegetarians."
+    }
+  },
+  "160f": {
+    "code": "E160f",
+    "name": "Ethyl ester of beta-apo-8'-carotenic acid",
+    "href": "e160f.htm",
+    "function": "Natural orange-yellow colour",
+    "more_info": {
+      "origin": "Natural colour, present in many plants. It is made commercially from E160e or isolated from plants.",
+      "characteristics": "",
+      "products": "Many different products.",
+      "daily_intake": "Up to 5 mg/kg body weight.",
+      "side_effects": "No side effects known.",
+      "dietary_restrictions": "None; E160f can be consumed by all religious groups, vegans and vegetarians."
+    }
+  },
+  "161a": {
+    "code": "E161a",
+    "name": "Flavoxanthin",
+    "href": "e161a.htm",
+    "function": "Natural, yellow colour",
+    "more_info": {
+      "origin": "Natural colour, present in many plants. Commercially prepared from buttercup (Ranunculus sp. ).",
+      "characteristics": "",
+      "products": "Rarely used. If used only in confectionary.",
+      "daily_intake": "Up to 5 mg/kg body weight.",
+      "side_effects": "",
+      "dietary_restrictions": ""
+    }
+  },
+  "161b": {
+    "code": "E161b",
+    "name": "Lutein",
+    "href": "e161b.htm",
+    "function": "Natural, yellow colour",
+    "more_info": {
+      "origin": "Natural colour, present in many plants. Commercially prepared from grass, nettles or Tagetes  species.",
+      "characteristics": "",
+      "products": "Rarely used. If used only in soups and alcoholic beverages.",
+      "daily_intake": "None determined.",
+      "side_effects": "",
+      "dietary_restrictions": ""
+    }
+  },
+  "161c": {
+    "code": "E161c",
+    "name": "Cryptoxanthin",
+    "href": "e161c.htm",
+    "function": "Natural, yellow colour",
+    "more_info": {
+      "origin": "Natural colour, present in many plants. Commercially prepared from Physalis  species.",
+      "characteristics": "",
+      "products": "Rarely used. If used only in confectionary.",
+      "daily_intake": "Up to 5 mg/kg bodyweight.",
+      "side_effects": "",
+      "dietary_restrictions": ""
+    }
+  },
+  "161d": {
+    "code": "E161d",
+    "name": "Rubixanthin",
+    "href": "e161d.htm",
+    "function": "Natural, yellow colour",
+    "more_info": {
+      "origin": "Natural colour, present in many plants. Commercially prepared from Rosa  (rose) species.",
+      "characteristics": "",
+      "products": "Rarely used.",
+      "daily_intake": "Up to 5 mg/kg bodyweight.",
+      "side_effects": "",
+      "dietary_restrictions": ""
+    }
+  },
+  "161e": {
+    "code": "E161e",
+    "name": "Violaxanthin",
+    "href": "e161e.htm",
+    "function": "Natural, yellow colour",
+    "more_info": {
+      "origin": "Natural colour, present in many plants. Commercially prepared from Viola  species.",
+      "characteristics": "",
+      "products": "Rarely used.",
+      "daily_intake": "Up to 5 mg/kg bodyweight.",
+      "side_effects": "",
+      "dietary_restrictions": ""
+    }
+  },
+  "161f": {
+    "code": "E161f",
+    "name": "Rhodoxanthin",
+    "href": "e161f.htm",
+    "function": "Natural, yellow colour",
+    "more_info": {
+      "origin": "Natural colour, present in many plants and birds. Commercially prepared from different plant species.",
+      "characteristics": "",
+      "products": "Rarely used.",
+      "daily_intake": "Up to 5 mg/kg bodyweight.",
+      "side_effects": "",
+      "dietary_restrictions": ""
+    }
+  },
+  "161g": {
+    "code": "E161g",
+    "name": "Canthaxanthin",
+    "href": "e161g.htm",
+    "function": "Natural, orange colour",
+    "more_info": {
+      "origin": "Natural colour, present in many plants and birds. Commercially prepared from catharelles (mushroom) or flamingo feathers. However, it is mainly produced synthetically from carotene.",
+      "characteristics": "",
+      "products": "Widely used, also in tanning pills.",
+      "daily_intake": "Up to 0.03 mg/kg bodyweight.",
+      "side_effects": "",
+      "dietary_restrictions": ""
+    }
+  },
+  "161h": {
+    "code": "E161h",
+    "name": "Citranaxanthin",
+    "href": "e161h.htm",
+    "function": "Natural, yellow colour",
+    "more_info": {
+      "origin": "Natural colour, present in many plants. Commercially prepared from several dried plants species.",
+      "characteristics": "",
+      "products": "hardly used",
+      "daily_intake": "Up to 0.4 mg/kg bodyweight.",
+      "side_effects": "",
+      "dietary_restrictions": ""
+    }
+  },
+  "162": {
+    "code": "E162",
+    "name": "Beetroot extract",
+    "href": "e162.htm",
+    "function": "Natural red colour",
+    "more_info": {
+      "origin": "Natural colour commercially prepared from beetroot. More details on the colour, see .",
+      "characteristics": "",
+      "products": "Widely used, but the colour is rather unstable.",
+      "daily_intake": "None determined.",
+      "side_effects": "",
+      "dietary_restrictions": ""
+    }
+  },
+  "163": {
+    "code": "E163",
+    "name": "Anthocyanins",
+    "href": "e163.htm",
+    "function": "Natural red-purple colours",
+    "more_info": {
+      "origin": "Anthocyanins and anthocyanidins are a large group of natural colours. The colour of most fruits, flowers and berries is made up from a combination of anthocyanins and anthocyanidins. Anthocyanins always contain a carbohydrate molecule, whereas anthocyanidins lack this molecule. The individual compounds are isolated from different plant species. E163(i)-(iii) are mixtures. More on anthocyanins and structure, see .",
+      "characteristics": "",
+      "products": "Widely used, but the colours are rather unstable. Temperature, light and pH can influence the colour.",
+      "daily_intake": "None determined except for E163(ii) : up to 2.5 mg/kg body weight",
+      "side_effects": "",
+      "dietary_restrictions": ""
+    }
+  },
+  "170": {
+    "code": "E170",
+    "name": "Calcium carbonate",
+    "href": "e170.htm",
+    "function": "White colour",
+    "more_info": {
+      "origin": "Natural white mineral.",
+      "characteristics": "",
+      "products": "Widely used",
+      "daily_intake": "",
+      "side_effects": "",
+      "dietary_restrictions": ""
+    }
+  },
+  "171": {
+    "code": "E171",
+    "name": "Titanium dioxide",
+    "href": "e171.htm",
+    "function": "White colour",
+    "more_info": {
+      "origin": "Natural white mineral.",
+      "characteristics": "",
+      "products": "Widely used",
+      "daily_intake": "",
+      "side_effects": "",
+      "dietary_restrictions": ""
+    }
+  },
+  "172": {
+    "code": "E172",
+    "name": "Iron oxides",
+    "href": "e172.htm",
+    "function": "Natural red-brown colour",
+    "more_info": {
+      "origin": "Natural minerals, but commercially made from iron powder.",
+      "characteristics": "",
+      "products": "Widely used",
+      "daily_intake": "",
+      "side_effects": "",
+      "dietary_restrictions": ""
+    }
+  },
+  "173": {
+    "code": "E173",
+    "name": "Aluminium",
+    "href": "e173.htm",
+    "function": "Metal (colour)",
+    "more_info": {
+      "origin": "Natural metal.",
+      "characteristics": "",
+      "products": "Widely used",
+      "daily_intake": "",
+      "side_effects": "",
+      "dietary_restrictions": ""
+    }
+  },
+  "174": {
+    "code": "E174",
+    "name": "Silver",
+    "href": "e174.htm",
+    "function": "Metal (colour)",
+    "more_info": {
+      "origin": "Natural metal.",
+      "characteristics": "",
+      "products": "Rarely used",
+      "daily_intake": "",
+      "side_effects": "",
+      "dietary_restrictions": ""
+    }
+  },
+  "175": {
+    "code": "E175",
+    "name": "Gold",
+    "href": "e175.htm",
+    "function": "Metal (colour)",
+    "more_info": {
+      "origin": "Natural metal.",
+      "characteristics": "",
+      "products": "Rarely used",
+      "daily_intake": "",
+      "side_effects": "",
+      "dietary_restrictions": ""
+    }
+  },
+  "180": {
+    "code": "E180",
+    "name": "Lithol Rubine BK",
+    "href": "e180.htm",
+    "function": "Red colour, azo dye",
+    "more_info": {
+      "origin": "Synthetic azo-colour, contains aluminium and calcium ions. See  for a background on azo dyes.",
+      "characteristics": "",
+      "products": "Cheese",
+      "daily_intake": "",
+      "side_effects": "",
+      "dietary_restrictions": ""
+    }
+  },
+  "181": {
+    "code": "181",
+    "name": "Tannins",
+    "href": "e181.htm",
+    "function": "Yellow-white colour and flavour",
+    "more_info": {
+      "origin": "Natural mixture with complex composition. Commercially prepared from acorns or prepared synthetically.",
+      "characteristics": "",
+      "products": "Beverages and confectionary",
+      "daily_intake": "",
+      "side_effects": "",
+      "dietary_restrictions": ""
+    }
+  }
+}

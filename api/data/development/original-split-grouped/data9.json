@@ -1,0 +1,646 @@
+{
+  "900": {
+    "code": "E900",
+    "name": "Dimethyl-polysiloxane",
+    "href": "e900.htm",
+    "function": "Anti-foaming agent",
+    "more_info": {
+      "origin": "Synthetic polymer.",
+      "characteristics": "",
+      "products": "Industrial oils, soups, juices",
+      "daily_intake": "Up to 1,5 mg/kg bodyweight",
+      "side_effects": "None known",
+      "dietary_restrictions": "None. E900 can be used by all religious groups, vegetarians and vegans."
+    }
+  },
+  "901": {
+    "code": "E901",
+    "name": "Bees wax",
+    "href": "e901.htm",
+    "function": "Coating, glazing agent",
+    "more_info": {
+      "origin": "Natural polymer produces by bees. The white wax is bleached by sunlight or hydrogen peroxide.",
+      "characteristics": "",
+      "products": "Many different foods and pharmaceutical products.",
+      "daily_intake": "None determined",
+      "side_effects": "None known",
+      "dietary_restrictions": "None. E901 can be used by all religious groups, vegetarians, as it does not contain animals. The wax is an exudate of the bees and some vegans accept this product."
+    }
+  },
+  "902": {
+    "code": "E902",
+    "name": "Candilla wax",
+    "href": "e902.htm",
+    "function": "Coating, glazing agent",
+    "more_info": {
+      "origin": "Natural polymer produced from the Mexican trees Euphorbia antisyphilitica , E. cerifera  and Pedilanthus pavonis .",
+      "characteristics": "",
+      "products": "Chewing sum, confectionary",
+      "daily_intake": "None determined",
+      "side_effects": "None known",
+      "dietary_restrictions": "None. E902 can be used by all religious groups, vegetarians and vegans."
+    }
+  },
+  "903": {
+    "code": "E903",
+    "name": "Canauba wax",
+    "href": "e903.htm",
+    "function": "Coating, glazing agent",
+    "more_info": {
+      "origin": "Natural polymer produced from the Canauba palm (Copernica cerifera ) and related species from Brazil.",
+      "characteristics": "",
+      "products": "Chewing gum, confectionary, coffee, bakery products",
+      "daily_intake": "None determined",
+      "side_effects": "None known from use in foods. Canauba wax is widely used in cosmetics and can cause dermal eczema. People who have developed such eczema may be sensitive to the use of canauba wax in foods.",
+      "dietary_restrictions": "None. E903 can be used by all religious groups, vegetarians and vegans."
+    }
+  },
+  "904": {
+    "code": "E904",
+    "name": "Lac, Shellac",
+    "href": "e904.htm",
+    "function": "Coating, glazing agent",
+    "more_info": {
+      "origin": "Natural polymer derived from certain species of lice from India .",
+      "characteristics": "",
+      "products": "Confectionary, fruits",
+      "daily_intake": "None determined",
+      "side_effects": "None known.",
+      "dietary_restrictions": "None. E904 can be used by all religious groups and vegetarians. Vegans generally avoid the product as there are still lice in the raw product. These are eliminated during purification."
+    }
+  },
+  "905": {
+    "code": "905",
+    "name": "Paraffine, Vaseline",
+    "href": "e905.htm",
+    "function": "Coating, glazing agent",
+    "more_info": {
+      "origin": "Synthetic mixture of hydrocarbons.",
+      "characteristics": "",
+      "products": "Many different products, also in pharmaceutical and cosmetic preparations.",
+      "daily_intake": "None determined",
+      "side_effects": "None known, but has laxative effects in high concentrations.",
+      "dietary_restrictions": "None. E905 can be used by all religious groups, vegans and vegetarians."
+    }
+  },
+  "906": {
+    "code": "906",
+    "name": "Gum benzoic",
+    "href": "e906.htm",
+    "function": "Flavour, coating",
+    "more_info": {
+      "origin": "Natural polymer derived from trees from the genus Styrax  from Southeast Asia .",
+      "characteristics": "",
+      "products": "Many different products, but mainly in pharmaceutical and cosmetic preparations (perfumes, make-up).",
+      "daily_intake": "None determined",
+      "side_effects": "None known, but it often contains benzoic acid ().",
+      "dietary_restrictions": "None. 906 can be used by all religious groups, vegans and vegetarians."
+    }
+  },
+  "907": {
+    "code": "907",
+    "name": "Micro-crystalline wax",
+    "href": "e905.htm",
+    "function": "Coating, glazing agent",
+    "more_info": {
+      "origin": "Synthetic mixture of hydrocarbons.",
+      "characteristics": "",
+      "products": "Many different products, also in pharmaceutical and cosmetic preparations.",
+      "daily_intake": "None determined",
+      "side_effects": "None known, but has laxative effects in high concentrations.",
+      "dietary_restrictions": "None. E905 can be used by all religious groups, vegans and vegetarians."
+    }
+  },
+  "908": {
+    "code": "908",
+    "name": "Rice bran wax",
+    "href": "e908.htm",
+    "function": "Coating, glazing agent",
+    "more_info": {
+      "origin": "Natural polymer derived from rice bran.",
+      "characteristics": "",
+      "products": "Chewing gum, confectionary",
+      "daily_intake": "None determined",
+      "side_effects": "None known.",
+      "dietary_restrictions": "None. 908 can be used by all religious groups, vegans and vegetarians."
+    }
+  },
+  "912": {
+    "code": "E912",
+    "name": "Montan acid esters",
+    "href": "e912.htm",
+    "function": "Coating, glazing agent",
+    "more_info": {
+      "origin": "Wax obtained by solvent extraction of lignite (brown coal). It consists of non-glyceride carboxylic acid esters, free acids and resins. ",
+      "characteristics": "",
+      "products": "Citrus fruits",
+      "daily_intake": "None determined",
+      "side_effects": "None known.",
+      "dietary_restrictions": "None. E912 can be used by all religious groups, vegans and vegetarians."
+    }
+  },
+  "913": {
+    "code": "913",
+    "name": "Lanoline",
+    "href": "e913.htm",
+    "function": "Coating, glazing agent",
+    "more_info": {
+      "origin": "A wax from sheep. It is excreted by the skin of the sheep and extracted from the wool. ",
+      "characteristics": "",
+      "products": "Chewing gum. Main use is in cosmetics.",
+      "daily_intake": "None determined",
+      "side_effects": "None known.",
+      "dietary_restrictions": "None. 913 can be used by all religious groups and vegetarians, but not by vegans."
+    }
+  },
+  "914": {
+    "code": "E914",
+    "name": "Oxidized polyethylene wax",
+    "href": "e914.htm",
+    "function": "Coating, glazing agent",
+    "more_info": {
+      "origin": "",
+      "characteristics": "",
+      "products": "",
+      "daily_intake": "",
+      "side_effects": "",
+      "dietary_restrictions": ""
+    }
+  },
+  "915": {
+    "code": "915",
+    "name": "Esters of Colophane",
+    "href": "e915.htm",
+    "function": "Stabiliser, flavour",
+    "more_info": {
+      "origin": "Resin obtained from the pine tree Pinus silvestris  and related species. ",
+      "characteristics": "",
+      "products": "Chewing gum. Citrus flavours.",
+      "daily_intake": "None determined",
+      "side_effects": "None known.",
+      "dietary_restrictions": "None. E915 can be used by all religious groups, vegans and vegetarians."
+    }
+  },
+  "920": {
+    "code": "E920",
+    "name": "L-Cysteine",
+    "href": "e920.htm",
+    "function": "Bread enhancer",
+    "more_info": {
+      "origin": "An essential amino acid, present in all protein (essential indicates that it is needed by the human body). Derived from proteins, including animal protein and hair. ",
+      "characteristics": "",
+      "products": "Bread",
+      "daily_intake": "None determined",
+      "side_effects": "None known.",
+      "dietary_restrictions": "None. E920 can be obtained from animal sources, including pork. It should thus be avoided by Muslims, Jews, Hindus and vegans."
+    }
+  },
+  "921": {
+    "code": "E921",
+    "name": "L-Cystine",
+    "href": "e921.htm",
+    "function": "Bread enhancer",
+    "more_info": {
+      "origin": "An essential amino acid, present in all protein (essential indicates that it is needed by the human body). Derived from proteins, including animal protein and hair. ",
+      "characteristics": "",
+      "products": "Bread",
+      "daily_intake": "None determined",
+      "side_effects": "None known.",
+      "dietary_restrictions": "None. E921 can be obtained from animal sources, including pork. It should thus be avoided by Muslims, Jews, Hindus and vegans."
+    }
+  },
+  "922": {
+    "code": "922",
+    "name": "Potassium persulphate",
+    "href": "e922.htm",
+    "function": "Bread enhancer",
+    "more_info": {
+      "origin": "Produced from potassium metasulphate and hydrogen peroxide ",
+      "characteristics": "",
+      "products": "Bread",
+      "daily_intake": "None determined",
+      "side_effects": "None known.",
+      "dietary_restrictions": "None. 922 can be used by all religious groups, vegans and vegetarians."
+    }
+  },
+  "923": {
+    "code": "923",
+    "name": "Ammonium persulphate",
+    "href": "e923.htm",
+    "function": "Bread enhancer",
+    "more_info": {
+      "origin": "Produced from ammonium metasulphate and hydrogen peroxide ",
+      "characteristics": "",
+      "products": "Bread",
+      "daily_intake": "None determined",
+      "side_effects": "None known.",
+      "dietary_restrictions": "None. 923 can be used by all religious groups, vegans and vegetarians."
+    }
+  },
+  "924": {
+    "code": "924",
+    "name": "Potassium bromates (invalid number)",
+    "href": "None",
+    "function": "Flour bleaching agent",
+    "more_info": {
+      "origin": "",
+      "characteristics": "",
+      "products": "",
+      "daily_intake": "",
+      "side_effects": "",
+      "dietary_restrictions": ""
+    }
+  },
+  "925": {
+    "code": "925",
+    "name": "Chlorine",
+    "href": "e925.htm",
+    "function": "Flour bleaching agent",
+    "more_info": {
+      "origin": "Natural gas, obtained from salt. ",
+      "characteristics": "",
+      "products": "Bread but not often used.",
+      "daily_intake": "Up to 2.5 mg/kg bodyweight",
+      "side_effects": "None known.",
+      "dietary_restrictions": "None. 925 can be used by all religious groups, vegans and vegetarians."
+    }
+  },
+  "926": {
+    "code": "926",
+    "name": "Chlorodioxide",
+    "href": "e926.htm",
+    "function": "Bleaching agent and preservative",
+    "more_info": {
+      "origin": "Obtained from chlorine and sodium chlorite. ",
+      "characteristics": "",
+      "products": "Bread but not often used.",
+      "daily_intake": "Up to 30 mg/kg bodyweight",
+      "side_effects": "None known.",
+      "dietary_restrictions": "None. 926 can be used by all religious groups, vegans and vegetarians."
+    }
+  },
+  "927a": {
+    "code": "E927a",
+    "name": "Azodicarbonamide",
+    "href": "e927a.htm",
+    "function": "Bread enhancer",
+    "more_info": {
+      "origin": "Obtained from carbonamide. ",
+      "characteristics": "",
+      "products": "Bread but practically not used.",
+      "daily_intake": "Up to 45 mg/kg bodyweight",
+      "side_effects": "None known.",
+      "dietary_restrictions": "None. E927a can be used by all religious groups, vegans and vegetarians."
+    }
+  },
+  "927b": {
+    "code": "E927b",
+    "name": "Urea",
+    "href": "e927b.htm",
+    "function": "Buffer",
+    "more_info": {
+      "origin": "Obtained from ammonia and carbon dioxide. ",
+      "characteristics": "",
+      "products": "  Wine",
+      "daily_intake": "None determined.",
+      "side_effects": "None known.",
+      "dietary_restrictions": "None. E927b can be used by all religious groups, vegans and vegetarians."
+    }
+  },
+  "928": {
+    "code": "928",
+    "name": "Benzoylperoxide",
+    "href": "e928.htm",
+    "function": "Bread enhancer",
+    "more_info": {
+      "origin": "Obtained from benzoylchloride and sodium peroxide. ",
+      "characteristics": "",
+      "products": "Bread, but practically not used.",
+      "daily_intake": "Up to 40 mg/kg bodyweight",
+      "side_effects": "None known.",
+      "dietary_restrictions": "None. 928 can be used by all religious groups, vegans and vegetarians."
+    }
+  },
+  "930": {
+    "code": "930",
+    "name": "Calciumperoxide",
+    "href": "e930.htm",
+    "function": "Bread enhancer",
+    "more_info": {
+      "origin": "Synthetic. ",
+      "characteristics": "",
+      "products": "Bread, but practically not used.",
+      "daily_intake": "None determined",
+      "side_effects": "None known.",
+      "dietary_restrictions": "None. 930 can be used by all religious groups, vegans and vegetarians."
+    }
+  },
+  "938": {
+    "code": "E938",
+    "name": "Argon",
+    "href": "e938.htm",
+    "function": "Propellant",
+    "more_info": {
+      "origin": "Natural inert gas. ",
+      "characteristics": "",
+      "products": "Canned products",
+      "daily_intake": "None determined",
+      "side_effects": "None known.",
+      "dietary_restrictions": "None. E938 can be used by all religious groups, vegans and vegetarians."
+    }
+  },
+  "939": {
+    "code": "E939",
+    "name": "Helium",
+    "href": "e939.htm",
+    "function": "Propellant",
+    "more_info": {
+      "origin": "Natural inert gas. ",
+      "characteristics": "",
+      "products": "Canned products",
+      "daily_intake": "None determined",
+      "side_effects": "None known.",
+      "dietary_restrictions": "None. E939 can be used by all religious groups, vegans and vegetarians."
+    }
+  },
+  "940": {
+    "code": "E940",
+    "name": "Dichlorodifluormethane",
+    "href": "e940.htm",
+    "function": "Propellant, anti-freeze",
+    "more_info": {
+      "origin": "Synthetic inert gas. ",
+      "characteristics": "",
+      "products": "Canned and frozen products. Hardly used.",
+      "daily_intake": "Up to 1,5 mg/kg bodyweight.",
+      "side_effects": "None known.",
+      "dietary_restrictions": "None. E940 can be used by all religious groups, vegans and vegetarians."
+    }
+  },
+  "941": {
+    "code": "E941",
+    "name": "Nitrogen",
+    "href": "e941.htm",
+    "function": "Propellant",
+    "more_info": {
+      "origin": "Natural inert gas. ",
+      "characteristics": "",
+      "products": "Spray-cans.",
+      "daily_intake": "None determined",
+      "side_effects": "None known.",
+      "dietary_restrictions": "None. E941 can be used by all religious groups, vegans and vegetarians."
+    }
+  },
+  "942": {
+    "code": "E942",
+    "name": "Nitrous oxides",
+    "href": "e942.htm",
+    "function": "Propellant",
+    "more_info": {
+      "origin": "Natural inert gas. ",
+      "characteristics": "",
+      "products": "Spray-cans.",
+      "daily_intake": "None determined",
+      "side_effects": "None known by use in foods.",
+      "dietary_restrictions": "None. E942 can be used by all religious groups, vegans and vegetarians."
+    }
+  },
+  "943": {
+    "code": "E943",
+    "name": "Butane, isobutane",
+    "href": "e943.htm",
+    "function": "Propellant",
+    "more_info": {
+      "origin": "Natural inert gas. ",
+      "characteristics": "",
+      "products": "Spray-cans.",
+      "daily_intake": "None determined",
+      "side_effects": "None known by use in foods.",
+      "dietary_restrictions": "None. E943 can be used by all religious groups, vegans and vegetarians."
+    }
+  },
+  "944": {
+    "code": "E944",
+    "name": "Propane",
+    "href": "e944.htm",
+    "function": "Propellant",
+    "more_info": {
+      "origin": "Natural inert gas. ",
+      "characteristics": "",
+      "products": "Spray-cans.",
+      "daily_intake": "None determined",
+      "side_effects": "None known by use in foods.",
+      "dietary_restrictions": "None. E944 can be used by all religious groups, vegans and vegetarians."
+    }
+  },
+  "948": {
+    "code": "E948",
+    "name": "Oxygen",
+    "href": "e948.htm",
+    "function": "Propellant",
+    "more_info": {
+      "origin": "Natural gas. ",
+      "characteristics": "",
+      "products": "Gas packed vegetables",
+      "daily_intake": "None determined",
+      "side_effects": "None known by use in foods.",
+      "dietary_restrictions": "None. E948 can be used by all religious groups, vegans and vegetarians."
+    }
+  },
+  "949": {
+    "code": "E949",
+    "name": "Hydrogen",
+    "href": "e949.htm",
+    "function": "Propellant",
+    "more_info": {
+      "origin": "Natural gas. ",
+      "characteristics": "",
+      "products": "Gas packed products",
+      "daily_intake": "None determined",
+      "side_effects": "None known by use in foods.",
+      "dietary_restrictions": "None. E949 can be used by all religious groups, vegans and vegetarians."
+    }
+  },
+  "950": {
+    "code": "E950",
+    "name": "Acesulfame K",
+    "href": "None",
+    "function": "Sweetener",
+    "more_info": {
+      "origin": "",
+      "characteristics": "",
+      "products": "",
+      "daily_intake": "",
+      "side_effects": "",
+      "dietary_restrictions": ""
+    }
+  },
+  "951": {
+    "code": "E951",
+    "name": "Aspartame",
+    "href": "None",
+    "function": "Sweetener",
+    "more_info": {
+      "origin": "",
+      "characteristics": "",
+      "products": "",
+      "daily_intake": "",
+      "side_effects": "",
+      "dietary_restrictions": ""
+    }
+  },
+  "952": {
+    "code": "E952",
+    "name": "Cyclamates",
+    "href": "None",
+    "function": "Sweetener",
+    "more_info": {
+      "origin": "",
+      "characteristics": "",
+      "products": "",
+      "daily_intake": "",
+      "side_effects": "",
+      "dietary_restrictions": ""
+    }
+  },
+  "953": {
+    "code": "E953",
+    "name": "Isomalt",
+    "href": "None",
+    "function": "Sweetener",
+    "more_info": {
+      "origin": "",
+      "characteristics": "",
+      "products": "",
+      "daily_intake": "",
+      "side_effects": "",
+      "dietary_restrictions": ""
+    }
+  },
+  "954": {
+    "code": "E954",
+    "name": "Sacharine",
+    "href": "None",
+    "function": "Sweetener",
+    "more_info": {
+      "origin": "",
+      "characteristics": "",
+      "products": "",
+      "daily_intake": "",
+      "side_effects": "",
+      "dietary_restrictions": ""
+    }
+  },
+  "955": {
+    "code": "E955",
+    "name": "Sucralose",
+    "href": "None",
+    "function": "Sweetener",
+    "more_info": {
+      "origin": "",
+      "characteristics": "",
+      "products": "",
+      "daily_intake": "",
+      "side_effects": "",
+      "dietary_restrictions": ""
+    }
+  },
+  "957": {
+    "code": "E957",
+    "name": "Thaumatine",
+    "href": "None",
+    "function": "Sweetener",
+    "more_info": {
+      "origin": "",
+      "characteristics": "",
+      "products": "",
+      "daily_intake": "",
+      "side_effects": "",
+      "dietary_restrictions": ""
+    }
+  },
+  "959": {
+    "code": "E959",
+    "name": "Neohesperidin",
+    "href": "None",
+    "function": "Sweetener",
+    "more_info": {
+      "origin": "",
+      "characteristics": "",
+      "products": "",
+      "daily_intake": "",
+      "side_effects": "",
+      "dietary_restrictions": ""
+    }
+  },
+  "962": {
+    "code": "E962",
+    "name": "Salt of aspartame-acesulfame",
+    "href": "None",
+    "function": "Sweetener",
+    "more_info": {
+      "origin": "",
+      "characteristics": "",
+      "products": "",
+      "daily_intake": "",
+      "side_effects": "",
+      "dietary_restrictions": ""
+    }
+  },
+  "965": {
+    "code": "E965",
+    "name": "Maltitol",
+    "href": "965.htm",
+    "function": "Sweetener",
+    "more_info": {
+      "origin": "",
+      "characteristics": "",
+      "products": "",
+      "daily_intake": "",
+      "side_effects": "",
+      "dietary_restrictions": ""
+    }
+  },
+  "966": {
+    "code": "E966",
+    "name": "Lactitol",
+    "href": "e966.htm",
+    "function": "Sweetener",
+    "more_info": {
+      "origin": "A synthetic carbohydrate alcohol, produced from milk sugar (lactose) derived from whey (milk).",
+      "characteristics": "Low-calorie sweetener.",
+      "products": "Many bakery and confectionery products.",
+      "daily_intake": "Not defined.",
+      "side_effects": "Lactitol is partly absorbed and metabolised as glucose by the body; the remaining fraction is fermented in the large intestine. During fermentation, gases are produced, which may cause bloating and flatulence. In intolerant persons it can act as a laxative. Side effects normally occur after an intake of 25-30 grams in a single dose, which is far above the usage in normal foods.",
+      "dietary_restrictions": "Lactitol can be used by all religious groups and vegetarians, but not by vegans, as the source is milk sugar. The term carbohydrate alcohol is a chemical definition; lactitol does not contain alcohol (ethanol)."
+    }
+  },
+  "967": {
+    "code": "E967",
+    "name": "Xylitol",
+    "href": "e967.htm",
+    "function": "Sweetener",
+    "more_info": {
+      "origin": "A natural carbohydrate alcohol, present in many plants. It is commercially produced from xylan, a polysaccharide fraction of wood pulp.",
+      "characteristics": "Low-calorie sweetener.",
+      "products": "Many bakery and confectionery products.",
+      "daily_intake": "Not defined",
+      "side_effects": "Xylitol is partly absorbed and metabolised as sugar by the body; the remaining fraction is fermented in the large intestine During fermentation, gases are produced, which may cause bloating and flatulence. In intolerant persons it can act as a laxative. Side effects normally occur after an intake of 25-30 grams in a single dose, which is far above the usage in normal foods.",
+      "dietary_restrictions": "Xylitol can be used by all religious groups, vegans and vegetarians. The term carbohydrate alcohol is a chemical definition; xylitol does not contain alcohol (ethanol)."
+    }
+  },
+  "999": {
+    "code": "E999",
+    "name": "Quillaia extract",
+    "href": "None",
+    "function": "Foaming agent",
+    "more_info": {
+      "origin": "",
+      "characteristics": "",
+      "products": "",
+      "daily_intake": "",
+      "side_effects": "",
+      "dietary_restrictions": ""
+    }
+  }
+}

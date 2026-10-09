@@ -1,0 +1,744 @@
+{
+  "200": {
+    "code": "E200",
+    "name": "Sorbic acid",
+    "href": "e200.htm",
+    "function": "Natural preservative",
+    "more_info": {
+      "origin": "Sorbic acid naturally occurs in the fruit of the European Mountain-ash (Sorbus aucuparia ), after which the acid is named. It is commercially produced by several different chemical pathways.",
+      "characteristics": "Sorbic acid is a preservative, mainly against fungi and yeasts. It is not effective against bacteria. Optimal activity is at pH values below 6.5 (acid and slightly acid foods).",
+      "products": "Sorbic acid is used in a wide range of products, such as yoghurt and other fermented dairy products, fruit salads, confectionery, lemonade, cheese, rye bread, cakes and bakery products, pizza, shellfish, lemon juice, wine, cider and soups.",
+      "daily_intake": "Up to 25 mg/kg body weight.",
+      "side_effects": "No side effects in the concentrations used. Only a very small percentage of people show slight pseudo-allergic reactions.",
+      "dietary_restrictions": " sorbates can be consumed by all religious groups, vegans and vegetarians."
+    }
+  },
+  "201": {
+    "code": "E201",
+    "name": "Sodium sorbate / Sorbic acid sodium salt",
+    "href": "e201.htm",
+    "function": "Synthetic preservative",
+    "more_info": {
+      "origin": "Sodium salt of sorbic acid (E200), which naturally occurs in the fruit of the European Mountain-ash (Sorbus aucuparia ), after which the acid is named. It is commercially produced by several different chemical pathways.",
+      "characteristics": "Sorbic acid is a preservative, mainly against fungi and yeasts. It is not effective against bacteria. Optimal activity is at pH values below 6.5 (acid and slightly acid foods). Sodium sorbate is often used, as it is better soluble; its activity is similar to that of sorbic acid.",
+      "products": "Sodium sorbate is used in the same range of products as sorbic acid, for example, yoghurt and other fermented dairy products, fruit salads, confectionery, lemonade, cheese, rye bread, cakes and bakery products, pizza, shellfish, lemon juice, wine, cider and soups.",
+      "daily_intake": "Up to 25 mg/kg body weight.",
+      "side_effects": "",
+      "dietary_restrictions": ""
+    }
+  },
+  "202": {
+    "code": "E202",
+    "name": "Potassium sorbate",
+    "href": "e202.htm",
+    "function": "Synthetic preservative",
+    "more_info": {
+      "origin": "Potassium salt of sorbic acid (E200), which naturally occurs in the fruit of the European Mountain-ash (Sorbus aucuparia ), after which the acid is named. It is commercially produced by several different chemical pathways.",
+      "characteristics": "Sorbic acid is a preservative, mainly against fungi and yeasts. It is not effective against bacteria. Optimal activity is at pH values below 6.5 (acid and slightly acid foods).",
+      "products": "Many products",
+      "daily_intake": "Up to 25 mg/kg body weight.",
+      "side_effects": "No side effects in the concentrations used. Only a very small percentage of people show slight pseudo-allergic reactions.",
+      "dietary_restrictions": " sorbates can be consumed by all religious groups, vegans and vegetarians."
+    }
+  },
+  "203": {
+    "code": "E203",
+    "name": "Calcium sorbate",
+    "href": "e203.htm",
+    "function": "Synthetic preservative",
+    "more_info": {
+      "origin": "Calcium salt of sorbic acid (E200), which naturally occurs in the fruit of the European Mountain-ash (Sorbus aucuparia ), after which the acid is named. It is commercially produced by several different chemical pathways.",
+      "characteristics": "Sorbic acid is a preservative, mainly against fungi and yeasts. It is not effective against bacteria. Optimal activity is at pH values below 6.5 (acid and slightly acid foods). Calcium sorbate is used mainly in dairy products; its activity is similar to that of sorbic acid.",
+      "products": "Calcium sorbate is used mainly in dairy products and rye bread.",
+      "daily_intake": "Up to 25 mg/kg body weight.",
+      "side_effects": "No side effects in the concentrations used. Only a very small percentage of people show slight pseudo-allergic reactions.",
+      "dietary_restrictions": " sorbates can be consumed by all religious groups, vegans and vegetarians."
+    }
+  },
+  "210": {
+    "code": "E210",
+    "name": "Benzoic acid",
+    "href": "e210.htm",
+    "function": "Natural preservative",
+    "more_info": {
+      "origin": "Benzoic acid, benzoates and benzoic acid esters are commonly found in most fruits, especially berries. Cranberries are a very rich source of benzoic acid. In addition to fruits, benzoates occur naturally in mushrooms, cinnamon, cloves and some dairy products (due to bacterial fermentation). For commercial purposes, it is prepared chemically from toluene.",
+      "characteristics": "Benzoic acid and benzoates are used as preservatives against both yeasts and fungi in acidic products. They are not very effective against bacteria and ineffective in products with a pH above 5 (slightly acidic or neutral). High concentrations result in a sour taste, which limits the application. Benzoates are often preferred, due to better solubility.",
+      "products": "Benzoic acid and benzoates are used in a wide range of acid or slightly acidic products.",
+      "daily_intake": "Up to 5 mg/kg body weight.",
+      "side_effects": "No side effects in the concentrations used. In some people benzoic acid and benzoates may liberate histamine and thus cause pseudo-allergic reactions.",
+      "dietary_restrictions": " benzoic acids and benzoates can be consumed by all religious groups, vegans and vegetarians."
+    }
+  },
+  "211": {
+    "code": "E211",
+    "name": "Sodium benzoate / Benzoic acid sodium salt",
+    "href": "e211.htm",
+    "function": "Synthetic preservative",
+    "more_info": {
+      "origin": "Benzoic acid, benzoates and benzoic acid esters are commonly found in most fruits, especially berries. Cranberries are a very rich source of benzoic acid. In addition to fruits, benzoates occur naturally in mushrooms, cinnamon, cloves and some dairy products (as a result of bacterial fermentation). For commercial purposes, it is prepared chemically from toluene.",
+      "characteristics": "Benzoic acid and benzoates are used as preservatives against both yeasts and bacteria in acidic products. They are not very effective against fungi, and ineffective in products with a pH above 5 (slightly acidic or neutral). High concentrations have an acid taste, which limits the application. Benzoates are often preferred, due to better solubility.",
+      "products": "Benzoic acid and benzoates are used in a wide range of acid or slightly acidic products.",
+      "daily_intake": "Up to 5 mg/kg body weight.",
+      "side_effects": "No side effects in the concentrations used. In some people benzoic acid and benzoates may liberate histamine and thus cause pseudo-allergic reactions.",
+      "dietary_restrictions": " benzoic acid and benzoates can be consumed by all religious groups, vegans and vegetarians."
+    }
+  },
+  "212": {
+    "code": "E212",
+    "name": "Potassium benzoate / Benzoic acid potassium salt",
+    "href": "e212.htm",
+    "function": "Synthetic preservative",
+    "more_info": {
+      "origin": "Benzoic acid, benzoates and benzoic acid esters are commonly found in most fruits, especially berries. Cranberries are a very rich source of benzoic acid. In addition to fruits, benzoates occur naturally in mushrooms, cinnamon, cloves and some dairy products (as a result of bacterial fermentation). For commercial purposes, it is prepared chemically from toluene.",
+      "characteristics": "Benzoic acid and benzoates are used as preservatives against both yeasts and bacteria in acidic products. They are not very effective against fungi, and ineffective in products with a pH above 5 (slightly acidic or neutral). High concentrations lead to a sour taste, which limits the application. Benzoates are often preferred, due to better solubility.",
+      "products": "Benzoic acid and benzoates are used in a wide range of acid or slightly acidic products.",
+      "daily_intake": "Up to 5 mg/kg body weight.",
+      "side_effects": "No side effects in the concentrations used. In some people benzoic acid and benzoates may liberate histamine and thus cause pseudo-allergic reactions.",
+      "dietary_restrictions": " benzoic acid and benzoates can be consumed by all religious groups, vegans and vegetarians."
+    }
+  },
+  "213": {
+    "code": "E213",
+    "name": "Calcium benzoate / Benzoic acid calcium salt",
+    "href": "e213.htm",
+    "function": "Synthetic preservative",
+    "more_info": {
+      "origin": "Benzoic acid, benzoates and benzoic acid esters are commonly found in most fruits, especially berries. Cranberries are a very rich source of benzoic acid. In addition to fruits, benzoates occur naturally in mushrooms, cinnamon, cloves and some dairy products (as a result of bacterial fermentation). For commercial purposes, it is prepared chemically from toluene.",
+      "characteristics": "Benzoic acid and benzoates are used as preservatives against both yeasts and bacteria in acidic products. They are not very effective against fungi, and ineffective in products with a pH above 5 (slightly acidic or neutral). High concentrations lead to a sour taste, which limits the application. Benzoates are often preferred, due to better solubility.",
+      "products": "Benzoic acid and benzoates are used in a wide range of acid or slightly acidic products.",
+      "daily_intake": "Up to 5 mg/kg body weight.",
+      "side_effects": "No side effects in the concentrations used. In some people benzoic acid and benzoates may liberate histamine and thus cause pseudo-allergic reactions.",
+      "dietary_restrictions": " benzoic acid and benzoates can be consumed by all religious groups, vegans and vegetarians."
+    }
+  },
+  "214": {
+    "code": "E214",
+    "name": "Ethyl 4-hydroxybenzoate",
+    "href": "e214.htm",
+    "function": "Synthetic preservative",
+    "more_info": {
+      "origin": "Synthetic ethyl ester of benzoic acid. Benzoic acid, benzoates and benzoic acid esters are commonly found in most fruits, especially berries. Cranberries are a very rich source of benzoic acid. In addition to fruits, benzoates occur naturally in mushrooms, cinnamon, cloves and some dairy products (as a result of bacterial fermentation). For commercial purposes, benzoic acid is prepared chemically from toluene and then esterified.",
+      "characteristics": "Benzoic acid and benzoates are used as preservatives against both yeasts and fungi. They are not very effective against bacteria. Activity does not depend on acidity. Benzoic acid esters are poorly soluble, which limits application.",
+      "products": "Benzoic acid esters are used in a wide range of food products and cosmetics.",
+      "daily_intake": "Up to 10 mg/kg body weight.",
+      "side_effects": "No side effects in the concentrations used. In some people benzoic acid esters may liberate histamine and thus cause pseudo-allergic reactions. The presence of E214 in cosmetics may elicit contact allergies, which are not common with food applications.",
+      "dietary_restrictions": " benzoic acid esters can be consumed by all religious groups, vegans and vegetarians."
+    }
+  },
+  "215": {
+    "code": "E215",
+    "name": "Ethyl 4-hydroxybenzoate sodium salt",
+    "href": "e215.htm",
+    "function": "Synthetic preservative",
+    "more_info": {
+      "origin": "Synthetic ethyl ester of benzoic acid. Benzoic acid, benzoates and benzoic acid esters are commonly found in most fruits, especially berries. Cranberries are a very rich source of benzoic acid. In addition to fruits, benzoates occur naturally in mushrooms, cinnamon, cloves and some dairy products (as a result of bacterial fermentation). For commercial purposes, benzoic acid is prepared chemically from toluene and then esterified.",
+      "characteristics": "Benzoic acid and benzoates are used as preservatives against both yeasts and fungi. They are not very effective against bacteria. Activity does not depend on acidity. Benzoic acid esters are poorly soluble, which limits application.",
+      "products": "Benzoic acid esters are used in a wide range of food products and cosmetics.",
+      "daily_intake": "Up to 10 mg/kg body weight.",
+      "side_effects": "No side effects in the concentrations used. In some people benzoic acid esters may liberate histamine and thus cause pseudo-allergic reactions. The presence of E215 in cosmetics may elicit contact allergies, which are not common with food applications.",
+      "dietary_restrictions": " benzoic acid esters can be consumed by all religious groups, vegans and vegetarians."
+    }
+  },
+  "216": {
+    "code": "E216",
+    "name": "Propyl 4-hydroxybenzoate",
+    "href": "e216.htm",
+    "function": "Synthetic preservative",
+    "more_info": {
+      "origin": "Synthetic e thyl ester of benzoic acid. Benzoic acid, benzoates and benzoic acid esters are commonly found in most fruits, especially berries. Cranberries are a very rich source of benzoic acid. In addition to fruits, benzoates occur naturally in mushrooms, cinnamon, cloves and some dairy products (as a result of bacterial fermentation). For commercial purposes, benzoic acid is prepared chemically from toluene and then esterified.",
+      "characteristics": "Benzoic acid and benzoates are used as preservatives against both yeasts and fungi. They are not very effective against bacteria. Activity does not depend on acidity. Benzoic acid esters are poorly soluble, which limits application.",
+      "products": "Benzoic acid esters are used in a wide range of food products and cosmetics.",
+      "daily_intake": "Up to 10 mg/kg body weight.",
+      "side_effects": "No side effects in the concentrations used. In some people benzoic acid esters may liberate histamine and thus cause pseudo-allergic reactions. The presence of E216 in cosmetics may elicit contact allergies, which are not common with food applications.",
+      "dietary_restrictions": " benzoic acid esters can be consumed by all religious groups, vegans and vegetarians."
+    }
+  },
+  "217": {
+    "code": "E217",
+    "name": "Sodium salt of E216",
+    "href": "e217.htm",
+    "function": "Synthetic preservative",
+    "more_info": {
+      "origin": "Synthetic e thyl ester of benzoic acid. Benzoic acid, benzoates and benzoic acid esters are commonly found in most fruits, especially berries. Cranberries are a very rich source of benzoic acid. In addition to fruits, benzoates occur naturally in mushrooms, cinnamon, cloves and some dairy products (as a result of bacterial fermentation). For commercial purposes, benzoic acid is prepared chemically from toluene and then esterified.",
+      "characteristics": "Benzoic acid and benzoates are used as preservatives against both yeasts and fungi. They are not very effective against bacteria. Activity does not depend on acidity. Benzoic acid esters are poorly soluble, which limits application.",
+      "products": "Benzoic acid esters are used in a wide range of food products and cosmetics.",
+      "daily_intake": "Up to 10 mg/kg body weight.",
+      "side_effects": "No side effects in the concentrations used. In some people benzoic acid esters may liberate histamine and thus cause pseudo-allergic reactions. The presence of E217 in cosmetics may elicit contact allergies, which are not common with food applications.",
+      "dietary_restrictions": " benzoic acid esters can be consumed by all religious groups, vegans and vegetarians."
+    }
+  },
+  "218": {
+    "code": "E218",
+    "name": "Methyl 4-hydroxybenzoate",
+    "href": "e218.htm",
+    "function": "Synthetic preservative from benzoic acid",
+    "more_info": {
+      "origin": "Synthetic e thyl ester of benzoic acid. Benzoic acid, benzoates and benzoic acid esters are commonly found in most fruits, especially berries. Cranberries are a very rich source of benzoic acid. In addition to fruits, benzoates occur naturally in mushrooms, cinnamon, cloves and some dairy products (as a result of bacterial fermentation). For commercial purposes, benzoic acid is prepared chemically from toluene and then esterified.",
+      "characteristics": "Benzoic acid and benzoates are used as preservatives against both yeasts and fungi. They are not very effective against bacteria. Activity does not depend on acidity. Benzoic acid esters are poorly soluble, which limits application.",
+      "products": "Benzoic acid esters are used in a wide range of food products and cosmetics.",
+      "daily_intake": "Up to 10 mg/kg body weight.",
+      "side_effects": "No side effects in the concentrations used. In some people benzoic acid esters may liberate histamine and thus cause pseudo-allergic reactions. The presence of E218 in cosmetics may elicit contact allergies, which are not common with food applications.",
+      "dietary_restrictions": " benzoic acid esters can be consumed by all religious groups, vegans and vegetarians."
+    }
+  },
+  "219": {
+    "code": "E219",
+    "name": "Sodium salt of E218",
+    "href": "e219.htm",
+    "function": "Synthetic preservative from benzoic acid",
+    "more_info": {
+      "origin": "Synthetic ethyl ester of benzoic acid. Benzoic acid, benzoates and benzoic acid esters are commonly found in most fruits, especially berries. Cranberries are a very rich source of benzoic acid. In addition to fruits, benzoates occur naturally in mushrooms, cinnamon, cloves and some dairy products (as a result of bacterial fermentation). For commercial purposes, benzoic acid is prepared chemically from toluene and then esterified.",
+      "characteristics": "Benzoic acid and benzoates are used as preservatives against both yeasts and fungi. They are not very effective against bacteria. Activity does not depend on acidity. Benzoic acid esters are poorly soluble, which limits application.",
+      "products": "Benzoic acid esters are used in a wide range of food products and cosmetics.",
+      "daily_intake": "Up to 10 mg/kg body weight.",
+      "side_effects": "No side effects in the concentrations used. In some people benzoic acid esters may liberate histamine and thus cause pseudo-allergic reactions. The presence of E219 in cosmetics may elicit contact allergies, which are not common with food applications.",
+      "dietary_restrictions": " benzoic acid esters can be consumed by all religious groups, vegans and vegetarians."
+    }
+  },
+  "220": {
+    "code": "E220",
+    "name": "Sulphur dioxide",
+    "href": "e220.htm",
+    "function": "Natural preservative",
+    "more_info": {
+      "origin": "Sulphur is a common element. Sulphur dioxide is produced by burning sulphur. Its use as a preservative is associated with ancient history; it had been widely used in ancient Egypt and the Roman Empire.",
+      "characteristics": "It is a colourless gas, used as preservative. It prevents enzymatic and bacterial spoilage of products. Sulphur dioxide dissolves in the aqueous phase of the product; the acid resulting from this reaction is the active agent. It is thus most effective in acid and slightly acid foods. It is ineffective at neutral pH.",
+      "products": "Sulphur dioxide may be used in a very broad range of acidic products.",
+      "daily_intake": "Up to 0.7 mg/kg body weight.",
+      "side_effects": "Due to its oxidising effect, it may reduce the vitamin content in products. It is reduced in the liver to harmless sulphate and excreted in the urine. It can, however, cause breathing problems in asthmatic patients. In high concentrations (above those normally used in foods) it can cause gastrointestinal disturbances in some people.",
+      "dietary_restrictions": " sulphur dioxide and sulphites can be consumed by all religious groups, vegans and vegetarians."
+    }
+  },
+  "221": {
+    "code": "E221",
+    "name": "Sodium sulphite",
+    "href": "e221.htm",
+    "function": "Synthetic preservative",
+    "more_info": {
+      "origin": "Sodium salt of sulphurous acid",
+      "characteristics": "It is a white, non-stable powder, which reacts with oxygen to form sodium sulphate. In acidic conditions it forms sulphurous acid, a preservative. It is used as a preservative as well as oxidising and bleaching agent to prevent spoilage and discoloration. In meat it prevents browning; however, it is not allowed in meat products, as it may mask bacterial spoilage characterized by discoloration. It is also used as a bread enhancer, by dint of its action in improving the kneading capacity of the bread.",
+      "products": "Egg-yolk and products with egg-yolk, salads, beer, bread, caramel",
+      "daily_intake": "Up to 0.7 mg/kg body weight.",
+      "side_effects": "Due to its oxidising effect, it may reduce the vitamin content in products. It is reduced in the liver to harmless sulphate and excreted in the urine.",
+      "dietary_restrictions": " sulphur dioxide and sulphites can be consumed by all religious groups, vegans and vegetarians."
+    }
+  },
+  "222": {
+    "code": "E222",
+    "name": "Sodium hydrogen sulphite",
+    "href": "e222.htm",
+    "function": "Synthetic preservative; bleach",
+    "more_info": {
+      "origin": "Mono-s odium salt of sulphurous acid.",
+      "characteristics": "It is a white, non-stable powder, which reacts with oxygen to form sodium sulphate. In acidic conditions it forms sulphurous acid, which acts as a preservative. It is used as a preservative in some products and may be used as a bleaching agent.",
+      "products": "P reserved onions, alcoholic beverages, dairy products, fruit juices, mashed potatoes, etc.",
+      "daily_intake": "Up to 0.7 mg/kg body weight.",
+      "side_effects": "Due to its oxidising effect, it may reduce the vitamin content in products. It is reduced in the liver to harmless sulphate and excreted in the urine.",
+      "dietary_restrictions": "None sulphur dioxide and sulphites can be consumed by all religious groups, vegans and vegetarians."
+    }
+  },
+  "223": {
+    "code": "E223",
+    "name": "Sodium metabisulphite",
+    "href": "e223.htm",
+    "function": "Synthetic preservative; anti oxidant",
+    "more_info": {
+      "origin": "S odium salt of sulphurous acid.",
+      "characteristics": "It is a white, non-stable powder, which reacts with oxygen to form sodium sulphate. In acidic conditions it forms sulphurous acid, which acts as a preservative. It is used as a preservative in some products and may be used as a bleaching agent.",
+      "products": "Preserved onions, alcoholic beverages, bakery products, fruit juices, potato products, etc.",
+      "daily_intake": "Up to 0.7 mg/kg body weight.",
+      "side_effects": "Due to its oxidising effect, it may reduce the vitamin content in products. It is reduced in the liver to harmless sulphate and excreted in the urine.",
+      "dietary_restrictions": " sulphur dioxide and sulphites can be consumed by all religious groups, vegans and vegetarians."
+    }
+  },
+  "224": {
+    "code": "E224",
+    "name": "Potassium metabisulphite",
+    "href": "e224.htm",
+    "function": "Synthetic preservative",
+    "more_info": {
+      "origin": "Potassium salt of sulphurous acid.",
+      "characteristics": "It is a white, non-stable powder, which reacts with oxygen to form potassium sulphate. In acidic conditions it forms sulphurous acid, which acts as a preservative. It is used as a preservative in fruits and fruit products and may be used as a bleaching agent.",
+      "products": "Preserved onions, wine, preserved fruits, shellfish, etc.",
+      "daily_intake": "Up to 0.7 mg/kg body weight.",
+      "side_effects": "Due to its oxidising effect, it may reduce the vitamin content in products. It is reduced in the liver to harmless sulphate and excreted in the urine.",
+      "dietary_restrictions": " sulphur dioxide and sulphites can be consumed by all religious groups, vegans and vegetarians."
+    }
+  },
+  "225": {
+    "code": "225",
+    "name": "Potassium sulphite",
+    "href": "e225.htm",
+    "function": "Synthetic preservative",
+    "more_info": {
+      "origin": "Potassium salt of sulphurous acid.",
+      "characteristics": "It is a white non-stable powder, which reacts with oxygen to potassium sulphate. In acidic conditions it forms sulphurous acid, which acts as a preservative. It is used as a preservative and may be used as a bleaching agent in sugar production. It is used for the production of sulphite-caramel ()",
+      "products": "beer",
+      "daily_intake": "",
+      "side_effects": "",
+      "dietary_restrictions": ""
+    }
+  },
+  "226": {
+    "code": "E226",
+    "name": "Calcium sulphite",
+    "href": "e226.htm",
+    "function": "Synthetic preservative",
+    "more_info": {
+      "origin": "Calcium salt of sulphurous acid.",
+      "characteristics": "It is a white, non-stable powder, which reacts with oxygen to form calcium sulphate. In acidic conditions it forms sulphurous acid, which acts as a preservative. It is used as a preservative and may be used as a bleaching agent in sugar production. It increases the firmness of canned vegetables (due to the calcium).",
+      "products": "Cider, sugar, fruit juices, etc.",
+      "daily_intake": "Up to 0.7 mg/kg body weight.",
+      "side_effects": "Due to its oxidising effect, it may reduce the vitamin content in products. It is reduced in the liver to harmless sulphate and excreted in the urine.",
+      "dietary_restrictions": " sulphur dioxide and sulphites can be consumed by all religious groups, vegans and vegetarians."
+    }
+  },
+  "227": {
+    "code": "E227",
+    "name": "Calcium hydrogen sulphite",
+    "href": "e227.htm",
+    "function": "Synthetic preservative",
+    "more_info": {
+      "origin": "Calcium salt of sulphurous acid.",
+      "characteristics": "It is a greenish fluid, which reacts to form calcium sulphite. In acidic conditions it forms sulphurous acid, which acts as a preservative. It is used as a preservative in beer production. It increases the firmness of canned vegetables (due to the calcium).",
+      "products": "Beer",
+      "daily_intake": "Up to 0.7 mg/kg body weight.",
+      "side_effects": "It is reduced in the liver to harmless sulphate and excreted in the urine.",
+      "dietary_restrictions": " sulphur dioxide and sulphites can be consumed by all religious groups, vegans and vegetarians."
+    }
+  },
+  "228": {
+    "code": "E228",
+    "name": "Potassium hydrogen sulphite",
+    "href": "e228.htm",
+    "function": "Synthetic preservative",
+    "more_info": {
+      "origin": "Potassium salt of sulphurous acid.",
+      "characteristics": "It is a white, non-stable powder, which reacts with oxygen to form potassium sulphate. In acidic conditions it forms sulphurous acid, which acts as a preservative.",
+      "products": "Acid preserved fruits, wine, etc.",
+      "daily_intake": "Up to 0.7 mg/kg body weight.",
+      "side_effects": "It is reduced in the liver to harmless sulphate and excreted in the urine.",
+      "dietary_restrictions": " sulphur dioxide and sulphites can be consumed by all religious groups, vegans and vegetarians."
+    }
+  },
+  "230": {
+    "code": "E230",
+    "name": "Biphenyl",
+    "href": "e230.htm",
+    "function": "Synthetic preservative",
+    "more_info": {
+      "origin": "Synthesised from benzene.",
+      "characteristics": "White, water-insoluble powder used predominantly against Penicillium  fungi growing on citrus fruits. It is used to disinfect containers and in impregnating the wrapping of citrus fruits. Sometimes fruits are dipped in a solution of diphenyl, which slowly penetrates the peel and may be present in the fruit itself.",
+      "products": "Citrus fruits",
+      "daily_intake": "Up to 0.05 mg/kg body weight.",
+      "side_effects": "It is excreted unaltered by the kidneys. Sensitivity has been reported for people handling large consignments of citrus fruits (ships, trucks). Otherwise there are no side effects",
+      "dietary_restrictions": " diphenyl can be consumed by all religious groups, vegans and vegetarians."
+    }
+  },
+  "231": {
+    "code": "E231",
+    "name": "2-hydroxybiphenyl",
+    "href": "e231.htm",
+    "function": "Synthetic preservative",
+    "more_info": {
+      "origin": "Synthesised from phenyl ether.",
+      "characteristics": "White, water-insoluble powder used particularly against Penicillium  fungi growing on citrus fruits, apples and pears. It slowly penetrates the peel and may be present in the fruit itself.",
+      "products": "Citrus fruits, apples, pears.",
+      "daily_intake": "Up to 0.2 mg/kg body weight.",
+      "side_effects": "It is excreted unaltered by the kidneys without side effects.",
+      "dietary_restrictions": " phenylphenol can be consumed by all religious groups, vegans and vegetarians."
+    }
+  },
+  "232": {
+    "code": "E232",
+    "name": "Sodium biphenyl-2-yl oxide",
+    "href": "e232.htm",
+    "function": "Synthetic preservative",
+    "more_info": {
+      "origin": "Sodium salt of phenylphenol, synthesised from phenyl ether.",
+      "characteristics": "White powder used especially against Penicillium  fungi growing on citrus fruits, apples and pears. It is very soluble in water, and used for spraying or dipping fruits. It slowly penetrates the skin and may be present in the fruit itself.",
+      "products": "C itrus fruits, apples, pears.",
+      "daily_intake": "Up to 0.2 mg/kg body weight.",
+      "side_effects": "Normal washing removes it easily. Ingested residues are excreted unaltered by the kidneys and provoke no adverse reactions.",
+      "dietary_restrictions": " phenylphenolate can be consumed by all religious groups, vegans and vegetarians."
+    }
+  },
+  "233": {
+    "code": "E233",
+    "name": "2-(Thiazol-4-yl)benzimidazole",
+    "href": "e233.htm",
+    "function": "Synthetic preservative",
+    "more_info": {
+      "origin": "Synthetic fungicide",
+      "characteristics": "A widely used fungicide, particularly on fruits. It is mainly sprayed on fruits; it could also be a component of an aqueous solution, in which fruits are submerged. It may only be used on the outer surface of fruits.",
+      "products": "Fruits",
+      "daily_intake": "Up to 0.1 mg/kg body weight.",
+      "side_effects": "It is hydrolysed in the liver and excreted by the kidneys. No side effects at the acceptable concentrations specified.",
+      "dietary_restrictions": " thiabendazole can be consumed by all religious groups, vegans and vegetarians."
+    }
+  },
+  "234": {
+    "code": "E234",
+    "name": "Nisin",
+    "href": "e234.htm",
+    "function": "Natural antibiotic",
+    "more_info": {
+      "origin": "Nisin is a polypeptide (short protein) antibiotic produced by the bacterium Lactococcus lactis , normally used in cheese production.",
+      "characteristics": "Used as a preservative against Gram-positive spoilage bacteria",
+      "products": "Cheese, cream, canned fruits, etc.",
+      "daily_intake": "Up to 33000 units/kg body weight.",
+      "side_effects": "As it is a protein, it is treated by the body as such, and digested in the small intestine.",
+      "dietary_restrictions": " n isin can be consumed by all religious groups, vegans and vegetarians."
+    }
+  },
+  "235": {
+    "code": "E235",
+    "name": "Pimaracin",
+    "href": "e235.htm",
+    "function": "Natural antibiotic",
+    "more_info": {
+      "origin": "Pimaracin is an antibiotic produced by the bacteria Streptomyces natalensis  and S. chattanoogensis .",
+      "characteristics": "Used as a preservative mainly against fungi.",
+      "products": "Cheese, (outer surface of) meat products, etc.",
+      "daily_intake": "Up to 0.3 mg/kg body weight.",
+      "side_effects": "It is metabolised by the liver and excreted. There are no side effects at the concentrations used.",
+      "dietary_restrictions": " pimaracin can be consumed by all religious groups, vegans and vegetarians."
+    }
+  },
+  "236": {
+    "code": "236",
+    "name": "Formic acid",
+    "href": "e236.htm",
+    "function": "Natural acid, preservative",
+    "more_info": {
+      "origin": "Formic acid is naturally present in ants, but also in many fruits (such as apples, strawberries and raspberries), honey and nettles. Commercially produced from sulphuric acid, sodium hydroxide and carbon monoxide.",
+      "characteristics": "Used as a preservative against many micro-organisms. Due to its smell, use is very limited.",
+      "products": "Beverages, sweets, bakery products, icecream",
+      "daily_intake": "",
+      "side_effects": "",
+      "dietary_restrictions": ""
+    }
+  },
+  "237": {
+    "code": "237",
+    "name": "Sodium formate",
+    "href": "e237.htm",
+    "function": "Natural salt, preservative",
+    "more_info": {
+      "origin": "Commercially synthesised from sodium hydroxide and carbon monoxide. Present naturally as formic acid (see 236)",
+      "characteristics": "Used as a preservative against microorganisms.",
+      "products": "Fruit juices, non-alcoholic drinks, preserved vegetables, etc.",
+      "daily_intake": "Up to 3 mg/kg body weight.",
+      "side_effects": "It is metabolised by the liver and excreted. High concentrations are diuretic. No side effect at the acceptable concentrations specified.",
+      "dietary_restrictions": " formic acid and formates can be consumed by all religious groups, vegans and vegetarians."
+    }
+  },
+  "238": {
+    "code": "238",
+    "name": "Calcium formate",
+    "href": "e238.htm",
+    "function": "Natural salt, preservative",
+    "more_info": {
+      "origin": "Commercially synthesised from calcium hydroxide and carbon monoxide. Present in nature as formic acid (see 236)",
+      "characteristics": "Used as a preservative against microorganisms.",
+      "products": "Fruit juices, non-alcoholic drinks, preserved vegetables, etc.",
+      "daily_intake": "Up to 3 mg/kg body weight.",
+      "side_effects": "It is metabolised by the liver and excreted. High concentrations are diuretic.",
+      "dietary_restrictions": " formic acid and formates can be consumed by all religious groups, vegans and vegetarians."
+    }
+  },
+  "239": {
+    "code": "E239",
+    "name": "Hexamine",
+    "href": "e239.htm",
+    "function": "Synthetic preservative",
+    "more_info": {
+      "origin": "Commercially synthesised from formaldehyde and ammonia",
+      "characteristics": "Used as a preservative against fungi.",
+      "products": "Caviar, cheese, herring, preserved fish, etc.",
+      "daily_intake": "Up to 0.15 mg/kg body weight.",
+      "side_effects": "It is metabolised by the liver and excreted. High concentrations have considerable side effects; however, these concentrations are never reached in foods, due to the taste it imparts.",
+      "dietary_restrictions": " E239 can be consumed by all religious groups, vegans and vegetarians."
+    }
+  },
+  "240": {
+    "code": "240",
+    "name": "Formaldehyde",
+    "href": "e240.htm",
+    "function": "Preservative",
+    "more_info": {
+      "origin": "Formaldehyde is formed naturally by smoking or heating protein-rich foods. Commercially synthesised from methanol.",
+      "characteristics": "Formaldehyde is a gas used as a preservative against bacteria. It is not used in foods, but used to disinfect containers, pipes and vessels in the food industry. It is widely used in cosmetics.",
+      "products": "None (only cosmetics).",
+      "daily_intake": "Up to 0.15 mg/kg body weight.",
+      "side_effects": "As gas it has very strong side effects (not in foods).",
+      "dietary_restrictions": "."
+    }
+  },
+  "242": {
+    "code": "E242",
+    "name": "Dimethylcarbonate",
+    "href": "e242.htm",
+    "function": "Synthetic preservative",
+    "more_info": {
+      "origin": "Chemically synthesised.",
+      "characteristics": "It is used as a preservative (cold-sterilisation) in drinks.",
+      "products": "Soft drinks.",
+      "daily_intake": "None determined. DMDC decomposes when dissolved in the product.",
+      "side_effects": ".",
+      "dietary_restrictions": " DMDC can be consumed by all religious groups, vegans and vegetarians."
+    }
+  },
+  "249": {
+    "code": "E249",
+    "name": "Potassium nitrite",
+    "href": "e249.htm",
+    "function": "Natural salt, preservative",
+    "more_info": {
+      "origin": "Naturally occurring mineral. Can be mined or produced chemically from potassium nitrate.",
+      "characteristics": "White powder used as a preservative against   (a bacterium that can cause botulism) in meat products.",
+      "products": "Meat and fish products.",
+      "daily_intake": "Up to 0.06 mg/kg body weight.",
+      "side_effects": "Nitrites are precursors of (possibly carcinogenic) nitrosamines, which are formed in the stomach from nitrites and proteins. High concentrations may react with haemoglobin. It is not allowed in products intended for children under 1 year. Little children have a different type of haemoglobin, which is much more reactive towards nitrites than normal haemoglobin.",
+      "dietary_restrictions": " nitrites and nitrates can be consumed by all religious groups, vegans and vegetarians."
+    }
+  },
+  "250": {
+    "code": "E250",
+    "name": "Sodium nitrite",
+    "href": "e250.htm",
+    "function": "Natural salt, preservative",
+    "more_info": {
+      "origin": "Naturally occurring mineral. Can be mined or produced chemically from sodium nitrate.",
+      "characteristics": "White powder used as a preservative against  (a bacterium that can cause botulism) in meat products.",
+      "products": "M eat and fish products",
+      "daily_intake": "Up to 0.06 mg/kg body weight.",
+      "side_effects": "Nitrites are precursors of (possibly carcinogenic) nitrosamines, which are formed in the stomach from nitrites and proteins. High concentrations may react with haemoglobin. It is not allowed in products intended for children under 6 months. Little children have a different type of haemoglobin, which is much more reactive towards nitrites than normal haemoglobin.",
+      "dietary_restrictions": " nitrites and nitrates can be consumed by all religious groups, vegans and vegetarians."
+    }
+  },
+  "251": {
+    "code": "E251",
+    "name": "Sodium nitraite",
+    "href": "e251.htm",
+    "function": "Natural salt, preservative",
+    "more_info": {
+      "origin": "Naturally occurring mineral. Also present in nearly all vegetables.",
+      "characteristics": "White powder used as a preservative and against fading of natural colours.",
+      "products": "Cheese, meat and meat products, pizza, etc.",
+      "daily_intake": "Up to 3.7 mg/kg body weight.",
+      "side_effects": "Nitrates have no side effects; however, they may be converted into nitrite () either by heating or when present in the stomach.",
+      "dietary_restrictions": " nitrites and nitrates can be consumed by all religious groups, vegans and vegetarians."
+    }
+  },
+  "252": {
+    "code": "E252",
+    "name": "Potassium nitrate",
+    "href": "e252.htm",
+    "function": "Natural salt, preservative",
+    "more_info": {
+      "origin": "Naturally occurring mineral. Also present in nearly all vegetables.",
+      "characteristics": "White powder used as a preservative and against fading of natural colours.",
+      "products": "cheese, meat and meat products, pizza",
+      "daily_intake": "",
+      "side_effects": "",
+      "dietary_restrictions": ""
+    }
+  },
+  "260": {
+    "code": "E260",
+    "name": "Acetic acid",
+    "href": "e260.htm",
+    "function": "Natural acid, preservative",
+    "more_info": {
+      "origin": "Natural acid, present in most fruits. Produced by bacterial fermentation and thus present in all fermented products. Commercially produced by bacterial fermentation of sugar, molasses or alcohol or by chemical synthesis from acetealdehyde.",
+      "characteristics": "Acetic acid is used as a preservative against bacteria and fungi. In mayonnaise it is added to increase the inactivation of  . The highest activity is at low pH. It can also be used as a buffer in acidic foods. It is also used as an aroma component.",
+      "products": "Many different (acidic) products",
+      "daily_intake": "no limit.",
+      "side_effects": "",
+      "dietary_restrictions": ""
+    }
+  },
+  "261": {
+    "code": "E261",
+    "name": "Potassium acetate",
+    "href": "e261.htm",
+    "function": "Preservative, natural salt",
+    "more_info": {
+      "origin": "Potassium salt of acetic acid, an natural acid, present in most fruits. Produced by bacterial fermentation and thus present in all fermented products. Commercially produced by bacterial fermentation of sugar, molasses or alcohol or by chemical synthesis from acetealdehyde.",
+      "characteristics": "Acetates are used as preservatives and buffers.",
+      "products": "Many different products",
+      "daily_intake": "no limit.",
+      "side_effects": "",
+      "dietary_restrictions": ""
+    }
+  },
+  "262": {
+    "code": "E262",
+    "name": "Sodium acetate",
+    "href": "e262.htm",
+    "function": "Preservative, natural salt",
+    "more_info": {
+      "origin": "Sodium salt of acetic acid, an natural acid, present in most fruits. Produced by bacterial fermentation and thus present in all fermented products. Commercially produced by bacterial fermentation of sugar, molasses or alcohol or by chemical synthesis from acetealdehyde.",
+      "characteristics": "Acetates are used as preservatives and buffers.",
+      "products": "Many different products",
+      "daily_intake": "up to 15 mg/kg body weight",
+      "side_effects": "",
+      "dietary_restrictions": ""
+    }
+  },
+  "263": {
+    "code": "E263",
+    "name": "Calcium acetate",
+    "href": "e263.htm",
+    "function": "Preservative, natural salt",
+    "more_info": {
+      "origin": "Calcium salt of acetic acid, an natural acid, present in most fruits. Produced by bacterial fermentation and thus present in all fermented products. Commercially produced by bacterial fermentation of sugar, molasses or alcohol or by chemical synthesis from acetealdehyde.",
+      "characteristics": "Acetates are used as preservatives and buffers. Calcium acetate is especially used against some spore-forming organisms in bread.",
+      "products": "Bread and bakery products",
+      "daily_intake": "no limit",
+      "side_effects": "",
+      "dietary_restrictions": ""
+    }
+  },
+  "270": {
+    "code": "E270",
+    "name": "Lactic acid",
+    "href": "e270.htm",
+    "function": "Natural acid",
+    "more_info": {
+      "origin": "Natural acid produced by bacteria in fermented foods. All fermented foods are very rich in lactic acid. Commercially produced by bacterial fermentation on starch and molasses. Also produced in large amounts in the large intestine by the resident bacteria.",
+      "characteristics": "Lactic acid and lactates are used as preservatives, mainly against yeasts and fungi. It is also used to increase stability of potato products, it increases and stabilises anti-oxidants and pectins.",
+      "products": "Large range of (acidic) products.",
+      "daily_intake": "no limit",
+      "side_effects": "",
+      "dietary_restrictions": ""
+    }
+  },
+  "280": {
+    "code": "E280",
+    "name": "Propionic acid",
+    "href": "e280.htm",
+    "function": "Natural acid",
+    "more_info": {
+      "origin": "Natural acid present in small quantities in many foods, sometimes in high concentrations produced by bacteria in fermented foods, such as types of Swiss cheese. It is also produced on a large scale by the bacteria in the large intestine. It is also a normal component of sweat.",
+      "characteristics": "Propionic acid and propionates are used as preservatives, mainly against fungi. It is often used in bakery goods against bacterial spoilage. Due to the strong smell it is limited in applications.",
+      "products": "bakery products, meat and meatproducts, pizza",
+      "daily_intake": "no limit",
+      "side_effects": "",
+      "dietary_restrictions": ""
+    }
+  },
+  "281": {
+    "code": "E281",
+    "name": "Sodium propionate",
+    "href": "e281.htm",
+    "function": "Natural salt",
+    "more_info": {
+      "origin": "Sodium salt of propionic acid, a natural acid present in small quantities in many foods, sometimes in high concentrations produced by bacteria in fermented foods, such as types of Swiss cheese. It is also produced on a large scale by the bacteria in the large intestine.",
+      "characteristics": "Propionic acid and propionates are used as preservatives, mainly against fungi.",
+      "products": "bakery products with chocolate",
+      "daily_intake": "no limit",
+      "side_effects": "",
+      "dietary_restrictions": ""
+    }
+  },
+  "282": {
+    "code": "E282",
+    "name": "Calcium propionate",
+    "href": "e282.htm",
+    "function": "Natural salt",
+    "more_info": {
+      "origin": "Calcium salt of propionic acid, a natural acid present in small quantities in many foods, sometimes in high concentrations produced by bacteria in fermented foods, such as types of Swiss cheese. It is also produced on a large scale by the bacteria in the large intestine.",
+      "characteristics": "Propionic acid and propionates are used as preservatives, mainly against fungi.",
+      "products": "bakery products",
+      "daily_intake": "no limit",
+      "side_effects": "",
+      "dietary_restrictions": ""
+    }
+  },
+  "283": {
+    "code": "E283",
+    "name": "Potassium propionate",
+    "href": "e283.htm",
+    "function": "Natural salt",
+    "more_info": {
+      "origin": "Potassium salt of propionic acid, a natural acid present in small quantities in many foods, sometimes in high concentrations produced by bacteria in fermented foods, such as types of Swiss cheese. It is also produced on a large scale by the bacteria in the large intestine.",
+      "characteristics": "Propionic acid and propionates are used as preservatives, mainly against fungi.",
+      "products": "bakery products",
+      "daily_intake": "no limit",
+      "side_effects": "",
+      "dietary_restrictions": ""
+    }
+  },
+  "284": {
+    "code": "E284",
+    "name": "Boric acid",
+    "href": "e284.htm",
+    "function": "Natural acid",
+    "more_info": {
+      "origin": "Natural acid, but commercially produced from boron.",
+      "characteristics": "Boric acid and borates are used as a buffer to control acidity in products. It is also used in multi-vitamin/mineral products as a mineral source.",
+      "products": "rarely used in foods, but often in farmaceuticals.",
+      "daily_intake": "up to 0.1 mg/kg",
+      "side_effects": "",
+      "dietary_restrictions": ""
+    }
+  },
+  "285": {
+    "code": "E285",
+    "name": "Sodium tetraborate",
+    "href": "e285.htm",
+    "function": "Natural acid",
+    "more_info": {
+      "origin": "Sodium salt of boric acid, a natural acid, but commercially produced from boron.",
+      "characteristics": "Boric acid and borates are used as a buffer to control acidity in products. It is also used in multi-vitamin/mineral products as a mineral source.",
+      "products": "rarely used in foods, but often in farmaceuticals.",
+      "daily_intake": "",
+      "side_effects": "",
+      "dietary_restrictions": ""
+    }
+  },
+  "290": {
+    "code": "E290",
+    "name": "Carbon dioxide",
+    "href": "e290.htm",
+    "function": "Natural gas",
+    "more_info": {
+      "origin": "Normal natural gas. Part of air and produced by the metabolism of the body.",
+      "characteristics": "Used in carbonated drinks for the sparkling effect. Also used in modified atmosphere packaging and propellant in gas containers.",
+      "products": "carbonated drinks, prepacked foods, cream",
+      "daily_intake": "",
+      "side_effects": "",
+      "dietary_restrictions": ""
+    }
+  },
+  "296": {
+    "code": "E296",
+    "name": "Malic acid",
+    "href": "e296.htm",
+    "function": "Acid",
+    "more_info": {
+      "origin": "Malic acid is a natural acid present in most fruits and many vegetables. Commercially made by chemical synthesis. It is part of the metabolic pathway of every living cell.",
+      "characteristics": "Used as acid, flavour compound and colour stabilizer in apple- and grapejuice.",
+      "products": "many different products",
+      "daily_intake": "",
+      "side_effects": "",
+      "dietary_restrictions": ""
+    }
+  },
+  "297": {
+    "code": "E297",
+    "name": "Fumaric acid",
+    "href": "e297.htm",
+    "function": "Natural acid",
+    "more_info": {
+      "origin": "Fumaric acid is a natural acid present in many fruits and vegetables. Commercially made by fermentation of sugar by fungi or by chemical synthesis. It is part of the metabolic pathway in every living cell.",
+      "characteristics": "Used as acid and structure stabilizer in a large range of products. Also used as acid source in baking powder",
+      "products": "many different products",
+      "daily_intake": "",
+      "side_effects": "",
+      "dietary_restrictions": ""
+    }
+  }
+}

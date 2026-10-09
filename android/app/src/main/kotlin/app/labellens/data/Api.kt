@@ -16,7 +16,7 @@ val AppJson = Json {
     explicitNulls = false
 }
 
-/** Minimal JSON client for the sample API in /api. Network failures surface as [IOException]. */
+/** Minimal JSON client for the API in /api. Network failures surface as [IOException]. */
 class Api(private val baseUrl: String) {
     @Volatile
     var token: String? = null
@@ -35,7 +35,14 @@ class Api(private val baseUrl: String) {
 
     suspend inline fun <reified T> put(path: String): T = AppJson.decodeFromString(request("PUT", path, "{}"))
 
-    suspend fun request(method: String, path: String, body: String?): String = withContext(Dispatchers.IO) {
+    /** GET that returns null when the server says the copy tagged [version] is still current. */
+    suspend inline fun <reified T> getIfChanged(path: String, version: String): T? =
+        request("GET", path, null, ifNoneMatch = version.takeIf { it.isNotEmpty() })?.let { AppJson.decodeFromString<T>(it) }
+
+    suspend fun request(method: String, path: String, body: String?): String =
+        request(method, path, body, ifNoneMatch = null) ?: ""
+
+    suspend fun request(method: String, path: String, body: String?, ifNoneMatch: String?): String? = withContext(Dispatchers.IO) {
         val connection = URL(baseUrl.trimEnd('/') + path).openConnection() as HttpURLConnection
         try {
             connection.requestMethod = method
@@ -43,12 +50,14 @@ class Api(private val baseUrl: String) {
             connection.readTimeout = 8_000
             connection.setRequestProperty("Accept", "application/json")
             token?.let { connection.setRequestProperty("Authorization", "Bearer $it") }
+            ifNoneMatch?.let { connection.setRequestProperty("If-None-Match", "\"$it\"") }
             if (body != null) {
                 connection.doOutput = true
                 connection.setRequestProperty("Content-Type", "application/json")
                 connection.outputStream.use { it.write(body.toByteArray()) }
             }
             val status = connection.responseCode
+            if (status == HttpURLConnection.HTTP_NOT_MODIFIED) return@withContext null
             val stream = if (status in 200..299) connection.inputStream else connection.errorStream
             val text = stream?.bufferedReader()?.use { it.readText() }.orEmpty()
             if (status !in 200..299) {

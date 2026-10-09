@@ -1,0 +1,14 @@
+{
+    "code": "E123",
+    "name": "Amaranth",
+    "href": "e123.htm",
+    "function": "Red colour, azo dye",
+    "more_info": {
+        "origin": "Synthetic azo dye. See  for a background on azo dyes.",
+        "characteristics": "Red food colour. Very soluble in water.",
+        "products": "Many products.",
+        "daily_intake": "Up to 0.5 mg/kg body weight.",
+        "side_effects": "Since it is an azo dye, it may elicit intolerance in people intolerant to salicylates. Additionally, it is a histamine liberator, and may intensify symptoms of asthma. In combination with benzoates, it is also implicated in hyperactivity in children. A connection between tumours and amaranth has been established in rats, but not (un)proven in humans. Nevertheless, many countries have restricted the use pending further tests, and the ADI has been reduced to 0.5 mg/kg.",
+        "dietary_restrictions": "None; E123 can be consumed by all religious groups, vegans and vegetarians."
+    }
+}

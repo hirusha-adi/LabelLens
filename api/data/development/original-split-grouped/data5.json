@@ -1,0 +1,842 @@
+{
+  "500": {
+    "code": "E500",
+    "name": "Sodium carbonate",
+    "href": "e500.htm",
+    "function": "Base",
+    "more_info": {
+      "origin": "  Produced from seawater or salt. Natural minerals.",
+      "characteristics": "Acidity regulators, alkali, and rising agent",
+      "products": "  Many different products",
+      "daily_intake": "None determined",
+      "side_effects": "None known",
+      "dietary_restrictions": "None, E500 can be used by all religious groups, vegans and vegetarians."
+    }
+  },
+  "501": {
+    "code": "E501",
+    "name": "Potassium carbonate",
+    "href": "e501.htm",
+    "function": "Base",
+    "more_info": {
+      "origin": "  Produced from potassiumchloride, a natural mineral.",
+      "characteristics": "Acidity regulators, alkali, and rising agents",
+      "products": "  Many different products",
+      "daily_intake": "None determined",
+      "side_effects": "None known",
+      "dietary_restrictions": "None, E501 can be used by all religious groups, vegans and vegetarians."
+    }
+  },
+  "503": {
+    "code": "E503",
+    "name": "Ammonium carbonate",
+    "href": "e503.htm",
+    "function": "Base",
+    "more_info": {
+      "origin": "",
+      "characteristics": "Acidity regulators, alkali, and rising agents",
+      "products": "  Many different products",
+      "daily_intake": "None determined",
+      "side_effects": "None known, except some gas formation in the stomach after ingestion.",
+      "dietary_restrictions": "None, E503 can be used by all religious groups, vegans and vegetarians."
+    }
+  },
+  "504": {
+    "code": "E504",
+    "name": "Magnesium carbonate",
+    "href": "e504.htm",
+    "function": "Alkali, anti-caking agent",
+    "more_info": {
+      "origin": "  Produced from magnesium hydroxide, but also occurs as a natural mineral.",
+      "characteristics": "Acidity regulators, alkali, and anti-caking agents",
+      "products": "  Many different products",
+      "daily_intake": "None determined",
+      "side_effects": "  None known, except that high concentrations act as a laxative.",
+      "dietary_restrictions": "  None, E504 can be used by all religious groups, vegans and vegetarians."
+    }
+  },
+  "505": {
+    "code": "505",
+    "name": "Ferro carbonate",
+    "href": "e505.htm",
+    "function": "Acidity regulator",
+    "more_info": {
+      "origin": "  It occurs as a natural mineral.",
+      "characteristics": "Acidity regulator, but mainly used to fortify foods with iron.",
+      "products": "  Fortified foods and pharmaceutical preparations",
+      "daily_intake": "None determined",
+      "side_effects": "None known",
+      "dietary_restrictions": "None, 505 can be used by all religious groups, vegans and vegetarians."
+    }
+  },
+  "507": {
+    "code": "E507",
+    "name": "Hydrochloric acid",
+    "href": "e507.htm",
+    "function": "acid",
+    "more_info": {
+      "origin": "  Natural acid, normal acid in the stomach. Produced from salt and sulphuric acid.",
+      "characteristics": "Acidity regulator.",
+      "products": "Cheese, beer",
+      "daily_intake": "None determined.",
+      "side_effects": "None known.",
+      "dietary_restrictions": "All religious groups, vegans and vegetarians can use E507"
+    }
+  },
+  "508": {
+    "code": "E508",
+    "name": "Potassium chloride",
+    "href": "e508.htm",
+    "function": "Salt substitude",
+    "more_info": {
+      "origin": "  Natural salt, part of sea salt and rock salt.",
+      "characteristics": "Salt replacer",
+      "products": "Many salt-free/sodium-free/low-sodium products",
+      "daily_intake": "None determined.",
+      "side_effects": "None known, except a bad flavour and taste.",
+      "dietary_restrictions": "All religious groups, vegans and vegetarians can use E508"
+    }
+  },
+  "509": {
+    "code": "E509",
+    "name": "Calcium chloride",
+    "href": "e509.htm",
+    "function": "Sequestrant, firming agent",
+    "more_info": {
+      "origin": "  Natural salt, part of sea salt and rock salt.",
+      "characteristics": "Acidity regulator, enhances firmness in fruits and vegetables, binds metals.",
+      "products": "Many products, also used as calcium source in nutrition supplements.",
+      "daily_intake": "None determined.",
+      "side_effects": "None known.",
+      "dietary_restrictions": "All religious groups, vegans and vegetarians can use E509"
+    }
+  },
+  "510": {
+    "code": "510",
+    "name": "Ammonium chloride",
+    "href": "e510.htm",
+    "function": "Yeast food, flavour",
+    "more_info": {
+      "origin": "  Natural salt, part of sea salt and rock salt. Prepared from hydrochloric acid and ammonia.",
+      "characteristics": "Acidity regulator, flavour and nutrient for yeast in yeast-fermented products such as bread.",
+      "products": "Many products, but due to strong taste use is limited.",
+      "daily_intake": "None determined.",
+      "side_effects": "None known.",
+      "dietary_restrictions": "All religious groups, vegans and vegetarians can use 510."
+    }
+  },
+  "511": {
+    "code": "E511",
+    "name": "Magnesium chloride",
+    "href": "e511.htm",
+    "function": "Acidity regulator",
+    "more_info": {
+      "origin": "  Natural salt, part of sea salt and rock salt.",
+      "characteristics": "Acidity regulator",
+      "products": "Sterilised vegetables.",
+      "daily_intake": "None determined.",
+      "side_effects": "Can act as a laxative.",
+      "dietary_restrictions": "All religious groups, vegans and vegetarians can use E511"
+    }
+  },
+  "512": {
+    "code": "E512",
+    "name": "Stannous chloride",
+    "href": "e512.htm",
+    "function": "Anti-oxidant",
+    "more_info": {
+      "origin": "  Prepared from tin ores and hydrochloric acid.",
+      "characteristics": "Stabiliser",
+      "products": "Canned beans and asparagus",
+      "daily_intake": "Up to 2 mg/kg bodyweight",
+      "side_effects": "None known when used in foods.",
+      "dietary_restrictions": "All religious groups, vegans and vegetarians can use E512"
+    }
+  },
+  "513": {
+    "code": "E513",
+    "name": "Sulphuric acid",
+    "href": "e513.htm",
+    "function": "Acid",
+    "more_info": {
+      "origin": "  Prepared from sulphur dioxide, oxygen and water",
+      "characteristics": "Acid and acidity regulator",
+      "products": "Beer and cheese products",
+      "daily_intake": "None determined",
+      "side_effects": "None known when used in foods.",
+      "dietary_restrictions": "All religious groups, vegans and vegetarians can use E513"
+    }
+  },
+  "514": {
+    "code": "E514",
+    "name": "Sodium sulphate",
+    "href": "e514.htm",
+    "function": "Acid, diluent",
+    "more_info": {
+      "origin": "  Prepared from salt and sulphuric acid.",
+      "characteristics": "Filling agent, stabiliser",
+      "products": "Chewing gum, colours",
+      "daily_intake": "None determined",
+      "side_effects": "None known when used in foods.",
+      "dietary_restrictions": "All religious groups, vegans and vegetarians can use E514"
+    }
+  },
+  "515": {
+    "code": "E515",
+    "name": "Potassium sulphate",
+    "href": "e515.htm",
+    "function": "Salt substitude",
+    "more_info": {
+      "origin": "  Prepared from potassium salts and sulphuric acid. Natural mineral.",
+      "characteristics": "Used for treatment of water used for brewing; salt replacer",
+      "products": "Beer, low-sodium products",
+      "daily_intake": "None determined",
+      "side_effects": "None known when used in foods.",
+      "dietary_restrictions": "All religious groups, vegans and vegetarians can use E515"
+    }
+  },
+  "516": {
+    "code": "E516",
+    "name": "Calcium sulphate",
+    "href": "e516.htm",
+    "function": "Firming agent",
+    "more_info": {
+      "origin": "  Prepared from calcium salts and sulphuric acid. Natural mineral.",
+      "characteristics": "Stabiliser, metal binding agent, nutrient for yeast in bread",
+      "products": "many products, incl. pharmaceutical preparations",
+      "daily_intake": "None determined",
+      "side_effects": "None known when used in foods.",
+      "dietary_restrictions": "All religious groups, vegans and vegetarians can use E516"
+    }
+  },
+  "517": {
+    "code": "E517",
+    "name": "Ammonium sulphate",
+    "href": "e517.htm",
+    "function": "Stabiliser",
+    "more_info": {
+      "origin": "  Prepared from ammonium salts and sulphuric acid. Natural mineral.",
+      "characteristics": "Stabiliser, buffer, bread enhancer",
+      "products": "Bakery and confectionary products",
+      "daily_intake": "None determined",
+      "side_effects": "None known when used in foods.",
+      "dietary_restrictions": "All religious groups, vegans and vegetarians can use E517"
+    }
+  },
+  "518": {
+    "code": "518",
+    "name": "Magnesium sulphate",
+    "href": "e518.htm",
+    "function": "Dietary supplement",
+    "more_info": {
+      "origin": "  Prepared from magnesium salts and sulphuric acid. Natural mineral.",
+      "characteristics": "Nutritional supplement; enhances firmness in canned vegetables",
+      "products": "Beer, food supplements, canned vegetables",
+      "daily_intake": "None determined",
+      "side_effects": "  None known when used in foods, but it is a strong laxative.",
+      "dietary_restrictions": "  All religious groups, vegans and vegetarians can use 518"
+    }
+  },
+  "520": {
+    "code": "E520",
+    "name": "Aluminium sulphate",
+    "href": "e520.htm",
+    "function": "Clarification agent",
+    "more_info": {
+      "origin": "Natural mineral, from which the commercial product is purified.",
+      "characteristics": "",
+      "products": "Beer, pickled vegetables, proteins (deodorant, as anti-bacterial agent)",
+      "daily_intake": "",
+      "side_effects": "Aluminium inhibits the uptake of B-vitamins. It may also influence liver function in high concentrations. However with use of E520 the concentrations are too low.",
+      "dietary_restrictions": "None. E520 can be used by all religious groups, vegetarians and vegans."
+    }
+  },
+  "521": {
+    "code": "E521",
+    "name": "Aluminium sodium sulphate",
+    "href": "e521.htm",
+    "function": "Acidity regulator",
+    "more_info": {
+      "origin": "Prepared from natural aluminium sulphate.",
+      "characteristics": "",
+      "products": "Flour, cheese, confectionary",
+      "daily_intake": "",
+      "side_effects": "Aluminium inhibits the uptake of B-vitamins. It may also influence liver function in high concentrations. However with use of E521 the concentrations are too low.",
+      "dietary_restrictions": "None. E521 can be used by all religious groups, vegetarians and vegans."
+    }
+  },
+  "523": {
+    "code": "E523",
+    "name": "Aluminium ammonium sulphate",
+    "href": "e523.htm",
+    "function": "Stabiliser",
+    "more_info": {
+      "origin": "Prepared from natural aluminium sulphate.",
+      "characteristics": "",
+      "products": "Industrial baking powder",
+      "daily_intake": "",
+      "side_effects": "Aluminium inhibits the uptake of B-vitamins. It may also influence liver function in high concentrations. However with use of E523 the concentrations are too low.",
+      "dietary_restrictions": "None. E523 can be used by all religious groups, vegetarians and vegans."
+    }
+  },
+  "524": {
+    "code": "E524",
+    "name": "Sodium hydroxide",
+    "href": "e524.htm",
+    "function": "Base, colour solvent",
+    "more_info": {
+      "origin": "Prepared from natural salt.",
+      "characteristics": "",
+      "products": "Many products, including bakery products, cocoa products, coffee creamer, black olives",
+      "daily_intake": "",
+      "side_effects": "None known.",
+      "dietary_restrictions": "None. E524 can be used by all religious groups, vegetarians and vegans."
+    }
+  },
+  "525": {
+    "code": "E525",
+    "name": "Potassium hydroxide",
+    "href": "e525.htm",
+    "function": "Base",
+    "more_info": {
+      "origin": "Prepared from the natural salt potassium chloride.",
+      "characteristics": "",
+      "products": "Bakery products, cocoa products, black olives and the colour annatto (E160b)",
+      "daily_intake": "",
+      "side_effects": "None known.",
+      "dietary_restrictions": "None. E525 can be used by all religious groups, vegetarians and vegans."
+    }
+  },
+  "526": {
+    "code": "E526",
+    "name": "Calcium hydroxide",
+    "href": "e526.htm",
+    "function": "Firming agent",
+    "more_info": {
+      "origin": "Prepared from the natural salt calcium oxide.",
+      "characteristics": "",
+      "products": "Cheese, cocoa products, wine, nutmeg, sweet frozen products, dried fish",
+      "daily_intake": "",
+      "side_effects": "None known.",
+      "dietary_restrictions": "None. E526 can be used by all religious groups, vegetarians and vegans."
+    }
+  },
+  "527": {
+    "code": "E527",
+    "name": "Ammonium hydroxide",
+    "href": "e527.htm",
+    "function": "Base",
+    "more_info": {
+      "origin": "Prepared from the ammonia and water.",
+      "characteristics": "",
+      "products": "Egg and cocoa products, colours",
+      "daily_intake": "",
+      "side_effects": "None known.",
+      "dietary_restrictions": "None. E527 can be used by all religious groups, vegetarians and vegans."
+    }
+  },
+  "528": {
+    "code": "E528",
+    "name": "Magnesium hydroxide",
+    "href": "e528.htm",
+    "function": "Base",
+    "more_info": {
+      "origin": "Prepared from natural minerals.",
+      "characteristics": "",
+      "products": "Cheese, canned vegetables",
+      "daily_intake": "",
+      "side_effects": "Laxative in high concentration.",
+      "dietary_restrictions": "None. E528 can be used by all religious groups, vegetarians and vegans."
+    }
+  },
+  "529": {
+    "code": "E529",
+    "name": "Calcium oxide",
+    "href": "e529.htm",
+    "function": "Alkali",
+    "more_info": {
+      "origin": "Prepared from chalk.",
+      "characteristics": "",
+      "products": "cocoa products, bakery products, intestines",
+      "daily_intake": "",
+      "side_effects": "None known",
+      "dietary_restrictions": "None. E529 can be used by all religious groups, vegetarians and vegans."
+    }
+  },
+  "530": {
+    "code": "E530",
+    "name": "Magnesium oxide",
+    "href": "e530.htm",
+    "function": "Anti caking agent, alkali",
+    "more_info": {
+      "origin": "Prepared from several minerals.",
+      "characteristics": "",
+      "products": "Cocoa products, bakery products",
+      "daily_intake": "",
+      "side_effects": "Magnesium acts as a laxative in high concentrations.",
+      "dietary_restrictions": "None. E530 can be used by all religious groups, vegetarians and vegans."
+    }
+  },
+  "535": {
+    "code": "E535",
+    "name": "Sodium ferrocyanide",
+    "href": "e535.htm",
+    "function": "Anti caking agent",
+    "more_info": {
+      "origin": "Prepared from hydrogen ferrocyanide and sodium hydroxide.",
+      "characteristics": "",
+      "products": "Salt",
+      "daily_intake": "",
+      "side_effects": "None in the concentrations used. Use is very limited, partly due to the strong yellow colour.",
+      "dietary_restrictions": "None. E535 can be used by all religious groups, vegetarians and vegans."
+    }
+  },
+  "536": {
+    "code": "E536",
+    "name": "Potassium ferrocyanide",
+    "href": "e536.htm",
+    "function": "Anti caking agent",
+    "more_info": {
+      "origin": "Prepared from hydrogen ferrocyanide and potassium hydroxide.",
+      "characteristics": "",
+      "products": "Salt",
+      "daily_intake": "",
+      "side_effects": "None in the concentrations used.",
+      "dietary_restrictions": "None. E536 can be used by all religious groups, vegetarians and vegans."
+    }
+  },
+  "537": {
+    "code": "537",
+    "name": "Ferrohexacyanomanganate",
+    "href": "e537.htm",
+    "function": "Anti-caking agent",
+    "more_info": {
+      "origin": "Prepared from hydrogen mangano-cyanide and iron hydroxide.",
+      "characteristics": "",
+      "products": "Liquorice powder (salmiak)",
+      "daily_intake": "",
+      "side_effects": "None in the concentrations used.",
+      "dietary_restrictions": "None. 537 can be used by all religious groups, vegetarians and vegans."
+    }
+  },
+  "538": {
+    "code": "E538",
+    "name": "Calcium ferrocyanide",
+    "href": "e538.htm",
+    "function": "Anti-caking agen",
+    "more_info": {
+      "origin": "Prepared from hydrogen ferrocyanide and calcium hydroxide.",
+      "characteristics": "",
+      "products": "Low-sodium salt",
+      "daily_intake": "",
+      "side_effects": "None in the concentrations used.",
+      "dietary_restrictions": "None. E538 can be used by all religious groups, vegetarians and vegans."
+    }
+  },
+  "539": {
+    "code": "539",
+    "name": "Sodium thiosulphate",
+    "href": "e539.htm",
+    "function": "Anti-oxidant",
+    "more_info": {
+      "origin": "Synthetic compound.",
+      "characteristics": "",
+      "products": "Potato products",
+      "daily_intake": "",
+      "side_effects": "Thiosulphate is converted into sulphite and has similar side effects, see  .",
+      "dietary_restrictions": "None. 539 can be used by all religious groups, vegetarians and vegans."
+    }
+  },
+  "540": {
+    "code": "540",
+    "name": "Dicalcium pyrophosphate (now E450)",
+    "href": "e450.htm",
+    "function": "Raising agent",
+    "more_info": {
+      "origin": "Salts of sodium/potassium/calcium with phosphates. All are produced synthetically from the respective carbonates and phosphoric acid.",
+      "characteristics": "Buffers and emulsifiers. E450 (iii) also binds metals and prevents discoloration due to metals. E450 (vi) is also used as bread enhancer and calcium supplement.",
+      "products": "Many different products.",
+      "daily_intake": "Up to 70 mg/kg bodyweight for all phosphate containing additives",
+      "side_effects": "None known when used in foods. High concentrations of phosphates may disturb several metabolic processes as phosphate plays an important role in general metabolism.",
+      "dietary_restrictions": "E450 can be consumed by all religious groups, vegans and vegetarians."
+    }
+  },
+  "541": {
+    "code": "E541",
+    "name": "Sodium aluminium phosphate",
+    "href": "e541.htm",
+    "function": "Raising agent",
+    "more_info": {
+      "origin": "Synthetically produced from aluminium, phosphoric acid and sodium hydroxide.",
+      "characteristics": "",
+      "products": "bakery products, processed cheese",
+      "daily_intake": "",
+      "side_effects": "Aluminium impairs the calcium and phosphorous uptake by the body. The concentrations from E541 are generally so low that no effect is to be expected.",
+      "dietary_restrictions": "None. E541 can be used by all religious groups, vegetarians and vegans."
+    }
+  },
+  "542": {
+    "code": "542",
+    "name": "Edible bone phosphate",
+    "href": "e542.htm",
+    "function": "Anti caking agent",
+    "more_info": {
+      "origin": "Produced from animal bones.",
+      "characteristics": "",
+      "products": "Dry products, cane sugar",
+      "daily_intake": "",
+      "side_effects": "Phosphates are normal essential salts for the body. In view of the need to avoid calcium deficiency, their use is limited, as they bind to calcium readily. They have no side effects.",
+      "dietary_restrictions": "542 can not be used by vegans, vegetarians, Muslims, Jews or Hindus. The product is made of animal bones, such as from pigs and cattle."
+    }
+  },
+  "543": {
+    "code": "543",
+    "name": "Sodium calcium polyphosphate",
+    "href": "e543.htm",
+    "function": "Emulsifier",
+    "more_info": {
+      "origin": "Produced from sodium phosphate and calcium phosphate from non-animal origin.",
+      "characteristics": "",
+      "products": "",
+      "daily_intake": "",
+      "side_effects": "Polyphosphates may inhibit digestive enzymes in high concentrations.",
+      "dietary_restrictions": "None. 543 can be used by all religious groups, vegetarians and vegans."
+    }
+  },
+  "544": {
+    "code": "544",
+    "name": "Calcium polyphosphates",
+    "href": "e544.htm",
+    "function": "Emulsifier",
+    "more_info": {
+      "origin": "Produced by heating calcium phosphate.",
+      "characteristics": "",
+      "products": "",
+      "daily_intake": "",
+      "side_effects": "Polyphosphates may inhibit digestive enzymes in high concentrations.",
+      "dietary_restrictions": "None. 544 can be used by all religious groups, vegetarians and vegans."
+    }
+  },
+  "545": {
+    "code": "545",
+    "name": "Ammonium polyphosphates",
+    "href": "e545.htm",
+    "function": "Emulsifier",
+    "more_info": {
+      "origin": "Produced by heating ammonium hydrogen phosphate.",
+      "characteristics": "",
+      "products": "",
+      "daily_intake": "",
+      "side_effects": "Polyphosphates may inhibit digestive enzymes in high concentrations.",
+      "dietary_restrictions": "None. 545 can be used by all religious groups, vegetarians and vegans."
+    }
+  },
+  "546": {
+    "code": "546",
+    "name": "Magnesium pyrophosphate",
+    "href": "e546.htm",
+    "function": "Emulsifier",
+    "more_info": {
+      "origin": "Produced by heating magnesiumphosphate.",
+      "characteristics": "",
+      "products": "Processed cheese",
+      "daily_intake": "",
+      "side_effects": "Phosphates are normal essential salts for the body. In view of the need to avoid calcium deficiency, their use is limited, as they bind to calcium readily. They have no side effects.",
+      "dietary_restrictions": "None. 546 can be used by all religious groups, vegetarians and vegans."
+    }
+  },
+  "550": {
+    "code": "550",
+    "name": "Sodium silicates",
+    "href": "e550.htm",
+    "function": "Anti-caking agent",
+    "more_info": {
+      "origin": "Produced by heating siliciumdioxide (quartz, sand) and sodiumcarbonate.",
+      "characteristics": "",
+      "products": "Canned peaches, preserved eggs, vanillapowder.",
+      "daily_intake": "",
+      "side_effects": "None known",
+      "dietary_restrictions": "None. 550 can be used by all religious groups, vegetarians and vegans."
+    }
+  },
+  "551": {
+    "code": "E551",
+    "name": "Silicium dioxide",
+    "href": "e551.htm",
+    "function": "Anti caking agent",
+    "more_info": {
+      "origin": "Produced from sand.",
+      "characteristics": "",
+      "products": "Many dry products",
+      "daily_intake": "",
+      "side_effects": "None known",
+      "dietary_restrictions": "None. E551 can be used by all religious groups, vegetarians and vegans."
+    }
+  },
+  "552": {
+    "code": "E552",
+    "name": "Calcium silicate",
+    "href": "e552.htm",
+    "function": "Anti caking agent",
+    "more_info": {
+      "origin": "Produced from chalk and special sand.",
+      "characteristics": "",
+      "products": "Many dry products",
+      "daily_intake": "",
+      "side_effects": "None known",
+      "dietary_restrictions": "None. E552 can be used by all religious groups, vegetarians and vegans."
+    }
+  },
+  "553": {
+    "code": "E553",
+    "name": "Magnesium silicate",
+    "href": "e553.htm",
+    "function": "Anti caking agent",
+    "more_info": {
+      "origin": "Produced from magnesium sulphate and sodium silicate or directly from minerals such as talcum, sepiolite and steatite",
+      "characteristics": "",
+      "products": "Many dry products. Main use is in cosmetics.",
+      "daily_intake": "",
+      "side_effects": "None known",
+      "dietary_restrictions": "None. E553 can be used by all religious groups, vegetarians and vegans."
+    }
+  },
+  "554": {
+    "code": "E554",
+    "name": "Aluminium sodium silicate",
+    "href": "e554.htm",
+    "function": "Anti caking agent",
+    "more_info": {
+      "origin": "Produced from several natural minerals.",
+      "characteristics": "",
+      "products": "Many dry products.",
+      "daily_intake": "",
+      "side_effects": "None known",
+      "dietary_restrictions": "None. E554 can be used by all religious groups, vegetarians and vegans."
+    }
+  },
+  "555": {
+    "code": "E555",
+    "name": "Aluminium potassium silicate",
+    "href": "e555.htm",
+    "function": "Anti caking agent",
+    "more_info": {
+      "origin": "Produced from several natural minerals.",
+      "characteristics": "",
+      "products": "Dry products, but hardly used.",
+      "daily_intake": "",
+      "side_effects": "None known",
+      "dietary_restrictions": "None. E555 can be used by all religious groups, vegetarians and vegans."
+    }
+  },
+  "556": {
+    "code": "E556",
+    "name": "Aluminium calcium silicate",
+    "href": "e556.htm",
+    "function": "Anti caking agent",
+    "more_info": {
+      "origin": "Produced from several natural minerals.",
+      "characteristics": "",
+      "products": "Dry products, but hardly used.",
+      "daily_intake": "",
+      "side_effects": "None known",
+      "dietary_restrictions": "None. E556 can be used by all religious groups, vegetarians and vegans."
+    }
+  },
+  "557": {
+    "code": "557",
+    "name": "Zinc silicate",
+    "href": "e557.htm",
+    "function": "Anti caking agent",
+    "more_info": {
+      "origin": "Produced from the mineral willemite, also produced from siliciumoxide (quartz) and zinc oxide.",
+      "characteristics": "",
+      "products": "Dry products, but hardly used.",
+      "daily_intake": "",
+      "side_effects": "None known",
+      "dietary_restrictions": "None. 557 can be used by all religious groups, vegetarians and vegans."
+    }
+  },
+  "558": {
+    "code": "E558",
+    "name": "Bentonite",
+    "href": "e558.htm",
+    "function": "Anti caking agent",
+    "more_info": {
+      "origin": "A natural type of clay from volcanic origin.",
+      "characteristics": "",
+      "products": "Fruit juices, aromas. Main use, however, is in cosmetics.",
+      "daily_intake": "",
+      "side_effects": "None known",
+      "dietary_restrictions": "None. E558 can be used by all religious groups, vegetarians and vegans."
+    }
+  },
+  "559": {
+    "code": "E559",
+    "name": "Kaolin",
+    "href": "e559.htm",
+    "function": "Anti caking agent",
+    "more_info": {
+      "origin": "A fine usually white clay formed by the weathering of aluminous minerals (such as feldspar).",
+      "characteristics": "",
+      "products": "Instant coffee, milk powder, aromas. Main use, however, is in cosmetics and pharmaceutical preparations (antacid).",
+      "daily_intake": "",
+      "side_effects": "None known",
+      "dietary_restrictions": "None. E559 can be used by all religious groups, vegetarians and vegans."
+    }
+  },
+  "570": {
+    "code": "E570",
+    "name": "Stearic acid",
+    "href": "e570.htm",
+    "function": "Anti caking agent",
+    "more_info": {
+      "origin": "A normal part of any fat. Commercially prepared from cottonseed oil, but animal origin can not be excluded.",
+      "characteristics": "",
+      "products": "Chewing gum, butter aroma/flavour, bakery products. Also used in cosmetics and pharmaceutical preparations.",
+      "daily_intake": "",
+      "side_effects": "None known",
+      "dietary_restrictions": "Although stearic acid and stearates are commercially obtained from plant sources, the use of animal fat (including pork and beef) can not be excluded. Only the producer can provide information on the origin. The use by vegans, vegetarians, Muslims, Jews and Hindus thus is not recommended."
+    }
+  },
+  "571": {
+    "code": "571",
+    "name": "Ammonium stearate",
+    "href": "e571.htm",
+    "function": "Anti caking agent",
+    "more_info": {
+      "origin": "Ammonium salt of stearic acid, .",
+      "characteristics": "",
+      "products": "Sugar, but mainly used in cosmetics.",
+      "daily_intake": "",
+      "side_effects": "None known",
+      "dietary_restrictions": "Although stearic acid and stearates are commercially obtained from plant sources, the use of animal fat (including pork and beef) can not be excluded. Only the producer can provide information on the origin. The use by vegans, vegetarians, Muslims, Jews and Hindus thus is not recommended."
+    }
+  },
+  "572": {
+    "code": "572",
+    "name": "Magnesium stearate",
+    "href": "e572.htm",
+    "function": "Anti caking agent",
+    "more_info": {
+      "origin": "Magnesium salt of stearic acid, .",
+      "characteristics": "",
+      "products": "Confectionary. Main use in cosmetics (baby powder)",
+      "daily_intake": "",
+      "side_effects": "None known",
+      "dietary_restrictions": "Although stearic acid and stearates are commercially obtained from plant sources, the use of animal fat (including pork and beef) can not be excluded. Only the producer can provide information on the origin. The use by vegans, vegetarians, Muslims, Jews and Hindus thus is not recommended."
+    }
+  },
+  "573": {
+    "code": "573",
+    "name": "Aluminium stearate",
+    "href": "e573.htm",
+    "function": "Anti caking agent",
+    "more_info": {
+      "origin": "Aluminium salt of stearic acid, .",
+      "characteristics": "",
+      "products": "Chewing gum, instant coffee",
+      "daily_intake": "",
+      "side_effects": "None known",
+      "dietary_restrictions": "Although stearic acid and stearates are commercially obtained from plant sources, the use of animal fat (including pork and beef) can not be excluded. Only the producer can provide information on the origin. The use by vegans, vegetarians, Muslims, Jews and Hindus thus is not recommended."
+    }
+  },
+  "574": {
+    "code": "E574",
+    "name": "Gluconic acid",
+    "href": "e574.htm",
+    "function": "Sequestrant",
+    "more_info": {
+      "origin": "Synthetic, or produced by fungi from sugar.",
+      "characteristics": "",
+      "products": "Fruit juices, jelly-powder",
+      "daily_intake": "",
+      "side_effects": "None known",
+      "dietary_restrictions": "None. E574 can be used by all religious groups, vegetarians and vegans."
+    }
+  },
+  "575": {
+    "code": "E575",
+    "name": "D-glucono-1, 5-lactone",
+    "href": "e575.htm",
+    "function": "Sequestrant",
+    "more_info": {
+      "origin": "Synthetic, or produced by bacteria from sugar.",
+      "characteristics": "",
+      "products": "Many different products",
+      "daily_intake": "",
+      "side_effects": "None known",
+      "dietary_restrictions": "None. E575 can be used by all religious groups, vegetarians and vegans."
+    }
+  },
+  "576": {
+    "code": "E576",
+    "name": "Sodium gluconate",
+    "href": "e576.htm",
+    "function": "Sequestrant",
+    "more_info": {
+      "origin": "Sodium salt of gluconic acid, .",
+      "characteristics": "",
+      "products": "Many different products",
+      "daily_intake": "",
+      "side_effects": "None known",
+      "dietary_restrictions": "None. E576 can be used by all religious groups, vegetarians and vegans."
+    }
+  },
+  "577": {
+    "code": "E577",
+    "name": "Potassium gluconate",
+    "href": "e577.htm",
+    "function": "Sequestrant",
+    "more_info": {
+      "origin": "Potassium salt of gluconic acid, .",
+      "characteristics": "",
+      "products": "Pudding powders, custard",
+      "daily_intake": "",
+      "side_effects": "None known",
+      "dietary_restrictions": "None. E577 can be used by all religious groups, vegetarians and vegans."
+    }
+  },
+  "578": {
+    "code": "E578",
+    "name": "Calcium gluconate",
+    "href": "e578.htm",
+    "function": "Firming agent, sequestrant",
+    "more_info": {
+      "origin": "Calcium salt of gluconic acid, .",
+      "characteristics": "",
+      "products": "Pudding powders, custard, canned vegetables, bakery products.",
+      "daily_intake": "",
+      "side_effects": "None known",
+      "dietary_restrictions": "None. E578 can be used by all religious groups, vegetarians and vegans."
+    }
+  },
+  "579": {
+    "code": "E579",
+    "name": "Ferro gluconate",
+    "href": "e579.htm",
+    "function": "Colour and nutrient",
+    "more_info": {
+      "origin": "Iron salt of gluconic acid, .",
+      "characteristics": "",
+      "products": "Olives, food supplements.",
+      "daily_intake": "",
+      "side_effects": "None known",
+      "dietary_restrictions": "None. E579 can be used by all religious groups, vegetarians and vegans."
+    }
+  },
+  "585": {
+    "code": "E585",
+    "name": "Ferro lactate",
+    "href": "e585.htm",
+    "function": "Nutrient",
+    "more_info": {
+      "origin": "Iron salt of lactic acid, .",
+      "characteristics": "",
+      "products": "Infant formula",
+      "daily_intake": "",
+      "side_effects": "None known",
+      "dietary_restrictions": "None, lactic acid and lactates can be consumed by all religious groups, vegans and vegetarians. Although the name refers to milk, it is mot made from milk and thus suitable for people with milk allergy or lactose intolerance."
+    }
+  }
+}

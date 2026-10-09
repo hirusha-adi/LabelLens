@@ -1,0 +1,744 @@
+{
+  "300": {
+    "code": "E300",
+    "name": "L- Ascorbic acid",
+    "href": "e300.htm",
+    "function": "Natural anti-oxidant, vitamin C",
+    "more_info": {
+      "origin": "A cid, which occurs naturally in most fruits and vegetables. Commercially synthesised by bacterial fermentation of glucose, followed by chemical oxidation.",
+      "characteristics": "Ascorbic acid is vitamin C; however, it cannot be added as a vitamin supplement when labelled E300. When added to foods it functions as an anti-oxidant and bread enhancer.",
+      "products": "Many different products.",
+      "daily_intake": "No limit.",
+      "side_effects": "No side effects known in the concentrations used.",
+      "dietary_restrictions": "ascorbic acid and ascorbates can be consumed by all religious groups, vegans and vegetarians."
+    }
+  },
+  "301": {
+    "code": "E301",
+    "name": "Sodium L-ascorbate",
+    "href": "e301.htm",
+    "function": "Natural anti-oxidant, vitamin C",
+    "more_info": {
+      "origin": "Sodium salt of ascorbic acid (vitamin C, a n atural acid), which occurs naturally in most fruits and vegetables. Commercially synthesised by bacterial fermentation of glucose, followed by chemical oxidation.",
+      "characteristics": "Anti-oxidant and bread enhancer. It prevents browning of fruits as well as formation of nitrosamines in meat. Ascorbic acid is vitamin C; however, it cannot be added as a vitamin supplement when labelled E300.",
+      "products": "Many different products",
+      "daily_intake": "No limit.",
+      "side_effects": "No side effects known in the concentrations used.",
+      "dietary_restrictions": "ascorbic acid and ascorbates can be consumed by all religious groups, vegans and vegetarians."
+    }
+  },
+  "302": {
+    "code": "E302",
+    "name": "Calcium L-ascorbate",
+    "href": "e302.htm",
+    "function": "Natural anti-oxidant, vitamin C",
+    "more_info": {
+      "origin": "Calcium salt of ascorbic acid (vitamin C, a n atural acid), which occurs naturally in most fruits and vegetables. Commercially synthesised by bacterial fermentation of glucose, followed by chemical oxidation.",
+      "characteristics": "Anti-oxidant and bread enhancer. It prevents browning of fruits as well as formation of nitrosamines in meat. Ascorbic acid is vitamin C; however, it cannot be added as a vitamin supplement when labelled E302.",
+      "products": "Many different products.",
+      "daily_intake": "No limit.",
+      "side_effects": "No side effects known in the concentrations used.",
+      "dietary_restrictions": "ascorbic acid and ascorbates can be consumed by all religious groups, vegans and vegetarians."
+    }
+  },
+  "304": {
+    "code": "E304",
+    "name": "6-0-palmitoyl-L-ascorbic acid",
+    "href": "e304.htm",
+    "function": "Synthetic anti-oxidant",
+    "more_info": {
+      "origin": "Combination of the fatty acid palmitate with ascorbic acid (vitamin C, a n atural acid), which occurs naturally in most fruits and vegetables. Palmitic acid is produced from fat (for ascorbate see ).",
+      "characteristics": "Anti-oxidant in fatty products, especially added to prevent rancidity in plant oils with many unsaturated fatty acids. Also used for the food colours E160 and E161 to prevent oxidation of these colours.",
+      "products": "Many different (fatty) products.",
+      "daily_intake": "",
+      "side_effects": "No side effects known in the concentrations used.",
+      "dietary_restrictions": "Ascorbic acid and ascorbates can normally be consumed by all religious groups, vegans and vegetarians. However, there is the possibility that the palmitic acid used is obtained from animal fat, although the main source is vegetable fat. Use of animal (incl. pork) fat cannot be ruled out completely."
+    }
+  },
+  "306": {
+    "code": "E306",
+    "name": "Extracts of tocopherols",
+    "href": "e306.htm",
+    "function": "Natural anti-oxidant, vitamin E",
+    "more_info": {
+      "origin": "Extract of vegetable oils rich in tocopherols (vitamin E).",
+      "characteristics": "Anti-oxidant in fatty products, especially added to prevent rancidity of animal oils. Vitamin Eactivity is limited. Applications are limited due to the strong flavour it imparts.",
+      "products": "A nimal and vegetable oils and fats, cheese, soups, etc.",
+      "daily_intake": "Up to 2 mg/kg body weight.",
+      "side_effects": "Vitamin Ecan cause several side effects in high concentrations. These are not associated with the use of tocopherols as additives, but as vitamin supplement.",
+      "dietary_restrictions": "Tocopherols can be used by all religious groups, vegans and vegetarians."
+    }
+  },
+  "307": {
+    "code": "E307",
+    "name": "alfa- Tocopherol",
+    "href": "e307.htm",
+    "function": "Synthetic anti-oxidant, vitamin E",
+    "more_info": {
+      "origin": "Extract of vegetable oils rich in tocopherols (vitamin E), especially sunflower oil. Can also be made by chemical synthesis.",
+      "characteristics": "Anti-oxidant in fatty products, especially added to prevent rancidity of animal oils. High vitamin Eactivity. Applications are limited due to the strong flavour it imparts.",
+      "products": "Animal and vegetable oils and fats, cheese, soups, etc.",
+      "daily_intake": "Up to 2 mg/kg body weight.",
+      "side_effects": "Vitamin Ecan cause several side effects in high concentrations. These are not associated with the use of tocopherols as additives, but as vitamin supplement.",
+      "dietary_restrictions": "Tocopherols can be used by all religious groups, vegans and vegetarians."
+    }
+  },
+  "308": {
+    "code": "E308",
+    "name": "gamma-Tocopherol",
+    "href": "e308.htm",
+    "function": "Synthetic anti-oxidant, vitamin E",
+    "more_info": {
+      "origin": "Extract of vegetable oils rich in tocopherols (vitamin E), especially soybean oil. Can also be made by chemical synthesis.",
+      "characteristics": "Anti-oxidant in fatty products, especially added to prevent rancidity of olive oil. Rather low vitamin Eactivity.",
+      "products": "Animal and vegetable oils and fats, mainly olive oil.",
+      "daily_intake": "Up to 2 mg/kg body weight.",
+      "side_effects": "Vitamin Ecan cause several side effects in high concentrations. These are not associated with the use of tocopherols as additives, but as vitamin supplement.",
+      "dietary_restrictions": "Tocopherols can be used by all religious groups, vegans and vegetarians."
+    }
+  },
+  "309": {
+    "code": "E309",
+    "name": "delta- Tocopherol",
+    "href": "e309.htm",
+    "function": "Synthetic anti-oxidant, vitamin E",
+    "more_info": {
+      "origin": "Extract of vegetable oils rich in tocopherols (vitamin E), especially soybean oil. Can also be made by chemical synthesis.",
+      "characteristics": "Anti-oxidant in fatty products, especially added to prevent rancidity of olive oil. Rather low vitamin Eactivity. Applications are limited due to the strong flavour it imparts.",
+      "products": "A nimal and vegetable oils and fats, soups, etc.",
+      "daily_intake": "Up to 2 mg/kg body weight.",
+      "side_effects": "Vitamin Ecan cause several side effects in high concentrations. These are not associated with the use of tocopherols as additives, but as vitamin supplement.",
+      "dietary_restrictions": "Tocopherols can be used by all religious groups, vegans and vegetarians."
+    }
+  },
+  "310": {
+    "code": "E310",
+    "name": "Propyl gallate",
+    "href": "e310.htm",
+    "function": "Synthetic anti-oxidant",
+    "more_info": {
+      "origin": "Synthesised from propanol and gallic acid, which is produced from plant tannins.",
+      "characteristics": "Anti-oxidant in fatty products, especially added to prevent rancidity.",
+      "products": "Used in many products, but use is restricted in foods. Widely used in cosmetics.",
+      "daily_intake": "Up to 1.4 mg/kg body weight.",
+      "side_effects": "It is degraded in the intestine to propanol and gallic acid. Gallic acid can cause eczema, stomach problems and hyperactivity.",
+      "dietary_restrictions": "Gallates can be used by all religious groups, vegans and vegetarians."
+    }
+  },
+  "311": {
+    "code": "E311",
+    "name": "Octyl gallate",
+    "href": "e311.htm",
+    "function": "Synthetic anti-oxidant",
+    "more_info": {
+      "origin": "Synthesised from octanol and gallic acid, which is produced from plant tannins.",
+      "characteristics": "Anti-oxidant in fatty products, especially added to prevent rancidity.",
+      "products": "Oils and fats, margarine, etc.",
+      "daily_intake": "Up to 0.5 mg/kg body weight.",
+      "side_effects": "It is degraded in the intestine to octanol and gallic acid. Gallic acid can cause eczema, stomach problems and hyperactivity.",
+      "dietary_restrictions": "Gallates can be used by all religious groups, vegans and vegetarians."
+    }
+  },
+  "312": {
+    "code": "E312",
+    "name": "Dodecyl gallate",
+    "href": "e312.htm",
+    "function": "Synthetic anti-oxidant",
+    "more_info": {
+      "origin": "Synthesised from lauryl alcohol and gallic acid, which is produced from plant tannins.",
+      "characteristics": "Anti-oxidant in fatty products, especially added to prevent rancidity.",
+      "products": "Oils and fats, margarine, soups, etc.",
+      "daily_intake": "Up to 0.05 mg/kg body weight.",
+      "side_effects": "It is degraded in the intestine to lauryl alcohol and gallic acid. Gallic acid can cause eczema, stomach problems and hyperactivity.",
+      "dietary_restrictions": "E312 can normally be consumed by all religious groups, vegans and vegetarians. However, there is the possibility that the lauric acid used for lauryl alcohol is obtained from animal fat, although the main source is vegetable fat. Use of animal (incl. pork) fat cannot be ruled out completely. It does not contain alcohol (ethanol)."
+    }
+  },
+  "313": {
+    "code": "313",
+    "name": "Thiodipropionic acid",
+    "href": "e313.htm",
+    "function": "Synthetic anti-oxidant",
+    "more_info": {
+      "origin": "Synthetic anti-oxidant.",
+      "characteristics": "Anti-oxidant in fatty products, especially added to prevent rancidity.",
+      "products": "Oils and fats, (cosmetics).",
+      "daily_intake": "Up to 3 mg/kg body weight.",
+      "side_effects": "None known in the concentrations used.",
+      "dietary_restrictions": "313 can normally be consumed by all religious groups, vegans and vegetarians."
+    }
+  },
+  "314": {
+    "code": "314",
+    "name": "Guaiac Gum",
+    "href": "e314.htm",
+    "function": "Natural anti-oxidant",
+    "more_info": {
+      "origin": "Natural resin from the tree Guajacum officinale  and some related tropical trees.",
+      "characteristics": "Anti-oxidant in cola.",
+      "products": "Cola.",
+      "daily_intake": "Up to 2.5 mg/kg body weight.",
+      "side_effects": "None known in the concentrations used, although some allergies have been reported.",
+      "dietary_restrictions": "314 can normally be consumed by all religious groups, vegans and vegetarians."
+    }
+  },
+  "315": {
+    "code": "E315",
+    "name": "Erythorbic acid",
+    "href": "e315.htm",
+    "function": "Synthetic anti-oxidant",
+    "more_info": {
+      "origin": "Synthetic isomer of vitamin C, but with only 1/20 of the vitamin activity.",
+      "characteristics": "Anti-oxidant.",
+      "products": "Many products.",
+      "daily_intake": "No limit.",
+      "side_effects": "None known in the concentrations used.",
+      "dietary_restrictions": "Erythorbic acid and erythorbates can normally be consumed by all religious groups, vegans and vegetarians."
+    }
+  },
+  "316": {
+    "code": "E316",
+    "name": "Sodium erythorbate",
+    "href": "e316.htm",
+    "function": "Synthetic anti-oxidant",
+    "more_info": {
+      "origin": "Sodium salt of erythorbic acid, a synthetic isomer of vitamin C (but with only 1/20 of the vitamin activity).",
+      "characteristics": "Anti-oxidant in meat products.",
+      "products": "",
+      "daily_intake": "No limit.",
+      "side_effects": "None known in the concentrations used.",
+      "dietary_restrictions": "Erythorbic acid and erythorbates can normally be consumed by all religious groups, vegans and vegetarians."
+    }
+  },
+  "319": {
+    "code": "319",
+    "name": "Butylhydroxinon",
+    "href": "e319.htm",
+    "function": "Synthetic anti-oxidant",
+    "more_info": {
+      "origin": "Synthetic antioxidant",
+      "characteristics": "Anti-oxidant in oils.",
+      "products": "Oils and fats.",
+      "daily_intake": "Up to 0.02 mg/kg body weight.",
+      "side_effects": "None known in the concentrations used.",
+      "dietary_restrictions": "319 can normally be consumed by all religious groups, vegans and vegetarians."
+    }
+  },
+  "320": {
+    "code": "E320",
+    "name": "Butylated hydroxyanisole",
+    "href": "e320.htm",
+    "function": "Synthetic anti-oxidant",
+    "more_info": {
+      "origin": "Synthetic antioxidant",
+      "characteristics": "Anti-oxidant in fats and fatty products to prevent rancidity.",
+      "products": "Wide range of fat-containing products.",
+      "daily_intake": "Up to 0.5 mg/kg body weight.",
+      "side_effects": "None known in the concentrations used, although some pseudo-allergic reactions have been reported. BHA in combination with high concentrations of vitamin C can produce free radicals, which can cause damage to the components of cells, including DNA. This has prompted the EU to restrict the use of BHA in the near future.",
+      "dietary_restrictions": "E320 can normally be consumed by all religious groups, vegans and vegetarians."
+    }
+  },
+  "321": {
+    "code": "E321",
+    "name": "Butylated hydroxytoluene",
+    "href": "e321.htm",
+    "function": "Synthetic anti-oxidant",
+    "more_info": {
+      "origin": "Synthetic antioxidant.",
+      "characteristics": "Anti-oxidant in fats and fatty products to prevent rancidity.",
+      "products": "Wide range of fat-containing products.",
+      "daily_intake": "Up to 0.3 mg/kg body weight.",
+      "side_effects": "BHT can cause liver damage in high concentrations; (pseudo-) allergic symptoms have also been reported. In some people with a hereditary isomer of a specific liver enzyme it can cause migraine. Due to the side effects, the EU has restricted its use; thus, the number of BHT-containing products will decline in the next few years.",
+      "dietary_restrictions": "E321 can normally be consumed by all religious groups, vegans and vegetarians."
+    }
+  },
+  "322": {
+    "code": "E322",
+    "name": "Lecithin",
+    "href": "e322.htm",
+    "function": "Natural emulsifier",
+    "more_info": {
+      "origin": "The term lecithin refers to a group of compounds found in every living organism, as they are part of the cell wall of all cells. Lecithin is commercially isolated (mainly) from soybeans or egg yolk. The chemical composition of these two products (sources) is rather different, which determines the applications.",
+      "characteristics": "Emulsifier and stabiliser of water-oil/fat mixtures. Used to soften chocolate.",
+      "products": "Wide range of products.",
+      "daily_intake": "No limit",
+      "side_effects": "Lecithin is a normal component of body cells and will be degraded and used by the body without side effects.",
+      "dietary_restrictions": "Soy lecithin can normally be consumed by all religious groups, vegans and vegetarians. Egg lecithin should be avoided by vegans. It does not elicit allergic reactions in people who are allergic to soybeans or eggs."
+    }
+  },
+  "325": {
+    "code": "E325",
+    "name": "Sodium lactate",
+    "href": "e325.htm",
+    "function": "Sodium salt of lactic acid",
+    "more_info": {
+      "origin": "Sodium salt of lactic acid (), a natural acid produced by bacteria in fermented foods. All fermented foods are very rich in lactic acid. Commercially produced by bacterial fermentation on starch and molasses. Also produced in large amounts in the large intestine by the resident bacteria.",
+      "characteristics": "Lactic acid and lactates are used as preservatives, mainly against yeasts and fungi. It is also used to increase stability of anti-oxidants and to prevent drying of different products.",
+      "products": "cheese, confectionary, icecream, fruit jellies, soups, canned fruits",
+      "daily_intake": "no limit",
+      "side_effects": "",
+      "dietary_restrictions": ""
+    }
+  },
+  "326": {
+    "code": "E326",
+    "name": "Potassium lactate",
+    "href": "e326.htm",
+    "function": "Potassium salt of lactic acid",
+    "more_info": {
+      "origin": "Potassium salt of lactic acid (), a natural acid produced by bacteria in fermented foods. All fermented foods are very rich in lactic acid. Commercially produced by bacterial fermentation on starch and molasses. Also produced in large amounts in the large intestine by the resident bacteria.",
+      "characteristics": "Lactic acid and lactates are used as preservatives, mainly against yeasts and fungi. It is also used to increase stability of anti-oxidants and to prevent drying of different products.",
+      "products": "cheese, confectionary, icecream, fruit jellies, soups, canned fruits",
+      "daily_intake": "no limit",
+      "side_effects": "",
+      "dietary_restrictions": ""
+    }
+  },
+  "327": {
+    "code": "E327",
+    "name": "Calcium lactate",
+    "href": "e327.htm",
+    "function": "Calcium salt of lactic acid",
+    "more_info": {
+      "origin": "Calcium salt of lactic acid (), a natural acid produced by bacteria in fermented foods. All fermented foods are very rich in lactic acid. Commercially produced by bacterial fermentation on starch and molasses. Also produced in large amounts in the large intestine by the resident bacteria.",
+      "characteristics": "Lactic acid and lactates are used as preservatives, mainly against yeasts and fungi. It is mainly used to stabilize the structure of fruits, vegetables and potatoes during processing. It also has anti-oxidant activity.",
+      "products": "cream, cheese, icecream, soup, baking powder",
+      "daily_intake": "no limit",
+      "side_effects": "",
+      "dietary_restrictions": ""
+    }
+  },
+  "330": {
+    "code": "E330",
+    "name": "Citric acid",
+    "href": "e330.htm",
+    "function": "Acidity regulators",
+    "more_info": {
+      "origin": "Citric acid is a compound found in every living organism, as it is part of the key metabolic pathways in all body cells. Large concentrations are found in citrus fruits, kiwi, strawberries and many other fruits. It is commercially prepared by fermentation of molasses with the mould Aspergillus niger.",
+      "characteristics": "Citric acid has many functions \u0096 it enhances the activity of many antioxidants, but is no antioxidant by itself. It is mainly used as an acidity regulator as well as aroma compound. It increases gel strength in marmalades and decreases enzymatic browning in fruits and fruit products.",
+      "products": "Wide range of products.",
+      "daily_intake": "No limit",
+      "side_effects": "Citric acid is a normal component of body cells and will be degraded and used by the body without side effects. Pseudo-allergic reactions (intolerance) have been reported, but these are very rare. People with such intolerance should also avoid all soft fruits and berries and products made thereof. It does not cause cancer (see the following ).",
+      "dietary_restrictions": "Citric acid and citrates can normally be consumed by all religious groups, vegans and vegetarians. Citric acid does not cause allergic reactions in people who are allergic to oranges and citrus fruits, as it is commercially made from sugar, not fruits."
+    }
+  },
+  "331": {
+    "code": "E331",
+    "name": "Sodium citrates",
+    "href": "e331.htm",
+    "function": "Acidity regulators",
+    "more_info": {
+      "origin": "Sodium salts of citric acid, a compound found in every living organism, as it is part of the key metabolic pathways in all body cells. Large concentrations are found in citrus fruits, kiwi, strawberries and many other fruits. Commercially prepared by fermentation of molasses with the mould Aspergillus niger .",
+      "characteristics": "Citric acid and citrates have many functions \u0096 they increase the activity of many antioxidants, and exhibit some antioxidant activity. They are mainly used as acidity regulators as well as aroma compounds. They increase gel strength in marmalades and decrease enzymatic browning in fruits and fruit products.",
+      "products": "Wide range of products.",
+      "daily_intake": "No limit.",
+      "side_effects": "Citric acid is a normal component of body cells and will be degraded and used by the body without side effects. Pseudo-allergic reactions (intolerance) have been reported, but these are very rare. People with such intolerance should also avoid all soft fruits and berries and products made thereof. It does not cause cancer (see the following ).",
+      "dietary_restrictions": "Citric acid and citrates can normally be consumed by all religious groups, vegans and vegetarians. Citric acid does not cause allergic reactions in people who are allergic to oranges and other citrus fruits, as it is commercially made from sugar, not fruits."
+    }
+  },
+  "332": {
+    "code": "E332",
+    "name": "Potassium citrates",
+    "href": "e332.htm",
+    "function": "Acidity regulators",
+    "more_info": {
+      "origin": "Potassium salts of citric acid, a compound found in every living organism, as it is part of the key metabolic pathways in all body cells. Large concentrations are found in citrus fruits, kiwi, strawberries and many other fruits. Commercially prepared by fermentation of molasses with the mould Aspergillus niger .",
+      "characteristics": "Potassium citrate is used as a buffer, to bind metal ions and as a nutrient source for yeasts in special fermented products. E332 (ii) is also used as an antacid (against stomach acid).",
+      "products": "Wide range of products, especially for sodium-free (salt-free) products.",
+      "daily_intake": "No limit.",
+      "side_effects": "Citric acid is a normal component of body cells and will be degraded and used by the body without side effects. Pseudo-allergic reactions (intolerance) have been reported, but these are very rare. People with such intolerance should also avoid all soft fruits and berries and products made thereof. It does not cause cancer (see the following ).",
+      "dietary_restrictions": "Citric acid and citrates can normally be consumed by all religious groups, vegans and vegetarians. Citric acid does not cause allergic reactions in people who are allergic to oranges and other citrus fruits, as it is commercially made from sugar, not fruits."
+    }
+  },
+  "333": {
+    "code": "E333",
+    "name": "Mono, di, and Tri- Calcium citrate",
+    "href": "e333.htm",
+    "function": "Acidity regulators",
+    "more_info": {
+      "origin": "Calcium salts of citric acid, a compound found in every living organism, as it is part of the key metabolic pathways in all body cells. Large concentrations are found in citrus fruits, kiwi, strawberries and many other fruits. Commercially prepared by fermentation of molasses with the mould Aspergillus niger .",
+      "characteristics": "Calcium citrate is used as a buffer, to bind metal ions and to improve the texture of canned vegetables.",
+      "products": "Few products, due to limited solubility.",
+      "daily_intake": "No limit.",
+      "side_effects": "Citric acid is a normal component of body cells and will be degraded and used by the body without side effects. Pseudo-allergic reactions (intolerance) have been reported, but these are very rare. People with such intolerance should also avoid all soft fruits and berries and products made thereof. It does not cause  cancer (see the following ).",
+      "dietary_restrictions": "Citric acid and citrates can normally be consumed by all religious groups, vegans and vegetarians. Citric acid does not cause allergic reactions in people who are allergic to oranges and other citrus fruits, as it is commercially made from sugar, not fruits."
+    }
+  },
+  "334": {
+    "code": "E334",
+    "name": "L-(+)- tartaric acid",
+    "href": "e334.htm",
+    "function": "Natural acid",
+    "more_info": {
+      "origin": "Natural acid, present in many fruits, especially grapes. Commercially prepared from waste products of the wine industry (grape skins).",
+      "characteristics": "Acidity regulator and taste enhancer of fruits and fruity flavours, as well as stabiliser of colour in fruits and fruit products.",
+      "products": "Many products, mainly confectionery, soft drinks, wine, and marmalade.",
+      "daily_intake": "Up to 30 mg/kg body weight.",
+      "side_effects": "It is not metabolised in the body; thus, it is excreted in the urine without side effects.",
+      "dietary_restrictions": "Tartaric acid and tartarates can normally be consumed by all religious groups, vegans and vegetarians."
+    }
+  },
+  "335": {
+    "code": "E335",
+    "name": "mono/di Sodium L-(+)- tartrate",
+    "href": "e335.htm",
+    "function": "Salt of tartaric acid",
+    "more_info": {
+      "origin": "Sodium salts of tartaric acid, a natural acid present in many fruits, especially grapes. Commercially prepared from waste products of the wine industry (grape skins).",
+      "characteristics": "Sodium tartarate is an acidity regulator and anti-oxidant.",
+      "products": "Many products, mainly confectionery, marmalade and sausages.",
+      "daily_intake": "Up to 30 mg/kg body weight.",
+      "side_effects": "It is not metabolised in the body; thus, it is excreted in the urine without side effects.",
+      "dietary_restrictions": "Tartaric acid and tartarates can normally be consumed by all religious groups, vegans and vegetarians."
+    }
+  },
+  "336": {
+    "code": "E336",
+    "name": "monoPotassium L-(+)- tartrate",
+    "href": "e336.htm",
+    "function": "Salt of tartaric acid",
+    "more_info": {
+      "origin": "Potassium salts of tartaric acid, a natural acid present in many fruits, especially grapes. Commercially prepared from waste products of the wine industry (grape skins).",
+      "characteristics": "Potassium tartarate is an acidity regulator and anti-oxidant. Also used in producing baking powder and as emulsifier.",
+      "products": "Many products, mainly confectionery and bakery products.",
+      "daily_intake": "Up to 30 mg/kg body weight.",
+      "side_effects": "It is not metabolised in the body; thus, it is excreted in the urine without side effects.",
+      "dietary_restrictions": "Tartaric acid and tartarates can normally be consumed by all religious groups, vegans and vegetarians."
+    }
+  },
+  "337": {
+    "code": "E337",
+    "name": "Potassium sodium L-(+)- tartrate",
+    "href": "e337.htm",
+    "function": "Salt of tartaric acid",
+    "more_info": {
+      "origin": "Potassium and sodium salt of tartaric acid, a natural acid present in many fruits, especially grapes. Commercially prepared from waste products of the wine industry (grape skins).",
+      "characteristics": "Acidity regulator and anti-oxidant. Also used as a stabiliser and emulsifier.",
+      "products": "Many products, mainly meat and cheese products.",
+      "daily_intake": "Up to 30 mg/kg body weight.",
+      "side_effects": "It is not metabolised in the body; thus, it is excreted in the urine without side effects.",
+      "dietary_restrictions": "Tartaric acid and tartarates can normally be consumed by all religious groups, vegans and vegetarians."
+    }
+  },
+  "338": {
+    "code": "E338",
+    "name": "Phosphoric acid",
+    "href": "e338.htm",
+    "function": "Buffers",
+    "more_info": {
+      "origin": "Normal constituent of many fruits and vegetables. Commercially produced from phosphate mined in the US.",
+      "characteristics": "Acidity regulator and chelating agent (used to bind metal ions). Several other very specific functions are: it increases the permeability of salt in meats and acts as an anti-oxidant.",
+      "products": "Many products, mainly cola, meat and cheese products.",
+      "daily_intake": "Up to 70 mg/kg body weight.",
+      "side_effects": "Phosphates are normal essential salts for the body. In view of the need to avoid calcium deficiency, the use is limited, as it binds up calcium readily. It has no side effects.",
+      "dietary_restrictions": "Phosphoric acid and phosphates can normally be consumed by all religious groups, vegans and vegetarians. Although animal bones are mainly made up of phosphates, commercial phosphate is not made from bones."
+    }
+  },
+  "339": {
+    "code": "E339",
+    "name": "Sodium orthophosphates",
+    "href": "e339.htm",
+    "function": "Buffers",
+    "more_info": {
+      "origin": "Sodium salts of phosphoric acid. Normal constituent of the body. Commercially produced from phosphoric acid, which is produced from phosphate mined in the US.",
+      "characteristics": "Sodium phosphate is an acidity regulator and chelating agent (used to bind metal ions). It prevents desiccation and is used as an acid stabiliser in powders as well as to prevent formation of clumps. It increases the activity of antioxidants.",
+      "products": "Many different products.",
+      "daily_intake": "Up to 70 mg/kg body weight.",
+      "side_effects": "Phosphates are normal essential salts for the body. In view of the need to avoid calcium deficiency, their use is limited, as they bind up calcium readily. They have no side effects.",
+      "dietary_restrictions": "Phosphoric acid and phosphates can normally be consumed by all religious groups, vegans and vegetarians. Although animal bones are mainly made up of phosphates, commercial phosphate is not made from bones."
+    }
+  },
+  "340": {
+    "code": "E340",
+    "name": "Potassium orthophosphates",
+    "href": "e340.htm",
+    "function": "Buffers",
+    "more_info": {
+      "origin": "Potassium salts of phosphoric acid. Normal constituent of the body. Commercially produced from phosphoric acid, which is produced from phosphate mined in the US.",
+      "characteristics": "Potassium phosphate is an acidity regulator and chelating agent (used to bind metal ions). It prevents desiccation and is used as an acid stabiliser in powders as well as to prevent formation of clumps. It increases the activity of antioxidants.",
+      "products": "Many different products.",
+      "daily_intake": "Up to 70 mg/kg bodyweight.",
+      "side_effects": "Phosphates are normal essential salts for the body. In view of the need to avoid calcium deficiency, their use is limited, as they bind up calcium readily. They have no side effects.",
+      "dietary_restrictions": "Phosphoric acid and phosphates can normally be consumed by all religious groups, vegans and vegetarians. Although animal bones are mainly made up of phosphates, commercial phosphate is not made from bones."
+    }
+  },
+  "341": {
+    "code": "E341",
+    "name": "Calcium orthophosphates",
+    "href": "e341.htm",
+    "function": "Buffers",
+    "more_info": {
+      "origin": "Calcium salts of phosphoric acid. Normal constituent of the body. Commercially produced from phosphoric acid, which is produced from phosphate mined in the US.",
+      "characteristics": "Calcium phosphate is an acidity regulator, used in baking powder and acts as a bread enhancer. It also binds metal ions, increases the activity of antioxidants and stabilises the texture of canned vegetables. E341 (ii) is used as polishing material in toothpaste. E341 (iii) is mainly used in powders to avoid formation of clumps.",
+      "products": "Many different products, mainly bakery products.",
+      "daily_intake": "Up to 70 mg/kg body weight.",
+      "side_effects": "Phosphates are normal essential salts for the body. In view of the need to avoid calcium deficiency, their use is limited, as they bind to calcium readily. They have no side effects.",
+      "dietary_restrictions": "Phosphoric acid and phosphates can normally be consumed by all religious groups, vegans and vegetarians. Although animal bones are mainly made up of phosphates, commercial phosphate is not made from bones."
+    }
+  },
+  "343": {
+    "code": "343",
+    "name": "Magnesium orthophosphates",
+    "href": "e343.htm",
+    "function": "Buffers",
+    "more_info": {
+      "origin": "Magnesium salts of phosphoric acid. Normal constituent of the body. Commercially produced from phosphoric acid, which is produced from phosphate mined in the US.",
+      "characteristics": "Magnesium phosphate is used as an emulsifier; it also increases the activity of antioxidants. It prevents clumping in powders. Also used as a magnesium salt in functional foods and food supplements.",
+      "products": "Few bakery products, food supplements.",
+      "daily_intake": "Up to 70 mg/kg body weight.",
+      "side_effects": "Phosphates are normal essential salts for the body. In view of the need to avoid calcium deficiency, their use is limited, as they bind up calcium readily. They have no side effects.",
+      "dietary_restrictions": "Phosphoric acid and phosphates can normally be consumed by all religious groups, vegans and vegetarians. Although animal bones are mainly made up of phosphates, commercial phosphate is not made from bones."
+    }
+  },
+  "350": {
+    "code": "E350",
+    "name": "Sodium malate",
+    "href": "e350.htm",
+    "function": "Sodium salt of malic acid",
+    "more_info": {
+      "origin": "Sodium salt of malic acid (), a natural acid present in fruits.",
+      "characteristics": "Sodium malate is used as a buffer and flavouring.",
+      "products": "S oft drinks, confectionery, etc.",
+      "daily_intake": "No limit, but the D,L - and D-isomers are not allowed in infant food, as infants lack the necessary enzymes to metabolise these compounds.",
+      "side_effects": "None known.",
+      "dietary_restrictions": "Malic acid and malates can be used by all religious groups, vegans and vegetarians."
+    }
+  },
+  "351": {
+    "code": "E351",
+    "name": "Potassium malate",
+    "href": "e351.htm",
+    "function": "Potassium salt of malic acid",
+    "more_info": {
+      "origin": "Potassium salts of malic acid (), a natural acid present in fruits.",
+      "characteristics": "Potassium malate is used as a buffer and flavouring.",
+      "products": "Ice cream, fried products, etc.",
+      "daily_intake": "No limit, but the D,L - and D-isomers are not allowed in infant food, as infants lack the necessary enzymes to metabolise these compounds.",
+      "side_effects": "None known.",
+      "dietary_restrictions": "Malic acid and malates can be used by all religious groups, vegans and vegetarians."
+    }
+  },
+  "352": {
+    "code": "E352",
+    "name": "Calcium malate",
+    "href": "e352.htm",
+    "function": "Calcium salt of malic acid",
+    "more_info": {
+      "origin": "Calcium salts of malic acid (), a natural acid present in fruits.",
+      "characteristics": "Calcium malate is used as a thickener and flavouring.",
+      "products": "Ice cream, fried products, marmalade, etc.",
+      "daily_intake": "No limit, but the D,L - and D-isomers are not allowed in infant food, as infants lack the necessary enzymes to metabolise these compounds.",
+      "side_effects": "None known.",
+      "dietary_restrictions": "Malic acid and malates can be used by all religious groups, vegans and vegetarians."
+    }
+  },
+  "353": {
+    "code": "E353",
+    "name": "meta tartaric acid",
+    "href": "e353.htm",
+    "function": "Natural acid",
+    "more_info": {
+      "origin": "Acid, present in sugar cane and produced from glucose.",
+      "characteristics": "Acidity regulator and metal scavenger.",
+      "products": "Wine, fruit juices, etc.",
+      "daily_intake": "Up to 30 mg/kg body weight",
+      "side_effects": "None known, metabolised in the body to tartaric acid.",
+      "dietary_restrictions": "E353 can be used by all religious groups, vegans and vegetarians."
+    }
+  },
+  "354": {
+    "code": "E354",
+    "name": "Calcium tartarate",
+    "href": "e354.htm",
+    "function": "Natural preservative",
+    "more_info": {
+      "origin": "Calcium salt of tartaric acid, a natural acid present in fruits.",
+      "characteristics": "Acidity regulator and preservative.",
+      "products": "Fish and fruit preserves, seaweed products, pharmaceuticals, etc.",
+      "daily_intake": "None defined.",
+      "side_effects": "None known; it is metabolised in the body to tartaric acid.",
+      "dietary_restrictions": "Tartaric acid and tartarates can be used by all religious groups, vegans and vegetarians."
+    }
+  },
+  "355": {
+    "code": "E355",
+    "name": "Adipic acid",
+    "href": "e355.htm",
+    "function": "Natural acid",
+    "more_info": {
+      "origin": "Natural acid present in beets and sugar cane (juice).",
+      "characteristics": "Acidity regulator, aroma compound and some other specific uses.",
+      "products": "Many different products.",
+      "daily_intake": "Up to 5 mg/kg body weight.",
+      "side_effects": "None known, it is metabolised in the body or excreted in the urine.",
+      "dietary_restrictions": "Adipic acid and adipates can be used by all religious groups, vegans and vegetarians."
+    }
+  },
+  "356": {
+    "code": "E356",
+    "name": "Sodium adipate",
+    "href": "e356.htm",
+    "function": "Acidity regulator",
+    "more_info": {
+      "origin": "Sodium salt of adipic acid, a natural acid present in beets and sugar cane (juice).",
+      "characteristics": "Acidity regulator",
+      "products": "Herbal salts",
+      "daily_intake": "Up to 5 mg/kg body weight",
+      "side_effects": "None known; it is metabolised in the body or excreted in the urine.",
+      "dietary_restrictions": "Adipic acid and adipates can be used by all religious groups, vegans and vegetarians."
+    }
+  },
+  "357": {
+    "code": "E357",
+    "name": "Potassium adipate",
+    "href": "e357.htm",
+    "function": "Acidity regulator",
+    "more_info": {
+      "origin": "Potassium salt of adipic acid, a natural acid present in beets and sugar cane (juice).",
+      "characteristics": "Acidity regulator.",
+      "products": "H erbal salts for low-sodium products.",
+      "daily_intake": "Up to 5 mg/kg body weight.",
+      "side_effects": "None known; it is metabolised in the body or excreted in the urine.",
+      "dietary_restrictions": "Adipic acid and adipates can be used by all religious groups, vegans and vegetarians."
+    }
+  },
+  "363": {
+    "code": "E363",
+    "name": "Succinic acid",
+    "href": "e363.htm",
+    "function": "Natural acid",
+    "more_info": {
+      "origin": "Natural acid, present in most fruits and vegetables. Commercially synthesised from acetic acid.",
+      "characteristics": "Acidity regulator and flavour enhancer.",
+      "products": "Confectionery, bakery products, etc.",
+      "daily_intake": "No limit.",
+      "side_effects": "None known; it is metabolised by the body (it is a normal component of all body cells).",
+      "dietary_restrictions": "Succinic acid and succinates can be used by all religious groups, vegans and vegetarians."
+    }
+  },
+  "365": {
+    "code": "365",
+    "name": "Sodium fumarate",
+    "href": "e365.htm",
+    "function": "Acidity regulator",
+    "more_info": {
+      "origin": "Sodium salt of fumaric acid (E297), a natural acid.",
+      "characteristics": "Acidity regulator.",
+      "products": "Confectionery, bakery products, baking powder, etc.",
+      "daily_intake": "Up to 6 mg/kg body weight.",
+      "side_effects": "None known; it is metabolised by the body (it is a normal component of all body cells).",
+      "dietary_restrictions": "Fumaric acid and fumarates can be used by all religious groups, vegans and vegetarians."
+    }
+  },
+  "370": {
+    "code": "370",
+    "name": "1,4-Heptonolactone",
+    "href": "e370.htm",
+    "function": "Synthetic acid",
+    "more_info": {
+      "origin": "Synthetic product, prepared from hydroxy-heptanoic acid.",
+      "characteristics": "Acidity regulator and flavouring.",
+      "products": "Coconut-, nut- and vanilla flavour.",
+      "daily_intake": "None determined.",
+      "side_effects": "None known",
+      "dietary_restrictions": "370 can be used by all religious groups, vegans and vegetarians."
+    }
+  },
+  "375": {
+    "code": "375",
+    "name": "Nicotinic acid",
+    "href": "e375.htm",
+    "function": "B vitamin, colour protector",
+    "more_info": {
+      "origin": "Natural compound, present in many products. Commercially prepared from nicotine.",
+      "characteristics": "Anti-oxidant and colour stabiliser.",
+      "products": "B read, cereals, etc.",
+      "daily_intake": "None determined.",
+      "side_effects": "None known when used at normal concentrations.",
+      "dietary_restrictions": "Nicotinic acid can be used by all religious groups, vegans and vegetarians."
+    }
+  },
+  "380": {
+    "code": "E380",
+    "name": "triAmmonium citrate",
+    "href": "e380.htm",
+    "function": "Synthetic salt of citric acid",
+    "more_info": {
+      "origin": "Ammonium salt of citric acid ().",
+      "characteristics": "Acidity regulator, buffer and emulsifier.",
+      "products": "Chocolate confectionery, cheese spreads, etc.",
+      "daily_intake": "None determined.",
+      "side_effects": "None known ; citric acid is a normal component of all body cells.",
+      "dietary_restrictions": "Citric acid and citrates can be used by all religious groups, vegans and vegetarians."
+    }
+  },
+  "381": {
+    "code": "381",
+    "name": "Ammonium ferric citrate",
+    "href": "e381.htm",
+    "function": "Synthetic salt of citric acid",
+    "more_info": {
+      "origin": "Complex mixture of ammonia, iron and citric acid ().",
+      "characteristics": "Enrichment of products with iron (UK, Denmark only), anti-caking agent in salt.",
+      "products": "Salt, infant foods, food supplements.",
+      "daily_intake": "Up to 0.8 mg/kg body weight.",
+      "side_effects": "None known ; citric acid is a normal component of all body cells, and iron forms an essential part of blood cells.",
+      "dietary_restrictions": "Citric acid and citrates can be used by all religious groups, vegans and vegetarians. The iron used is not of animal origin."
+    }
+  },
+  "385": {
+    "code": "E385",
+    "name": "Calcium disodium ethylenediamine",
+    "href": "e385.htm",
+    "function": "Sequestrant, chelating substance",
+    "more_info": {
+      "origin": "Calcium/sodium salt of EDTA (385), a synthetic compound.",
+      "characteristics": "Metal scavenger, stabiliser (also used after heavy metal intoxication to remove metals from the body). ",
+      "products": "Many different products.",
+      "daily_intake": "Up to 2.5 mg/kg body weight.",
+      "side_effects": "None known in the concentrations used. Long-term exposure to high doses may result in depletion of metal(s) from the body (iron).",
+      "dietary_restrictions": "EDTA and edetates can be used by all religious groups, vegans and vegetarians."
+    }
+  },
+  "386": {
+    "code": "386",
+    "name": "EDTA: Disodium ethylenediamine tetra-acetate",
+    "href": "e386.htm",
+    "function": "Synthetic stabiliser",
+    "more_info": {
+      "origin": "A synthetic compound.",
+      "characteristics": "Metal scavenger, stabiliser (also used after heavy metal intoxication to remove metals from the body). ",
+      "products": "Many different products.",
+      "daily_intake": "Up to 2.5 mg/kg body weight.",
+      "side_effects": "None known in the concentrations used. Long-term exposure to high doses may result in depletion of metal(s) from the body (iron).",
+      "dietary_restrictions": "EDTA and edetates can be used by all religious groups, vegans and vegetarians."
+    }
+  },
+  "387": {
+    "code": "387",
+    "name": "Oxystearin",
+    "href": "e387.htm",
+    "function": "Stabiliser",
+    "more_info": {
+      "origin": "Mixture of glycerides of stearic acid and other fatty acids.",
+      "characteristics": "Metal scavenger and stabiliser (to prevent crystallisation in fats and oils). ",
+      "products": "Oils and fats, sugar, yeast products, etc.",
+      "daily_intake": "Up to 25 mg/kg body weight.",
+      "side_effects": "None known in the concentrations used. The body treats it as fat.",
+      "dietary_restrictions": "Although commercially (nearly always) prepared from vegetable oil, fatty acids of animal origin (incl. pork) cannot be excluded."
+    }
+  },
+  "388": {
+    "code": "388",
+    "name": "Thiodipropionic acid",
+    "href": "e388.htm",
+    "function": "Synthetic anti-oxidant",
+    "more_info": {
+      "origin": "Synthetic compound.",
+      "characteristics": "Anti-oxidant. ",
+      "products": "Oils and fats, but used mainly in cosmetics.",
+      "daily_intake": "Up to 3 mg/kg body weight.",
+      "side_effects": "None known in the concentrations used.",
+      "dietary_restrictions": "388 can be used by all religious groups, vegans and vegetarians."
+    }
+  }
+}

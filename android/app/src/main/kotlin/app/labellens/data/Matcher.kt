@@ -23,10 +23,15 @@ data class ScanResult(
 
 /** Finds additive codes and names in the text read from a label. Runs entirely on the phone. */
 object Matcher {
-    private val codePattern = Regex("\\b(?:E|INS)[\\s\\-.]{0,2}(\\d{3,4})\\s?([a-i])?\\b", RegexOption.IGNORE_CASE)
+    private val codePattern = Regex("\\b(?:E|INS)[\\s\\-.]{0,2}(\\d{3,4})\\s?([a-j]{1,2})?\\b", RegexOption.IGNORE_CASE)
     private val wordPattern = Regex("[\\p{L}\\p{N}&'-]+")
     private val numberPattern = Regex("\\b\\d{3,4}\\b")
-    private const val FUZZY_THRESHOLD = 0.85
+    private const val FUZZY_THRESHOLD = 0.88
+
+    // Names shorter than this must match exactly: "MSG", "Agar" and "Talc" are one typo away from ordinary words.
+    private const val FUZZY_MIN_LENGTH = 8
+
+    private class Candidate(val additive: Additive, val range: IntRange, val fragment: String, val score: Double)
 
     fun scan(text: String, catalogue: List<Additive>): ScanResult {
         val byCode = catalogue.associateBy { it.code.lowercase() }
@@ -37,39 +42,51 @@ object Matcher {
         for (m in codePattern.findAll(text)) {
             val digits = m.groupValues[1]
             val suffix = m.groupValues[2].lowercase()
-            val additive = byCode["e$digits$suffix"] ?: byCode["e$digits"] ?: continue
+            val exact = byCode["e$digits$suffix"]
+            val additive = exact ?: byCode["e$digits"] ?: continue
+            // Letters after the number only belong to the code when that code exists ("E160a", not "E330 is").
+            val range = if (exact != null) m.range else m.range.first..m.groups[1]!!.range.last
             usedNumbers += digits
-            highlights += m.range
-            codeMatches.getOrPut(additive.code) { Match(additive, m.value.trim()) }
+            highlights += range
+            codeMatches.getOrPut(additive.code) { Match(additive, text.substring(range).trim()) }
         }
 
+        // Every place a name could match, best first. A stretch of text is given to one additive only,
+        // so "sodium citrate" is not also reported as a misread "sodium nitrate".
         val words = wordPattern.findAll(text).toList()
-        val nameMatches = LinkedHashMap<String, Match>()
+        val candidates = mutableListOf<Candidate>()
         for (additive in catalogue) {
             if (additive.code in codeMatches) continue
-            val candidates = (listOf(additive.name, additive.shortName) + additive.aliases).distinct()
-            var best: Triple<Double, IntRange, String>? = null
-            for (candidate in candidates) {
-                val target = candidate.lowercase()
-                val size = target.split(' ').size
-                if (words.size < size) continue
+            var best: Candidate? = null
+            for (name in (listOf(additive.name, additive.shortName) + additive.aliases).distinct()) {
+                val target = name.lowercase()
+                val size = wordPattern.findAll(target).count()
+                if (size == 0 || words.size < size) continue
                 for (start in 0..words.size - size) {
                     val range = words[start].range.first..words[start + size - 1].range.last
                     val fragment = text.substring(range)
                     val score = similarity(fragment.lowercase(), target)
-                    // Short names such as "MSG" must match exactly, or they match everything.
-                    val enough = if (target.length < 6) score == 1.0 else score >= FUZZY_THRESHOLD
-                    if (enough && (best == null || score > best.first)) best = Triple(score, range, fragment)
+                    val enough = if (target.length < FUZZY_MIN_LENGTH) score == 1.0 else score >= FUZZY_THRESHOLD
+                    if (enough && (best == null || score > best.score || (score == best.score && fragment.length > best.fragment.length))) {
+                        best = Candidate(additive, range, fragment, score)
+                    }
                 }
             }
-            best?.let { (score, range, fragment) ->
-                nameMatches[additive.code] = Match(additive, fragment, (score * 100).toInt())
-                highlights += range
-            }
+            best?.let { candidates += it }
         }
+        val taken = highlights.toMutableList()
+        val nameMatches = LinkedHashMap<String, Match>()
+        for (candidate in candidates.sortedWith(compareByDescending<Candidate> { it.score }.thenByDescending { it.fragment.length })) {
+            if (taken.any { it.first <= candidate.range.last && candidate.range.first <= it.last }) continue
+            taken += candidate.range
+            highlights += candidate.range
+            nameMatches[candidate.additive.code] = Match(candidate.additive, candidate.fragment, (candidate.score * 100).toInt())
+        }
+        // Report them in the order they appear on the label.
+        val ordered = nameMatches.values.sortedBy { match -> text.indexOf(match.readAs) }
 
         val otherNumbers = numberPattern.findAll(text).map { it.value }.filter { it !in usedNumbers }.distinct().take(6).toList()
-        return ScanResult(text, codeMatches.values.toList(), nameMatches.values.toList(), otherNumbers, mergeRanges(highlights))
+        return ScanResult(text, codeMatches.values.toList(), ordered, otherNumbers, mergeRanges(highlights))
     }
 
     /** A result for a scan loaded from History, where only the codes were kept. */

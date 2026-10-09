@@ -1,0 +1,26 @@
+{
+    "code": "E101",
+    "names": "Riboflavin (Vitamin B2), formerly called lactoflavin",
+    "display_name": "E101 (Riboflavin)",
+    "type": "color (Yellow-orange)",
+    "status": "e u",
+    "icon": "mdi-check-circle",
+    "more_info": {
+        "banned_in": "Approved in the EU. Approved in the US.",
+        "overview": "Riboflavin is vitamin B2. It is widely found in both plant- and animal-based foods, including milk, meat, eggs, nuts, enriched flour, and green vegetables.\nRiboflavin is involved in many body processes. It's required for the proper development of the skin, lining of the digestive tract, blood cells, and brain function.\nPeople most commonly use riboflavin to prevent riboflavin deficiency, for migraine, and for high levels of homocysteine in the blood. It's also used for acne, muscle cramps, and many other conditions, but there is no good scientific evidence to support these other uses.",
+        "origin": "Natural colour present in many foods such as milk, eggs, liver and vegetables. Commercially prepared from yeasts. It is also manufactured synthetically.",
+        "daily_intake": "Riboflavin is an important nutrient that is found in many foods. The amount that should be consumed on a daily basis is called the recommended dietary allowance (RDA). For adult males, the RDA is 1.3 mg daily. For adult females, the RDA is 1.1 mg daily. During pregnancy, the RDA is 1.4 mg, and during breastfeeding, the RDA is 1.6 mg. Recommended amounts for children depend on age.\nRiboflavin is also available in supplements. Taking riboflavin supplements with food will increase how much the body absorbs. Speak with a healthcare provider to find out what dose might be best for a specific condition.",
+        "side_effects": "No side effects known in the concentrations used in foods.\nWhen taken by mouth: Riboflavin is likely safe for most people in doses of up to 400 mg daily. In some people, riboflavin can cause the urine to turn a bright yellow color. It may also cause nausea.",
+        "uses": "Effective for\nRiboflavin deficiency (ariboflavinosis). Taking riboflavin by mouth can increase levels of riboflavin in the body, helping to treat and prevent riboflavin deficiency.\nPossibly Effective for\nHigh levels of homocysteine in the blood (hyperhomocysteinemia). Taking riboflavin by mouth for 12 weeks decreases levels of homocysteine by up to 40% in some people with a specific gene type.\nMigraine. Taking high-dose riboflavin by mouth seems to modestly reduce the number and severity of migraine headaches in adults. It's unclear if it helps children.\nThere is interest in using riboflavin for a number of other purposes, but there isn't enough reliable information to say whether it might be helpful.",
+        "interactions": "Moderate Interaction\nBe cautious with this combination\nAntibiotics (Tetracycline antibiotics) interacts with RIBOFLAVIN\nRiboflavin might decrease the amount of tetracyclines that the body can absorb. Taking riboflavin along with tetracyclines might decrease the effects of tetracyclines. To avoid this interaction, take riboflavin 2 hours before or 4 hours after taking tetracyclines.",
+        "precautions": "When taken by mouth: Riboflavin is likely safe for most people in doses of up to 400 mg daily. In some people, riboflavin can cause the urine to turn a bright yellow color. It may also cause nausea.\nPregnancy and breast-feeding: Riboflavin is likely safe when consumed in amounts commonly found in foods. The recommended intake is 1.4 mg daily during pregnancy and 1.6 mg daily during lactation.\nChildren: Riboflavin is likely safe for most children when consumed in amounts commonly found in foods. Higher doses of 100-200 mg daily have also been safely used.\nLiver disease: Riboflavin absorption is decreased in people with liver disease.",
+        "articles": {
+            "FAO": "https://www.fao.org/gsfaonline/additives/details.html?id=135",
+            "EU": "https://ec.europa.eu/food/food-feed-portal/screen/food-additives/search/details/POL-FAD-IMPORT-2986",
+            "Wikipedia": "https://en.wikipedia.org/wiki/Riboflavin",
+            "WebMD": "https://www.webmd.com/vitamins/ai/ingredientmono-957/riboflavin",
+            "PubChem": "https://pubchem.ncbi.nlm.nih.gov/compound/Riboflavin",
+            "PubMed": "https://www.ncbi.nlm.nih.gov/books/NBK525977/"
+        }
+    }
+}

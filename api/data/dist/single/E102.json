@@ -1,0 +1,25 @@
+{
+    "code": "E102",
+    "names": "Tartrazine (FD&C Yellow 5)",
+    "display_name": "E102 (Tartrazine)",
+    "type": "color (Lemon yellow)",
+    "status": "e u",
+    "icon": "mdi-alert-circle",
+    "more_info": {
+        "banned_in": "Banned in: Austria, Germany, Norway, United Arab Emirates.\nApproved by the FDA.\nIn 2013, the European Union ruled that 'the overall weight of evidence' did not support the finding that yellow #5 was toxic to genes, but the ruling called for further study.",
+        "overview": "Tartrazine (E102 food additive) is a food coloring of synthetic origin. It is not found in nature in its pure form. The E102 colorant is extracted from coal tar, a manufacturing waste product.  By its physical form, tartrazine is a water-soluble powder of yellow color with a golden tint. Under the influence of sunlight, the E102 additive can disintegrate into simpler compounds.",
+        "origin": "Synthetic azo dye.",
+        "daily_intake": "Up to 7.5 mg/kg body weight.",
+        "side_effects": "Inconclusive for humans due to lack of research.\nNo side effects are known for pure tartrazine, except in people who are intolerant to salicylates (aspirin, berries, fruits); in that case tartrazine also induces intolerance symptoms. In combination with benzoates (E210-215), tartrazine is implicated in a large percentage of cases of ADHD syndrome (hyperactivity) in children. Asthmatics may also experience symptoms following consumption of tartrazine, as it is a known histamine-liberating agent.\nRefer to the VeryWellHealth article listed below to learn more about research done on rats about Tartrazine.",
+        "uses": "The most common  E102 additive (tartrazine) is found in confectionery products and drinks of yellow colors of all tints: candies, cakes, carbonated drinks. Also, E102 colorant is often found in canned fruits and vegetables, mustard, soups and yogurts.",
+        "articles": {
+            "FAO": "https://www.fao.org/gsfaonline/additives/details.html?id=86",
+            "EU": "https://ec.europa.eu/food/food-feed-portal/screen/food-additives/search/details/POL-FAD-IMPORT-2987",
+            "Wikipedia": "https://en.wikipedia.org/wiki/Tartrazine",
+            "PubChem": "https://pubchem.ncbi.nlm.nih.gov/compound/Tartrazine",
+            "PubMed": "https://pubmed.ncbi.nlm.nih.gov/3169655/",
+            "VeryWellHealth": "https://www.verywellhealth.com/tartrazine-free-diet-83227",
+            "ScienceDirect": "https://www.sciencedirect.com/topics/agricultural-and-biological-sciences/tartrazine"
+        }
+    }
+}

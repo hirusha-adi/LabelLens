@@ -4,7 +4,7 @@ Kotlin, Jetpack Compose and Material 3. Built from the design handoff in [../des
 
 ## Build and run
 
-You need JDK 17 and the Android SDK (API 37). Start the sample API in [../api/](../api/) first.
+You need JDK 17 and the Android SDK (API 37). Start the API in [../api/](../api/) first.
 
 ```sh
 adb reverse tcp:8787 tcp:8787
@@ -17,14 +17,19 @@ adb reverse tcp:8787 tcp:8787
 ./gradlew :app:installDebug -PapiBaseUrl=http://192.168.1.20:8787
 ```
 
-Run the unit tests with `./gradlew :app:testDebugUnitTest`.
+Run the unit tests with `./gradlew :app:testDebugUnitTest`. One test runs the label matcher against the full additive list and is skipped unless you give it a copy:
+
+```sh
+curl -s localhost:8787/additives > /tmp/catalogue.json
+LABELLENS_CATALOGUE=/tmp/catalogue.json ./gradlew :app:testDebugUnitTest
+```
 
 ## How it fits together
 
 | Path under `app/src/main/kotlin/app/labellens/` | Contents |
 | --- | --- |
 | `data/Store.kt` | App state and every action that changes it. One instance for the whole process. |
-| `data/Api.kt`, `data/Models.kt` | JSON client for the sample API and the types it returns. |
+| `data/Api.kt`, `data/Models.kt` | JSON client for the API and the types it returns. |
 | `data/Matcher.kt` | Finds E-numbers and additive names in the text read from a label. |
 | `data/Verdicts.kt` | Checks an additive against the user's allergies, diet and avoids. |
 | `data/Navigation.kt` | The list of screens and a plain back stack. |
@@ -32,11 +37,12 @@ Run the unit tests with `./gradlew :app:testDebugUnitTest`.
 | `ui/Components.kt` | Shared pieces: buttons, segmented list rows, status pills, icons. |
 | `ui/screens/` | One file per area: home, search, scan, results, detail, account, preferences, plans, history and saved, profile, settings. |
 
-Label photos are read on the phone with ML Kit text recognition and are never sent anywhere. The additive list is saved on the phone after the first connection, so scanning and search work offline. Additive pages, history, saved additives and purchases need the API.
+Label photos are read on the phone with ML Kit text recognition and are never sent anywhere. The additive list (522 additives) is saved on the phone after the first connection, so scanning and search work offline. On later starts the app asks the API whether the list has changed and only downloads it again if it has. Additive pages, history, saved additives and purchases need the API.
 
 ## What is a placeholder
 
-- **Billing.** "Start free trial" calls the sample API. Google Play Billing is not wired in.
+- **Verdicts.** Safe, Caution and Avoid are worked out by rules in the API, because the dataset has no rating. See [../api/README.md](../api/README.md).
+- **Billing.** "Start free trial" calls the API, which always says yes. Google Play Billing is not wired in.
 - **Google sign-in.** "Continue with Google" logs in the demo account.
 - **Email.** No email is sent. The confirmation screen moves on by itself after a few seconds.
 - **Some settings rows.** Change email, change password, notifications, download my data and adding a family profile show a "not available in this preview build" message.
