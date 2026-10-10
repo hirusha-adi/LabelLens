@@ -4,9 +4,9 @@
     "display_name": "E203 (Calcium sorbate)",
     "type": "preservative",
     "status": "u",
-    "icon": "mdi-check-circle",
+    "icon": "mdi-alert-circle",
     "more_info": {
-        "banned_in": "Approved in the US.\nUS food use is subject to the listed CFR provisions and their conditions, checked in 2026.",
+        "banned_in": "Banned in: Austria, Belgium, Bulgaria, Croatia, Cyprus, Czechia, Denmark, Estonia, Finland, France, Germany, Greece, Hungary, Ireland, Italy, Latvia, Lithuania, Luxembourg, Malta, Netherlands, Poland, Portugal, Romania, Slovakia, Slovenia, Spain, Sweden.\nApproved in the US.\nUS food use is subject to the listed CFR provisions and their conditions, checked in 2026.\nThe permissions checked in 2026 apply only to the specified preparations, food uses and conditions.\nThe EU withdrew the calcium-sorbate food-additive authorisation from 12 August 2018 after requested safety data were not supplied.",
         "overview": "Calcium sorbate is a calcium salt of sorbic acid, specified as a distinct chemical preparation for food manufacture. Its preservative role is to limit spoilage caused by microorganisms and extend the storage life of the food. The specified material is supplied as white powder or crystalline material.",
         "daily_intake": "0-25 mg/kg body weight (JECFA, 1973). This is a combined sorbic-acid and sorbate limit, expressed as sorbic acid.",
         "articles": {
@@ -16,7 +16,8 @@
             "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
             "eCFR Title 21": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=182",
             "EUR-Lex": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32012R0231",
-            "EUR-Lex (2)": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02008R1333-20260818"
+            "EUR-Lex (2)": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02008R1333-20260818",
+            "EUR-Lex (3)": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32018R0098"
         }
     }
 }

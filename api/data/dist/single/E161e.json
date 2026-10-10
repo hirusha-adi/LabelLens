@@ -12,6 +12,7 @@
             "PubChem": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Violaxanthin/description/JSON",
             "EUR-Lex": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02008R1333-20260818"
         },
-        "overview": "Violaxanthin is a chemically defined carotenoid colour; the PubChem record identifies the all-trans form specifically. Its pigment identity is distinct from other substances in the xanthophyll family. The current sources do not establish a typical permitted food example for this historical entry. Preparation-specific manufacture and food-intake information remain unconfirmed."
+        "overview": "Violaxanthin is a chemically defined carotenoid colour; the PubChem record identifies the all-trans form specifically. Its pigment identity is distinct from other substances in the xanthophyll family. The current sources do not establish a typical permitted food example for this historical entry. Preparation-specific manufacture and food-intake information remain unconfirmed.",
+        "banned_in": "No current country-wide food-use ban was confirmed in the regulatory sources checked in 2026.\nEU and US food-additive permissions for this exact entry were not confirmed in the sources checked in 2026."
     }
 }

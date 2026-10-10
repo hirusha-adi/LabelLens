@@ -11,6 +11,7 @@
             "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
             "Wikipedia": "https://en.wikipedia.org/wiki/Ammonium_stearate"
         },
-        "overview": "Ammonium stearate is the ammonium salt of stearic acid. It can be prepared by reacting stearic acid with ammonium carbonate or ammonium hydroxide. The fatty-acid salt is chemically different from magnesium, calcium or aluminium stearate. The dataset retains a historical anti-caking classification, while a current human-food example for the exact preparation was not confirmed."
+        "overview": "Ammonium stearate is the ammonium salt of stearic acid. It can be prepared by reacting stearic acid with ammonium carbonate or ammonium hydroxide. The fatty-acid salt is chemically different from magnesium, calcium or aluminium stearate. The dataset retains a historical anti-caking classification, while a current human-food example for the exact preparation was not confirmed.",
+        "banned_in": "No current country-wide food-use ban was confirmed in the regulatory sources checked in 2026.\nEU and US food-additive permissions for this exact entry were not confirmed in the sources checked in 2026."
     }
 }

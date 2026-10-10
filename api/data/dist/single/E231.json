@@ -15,6 +15,7 @@
             "WHO JECFA (2)": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/3846",
             "WHO JECFA (3)": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/1512",
             "EUR-Lex": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02008R1333-20260818"
-        }
+        },
+        "banned_in": "No current country-wide food-use ban was confirmed in the regulatory sources checked in 2026.\nEU and US food-additive permissions for this exact entry were not confirmed in the sources checked in 2026."
     }
 }

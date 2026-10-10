@@ -10,11 +10,12 @@
             "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
             "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
             "eCFR": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=172",
-            "EUR-Lex": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02008R1333-20260818"
+            "EUR-Lex": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02008R1333-20260818",
+            "eCFR (2)": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=189"
         },
         "overview": "Ethoxylated mono- and diglycerides are glyceride preparations further reacted with ethylene oxide. The US specification principally uses stearic, palmitic and myristic fatty-acid starting materials. The resulting ingredient has emulsifying and dough-conditioning functions. FDA lists applications in yeast-raised bakery products, cakes, icings, whipped vegetable-oil toppings, frozen desserts and certain coffee creamers, with separate use limits. The fatty-acid source is not fixed as exclusively animal or plant by the chemical name.",
         "origin": "Manufactured from edible fats or fatty acids and glycerol, followed by reaction with ethylene oxide. The regulation does not specify the fatty acids as exclusively plant or animal derived.",
         "uses": "Specified US uses include bakery pan-release preparations, yeast-raised bakery products, cakes, whipped vegetable-oil toppings, icings, frozen desserts and certain milk or cream substitutes for coffee. Each application has its own maximum.",
-        "banned_in": "Approved in the US.\nUS food use follows the preparation-specific conditions in 21 CFR 172.834, checked in 2026."
+        "banned_in": "Approved in the US.\nUS food use follows the preparation-specific conditions in 21 CFR 172.834, checked in 2026.\nNo current country-wide food-use ban was confirmed in the regulatory sources checked in 2026.\nThe permissions checked in 2026 apply only to the specified preparations, food uses and conditions."
     }
 }

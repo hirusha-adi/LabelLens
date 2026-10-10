@@ -2,12 +2,12 @@
     "code": "E905",
     "names": "Paraffins",
     "display_name": "E905 (Paraffins)",
-    "type": "flavour enhancer",
+    "type": "glazing agent",
     "status": "u",
-    "icon": "mdi-check-circle",
+    "icon": "mdi-alert-circle",
     "more_info": {
-        "banned_in": "Approved in the US.\nUS food use is subject to the listed CFR provisions and their conditions, checked in 2026.",
-        "overview": "The E905 specification describes refined solid saturated hydrocarbon waxes from petroleum or synthetic feedstocks. It is used to strengthen an existing taste or aroma in the food. The specified material is supplied as white waxy solid. The specification describes it as effectively insoluble in water.",
+        "banned_in": "Approved in the US.\nUS food use is subject to the listed CFR provisions and their conditions, checked in 2026.\nNo current country-wide food-use ban was confirmed in the regulatory sources checked in 2026.\nThe permissions checked in 2026 apply only to the specified preparations, food uses and conditions.\nCanada prohibits paraffin wax in foods other than chewing gum with a paraffin-wax base in the list checked in 2026; this does not establish the same rule for every other petroleum-wax grade in the entry.",
+        "overview": "The E905 specification describes refined solid saturated hydrocarbon waxes from petroleum or synthetic feedstocks. The paraffin-wax component was evaluated by JECFA for uses including surface glazing and chewing-gum bases. The specified material is supplied as white waxy solid. The specification describes it as effectively insoluble in water.",
         "uses": "EU permissions include entire fresh fruit and vegetables, other confectionery including breath freshening micro-sweets, chewing gum. These permissions depend on the food category and its conditions of use.",
         "daily_intake": "ADI withdrawn (JECFA, 1995).",
         "articles": {
@@ -17,7 +17,8 @@
             "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
             "eCFR Title 21": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=173",
             "EUR-Lex": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32012R0231",
-            "EUR-Lex (2)": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02008R1333-20260818"
+            "EUR-Lex (2)": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02008R1333-20260818",
+            "Health Canada": "https://www.canada.ca/en/health-canada/services/food-nutrition/food-safety/chemical-contaminants/contaminants-adulterating-substances-foods.html"
         },
         "origin": "A refined solid hydrocarbon mixture obtained from petroleum or synthetic feedstocks. The specification does not restrict the material to one natural petroleum source."
     }

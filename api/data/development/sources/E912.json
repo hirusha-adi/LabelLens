@@ -8,7 +8,11 @@
     ],
     "icon": [
       "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
-      "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
+      "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+      "https://eur-lex.europa.eu/eli/reg/2014/957/oj/eng",
+      "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02008R1333-20260818",
+      "https://european-union.europa.eu/principles-countries-history/eu-countries_en",
+      "https://european-union.europa.eu/principles-countries-history/eu-countries_en?page=1"
     ],
     "names": [
       "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231"
@@ -17,6 +21,17 @@
       "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32012R0231",
       "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02008R1333-20260818",
       "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818"
+    ],
+    "banned_in": [
+      "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+      "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+      "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=189",
+      "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=81",
+      "https://www.canada.ca/en/health-canada/services/food-nutrition/food-safety/chemical-contaminants/contaminants-adulterating-substances-foods.html",
+      "https://eur-lex.europa.eu/eli/reg/2014/957/oj/eng",
+      "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02008R1333-20260818",
+      "https://european-union.europa.eu/principles-countries-history/eu-countries_en",
+      "https://european-union.europa.eu/principles-countries-history/eu-countries_en?page=1"
     ]
   },
   "inputs": {
@@ -24,7 +39,6 @@
     "type": "development/ins-summary-original.json"
   },
   "gaps": [
-    "Current EU food-use permission was not established for the exact identity or complete group named by this entry; no e flag is asserted.",
     "Current US food-use permission was not established for the exact identity in the FDA inventory and available direct-food CFR sections; no u flag is asserted.",
     "Specific food-use examples were not confirmed; uses omitted.",
     "A current, unambiguous food-additive ADI and its basis were not confirmed; daily_intake omitted.",
@@ -32,12 +46,17 @@
     "No sufficiently specific compound-level source was retained for side_effects; field omitted.",
     "No sufficiently specific compound-level source was retained for dietary_restrictions; field omitted.",
     "No sufficiently specific compound-level source was retained for interactions; field omitted.",
-    "No sufficiently specific compound-level source was retained for precautions; field omitted."
+    "No sufficiently specific compound-level source was retained for precautions; field omitted.",
+    "The checked sources do not establish an exhaustive worldwide country-ban list; jurisdictions without compound-specific evidence remain unconfirmed.",
+    "A current US food-additive permission or explicit national prohibition for this precise preparation was not confirmed."
   ],
   "changes": [
     "Replaced the legacy layout with rich fields and removed unsupported inherited health, dietary and intake assertions.",
     "status: 'e' -> ''; exact current EU/FDA identity check and retained regulatory sources. Empty flags include unconfirmed permissions, not inferred country bans.",
     "name/href/function and characteristics/products replaced by the required rich schema; only sourced facts were retained.",
-    "2026-10-10 description expansion: overview replaced or added with compound-specific detail from the linked field sources."
+    "2026-10-10 description expansion: overview replaced or added with compound-specific detail from the linked field sources.",
+    "2026-10-10 regulatory expansion: banned_in records confirmed country bans, approval lines, scoped restrictions and limits of the checked jurisdictions. Country and use-specific evidence is retained in regulatory-details.json.",
+    "icon: 'mdi-check-circle' -> 'mdi-alert-circle'; confirmed food-use country prohibition. See the ban and restriction sources.",
+    "banned_in: (no confirmed country-ban line) -> Banned in: Austria, Belgium, Bulgaria, Croatia, Cyprus, Czechia, Denmark, Estonia, Finland, France, Germany, Greece, Hungary, Ireland, Italy, Latvia, Lithuania, Luxembourg, Malta, Netherlands, Poland, Portugal, Romania, Slovakia, Slovenia, Spain, Sweden. Explicit food-use withdrawals or prohibitions establish the listed countries; preparation and stock exceptions are described in the regulatory notes."
   ]
 }

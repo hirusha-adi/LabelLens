@@ -6,7 +6,7 @@
     "status": "e u",
     "icon": "mdi-check-circle",
     "more_info": {
-        "banned_in": "Approved in the EU.\nApproved in the US.\nUS food use is subject to the listed CFR provisions and their conditions, checked in 2026.",
+        "banned_in": "Approved in the EU.\nApproved in the US.\nUS food use is subject to the listed CFR provisions and their conditions, checked in 2026.\nNo current country-wide food-use ban was confirmed in the regulatory sources checked in 2026.\nThe permissions checked in 2026 apply only to the specified preparations, food uses and conditions.",
         "overview": "Polysorbate 65 is a mixture of ethoxylated sorbitol-derived esters of stearic acid; its preparation contains approximately 20 oxyethylene units per sorbitol-derived unit. Its emulsifying role is to help form or maintain mixtures of oil and water in the finished food. Made from partial esters of sorbitol and its anhydrides with stearic acid. The esters are additionally reacted with ethylene oxide. The specification does not identify a single biological source for the fatty acid. The specified preparation is a tan waxy solid at 25 degrees Celsius.",
         "articles": {
             "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/2528",

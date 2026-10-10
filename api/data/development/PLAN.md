@@ -49,3 +49,18 @@ progress entries done without introducing a human review queue.
 At completion run the full validator and its contract tests, verify that
 reapplying the catalog leaves records unchanged, update the report with field
 coverage and cumulative corrections, and commit the entire expansion locally.
+
+# Country bans and regulatory details for every code
+
+Review all 522 records against explicit EU withdrawals and prohibitions, US
+prohibited-food and cancelled-colour provisions, and their existing exact-identity
+approval evidence. Add targeted primary evidence from other jurisdictions where
+a specific ban or restriction can be established. Do not convert an absent
+authorisation, an expired provisional listing for a different preparation, a
+regional restriction or a future effective date into a current national ban.
+
+Populate regulatory details in dist/ins-full.json first, preserving the required
+country-list and approval-line formats. Record each country, use scope, year and
+primary source in development/research/regulatory-details.json and field-level
+provenance. List what remains unconfirmed and the limits of geographic coverage.
+Sync individual files, update the report, validate all records and commit locally.

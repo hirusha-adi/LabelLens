@@ -11,6 +11,7 @@
             "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
             "Wikipedia": "https://en.wikipedia.org/wiki/Glucose_oxidase"
         },
-        "overview": "Glucose oxidase is an enzyme that oxidises glucose using oxygen and produces glucono-delta-lactone and hydrogen peroxide. It occurs in several biological sources, including certain fungi. Its biochemical reaction is distinct from simply adding a small-molecule antioxidant. Food-processing activity depends on the availability of glucose and oxygen and on the particular enzyme preparation. The general identity source does not establish one commercial production strain or a typical current finished-food example."
+        "overview": "Glucose oxidase is an enzyme that oxidises glucose using oxygen and produces glucono-delta-lactone and hydrogen peroxide. It occurs in several biological sources, including certain fungi. Its biochemical reaction is distinct from simply adding a small-molecule antioxidant. Food-processing activity depends on the availability of glucose and oxygen and on the particular enzyme preparation. The general identity source does not establish one commercial production strain or a typical current finished-food example.",
+        "banned_in": "No current country-wide food-use ban was confirmed in the regulatory sources checked in 2026.\nEU and US food-additive permissions for this exact entry were not confirmed in the sources checked in 2026."
     }
 }

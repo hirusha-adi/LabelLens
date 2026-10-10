@@ -13,7 +13,7 @@
             "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
             "eCFR Title 21": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=137"
         },
-        "banned_in": "Approved in the US.\nUS permission is limited to the uses and conditions in 21 CFR 137.105, checked in 2026.",
+        "banned_in": "Approved in the US.\nUS permission is limited to the uses and conditions in 21 CFR 137.105, checked in 2026.\nNo current country-wide food-use ban was confirmed in the regulatory sources checked in 2026.\nThe permissions checked in 2026 apply only to the specified preparations, food uses and conditions.",
         "uses": "Permitted in the US for specified flour bleaching or ageing treatments, subject to the applicable standard of identity."
     }
 }

@@ -1,18 +1,18 @@
 # Dataset report, 2026-10-10
 
-All 522 codes have expanded overviews in dist/ins-full.json. The aggregate was written first, then all individual files and the summary were synchronised. This expansion covers the entire dataset, including the 11 additional codes.
+All 522 codes now have sourced regulatory details in dist/ins-full.json, including confirmed country bans, approval lines, applicable scoped rules and the limits of the checked jurisdictions. All 522 expanded overviews are retained. The aggregate was written first, then all individual files and the summary were synchronised. This expansion covers the entire dataset, including the 11 additional codes.
 
 Progress: 522 done, 0 needs-review, 0 todo. The user removed the review queue. Done means the record was processed and research limits recorded, rather than every question being resolved.
 
-Validation: full dataset, 522 codes, 0 errors. Validator contract tests: 16 passed. The master, aggregate, individual files, progress and provenance files cover the same 522 codes.
+Validation: full dataset, 522 codes, 0 errors. Validator and regulatory publication tests: 22 passed. The master, aggregate, individual files, progress and provenance files cover the same 522 codes.
 
-209 original master records have changed approval flags across the whole task. This expansion added confirmed US flags to 8 records. 117 records use mdi-alert-circle; the remaining 405 use mdi-check-circle. Each used URL has a successful readable-load receipt in development/url-checks.json.
+209 original master records have changed approval flags across the whole task. The earlier description expansion added confirmed US flags to 8 records. This regulatory-details pass changed no approval flags. 153 records use mdi-alert-circle; the remaining 369 use mdi-check-circle. Each used URL has a successful readable-load receipt in development/url-checks.json.
 
 # Description expansion
 
-Every overview was expanded or added, retaining the required 2 to 6 sentences. Overview text increased from 9,808 to 29,240 words. The new descriptions identify the specific substance or preparation, explain its food function, and include composition, physical properties, manufacture or application limits when the linked source establishes them.
+Every overview was expanded or added, retaining the required 2 to 6 sentences. The earlier description expansion increased overview text from 9,808 to 29,240 words. The new descriptions identify the specific substance or preparation, explain its food function, and include composition, physical properties, manufacture or application limits when the linked source establishes them.
 
-Companion text changed in 335 uses fields, 59 origin fields, 5 dietary fields, 2 intake fields, 1 effects fields and 5 precautions fields. Regulatory text changed in 14 records. Newly established facts were added to both the public records and field-specific provenance.
+Companion text changed in 335 uses fields, 59 origin fields, 5 dietary fields, 2 intake fields, 1 effects fields and 5 precautions fields. That earlier description expansion changed regulatory text in 14 records. The current regulatory-details pass updates all 522 banned_in fields. Newly established facts were added to both the public records and field-specific provenance.
 
 The authored descriptions and their evidence are retained in development/research/description-enrichment.json. scripts/enrich-descriptions.py applies that catalog to the aggregate first, requires successful source receipts, and updates provenance. scripts/full-split.py then synchronises the individual files. Reapplying the catalog preserves the same text and article links.
 
@@ -31,7 +31,7 @@ Food-use examples drawn from the EU list describe permitted categories, rather t
 | precautions | 11 of 522 |
 | interactions | 0 of 522 |
 | articles | 522 of 522 |
-| banned_in | 398 of 522 |
+| banned_in | 522 of 522 |
 
 7 categories remain explicitly unclassified because a specific function was not confirmed: E391, E426, E497, E498, E598, E1501, E1502.
 
@@ -470,6 +470,110 @@ No needs-review entries remain, following the user's instruction to complete res
 - The latest eCFR version returned for this check was 2026-10-07; a 2026-10-10 snapshot was not available. Current flags reflect that source version and distinguish future effective dates and proposals from current withdrawals.
 - The original four rich files supplied a structure, not reliable wording or facts. Consumer-health prose and unsupported medical interactions were replaced or omitted.
 - The original delayed aggregate rebuild, 20-code delivery limit and needs-review queue were superseded by the user. The aggregate was updated first for the entire dataset, with derivatives synchronised afterward.
+
+# Country bans and regulatory details
+
+This pass updated the primary aggregate first for all 522 codes. Confirmed country-ban lines are present for 14 codes. 55 codes have food-specific, sale-specific, feed-specific, regional, future or court-enjoined provisions. E153 has an additional unconfirmed US permission qualification, rather than an asserted ban. These sets overlap.
+
+The research checked the retained exact-compound EU and US sources for every record, all prohibited-food provisions in 21 CFR Part 189, the terminated-colour provisions in Part 81, and the current Health Canada adulterating-substances list. Targeted evidence also covers Switzerland, India, England and Wales, Northern Ireland, California and West Virginia. The structured findings, scopes, dates and country-specific evidence are retained for every code in development/research/regulatory-details.json.
+
+The sources do not establish an exhaustive worldwide ban list. Each provenance file records this limit. A missing permission is not converted into a ban, a JECFA assessment is not treated as national law, and a restriction on one preparation, food format or use is retained with that scope. The absence of a confirmed country-wide ban describes the checked evidence only.
+
+## Confirmed country-ban records
+
+EU-wide findings are expanded into actual country names in the public records. The 27 member countries are Austria, Belgium, Bulgaria, Croatia, Cyprus, Czechia, Denmark, Estonia, Finland, France, Germany, Greece, Hungary, Ireland, Italy, Latvia, Lithuania, Luxembourg, Malta, Netherlands, Poland, Portugal, Romania, Slovakia, Slovenia, Spain, Sweden. Membership was checked against [the first official EU country page](https://european-union.europa.eu/principles-countries-history/eu-countries_en) and [the remaining country page](https://european-union.europa.eu/principles-countries-history/eu-countries_en?page=1).
+
+| Code | Countries | Applicable finding and dated exceptions | Evidence |
+| --- | --- | --- | --- |
+| E123 | United States | FDA cancelled food-use certificates for FD&C Red No. 2 in 1976. | [source 1](https://ec.europa.eu/food/food-feed-portal/backend/api/policy-items/POL-FAD-IMPORT-2992); [source 2](https://www.ecfr.gov/current/title-21/section-81.30); [source 3](https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?id=FDCRed2&set=ColorAdditives) |
+| E125 | United States | FDA terminated its remaining food-use certificates for FD&C Red No. 4 in 1976. | [source 1](https://www.ecfr.gov/current/title-21/section-81.30); [source 2](https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?id=FDCRed4&set=ColorAdditives) |
+| E128 | 27 EU member countries | Codex food-use provisions were withdrawn in 2018; JECFA did not re-evaluate the dye that year. EU use as a food colour, marketing and imports of foods containing Red 2G were suspended in 2007; the current EU food list checked in 2026 does not restore this food permission. | [source 1](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32007R0884); [source 2](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02008R1333-20260818) |
+| E171 | 27 EU member countries, Switzerland | EU food-use authorisation was withdrawn in 2022 following EFSA's 2021 assessment. EU food-use authorisation was withdrawn in 2022; newly placing compliant existing foods on the market was allowed only until 7 August 2022, with previously marketed foods allowed until their durability or use-by date. Switzerland prohibited use as a food additive in autumn 2022. | [source 1](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32022R0063); [source 2](https://www.blv.admin.ch/de/titandioxid) |
+| E203 | 27 EU member countries | The EU withdrew the calcium-sorbate food-additive authorisation from 12 August 2018 after requested safety data were not supplied. | [source 1](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32018R0098); [source 2](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02008R1333-20260818) |
+| E216 | 27 EU member countries | Directive 2006/52/EC withdrew the EU food-additive permission; Member States had to prohibit non-compliant trade and use by 15 August 2008, with an exception for previously marketed or labelled stocks. | [source 1](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32006L0052); [source 2](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02008R1333-20260818) |
+| E217 | 27 EU member countries | Directive 2006/52/EC withdrew the EU food-additive permission; Member States had to prohibit non-compliant trade and use by 15 August 2008, with an exception for previously marketed or labelled stocks. | [source 1](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32006L0052); [source 2](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02008R1333-20260818) |
+| E311 | 27 EU member countries | The EU withdrew authorisation in 2018 because the requested toxicology evidence was not supplied; the allowance to sell previously marketed foods ended on 25 April 2019. | [source 1](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32018R1481); [source 2](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02008R1333-20260818) |
+| E312 | 27 EU member countries | The EU withdrew authorisation in 2018 because the requested toxicology evidence was not supplied; the allowance to sell previously marketed foods ended on 25 April 2019. | [source 1](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32018R1481); [source 2](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02008R1333-20260818) |
+| E443 | United States, Canada | FDA withdrew its food-use authorisation in 2024; the compliance period ended in 2025. Canada removed the food-additive permission in 2024; its transition period ended on 30 August 2025. | [source 1](https://www.fda.gov/food/hfp-constituent-updates/fda-revokes-regulation-allowing-use-brominated-vegetable-oil-bvo-food); [source 2](https://www.canada.ca/en/health-canada/services/food-nutrition/public-involvement-partnerships/modification-list-permitted-food-additives-other-accepted-uses-remove-brominated-vegetable-oil.html) |
+| E905b | Canada | Canada lists petrolatum as prohibited in all foods in Part 1, item P.3 of its adulterating-substances list checked in 2026. | [source 1](https://www.canada.ca/en/health-canada/services/food-nutrition/food-safety/chemical-contaminants/contaminants-adulterating-substances-foods.html) |
+| E912 | 27 EU member countries | The EU removed montan acid esters from the authorised food-additive list in 2014 after the required safety information was not provided; foods previously lawfully marketed could be sold until stocks were exhausted. | [source 1](https://eur-lex.europa.eu/eli/reg/2014/957/oj/eng); [source 2](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02008R1333-20260818) |
+| E924 | Canada, India | Health Canada records that use as a food additive was no longer permitted from 1994; FSSAI expressly reconfirmed the prohibition on addition to any food in 2018. | [source 1](https://www.canada.ca/en/environment-climate-change/services/evaluating-existing-substances/screening-assessment-forchallenge20.html); [source 2](https://www.fssai.gov.in/upload/advisories/2018/07/5b52d8d24e4b3Reg-53.pdf) |
+| E952 | United States | The US prohibition follows the 1969 cyclamate order. | [source 1](https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=189); [source 2](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818) |
+
+## Scoped rules, future dates and qualifications
+
+These details are regulatory notes after the approval lines. They are not placed in the current country-ban line. California dates are future dates as of 2026-10-10. The December 2025 West Virginia court order expressly leaves the school-meal provision outside its injunction; a later order changing the statewide injunction was not confirmed.
+
+| Codes | Jurisdiction | Detail | Evidence |
+| --- | --- | --- | --- |
+| E102, E104, E110, E122, E124, E129 | European Union | EU foods containing this colour require a warning about possible effects on children's activity and attention under Annex V of the rules checked in 2026, subject to the stated exceptions. | [source 1](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02008R1333-20260818) |
+| E102, E110, E127, E129, E132, E133, E143 | West Virginia | West Virginia prohibits this named dye as an ingredient in school-nutrition meals from 1 August 2025, with stated fundraising exceptions; this is a school-use restriction, not a US-wide prohibition. | [source 1](https://code.wvlegislature.gov/18-5D-3A/) |
+| E102, E110, E127, E129, E132, E133, E143 | West Virginia | West Virginia's statewide provision has a statutory date of 1 January 2028; a federal court enjoined health-department enforcement in December 2025. The 2025 order expressly left the separate school-meal restriction outside that injunction. | [source 1](https://code.wvlegislature.gov/16-7-2/); [source 2](https://cases.justia.com/federal/district-courts/west-virginia/wvsdce/2%3A2025cv00588/242414/21/0.pdf?ts=1766581402) |
+| E123, E127, E160b, E161g, E173, E180 | European Union | The EU rules checked in 2026 prohibit sale of this colour directly to consumers; specified uses in manufactured foods remain separately authorised. | [source 1](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02008R1333-20260818) |
+| E127, E216, E443, E924 | California | California's enacted food-product prohibition is scheduled to apply from 1 January 2027; it is not a current California prohibition on the 2026 check date. | [source 1](https://ahea.assembly.ca.gov/system/files/2024-11/2023-24-legislative-bill-summary-final_1.pdf) |
+| E152 | United States | US 21 CFR 81.10(g) terminates the provisional colour listing for carbon black made by the impingement or channel process; this preparation-specific restriction is retained in the rules checked in 2026. | [source 1](https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=81) |
+| E153 | United States | US food-colour permission for vegetable carbon was not confirmed in 2026; the carbon-black withdrawal in 21 CFR 81.10(g) names impingement or channel preparations, so it is not treated as a blanket ban on every vegetable-carbon preparation. | [source 1](https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=81); [source 2](https://www.foodstandards.gov.au/consumer/additives/colours-food-additives) |
+| E171 | Northern Ireland | Northern Ireland prohibited its use in food manufacture from 2022; the UK guidance checked in 2026 allows qualifying Great Britain goods to enter under the Northern Ireland Retail Movement Scheme. | [source 1](https://www.gov.uk/government/publications/approved-additives-and-e-numbers/approved-additives-and-e-numbers) |
+| E216, E320 | West Virginia | West Virginia's statewide provision has a statutory date of 1 January 2028; a federal court enjoined health-department enforcement in December 2025. | [source 1](https://code.wvlegislature.gov/16-7-2/); [source 2](https://cases.justia.com/federal/district-courts/west-virginia/wvsdce/2%3A2025cv00588/242414/21/0.pdf?ts=1766581402) |
+| E400, E401, E402, E403, E404, E406, E407, E407a, E410, E412, E413, E414, E415, E417, E418, E425, E440 | European Union | The EU rules checked in 2026 prohibit this additive in jelly mini-cups intended to be swallowed in a single bite; this is a restriction on that food format, not a ban on all authorised uses. | [source 1](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02008R1333-20260818) |
+| E410, E412, E415, E417 | European Union | The EU rules checked in 2026 also prohibit its use in dehydrated foods intended to rehydrate on ingestion. | [source 1](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02008R1333-20260818) |
+| E425 | European Union | The EU rules checked in 2026 prohibit E425 in all jelly confectionery and in dehydrated food supplements intended to rehydrate on ingestion. | [source 1](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02008R1333-20260818) |
+| E701, E702, E703, E704, E705, E706, E707, E708, E710, E711, E712, E713, E715, E717 | European Union | EU Regulation 1831/2003 ended feed-additive use of antibiotics other than coccidiostats and histomonostats from 1 January 2006; this rule concerns feed additives and does not itself prohibit authorised veterinary treatment. | [source 1](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32003R1831) |
+| E905, E905c | Canada | Canada prohibits paraffin wax in foods other than chewing gum with a paraffin-wax base in the list checked in 2026; this does not establish the same rule for every other petroleum-wax grade in the entry. | [source 1](https://www.canada.ca/en/health-canada/services/food-nutrition/food-safety/chemical-contaminants/contaminants-adulterating-substances-foods.html) |
+| E905a | Canada | Canada prohibits mineral oil in foods except where required by good manufacturing practice, for which it sets a maximum of 3,000 ppm in the adulterating-substances list checked in 2026. | [source 1](https://www.canada.ca/en/health-canada/services/food-nutrition/food-safety/chemical-contaminants/contaminants-adulterating-substances-foods.html) |
+| E924 | England and Wales | England and Wales removed potassium bromate from permitted flour and bread additives under regulations effective on 1 April 1990. | [source 1](https://www.legislation.gov.uk/uksi/1990/399/made) |
+
+## Alert-icon changes in this pass
+
+36 records changed from mdi-check-circle to mdi-alert-circle because a sourced prohibition, withdrawal or narrow regulatory restriction was found. The earlier concern list remains above; all additional alert records are listed here with the new evidence.
+
+- E132: school-use prohibition, enjoined future provision. [source 1](https://code.wvlegislature.gov/18-5D-3A/); [source 2](https://code.wvlegislature.gov/16-7-2/); [source 3](https://cases.justia.com/federal/district-courts/west-virginia/wvsdce/2%3A2025cv00588/242414/21/0.pdf?ts=1766581402).
+- E143: school-use prohibition, enjoined future provision. [source 1](https://code.wvlegislature.gov/18-5D-3A/); [source 2](https://code.wvlegislature.gov/16-7-2/); [source 3](https://cases.justia.com/federal/district-courts/west-virginia/wvsdce/2%3A2025cv00588/242414/21/0.pdf?ts=1766581402).
+- E152: preparation-specific prohibition. [source 1](https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=81).
+- E161g: direct-consumer-sale prohibition. [source 1](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02008R1333-20260818).
+- E173: direct-consumer-sale prohibition. [source 1](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02008R1333-20260818).
+- E180: direct-consumer-sale prohibition. [source 1](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02008R1333-20260818).
+- E203: confirmed food-use country prohibition. [source 1](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32018R0098); [source 2](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02008R1333-20260818).
+- E217: confirmed food-use country prohibition. [source 1](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32006L0052); [source 2](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02008R1333-20260818).
+- E311: confirmed food-use country prohibition. [source 1](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32018R1481); [source 2](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02008R1333-20260818).
+- E312: confirmed food-use country prohibition. [source 1](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32018R1481); [source 2](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02008R1333-20260818).
+- E406: food-specific prohibition. [source 1](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02008R1333-20260818).
+- E412: food-specific prohibition. [source 1](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02008R1333-20260818).
+- E413: food-specific prohibition. [source 1](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02008R1333-20260818).
+- E414: food-specific prohibition. [source 1](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02008R1333-20260818).
+- E417: food-specific prohibition. [source 1](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02008R1333-20260818).
+- E418: food-specific prohibition. [source 1](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02008R1333-20260818).
+- E440: food-specific prohibition. [source 1](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02008R1333-20260818).
+- E701: feed-use prohibition. [source 1](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32003R1831).
+- E702: feed-use prohibition. [source 1](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32003R1831).
+- E703: feed-use prohibition. [source 1](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32003R1831).
+- E704: feed-use prohibition. [source 1](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32003R1831).
+- E705: feed-use prohibition. [source 1](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32003R1831).
+- E706: feed-use prohibition. [source 1](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32003R1831).
+- E707: feed-use prohibition. [source 1](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32003R1831).
+- E708: feed-use prohibition. [source 1](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32003R1831).
+- E710: feed-use prohibition. [source 1](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32003R1831).
+- E711: feed-use prohibition. [source 1](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32003R1831).
+- E712: feed-use prohibition. [source 1](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32003R1831).
+- E713: feed-use prohibition. [source 1](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32003R1831).
+- E715: feed-use prohibition. [source 1](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32003R1831).
+- E717: feed-use prohibition. [source 1](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32003R1831).
+- E905: grade-specific food prohibition. [source 1](https://www.canada.ca/en/health-canada/services/food-nutrition/food-safety/chemical-contaminants/contaminants-adulterating-substances-foods.html).
+- E905a: food-specific prohibition. [source 1](https://www.canada.ca/en/health-canada/services/food-nutrition/food-safety/chemical-contaminants/contaminants-adulterating-substances-foods.html).
+- E905b: confirmed food-use country prohibition. [source 1](https://www.canada.ca/en/health-canada/services/food-nutrition/food-safety/chemical-contaminants/contaminants-adulterating-substances-foods.html).
+- E905c: grade-specific food prohibition. [source 1](https://www.canada.ca/en/health-canada/services/food-nutrition/food-safety/chemical-contaminants/contaminants-adulterating-substances-foods.html).
+- E912: confirmed food-use country prohibition. [source 1](https://eur-lex.europa.eu/eli/reg/2014/957/oj/eng); [source 2](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02008R1333-20260818).
+
+## Corrections and publication checks
+
+- No status flag or name changed in this pass. The cumulative status and name changes remain documented above.
+- E125: removed the incorrect Food Red 2 alias from its overview. The retained dye is FD&C Red No. 4, also known as Ponceau SX or Scarlet GN, as identified in [the FDA inventory](https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?id=FDCRed4&set=ColorAdditives).
+- E905: changed type from flavour enhancer to glazing agent and removed its unsupported flavour-enhancement sentence. The paraffin-wax component has glazing and chewing-gum-base functions in [the JECFA compound record](https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/3021). The regulatory notes retain grade-specific limits.
+- The Part 189 ban on diethyl pyrocarbonate was not applied to dimethyl dicarbonate, E242. Carbon-black production-process withdrawals were not treated as blanket bans on vegetable carbon. Antibiotic feed rules were not extended to coccidiostat exceptions.
+- scripts/enrich-regulations.py requires evidence loaded successfully, exact 522-code coverage, approval agreement and correct handling of future dates. The description catalog is synchronised so a later description rebuild cannot restore stale regulatory details or icons.
+- All 522 aggregate records were synchronised to dist/single. The summary and master remain consistent with the primary data. Full validation passes with 0 errors and all 22 tests pass.
+
+Progress remains 522 done, 0 needs-review and 0 todo. The user removed the human review queue; unresolved geographic and exact-preparation evidence remains in provenance gaps.
 
 # Local delivery
 

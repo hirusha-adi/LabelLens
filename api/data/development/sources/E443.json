@@ -7,13 +7,22 @@
       "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
     ],
     "icon": [
-      "https://www.fda.gov/food/hfp-constituent-updates/fda-revokes-regulation-allowing-use-brominated-vegetable-oil-bvo-food"
+      "https://www.fda.gov/food/hfp-constituent-updates/fda-revokes-regulation-allowing-use-brominated-vegetable-oil-bvo-food",
+      "https://www.canada.ca/en/health-canada/services/food-nutrition/public-involvement-partnerships/modification-list-permitted-food-additives-other-accepted-uses-remove-brominated-vegetable-oil.html",
+      "https://ahea.assembly.ca.gov/system/files/2024-11/2023-24-legislative-bill-summary-final_1.pdf"
     ],
     "daily_intake": [
       "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/2686"
     ],
     "banned_in": [
-      "https://www.fda.gov/food/hfp-constituent-updates/fda-revokes-regulation-allowing-use-brominated-vegetable-oil-bvo-food"
+      "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+      "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+      "https://www.fda.gov/food/hfp-constituent-updates/fda-revokes-regulation-allowing-use-brominated-vegetable-oil-bvo-food",
+      "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=189",
+      "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=81",
+      "https://www.canada.ca/en/health-canada/services/food-nutrition/food-safety/chemical-contaminants/contaminants-adulterating-substances-foods.html",
+      "https://www.canada.ca/en/health-canada/services/food-nutrition/public-involvement-partnerships/modification-list-permitted-food-additives-other-accepted-uses-remove-brominated-vegetable-oil.html",
+      "https://ahea.assembly.ca.gov/system/files/2024-11/2023-24-legislative-bill-summary-final_1.pdf"
     ],
     "overview": [
       "https://www.fda.gov/food/hfp-constituent-updates/fda-revokes-regulation-allowing-use-brominated-vegetable-oil-bvo-food"
@@ -36,11 +45,14 @@
     "Specific food-use examples were not confirmed; uses omitted.",
     "No sufficiently specific compound-level source was retained for dietary_restrictions; field omitted.",
     "No sufficiently specific compound-level source was retained for interactions; field omitted.",
-    "No sufficiently specific compound-level source was retained for precautions; field omitted."
+    "No sufficiently specific compound-level source was retained for precautions; field omitted.",
+    "The checked sources do not establish an exhaustive worldwide country-ban list; jurisdictions without compound-specific evidence remain unconfirmed."
   ],
   "changes": [
     "Replaced the legacy layout with rich fields and removed unsupported inherited health, dietary and intake assertions.",
     "Created the missing individual additive record and field provenance.",
-    "2026-10-10 description expansion: overview replaced or added with compound-specific detail from the linked field sources."
+    "2026-10-10 description expansion: overview replaced or added with compound-specific detail from the linked field sources.",
+    "2026-10-10 regulatory expansion: banned_in records confirmed country bans, approval lines, scoped restrictions and limits of the checked jurisdictions. Country and use-specific evidence is retained in regulatory-details.json.",
+    "banned_in: Banned in: United States. -> Banned in: United States, Canada. Explicit food-use withdrawals or prohibitions establish the listed countries; preparation and stock exceptions are described in the regulatory notes."
   ]
 }

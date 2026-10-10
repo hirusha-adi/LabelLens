@@ -6,14 +6,16 @@
     "status": "",
     "icon": "mdi-alert-circle",
     "more_info": {
-        "banned_in": "JECFA records withdrawn specifications in 1984; no current EU or US food-colour listing was verified in 2026.",
+        "banned_in": "JECFA records withdrawn specifications in 1984; no current EU or US food-colour listing was verified in 2026.\nNo current country-wide food-use ban was confirmed in the regulatory sources checked in 2026.\nEU and US food-additive permissions for this exact entry were not confirmed in the sources checked in 2026.",
         "overview": "Orange GGN is an orange azo dye also called alpha-naphthol orange. Its chemical identity is a disodium salt containing a naphthol unit and sulphonate groups. The historical food-colour entry refers to this dye specifically. A similar visible colour does not make it interchangeable with another orange food dye. Current food-use details are recorded separately from this chemical description.",
         "daily_intake": "ADI decision postponed (JECFA, 1977).",
         "side_effects": "Human effects at food-use levels were not established in the reviewed 1977 JECFA monograph.\nHistorical repeated-dose rat studies reported reduced liver vitamin A content at experimental doses. These old animal findings do not establish the same effect at human food-use levels.",
         "articles": {
             "WHO JECFA (INCHEM)": "https://www.inchem.org/documents/jecfa/jeceval/jec_1796.htm",
             "WHO toxicology (INCHEM)": "https://inchem.org/documents/jecfa/jecmono/v12je15.htm",
-            "Wikipedia": "https://en.wikipedia.org/wiki/Orange_GGN"
+            "Wikipedia": "https://en.wikipedia.org/wiki/Orange_GGN",
+            "ec.europa.eu": "https://ec.europa.eu/food/food-feed-portal/backend/api/policy-items?foodDomain=fin&authorisationType=fad_auth",
+            "FDA": "https://www.fda.gov/industry/color-additives/summary-color-additives-use-united-states-foods-drugs-cosmetics-and-medical-devices"
         }
     }
 }

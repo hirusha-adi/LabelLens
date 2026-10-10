@@ -11,6 +11,7 @@
             "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
             "Wikipedia": "https://en.wikipedia.org/wiki/Wax_ester"
         },
-        "overview": "Wax esters are compounds formed from fatty acids and fatty alcohols. They occur as major components of several natural waxes, including beeswax and carnauba wax. Different acid and alcohol components produce different compositions and physical properties. This historical entry uses a family name for glazing materials. The name alone cannot identify the raw-material source or one preparation-specific food-use assessment."
+        "overview": "Wax esters are compounds formed from fatty acids and fatty alcohols. They occur as major components of several natural waxes, including beeswax and carnauba wax. Different acid and alcohol components produce different compositions and physical properties. This historical entry uses a family name for glazing materials. The name alone cannot identify the raw-material source or one preparation-specific food-use assessment.",
+        "banned_in": "No current country-wide food-use ban was confirmed in the regulatory sources checked in 2026.\nEU and US food-additive permissions for this exact entry were not confirmed in the sources checked in 2026."
     }
 }

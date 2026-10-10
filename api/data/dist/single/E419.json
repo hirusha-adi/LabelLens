@@ -13,11 +13,12 @@
             "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
             "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
             "eCFR": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=184",
-            "EUR-Lex": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02008R1333-20260818"
+            "EUR-Lex": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02008R1333-20260818",
+            "eCFR (2)": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=189"
         },
         "origin": "Plant-derived exudate collected from wounds in the bark of Anogeissus latifolia, a tree found in India and Sri Lanka.",
         "uses": "An emulsifier in non-alcoholic beverages and beverage bases, with a US maximum of 0.2% in the served food. The FDA regulation sets a 0.1% maximum for other food categories.",
         "dietary_restrictions": "The gum itself is plant derived and compatible with vegan and vegetarian diets. This origin does not establish halal or kosher certification of a commercial preparation.",
-        "banned_in": "Approved in the US.\nUS food use follows the preparation-specific conditions in 21 CFR 184.1333, checked in 2026."
+        "banned_in": "Approved in the US.\nUS food use follows the preparation-specific conditions in 21 CFR 184.1333, checked in 2026.\nNo current country-wide food-use ban was confirmed in the regulatory sources checked in 2026.\nThe permissions checked in 2026 apply only to the specified preparations, food uses and conditions."
     }
 }

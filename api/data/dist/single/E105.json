@@ -6,14 +6,15 @@
     "status": "",
     "icon": "mdi-alert-circle",
     "more_info": {
-        "banned_in": "JECFA records withdrawn specifications in 1984; no current EU or US food-colour listing was verified in 2026.",
+        "banned_in": "JECFA records withdrawn specifications in 1984; no current EU or US food-colour listing was verified in 2026.\nNo current country-wide food-use ban was confirmed in the regulatory sources checked in 2026.\nEU and US food-additive permissions for this exact entry were not confirmed in the sources checked in 2026.",
         "overview": "Fast Yellow AB is an azo dye supplied as an organic sodium salt. The dye molecule contains two sulphonate groups, and the PubChem identity record also describes use as a biological stain. Its appearance in historical food-colour lists concerns a former technological use. Current approval and food-use conditions must refer to the exact dye preparation.",
         "daily_intake": "ADI decision postponed (JECFA, 1977). This is not an ADI stated as unspecified.",
         "articles": {
             "WHO JECFA (INCHEM)": "https://www.inchem.org/documents/jecfa/jeceval/jec_851.htm",
             "Wikipedia": "https://en.wikipedia.org/wiki/Fast_Yellow_AB",
             "PubChem": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Fast%20Yellow%20AB/description/JSON",
-            "EUR-Lex": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02008R1333-20260818"
+            "EUR-Lex": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02008R1333-20260818",
+            "ec.europa.eu": "https://ec.europa.eu/food/food-feed-portal/backend/api/policy-items?foodDomain=fin&authorisationType=fad_auth"
         }
     }
 }

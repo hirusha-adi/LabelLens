@@ -14,6 +14,7 @@
             "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
             "WHO JECFA (2)": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/2463"
         },
-        "origin": "A chemically processed soybean-oil preparation interacted with mono- and diglycerides. The soybean-oil component is plant derived; the identity record does not fix the origin of all glyceride feedstocks."
+        "origin": "A chemically processed soybean-oil preparation interacted with mono- and diglycerides. The soybean-oil component is plant derived; the identity record does not fix the origin of all glyceride feedstocks.",
+        "banned_in": "No current country-wide food-use ban was confirmed in the regulatory sources checked in 2026.\nEU and US food-additive permissions for this exact entry were not confirmed in the sources checked in 2026."
     }
 }

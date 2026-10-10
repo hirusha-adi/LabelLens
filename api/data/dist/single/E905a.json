@@ -4,14 +4,16 @@
     "display_name": "E905a (Mineral oil)",
     "type": "anti-foaming agent",
     "status": "",
-    "icon": "mdi-check-circle",
+    "icon": "mdi-alert-circle",
     "more_info": {
         "articles": {
             "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/2803",
             "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
             "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
-            "eCFR": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=172"
+            "eCFR": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=172",
+            "Health Canada": "https://www.canada.ca/en/health-canada/services/food-nutrition/food-safety/chemical-contaminants/contaminants-adulterating-substances-foods.html"
         },
-        "overview": "Mineral oil is a liquid mixture of petroleum hydrocarbons, distinct from semi-solid petrolatum and solid petroleum wax. FDA specifies white mineral oil for limited food-processing uses, with purity requirements for the commercial material. Its applications include release, lubrication, dust control and protective coating in specified processes. The permitted purpose and amount depend on the food or operation. A food-use specification for refined oil cannot be applied to an unrefined petroleum product."
+        "overview": "Mineral oil is a liquid mixture of petroleum hydrocarbons, distinct from semi-solid petrolatum and solid petroleum wax. FDA specifies white mineral oil for limited food-processing uses, with purity requirements for the commercial material. Its applications include release, lubrication, dust control and protective coating in specified processes. The permitted purpose and amount depend on the food or operation. A food-use specification for refined oil cannot be applied to an unrefined petroleum product.",
+        "banned_in": "No current country-wide food-use ban was confirmed in the regulatory sources checked in 2026.\nEU and US food-additive permissions for this exact entry were not confirmed in the sources checked in 2026.\nCanada prohibits mineral oil in foods except where required by good manufacturing practice, for which it sets a maximum of 3,000 ppm in the adulterating-substances list checked in 2026."
     }
 }

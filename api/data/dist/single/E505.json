@@ -11,6 +11,7 @@
             "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
             "Wikipedia": "https://en.wikipedia.org/wiki/Iron(II)_carbonate"
         },
-        "overview": "Ferrous carbonate is the inorganic iron(II) salt of carbonate. Its naturally occurring mineral form is siderite, while the same chemical identity can also be prepared synthetically. The iron oxidation state distinguishes it from ferric compounds. The historical dataset classifies it as an acidity regulator, but a particular food-grade preparation and typical current food examples were not confirmed."
+        "overview": "Ferrous carbonate is the inorganic iron(II) salt of carbonate. Its naturally occurring mineral form is siderite, while the same chemical identity can also be prepared synthetically. The iron oxidation state distinguishes it from ferric compounds. The historical dataset classifies it as an acidity regulator, but a particular food-grade preparation and typical current food examples were not confirmed.",
+        "banned_in": "No current country-wide food-use ban was confirmed in the regulatory sources checked in 2026.\nEU and US food-additive permissions for this exact entry were not confirmed in the sources checked in 2026."
     }
 }

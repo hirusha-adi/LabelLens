@@ -11,6 +11,7 @@
             "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
             "Wikipedia": "https://en.wikipedia.org/wiki/Ammonium_fumarate"
         },
-        "overview": "Ammonium fumarate is an ammonium salt of fumaric acid. The described diammonium composition contains two ammonium ions for each fumarate unit. This distinguishes it from free fumaric acid and from sodium or calcium fumarates. The dataset retains its historical acidity-regulator classification. A current, preparation-specific human-food example was not confirmed."
+        "overview": "Ammonium fumarate is an ammonium salt of fumaric acid. The described diammonium composition contains two ammonium ions for each fumarate unit. This distinguishes it from free fumaric acid and from sodium or calcium fumarates. The dataset retains its historical acidity-regulator classification. A current, preparation-specific human-food example was not confirmed.",
+        "banned_in": "No current country-wide food-use ban was confirmed in the regulatory sources checked in 2026.\nEU and US food-additive permissions for this exact entry were not confirmed in the sources checked in 2026."
     }
 }

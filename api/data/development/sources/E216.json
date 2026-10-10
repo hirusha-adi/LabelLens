@@ -8,12 +8,29 @@
       "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=172"
     ],
     "icon": [
-      "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/330"
+      "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/330",
+      "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32006L0052",
+      "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02008R1333-20260818",
+      "https://european-union.europa.eu/principles-countries-history/eu-countries_en",
+      "https://european-union.europa.eu/principles-countries-history/eu-countries_en?page=1",
+      "https://ahea.assembly.ca.gov/system/files/2024-11/2023-24-legislative-bill-summary-final_1.pdf",
+      "https://code.wvlegislature.gov/16-7-2/",
+      "https://cases.justia.com/federal/district-courts/west-virginia/wvsdce/2%3A2025cv00588/242414/21/0.pdf?ts=1766581402"
     ],
     "banned_in": [
       "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
       "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
-      "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=172"
+      "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=172",
+      "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=189",
+      "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=81",
+      "https://www.canada.ca/en/health-canada/services/food-nutrition/food-safety/chemical-contaminants/contaminants-adulterating-substances-foods.html",
+      "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32006L0052",
+      "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02008R1333-20260818",
+      "https://european-union.europa.eu/principles-countries-history/eu-countries_en",
+      "https://european-union.europa.eu/principles-countries-history/eu-countries_en?page=1",
+      "https://ahea.assembly.ca.gov/system/files/2024-11/2023-24-legislative-bill-summary-final_1.pdf",
+      "https://code.wvlegislature.gov/16-7-2/",
+      "https://cases.justia.com/federal/district-courts/west-virginia/wvsdce/2%3A2025cv00588/242414/21/0.pdf?ts=1766581402"
     ],
     "overview": [
       "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/330",
@@ -31,18 +48,21 @@
     "type": "development/ins-summary-original.json"
   },
   "gaps": [
-    "Current EU food-use permission was not established for the exact identity or complete group named by this entry; no e flag is asserted.",
     "Specific food-use examples were not confirmed; uses omitted.",
     "No sufficiently specific compound-level source was retained for origin; field omitted.",
     "No sufficiently specific compound-level source was retained for side_effects; field omitted.",
     "No sufficiently specific compound-level source was retained for dietary_restrictions; field omitted.",
     "No sufficiently specific compound-level source was retained for interactions; field omitted.",
-    "No sufficiently specific compound-level source was retained for precautions; field omitted."
+    "No sufficiently specific compound-level source was retained for precautions; field omitted.",
+    "The checked sources do not establish an exhaustive worldwide country-ban list; jurisdictions without compound-specific evidence remain unconfirmed.",
+    "A later order modifying the December 2025 West Virginia injunction was not confirmed; the 2028 provision is not recorded as a current ban."
   ],
   "changes": [
     "Replaced the legacy layout with rich fields and removed unsupported inherited health, dietary and intake assertions.",
     "status: '' -> 'u'; 21 CFR 172.515. Empty flags include unconfirmed permissions, not inferred country bans.",
     "name/href/function and characteristics/products replaced by the required rich schema; only sourced facts were retained.",
-    "2026-10-10 description expansion: overview replaced or added with compound-specific detail from the linked field sources."
+    "2026-10-10 description expansion: overview replaced or added with compound-specific detail from the linked field sources.",
+    "2026-10-10 regulatory expansion: banned_in records confirmed country bans, approval lines, scoped restrictions and limits of the checked jurisdictions. Country and use-specific evidence is retained in regulatory-details.json.",
+    "banned_in: (no confirmed country-ban line) -> Banned in: Austria, Belgium, Bulgaria, Croatia, Cyprus, Czechia, Denmark, Estonia, Finland, France, Germany, Greece, Hungary, Ireland, Italy, Latvia, Lithuania, Luxembourg, Malta, Netherlands, Poland, Portugal, Romania, Slovakia, Slovenia, Spain, Sweden. Explicit food-use withdrawals or prohibitions establish the listed countries; preparation and stock exceptions are described in the regulatory notes."
   ]
 }

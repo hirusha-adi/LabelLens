@@ -31,9 +31,12 @@
       "https://inchem.org/documents/jecfa/jecmono/v12je15.htm"
     ],
     "banned_in": [
-      "https://www.inchem.org/documents/jecfa/jeceval/jec_1796.htm",
       "https://ec.europa.eu/food/food-feed-portal/backend/api/policy-items?foodDomain=fin&authorisationType=fad_auth",
-      "https://www.fda.gov/industry/color-additives/summary-color-additives-use-united-states-foods-drugs-cosmetics-and-medical-devices"
+      "https://www.fda.gov/industry/color-additives/summary-color-additives-use-united-states-foods-drugs-cosmetics-and-medical-devices",
+      "https://www.inchem.org/documents/jecfa/jeceval/jec_1796.htm",
+      "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=189",
+      "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=81",
+      "https://www.canada.ca/en/health-canada/services/food-nutrition/food-safety/chemical-contaminants/contaminants-adulterating-substances-foods.html"
     ]
   },
   "gaps": [
@@ -43,12 +46,14 @@
     "interactions: no specific applicable claim verified in the reviewed compound record, regulatory listings and safety assessment; omitted.",
     "precautions: no specific applicable claim verified in the reviewed compound record, regulatory listings and safety assessment; omitted.",
     "Country ban list: no compound-specific national prohibition verified in the sources reviewed; omission does not establish absence of bans worldwide.",
-    "dietary_restrictions: the old universal vegan/vegetarian/religious suitability guarantee was not verified. Chemical identity or synthetic origin alone does not establish commercial preparation or process certification."
+    "dietary_restrictions: the old universal vegan/vegetarian/religious suitability guarantee was not verified. Chemical identity or synthetic origin alone does not establish commercial preparation or process certification.",
+    "The checked sources do not establish an exhaustive worldwide country-ban list; jurisdictions without compound-specific evidence remain unconfirmed."
   ],
   "changes": [
     "Created previously missing individual file using the master identity and reviewed sources.",
     "Icon: JECFA postponed the ADI decision and records withdrawal of specifications.",
     "Created the missing individual additive record and field provenance.",
-    "2026-10-10 description expansion: overview replaced or added with compound-specific detail from the linked field sources."
+    "2026-10-10 description expansion: overview replaced or added with compound-specific detail from the linked field sources.",
+    "2026-10-10 regulatory expansion: banned_in records confirmed country bans, approval lines, scoped restrictions and limits of the checked jurisdictions. Country and use-specific evidence is retained in regulatory-details.json."
   ]
 }

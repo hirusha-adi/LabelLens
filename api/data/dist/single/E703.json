@@ -4,15 +4,17 @@
     "display_name": "E703 (Oxytetracycline)",
     "type": "antibiotic",
     "status": "",
-    "icon": "mdi-check-circle",
+    "icon": "mdi-alert-circle",
     "more_info": {
         "daily_intake": "0-0.03 mg/kg body weight (JECFA, 2002).",
         "articles": {
             "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/3859",
             "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
             "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
-            "EUR-Lex": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02008R1333-20260818"
+            "EUR-Lex": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02008R1333-20260818",
+            "EUR-Lex (2)": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32003R1831"
         },
-        "overview": "Oxytetracycline is a tetracycline-class antimicrobial compound evaluated by JECFA as a veterinary drug. Its presence here is a legacy antibiotic entry. The reviewed JECFA evaluation concerns residues associated with animal treatment. That residue assessment does not establish permission to add the substance directly to human food."
+        "overview": "Oxytetracycline is a tetracycline-class antimicrobial compound evaluated by JECFA as a veterinary drug. Its presence here is a legacy antibiotic entry. The reviewed JECFA evaluation concerns residues associated with animal treatment. That residue assessment does not establish permission to add the substance directly to human food.",
+        "banned_in": "No current country-wide food-use ban was confirmed in the regulatory sources checked in 2026.\nEU and US food-additive permissions for this exact entry were not confirmed in the sources checked in 2026.\nEU Regulation 1831/2003 ended feed-additive use of antibiotics other than coccidiostats and histomonostats from 1 January 2006; this rule concerns feed additives and does not itself prohibit authorised veterinary treatment."
     }
 }

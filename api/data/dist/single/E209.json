@@ -12,6 +12,7 @@
             "PubChem": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Heptylparaben/description/JSON",
             "EUR-Lex": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02008R1333-20260818"
         },
-        "overview": "Heptyl para-hydroxybenzoate is a benzoate ester formed from para-hydroxybenzoic acid and a seven-carbon alcohol group. This entry identifies the heptyl ester specifically. Its historical preservative classification is distinct from that of other paraben esters. Current food examples, a commercial production route and a applicable intake limit were not confirmed for this record."
+        "overview": "Heptyl para-hydroxybenzoate is a benzoate ester formed from para-hydroxybenzoic acid and a seven-carbon alcohol group. This entry identifies the heptyl ester specifically. Its historical preservative classification is distinct from that of other paraben esters. Current food examples, a commercial production route and a applicable intake limit were not confirmed for this record.",
+        "banned_in": "No current country-wide food-use ban was confirmed in the regulatory sources checked in 2026.\nEU and US food-additive permissions for this exact entry were not confirmed in the sources checked in 2026."
     }
 }

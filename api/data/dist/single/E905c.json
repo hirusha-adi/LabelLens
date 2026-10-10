@@ -4,9 +4,9 @@
     "display_name": "E905c (Petroleum wax)",
     "type": "glazing agent",
     "status": "u",
-    "icon": "mdi-check-circle",
+    "icon": "mdi-alert-circle",
     "more_info": {
-        "banned_in": "Approved in the US.\nUS food use is subject to the listed CFR provisions and their conditions, checked in 2026.",
+        "banned_in": "Approved in the US.\nUS food use is subject to the listed CFR provisions and their conditions, checked in 2026.\nNo current country-wide food-use ban was confirmed in the regulatory sources checked in 2026.\nThe permissions checked in 2026 apply only to the specified preparations, food uses and conditions.\nCanada prohibits paraffin wax in foods other than chewing gum with a paraffin-wax base in the list checked in 2026; this does not establish the same rule for every other petroleum-wax grade in the entry.",
         "overview": "Petroleum wax is a refined mixture of solid hydrocarbons, including paraffin and microcrystalline preparations. FDA specifies purity and physical-property requirements for the food-use material. Listed functions include processing lubrication, release, protective coating and some chewing-gum-base uses. This broad historical entry covers more than one wax grade, so one grade's intake assessment does not automatically describe all waxes.",
         "articles": {
             "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/494",
@@ -14,7 +14,8 @@
             "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
             "eCFR Title 21": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=173",
             "eCFR": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=172",
-            "WHO JECFA (2)": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/282"
+            "WHO JECFA (2)": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/282",
+            "Health Canada": "https://www.canada.ca/en/health-canada/services/food-nutrition/food-safety/chemical-contaminants/contaminants-adulterating-substances-foods.html"
         }
     }
 }

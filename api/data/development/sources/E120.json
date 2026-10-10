@@ -47,13 +47,17 @@
     ],
     "banned_in": [
       "https://ec.europa.eu/food/food-feed-portal/backend/api/policy-items/POL-FAD-IMPORT-2990",
-      "https://www.ecfr.gov/current/title-21/section-73.100"
+      "https://www.ecfr.gov/current/title-21/section-73.100",
+      "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=189",
+      "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=81",
+      "https://www.canada.ca/en/health-canada/services/food-nutrition/food-safety/chemical-contaminants/contaminants-adulterating-substances-foods.html"
     ]
   },
   "gaps": [
     "interactions: no specific applicable claim verified in the reviewed compound record, regulatory listings and safety assessment; omitted.",
     "Country ban list: no compound-specific national prohibition verified in the sources reviewed; omission does not establish absence of bans worldwide.",
-    "Religious suitability: no compound-specific halal or kosher certification verified; no universal religious claim made."
+    "Religious suitability: no compound-specific halal or kosher certification verified; no universal religious claim made.",
+    "The checked sources do not establish an exhaustive worldwide country-ban list; jurisdictions without compound-specific evidence remain unconfirmed."
   ],
   "changes": [
     "dietary_restrictions: non-vegan and non-vegetarian conclusion follows directly from the compound-specific insect origin; unverified universal religious claims omitted.",
@@ -79,6 +83,7 @@
     "Icon: EFSA identified an allergy risk without a threshold dose in 2015.",
     "name/href/function and characteristics/products replaced by the required rich schema; only sourced facts were retained.",
     "2026-10-10 description expansion: overview replaced or added with compound-specific detail from the linked field sources.",
-    "2026-10-10 description expansion: uses replaced or added with compound-specific detail from the linked field sources."
+    "2026-10-10 description expansion: uses replaced or added with compound-specific detail from the linked field sources.",
+    "2026-10-10 regulatory expansion: banned_in records confirmed country bans, approval lines, scoped restrictions and limits of the checked jurisdictions. Country and use-specific evidence is retained in regulatory-details.json."
   ]
 }

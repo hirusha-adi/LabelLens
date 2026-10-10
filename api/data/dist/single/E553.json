@@ -6,7 +6,7 @@
     "status": "e u",
     "icon": "mdi-alert-circle",
     "more_info": {
-        "banned_in": "Approved in the EU.\nApproved in the US.\nUS food use is subject to the listed CFR provisions and their conditions, checked in 2026.",
+        "banned_in": "Approved in the EU.\nApproved in the US.\nUS food use is subject to the listed CFR provisions and their conditions, checked in 2026.\nNo current country-wide food-use ban was confirmed in the regulatory sources checked in 2026.\nThe permissions checked in 2026 apply only to the specified preparations, food uses and conditions.",
         "overview": "Magnesium silicate is a broad legacy entry retained alongside the more specific E553a and E553b entries. The EU specifications distinguish synthetic magnesium silicate and magnesium trisilicate from natural talc. These are fine mineral-type powders with separately defined compositions and quality requirements. Their listed food role includes reducing caking in powders. A description or assessment of talc alone cannot establish the properties of every magnesium-silicate preparation.",
         "articles": {
             "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",

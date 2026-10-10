@@ -6,7 +6,7 @@
     "status": "e",
     "icon": "mdi-alert-circle",
     "more_info": {
-        "banned_in": "Banned in: United States.\nApproved in the EU.\nFDA cancelled food-use certificates for FD&C Red No. 2 in 1976.",
+        "banned_in": "Banned in: United States.\nApproved in the EU.\nFDA cancelled food-use certificates for FD&C Red No. 2 in 1976.\nThe permissions checked in 2026 apply only to the specified preparations, food uses and conditions.\nThe EU rules checked in 2026 prohibit sale of this colour directly to consumers; specified uses in manufactured foods remain separately authorised.",
         "overview": "Amaranth is a synthetic red azo colour, also known as FD&C Red No. 2. It supplies red shades in foods where its use is permitted. The dye is chemically identified under C.I. Food Red 9. The specified colour is supplied as a reddish-brown powder or granules.",
         "origin": "Synthetic. Naphthalenesulfonic acid compounds are coupled to form the dye, which is supplied mainly as the sodium salt.",
         "daily_intake": "0.15 mg/kg body weight per day (EFSA, 2010). JECFA allocated 0–0.5 mg/kg body weight per day in 1984; the values differ.",
@@ -19,7 +19,8 @@
             "FDA inventory": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?id=FDCRed2&set=ColorAdditives",
             "WHO JECFA (INCHEM)": "https://www.inchem.org/documents/jecfa/jeceval/jec_94.htm",
             "EUR-Lex": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32012R0231",
-            "EUR-Lex (2)": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02008R1333-20260818"
+            "EUR-Lex (2)": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02008R1333-20260818",
+            "ec.europa.eu": "https://ec.europa.eu/food/food-feed-portal/backend/api/policy-items/POL-FAD-IMPORT-2992"
         }
     }
 }

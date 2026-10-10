@@ -6,7 +6,7 @@
     "status": "e u",
     "icon": "mdi-alert-circle",
     "more_info": {
-        "banned_in": "Approved in the EU.\nApproved in the US.\nEFSA replaced its temporary ADI with a revised ADI after reviewing additional data in 2014.",
+        "banned_in": "Approved in the EU.\nApproved in the US.\nEFSA replaced its temporary ADI with a revised ADI after reviewing additional data in 2014.\nNo current country-wide food-use ban was confirmed in the regulatory sources checked in 2026.\nThe permissions checked in 2026 apply only to the specified preparations, food uses and conditions.\nEU foods containing this colour require a warning about possible effects on children's activity and attention under Annex V of the rules checked in 2026, subject to the stated exceptions.\nWest Virginia prohibits this named dye as an ingredient in school-nutrition meals from 1 August 2025, with stated fundraising exceptions; this is a school-use restriction, not a US-wide prohibition.\nWest Virginia's statewide provision has a statutory date of 1 January 2028; a federal court enjoined health-department enforcement in December 2025. The 2025 order expressly left the separate school-meal restriction outside that injunction.",
         "overview": "Sunset Yellow FCF is a synthetic azo colour that gives foods an orange shade. Orange Yellow S and FD&C Yellow No. 6 are other names for the same colour. Food-grade material consists mainly of the dye's salts. The specified material is supplied as red powder or granules.",
         "origin": "Synthetic. Diazotised aminobenzenesulfonic acid is coupled with a hydroxynaphthalenesulfonic acid; the sodium salt is isolated and dried.",
         "daily_intake": "4 mg/kg body weight per day (EFSA, 2014). This replaced EFSA's temporary 1 mg/kg body weight per day ADI from 2009.",
@@ -17,7 +17,10 @@
             "eCFR": "https://www.ecfr.gov/current/title-21/section-74.706",
             "European Commission database": "https://ec.europa.eu/food/food-feed-portal/backend/api/policy-items/POL-FAD-IMPORT-2989",
             "EUR-Lex": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32012R0231",
-            "EUR-Lex (2)": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02008R1333-20260818"
+            "EUR-Lex (2)": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02008R1333-20260818",
+            "West Virginia Legislature": "https://code.wvlegislature.gov/18-5D-3A/",
+            "West Virginia Legislature (2)": "https://code.wvlegislature.gov/16-7-2/",
+            "Justia (US court order)": "https://cases.justia.com/federal/district-courts/west-virginia/wvsdce/2%3A2025cv00588/242414/21/0.pdf?ts=1766581402"
         }
     }
 }

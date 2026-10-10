@@ -42,7 +42,10 @@
     "banned_in": [
       "https://ec.europa.eu/food/food-feed-portal/backend/api/policy-items?foodDomain=fin&authorisationType=fad_auth",
       "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32012R0231",
-      "https://www.ecfr.gov/current/title-21/section-73.600"
+      "https://www.ecfr.gov/current/title-21/section-73.600",
+      "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=189",
+      "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=81",
+      "https://www.canada.ca/en/health-canada/services/food-nutrition/food-safety/chemical-contaminants/contaminants-adulterating-substances-foods.html"
     ]
   },
   "gaps": [
@@ -50,7 +53,8 @@
     "interactions: no specific applicable claim verified in the reviewed compound record, regulatory listings and safety assessment; omitted.",
     "precautions: no specific applicable claim verified in the reviewed compound record, regulatory listings and safety assessment; omitted.",
     "Country ban list: no compound-specific national prohibition verified in the sources reviewed; omission does not establish absence of bans worldwide.",
-    "Religious suitability: no compound-specific halal or kosher certification verified; no universal religious claim made."
+    "Religious suitability: no compound-specific halal or kosher certification verified; no universal religious claim made.",
+    "The checked sources do not establish an exhaustive worldwide country-ban list; jurisdictions without compound-specific evidence remain unconfirmed."
   ],
   "changes": [
     "dietary_restrictions: vegan/vegetarian suitability inferred only for the plant rhizome identified by FDA.",
@@ -78,6 +82,7 @@
     "status: 'e u' -> 'u'; exact current EU/FDA identity check and retained regulatory sources. Empty flags include unconfirmed permissions, not inferred country bans.",
     "code: 'E100(ii)' -> 'E100ii'; restored the required prefix and filename identity.",
     "name/href/function and characteristics/products replaced by the required rich schema; only sourced facts were retained.",
-    "2026-10-10 description expansion: overview replaced or added with compound-specific detail from the linked field sources."
+    "2026-10-10 description expansion: overview replaced or added with compound-specific detail from the linked field sources.",
+    "2026-10-10 regulatory expansion: banned_in records confirmed country bans, approval lines, scoped restrictions and limits of the checked jurisdictions. Country and use-specific evidence is retained in regulatory-details.json."
   ]
 }

@@ -6,7 +6,7 @@
     "status": "u",
     "icon": "mdi-check-circle",
     "more_info": {
-        "banned_in": "Approved in the US.\nUS food use is subject to the listed CFR provisions and their conditions, checked in 2026.",
+        "banned_in": "Approved in the US.\nUS food use is subject to the listed CFR provisions and their conditions, checked in 2026.\nNo current country-wide food-use ban was confirmed in the regulatory sources checked in 2026.\nThe permissions checked in 2026 apply only to the specified preparations, food uses and conditions.",
         "overview": "Chloropentafluoroethane is a fluorinated compound used as an aerating agent for specified foamed or sprayed foods. FDA describes use alone or in mixtures with certain other food gases. The regulation sets high-purity requirements and limits on fluorinated impurities. Its propellant effect is incidental to the stated aerating function.",
         "articles": {
             "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",

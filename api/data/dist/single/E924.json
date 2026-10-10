@@ -6,7 +6,7 @@
     "status": "u",
     "icon": "mdi-alert-circle",
     "more_info": {
-        "banned_in": "Approved in the US.\nUS food use is subject to the listed CFR provisions and their conditions, checked in 2026.",
+        "banned_in": "Banned in: Canada, India.\nApproved in the US.\nUS food use is subject to the listed CFR provisions and their conditions, checked in 2026.\nThe permissions checked in 2026 apply only to the specified preparations, food uses and conditions.\nHealth Canada records that use as a food additive was no longer permitted from 1994; FSSAI expressly reconfirmed the prohibition on addition to any food in 2018.\nEngland and Wales removed potassium bromate from permitted flour and bread additives under regulations effective on 1 April 1990.\nCalifornia's enacted food-product prohibition is scheduled to apply from 1 January 2027; it is not a current California prohibition on the 2026 check date.",
         "overview": "Potassium bromate is an inorganic potassium salt of bromic acid used in some specified flour and grain-processing applications. The current US regulation includes a narrowly defined use in malting barley. Other US food standards separately address bread and bromated flour. JECFA's assessment of bromate remaining in bread raises a different question from the identity and technological purpose of the treatment.",
         "articles": {
             "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
@@ -14,7 +14,11 @@
             "eCFR Title 21": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=172",
             "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/4265",
             "eCFR": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=137",
-            "eCFR (2)": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=136"
+            "eCFR (2)": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=136",
+            "Health Canada": "https://www.canada.ca/en/environment-climate-change/services/evaluating-existing-substances/screening-assessment-forchallenge20.html",
+            "FSSAI": "https://www.fssai.gov.in/upload/advisories/2018/07/5b52d8d24e4b3Reg-53.pdf",
+            "UK legislation": "https://www.legislation.gov.uk/uksi/1990/399/made",
+            "California Assembly": "https://ahea.assembly.ca.gov/system/files/2024-11/2023-24-legislative-bill-summary-final_1.pdf"
         },
         "daily_intake": "JECFA judged use as a flour-treatment agent unacceptable (1992, reaffirmed 1995); no current food-use ADI was established.",
         "side_effects": "JECFA reaffirmed its concern about bromate residues remaining in bread in 1995.\nThat evaluation did not establish an acceptable flour-treatment exposure."

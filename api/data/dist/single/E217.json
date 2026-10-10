@@ -4,14 +4,16 @@
     "display_name": "E217 (Sodium propyl para-hydroxybenzoate)",
     "type": "preservative",
     "status": "",
-    "icon": "mdi-check-circle",
+    "icon": "mdi-alert-circle",
     "more_info": {
         "articles": {
             "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
             "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
             "PubChem": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Sodium%20propylparaben/description/JSON",
-            "EUR-Lex": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02008R1333-20260818"
+            "EUR-Lex": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02008R1333-20260818",
+            "EUR-Lex (2)": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32006L0052"
         },
-        "overview": "Sodium propyl para-hydroxybenzoate is the sodium form of propylparaben. The PubChem record identifies the salt separately from the free ester. Its historical preservative classification concerns this particular preparation. An evaluation or permission for methylparaben or ethylparaben cannot be assumed to apply to the propyl preparation."
+        "overview": "Sodium propyl para-hydroxybenzoate is the sodium form of propylparaben. The PubChem record identifies the salt separately from the free ester. Its historical preservative classification concerns this particular preparation. An evaluation or permission for methylparaben or ethylparaben cannot be assumed to apply to the propyl preparation.",
+        "banned_in": "Banned in: Austria, Belgium, Bulgaria, Croatia, Cyprus, Czechia, Denmark, Estonia, Finland, France, Germany, Greece, Hungary, Ireland, Italy, Latvia, Lithuania, Luxembourg, Malta, Netherlands, Poland, Portugal, Romania, Slovakia, Slovenia, Spain, Sweden.\nDirective 2006/52/EC withdrew the EU food-additive permission; Member States had to prohibit non-compliant trade and use by 15 August 2008, with an exception for previously marketed or labelled stocks."
     }
 }

@@ -11,6 +11,7 @@
             "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
             "EUR-Lex": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02008R1333-20260818"
         },
-        "overview": "Benzylated hydrocarbons is a broad historical label rather than an identified single compound in the reviewed sources. A preparation-specific definition and technological food function were not confirmed. The name alone is insufficient to select a manufacturing route, food-use example or intake assessment. Those details remain unassigned rather than being borrowed from a similarly named hydrocarbon or benzyl compound."
+        "overview": "Benzylated hydrocarbons is a broad historical label rather than an identified single compound in the reviewed sources. A preparation-specific definition and technological food function were not confirmed. The name alone is insufficient to select a manufacturing route, food-use example or intake assessment. Those details remain unassigned rather than being borrowed from a similarly named hydrocarbon or benzyl compound.",
+        "banned_in": "No current country-wide food-use ban was confirmed in the regulatory sources checked in 2026.\nEU and US food-additive permissions for this exact entry were not confirmed in the sources checked in 2026."
     }
 }

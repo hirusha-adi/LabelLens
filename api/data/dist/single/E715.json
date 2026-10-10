@@ -4,13 +4,15 @@
     "display_name": "E715 (Avoparcin)",
     "type": "antibiotic",
     "status": "",
-    "icon": "mdi-check-circle",
+    "icon": "mdi-alert-circle",
     "more_info": {
         "articles": {
             "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
             "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
-            "Wikipedia": "https://en.wikipedia.org/wiki/Avoparcin"
+            "Wikipedia": "https://en.wikipedia.org/wiki/Avoparcin",
+            "EUR-Lex": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32003R1831"
         },
-        "overview": "Avoparcin is a glycopeptide antibiotic preparation. Its antimicrobial action is associated with activity against Gram-positive bacteria, and its historical context includes animal-feed use. That context differs from technological addition to foods eaten by people. The retained entry does not establish a current direct human-food permission or a typical retail-food example."
+        "overview": "Avoparcin is a glycopeptide antibiotic preparation. Its antimicrobial action is associated with activity against Gram-positive bacteria, and its historical context includes animal-feed use. That context differs from technological addition to foods eaten by people. The retained entry does not establish a current direct human-food permission or a typical retail-food example.",
+        "banned_in": "No current country-wide food-use ban was confirmed in the regulatory sources checked in 2026.\nEU and US food-additive permissions for this exact entry were not confirmed in the sources checked in 2026.\nEU Regulation 1831/2003 ended feed-additive use of antibiotics other than coccidiostats and histomonostats from 1 January 2006; this rule concerns feed additives and does not itself prohibit authorised veterinary treatment."
     }
 }

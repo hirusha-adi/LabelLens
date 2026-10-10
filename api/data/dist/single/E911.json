@@ -11,6 +11,7 @@
             "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
             "Wikipedia": "https://en.wikipedia.org/wiki/Fatty_acid_methyl_ester"
         },
-        "overview": "Methyl esters of fatty acids is a group name for fatty-acid compounds esterified with methanol. They can be produced by transesterification of fats, and their composition depends on the starting fatty-acid mixture. The group includes individual esters such as methyl palmitate, methyl stearate and methyl oleate. This historical glazing-agent entry does not identify one food-grade product. Industrial uses of these esters do not establish typical food uses or an intake limit."
+        "overview": "Methyl esters of fatty acids is a group name for fatty-acid compounds esterified with methanol. They can be produced by transesterification of fats, and their composition depends on the starting fatty-acid mixture. The group includes individual esters such as methyl palmitate, methyl stearate and methyl oleate. This historical glazing-agent entry does not identify one food-grade product. Industrial uses of these esters do not establish typical food uses or an intake limit.",
+        "banned_in": "No current country-wide food-use ban was confirmed in the regulatory sources checked in 2026.\nEU and US food-additive permissions for this exact entry were not confirmed in the sources checked in 2026."
     }
 }

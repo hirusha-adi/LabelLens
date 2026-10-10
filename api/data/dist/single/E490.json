@@ -9,9 +9,10 @@
         "articles": {
             "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
             "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
-            "eCFR": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=184"
+            "eCFR": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=184",
+            "eCFR (2)": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=189"
         },
-        "banned_in": "Approved in the EU.\nApproved in the US.\nThis legacy code names propane-1,2-diol, regulated as E1520 in the EU; identity was checked in 2026.",
+        "banned_in": "Approved in the EU.\nApproved in the US.\nThis legacy code names propane-1,2-diol, regulated as E1520 in the EU; identity was checked in 2026.\nNo current country-wide food-use ban was confirmed in the regulatory sources checked in 2026.\nThe permissions checked in 2026 apply only to the specified preparations, food uses and conditions.",
         "overview": "Propane-1,2-diol is the chemical also called propylene glycol, represented elsewhere in this dataset by E1520. It is a two-hydroxyl alcohol used as a carrier and moisture-controlling formulation ingredient. FDA describes several additional technological functions, with food-specific concentration limits. The historical E490 designation refers to this compound and does not define a separate chemical.",
         "origin": "FDA describes synthetic manufacture through a propylene chlorohydrin intermediate, followed by conversion to the glycol, or by heating glycerol with sodium hydroxide. The definition does not establish the feedstock source of every glycerol batch. This historical entry names the same compound as E1520.",
         "daily_intake": "25 mg/kg body weight/day for propane-1,2-diol (EFSA, 2018)."

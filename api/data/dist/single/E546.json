@@ -11,6 +11,7 @@
             "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
             "PubChem": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/122213/description/JSON"
         },
-        "overview": "Magnesium pyrophosphate is a magnesium salt of diphosphoric acid, also called magnesium diphosphate. The defined anhydrous compound contains two magnesium atoms for each diphosphate group. This distinguishes it from magnesium orthophosphates and from broad magnesium-polyphosphate mixtures. The historical dataset assigns an emulsifying role, while a particular food-grade preparation and typical current food examples were not confirmed."
+        "overview": "Magnesium pyrophosphate is a magnesium salt of diphosphoric acid, also called magnesium diphosphate. The defined anhydrous compound contains two magnesium atoms for each diphosphate group. This distinguishes it from magnesium orthophosphates and from broad magnesium-polyphosphate mixtures. The historical dataset assigns an emulsifying role, while a particular food-grade preparation and typical current food examples were not confirmed.",
+        "banned_in": "No current country-wide food-use ban was confirmed in the regulatory sources checked in 2026.\nEU and US food-additive permissions for this exact entry were not confirmed in the sources checked in 2026."
     }
 }

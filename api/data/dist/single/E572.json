@@ -12,6 +12,7 @@
             "eCFR": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=184"
         },
         "overview": "Magnesium stearate is the magnesium salt of stearic acid, generally supplied as a white powder. FDA describes production by precipitation from sodium stearate and magnesium chloride solutions. Its listed functions include lubrication, release, nutrient supplementation and processing assistance. This historical dataset entry also names calcium stearate, a different salt requiring its own applicable specification.",
-        "origin": "For magnesium stearate, FDA describes precipitation by mixing magnesium chloride and sodium stearate solutions. The stearic acid is obtained from edible sources. The regulation does not establish a single plant or animal feedstock for every commercial preparation."
+        "origin": "For magnesium stearate, FDA describes precipitation by mixing magnesium chloride and sodium stearate solutions. The stearic acid is obtained from edible sources. The regulation does not establish a single plant or animal feedstock for every commercial preparation.",
+        "banned_in": "No current country-wide food-use ban was confirmed in the regulatory sources checked in 2026.\nEU and US food-additive permissions for this exact entry were not confirmed in the sources checked in 2026."
     }
 }

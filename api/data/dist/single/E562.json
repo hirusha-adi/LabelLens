@@ -11,6 +11,7 @@
             "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
             "EUR-Lex": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32025R0757"
         },
-        "overview": "Sepiolite is a natural hydrated magnesium silicate. The EU feed specification defines a particular mined mineral preparation with minimum sepiolite content and limits on other clay components. Its technological feed functions are binding and reducing caking. These are uses in feedingstuffs rather than evidence of ordinary addition to human foods. The specified mineral preparation is distinct from the broader sepiolitic-clay mixture."
+        "overview": "Sepiolite is a natural hydrated magnesium silicate. The EU feed specification defines a particular mined mineral preparation with minimum sepiolite content and limits on other clay components. Its technological feed functions are binding and reducing caking. These are uses in feedingstuffs rather than evidence of ordinary addition to human foods. The specified mineral preparation is distinct from the broader sepiolitic-clay mixture.",
+        "banned_in": "No current country-wide food-use ban was confirmed in the regulatory sources checked in 2026.\nEU and US food-additive permissions for this exact entry were not confirmed in the sources checked in 2026."
     }
 }

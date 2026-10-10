@@ -11,6 +11,7 @@
             "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
             "Wikipedia": "https://en.wikipedia.org/wiki/Tannin"
         },
-        "overview": "Tannins are a group of plant polyphenols that bind proteins and other large molecules. Their structures and sizes vary, so tannin is not the name of one uniform chemical. Naturally occurring tannins contribute astringency to foods and drinks such as tea, fruit and red wine. This broad historical additive entry should be distinguished from a specifically identified tannin extract or purified tannic acid."
+        "overview": "Tannins are a group of plant polyphenols that bind proteins and other large molecules. Their structures and sizes vary, so tannin is not the name of one uniform chemical. Naturally occurring tannins contribute astringency to foods and drinks such as tea, fruit and red wine. This broad historical additive entry should be distinguished from a specifically identified tannin extract or purified tannic acid.",
+        "banned_in": "No current country-wide food-use ban was confirmed in the regulatory sources checked in 2026.\nEU and US food-additive permissions for this exact entry were not confirmed in the sources checked in 2026."
     }
 }

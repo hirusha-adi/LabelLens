@@ -9,9 +9,10 @@
         "articles": {
             "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
             "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
-            "eCFR Title 21": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=137"
+            "eCFR Title 21": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=137",
+            "eCFR": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=189"
         },
-        "banned_in": "Approved in the US.\nUS permission is limited to the uses and conditions in 21 CFR 137.105, checked in 2026.",
+        "banned_in": "Approved in the US.\nUS permission is limited to the uses and conditions in 21 CFR 137.105, checked in 2026.\nNo current country-wide food-use ban was confirmed in the regulatory sources checked in 2026.\nThe permissions checked in 2026 apply only to the specified preparations, food uses and conditions.",
         "uses": "Permitted in the US for specified flour bleaching or ageing treatments, subject to the applicable standard of identity.",
         "overview": "Acetone peroxide is a name used for a peroxide preparation listed in the US flour standard. In that application it is a bleaching and artificial-ageing agent, subject to the referenced additive regulation. The entry concerns a controlled manufacturing treatment. A specific production route or finished-food residue level was not confirmed for this historical record."
     }

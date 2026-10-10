@@ -6,7 +6,7 @@
     "status": "u",
     "icon": "mdi-check-circle",
     "more_info": {
-        "banned_in": "Approved in the US.\nUS food use is subject to the listed CFR provisions and their conditions, checked in 2026.",
+        "banned_in": "Approved in the US.\nUS food use is subject to the listed CFR provisions and their conditions, checked in 2026.\nNo current country-wide food-use ban was confirmed in the regulatory sources checked in 2026.\nThe permissions checked in 2026 apply only to the specified preparations, food uses and conditions.",
         "overview": "Ferric ammonium citrate is a citrate preparation containing iron and ammonium. The US direct-food regulation identifies the green form specifically. Its stated application is to reduce caking in salt intended for human consumption. That regulation limits the amount to 25 parts per million of the finished salt, so the use is a small addition for powder handling.",
         "articles": {
             "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/40",

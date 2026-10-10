@@ -4,13 +4,15 @@
     "display_name": "E705 (Penicillin G potassium)",
     "type": "antibiotic",
     "status": "",
-    "icon": "mdi-check-circle",
+    "icon": "mdi-alert-circle",
     "more_info": {
         "articles": {
             "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
             "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
-            "Wikipedia": "https://en.wikipedia.org/wiki/Benzylpenicillin"
+            "Wikipedia": "https://en.wikipedia.org/wiki/Benzylpenicillin",
+            "EUR-Lex": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32003R1831"
         },
-        "overview": "Penicillin G potassium is the potassium salt of benzylpenicillin. It belongs to the penicillin antibiotic family and is a different salt preparation from penicillin G sodium, procaine or benzathine. This entry preserves a historical antimicrobial designation. The general description concerns a medicinal compound and does not establish a typical current application as an ingredient added to human food."
+        "overview": "Penicillin G potassium is the potassium salt of benzylpenicillin. It belongs to the penicillin antibiotic family and is a different salt preparation from penicillin G sodium, procaine or benzathine. This entry preserves a historical antimicrobial designation. The general description concerns a medicinal compound and does not establish a typical current application as an ingredient added to human food.",
+        "banned_in": "No current country-wide food-use ban was confirmed in the regulatory sources checked in 2026.\nEU and US food-additive permissions for this exact entry were not confirmed in the sources checked in 2026.\nEU Regulation 1831/2003 ended feed-additive use of antibiotics other than coccidiostats and histomonostats from 1 January 2006; this rule concerns feed additives and does not itself prohibit authorised veterinary treatment."
     }
 }

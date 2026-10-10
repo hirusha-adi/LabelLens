@@ -3214,10 +3214,9 @@
       "method": "eCFR XML API"
     },
     "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=189": {
-      "checked": "2026-10-10",
       "loaded": true,
-      "http_status": 200,
-      "method": "eCFR XML API"
+      "checked": "2026-10-10",
+      "method": "HTTP 200; complete eCFR XML parsed and section headings inspected."
     },
     "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=73": {
       "checked": "2026-10-10",
@@ -3927,8 +3926,7 @@
     "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02008R1333-20260818": {
       "loaded": true,
       "checked": "2026-10-10",
-      "method": "HTTP GET and parsed compound specification or food-category tables",
-      "http_status": 200
+      "method": "HTTP 200; complete regulatory page extracted, relevant provision and use scope inspected."
     },
     "https://en.wikipedia.org/wiki/Phytic_acid": {
       "loaded": true,
@@ -4229,6 +4227,117 @@
       "loaded": true,
       "checked": "2026-10-10",
       "method": "Web search reader returned the full indexed PubChem compound record, including structure, identifiers and physical description. Direct open displayed a JavaScript requirement."
+    },
+    "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=81": {
+      "loaded": true,
+      "checked": "2026-10-10",
+      "method": "HTTP 200; complete eCFR XML parsed and section headings inspected."
+    },
+    "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32018R1481": {
+      "loaded": true,
+      "checked": "2026-10-10",
+      "method": "HTTP 200; regulatory text extracted and operative provisions inspected."
+    },
+    "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32007R0884": {
+      "loaded": true,
+      "checked": "2026-10-10",
+      "method": "HTTP 200; regulatory text extracted and operative provisions inspected."
+    },
+    "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32006L0052": {
+      "loaded": true,
+      "checked": "2026-10-10",
+      "method": "HTTP 200; regulatory text extracted and operative provisions inspected."
+    },
+    "https://european-union.europa.eu/principles-countries-history/eu-countries_en": {
+      "loaded": true,
+      "checked": "2026-10-10",
+      "method": "Readable primary page returned by the web reader; applicable regulatory statements or country list inspected."
+    },
+    "https://european-union.europa.eu/principles-countries-history/eu-countries_en?page=1": {
+      "loaded": true,
+      "checked": "2026-10-10",
+      "method": "Readable primary page returned by the web reader; applicable regulatory statements or country list inspected."
+    },
+    "https://www.canada.ca/en/health-canada/services/food-nutrition/public-involvement-partnerships/modification-list-permitted-food-additives-other-accepted-uses-remove-brominated-vegetable-oil.html": {
+      "loaded": true,
+      "checked": "2026-10-10",
+      "method": "Readable primary page returned by the web reader; applicable regulatory statements or country list inspected."
+    },
+    "https://www.blv.admin.ch/de/titandioxid": {
+      "loaded": true,
+      "checked": "2026-10-10",
+      "method": "Readable primary page returned by the web reader; applicable regulatory statements or country list inspected."
+    },
+    "https://www.canada.ca/en/health-canada/services/food-nutrition/food-safety/chemical-contaminants/contaminants-adulterating-substances-foods.html": {
+      "loaded": true,
+      "checked": "2026-10-10",
+      "method": "HTTP 200; complete regulatory page extracted, relevant provision and use scope inspected."
+    },
+    "https://www.gov.uk/government/publications/approved-additives-and-e-numbers/approved-additives-and-e-numbers": {
+      "loaded": true,
+      "checked": "2026-10-10",
+      "method": "Readable primary page returned by the web reader; applicable regulatory statements or country list inspected."
+    },
+    "https://www.foodstandards.gov.au/consumer/additives/colours-food-additives": {
+      "loaded": true,
+      "checked": "2026-10-10",
+      "method": "Readable primary page returned by the web reader; applicable regulatory statements or country list inspected."
+    },
+    "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32022R0063": {
+      "loaded": true,
+      "checked": "2026-10-10",
+      "method": "Readable primary page returned by the web reader; applicable regulatory statements or country list inspected."
+    },
+    "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32003R1831": {
+      "loaded": true,
+      "checked": "2026-10-10",
+      "method": "HTTP 200; complete regulatory page extracted, relevant provision and use scope inspected."
+    },
+    "https://www.canada.ca/en/environment-climate-change/services/evaluating-existing-substances/screening-assessment-forchallenge20.html": {
+      "loaded": true,
+      "checked": "2026-10-10",
+      "method": "HTTP 200; complete regulatory page extracted, relevant provision and use scope inspected."
+    },
+    "https://www.legislation.gov.uk/uksi/1990/399/made": {
+      "loaded": true,
+      "checked": "2026-10-10",
+      "method": "HTTP 200; complete regulatory page extracted, relevant provision and use scope inspected."
+    },
+    "https://www.fssai.gov.in/upload/advisories/2018/07/5b52d8d24e4b3Reg-53.pdf": {
+      "loaded": true,
+      "checked": "2026-10-10",
+      "method": "HTTP 200; two-page scanned PDF rendered locally, both pages visually inspected. Page 1, paragraph 3 confirms the any-food prohibition."
+    },
+    "https://ahea.assembly.ca.gov/system/files/2024-11/2023-24-legislative-bill-summary-final_1.pdf": {
+      "loaded": true,
+      "checked": "2026-10-10",
+      "method": "HTTP 200; 208-page official legislative summary PDF converted to text; enacted food-safety bill summaries inspected."
+    },
+    "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32018R0098": {
+      "loaded": true,
+      "checked": "2026-10-10",
+      "method": "HTTP 200; readable operative regulatory provisions inspected."
+    },
+    "https://code.wvlegislature.gov/18-5D-3A/": {
+      "loaded": true,
+      "checked": "2026-10-10",
+      "method": "Web reader returned the complete current legislative provision. Direct HTTP request was blocked; both substantive subsections of the readable web response were inspected."
+    },
+    "https://eur-lex.europa.eu/eli/reg/2014/957/oj/eng": {
+      "checked": "2026-10-10",
+      "loaded": true,
+      "http_status": 200,
+      "method": "Direct HTTP request returned the full 2014 regulation; operative Articles 1 to 3 and the entry deletions were read. The web reader sometimes returned an anti-bot page."
+    },
+    "https://cases.justia.com/federal/district-courts/west-virginia/wvsdce/2%3A2025cv00588/242414/21/0.pdf?ts=1766581402": {
+      "checked": "2026-10-10",
+      "loaded": true,
+      "method": "Web reader loaded all 30 PDF pages; the December 2025 order, page 29 footnote 10 and the 2028 statutory date were read."
+    },
+    "https://code.wvlegislature.gov/16-7-2/": {
+      "checked": "2026-10-10",
+      "loaded": true,
+      "method": "Web reader loaded the current statutory text, including the nine named additives and the January 2028 date."
     }
   }
 }

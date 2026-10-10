@@ -6,7 +6,7 @@
     "status": "e",
     "icon": "mdi-alert-circle",
     "more_info": {
-        "banned_in": "Banned in: United States.\nApproved in the EU.\nThe US prohibition follows the 1969 cyclamate order.",
+        "banned_in": "Banned in: United States.\nApproved in the EU.\nThe US prohibition follows the 1969 cyclamate order.\nThe permissions checked in 2026 apply only to the specified preparations, food uses and conditions.",
         "overview": "E952 covers cyclamic acid and its sodium and calcium salts, which are related high-intensity sweetener preparations. It provides sweetness when added to the food or used in a table-top sweetener preparation. The specified material is supplied as white powder or crystalline material. The specification identifies water solubility as one of its properties.",
         "uses": "Examples in the EU food-use list include certain other confectionery including breath freshening microsweets; decorations, coatings and fillings, except fruit-based fillings covered by category 4.2.4; fruit nectars as defined by Directive 2001/112/EC and vegetable nectars and similar products; flavoured fermented milk products including heat-treated products; extra jam and extra jelly as defined by Directive 2001/113/EC; desserts excluding products covered in categories 1, 3 and 4.\nThe entries apply to particular food categories and may limit the amount, the preparation or the way it is used; they do not show how often the additive appears in retail products.",
         "daily_intake": "0-11 mg/kg body weight (JECFA, 2009).",
@@ -16,7 +16,8 @@
             "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
             "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
             "EUR-Lex": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32012R0231",
-            "EUR-Lex (2)": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02008R1333-20260818"
+            "EUR-Lex (2)": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02008R1333-20260818",
+            "eCFR": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=189"
         }
     }
 }

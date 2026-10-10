@@ -4,16 +4,17 @@
     "display_name": "E905b (Petrolatum)",
     "type": "release agent",
     "status": "u",
-    "icon": "mdi-check-circle",
+    "icon": "mdi-alert-circle",
     "more_info": {
-        "banned_in": "Approved in the US.\nUS food use is subject to the listed CFR provisions and their conditions, checked in 2026.",
+        "banned_in": "Banned in: Canada.\nApproved in the US.\nUS food use is subject to the listed CFR provisions and their conditions, checked in 2026.\nThe permissions checked in 2026 apply only to the specified preparations, food uses and conditions.\nCanada lists petrolatum as prohibited in all foods in Part 1, item P.3 of its adulterating-substances list checked in 2026.",
         "daily_intake": "No ADI allocated (JECFA, 1988).",
         "articles": {
             "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/2733",
             "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
             "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
             "eCFR Title 21": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=173",
-            "eCFR": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=172"
+            "eCFR": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=172",
+            "Health Canada": "https://www.canada.ca/en/health-canada/services/food-nutrition/food-safety/chemical-contaminants/contaminants-adulterating-substances-foods.html"
         },
         "overview": "Petrolatum is a purified semi-solid mixture of saturated petroleum hydrocarbons. Its physical consistency distinguishes it from liquid mineral oil and solid petroleum wax. FDA describes food-processing uses as a lubricant, release agent or coating, including certain bakery, confectionery and fruit or vegetable applications. The permitted amount is application-specific and the material must meet the prescribed purity tests."
     }

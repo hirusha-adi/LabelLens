@@ -11,6 +11,7 @@
             "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
             "EUR-Lex": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02008R1333-20260818"
         },
-        "overview": "This historical label names a calcium stearoyl fumarate preparation. The supplied classification places it among emulsifiers, but a compound specification that establishes the exact ester and calcium-salt composition was not confirmed. It should not be assigned the properties of sodium stearyl fumarate or a stearoyl lactylate merely because the names are similar. Manufacture, typical food examples and a preparation-specific intake limit remain unconfirmed."
+        "overview": "This historical label names a calcium stearoyl fumarate preparation. The supplied classification places it among emulsifiers, but a compound specification that establishes the exact ester and calcium-salt composition was not confirmed. It should not be assigned the properties of sodium stearyl fumarate or a stearoyl lactylate merely because the names are similar. Manufacture, typical food examples and a preparation-specific intake limit remain unconfirmed.",
+        "banned_in": "No current country-wide food-use ban was confirmed in the regulatory sources checked in 2026.\nEU and US food-additive permissions for this exact entry were not confirmed in the sources checked in 2026."
     }
 }

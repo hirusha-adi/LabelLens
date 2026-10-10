@@ -12,6 +12,7 @@
             "eCFR": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=172"
         },
         "overview": "This legacy entry describes starch acetate made using vinyl acetate as the acetylating reagent. Acetyl groups are introduced into the starch rather than the ingredient being a mixture of untreated starch and vinyl acetate. FDA's modified-food-starch regulation identifies vinyl-acetate esterification and limits the resulting acetyl-group content. The specific modification distinguishes the preparation from phosphate-crosslinked and hydroxypropylated starches. Current food examples under this historical designation were not confirmed.",
-        "origin": "Chemically modified starch made by acetylation with vinyl acetate. The manufacturing reagent and final starch derivative are different substances."
+        "origin": "Chemically modified starch made by acetylation with vinyl acetate. The manufacturing reagent and final starch derivative are different substances.",
+        "banned_in": "No current country-wide food-use ban was confirmed in the regulatory sources checked in 2026.\nEU and US food-additive permissions for this exact entry were not confirmed in the sources checked in 2026."
     }
 }

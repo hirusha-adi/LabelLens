@@ -13,6 +13,7 @@
             "Wikipedia": "https://en.wikipedia.org/wiki/Ammonium_persulfate",
             "eCFR": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=172"
         },
-        "overview": "Ammonium persulphate is an inorganic salt containing ammonium and peroxydisulphate. Its chemical role is oxidation, which distinguishes it from ordinary ammonium sulphate. FDA lists ammonium persulphate among reagents for a particular modified-starch bleaching process, subject to process limits. That permission concerns treated food starch and does not establish unrestricted addition of the free reagent to finished foods."
+        "overview": "Ammonium persulphate is an inorganic salt containing ammonium and peroxydisulphate. Its chemical role is oxidation, which distinguishes it from ordinary ammonium sulphate. FDA lists ammonium persulphate among reagents for a particular modified-starch bleaching process, subject to process limits. That permission concerns treated food starch and does not establish unrestricted addition of the free reagent to finished foods.",
+        "banned_in": "No current country-wide food-use ban was confirmed in the regulatory sources checked in 2026.\nEU and US food-additive permissions for this exact entry were not confirmed in the sources checked in 2026."
     }
 }

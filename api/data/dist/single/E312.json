@@ -4,7 +4,7 @@
     "display_name": "E312 (Dodecyl gallate)",
     "type": "antioxidant",
     "status": "",
-    "icon": "mdi-check-circle",
+    "icon": "mdi-alert-circle",
     "more_info": {
         "overview": "Dodecyl gallate is the dodecyl ester of gallic acid, specified as a phenolic antioxidant for food use. Its antioxidant role is to slow oxidation that can cause rancidity or unwanted colour changes during storage. The specified material is supplied as white solid. The specification describes it as effectively insoluble in water.",
         "daily_intake": "No ADI allocated (JECFA, 1996).",
@@ -15,7 +15,9 @@
             "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
             "EUR-Lex": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32012R0231",
             "EUR-Lex (2)": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02008R1333-20260818",
-            "WHO JECFA (2)": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/3821"
-        }
+            "WHO JECFA (2)": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/3821",
+            "EUR-Lex (3)": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32018R1481"
+        },
+        "banned_in": "Banned in: Austria, Belgium, Bulgaria, Croatia, Cyprus, Czechia, Denmark, Estonia, Finland, France, Germany, Greece, Hungary, Ireland, Italy, Latvia, Lithuania, Luxembourg, Malta, Netherlands, Poland, Portugal, Romania, Slovakia, Slovenia, Spain, Sweden.\nThe EU withdrew authorisation in 2018 because the requested toxicology evidence was not supplied; the allowance to sell previously marketed foods ended on 25 April 2019."
     }
 }

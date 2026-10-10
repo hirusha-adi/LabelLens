@@ -10,13 +10,17 @@
     ],
     "icon": [
       "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
-      "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
+      "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+      "https://www.canada.ca/en/health-canada/services/food-nutrition/food-safety/chemical-contaminants/contaminants-adulterating-substances-foods.html"
     ],
     "banned_in": [
       "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
       "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
       "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=172",
-      "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=173"
+      "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=173",
+      "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=189",
+      "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=81",
+      "https://www.canada.ca/en/health-canada/services/food-nutrition/food-safety/chemical-contaminants/contaminants-adulterating-substances-foods.html"
     ],
     "names": [
       "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231"
@@ -29,9 +33,7 @@
       "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818"
     ],
     "type": [
-      "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/3021",
-      "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
-      "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818"
+      "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/3021"
     ],
     "uses": [
       "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818"
@@ -51,7 +53,8 @@
     "No sufficiently specific compound-level source was retained for side_effects; field omitted.",
     "No sufficiently specific compound-level source was retained for dietary_restrictions; field omitted.",
     "No sufficiently specific compound-level source was retained for interactions; field omitted.",
-    "No sufficiently specific compound-level source was retained for precautions; field omitted."
+    "No sufficiently specific compound-level source was retained for precautions; field omitted.",
+    "The checked sources do not establish an exhaustive worldwide country-ban list; jurisdictions without compound-specific evidence remain unconfirmed."
   ],
   "changes": [
     "type: empty category filled as flavour enhancer from the identified technological function.",
@@ -60,6 +63,10 @@
     "code: '905' -> 'E905'; restored the required prefix and filename identity.",
     "name/href/function and characteristics/products replaced by the required rich schema; only sourced facts were retained.",
     "2026-10-10 description expansion: overview replaced or added with compound-specific detail from the linked field sources.",
-    "2026-10-10 description expansion: origin replaced or added with compound-specific detail from the linked field sources."
+    "2026-10-10 description expansion: origin replaced or added with compound-specific detail from the linked field sources.",
+    "2026-10-10 regulatory expansion: banned_in records confirmed country bans, approval lines, scoped restrictions and limits of the checked jurisdictions. Country and use-specific evidence is retained in regulatory-details.json.",
+    "2026-10-10 correction: removed the unsupported flavour-enhancement sentence for E905 and described the paraffin-wax uses identified by JECFA.",
+    "type: 'flavour enhancer' -> 'glazing agent'; JECFA lists glazing and chewing-gum-base functions for the paraffin-wax component.",
+    "icon: 'mdi-check-circle' -> 'mdi-alert-circle'; grade-specific food prohibition. See the ban and restriction sources."
   ]
 }

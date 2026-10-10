@@ -4,9 +4,9 @@
     "display_name": "E413 (Tragacanth)",
     "type": "emulsifier",
     "status": "e",
-    "icon": "mdi-check-circle",
+    "icon": "mdi-alert-circle",
     "more_info": {
-        "banned_in": "Approved in the EU.",
+        "banned_in": "Approved in the EU.\nNo current country-wide food-use ban was confirmed in the regulatory sources checked in 2026.\nThe permissions checked in 2026 apply only to the specified preparations, food uses and conditions.\nThe EU rules checked in 2026 prohibit this additive in jelly mini-cups intended to be swallowed in a single bite; this is a restriction on that food format, not a ban on all authorised uses.",
         "overview": "Tragacanth is a dried plant exudate containing several high-molecular-weight polysaccharides from Astragalus stems and branches. Its emulsifying role is to help form or maintain mixtures of oil and water in the finished food. Collected as dried gum exudate from the stems and branches of Astragalus species. It is a mixture of plant polysaccharides. The specified material is supplied as white powder or liquid.",
         "uses": "Examples in the EU food-use list include certain cocoa and Chocolate products as covered by Directive 2000/36/EC; other confectionery including breath freshening microsweets; chewing gum; decorations, coatings and fillings, except fruit-based fillings covered by category 4.2.4; fruit juices as defined by Directive 2001/112/EC and vegetable juices; flavoured fermented milk products including heat-treated products.\nThe entries apply to particular food categories and may limit the amount, the preparation or the way it is used; they do not show how often the additive appears in retail products.",
         "daily_intake": "No numerical ADI needed (EFSA, 2017).",

@@ -6,7 +6,7 @@
     "status": "e",
     "icon": "mdi-check-circle",
     "more_info": {
-        "banned_in": "Approved in the EU.",
+        "banned_in": "Approved in the EU.\nNo current country-wide food-use ban was confirmed in the regulatory sources checked in 2026.\nThe permissions checked in 2026 apply only to the specified preparations, food uses and conditions.",
         "uses": "Examples in the EU food-use list include certain flavoured drinks; food supplements supplied in a solid form, excluding food supplements for infants and young children; food supplements supplied in a liquid form, excluding food supplements for infants and young children; cider and perry.\nThe entries apply to particular food categories and may limit the amount, the preparation or the way it is used; they do not show how often the additive appears in retail products.",
         "articles": {
             "EUR-Lex specifications": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231",

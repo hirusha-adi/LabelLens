@@ -11,9 +11,11 @@
             "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/2686",
             "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
             "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
-            "FDA": "https://www.fda.gov/food/hfp-constituent-updates/fda-revokes-regulation-allowing-use-brominated-vegetable-oil-bvo-food"
+            "FDA": "https://www.fda.gov/food/hfp-constituent-updates/fda-revokes-regulation-allowing-use-brominated-vegetable-oil-bvo-food",
+            "Health Canada": "https://www.canada.ca/en/health-canada/services/food-nutrition/public-involvement-partnerships/modification-list-permitted-food-additives-other-accepted-uses-remove-brominated-vegetable-oil.html",
+            "California Assembly": "https://ahea.assembly.ca.gov/system/files/2024-11/2023-24-legislative-bill-summary-final_1.pdf"
         },
-        "banned_in": "Banned in: United States.\nFDA withdrew its food-use authorisation in 2024; the compliance period ended in 2025.",
+        "banned_in": "Banned in: United States, Canada.\nFDA withdrew its food-use authorisation in 2024; the compliance period ended in 2025.\nEU food-additive permission for this exact entry was not confirmed in the sources checked in 2026.\nCanada removed the food-additive permission in 2024; its transition period ended on 30 August 2025.\nCalifornia's enacted food-product prohibition is scheduled to apply from 1 January 2027; it is not a current California prohibition on the 2026 check date.",
         "overview": "Brominated vegetable oil is vegetable oil chemically modified with bromine. It was used to keep citrus flavouring dispersed in some drinks, helping the flavouring phase remain mixed with the beverage. Its preparation is distinct from unmodified vegetable oil and from other emulsifying ingredients. FDA revoked its US food-use regulation in 2024, with the compliance date in 2025. The former beverage application is therefore a historical use in the United States.",
         "origin": "Made by modifying vegetable oil with bromine. Its starting oil is plant derived and chemically processed.",
         "side_effects": "FDA concluded that the intended food use could no longer be considered safe after reviewing new studies.\nThe animal findings indicated potential human health effects; they do not quantify a clinical risk from an individual serving."

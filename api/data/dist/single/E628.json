@@ -6,7 +6,7 @@
     "status": "e",
     "icon": "mdi-check-circle",
     "more_info": {
-        "banned_in": "Approved in the EU.",
+        "banned_in": "Approved in the EU.\nNo current country-wide food-use ban was confirmed in the regulatory sources checked in 2026.\nThe permissions checked in 2026 apply only to the specified preparations, food uses and conditions.",
         "daily_intake": "No ADI specified (JECFA, 1985).",
         "articles": {
             "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/3428",

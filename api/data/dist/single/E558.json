@@ -6,7 +6,7 @@
     "status": "e u",
     "icon": "mdi-check-circle",
     "more_info": {
-        "banned_in": "Approved in the EU.\nApproved in the US.\nUS food use is subject to the listed CFR provisions and their conditions, checked in 2026.",
+        "banned_in": "Approved in the EU.\nApproved in the US.\nUS food use is subject to the listed CFR provisions and their conditions, checked in 2026.\nNo current country-wide food-use ban was confirmed in the regulatory sources checked in 2026.\nThe permissions checked in 2026 apply only to the specified preparations, food uses and conditions.",
         "overview": "Bentonite is a natural clay consisting principally of hydrated aluminium silicate, with variable quantities of other mineral components. Its very fine particles provide a large surface area that can adsorb other substances. FDA describes direct-food use as a processing aid, with no significant residue expected when good manufacturing practice is followed. The mineral composition and colour can vary between deposits.",
         "articles": {
             "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/699",

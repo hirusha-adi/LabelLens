@@ -15,7 +15,10 @@
       "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
       "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
       "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=172",
-      "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=182"
+      "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=182",
+      "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=189",
+      "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=81",
+      "https://www.canada.ca/en/health-canada/services/food-nutrition/food-safety/chemical-contaminants/contaminants-adulterating-substances-foods.html"
     ],
     "names": [
       "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231"
@@ -45,13 +48,15 @@
     "No sufficiently specific compound-level source was retained for origin; field omitted.",
     "No sufficiently specific compound-level source was retained for dietary_restrictions; field omitted.",
     "No sufficiently specific compound-level source was retained for interactions; field omitted.",
-    "No sufficiently specific compound-level source was retained for precautions; field omitted."
+    "No sufficiently specific compound-level source was retained for precautions; field omitted.",
+    "The checked sources do not establish an exhaustive worldwide country-ban list; jurisdictions without compound-specific evidence remain unconfirmed."
   ],
   "changes": [
     "Replaced the legacy layout with rich fields and removed unsupported inherited health, dietary and intake assertions.",
     "status: 'e' -> 'e u'; 21 CFR 172.410; 21 CFR 182.2227. Empty flags include unconfirmed permissions, not inferred country bans.",
     "name/href/function and characteristics/products replaced by the required rich schema; only sourced facts were retained.",
     "2026-10-10 description expansion: overview replaced or added with compound-specific detail from the linked field sources.",
-    "2026-10-10 description expansion: uses replaced or added with compound-specific detail from the linked field sources."
+    "2026-10-10 description expansion: uses replaced or added with compound-specific detail from the linked field sources.",
+    "2026-10-10 regulatory expansion: banned_in records confirmed country bans, approval lines, scoped restrictions and limits of the checked jurisdictions. Country and use-specific evidence is retained in regulatory-details.json."
   ]
 }

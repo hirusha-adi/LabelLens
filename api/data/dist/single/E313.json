@@ -12,6 +12,7 @@
             "PubChem": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Ethyl%20gallate/description/JSON",
             "EUR-Lex": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02008R1333-20260818"
         },
-        "overview": "Ethyl gallate is an ester combining gallic acid with an ethyl group. It belongs to the gallate family of phenolic compounds. The historical entry identifies an antioxidant function in food. A food-use permission, intake value or manufacturing detail for a different gallate ester cannot be transferred to this preparation."
+        "overview": "Ethyl gallate is an ester combining gallic acid with an ethyl group. It belongs to the gallate family of phenolic compounds. The historical entry identifies an antioxidant function in food. A food-use permission, intake value or manufacturing detail for a different gallate ester cannot be transferred to this preparation.",
+        "banned_in": "No current country-wide food-use ban was confirmed in the regulatory sources checked in 2026.\nEU and US food-additive permissions for this exact entry were not confirmed in the sources checked in 2026."
     }
 }

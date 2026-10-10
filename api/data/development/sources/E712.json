@@ -8,10 +8,19 @@
     ],
     "icon": [
       "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
-      "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic"
+      "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+      "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32003R1831"
     ],
     "overview": [
       "https://en.wikipedia.org/wiki/Bambermycin"
+    ],
+    "banned_in": [
+      "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+      "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
+      "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=189",
+      "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=81",
+      "https://www.canada.ca/en/health-canada/services/food-nutrition/food-safety/chemical-contaminants/contaminants-adulterating-substances-foods.html",
+      "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32003R1831"
     ]
   },
   "inputs": {
@@ -30,11 +39,14 @@
     "No sufficiently specific compound-level source was retained for interactions; field omitted.",
     "No sufficiently specific compound-level source was retained for precautions; field omitted.",
     "This is a legacy veterinary-antibiotic entry; no direct human-food additive use or additive ADI was established.",
-    "The identity source describes an antimicrobial compound or family; a current direct human-food application was not confirmed. Medicinal dosing and veterinary residue limits were not inserted as food-additive intake limits."
+    "The identity source describes an antimicrobial compound or family; a current direct human-food application was not confirmed. Medicinal dosing and veterinary residue limits were not inserted as food-additive intake limits.",
+    "The checked sources do not establish an exhaustive worldwide country-ban list; jurisdictions without compound-specific evidence remain unconfirmed."
   ],
   "changes": [
     "Replaced the legacy layout with rich fields and removed unsupported inherited health, dietary and intake assertions.",
     "Created the missing individual additive record and field provenance.",
-    "2026-10-10 description expansion: overview replaced or added with compound-specific detail from the linked field sources."
+    "2026-10-10 description expansion: overview replaced or added with compound-specific detail from the linked field sources.",
+    "2026-10-10 regulatory expansion: banned_in records confirmed country bans, approval lines, scoped restrictions and limits of the checked jurisdictions. Country and use-specific evidence is retained in regulatory-details.json.",
+    "icon: 'mdi-check-circle' -> 'mdi-alert-circle'; feed-use prohibition. See the ban and restriction sources."
   ]
 }

@@ -11,6 +11,7 @@
             "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
             "Wikipedia": "https://en.wikipedia.org/wiki/Hydroxyethyl_cellulose"
         },
-        "overview": "Hydroxyethyl cellulose is a chemically modified cellulose polymer used to thicken aqueous formulations. Hydroxyethyl groups are attached to the cellulose structure, changing its behaviour in water. The preparation is distinct from hydroxypropyl cellulose and ethyl hydroxyethyl cellulose. The reviewed general identity source does not establish a typical current human-food application for this historical entry. Non-food formulation uses cannot determine its food-grade suitability."
+        "overview": "Hydroxyethyl cellulose is a chemically modified cellulose polymer used to thicken aqueous formulations. Hydroxyethyl groups are attached to the cellulose structure, changing its behaviour in water. The preparation is distinct from hydroxypropyl cellulose and ethyl hydroxyethyl cellulose. The reviewed general identity source does not establish a typical current human-food application for this historical entry. Non-food formulation uses cannot determine its food-grade suitability.",
+        "banned_in": "No current country-wide food-use ban was confirmed in the regulatory sources checked in 2026.\nEU and US food-additive permissions for this exact entry were not confirmed in the sources checked in 2026."
     }
 }

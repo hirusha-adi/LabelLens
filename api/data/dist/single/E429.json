@@ -6,7 +6,7 @@
     "status": "u",
     "icon": "mdi-check-circle",
     "more_info": {
-        "banned_in": "Approved in the US.\nUS food use is subject to the listed CFR provisions and their conditions, checked in 2026.",
+        "banned_in": "Approved in the US.\nUS food use is subject to the listed CFR provisions and their conditions, checked in 2026.\nNo current country-wide food-use ban was confirmed in the regulatory sources checked in 2026.\nThe permissions checked in 2026 apply only to the specified preparations, food uses and conditions.",
         "overview": "Peptones are mixtures of amino acids and short protein chains obtained by partial breakdown of proteins. The starting proteins may come from animal tissues, milk, eggs or soy. FDA describes production using suitable enzymes, acids or heat. The ingredient has nutrient, processing-aid and surface-active functions, and its composition depends on the starting protein and treatment.",
         "articles": {
             "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",

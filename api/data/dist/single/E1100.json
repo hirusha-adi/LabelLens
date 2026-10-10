@@ -14,6 +14,7 @@
         },
         "overview": "Amylases are enzymes that break down starch into smaller carbohydrate molecules. This entry names an enzyme family rather than one production strain or commercial preparation. For example, FDA describes an alpha-amylase obtained by fermentation of Bacillus stearothermophilus for making maltodextrins and nutritive carbohydrate sweeteners. The enzyme acts during processing; its source organism and preparation specifications remain relevant to the particular ingredient.",
         "origin": "Production depends on the amylase preparation. One FDA-specified alpha-amylase is recovered from the culture filtrate of a pure bacterial fermentation using Bacillus stearothermophilus.",
-        "uses": "The specified bacterial alpha-amylase is used during starch processing to produce maltodextrins and nutritive carbohydrate sweeteners."
+        "uses": "The specified bacterial alpha-amylase is used during starch processing to produce maltodextrins and nutritive carbohydrate sweeteners.",
+        "banned_in": "No current country-wide food-use ban was confirmed in the regulatory sources checked in 2026.\nEU and US food-additive permissions for this exact entry were not confirmed in the sources checked in 2026."
     }
 }

@@ -12,6 +12,7 @@
             "PubChem": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Flavoxanthin/description/JSON",
             "EUR-Lex": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02008R1333-20260818"
         },
-        "overview": "Flavoxanthin is a chemically defined xanthophyll pigment. Xanthophylls are oxygen-containing members of the carotenoid colour family. This historical entry identifies a colouring substance, while the reviewed compound record does not establish a typical current food application. A production route and a food-additive intake limit were not confirmed for this preparation."
+        "overview": "Flavoxanthin is a chemically defined xanthophyll pigment. Xanthophylls are oxygen-containing members of the carotenoid colour family. This historical entry identifies a colouring substance, while the reviewed compound record does not establish a typical current food application. A production route and a food-additive intake limit were not confirmed for this preparation.",
+        "banned_in": "No current country-wide food-use ban was confirmed in the regulatory sources checked in 2026.\nEU and US food-additive permissions for this exact entry were not confirmed in the sources checked in 2026."
     }
 }

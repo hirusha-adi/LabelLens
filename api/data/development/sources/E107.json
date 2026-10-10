@@ -29,9 +29,12 @@
       "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/3225"
     ],
     "banned_in": [
-      "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/3225",
       "https://ec.europa.eu/food/food-feed-portal/backend/api/policy-items?foodDomain=fin&authorisationType=fad_auth",
-      "https://www.fda.gov/industry/color-additives/summary-color-additives-use-united-states-foods-drugs-cosmetics-and-medical-devices"
+      "https://www.fda.gov/industry/color-additives/summary-color-additives-use-united-states-foods-drugs-cosmetics-and-medical-devices",
+      "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/3225",
+      "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=189",
+      "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=81",
+      "https://www.canada.ca/en/health-canada/services/food-nutrition/food-safety/chemical-contaminants/contaminants-adulterating-substances-foods.html"
     ]
   },
   "gaps": [
@@ -43,7 +46,8 @@
     "precautions: no specific applicable claim verified in the reviewed compound record, regulatory listings and safety assessment; omitted.",
     "Country ban list: no compound-specific national prohibition verified in the sources reviewed; omission does not establish absence of bans worldwide.",
     "dietary_restrictions: the old universal vegan/vegetarian/religious suitability guarantee was not verified. Chemical identity or synthetic origin alone does not establish commercial preparation or process certification.",
-    "The inherited text contained a ban claim. A country-specific current prohibition was not confirmed for that claim, so its ban list was omitted."
+    "The inherited text contained a ban claim. A country-specific current prohibition was not confirmed for that claim, so its ban list was omitted.",
+    "The checked sources do not establish an exhaustive worldwide country-ban list; jurisdictions without compound-specific evidence remain unconfirmed."
   ],
   "changes": [
     "names: absent -> 'Yellow 2G'. Names/type follow the master; identity and legal flags follow the field sources.",
@@ -65,6 +69,7 @@
     "more_info.products: removed; no verified compound-specific food-use claim retained. See gaps.",
     "Icon: JECFA records no allocated ADI after the earlier temporary value and withdrawn specifications.",
     "name/href/function and characteristics/products replaced by the required rich schema; only sourced facts were retained.",
-    "2026-10-10 description expansion: overview replaced or added with compound-specific detail from the linked field sources."
+    "2026-10-10 description expansion: overview replaced or added with compound-specific detail from the linked field sources.",
+    "2026-10-10 regulatory expansion: banned_in records confirmed country bans, approval lines, scoped restrictions and limits of the checked jurisdictions. Country and use-specific evidence is retained in regulatory-details.json."
   ]
 }

@@ -12,6 +12,7 @@
             "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
             "Wikipedia": "https://en.wikipedia.org/wiki/Magnesium_lactate"
         },
-        "overview": "Magnesium lactate is a magnesium salt of lactic acid. It contains magnesium and lactate components, unlike the sodium and calcium salts listed elsewhere in the dataset. Its historical food-technology role is acidity regulation. The reviewed identity source does not establish one production route or a typical food example for this preparation. Medical supplement applications are a separate context from its technological food-additive identity."
+        "overview": "Magnesium lactate is a magnesium salt of lactic acid. It contains magnesium and lactate components, unlike the sodium and calcium salts listed elsewhere in the dataset. Its historical food-technology role is acidity regulation. The reviewed identity source does not establish one production route or a typical food example for this preparation. Medical supplement applications are a separate context from its technological food-additive identity.",
+        "banned_in": "No current country-wide food-use ban was confirmed in the regulatory sources checked in 2026.\nEU and US food-additive permissions for this exact entry were not confirmed in the sources checked in 2026."
     }
 }

@@ -6,7 +6,7 @@
     "status": "e u",
     "icon": "mdi-alert-circle",
     "more_info": {
-        "banned_in": "Approved in the EU.\nApproved in the US.\nEU food labels require the specified warning about possible effects on children's activity and attention under the 2026 consolidated rules.\nUS food use is subject to the listed CFR provisions and their conditions, checked in 2026.",
+        "banned_in": "Approved in the EU.\nApproved in the US.\nEU food labels require the specified warning about possible effects on children's activity and attention under the 2026 consolidated rules.\nUS food use is subject to the listed CFR provisions and their conditions, checked in 2026.\nNo current country-wide food-use ban was confirmed in the regulatory sources checked in 2026.\nThe permissions checked in 2026 apply only to the specified preparations, food uses and conditions.\nEU foods containing this colour require a warning about possible effects on children's activity and attention under Annex V of the rules checked in 2026, subject to the stated exceptions.\nWest Virginia prohibits this named dye as an ingredient in school-nutrition meals from 1 August 2025, with stated fundraising exceptions; this is a school-use restriction, not a US-wide prohibition.\nWest Virginia's statewide provision has a statutory date of 1 January 2028; a federal court enjoined health-department enforcement in December 2025. The 2025 order expressly left the separate school-meal restriction outside that injunction.",
         "overview": "Allura Red AC is a synthetic red dye, also called FD&C Red 40. The principal colouring substance is an azo compound supplied as a salt, with small amounts of other colouring substances and uncoloured salts allowed by the specification. Commercial material is a dark red powder or granules. It adds or restores red colour in foods.",
         "uses": "Examples in the EU food-use list include certain other confectionery including breath freshening microsweets; chewing gum; decorations, coatings and fillings, except fruit-based fillings covered by category 4.2.4; flavoured drinks; flavoured fermented milk products including heat-treated products; unripened cheese excluding products falling in category 16.\nThe entries apply to particular food categories and may limit the amount, the preparation or the way it is used; they do not show how often the additive appears in retail products.",
         "daily_intake": "0–7 mg/kg body weight (JECFA, 2016).",
@@ -18,7 +18,10 @@
             "eCFR Title 21": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=74",
             "EFSA": "https://www.efsa.europa.eu/en/efsajournal/pub/1327",
             "EUR-Lex": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32012R0231",
-            "EUR-Lex (2)": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02008R1333-20260818"
+            "EUR-Lex (2)": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02008R1333-20260818",
+            "West Virginia Legislature": "https://code.wvlegislature.gov/18-5D-3A/",
+            "West Virginia Legislature (2)": "https://code.wvlegislature.gov/16-7-2/",
+            "Justia (US court order)": "https://cases.justia.com/federal/district-courts/west-virginia/wvsdce/2%3A2025cv00588/242414/21/0.pdf?ts=1766581402"
         },
         "origin": "Manufacturers first prepare an aromatic diazo intermediate and then join it to a sulphonated naphthol compound. The resulting dye is purified as a salt. This is chemical synthesis; the red pigment is not extracted from a fruit or insect. The EU specification describes the sodium form and also permits calcium and potassium forms.",
         "side_effects": "At food-use levels, the 2009 EFSA review found most refined exposure estimates below its intake limit. Mixture studies in children cannot identify the effect of this dye alone.\nAt high intake, some estimates for young children slightly exceeded the limit; this is an exposure assessment, not proof of harm."

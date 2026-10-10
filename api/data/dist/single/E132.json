@@ -4,9 +4,9 @@
     "display_name": "E132 (Indigo carmine)",
     "type": "color (Indigo)",
     "status": "e u",
-    "icon": "mdi-check-circle",
+    "icon": "mdi-alert-circle",
     "more_info": {
-        "banned_in": "Approved in the EU.\nApproved in the US.\nUS food use is subject to the listed CFR provisions and their conditions, checked in 2026.",
+        "banned_in": "Approved in the EU.\nApproved in the US.\nUS food use is subject to the listed CFR provisions and their conditions, checked in 2026.\nNo current country-wide food-use ban was confirmed in the regulatory sources checked in 2026.\nThe permissions checked in 2026 apply only to the specified preparations, food uses and conditions.\nWest Virginia prohibits this named dye as an ingredient in school-nutrition meals from 1 August 2025, with stated fundraising exceptions; this is a school-use restriction, not a US-wide prohibition.\nWest Virginia's statewide provision has a statutory date of 1 January 2028; a federal court enjoined health-department enforcement in December 2025. The 2025 order expressly left the separate school-meal restriction outside that injunction.",
         "overview": "Indigo carmine, also called indigotine or FD&C Blue 2, is a sulphonated indigo dye supplied mainly as disodium salts. It is used to add colour or restore colour lost during food manufacture. The specified material is supplied as deep blue powder or granules.",
         "daily_intake": "0-5 mg/kg body weight (JECFA, 2018).",
         "articles": {
@@ -18,7 +18,10 @@
             "EUR-Lex": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32012R0231",
             "EUR-Lex (2)": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02008R1333-20260818",
             "WHO JECFA (2)": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/2109",
-            "WHO JECFA (3)": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/2814"
+            "WHO JECFA (3)": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/2814",
+            "West Virginia Legislature": "https://code.wvlegislature.gov/18-5D-3A/",
+            "West Virginia Legislature (2)": "https://code.wvlegislature.gov/16-7-2/",
+            "Justia (US court order)": "https://cases.justia.com/federal/district-courts/west-virginia/wvsdce/2%3A2025cv00588/242414/21/0.pdf?ts=1766581402"
         },
         "uses": "Examples in the EU food-use list include certain other confectionery including breath freshening microsweets; chewing gum; decorations, coatings and fillings, except fruit-based fillings covered by category 4.2.4; flavoured drinks; flavoured fermented milk products including heat-treated products; unripened cheese excluding products falling in category 16.\nThe entries apply to particular food categories and may limit the amount, the preparation or the way it is used; they do not show how often the additive appears in retail products.",
         "origin": "Chemically manufactured by sulphonating indigo with sulphuric acid, followed by isolation and purification of the dye. The FDA specification describes a synthetic indigo starting material."

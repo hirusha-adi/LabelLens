@@ -6,7 +6,7 @@
     "status": "e u",
     "icon": "mdi-alert-circle",
     "more_info": {
-        "banned_in": "Approved in the EU.\nApproved in the US.\nFDA issued a revocation order in 2025; the food-use listing ends on 15 January 2027, so the US flag is retained for the 2026 check.",
+        "banned_in": "Approved in the EU.\nApproved in the US.\nFDA issued a revocation order in 2025; the food-use listing ends on 15 January 2027, so the US flag is retained for the 2026 check.\nNo current country-wide food-use ban was confirmed in the regulatory sources checked in 2026.\nThe permissions checked in 2026 apply only to the specified preparations, food uses and conditions.\nThe EU rules checked in 2026 prohibit sale of this colour directly to consumers; specified uses in manufactured foods remain separately authorised.\nWest Virginia prohibits this named dye as an ingredient in school-nutrition meals from 1 August 2025, with stated fundraising exceptions; this is a school-use restriction, not a US-wide prohibition.\nCalifornia's enacted food-product prohibition is scheduled to apply from 1 January 2027; it is not a current California prohibition on the 2026 check date.\nWest Virginia's statewide provision has a statutory date of 1 January 2028; a federal court enjoined health-department enforcement in December 2025. The 2025 order expressly left the separate school-meal restriction outside that injunction.",
         "overview": "Erythrosine is a red xanthene food dye also known as FD&C Red No. 3. EU food use is limited to particular cherry products. Its US listing has a future food-use termination date. The specified material is supplied as red powder or granules.",
         "origin": "Synthetic. Fluorescein, formed from resorcinol and phthalic anhydride, is iodinated to make the colour, which is supplied mainly as a sodium salt.",
         "daily_intake": "0–0.1 mg/kg body weight per day (EFSA, 2011, retaining the earlier JECFA/SCF ADI).",
@@ -19,7 +19,11 @@
             "eCFR": "https://www.ecfr.gov/current/title-21/section-74.303",
             "European Commission database": "https://ec.europa.eu/food/food-feed-portal/backend/api/policy-items/POL-FAD-IMPORT-2994",
             "EUR-Lex": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32012R0231",
-            "EUR-Lex (2)": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02008R1333-20260818"
+            "EUR-Lex (2)": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02008R1333-20260818",
+            "West Virginia Legislature": "https://code.wvlegislature.gov/18-5D-3A/",
+            "California Assembly": "https://ahea.assembly.ca.gov/system/files/2024-11/2023-24-legislative-bill-summary-final_1.pdf",
+            "West Virginia Legislature (2)": "https://code.wvlegislature.gov/16-7-2/",
+            "Justia (US court order)": "https://cases.justia.com/federal/district-courts/west-virginia/wvsdce/2%3A2025cv00588/242414/21/0.pdf?ts=1766581402"
         }
     }
 }

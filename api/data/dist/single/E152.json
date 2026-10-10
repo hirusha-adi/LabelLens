@@ -4,7 +4,7 @@
     "display_name": "E152 (Carbon black)",
     "type": "color (Black)",
     "status": "",
-    "icon": "mdi-check-circle",
+    "icon": "mdi-alert-circle",
     "more_info": {
         "overview": "Carbon black from hydrocarbon sources is finely divided carbon with a historical colour classification; it is a separate preparation from plant-derived vegetable carbon. Its colouring function is to add or restore colour in the food. The available identity record does not establish a typical retail-food example for this exact preparation.",
         "daily_intake": "No ADI allocated (JECFA, 1987).",
@@ -12,7 +12,9 @@
             "WHO JECFA": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/2071",
             "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
             "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
-            "EUR-Lex": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02008R1333-20260818"
-        }
+            "EUR-Lex": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02008R1333-20260818",
+            "eCFR": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=81"
+        },
+        "banned_in": "No current country-wide food-use ban was confirmed in the regulatory sources checked in 2026.\nEU and US food-additive permissions for this exact entry were not confirmed in the sources checked in 2026.\nUS 21 CFR 81.10(g) terminates the provisional colour listing for carbon black made by the impingement or channel process; this preparation-specific restriction is retained in the rules checked in 2026."
     }
 }

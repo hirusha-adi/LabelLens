@@ -6,7 +6,7 @@
     "status": "u",
     "icon": "mdi-alert-circle",
     "more_info": {
-        "banned_in": "Approved in the US.\nEU food-use authorisation was withdrawn in 2022 following EFSA's 2021 assessment.",
+        "banned_in": "Banned in: Austria, Belgium, Bulgaria, Croatia, Cyprus, Czechia, Denmark, Estonia, Finland, France, Germany, Greece, Hungary, Ireland, Italy, Latvia, Lithuania, Luxembourg, Malta, Netherlands, Poland, Portugal, Romania, Slovakia, Slovenia, Spain, Sweden, Switzerland.\nApproved in the US.\nEU food-use authorisation was withdrawn in 2022 following EFSA's 2021 assessment.\nThe permissions checked in 2026 apply only to the specified preparations, food uses and conditions.\nEU food-use authorisation was withdrawn in 2022; newly placing compliant existing foods on the market was allowed only until 7 August 2022, with previously marketed foods allowed until their durability or use-by date.\nSwitzerland prohibited use as a food additive in autumn 2022.\nNorthern Ireland prohibited its use in food manufacture from 2022; the UK guidance checked in 2026 allows qualifying Great Britain goods to enter under the Northern Ireland Retail Movement Scheme.",
         "overview": "Titanium dioxide is an inorganic oxide used to give foods a white colour; food-grade material differs from the raw mineral ore used in manufacture. It is used to add colour or restore colour lost during food manufacture. An inorganic titanium oxide pigment made by sulphate or chloride processing. Food-grade preparations may have small surface coatings of alumina or silica. The specified material is supplied as white powder. The specification describes it as effectively insoluble in water.",
         "daily_intake": "ADI classified as not limited or not specified (JECFA, 2023). EFSA could not establish food-use safety in 2021.",
         "articles": {
@@ -17,7 +17,10 @@
             "eCFR Title 21": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=73",
             "FDA": "https://www.fda.gov/industry/color-additives/titanium-dioxide-color-additive-foods",
             "EUR-Lex": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32012R0231",
-            "EUR-Lex (2)": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02008R1333-20260818"
+            "EUR-Lex (2)": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02008R1333-20260818",
+            "EUR-Lex (3)": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32022R0063",
+            "Swiss Food Safety (BLV)": "https://www.blv.admin.ch/de/titandioxid",
+            "GOV.UK": "https://www.gov.uk/government/publications/approved-additives-and-e-numbers/approved-additives-and-e-numbers"
         },
         "origin": "An inorganic titanium oxide pigment made by sulphate or chloride processing. Food-grade preparations may have small surface coatings of alumina or silica.",
         "side_effects": "The bodies reached different food-use conclusions: EFSA could not rule out DNA damage in 2021, while FDA reports that JECFA's 2023 evaluation found food use safe.\nFDA did not identify a genotoxicity concern and noted no cancer effect in the cited long-term animal studies; these findings do not remove the EU uncertainty.",

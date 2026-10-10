@@ -10,11 +10,12 @@
             "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
             "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
             "eCFR": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=184",
-            "EUR-Lex": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02008R1333-20260818"
+            "EUR-Lex": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02008R1333-20260818",
+            "eCFR (2)": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=189"
         },
         "overview": "Calcium glycerophosphate is a mixture of calcium salts of glycerophosphoric acid, including alpha and beta forms. The specified material is a fine white powder that can take up some moisture. FDA describes manufacture by neutralising glycerophosphoric acid with calcium hydroxide or calcium carbonate. Its listed food application is nutrient supplementation in gelatine desserts, puddings and fillings.",
         "origin": "Chemically manufactured by neutralising glycerophosphoric acid with calcium hydroxide or calcium carbonate. The commercial ingredient contains several glycerophosphate forms.",
         "uses": "Used as a nutrient supplement in gelatine desserts, puddings and fillings under the FDA regulation.",
-        "banned_in": "Approved in the US.\nUS food use follows the preparation-specific conditions in 21 CFR 184.1201, checked in 2026."
+        "banned_in": "Approved in the US.\nUS food use follows the preparation-specific conditions in 21 CFR 184.1201, checked in 2026.\nNo current country-wide food-use ban was confirmed in the regulatory sources checked in 2026.\nThe permissions checked in 2026 apply only to the specified preparations, food uses and conditions."
     }
 }

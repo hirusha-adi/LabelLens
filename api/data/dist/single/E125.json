@@ -6,12 +6,13 @@
     "status": "",
     "icon": "mdi-alert-circle",
     "more_info": {
-        "banned_in": "Banned in: United States.\nFDA terminated its remaining food-use certificates for FD&C Red No. 4 in 1976.",
-        "overview": "Scarlet GN is a red azo dye also named FD&C Red No. 4 and Food Red 2. It is usually described as a disodium dye salt. The older food-colour designation refers to this pigment, distinct from Natural Red 4. Its dye identity does not establish a current permitted food application; its regulatory history is recorded separately.",
+        "banned_in": "Banned in: United States.\nFDA terminated its remaining food-use certificates for FD&C Red No. 4 in 1976.\nEU food-additive permission for this exact entry was not confirmed in the sources checked in 2026.",
+        "overview": "Ponceau SX, also called Scarlet GN, is a red azo dye formerly listed as FD&C Red No. 4. It is usually described as a disodium dye salt. The older food-colour designation refers to this pigment, distinct from Natural Red 4. Its dye identity does not establish a current permitted food application; its regulatory history is recorded separately.",
         "articles": {
             "FDA inventory": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?id=FDCRed4&set=ColorAdditives",
             "eCFR": "https://www.ecfr.gov/current/title-21/section-81.30",
-            "Wikipedia": "https://en.wikipedia.org/wiki/Scarlet_GN"
+            "Wikipedia": "https://en.wikipedia.org/wiki/Scarlet_GN",
+            "ec.europa.eu": "https://ec.europa.eu/food/food-feed-portal/backend/api/policy-items?foodDomain=fin&authorisationType=fad_auth"
         }
     }
 }

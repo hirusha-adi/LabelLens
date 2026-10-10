@@ -4,13 +4,15 @@
     "display_name": "E708 (Penicillin G benzathine)",
     "type": "antibiotic",
     "status": "",
-    "icon": "mdi-check-circle",
+    "icon": "mdi-alert-circle",
     "more_info": {
         "articles": {
             "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
             "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
-            "Wikipedia": "https://en.wikipedia.org/wiki/Benzathine_benzylpenicillin"
+            "Wikipedia": "https://en.wikipedia.org/wiki/Benzathine_benzylpenicillin",
+            "EUR-Lex": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32003R1831"
         },
-        "overview": "Penicillin G benzathine is a benzathine salt preparation of benzylpenicillin. It is a long-acting medicinal antibiotic preparation, chemically distinct from the procaine, sodium and potassium salt forms. This entry retains its historical antimicrobial identity. The general compound description does not establish a current use as an ingredient added directly to human food."
+        "overview": "Penicillin G benzathine is a benzathine salt preparation of benzylpenicillin. It is a long-acting medicinal antibiotic preparation, chemically distinct from the procaine, sodium and potassium salt forms. This entry retains its historical antimicrobial identity. The general compound description does not establish a current use as an ingredient added directly to human food.",
+        "banned_in": "No current country-wide food-use ban was confirmed in the regulatory sources checked in 2026.\nEU and US food-additive permissions for this exact entry were not confirmed in the sources checked in 2026.\nEU Regulation 1831/2003 ended feed-additive use of antibiotics other than coccidiostats and histomonostats from 1 January 2006; this rule concerns feed additives and does not itself prohibit authorised veterinary treatment."
     }
 }

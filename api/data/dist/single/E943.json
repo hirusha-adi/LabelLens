@@ -6,7 +6,7 @@
     "status": "e",
     "icon": "mdi-check-circle",
     "more_info": {
-        "banned_in": "Approved in the EU.",
+        "banned_in": "Approved in the EU.\nNo current country-wide food-use ban was confirmed in the regulatory sources checked in 2026.\nThe permissions checked in 2026 apply only to the specified preparations, food uses and conditions.",
         "overview": "This grouped entry covers butane and isobutane, two four-carbon hydrocarbon gases with different molecular arrangements. The current EU specifications distinguish straight-chain butane as E943a and branched isobutane as E943b. Both are supplied as gases or liquefied gases for propellant applications. They have separate purity and composition requirements. The grouped name should therefore be read together with the particular gas preparation.",
         "daily_intake": "For butane: No ADI allocated (JECFA, 1979). This evaluation does not establish an ADI for every form in the named group.",
         "articles": {

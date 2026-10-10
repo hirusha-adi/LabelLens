@@ -4,13 +4,15 @@
     "display_name": "E701 (Tetracyclines)",
     "type": "antibiotic",
     "status": "",
-    "icon": "mdi-check-circle",
+    "icon": "mdi-alert-circle",
     "more_info": {
         "articles": {
             "EUR-Lex food additive law": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
             "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
-            "Wikipedia": "https://en.wikipedia.org/wiki/Tetracycline_antibiotics"
+            "Wikipedia": "https://en.wikipedia.org/wiki/Tetracycline_antibiotics",
+            "EUR-Lex": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32003R1831"
         },
-        "overview": "Tetracyclines is the name of a family of antimicrobial compounds, including tetracycline and related derivatives. The members share a related chemical framework but are separately identified substances. This is a historical antibiotic entry, not the name of a conventional colour, preservative mixture or texture ingredient. The general identity source does not establish a current direct human-food application for the entire family."
+        "overview": "Tetracyclines is the name of a family of antimicrobial compounds, including tetracycline and related derivatives. The members share a related chemical framework but are separately identified substances. This is a historical antibiotic entry, not the name of a conventional colour, preservative mixture or texture ingredient. The general identity source does not establish a current direct human-food application for the entire family.",
+        "banned_in": "No current country-wide food-use ban was confirmed in the regulatory sources checked in 2026.\nEU and US food-additive permissions for this exact entry were not confirmed in the sources checked in 2026.\nEU Regulation 1831/2003 ended feed-additive use of antibiotics other than coccidiostats and histomonostats from 1 January 2006; this rule concerns feed additives and does not itself prohibit authorised veterinary treatment."
     }
 }

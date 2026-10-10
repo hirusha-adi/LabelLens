@@ -12,6 +12,7 @@
             "PubChem": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Rhodoxanthin/description/JSON",
             "EUR-Lex": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02008R1333-20260818"
         },
-        "overview": "Rhodoxanthin is a chemically defined xanthophyll pigment in the oxygen-containing carotenoid family. The historical entry classifies it as a food colour. The chemical description establishes the pigment identity, while current food examples and manufacture were not confirmed. An intake value for a different xanthophyll cannot be applied to this entry."
+        "overview": "Rhodoxanthin is a chemically defined xanthophyll pigment in the oxygen-containing carotenoid family. The historical entry classifies it as a food colour. The chemical description establishes the pigment identity, while current food examples and manufacture were not confirmed. An intake value for a different xanthophyll cannot be applied to this entry.",
+        "banned_in": "No current country-wide food-use ban was confirmed in the regulatory sources checked in 2026.\nEU and US food-additive permissions for this exact entry were not confirmed in the sources checked in 2026."
     }
 }

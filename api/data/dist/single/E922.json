@@ -12,6 +12,7 @@
             "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
             "Wikipedia": "https://en.wikipedia.org/wiki/Potassium_persulfate"
         },
-        "overview": "Potassium persulphate, also called potassium peroxydisulphate, is an inorganic oxidising salt. The specified chemical contains potassium and the peroxydisulphate ion, distinguishing it from ordinary potassium sulphate. It is a white solid whose dissolution increases with warmer water. The dataset retains a historical flour-treatment classification. A current human-food use for this exact preparation was not confirmed."
+        "overview": "Potassium persulphate, also called potassium peroxydisulphate, is an inorganic oxidising salt. The specified chemical contains potassium and the peroxydisulphate ion, distinguishing it from ordinary potassium sulphate. It is a white solid whose dissolution increases with warmer water. The dataset retains a historical flour-treatment classification. A current human-food use for this exact preparation was not confirmed.",
+        "banned_in": "No current country-wide food-use ban was confirmed in the regulatory sources checked in 2026.\nEU and US food-additive permissions for this exact entry were not confirmed in the sources checked in 2026."
     }
 }

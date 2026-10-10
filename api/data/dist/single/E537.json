@@ -11,6 +11,7 @@
             "FDA food substances": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
             "FAO": "https://www.fao.org/input/download/report/702/al31_12e.pdf"
         },
-        "overview": "Ferrous hexacyanomanganate is listed as INS 537 in the 2008 Codex committee report, with an anti-caking function. The function concerns helping powdered ingredients remain free flowing. The historical list establishes the name and technological classification but does not provide a compound specification or typical retail-food example. It should not be assigned the chemistry or intake evaluation of the separately named ferrocyanide salts."
+        "overview": "Ferrous hexacyanomanganate is listed as INS 537 in the 2008 Codex committee report, with an anti-caking function. The function concerns helping powdered ingredients remain free flowing. The historical list establishes the name and technological classification but does not provide a compound specification or typical retail-food example. It should not be assigned the chemistry or intake evaluation of the separately named ferrocyanide salts.",
+        "banned_in": "No current country-wide food-use ban was confirmed in the regulatory sources checked in 2026.\nEU and US food-additive permissions for this exact entry were not confirmed in the sources checked in 2026."
     }
 }

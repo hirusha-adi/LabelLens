@@ -10,8 +10,13 @@
       "https://efsa.onlinelibrary.wiley.com/doi/10.2903/j.efsa.2014.3643"
     ],
     "banned_in": [
+      "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20260818",
+      "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&showAll=true&type=basic",
       "https://efsa.onlinelibrary.wiley.com/doi/10.2903/j.efsa.2014.3643",
-      "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02008R1333-20260818"
+      "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02008R1333-20260818",
+      "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=189",
+      "https://www.ecfr.gov/api/versioner/v1/full/2026-10-07/title-21.xml?part=81",
+      "https://www.canada.ca/en/health-canada/services/food-nutrition/food-safety/chemical-contaminants/contaminants-adulterating-substances-foods.html"
     ],
     "uses": [
       "https://efsa.onlinelibrary.wiley.com/doi/10.2903/j.efsa.2014.3643",
@@ -38,7 +43,8 @@
     "No sufficiently specific compound-level source was retained for origin; field omitted.",
     "No sufficiently specific compound-level source was retained for dietary_restrictions; field omitted.",
     "No sufficiently specific compound-level source was retained for interactions; field omitted.",
-    "No sufficiently specific compound-level source was retained for precautions; field omitted."
+    "No sufficiently specific compound-level source was retained for precautions; field omitted.",
+    "The checked sources do not establish an exhaustive worldwide country-ban list; jurisdictions without compound-specific evidence remain unconfirmed."
   ],
   "changes": [
     "Replaced the legacy layout with rich fields and removed unsupported inherited health, dietary and intake assertions.",
@@ -48,6 +54,7 @@
     "icon: regulatory concern; EFSA 2014 could not establish an ADI and identified data needed before wider use, while accepting the limited crustacean application.",
     "2026-10-10 description expansion: daily_intake replaced or added with compound-specific detail from the linked field sources.",
     "2026-10-10 description expansion: side_effects replaced or added with compound-specific detail from the linked field sources.",
-    "2026-10-10 description expansion: banned_in replaced or added with compound-specific detail from the linked field sources."
+    "2026-10-10 description expansion: banned_in replaced or added with compound-specific detail from the linked field sources.",
+    "2026-10-10 regulatory expansion: banned_in records confirmed country bans, approval lines, scoped restrictions and limits of the checked jurisdictions. Country and use-specific evidence is retained in regulatory-details.json."
   ]
 }
