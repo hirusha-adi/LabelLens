@@ -17,7 +17,7 @@ set -euo pipefail
 
 root="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 port="${PORT:-8787}"
-package="app.labellens"
+package="com.hirusha.labellens"
 run_api=true
 run_app=true
 run_web=false

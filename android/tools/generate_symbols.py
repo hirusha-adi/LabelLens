@@ -6,7 +6,7 @@ Needs fonttools (`pip install fonttools`). Arguments:
      (variablefont/), saved under those two names
   2. the unzipped design handoff's `project` folder
   3. app/src/main/res/font
-  4. app/src/main/kotlin/app/labellens/ui/theme
+  4. app/src/main/kotlin/com/hirusha/labellens/ui/theme
 
 Icons used in the design files are picked up automatically. Add any others to the
 list of extra names below.
@@ -40,7 +40,7 @@ def esc(h):
         return "\\u%04X\\u%04X" % (0xD800 + (c >> 10), 0xDC00 + (c & 0x3FF))
     return "\\u%04X" % c
 kt = ["// Generated from the Material Symbols Rounded codepoints file. Do not edit by hand.",
-      "package app.labellens.ui.theme", "",
+      "package com.hirusha.labellens.ui.theme", "",
       "/** Icon name to glyph for the bundled Material Symbols Rounded subset. */",
       "internal val SymbolGlyphs: Map<String, String> = mapOf("]
 kt += ['    "%s" to "%s",' % (n, esc(cp[n])) for n in names]
@@ -48,7 +48,7 @@ kt += [")", ""]
 open(os.path.join(out_kt, "SymbolGlyphs.kt"), "w").write("\n".join(kt))
 shapes = json.load(open(os.path.join(design, "assets", "_shapes.json")))
 kt = ["// Generated from the design tokens (assets/_shapes.json). Do not edit by hand.",
-      "package app.labellens.ui.theme", "",
+      "package com.hirusha.labellens.ui.theme", "",
       "/** Outline points for the Expressive shapes, as x,y pairs in the 0..100 range. */",
       "internal object ShapePoints {"]
 for k, v in shapes.items():

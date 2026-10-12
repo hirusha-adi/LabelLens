@@ -1,3 +1,5 @@
+import java.util.Properties
+
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.compose)
@@ -9,12 +11,19 @@ plugins {
 // real HTTPS address: -PapiBaseUrl=https://api.example.com
 val apiBaseUrl = providers.gradleProperty("apiBaseUrl").getOrElse("http://127.0.0.1:8787")
 
+// The upload key for Google Play, kept out of the repository in ../secrets.
+// Without it, release builds are signed with the debug key and Play will not take them.
+val keystoreFile = rootProject.file("../secrets/keystore.properties")
+val keystore = Properties().apply {
+    if (keystoreFile.exists()) keystoreFile.inputStream().use { load(it) }
+}
+
 android {
-    namespace = "app.labellens"
+    namespace = "com.hirusha.labellens"
     compileSdk = 37
 
     defaultConfig {
-        applicationId = "app.labellens"
+        applicationId = "com.hirusha.labellens"
         minSdk = 28
         targetSdk = 37
         versionCode = 414
@@ -26,10 +35,21 @@ android {
 
     }
 
+    signingConfigs {
+        if (keystoreFile.exists()) {
+            create("upload") {
+                storeFile = keystoreFile.resolveSibling(keystore.getProperty("storeFile"))
+                storePassword = keystore.getProperty("storePassword")
+                keyAlias = keystore.getProperty("keyAlias")
+                keyPassword = keystore.getProperty("keyPassword")
+            }
+        }
+    }
+
     buildTypes {
         release {
             isMinifyEnabled = false
-            signingConfig = signingConfigs.getByName("debug")
+            signingConfig = signingConfigs.getByName(if (keystoreFile.exists()) "upload" else "debug")
         }
     }
 
