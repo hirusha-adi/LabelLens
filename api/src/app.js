@@ -58,7 +58,7 @@ const notModified = (req, res, body, extraHeaders) => {
  * @param {object} deps
  * @param {{ current: ReturnType<import("./catalogue-cache.js").buildSnapshot> }} deps.catalogue
  * @param {(entry: { ip: string | null, deviceType: string, resource: "list" | "detail", code: string | null }) => void} deps.record
- * @param {{ log?: boolean, trustProxy?: boolean, allowedOrigins?: string[] }} [deps.options]
+ * @param {{ log?: boolean, trustProxy?: boolean, clientIpHeader?: string, allowedOrigins?: string[] }} [deps.options]
  * @returns {(req: import("node:http").IncomingMessage, res: import("node:http").ServerResponse) => void}
  */
 export const createHandler = ({ catalogue, record, options = {} }) => {
@@ -73,9 +73,11 @@ export const createHandler = ({ catalogue, record, options = {} }) => {
     res.setHeader("Vary", "Origin, Accept-Encoding");
   };
 
+  // Node lower-cases header names.
+  const clientIpHeader = options.clientIpHeader ? options.clientIpHeader.toLowerCase() : null;
   const track = (req, resource, code) =>
     record({
-      ip: ipOf({ forwardedFor: req.headers["x-forwarded-for"], remoteAddress: req.socket?.remoteAddress, trustProxy: options.trustProxy }),
+      ip: ipOf({ named: clientIpHeader && req.headers[clientIpHeader], forwardedFor: req.headers["x-forwarded-for"], remoteAddress: req.socket?.remoteAddress, trustProxy: options.trustProxy }),
       deviceType: deviceTypeOf(req.headers),
       resource,
       code,

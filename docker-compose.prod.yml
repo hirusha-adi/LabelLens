@@ -55,8 +55,11 @@ services:
     environment:
       DATABASE_URL: postgres://labellens:${POSTGRES_PASSWORD}@hirusha-labellens-postgres:5432/labellens
       PORT: "8787"
-      # Caddy sits in front, so the caller's address is in X-Forwarded-For.
+      # The API is reached through Cloudflare and then Caddy, so the connection never
+      # comes from the visitor. Cloudflare puts the visitor's address in this header.
+      # (Caddy's own X-Forwarded-For only holds Docker's gateway address here.)
       TRUST_PROXY: "1"
+      CLIENT_IP_HEADER: ${CLIENT_IP_HEADER:-CF-Connecting-IP}
       # Lets the website, on its own domain, read the API from the browser.
       ALLOWED_ORIGINS: https://${WEB_DOMAIN:?Set WEB_DOMAIN in .env}
     networks:

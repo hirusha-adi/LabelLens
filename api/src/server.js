@@ -29,6 +29,8 @@ const server = createServer(
     options: {
       log: process.env.LOG_REQUESTS === "1",
       trustProxy: process.env.TRUST_PROXY === "1",
+      // Behind a CDN, the header it puts the visitor's address in, e.g. CF-Connecting-IP.
+      clientIpHeader: process.env.CLIENT_IP_HEADER || undefined,
       // The website's address(es), comma-separated, when it is served from another origin than the API.
       allowedOrigins: (process.env.ALLOWED_ORIGINS ?? "").split(",").map((origin) => origin.trim()).filter(Boolean),
     },

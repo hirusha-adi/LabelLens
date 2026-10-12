@@ -33,11 +33,24 @@ export const deviceTypeOf = (headers) => {
   return "other";
 };
 
-/** The caller's address, or null when it cannot be told. IPv4 mapped into IPv6 is unwrapped. */
-export const ipOf = ({ forwardedFor, remoteAddress, trustProxy }) => {
-  const candidate = (trustProxy && typeof forwardedFor === "string" && forwardedFor.split(",")[0].trim()) || remoteAddress || "";
-  const address = candidate.replace(/^::ffff:(\d+\.\d+\.\d+\.\d+)$/i, "$1");
-  return isIP(address) ? address : null;
+/**
+ * The caller's address, or null when it cannot be told. IPv4 mapped into IPv6 is unwrapped.
+ *
+ * Behind a proxy the connection comes from the proxy, so the real address has to be
+ * read from a header, and only when `trustProxy` says the proxy can be believed:
+ *   `named`         a header a CDN sets itself, such as Cloudflare's CF-Connecting-IP
+ *   `forwardedFor`  X-Forwarded-For, first entry
+ */
+export const ipOf = ({ named, forwardedFor, remoteAddress, trustProxy }) => {
+  const clean = (value) => {
+    const address = (typeof value === "string" ? value : "").trim().replace(/^::ffff:(\d+\.\d+\.\d+\.\d+)$/i, "$1");
+    return isIP(address) ? address : null;
+  };
+  if (trustProxy) {
+    const fromProxy = clean(named) ?? clean(typeof forwardedFor === "string" ? forwardedFor.split(",")[0] : "");
+    if (fromProxy) return fromProxy;
+  }
+  return clean(remoteAddress);
 };
 
 /**

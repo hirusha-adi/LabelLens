@@ -144,6 +144,25 @@ test("a forwarded address is only believed behind a trusted proxy", () => {
   assert.equal(ipOf({ forwardedFor: "not-an-address", remoteAddress: undefined, trustProxy: true }), null);
 });
 
+test("behind a CDN, the address comes from the header the CDN sets", async () => {
+  // As deployed: Cloudflare, then Caddy. X-Forwarded-For only holds Docker's gateway.
+  assert.equal(ipOf({ named: "203.0.113.7", forwardedFor: "172.18.0.1", remoteAddress: "172.19.0.5", trustProxy: true }), "203.0.113.7");
+  assert.equal(ipOf({ named: "2001:db8::7", forwardedFor: "172.18.0.1", trustProxy: true }), "2001:db8::7");
+  // Without trust, or with rubbish in the header, it is ignored.
+  assert.equal(ipOf({ named: "203.0.113.7", remoteAddress: "198.51.100.2", trustProxy: false }), "198.51.100.2");
+  assert.equal(ipOf({ named: "<script>", forwardedFor: "203.0.113.9", trustProxy: true }), "203.0.113.9");
+
+  const seen = [];
+  const site = await serveHandler(createHandler({ catalogue, record: (entry) => seen.push(entry.ip), options: { trustProxy: true, clientIpHeader: "CF-Connecting-IP" } }));
+  try {
+    await site.get("/additives/E330", { "cf-connecting-ip": "203.0.113.7", "x-forwarded-for": "172.18.0.1" });
+    await site.get("/additives/E330", { "x-forwarded-for": "198.51.100.4" });
+    assert.deepEqual(seen, ["203.0.113.7", "198.51.100.4"]);
+  } finally {
+    await site.close();
+  }
+});
+
 test("device type: the app's own name, or a broad class, never the user-agent string", () => {
   assert.equal(deviceTypeOf({ "x-device-type": "  Samsung   SM-S921B " }), "Samsung SM-S921B");
   assert.equal(deviceTypeOf({ "x-device-type": "x".repeat(300) }).length, 80);

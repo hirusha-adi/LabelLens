@@ -24,6 +24,7 @@ It listens on port 8787.
 | `PORT`, `HOST` | Where to listen. Default `0.0.0.0:8787`. |
 | `LOG_REQUESTS=1` | Print a line per request. For development; `scripts/dev.sh` turns it on. |
 | `ALLOWED_ORIGINS` | Websites allowed to read the API from a browser, comma-separated. Needed when the site in `../www` is served from a different address than the API. |
+| `CLIENT_IP_HEADER` | With `TRUST_PROXY`: a header a CDN puts the visitor's address in, such as `CF-Connecting-IP`. Checked before `X-Forwarded-For`. |
 | `TRUST_PROXY=1` | Take the caller's address from `X-Forwarded-For`. Only behind your own proxy, otherwise callers can fake their address. |
 
 ### Docker
