@@ -1,0 +1,9 @@
+node_modules/
+dist/
+
+# Copied from node_modules by the build (see vite.config.ts).
+public/ocr/
+
+.env
+.env.*
+!.env.example

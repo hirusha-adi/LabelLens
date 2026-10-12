@@ -9,11 +9,9 @@ import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
-import androidx.compose.foundation.layout.navigationBarsPadding
 import androidx.compose.foundation.layout.offset
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
-import androidx.compose.foundation.layout.statusBarsPadding
 import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.pager.HorizontalPager
 import androidx.compose.foundation.pager.rememberPagerState
@@ -27,14 +25,11 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.draw.shadow
-import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import app.labellens.data.Screen
 import app.labellens.data.Verdict
 import app.labellens.ui.FilledButton
-import app.labellens.ui.LensMark
 import app.labellens.ui.LocalStore
-import app.labellens.ui.OutlineButton
 import app.labellens.ui.Page
 import app.labellens.ui.StatusTile
 import app.labellens.ui.Sym
@@ -72,8 +67,15 @@ fun OnboardingScreen(replay: Boolean) {
     val pager = rememberPagerState { pages.size }
     val scope = rememberCoroutineScope()
     val finish = {
-        store.finishOnboarding()
-        if (replay) store.nav.pop() else store.nav.reset(Screen.Welcome)
+        if (replay) {
+            store.nav.pop()
+        } else {
+            // First run carries straight on into setting up allergies and diet, which can be skipped.
+            store.finishOnboarding()
+            store.draft = store.preferences
+            store.nav.reset(Screen.Main)
+            store.nav.push(Screen.PrefsStep(0))
+        }
         Unit
     }
     Page(scroll = false) {
@@ -173,47 +175,6 @@ private fun HowScanningWorks() {
                 ) { Sym(icon, size = 32.dp, tint = if (last) cs.onPrimary else cs.primary) }
                 T(text, gab(800, 18, 24), color = cs.onSecondaryContainer)
             }
-        }
-    }
-}
-
-/** A04: create an account, log in, or carry on as a guest. */
-@Composable
-fun WelcomeScreen() {
-    val store = LocalStore.current
-    // Reached from inside the app when a guest taps "Sign in".
-    val insideApp = store.nav.stack.size > 1
-    Column(Modifier.fillMaxSize().background(cs.primaryContainer).statusBarsPadding()) {
-        Box(Modifier.fillMaxWidth().height(56.dp).padding(horizontal = 8.dp), contentAlignment = Alignment.CenterStart) {
-            if (insideApp) TonalIconButton("close", "Close", { store.nav.pop() }, container = cs.background)
-        }
-        Column(
-            Modifier.weight(1f).fillMaxWidth().verticalScroll(rememberScrollState()).padding(horizontal = 32.dp),
-            horizontalAlignment = Alignment.CenterHorizontally,
-            verticalArrangement = Arrangement.spacedBy(20.dp, Alignment.CenterVertically),
-        ) {
-            LensMark(140.dp, stroke = cs.onPrimaryContainer, leaf = cs.primary, vein = cs.primaryContainer)
-            T("Label Lens", gab(900, 44, 48, -0.88), color = cs.onPrimaryContainer)
-            T(
-                "Point your camera at a food label and know what you are about to eat.",
-                hg(500, 17, 26), color = cs.onPrimaryContainer, align = TextAlign.Center,
-            )
-        }
-        Column(
-            Modifier.fillMaxWidth().clip(RoundedCornerShape(topStart = 32.dp, topEnd = 32.dp)).background(cs.background)
-                .navigationBarsPadding().padding(start = 16.dp, end = 16.dp, top = 24.dp, bottom = 20.dp),
-            verticalArrangement = Arrangement.spacedBy(10.dp),
-        ) {
-            FilledButton("Create account", { store.nav.push(Screen.CreateAccount) }, Modifier.fillMaxWidth())
-            OutlineButton("Log in", { store.nav.push(Screen.Login) }, Modifier.fillMaxWidth())
-            TextAction(
-                "Continue as guest", { if (insideApp) store.nav.pop() else store.continueAsGuest() },
-                Modifier.fillMaxWidth(), style = hg(700, 15),
-            )
-            T(
-                "Guests get 3 scans a day and full additive search.\nYour list stays on this phone.",
-                hg(400, 13, 18), Modifier.fillMaxWidth(), color = cs.onSurfaceVariant, align = TextAlign.Center,
-            )
         }
     }
 }

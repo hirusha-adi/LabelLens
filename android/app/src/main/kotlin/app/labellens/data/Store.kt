@@ -7,14 +7,24 @@ import androidx.compose.runtime.setValue
 import app.labellens.BuildConfig
 import java.io.File
 import java.io.IOException
-import java.time.LocalDate
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.SupervisorJob
 import kotlinx.coroutines.launch
+import kotlinx.coroutines.sync.Mutex
+import kotlinx.coroutines.sync.withLock
 import kotlinx.coroutines.withContext
+import kotlinx.serialization.SerializationException
 import kotlinx.serialization.builtins.ListSerializer
+import kotlinx.serialization.builtins.MapSerializer
 import kotlinx.serialization.builtins.serializer
+import kotlinx.serialization.json.Json
+
+val AppJson = Json {
+    ignoreUnknownKeys = true
+    encodeDefaults = true
+    explicitNulls = false
+}
 
 data class SnackbarMessage(
     val text: String,
@@ -23,38 +33,48 @@ data class SnackbarMessage(
     val id: Long = System.nanoTime(),
 )
 
-/** Outcome of a call the UI waits on. */
-sealed interface Outcome {
-    data object Success : Outcome
-    data class Failure(val message: String, val code: String = "", val offline: Boolean = false) : Outcome
-}
-
 /**
  * App state and the actions that change it. One instance lives for the whole process.
- * The list, theme and scan counter are kept on the phone; everything else comes from the API.
+ *
+ * The additive catalogue comes from the Label Lens server and is kept on the phone
+ * once fetched. A copy also ships inside the app (assets/catalogue.json and
+ * details.json), so a first launch with no connection still works.
+ *
+ * Everything the person sets up or collects is one [UserData] document in the app's
+ * private storage. It is never sent anywhere.
+ *
+ * That document survives app updates because updates never touch app data. It
+ * survives a reinstall or a new phone through Android's own backup, which the
+ * manifest opts into (see res/xml/backup_rules.xml), provided backup is switched on
+ * for the device. For anyone who has it off, Settings can write the document to a
+ * file and read it back.
  */
-class Store(private val context: Context) {
+class Store(
+    private val context: Context,
+    /** Null keeps the app on the catalogue it already has. Tests use that. */
+    private val api: Api? = Api(BuildConfig.API_BASE_URL),
+) {
     val scope = CoroutineScope(SupervisorJob() + Dispatchers.Main.immediate)
-    val api = Api(BuildConfig.API_BASE_URL)
     val nav = Navigator()
-    private val local = context.getSharedPreferences("labellens", Context.MODE_PRIVATE)
+    private val storage = context.getSharedPreferences(USER_FILE, Context.MODE_PRIVATE)
     private val catalogueFile = File(context.filesDir, "catalogue.json")
-    private val details = mutableMapOf<String, AdditiveDetail>()
+
+    /** Bookkeeping for what has been downloaded. Not part of the backup: a restored phone just fetches again. */
+    private val cache = context.getSharedPreferences("labellens_cache", Context.MODE_PRIVATE)
 
     var catalogue by mutableStateOf(emptyList<Additive>())
         private set
     private var index: Map<String, Additive> = emptyMap()
     var meta by mutableStateOf(CatalogueMeta())
         private set
-    /** When the additive list was last confirmed with the API, in epoch milliseconds. 0 if never. */
-    var lastSync by mutableStateOf(0L)
-        private set
-    var offline by mutableStateOf(false)
-        private set
     var options by mutableStateOf(PreferenceOptions())
         private set
-    var user by mutableStateOf<User?>(null)
-        private set
+
+    /** Pages fetched from the server this session. */
+    private val fetchedDetails = mutableMapOf<String, AdditiveDetail>()
+    private var bundledDetails: Map<String, AdditiveDetail>? = null
+    private val detailsLock = Mutex()
+
     var preferences by mutableStateOf(Preferences())
         private set
 
@@ -64,436 +84,259 @@ class Store(private val context: Context) {
         private set
     var saved by mutableStateOf(emptyList<String>())
         private set
-
-    /** Null until the first load finishes. */
-    var history by mutableStateOf<List<HistoryItem>?>(null)
-        private set
-    var plans by mutableStateOf<Plans?>(null)
-        private set
-    var subscription by mutableStateOf<Subscription?>(null)
-        private set
-    var family by mutableStateOf<Family?>(null)
-        private set
-    var regions by mutableStateOf<Regions?>(null)
+    var history by mutableStateOf(emptyList<Scan>())
         private set
     var themeMode by mutableStateOf("system")
         private set
-    var shareStats by mutableStateOf(false)
+    private var onboarded = false
+
     var tab by mutableStateOf(Tab.HOME)
     var scan by mutableStateOf<ScanResult?>(null)
-    var scansUsed by mutableStateOf(0)
-        private set
     var showScanSheet by mutableStateOf(false)
-    var showUpgradeSheet by mutableStateOf(false)
     var snackbar by mutableStateOf<SnackbarMessage?>(null)
-    var trialEndsLabel by mutableStateOf("")
-        private set
-
-    val isGuest get() = user == null
-    val hasPlus get() = user?.plan == "plus" || user?.plan == "family"
-    val isFamily get() = user?.plan == "family"
-    val scansLeft get() = (FREE_SCANS_PER_DAY - scansUsed).coerceAtLeast(0)
 
     fun additive(code: String): Additive? = index[code]
 
-    /** Personal check for Plus members, the general verdict for everyone else. */
-    fun check(additive: Additive): Check =
-        if (hasPlus) Verdicts.personal(additive, preferences, options) else Check(additive.verdict)
+    /** How this additive sits against the person's allergies, diet and things to avoid. */
+    fun check(additive: Additive): Check = Verdicts.personal(additive, preferences, options)
 
     // ---------- Start-up ----------
 
     fun start() {
-        themeMode = local.getString(KEY_THEME, "system") ?: "system"
-        myList = decodeList(local.getString(KEY_LIST, null))
-        if (local.getString(KEY_SCAN_DATE, null) == today()) scansUsed = local.getInt(KEY_SCAN_COUNT, 0)
-        local.getString(KEY_PREFERENCES, null)?.let { text ->
-            runCatching { preferences = AppJson.decodeFromString<Preferences>(text) }
-        }
-        local.getString(KEY_USER, null)?.let { text ->
-            runCatching { user = AppJson.decodeFromString<User>(text) }
-        }
-        api.token = local.getString(KEY_TOKEN, null)
-        api.refreshToken = local.getString(KEY_REFRESH_TOKEN, null)
-        api.onSessionRefreshed = { token, refresh ->
-            local.edit().putString(KEY_TOKEN, token).putString(KEY_REFRESH_TOKEN, refresh).apply()
-        }
-        if (api.token == null) user = null
-        if (catalogueFile.exists()) {
-            runCatching { applyCatalogue(AppJson.decodeFromString<Catalogue>(catalogueFile.readText())) }
-            lastSync = local.getLong(KEY_LAST_SYNC, 0L)
-        }
-        nav.reset(
-            when {
-                !local.getBoolean(KEY_ONBOARDED, false) -> Screen.Onboarding()
-                !local.getBoolean(KEY_ENTERED, false) -> Screen.Welcome
-                else -> Screen.Main
-            },
-        )
+        // The newest list the phone has: the one last fetched, or failing that the one in the app.
+        val fetched = runCatching { AppJson.decodeFromString<Catalogue>(catalogueFile.readText()) }.getOrNull()
+        show(fetched?.takeIf { it.additives.isNotEmpty() } ?: context.assets.open(CATALOGUE_ASSET).bufferedReader().use { AppJson.decodeFromString<Catalogue>(it.readText()) })
+
+        apply(read())
+        nav.reset(if (onboarded) Screen.Main else Screen.Onboarding())
         refresh()
     }
 
-    fun refresh() {
-        scope.launch {
-            loadCatalogue()
-            if (offline) return@launch
-            runCatching { options = api.get<PreferenceOptions>("/preferences/options") }
-            runCatching { plans = api.get<Plans>("/plans") }
-            runCatching { regions = api.get<Regions>("/regions").let { r -> r.copy(selected = local.getString(KEY_REGION, r.selected) ?: r.selected) } }
-            if (api.token != null) loadAccount()
-        }
-    }
-
-    private suspend fun loadCatalogue() {
-        try {
-            // Null means the copy on the phone is still current.
-            val fresh = api.getIfChanged<Catalogue>("/additives", if (catalogue.isEmpty()) "" else meta.version)
-            if (fresh != null) {
-                applyCatalogue(fresh)
-                details.clear()
-                withContext(Dispatchers.IO) { catalogueFile.writeText(AppJson.encodeToString(fresh)) }
-            }
-            offline = false
-            lastSync = System.currentTimeMillis()
-            local.edit().putLong(KEY_LAST_SYNC, lastSync).apply()
-        } catch (e: IOException) {
-            offline = true
-        } catch (e: Exception) {
-            // The server answered, just not with something usable. Keep what is on the phone.
-            offline = false
-        }
-    }
-
-    /** "today", "yesterday" or "3 days ago", for the offline banner. */
-    val lastSyncLabel: String
-        get() {
-            if (lastSync == 0L) return "never"
-            val days = ((System.currentTimeMillis() - lastSync) / 86_400_000L).toInt()
-            return when (days) {
-                0 -> "today"
-                1 -> "yesterday"
-                else -> "$days days ago"
-            }
-        }
-
-    private fun applyCatalogue(value: Catalogue) {
+    private fun show(value: Catalogue) {
         catalogue = value.additives
         index = value.additives.associateBy { it.code }
         meta = value.meta
+        if (value.options.allergens.isNotEmpty()) options = value.options
     }
 
-    private suspend fun loadAccount() {
-        try {
-            applyUser(api.get<User>("/me"))
-        } catch (e: ApiException) {
-            // The session is gone on the server: logged out elsewhere, or the account was deleted.
-            if (e.status == 401) clearSession()
-            return
-        } catch (e: IOException) {
-            offline = true
-            return
+    /** Asks the server for a newer list. Quietly keeps the current one if there is none or no connection. */
+    fun refresh() {
+        val server = api ?: return
+        scope.launch {
+            try {
+                // The ETag only counts while the file it describes is still there.
+                val held = cache.getString(KEY_CATALOGUE_ETAG, null).takeIf { catalogueFile.exists() }
+                val (fresh, etag) = server.catalogue(held) ?: return@launch
+                if (fresh.additives.isEmpty()) return@launch
+                show(fresh)
+                fetchedDetails.clear()
+                apply(current())
+                withContext(Dispatchers.IO) { catalogueFile.writeText(AppJson.encodeToString(fresh)) }
+                cache.edit().putString(KEY_CATALOGUE_ETAG, etag).apply()
+            } catch (e: IOException) {
+                // Offline, or the server is having a bad moment. The list on the phone stays.
+            } catch (e: SerializationException) {
+                // Not the shape this version understands. Same answer.
+            }
         }
-        runCatching { setPreferencesLocal(api.get<Preferences>("/me/preferences")) }
-        runCatching { saved = api.get<SavedEnvelope>("/saved").codes }
-        runCatching { subscription = api.get<SubscriptionEnvelope>("/subscription").subscription }
-        runCatching { family = api.get<Family>("/family") }
-        loadHistory()
     }
-
-    suspend fun detail(code: String): AdditiveDetail =
-        details[code] ?: api.get<AdditiveDetail>("/additives/$code").also { details[code] = it }
-
-    // ---------- Session ----------
-
-    fun finishOnboarding() {
-        local.edit().putBoolean(KEY_ONBOARDED, true).apply()
-    }
-
-    fun continueAsGuest() {
-        local.edit().putBoolean(KEY_ENTERED, true).apply()
-        tab = Tab.HOME
-        nav.reset(Screen.Main)
-    }
-
-    suspend fun login(email: String, password: String): Outcome =
-        call { openSession(api.post<Credentials, AuthResponse>("/auth/login", Credentials(email, password))) }
-
-    suspend fun loginWithGoogle(idToken: String, nonce: String): Outcome =
-        call { openSession(api.post<GoogleBody, AuthResponse>("/auth/google", GoogleBody(idToken, nonce))) }
 
     /**
-     * The sign-up waiting for its email to be confirmed. Kept in memory only, so the
-     * password is never written to the phone; if the app is closed, the user logs in instead.
+     * The long-form page for one additive: from the server when it can be reached,
+     * otherwise the copy that shipped with the app.
      */
-    var pendingVerification by mutableStateOf<Credentials?>(null)
-        private set
-
-    suspend fun signUp(name: String, email: String, password: String): Outcome = call {
-        val response = api.post<Credentials, AuthResponse>("/auth/signup", Credentials(email, password, name))
-        if (response.token == null) pendingVerification = Credentials(email, password, name) else openSession(response)
+    suspend fun detail(code: String): AdditiveDetail? {
+        fetchedDetails[code]?.let { return it }
+        if (api != null) {
+            try {
+                api.detail(code)?.let {
+                    fetchedDetails[code] = it
+                    return it
+                }
+            } catch (e: IOException) {
+                // Fall through to the bundled copy.
+            } catch (e: SerializationException) {
+                // Fall through to the bundled copy.
+            }
+        }
+        val bundled = bundledDetails ?: detailsLock.withLock {
+            bundledDetails ?: withContext(Dispatchers.IO) {
+                context.assets.open(DETAILS_ASSET).bufferedReader().use {
+                    AppJson.decodeFromString(MapSerializer(String.serializer(), AdditiveDetail.serializer()), it.readText())
+                }
+            }.also { bundledDetails = it }
+        }
+        return bundled[code]
     }
 
-    fun cancelVerification() {
-        pendingVerification = null
+    // ---------- The saved document ----------
+
+    private fun read(): UserData {
+        storage.getString(KEY_DATA, null)?.let { text ->
+            runCatching { return AppJson.decodeFromString<UserData>(text) }
+        }
+        return readEarlierFormat()
     }
 
-    suspend fun forgotPassword(email: String): Result<ForgotResponse> =
-        runCatching { api.post<EmailBody, ForgotResponse>("/auth/forgot", EmailBody(email)) }
-
-    suspend fun resendVerification(): Outcome {
-        val pending = pendingVerification ?: return Outcome.Failure("Sign up again to get a new email.")
-        return call { api.post<EmailBody, Ok>("/auth/resend-verification", EmailBody(pending.email)) }
-    }
-
-    /** Tries to log in with the pending sign-up. Works as soon as the email has been confirmed. */
-    suspend fun checkVerified(): Boolean {
-        val pending = pendingVerification ?: return false
-        val confirmed = login(pending.email, pending.password) is Outcome.Success
-        if (confirmed) pendingVerification = null
-        return confirmed
-    }
-
-    private suspend fun openSession(auth: AuthResponse) {
-        val token = auth.token ?: return
-        api.token = token
-        api.refreshToken = auth.refreshToken
-        local.edit().putString(KEY_TOKEN, token).putString(KEY_REFRESH_TOKEN, auth.refreshToken).putBoolean(KEY_ENTERED, true).apply()
-        applyUser(auth.user)
-        history = null
-        loadAccount()
-    }
-
-    private fun applyUser(value: User?) {
-        user = value
-        local.edit().putString(KEY_USER, value?.let { AppJson.encodeToString(it) }).apply()
-    }
-
-    private fun clearSession() {
-        api.token = null
-        api.refreshToken = null
-        applyUser(null)
-        local.edit().remove(KEY_TOKEN).remove(KEY_REFRESH_TOKEN).remove(KEY_PREFERENCES).apply()
-        preferences = Preferences()
-        saved = emptyList()
-        history = null
-        subscription = null
-        family = null
-    }
-
-    fun logout() {
-        scope.launch {
-            runCatching { api.post<Ok>("/auth/logout") }
-            clearSession()
-            local.edit().putBoolean(KEY_ENTERED, false).apply()
-            tab = Tab.HOME
-            nav.reset(Screen.Welcome)
+    /** Builds before 2.1 kept each setting under its own key in another file. Carries them over once. */
+    private fun readEarlierFormat(): UserData {
+        val old = context.getSharedPreferences("labellens", Context.MODE_PRIVATE)
+        if (old.all.isEmpty()) return UserData()
+        val strings = ListSerializer(String.serializer())
+        return UserData(
+            onboarded = old.getBoolean("onboarded", false),
+            theme = old.getString("theme", "system") ?: "system",
+            preferences = old.getString("preferences", null)?.let { runCatching { AppJson.decodeFromString<Preferences>(it) }.getOrNull() } ?: Preferences(),
+            list = old.getString("list", null)?.let { runCatching { AppJson.decodeFromString(strings, it) }.getOrNull() } ?: emptyList(),
+        ).also {
+            storage.edit().putString(KEY_DATA, AppJson.encodeToString(it)).apply()
+            old.edit().clear().apply()
         }
     }
 
-    suspend fun deleteAccount(): Outcome = call {
-        api.delete<Ok>("/me")
-        clearSession()
-        local.edit().putBoolean(KEY_ENTERED, false).apply()
-        tab = Tab.HOME
-        nav.reset(Screen.Welcome)
+    private fun apply(data: UserData) {
+        onboarded = data.onboarded
+        themeMode = data.theme
+        preferences = data.preferences
+        // Codes that are no longer in the catalogue are dropped rather than shown as blanks.
+        myList = data.list.filter { it in index }
+        saved = data.saved.filter { it in index }
+        history = data.scans
+    }
+
+    private fun current() = UserData(
+        onboarded = onboarded,
+        theme = themeMode,
+        preferences = preferences,
+        list = myList,
+        saved = saved,
+        scans = history,
+    )
+
+    private fun persist() {
+        storage.edit().putString(KEY_DATA, AppJson.encodeToString(current())).apply()
+    }
+
+    /** The whole document as text, for writing to a file the person chooses. */
+    fun exportData(): String = Json(AppJson) { prettyPrint = true }.encodeToString(current())
+
+    /** Replaces everything with the document in [text]. Returns false, changing nothing, if it is not one. */
+    fun importData(text: String): Boolean {
+        val data = runCatching { AppJson.decodeFromString<UserData>(text) }.getOrNull() ?: return false
+        if (data.formatVersion > UserData().formatVersion) return false
+        apply(data.copy(onboarded = true))
+        persist()
+        return true
+    }
+
+    // ---------- First run ----------
+
+    fun finishOnboarding() {
+        onboarded = true
+        persist()
     }
 
     // ---------- Preferences ----------
 
-    private fun setPreferencesLocal(value: Preferences) {
-        preferences = value
-        local.edit().putString(KEY_PREFERENCES, AppJson.encodeToString(value)).apply()
-    }
-
     fun savePreferences(value: Preferences) {
-        setPreferencesLocal(value)
-        if (api.token == null) return
-        scope.launch {
-            val outcome = call { api.put<Preferences, Preferences>("/me/preferences", value) }
-            if (outcome is Outcome.Failure) snack("Saved on this phone. We'll sync your preferences when you're back online.")
-        }
+        preferences = value
+        persist()
     }
 
-    // ---------- My list (stays on the phone) ----------
+    fun chooseTheme(mode: String) {
+        themeMode = mode
+        persist()
+    }
 
-    private fun setList(value: List<String>) {
+    // ---------- My list ----------
+
+    private fun replaceList(value: List<String>) {
         myList = value
-        local.edit().putString(KEY_LIST, AppJson.encodeToString(ListSerializer(String.serializer()), value)).apply()
+        persist()
     }
 
-    fun addToList(codes: Collection<String>) = setList((myList + codes).distinct())
+    fun addToList(codes: Collection<String>) = replaceList((myList + codes).distinct())
 
     fun removeFromList(code: String) {
         val before = myList
-        setList(myList - code)
-        snack("Removed $code from your list", "Undo") { setList(before) }
+        replaceList(myList - code)
+        snack("Removed $code from your list", "Undo") { replaceList(before) }
     }
 
     fun clearList() {
         val before = myList
-        setList(emptyList())
-        snack("List cleared", "Undo") { setList(before) }
+        replaceList(emptyList())
+        snack("List cleared", "Undo") { replaceList(before) }
     }
 
     // ---------- Saved additives ----------
 
+    private fun replaceSaved(value: List<String>) {
+        saved = value
+        persist()
+    }
+
     fun toggleSaved(code: String) {
         val before = saved
-        val removing = code in saved
-        saved = if (removing) saved - code else listOf(code) + saved
-        scope.launch {
-            val outcome = call {
-                saved = if (removing) api.delete<SavedEnvelope>("/saved/$code").codes else api.put<SavedEnvelope>("/saved/$code").codes
-            }
-            if (outcome is Outcome.Failure) {
-                saved = before
-                snack("Couldn't update Saved. Check your connection and try again.")
-            }
+        if (code in saved) {
+            replaceSaved(saved - code)
+            snack("Removed $code from Saved", "Undo") { replaceSaved(before) }
+        } else {
+            replaceSaved(listOf(code) + saved)
+            snack("Saved $code")
         }
-        if (removing) snack("Removed $code from Saved", "Undo") { toggleSaved(code) } else snack("Saved $code")
     }
 
     fun saveAll(codes: List<String>) {
         val fresh = codes.filter { it !in saved }
         if (fresh.isEmpty()) return snack("Already in Saved")
-        saved = fresh + saved
-        scope.launch { fresh.forEach { code -> call { api.put<SavedEnvelope>("/saved/$code") } } }
+        replaceSaved(fresh + saved)
         snack(if (fresh.size == 1) "Saved ${fresh.first()}" else "Saved ${fresh.size} additives")
     }
 
-    // ---------- Scanning ----------
+    // ---------- Scanning and history ----------
 
-    /** Opens the scan sheet, or the upgrade prompt when today's free scans are used up. */
     fun requestScan() {
-        if (!hasPlus && scansLeft == 0) showUpgradeSheet = true else showScanSheet = true
+        showScanSheet = true
     }
 
     fun recordScan(result: ScanResult) {
         scan = result
-        if (!hasPlus) {
-            scansUsed += 1
-            local.edit().putString(KEY_SCAN_DATE, today()).putInt(KEY_SCAN_COUNT, scansUsed).apply()
-            return
-        }
-        val codes = result.all.map { it.additive.code }
         val verdict = Verdicts.worst(
             result.all.map { check(it.additive).verdict } + Verdicts.allergens(result.text, preferences).map { it.verdict },
         )
-        syncScan(HistoryBody(codes, verdict.name.lowercase()))
-    }
-
-    private fun syncScan(body: HistoryBody) {
-        scope.launch {
-            val outcome = call {
-                val item = api.post<HistoryBody, HistoryItem>("/history", body)
-                history = listOf(item) + history.orEmpty()
-            }
-            if (outcome is Outcome.Failure) {
-                snack("Couldn't sync your history. We'll try again when you're back online.", "Retry") { syncScan(body) }
-            }
-        }
-    }
-
-    suspend fun loadHistory() {
-        if (api.token == null) return
-        val outcome = call { history = api.get<HistoryEnvelope>("/history").items }
-        if (outcome is Outcome.Failure && history == null) history = emptyList()
+        val entry = Scan(
+            id = "s${System.currentTimeMillis()}",
+            at = System.currentTimeMillis(),
+            verdict = verdict.name.lowercase(),
+            codes = result.all.map { it.additive.code },
+        )
+        history = (listOf(entry) + history).take(HISTORY_LIMIT)
+        persist()
     }
 
     fun clearHistory() {
-        scope.launch {
-            when (call { api.delete<Ok>("/history") }) {
-                is Outcome.Success -> {
-                    history = emptyList()
-                    snack("Scan history cleared")
-                }
-                is Outcome.Failure -> snack("Couldn't clear your history. Check your connection and try again.")
-            }
+        if (history.isEmpty()) return snack("There's no scan history to clear")
+        val before = history
+        history = emptyList()
+        persist()
+        snack("Scan history cleared", "Undo") {
+            history = before
+            persist()
         }
-    }
-
-    // ---------- Plans ----------
-
-    suspend fun purchase(planId: String, yearly: Boolean): Outcome = call {
-        val response = api.post<PurchaseBody, PurchaseResponse>("/subscription/purchase", PurchaseBody(planId, if (yearly) "yearly" else "monthly"))
-        applyUser(response.user)
-        subscription = response.subscription
-        trialEndsLabel = response.trialEndsLabel
-        runCatching { family = api.get<Family>("/family") }
-        loadHistory()
-    }
-
-    fun restorePurchases() {
-        scope.launch {
-            val outcome = call {
-                val response = api.post<PurchaseResponse>("/subscription/restore")
-                applyUser(response.user)
-                subscription = response.subscription
-            }
-            snack(
-                when {
-                    outcome is Outcome.Failure -> "Couldn't reach Google Play. Try again when you're online."
-                    hasPlus -> "Your purchases are up to date"
-                    else -> "No purchases to restore"
-                },
-            )
-        }
-    }
-
-    // ---------- Family, region, settings ----------
-
-    fun selectFamily(selected: Set<String>) {
-        family = family?.let { f -> f.copy(profiles = f.profiles.map { it.copy(selected = it.id in selected) }) }
-        scope.launch { call { api.put<FamilySelection, Family>("/family/selection", FamilySelection(selected.toList())) } }
-    }
-
-    fun selectRegion(id: String) {
-        regions = regions?.copy(selected = id)
-        local.edit().putString(KEY_REGION, id).apply()
-        if (api.token != null) scope.launch { call { api.put<RegionBody, Regions>("/me/region", RegionBody(id)) } }
-    }
-
-    fun chooseTheme(mode: String) {
-        themeMode = mode
-        local.edit().putString(KEY_THEME, mode).apply()
     }
 
     fun snack(text: String, actionLabel: String? = null, onAction: (() -> Unit)? = null) {
         snackbar = SnackbarMessage(text, actionLabel, onAction)
     }
 
-    // ---------- Helpers ----------
-
-    private suspend fun call(block: suspend () -> Unit): Outcome = try {
-        block()
-        offline = false
-        Outcome.Success
-    } catch (e: ApiException) {
-        Outcome.Failure(e.message ?: "Something went wrong.", e.code)
-    } catch (e: IOException) {
-        offline = true
-        Outcome.Failure("You're offline. Check your connection and try again.", offline = true)
-    } catch (e: kotlinx.serialization.SerializationException) {
-        Outcome.Failure("Something went wrong.")
-    }
-
-    private fun decodeList(text: String?): List<String> =
-        text?.let { runCatching { AppJson.decodeFromString(ListSerializer(String.serializer()), it) }.getOrNull() } ?: emptyList()
-
-    private fun today() = LocalDate.now().toString()
-
     companion object {
-        const val FREE_SCANS_PER_DAY = 3
-        private const val KEY_THEME = "theme"
-        private const val KEY_LIST = "list"
-        private const val KEY_SCAN_DATE = "scanDate"
-        private const val KEY_SCAN_COUNT = "scanCount"
-        private const val KEY_PREFERENCES = "preferences"
-        private const val KEY_USER = "user"
-        private const val KEY_TOKEN = "token"
-        private const val KEY_REFRESH_TOKEN = "refreshToken"
-        private const val KEY_ONBOARDED = "onboarded"
-        private const val KEY_ENTERED = "entered"
-        private const val KEY_REGION = "region"
-        private const val KEY_LAST_SYNC = "lastSync"
+        /** Named in res/xml/backup_rules.xml and data_extraction_rules.xml. Rename all three together. */
+        const val USER_FILE = "labellens_user"
+        private const val KEY_DATA = "data"
+        private const val KEY_CATALOGUE_ETAG = "catalogueEtag"
+        private const val CATALOGUE_ASSET = "catalogue.json"
+        private const val DETAILS_ASSET = "details.json"
+        private const val HISTORY_LIMIT = 500
     }
 }

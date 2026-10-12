@@ -1,13 +1,13 @@
 // Builds the additive catalogue from the dataset in ../data.
 //
-// The dataset has three parts that are merged here:
-//   development/ins-summary-original.json  every additive: code, names, type, approval status
-//   dist/single/<code>.json                details for about two thirds of them, in two layouts
-//   dist/ins-summary.json                  the published list (same codes, used as a fallback)
+//   development/ins-summary-original.json  the master list: code, names, type, approval flags
+//   dist/single/<code>.json                one researched entry per additive
+//   overrides.json                         optional corrections on top
 //
-// The dataset has no safety rating. The verdict, groups, sensitivities and origin the
-// app relies on are worked out by the rules in this file. Each rule is small and named
-// so it can be read, tested and changed.
+// Each entry carries its own approval flags, an alert icon where a regulator has
+// raised a concern, and a list of places that ban it. The verdict the app shows is
+// read from those. Groups, sensitivities and origin are still worked out from the
+// text by the small rules in this file.
 
 import { existsSync, readdirSync, readFileSync, statSync } from "node:fs";
 import { createHash } from "node:crypto";
@@ -128,6 +128,8 @@ export const parseType = (type, fallbackFunction) => {
     .replace(/^(food colouring|color)$/i, "colour")
     .replace(/^anti-oxidant$/i, "antioxidant")
     .replace(/^anti[- ]caking agen.*$/i, "anti-caking agent")
+    .replace(/^unclassified$/i, "")
+    .replace(/^semi-synthetic emulsifiers$/i, "emulsifier")
     .replace(/substitude/i, "substitute");
   // "acidity regulators" says nothing the category "Acidity regulator" has not said already.
   const same = (a, b) => a.toLowerCase().replace(/s$/, "") === b.toLowerCase().replace(/s$/, "");
@@ -140,16 +142,15 @@ export const parseType = (type, fallbackFunction) => {
 const hasAny = (text, pattern) => pattern.test(text);
 
 /** Additive groups a person can choose to avoid. */
-export const deriveGroups = ({ category, functionText, originText, dietText }) => {
+export const deriveGroups = ({ category, description, dietText }) => {
   const groups = [];
   const kind = category.toLowerCase();
-  const fn = functionText.toLowerCase();
-  const origin = originText.toLowerCase();
-  if (kind === "colour" && (/azo|synthetic/.test(fn) || /^synthetic|azo dye|coal tar/.test(origin))) groups.push("artificial_colours");
-  if (kind === "sweetener" && !/natural/.test(fn) && !/^natural/.test(origin)) groups.push("artificial_sweeteners");
-  if (/preservative/.test(kind) || /preservative/.test(fn)) groups.push("preservatives");
-  if (/flavour enhancer/.test(kind) || /flavour enhancer/.test(fn)) groups.push("flavour_enhancers");
-  if (/\bpalm\b/.test(origin) || /\bpalm\b/.test(dietText.toLowerCase())) groups.push("palm_oil");
+  const text = description.toLowerCase();
+  if (kind === "colour" && /\bsynthetic|\bazo\b|azo dye|coal tar|diazotis/.test(text)) groups.push("artificial_colours");
+  if (kind === "sweetener" && !/plant[- ]derived|extract|sugar alcohol|polyol|occurs naturally|naturally occurring/.test(text)) groups.push("artificial_sweeteners");
+  if (/preservative/.test(kind)) groups.push("preservatives");
+  if (/flavour enhancer/.test(kind)) groups.push("flavour_enhancers");
+  if (/\bpalm\b/.test(text) || /\bpalm\b/.test(dietText.toLowerCase())) groups.push("palm_oil");
   return groups;
 };
 
@@ -157,9 +158,9 @@ export const deriveGroups = ({ category, functionText, originText, dietText }) =
 export const deriveSensitivities = (text) => {
   const lower = text.toLowerCase();
   const found = [];
-  if (hasAny(lower, /hyperactiv|\bchildren\b|\binfants?\b|\bbabies\b/)) found.push("children");
-  if (hasAny(lower, /pregnan/)) found.push("pregnancy");
-  if (hasAny(lower, /asthma|aspirin|salicylate|azo dye/)) found.push("asthma");
+  if (/hyperactiv|\bchildren|\binfants?\b|\btoddlers?\b|\bbabies\b/.test(lower)) found.push("children");
+  if (/pregnan|breastfeed|lactati/.test(lower)) found.push("pregnancy");
+  if (/asthma|aspirin|salicylate|sulphite|sulfite|intolerance reaction/.test(lower)) found.push("asthma");
   return found;
 };
 
@@ -167,53 +168,64 @@ export const deriveSensitivities = (text) => {
 export const deriveOrigin = (dietText, originText) => {
   const diet = dietText.toLowerCase();
   const origin = originText.toLowerCase();
-  if (/animal[^.]*(can ?not|cannot) be (fully |completely )?(excluded|ruled out)|may thus not|use of animal|animal origin can|some vegans|egg lecithin|sometimes lactose|partly also from/.test(diet) && !/generally produced from meat/.test(diet)) return "either";
-  if (/(can ?not|cannot) be (used|consumed) by vegans|not suitable for vegans|avoided by[^.]*vegans|generally produced from meat/.test(diet)) return "animal";
-  if (/isolated from the insects|made (of|from) animal/.test(origin)) return "animal";
-  if (/all religious groups,? (vegans|vegetarians)/.test(diet)) return "suitable";
+  // The source could be plant or animal and the entry says it cannot tell which.
+  if (/both animal and vegetable|not specified as exclusively plant|requires supplier information|suitability cannot be established|a microbial source/.test(diet)) return "either";
+  if (/unsuitable for vegan|not suitable for vegan|is not vegan|animal[- ]derived/.test(diet)) return "animal";
+  if (/^animal[- ]derived|animal (collagen|tissues)|from (dried )?(female )?(cochineal )?insects/.test(origin)) return "animal";
+  if (/compatible with (vegan|vegetarian)|plant derived/.test(diet)) return "suitable";
   return "unknown";
 };
 
+// Checked in order against the entry's regulatory and side-effect text. The patterns
+// are narrow on purpose: "did not identify a genotoxicity concern" must not match.
 const CONCERNS = [
-  [/hyperactiv/, "Linked to hyperactivity"],
-  [/carcinogen|nitrosamine/, "Possible cancer link studied"],
-  [/asthma/, "Can affect people with asthma"],
+  [/warning about possible effects on children/, "Warning label required in the EU"],
+  [/authorisation was withdrawn|specifications? (were |was )?withdrawn|adi withdrawn/, "Approval withdrawn in places"],
+  [/could not rule out|cannot rule out|could not exclude/, "Safety questions raised"],
+  [/(?<!no )(allergic|intolerance) reactions/, "Can cause reactions in some people"],
+  [/(?<!not )(?<!n't )\bexceed(ed|s)\b/, "Intake can exceed the limit"],
+  [/data gap|gaps prevented|unresolved safety/, "Safety data incomplete"],
 ];
 
+/** Member states listed one by one in the data are shown as "the EU" in the short note. */
+const banNote = (bannedIn) => {
+  if (bannedIn.length >= 20 && ["Germany", "France", "Italy", "Spain"].every((c) => bannedIn.includes(c))) return "Banned in the EU";
+  if (bannedIn.length === 1) return `Banned in ${bannedIn[0].replace(/^(United States|European Union)$/, "the $1").replace("the European Union", "the EU")}`;
+  return `Banned in ${bannedIn.length} countries`;
+};
+
 /**
- * The general verdict. The dataset does not rate additives, so this is rule-based:
- *   avoid    the source (or data/overrides.json) names places that ban it
- *   caution  the source reports a concern or a restriction, or we know almost nothing about it
- *   safe     nothing reported
- * A missing EU approval flag is shown on the additive's page but does not change the
- * verdict: the flag is absent for many additives that are in fact approved.
+ * The general verdict, read from what the entry records:
+ *   avoid    it names places that ban the additive
+ *   caution  it is flagged with the alert icon (a regulator raised a concern),
+ *            or no EU or US approval could be confirmed
+ *   safe     approved somewhere and nothing flagged
+ * The short note says which. It is a summary of the entry, not a medical rating.
  */
-export const deriveVerdict = ({ bannedIn, euApproved, hasDetail, sideEffects, characteristics }) => {
-  if (bannedIn.length) {
-    return { status: "avoid", note: bannedIn.length === 1 ? `Banned in ${bannedIn[0].replace(/^European Union$/, "the EU")}` : `Banned in ${bannedIn.length} countries` };
+export const deriveVerdict = ({ bannedIn, alert, approved, text }) => {
+  if (bannedIn.length) return { status: "avoid", note: banNote(bannedIn) };
+  if (alert) {
+    const lower = text.toLowerCase();
+    return { status: "caution", note: CONCERNS.find(([pattern]) => pattern.test(lower))?.[1] ?? "Regulator concern noted" };
   }
-  const text = `${sideEffects} ${characteristics}`.toLowerCase();
-  if (/may be banned|\bis banned|not permitted|prohibited/.test(text)) return { status: "caution", note: "Restricted in some countries" };
-  // "None known ..." sentences describe very high doses, not normal use.
-  const reported = /^(none|no side effects)\b/.test(sideEffects.trim().toLowerCase()) ? "" : sideEffects.toLowerCase();
-  const concern = CONCERNS.find(([pattern]) => pattern.test(reported));
-  if (concern) return { status: "caution", note: concern[1] };
-  if (!hasDetail && !euApproved) return { status: "caution", note: "Limited information" };
-  return { status: "safe", note: hasDetail ? "No concerns noted" : "Approved in the EU" };
+  if (!approved) return { status: "caution", note: "No EU or US approval confirmed" };
+  return { status: "safe", note: "No concerns noted" };
 };
 
 const shortIntake = (text) => {
-  const first = text.split(/[.\n]/)[0].trim();
+  const first = text.split("\n")[0].trim();
   if (!first) return null;
-  if (/^no limit/i.test(first)) return "No limit";
-  if (/^none (determined|specified)/i.test(first)) return "Not set";
-  const amount = first.match(/^up to ([\d.,]+) ?(mg|g)\/kg/i);
-  if (amount) return `Up to ${amount[1]} ${amount[2]}/kg`;
+  if (/^(no limit|adi classified as not limited|no numerical adi needed)/i.test(first)) return "No limit";
+  if (/^(none (determined|specified)|no adi (specified|allocated))/i.test(first)) return "Not set";
+  if (/^adi withdrawn/i.test(first)) return "Withdrawn";
+  const amount = first.match(/^(?:up to )?([\d.,]+(?:\s?[–-]\s?[\d.,]+)?) ?(mg|g|µg)\b[^/]{0,40}\/kg/i);
+  if (amount) return `${amount[1].replace(/\s?-\s?/, "–")} ${amount[2]}/kg`;
   return first.length <= 22 ? first : null;
 };
 
 const shortOrigin = (text) => {
   const lower = text.toLowerCase();
+  if (/^animal[- ]derived/.test(lower)) return "Animal";
   if (/ferment/.test(lower)) return "Fermentation";
   if (/^natural|^nature/.test(lower)) return "Natural";
   if (/^synthetic|^semi-synthetic/.test(lower)) return sentenceCase(lower.match(/^(semi-)?synthetic/)[0]);
@@ -233,7 +245,7 @@ const searchLinks = (name) => {
 
 const buildOne = (code, summary, single, footnote, override = {}) => {
   const info = single?.more_info ?? {};
-  const parsed = parseNames(summary?.names ?? single?.names ?? single?.name ?? code);
+  const parsed = parseNames(single?.names ?? summary?.names ?? single?.name ?? code);
   const aliases = [...parsed.aliases];
   // The detail files sometimes spell the name differently ("Mono sodium glutamate").
   if (summary && single?.name) {
@@ -244,36 +256,36 @@ const buildOne = (code, summary, single, footnote, override = {}) => {
     }
   }
   const functionText = cleanText(single?.function ?? "");
-  const { category, descriptor } = parseType(summary?.type ?? single?.type ?? "", functionText);
+  const { category, descriptor } = parseType(single?.type ?? summary?.type ?? "", functionText);
 
   const originText = cleanText(info.origin);
   const dietText = cleanText(info.dietary_restrictions);
   const sideEffects = cleanText(info.side_effects);
-  const characteristics = cleanText(info.characteristics);
+  const overview = cleanText(info.overview ?? info.characteristics);
   const banText = cleanText(info.banned_in);
   const bannedIn = override.bannedIn ?? (banText.match(/Banned in:\s*([^.\n]+)/i)?.[1] ?? "").split(/,\s*/).map((c) => c.trim()).filter(Boolean);
 
-  const statusFlags = (summary?.status ?? single?.status ?? "").split(/\s+/);
-  const euApproved = override.euApproved ?? (statusFlags.includes("e") || /approved in the eu/i.test(banText));
-  const usApproved = statusFlags.includes("u") || /approved (in the us|by the fda)/i.test(banText);
+  const statusFlags = (single?.status ?? summary?.status ?? "").split(/\s+/);
+  const euApproved = override.euApproved ?? (statusFlags.includes("e") || /^approved in the eu/im.test(banText));
+  const usApproved = statusFlags.includes("u") || /^approved (in the us|by the fda)/im.test(banText);
 
   const origin = deriveOrigin(dietText, originText);
-  const hasDetail = ["side_effects", "overview", "characteristics", "uses", "products", "origin", "daily_intake", "dietary_restrictions"].some((key) => cleanText(info[key]));
-  const verdict = deriveVerdict({ bannedIn, euApproved, hasDetail, sideEffects, characteristics });
+  const hasDetail = Boolean(overview || sideEffects || originText || cleanText(info.uses ?? info.products) || cleanText(info.daily_intake));
+  const concernText = `${banText} ${sideEffects} ${cleanText(info.precautions)}`;
+  const verdict = deriveVerdict({ bannedIn, alert: single?.icon === "mdi-alert-circle", approved: euApproved || usApproved, text: concernText });
   if (verdict.status === "safe" && origin === "animal") verdict.note = "Animal-derived";
 
   const regulatory = [];
   if (bannedIn.length) regulatory.push({ kind: "banned", text: `**Banned in:** ${bannedIn.join(", ")}.` });
   if (euApproved) regulatory.push({ kind: "approved", text: "**Approved in the EU.**" });
-  else if (!bannedIn.includes("European Union")) regulatory.push({ kind: "note", text: "**No EU approval on record** in our data. That can mean it is not approved, or that the record is incomplete." });
   if (usApproved) regulatory.push({ kind: "approved", text: "**Approved in the US** by the FDA." });
   if (override.note) regulatory.push({ kind: "note", text: override.note });
-  banText.split("\n").filter((line) => line && !/^(banned in:|approved (in the|by the))/i.test(line)).forEach((line) => regulatory.push({ kind: "note", text: line }));
+  [...new Set(banText.split("\n"))].filter((line) => line && !/^(banned in:|approved (in the|by the))/i.test(line)).forEach((line) => regulatory.push({ kind: "note", text: line }));
 
   const section = (title, value, summaryText = null) => ({ title, summary: summaryText, paragraphs: paragraphs(value) });
   const sections = [
-    section("Side effects", info.side_effects),
     section("Overview", info.overview ?? info.characteristics),
+    section("Side effects", info.side_effects),
     section("Uses", info.uses ?? info.products),
     section("Origin", info.origin, shortOrigin(originText)),
     section("Daily intake", info.daily_intake, shortIntake(cleanText(info.daily_intake))),
@@ -299,8 +311,8 @@ const buildOne = (code, summary, single, footnote, override = {}) => {
     status: verdict.status,
     note: verdict.note,
     aliases,
-    groups: deriveGroups({ category, functionText, originText, dietText }),
-    sensitivities: deriveSensitivities(`${sideEffects} ${characteristics} ${functionText}`),
+    groups: deriveGroups({ category, description: `${overview} ${originText}`, dietText }),
+    sensitivities: deriveSensitivities(concernText),
     origin,
     bannedIn,
     hasDetail,
@@ -342,7 +354,7 @@ export const loadCatalogue = (dataDir = DATA_DIR) => {
       totalCount: additives.length,
       detailedCount: additives.filter((a) => a.hasDetail).length,
       updatedLabel,
-      sources: "is-it-healthy dataset, food-e",
+      sources: "EFSA, FDA, JECFA, EU additives database",
       version,
     },
     additives,

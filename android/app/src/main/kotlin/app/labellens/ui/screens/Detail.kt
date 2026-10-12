@@ -83,7 +83,7 @@ fun DetailScreen(code: String) {
     LaunchedEffect(code, attempt) {
         state = DetailState.Loading
         state = try {
-            DetailState.Ready(store.detail(code))
+            store.detail(code)?.let { DetailState.Ready(it) } ?: DetailState.Failed
         } catch (e: CancellationException) {
             throw e
         } catch (e: Exception) {
@@ -98,7 +98,7 @@ fun DetailScreen(code: String) {
                 val isSaved = code in store.saved
                 PlainIconButton(
                     if (isSaved) "bookmark" else "bookmark_add", if (isSaved) "Remove from Saved" else "Save",
-                    { if (store.hasPlus) store.toggleSaved(code) else store.nav.push(Screen.Trial) },
+                    { store.toggleSaved(code) },
                     tint = if (isSaved) cs.primary else cs.onSurfaceVariant, fill = isSaved,
                 )
                 PlainIconButton("share", "Share", {
@@ -208,22 +208,8 @@ private fun DetailBody(additive: Additive, detail: AdditiveDetail) {
     val check = store.check(additive)
 
     when {
-        !store.hasPlus -> Row(
-            Modifier.padding(start = 16.dp, end = 16.dp, top = 16.dp).fillMaxWidth().clip(RoundedCornerShape(20.dp))
-                .background(cs.secondaryContainer).padding(horizontal = 16.dp, vertical = 14.dp),
-            horizontalArrangement = Arrangement.spacedBy(12.dp),
-            verticalAlignment = Alignment.CenterVertically,
-        ) {
-            Sym("lock", tint = cs.onSecondaryContainer, fill = true)
-            Column(Modifier.weight(1f)) {
-                T("Is it OK for you?", hg(700, 15, 20), color = cs.onSecondaryContainer)
-                T("Check against your allergies and diet with Plus.", hg(400, 14, 20), color = cs.onSecondaryContainer)
-            }
-            FilledButton(
-                "Try free", { store.nav.push(Screen.Trial) }, height = 40.dp, style = hg(700, 14),
-                container = cs.secondary, content = cs.onSecondary, horizontalPadding = 14.dp,
-            )
-        }
+        // Nothing set up yet, so there is nothing personal to say.
+        store.preferences.isEmpty -> Unit
         check.reason != null && check.verdict != Verdict.SAFE -> {
             val tone = statusColors.of(check.verdict)
             Row(

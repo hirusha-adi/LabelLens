@@ -74,14 +74,6 @@ fun MainScreen() {
             horizontalAlignment = Alignment.CenterHorizontally,
             verticalArrangement = Arrangement.spacedBy(10.dp),
         ) {
-            if (!store.hasPlus && store.tab == Tab.HOME) {
-                T(
-                    "${store.scansLeft} of ${Store.FREE_SCANS_PER_DAY} free scans left today",
-                    hg(600, 12),
-                    Modifier.clip(CircleShape).background(cs.background.copy(alpha = 0.9f)).padding(horizontal = 10.dp, vertical = 2.dp),
-                    color = cs.onSurfaceVariant,
-                )
-            }
             FloatingNav()
         }
     }
@@ -101,22 +93,14 @@ private fun FloatingNav() {
         ) {
             Tab.entries.forEach { tab ->
                 val selected = store.tab == tab
-                val locked = !store.hasPlus && (tab == Tab.HISTORY || tab == Tab.SAVED)
                 Box(
                     Modifier.width(if (selected) 56.dp else 48.dp).height(48.dp).clip(CircleShape)
                         .background(if (selected) cs.inversePrimary else cs.inverseSurface)
                         .clickable(role = Role.Tab) { store.tab = tab }
-                        .semantics { contentDescription = tab.name.lowercase().replaceFirstChar { it.uppercase() } + if (locked) ", part of Plus" else "" },
+                        .semantics { contentDescription = tab.name.lowercase().replaceFirstChar { it.uppercase() } },
                     contentAlignment = Alignment.Center,
                 ) {
                     Sym(tab.icon, tint = if (selected) LocalInversePrimaryContent.current else cs.inverseOnSurface, fill = selected)
-                    if (locked && !selected) {
-                        Box(
-                            Modifier.align(Alignment.TopEnd).padding(top = 6.dp, end = 4.dp).size(18.dp).background(cs.inverseSurface, CircleShape).padding(1.dp)
-                                .background(cs.secondary, CircleShape),
-                            contentAlignment = Alignment.Center,
-                        ) { Sym("lock", size = 11.dp, tint = cs.onSecondary, fill = true) }
-                    }
                 }
             }
         }
@@ -142,25 +126,6 @@ private fun HomeTab() {
         ) {
             LensMark(32.dp)
             Spacer(Modifier.weight(1f))
-            if (store.offline) {
-                Row(
-                    Modifier.height(32.dp).clip(CircleShape).background(cs.surfaceContainerHighest).padding(start = 8.dp, end = 12.dp),
-                    horizontalArrangement = Arrangement.spacedBy(6.dp),
-                    verticalAlignment = Alignment.CenterVertically,
-                ) {
-                    Sym("cloud_off", size = 18.dp, tint = cs.onSurfaceVariant)
-                    T("Offline", hg(700, 12), color = cs.onSurfaceVariant)
-                }
-                Spacer(Modifier.width(4.dp))
-            }
-            if (store.isGuest) {
-                Box(
-                    Modifier.height(40.dp).clip(CircleShape).background(cs.secondaryContainer)
-                        .clickable(role = Role.Button) { store.nav.push(Screen.Welcome) }.padding(horizontal = 16.dp),
-                    contentAlignment = Alignment.Center,
-                ) { T("Sign in", hg(700, 14), color = cs.onSecondaryContainer) }
-                Spacer(Modifier.width(4.dp))
-            }
             OverflowMenu()
         }
         Column(Modifier.padding(start = 20.dp, end = 20.dp, top = 8.dp, bottom = 20.dp), verticalArrangement = Arrangement.spacedBy(4.dp)) {
@@ -176,7 +141,6 @@ private fun HomeTab() {
             Sym("search", tint = cs.onSurfaceVariant)
             T(searchHint(store), hg(500, 16), color = cs.onSurfaceVariant)
         }
-        if (store.offline) OfflineBanner(store)
         val items = store.myList.mapNotNull { store.additive(it) }
         if (items.isEmpty()) EmptyList() else {
             Row(
@@ -214,30 +178,6 @@ private fun HomeTab() {
 
 fun searchHint(store: Store) =
     if (store.meta.totalCount > 0) "Search ${store.meta.totalCount} additives" else "Search additives"
-
-@Composable
-private fun OfflineBanner(store: Store) {
-    Row(
-        Modifier.padding(start = 16.dp, end = 16.dp, top = 16.dp).fillMaxWidth().clip(RoundedCornerShape(20.dp))
-            .background(cs.tertiaryContainer).padding(horizontal = 16.dp, vertical = 14.dp),
-        horizontalArrangement = Arrangement.spacedBy(12.dp),
-    ) {
-        Sym("offline_pin", tint = cs.onTertiaryContainer)
-        Column(Modifier.weight(1f)) {
-            val ready = store.catalogue.isNotEmpty()
-            T(if (ready) "Scanning still works offline" else "Connect once to get started", hg(700, 15, 20), color = cs.onTertiaryContainer)
-            T(
-                if (ready) {
-                    "All ${store.meta.totalCount} additives are saved on this phone (updated ${store.lastSyncLabel}). Sync and purchases need a connection."
-                } else {
-                    "The additive list hasn't been downloaded yet. It is saved on this phone after the first connection."
-                },
-                hg(400, 14, 20), color = cs.onTertiaryContainer,
-            )
-            TextAction("Try again", { store.refresh() }, Modifier.padding(top = 4.dp), color = cs.onTertiaryContainer, height = 40.dp)
-        }
-    }
-}
 
 @Composable
 private fun EmptyList() {

@@ -3,14 +3,8 @@ package app.labellens.data
 import androidx.compose.runtime.mutableStateListOf
 
 sealed interface Screen {
-    /** [replay] is true when opened from the menu, so finishing goes back instead of to Welcome. */
+    /** [replay] is true when opened from the menu, so finishing goes back instead of on to set-up. */
     data class Onboarding(val replay: Boolean = false) : Screen
-    data object Welcome : Screen
-    data object Login : Screen
-    data object CreateAccount : Screen
-    data object Forgot : Screen
-    data class ResetSent(val email: String, val resendInSeconds: Int) : Screen
-    data object VerifyEmail : Screen
     data class PrefsStep(val step: Int) : Screen
     data object PrefsReview : Screen
     data object Main : Screen
@@ -18,14 +12,7 @@ sealed interface Screen {
     data class Crop(val uri: String) : Screen
     data object Results : Screen
     data class Detail(val code: String) : Screen
-    data object Plans : Screen
-    data object Compare : Screen
-    data object Trial : Screen
-    data object PurchaseSuccess : Screen
-    data object ManageSubscription : Screen
-    data object FamilyProfiles : Screen
     data object Settings : Screen
-    data object RegionSettings : Screen
 }
 
 enum class Tab(val icon: String) {

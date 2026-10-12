@@ -391,20 +391,6 @@ fun CodeBadge(code: String, modifier: Modifier = Modifier, selected: Boolean = f
     ) { T(code, CodeBadgeStyle, color = if (selected) cs.onPrimary else cs.onPrimaryContainer) }
 }
 
-@Composable
-fun PlusBadge(modifier: Modifier = Modifier, lock: Boolean = true, strong: Boolean = false) {
-    val container = if (strong) cs.secondary else cs.secondaryContainer
-    val content = if (strong) cs.onSecondary else cs.onSecondaryContainer
-    Row(
-        modifier.height(if (lock) 24.dp else 20.dp).clip(CircleShape).background(container).padding(start = if (lock) 6.dp else 8.dp, end = if (lock) 10.dp else 8.dp),
-        horizontalArrangement = Arrangement.spacedBy(3.dp),
-        verticalAlignment = Alignment.CenterVertically,
-    ) {
-        if (lock) Sym("lock", size = 15.dp, tint = content, fill = true)
-        T("PLUS", hg(800, if (lock) 12 else 11, letterSpacing = 0.5), color = content)
-    }
-}
-
 // ---------- Selection controls ----------
 
 @Composable

@@ -1,0 +1,40 @@
+# Development services for Label Lens. Everything Docker creates here is named
+# labellens-*: the project, the container, the volume and the network.
+#
+#   docker compose up -d --wait     start PostgreSQL
+#   docker compose down             stop it, keeping the data
+#   docker compose down -v          stop it and delete the data
+#
+# The password below is for local development only. The port is bound to this
+# computer and not reachable from the network.
+
+name: labellens
+
+services:
+  postgres:
+    image: postgres:17-alpine
+    container_name: labellens-postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: labellens
+      POSTGRES_PASSWORD: labellens-dev
+      POSTGRES_DB: labellens
+    ports:
+      - "127.0.0.1:${LABELLENS_DB_PORT:-5440}:5432"
+    volumes:
+      - labellens-postgres-data:/var/lib/postgresql/data
+    networks:
+      - labellens-net
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U labellens -d labellens"]
+      interval: 2s
+      timeout: 3s
+      retries: 30
+
+volumes:
+  labellens-postgres-data:
+    name: labellens-postgres-data
+
+networks:
+  labellens-net:
+    name: labellens-net

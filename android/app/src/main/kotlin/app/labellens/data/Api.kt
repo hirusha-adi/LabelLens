@@ -1,109 +1,52 @@
 package app.labellens.data
 
+import android.os.Build
 import java.io.IOException
 import java.net.HttpURLConnection
 import java.net.URL
 import kotlinx.coroutines.Dispatchers
-import kotlinx.coroutines.sync.Mutex
-import kotlinx.coroutines.sync.withLock
 import kotlinx.coroutines.withContext
-import kotlinx.serialization.json.Json
 
-/** The server answered, but with an error status. */
-class ApiException(val status: Int, val code: String, message: String) : Exception(message)
-
-val AppJson = Json {
-    ignoreUnknownKeys = true
-    encodeDefaults = true
-    explicitNulls = false
-}
-
-/** Minimal JSON client for the API in /api. Network failures surface as [IOException]. */
+/**
+ * Reads the additive catalogue from the Label Lens server.
+ *
+ * Each request tells the server one thing about the phone, its make and model, in
+ * X-Device-Type. The server keeps that, the address the request came from and what
+ * was asked for. Nothing the person has set up or scanned is ever sent.
+ */
 class Api(private val baseUrl: String) {
-    @Volatile
-    var token: String? = null
+    private val deviceType = "${Build.MANUFACTURER.orEmpty().replaceFirstChar { it.uppercase() }} ${Build.MODEL.orEmpty()}".trim().ifEmpty { "Android" }
 
-    /** Trades for a new [token] when the current one expires, which it does every hour. */
-    @Volatile
-    var refreshToken: String? = null
+    /** A response body with the validator the server sent for it. */
+    private class Answer(val text: String, val etag: String?)
 
-    /** Called with the new pair after a refresh, so they can be saved. */
-    var onSessionRefreshed: ((token: String, refreshToken: String?) -> Unit)? = null
+    /**
+     * The whole list with its ETag, or null when the copy the phone holds, identified
+     * by [etag], is still current.
+     */
+    suspend fun catalogue(etag: String?): Pair<Catalogue, String?>? =
+        get("/additives", ifNoneMatch = etag)?.let { AppJson.decodeFromString<Catalogue>(it.text) to it.etag }
 
-    private val refreshLock = Mutex()
+    /** One additive's page, or null if the server does not have it. */
+    suspend fun detail(code: String): AdditiveDetail? = get("/additives/$code")?.let { AppJson.decodeFromString<AdditiveDetail>(it.text) }
 
-    suspend inline fun <reified T> get(path: String): T = AppJson.decodeFromString(request("GET", path, null))
-
-    suspend inline fun <reified T> delete(path: String): T = AppJson.decodeFromString(request("DELETE", path, null))
-
-    suspend inline fun <reified B, reified T> post(path: String, body: B): T =
-        AppJson.decodeFromString(request("POST", path, AppJson.encodeToString(body)))
-
-    suspend inline fun <reified B, reified T> put(path: String, body: B): T =
-        AppJson.decodeFromString(request("PUT", path, AppJson.encodeToString(body)))
-
-    suspend inline fun <reified T> post(path: String): T = AppJson.decodeFromString(request("POST", path, "{}"))
-
-    suspend inline fun <reified T> put(path: String): T = AppJson.decodeFromString(request("PUT", path, "{}"))
-
-    /** GET that returns null when the server says the copy tagged [version] is still current. */
-    suspend inline fun <reified T> getIfChanged(path: String, version: String): T? =
-        request("GET", path, null, ifNoneMatch = version.takeIf { it.isNotEmpty() })?.let { AppJson.decodeFromString<T>(it) }
-
-    suspend fun request(method: String, path: String, body: String?): String =
-        request(method, path, body, ifNoneMatch = null) ?: ""
-
-    suspend fun request(method: String, path: String, body: String?, ifNoneMatch: String?): String? {
-        val sentWith = token
-        try {
-            return send(method, path, body, ifNoneMatch)
-        } catch (e: ApiException) {
-            // An expired token is renewed once, quietly, and the request sent again.
-            if (e.status != 401 || sentWith == null || path.startsWith("/auth/") || !refreshSession(sentWith)) throw e
-            return send(method, path, body, ifNoneMatch)
-        }
-    }
-
-    private suspend fun refreshSession(expired: String): Boolean = refreshLock.withLock {
-        // Another request may have refreshed while this one waited.
-        if (token != null && token != expired) return@withLock true
-        val refresh = refreshToken ?: return@withLock false
-        try {
-            val text = send("POST", "/auth/refresh", AppJson.encodeToString(RefreshBody(refresh)), null) ?: return@withLock false
-            val fresh = AppJson.decodeFromString<AuthResponse>(text)
-            val newToken = fresh.token ?: return@withLock false
-            token = newToken
-            refreshToken = fresh.refreshToken
-            onSessionRefreshed?.invoke(newToken, fresh.refreshToken)
-            true
-        } catch (e: ApiException) {
-            false
-        }
-    }
-
-    private suspend fun send(method: String, path: String, body: String?, ifNoneMatch: String?): String? = withContext(Dispatchers.IO) {
+    /**
+     * Null for "not modified" and "not found". Anything else that is not a success is
+     * an [IOException]. The platform asks for gzip and unpacks it by itself.
+     */
+    private suspend fun get(path: String, ifNoneMatch: String? = null): Answer? = withContext(Dispatchers.IO) {
         val connection = URL(baseUrl.trimEnd('/') + path).openConnection() as HttpURLConnection
         try {
-            connection.requestMethod = method
-            connection.connectTimeout = 5_000
-            connection.readTimeout = 15_000
+            connection.connectTimeout = 4_000
+            connection.readTimeout = 10_000
             connection.setRequestProperty("Accept", "application/json")
-            token?.let { connection.setRequestProperty("Authorization", "Bearer $it") }
-            ifNoneMatch?.let { connection.setRequestProperty("If-None-Match", "\"$it\"") }
-            if (body != null) {
-                connection.doOutput = true
-                connection.setRequestProperty("Content-Type", "application/json")
-                connection.outputStream.use { it.write(body.toByteArray()) }
+            connection.setRequestProperty("X-Device-Type", deviceType)
+            if (!ifNoneMatch.isNullOrEmpty()) connection.setRequestProperty("If-None-Match", ifNoneMatch)
+            when (val status = connection.responseCode) {
+                HttpURLConnection.HTTP_NOT_MODIFIED, HttpURLConnection.HTTP_NOT_FOUND -> null
+                in 200..299 -> Answer(connection.inputStream.bufferedReader().use { it.readText() }, connection.getHeaderField("ETag"))
+                else -> throw IOException("Server answered $status")
             }
-            val status = connection.responseCode
-            if (status == HttpURLConnection.HTTP_NOT_MODIFIED) return@withContext null
-            val stream = if (status in 200..299) connection.inputStream else connection.errorStream
-            val text = stream?.bufferedReader()?.use { it.readText() }.orEmpty()
-            if (status !in 200..299) {
-                val error = runCatching { AppJson.decodeFromString<ApiError>(text) }.getOrDefault(ApiError())
-                throw ApiException(status, error.error, error.message.ifBlank { "Something went wrong." })
-            }
-            text
         } finally {
             connection.disconnect()
         }

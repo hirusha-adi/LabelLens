@@ -11,31 +11,21 @@ test("loads every additive in the dataset once", () => {
   for (const additive of catalogue.additives) {
     assert.match(additive.code, /^E\d{3,4}[a-z]{0,2}$/, additive.code);
     assert.ok(additive.name, `${additive.code} has a name`);
+    assert.ok(additive.category, `${additive.code} has a category`);
     assert.ok(["safe", "caution", "avoid"].includes(additive.status));
     assert.ok(additive.note);
   }
 });
 
-test("detail files whose inner code lost its E are still matched by file name", () => {
-  assert.equal(find("E441").hasDetail, true);
-  assert.ok(catalogue.detail("E441").sections.some((s) => s.title === "Origin"));
-});
-
-test("both detail layouts produce the same sections", () => {
-  const rich = catalogue.detail("E102").sections.map((s) => s.title);
-  const basic = catalogue.detail("E330").sections.map((s) => s.title);
-  for (const title of ["Side effects", "Overview", "Uses", "Origin", "Daily intake"]) {
-    assert.ok(rich.includes(title), `E102 ${title}`);
-    assert.ok(basic.includes(title), `E330 ${title}`);
+test("every additive has a page with an overview and links", () => {
+  for (const { code } of catalogue.additives) {
+    const detail = catalogue.detail(code);
+    assert.ok(detail.sections.some((s) => s.title === "Overview"), `${code} overview`);
+    assert.ok(detail.sources.length >= 2, `${code} sources`);
+    assert.ok(detail.regulatory.length >= 1, `${code} regulatory`);
+    for (const source of detail.sources) assert.match(source.url, /^https:\/\//, `${code} ${source.label}`);
+    for (const section of detail.sections) for (const paragraph of section.paragraphs) assert.ok(paragraph.trim(), `${code} ${section.title}`);
   }
-  assert.equal(catalogue.detail("E330").sections.find((s) => s.title === "Daily intake").summary, "No limit");
-});
-
-test("additives without a detail file say so and still have a page", () => {
-  const aspartame = find("E951");
-  assert.equal(aspartame.hasDetail, false);
-  assert.deepEqual(catalogue.detail("E951").sections, []);
-  assert.ok(catalogue.detail("E951").sources.length > 0);
 });
 
 test("names are split into a name and other names", () => {
@@ -52,48 +42,64 @@ test("type becomes a category and a descriptor", () => {
   assert.deepEqual(parseType("color (Lemon yellow)", ""), { category: "Colour", descriptor: "lemon yellow" });
   assert.deepEqual(parseType("", "Synthetic preservative"), { category: "Preservative", descriptor: "synthetic preservative" });
   assert.deepEqual(parseType("acidity regulator", "Acidity regulators"), { category: "Acidity regulator", descriptor: "" });
+  assert.equal(parseType("unclassified", "").category, "Additive");
 });
 
 test("verdict rules", () => {
-  const base = { bannedIn: [], euApproved: true, hasDetail: true, sideEffects: "", characteristics: "" };
-  assert.equal(deriveVerdict(base).status, "safe");
-  assert.equal(deriveVerdict({ ...base, bannedIn: ["Norway", "Austria"] }).status, "avoid");
-  assert.equal(deriveVerdict({ ...base, sideEffects: "Since it is an azo dye, it may elicit hyperactivity." }).status, "caution");
-  // High-dose remarks after "None known" are not a concern at normal use.
-  assert.equal(deriveVerdict({ ...base, sideEffects: "None known in the concentrations used. Asthma was seen at very high doses." }).status, "safe");
-  assert.deepEqual(deriveVerdict({ ...base, euApproved: false, hasDetail: false }), { status: "caution", note: "Limited information" });
-  // A missing EU flag alone does not change the verdict.
-  assert.equal(deriveVerdict({ ...base, euApproved: false }).status, "safe");
+  const base = { bannedIn: [], alert: false, approved: true, text: "" };
+  assert.deepEqual(deriveVerdict(base), { status: "safe", note: "No concerns noted" });
+  assert.deepEqual(deriveVerdict({ ...base, bannedIn: ["Canada", "India"] }), { status: "avoid", note: "Banned in 2 countries" });
+  assert.equal(deriveVerdict({ ...base, bannedIn: ["United States"] }).note, "Banned in the United States");
+  // A ban outranks everything else the entry says.
+  assert.equal(deriveVerdict({ ...base, bannedIn: ["Canada"], alert: true, approved: false }).status, "avoid");
+  assert.deepEqual(deriveVerdict({ ...base, alert: true }), { status: "caution", note: "Regulator concern noted" });
+  assert.equal(deriveVerdict({ ...base, alert: true, text: "Some estimated exposures exceeded the limit." }).note, "Intake can exceed the limit");
+  assert.deepEqual(deriveVerdict({ ...base, approved: false }), { status: "caution", note: "No EU or US approval confirmed" });
+});
+
+test("the reason for a caution is not taken from a negated sentence", () => {
+  const note = (text) => deriveVerdict({ bannedIn: [], alert: true, approved: true, text }).note;
+  assert.equal(note("The review did not identify a new genotoxicity concern."), "Regulator concern noted");
+  assert.equal(note("Estimated intake did not exceed the limit."), "Regulator concern noted");
+  assert.equal(note("EFSA could not rule out DNA damage."), "Safety questions raised");
 });
 
 test("verdicts on real entries", () => {
-  assert.equal(find("E102").status, "avoid");
-  assert.deepEqual(find("E102").bannedIn, ["Austria", "Germany", "Norway", "United Arab Emirates"]);
+  assert.equal(find("E171").status, "avoid");
+  assert.equal(find("E171").note, "Banned in the EU");
+  assert.ok(find("E171").bannedIn.includes("Germany"));
+  assert.equal(find("E123").note, "Banned in the United States");
   assert.equal(find("E330").status, "safe");
-  assert.equal(find("E250").status, "caution");
+  assert.equal(find("E102").status, "caution");
+  assert.equal(find("E102").note, "Warning label required in the EU");
+  // The entry says "did not identify a new genotoxicity concern": no alarming note from that.
+  assert.notEqual(find("E951").note, "Safety questions raised");
 });
 
 test("origin is read from the dietary notes", () => {
   assert.equal(find("E120").origin, "animal");
   assert.equal(find("E441").origin, "animal");
+  assert.equal(find("E904").origin, "animal");
   assert.equal(find("E471").origin, "either");
-  assert.equal(find("E330").origin, "suitable");
+  assert.equal(find("E322").origin, "either");
+  assert.equal(find("E440").origin, "suitable");
   assert.equal(deriveOrigin("", ""), "unknown");
 });
 
 test("groups and sensitivities", () => {
   assert.ok(find("E102").groups.includes("artificial_colours"));
+  assert.ok(!find("E100").groups.includes("artificial_colours"));
   assert.ok(find("E211").groups.includes("preservatives"));
   assert.ok(find("E621").groups.includes("flavour_enhancers"));
   assert.ok(find("E951").groups.includes("artificial_sweeteners"));
+  assert.ok(!find("E960").groups.includes("artificial_sweeteners"));
   assert.ok(find("E102").sensitivities.includes("children"));
-  assert.ok(find("E220").sensitivities.includes("asthma"));
 });
 
-test("overrides are applied on top of the dataset", () => {
-  assert.equal(find("E171").status, "avoid");
-  assert.deepEqual(find("E171").bannedIn, ["European Union"]);
-  assert.ok(catalogue.detail("E171").regulatory.some((r) => r.text.includes("2022")));
+test("daily intake gets a short form for the section header", () => {
+  const intake = (code) => catalogue.detail(code).sections.find((s) => s.title === "Daily intake")?.summary;
+  assert.equal(intake("E951"), "40 mg/kg");
+  assert.match(intake("E102"), /mg\/kg$/);
 });
 
 test("text clean-up drops sentences whose links were lost", () => {

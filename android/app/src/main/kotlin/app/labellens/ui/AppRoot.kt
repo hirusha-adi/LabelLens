@@ -46,30 +46,16 @@ import androidx.core.content.FileProvider
 import androidx.core.view.WindowCompat
 import app.labellens.data.Screen
 import app.labellens.data.Store
-import app.labellens.ui.screens.CompareScreen
-import app.labellens.ui.screens.CreateAccountScreen
 import app.labellens.ui.screens.CropScreen
 import app.labellens.ui.screens.DetailScreen
-import app.labellens.ui.screens.FamilyScreen
-import app.labellens.ui.screens.ForgotScreen
-import app.labellens.ui.screens.LoginScreen
 import app.labellens.ui.screens.MainScreen
-import app.labellens.ui.screens.ManageSubscriptionScreen
 import app.labellens.ui.screens.OnboardingScreen
-import app.labellens.ui.screens.PlansScreen
 import app.labellens.ui.screens.PrefsReviewScreen
 import app.labellens.ui.screens.PrefsStepScreen
-import app.labellens.ui.screens.PurchaseSuccessScreen
-import app.labellens.ui.screens.RegionScreen
-import app.labellens.ui.screens.ResetSentScreen
 import app.labellens.ui.screens.ResultsScreen
 import app.labellens.ui.screens.ScanSourceSheet
 import app.labellens.ui.screens.SearchScreen
 import app.labellens.ui.screens.SettingsScreen
-import app.labellens.ui.screens.TrialScreen
-import app.labellens.ui.screens.UpgradeSheet
-import app.labellens.ui.screens.VerifyEmailScreen
-import app.labellens.ui.screens.WelcomeScreen
 import app.labellens.ui.theme.LabelLensTheme
 import app.labellens.ui.theme.hg
 import java.io.File
@@ -84,8 +70,6 @@ object Links {
     const val CONTRIBUTING = "$REPOSITORY/blob/main/CONTRIBUTING.md"
     const val TERMS = "$REPOSITORY/blob/main/TERMS.md"
     const val PRIVACY = "$REPOSITORY/blob/main/PRIVACY.md"
-    const val PLAY_SUBSCRIPTIONS = "https://play.google.com/store/account/subscriptions"
-    const val PLAY_ORDER_HISTORY = "https://play.google.com/store/account/orderhistory"
     const val SUPPORT_EMAIL = "support@labellens.app"
 }
 
@@ -95,13 +79,6 @@ fun Context.openUrl(url: String) {
     } catch (e: ActivityNotFoundException) {
         // No browser installed. Nothing useful to do.
     }
-}
-
-fun Context.openEmailApp(): Boolean = try {
-    startActivity(Intent.makeMainSelectorActivity(Intent.ACTION_MAIN, Intent.CATEGORY_APP_EMAIL).addFlags(Intent.FLAG_ACTIVITY_NEW_TASK))
-    true
-} catch (e: ActivityNotFoundException) {
-    false
 }
 
 @Composable
@@ -128,7 +105,6 @@ fun AppRoot(store: Store) {
                     holder.SaveableStateProvider(target.toString()) { ScreenContent(target) }
                 }
                 ScanEntry(store)
-                if (store.showUpgradeSheet) UpgradeSheet()
                 SnackbarLayer(store, raised = screen is Screen.Main)
             }
         }
@@ -139,12 +115,6 @@ fun AppRoot(store: Store) {
 private fun ScreenContent(screen: Screen) {
     when (screen) {
         is Screen.Onboarding -> OnboardingScreen(screen.replay)
-        Screen.Welcome -> WelcomeScreen()
-        Screen.Login -> LoginScreen()
-        Screen.CreateAccount -> CreateAccountScreen()
-        Screen.Forgot -> ForgotScreen()
-        is Screen.ResetSent -> ResetSentScreen(screen.email, screen.resendInSeconds)
-        Screen.VerifyEmail -> VerifyEmailScreen()
         is Screen.PrefsStep -> PrefsStepScreen(screen.step)
         Screen.PrefsReview -> PrefsReviewScreen()
         Screen.Main -> MainScreen()
@@ -152,14 +122,7 @@ private fun ScreenContent(screen: Screen) {
         is Screen.Crop -> CropScreen(screen.uri)
         Screen.Results -> ResultsScreen()
         is Screen.Detail -> DetailScreen(screen.code)
-        Screen.Plans -> PlansScreen()
-        Screen.Compare -> CompareScreen()
-        Screen.Trial -> TrialScreen()
-        Screen.PurchaseSuccess -> PurchaseSuccessScreen()
-        Screen.ManageSubscription -> ManageSubscriptionScreen()
-        Screen.FamilyProfiles -> FamilyScreen()
         Screen.Settings -> SettingsScreen()
-        Screen.RegionSettings -> RegionScreen()
     }
 }
 

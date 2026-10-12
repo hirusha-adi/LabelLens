@@ -93,13 +93,6 @@ fun SearchScreen() {
             if (query.isNotEmpty()) PlainIconButton("close", "Clear search", { query = "" })
         }
         when {
-            store.catalogue.isEmpty() -> EmptyState(
-                "The additive list isn't here yet",
-                "Connect to the internet once and the full list is saved on this phone.",
-                Modifier.padding(top = 96.dp),
-                hero = { ShapeHero("cloud_off", ExpressiveShapes.Clover4) },
-                actions = { OutlineButton("Try again", { store.refresh() }, Modifier.padding(top = 8.dp), height = 40.dp, style = hg(700, 14), borderColor = cs.outlineVariant, content = cs.onSurfaceVariant) },
-            )
             results.isEmpty() -> EmptyState(
                 "No additives match \"${query.trim()}\"",
                 "Try the name, or a code like E330 or INS 330. Spaces and dashes don't matter.",

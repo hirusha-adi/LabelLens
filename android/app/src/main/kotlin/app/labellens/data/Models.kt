@@ -23,7 +23,6 @@ data class CatalogueMeta(
     val detailedCount: Int = 0,
     val updatedLabel: String = "",
     val sources: String = "",
-    /** Changes when the list does. Sent back to the API so an unchanged list is not downloaded again. */
     val version: String = "",
 )
 
@@ -51,8 +50,13 @@ data class Additive(
     val categoryLine get() = if (descriptor.isBlank() || descriptor.equals(category, true)) category else "$category · $descriptor"
 }
 
+/** The contents of assets/catalogue.json, which ships inside the app. */
 @Serializable
-data class Catalogue(val meta: CatalogueMeta = CatalogueMeta(), val additives: List<Additive> = emptyList())
+data class Catalogue(
+    val meta: CatalogueMeta = CatalogueMeta(),
+    val options: PreferenceOptions = PreferenceOptions(),
+    val additives: List<Additive> = emptyList(),
+)
 
 @Serializable
 data class Regulatory(val kind: String, val text: String)
@@ -105,153 +109,28 @@ data class PreferenceOptions(
     val sensitivities: List<SensitivityOption> = emptyList(),
 )
 
+/** One past scan. Only the codes found are kept, never the photo or the label text. */
 @Serializable
-data class UserStats(val scans: Int = 0, val saved: Int = 0)
-
-@Serializable
-data class User(
-    val name: String,
-    val email: String,
-    val initials: String = "",
-    val plan: String = "free",
-    val verified: Boolean = true,
-    val passwordChangedLabel: String = "",
-    val stats: UserStats = UserStats(),
-)
-
-/**
- * What the API sends after logging in, signing up or refreshing. [token] is null when the
- * account was created but the email still has to be confirmed.
- */
-@Serializable
-data class AuthResponse(
-    val token: String? = null,
-    val refreshToken: String? = null,
-    val user: User,
-    val needsVerification: Boolean = false,
-)
-
-@Serializable
-data class RefreshBody(val refreshToken: String)
-
-@Serializable
-data class GoogleBody(val idToken: String, val nonce: String)
-
-@Serializable
-data class Credentials(val email: String, val password: String, val name: String = "")
-
-@Serializable
-data class EmailBody(val email: String)
-
-@Serializable
-data class ForgotResponse(val ok: Boolean = true, val expiresLabel: String = "1 hour", val resendInSeconds: Int = 42)
-
-@Serializable
-data class ApiError(val error: String = "", val message: String = "")
-
-@Serializable
-data class Ok(val ok: Boolean = true)
-
-@Serializable
-data class Price(val price: String, val per: String, val was: String? = null, val note: String = "", val full: String = "")
-
-@Serializable
-data class Plan(
+data class Scan(
     val id: String,
-    val name: String,
-    val tagline: String = "",
-    val recommended: Boolean = false,
-    val features: List<String> = emptyList(),
-    val yearly: Price? = null,
-    val monthly: Price? = null,
-) {
-    fun price(yearlyPeriod: Boolean) = if (yearlyPeriod) yearly else monthly
-}
-
-@Serializable
-data class CompareRow(val name: String, val free: String, val plus: String, val family: String)
-
-@Serializable
-data class Plans(
-    val trialDays: Int = 7,
-    val trialEndsLabel: String = "",
-    val yearlySavePercent: Int = 0,
-    val storeNote: String = "",
-    val plans: List<Plan> = emptyList(),
-    val comparison: List<CompareRow> = emptyList(),
-    val comparisonNote: String = "",
-)
-
-@Serializable
-data class Subscription(
-    val planId: String,
-    val title: String,
-    val status: String = "Active",
-    val renewsOn: String = "",
-    val renewsShort: String = "",
-    val price: String = "",
-    val billedTo: String = "",
-    val manageUrl: String = "",
-    val note: String = "",
-)
-
-@Serializable
-data class SubscriptionEnvelope(val subscription: Subscription? = null)
-
-@Serializable
-data class PurchaseBody(val planId: String, val period: String)
-
-@Serializable
-data class PurchaseResponse(val user: User, val subscription: Subscription? = null, val trialEndsLabel: String = "")
-
-@Serializable
-data class HistoryItem(
-    val id: String,
-    val day: String = "Today",
     val name: String = "Scanned label",
-    val time: String = "",
+    /** When it was scanned, in epoch milliseconds. */
+    val at: Long,
     val verdict: String = "safe",
     val codes: List<String> = emptyList(),
 )
 
+/**
+ * Everything the person has set up or collected. Stored as one document so it can be
+ * backed up, restored and moved to a file in one piece.
+ */
 @Serializable
-data class HistoryEnvelope(val items: List<HistoryItem> = emptyList())
-
-@Serializable
-data class HistoryBody(val codes: List<String>, val verdict: String, val name: String? = null)
-
-@Serializable
-data class SavedEnvelope(val codes: List<String> = emptyList())
-
-@Serializable
-data class FamilyProfile(
-    val id: String,
-    val name: String,
-    val role: String? = null,
-    val initials: String? = null,
-    val icon: String? = null,
-    val tone: String = "primary",
-    val short: String = "",
-    val summary: String = "",
-    val selected: Boolean = false,
+data class UserData(
+    val formatVersion: Int = 1,
+    val onboarded: Boolean = false,
+    val theme: String = "system",
+    val preferences: Preferences = Preferences(),
+    val list: List<String> = emptyList(),
+    val saved: List<String> = emptyList(),
+    val scans: List<Scan> = emptyList(),
 )
-
-@Serializable
-data class Family(val max: Int = 5, val profiles: List<FamilyProfile> = emptyList(), val note: String = "")
-
-@Serializable
-data class FamilySelection(val selected: List<String>)
-
-@Serializable
-data class Region(val id: String, val label: String)
-
-@Serializable
-data class Regions(
-    val language: String = "",
-    val codeStyle: String = "",
-    val selected: String = "",
-    val regions: List<Region> = emptyList(),
-)
-
-@Serializable
-data class RegionBody(val region: String)

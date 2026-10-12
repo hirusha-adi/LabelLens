@@ -496,7 +496,7 @@ fun PrefsReviewScreen() {
                     store.savePreferences(draft)
                     store.tab = Tab.HOME
                     store.nav.popTo(Screen.Main)
-                    store.snack(if (store.hasPlus) "Preferences saved" else "Preferences saved. Personal verdicts are part of Plus.")
+                    store.snack("Preferences saved")
                 }, Modifier.fillMaxWidth())
             }
         },

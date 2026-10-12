@@ -42,7 +42,6 @@ import app.labellens.data.Conflict
 import app.labellens.data.Match
 import app.labellens.data.ScanResult
 import app.labellens.data.Screen
-import app.labellens.data.Store
 import app.labellens.data.Verdict
 import app.labellens.data.Verdicts
 import app.labellens.ui.BottomBar
@@ -90,10 +89,10 @@ fun ResultsScreen() {
     val scroll = rememberScrollState()
     val scrolled by remember { derivedStateOf { scroll.value > 420 } }
 
-    val checks = remember(result, store.preferences, store.hasPlus) { all.associate { it.additive.code to store.check(it.additive) } }
-    val allergens = remember(result, store.preferences, store.hasPlus) {
-        if (store.hasPlus) Verdicts.allergens(result.text, store.preferences) else emptyList()
-    }
+    val checks = remember(result, store.preferences) { all.associate { it.additive.code to store.check(it.additive) } }
+    val allergens = remember(result, store.preferences) { Verdicts.allergens(result.text, store.preferences) }
+    // Until allergies, a diet or things to avoid are set, the verdict is the general one.
+    val personal = !store.preferences.isEmpty
     val conflicts = allergens + all.mapNotNull { match ->
         val check = checks.getValue(match.additive.code)
         if (check.reason == null || check.verdict == Verdict.SAFE) null
@@ -105,23 +104,15 @@ fun ResultsScreen() {
         scroll = false,
         bottomBar = {
             BottomBar {
-                if (!store.hasPlus && !result.fromHistory) {
-                    T(
-                        "${store.scansLeft} of ${Store.FREE_SCANS_PER_DAY} free scans left today",
-                        hg(600, 12), Modifier.fillMaxWidth(), color = cs.onSurfaceVariant, align = TextAlign.Center,
-                    )
-                }
                 Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
-                    if (store.hasPlus) {
-                        Box(
-                            Modifier.size(56.dp).clip(CircleShape).border(BorderStroke(1.dp, cs.outlineVariant), CircleShape)
-                                .clickable(role = Role.Button) {
-                                    store.nav.popTo(Screen.Main)
-                                    store.requestScan()
-                                }.semantics { contentDescription = "Scan another label" },
-                            contentAlignment = Alignment.Center,
-                        ) { Sym("document_scanner") }
-                    }
+                    Box(
+                        Modifier.size(56.dp).clip(CircleShape).border(BorderStroke(1.dp, cs.outlineVariant), CircleShape)
+                            .clickable(role = Role.Button) {
+                                store.nav.popTo(Screen.Main)
+                                store.requestScan()
+                            }.semantics { contentDescription = "Scan another label" },
+                        contentAlignment = Alignment.Center,
+                    ) { Sym("document_scanner") }
                     FilledButton(
                         "Add ${selected.size} to my list",
                         onClick = {
@@ -137,10 +128,10 @@ fun ResultsScreen() {
         },
     ) {
         ResultsTopBar("Scan result", scrolled, verdict) {
-            if (store.hasPlus) PlainIconButton("bookmark_add", "Save these additives", { store.saveAll(selected) })
+            PlainIconButton("bookmark_add", "Save these additives", { store.saveAll(selected) })
         }
         Column(Modifier.weight(1f).verticalScroll(scroll)) {
-            VerdictCard(verdict, personal = store.hasPlus, conflicts = conflicts, summary = Verdicts.generalSummary(all.map { it.additive }))
+            VerdictCard(verdict, personal = personal, conflicts = conflicts, summary = Verdicts.generalSummary(all.map { it.additive }))
             T(
                 if (all.size == 1) "1 possible additive found" else "${all.size} possible additives found",
                 gab(800, 22, 28), Modifier.padding(start = 20.dp, end = 20.dp, top = 20.dp),
@@ -248,13 +239,16 @@ private fun VerdictCard(verdict: Verdict, personal: Boolean, conflicts: List<Con
                 horizontalArrangement = Arrangement.spacedBy(12.dp),
                 verticalAlignment = Alignment.CenterVertically,
             ) {
-                Sym("lock", tint = cs.onSecondaryContainer, fill = true)
+                Sym("tune", tint = cs.onSecondaryContainer)
                 Column(Modifier.weight(1f)) {
                     T("Is it OK for you?", hg(700, 15, 20), color = cs.onSecondaryContainer)
-                    T("Check against your allergies and diet with Plus.", hg(400, 14, 20), color = cs.onSecondaryContainer)
+                    T("Add your allergies and diet to get a verdict for you.", hg(400, 14, 20), color = cs.onSecondaryContainer)
                 }
                 FilledButton(
-                    "Try free", { store.nav.push(Screen.Trial) }, height = 40.dp, style = hg(700, 14),
+                    "Set up", {
+                        store.draft = store.preferences
+                        store.nav.push(Screen.PrefsStep(0))
+                    }, height = 40.dp, style = hg(700, 14),
                     container = cs.secondary, content = cs.onSecondary, horizontalPadding = 14.dp,
                 )
             }
@@ -305,7 +299,6 @@ private fun MatchGroup(
                         when {
                             result.fromHistory -> additive.categoryLine
                             match.percent != null -> "“${match.readAs}” · ${match.percent}% match"
-                            !store.hasPlus && additive.bannedIn.isNotEmpty() -> additive.note
                             else -> "Read as “${match.readAs}”"
                         },
                         hg(400, 14, 20), color = cs.onSurfaceVariant, maxLines = 2,

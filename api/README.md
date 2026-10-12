@@ -1,167 +1,156 @@
 # Label Lens API
 
-The API the Android app talks to. It is backed by Supabase: Postgres holds the additive catalogue and each account's data, and Supabase Auth handles sign-up, log-in and email.
+Serves the additive catalogue to the Android app from PostgreSQL, and holds the dataset the catalogue is built from.
 
 ## Run
 
+From the repository root, `scripts/dev.sh --api-only` does all of this. By hand:
+
 ```sh
+docker compose up -d --wait   # PostgreSQL, from ../docker-compose.yml
+cd api
 pnpm install
-cp .env.example .env      # then fill in the three Supabase values
-pnpm seed                 # first time, and whenever data/ changes
-pnpm start                # or `pnpm dev` to restart on changes
+cp .env.example .env          # already matches the development database
+pnpm db:migrate               # create the tables
+pnpm seed                     # load the catalogue from data/
+pnpm start                    # or `pnpm dev` to restart on changes
 ```
 
-It listens on port 8787. `.env.prod` is read first if it exists, then `.env`. Both are gitignored.
+It listens on port 8787.
 
 | Variable | Effect |
 | --- | --- |
-| `SUPABASE_URL` | The project URL. Required. |
-| `SUPABASE_PUBLISHABLE_KEY` | Used for every request made for a user. Required. |
-| `SUPABASE_SECRET_KEY` | Bypasses row level security. Needed for `pnpm seed`, purchases, logging out and deleting accounts. Server only. |
-| `AUTH_REDIRECT_URL` | Where the link in the confirmation email lands, for example `https://your-api/auth/confirmed`. Must be allow-listed in the Supabase dashboard. |
+| `DATABASE_URL` | Where PostgreSQL is. Required. |
 | `PORT`, `HOST` | Where to listen. Default `0.0.0.0:8787`. |
-| `TRUST_PROXY=1` | Take the caller's address from `X-Forwarded-For`. Only behind your own proxy. |
-| `FAIL_PURCHASE=1` | Every purchase fails with a 402, to see the app's "payment didn't go through" dialog. |
+| `LOG_REQUESTS=1` | Print a line per request. For development; `scripts/dev.sh` turns it on. |
+| `ALLOWED_ORIGINS` | Websites allowed to read the API from a browser, comma-separated. Needed when the site in `../www` is served from a different address than the API. |
+| `TRUST_PROXY=1` | Take the caller's address from `X-Forwarded-For`. Only behind your own proxy, otherwise callers can fake their address. |
+
+### Docker
+
+Everything Docker creates is named `labellens-*`:
+
+| Thing | Name |
+| --- | --- |
+| Compose project | `labellens` |
+| Container | `labellens-postgres` (PostgreSQL 17) |
+| Volume | `labellens-postgres-data` |
+| Network | `labellens-net` |
+
+The database listens on `127.0.0.1:5440` only. Set `LABELLENS_DB_PORT` to move it, and change `DATABASE_URL` to match. The password in the compose file is for development; use a real one anywhere else.
+
+```sh
+docker compose down        # stop, keep the data
+docker compose down -v     # stop and delete the data
+docker exec -it labellens-postgres psql -U labellens labellens
+```
+
+## Endpoints
+
+| Path | Returns |
+| --- | --- |
+| `GET /additives` | `{ meta, options, additives }`: every additive's list fields, plus the allergens, diets, groups and sensitivities the app offers |
+| `GET /additives/:code` | One additive in full: list fields plus `regulatory`, `sections`, `sources`, `footnote`. Code in any letter case. 404 if unknown |
+| `GET /health` | `{ ok, additives, version }` |
+
+Both catalogue routes send an `ETag` and answer 304 to a matching `If-None-Match`. Responses are compressed with Brotli or gzip when the client accepts it. Errors are `{ error, message }`. Only `GET` and `HEAD` are accepted.
+
+## Why it is fast
+
+The catalogue changes only when someone runs `pnpm seed`, so nothing is worked out per request that can be worked out per version.
+
+| Where | What is done |
+| --- | --- |
+| Start-up, and after each seed | The whole catalogue is read from PostgreSQL in three queries. Every response body (the list and all 522 pages) is serialised once and compressed once, with Brotli and gzip at their highest settings. |
+| Each request | A map lookup and a write of bytes that already exist. No database query, no JSON encoding, no compression. |
+| Unchanged data | `ETag` and 304 on the list and on every page, so a client that already has the data downloads nothing. |
+| Request log | Rows collect in memory and are written together about four times a second: one `INSERT` for hundreds of requests. A request never waits for the database. |
+| Log table | Partitioned by month with one small BRIN index, so inserts stay cheap as it grows and a month is deleted by dropping its partition. |
+| New data | `pnpm seed` announces the new version over PostgreSQL `NOTIFY`. A running API is listening on one connection and reloads at once; no polling on the request path. |
+| HTTP | Plain `node:http`. With three routes and ready-made bodies a framework would only add work. The one dependency is the PostgreSQL driver. |
+
+Measured on a laptop, 50 connections, before and after this design (the "before" queried PostgreSQL per page and wrote one log row per request, uncompressed):
+
+| | Before | After |
+| --- | --- | --- |
+| List, requests a second | 1,500 | 6,500 |
+| List, bytes on the wire (gzip) | 161,614 | 12,053 (9,949 with Brotli) |
+| One page, requests a second | 7,400 | 15,800 |
+| One page, bytes on the wire (gzip) | 3,105 | 1,359 |
+
+The load generator ran on the same machine and was itself a limit, so read the "after" column as a floor. Every one of the 200,908 requests in the run was logged, and the log's index took 24 kB.
+
+If the database goes away, the API keeps serving from memory. Log rows wait (up to 50,000, oldest dropped beyond that) and are written when it comes back.
+
+To go further, put a CDN in front: responses are marked `public` and revalidate by `ETag`, so the CDN can answer most requests itself. The cost is that requests it answers never reach the API, so they are not in `request_log`.
+
+## What is recorded about a request
+
+Each request to the two `/additives` routes adds one row to `request_log`, for analytics later. These are the only things kept:
+
+| Column | Holds |
+| --- | --- |
+| `at` | When |
+| `ip` | The address the request came from |
+| `device_type` | The phone's make and model as the app sends it in `X-Device-Type` ("Google Pixel 9"). For anything else, a broad class worked out from the user-agent: `android browser`, `ios browser`, `desktop browser`, `script`, `other` or `unknown`. The user-agent string itself is not stored |
+| `resource` | `list` or `detail` |
+| `code` | Which additive, for `detail`. Null for the list, and for a code that does not exist |
+
+Nothing else is stored: no account, no device identifier, no headers, no cookies. `/health` is not recorded. Writing rows never delays or fails a request; a crash can lose the last fraction of a second.
+
+Still to decide, with the privacy policy: how long rows are kept. An IP address counts as personal data in the EU and elsewhere, so a retention limit (or storing a shortened address) will likely be needed. Nothing deletes old rows at the moment. The table is partitioned by month, so removing one is `drop table request_log_2026_10;`.
+
+```sql
+-- Most looked-up additives
+select code, count(*) from request_log where resource = 'detail' and code is not null group by code order by 2 desc limit 20;
+```
 
 ## Tests
 
 ```sh
-pnpm test         # no network: catalogue rules, input checks, rate limit, error shapes
-pnpm test:live    # against the Supabase project in the env file
+pnpm test       # no database: catalogue rules, routes, what gets recorded
+pnpm test:db    # against PostgreSQL, in a throwaway schema that is dropped afterwards
 ```
-
-`test:live` creates two throwaway accounts with the secret key, checks the API end to end and that one account cannot read or change another's rows even when talking to the database directly, then deletes both.
 
 ## How it is put together
 
 | File | Does |
 | --- | --- |
-| [src/supabase.js](src/supabase.js) | The three clients: anonymous, acting-as-the-caller, and admin |
-| [src/app.js](src/app.js) | Routes, input checks, error mapping |
-| [src/catalogue-store.js](src/catalogue-store.js) | Reads the catalogue from Postgres, holds it in memory, reloads when its version changes |
-| [src/catalogue.js](src/catalogue.js) | Builds the catalogue from the files in `data/`. Used by the seed script and tests only |
-| [src/config.js](src/config.js) | Plans, prices, preference options, regions |
-| [scripts/seed.js](scripts/seed.js) | Loads the catalogue into Postgres |
-| [../supabase/migrations/](../supabase/migrations/) | The database schema, as applied |
-
-A request for account data goes: the app sends its Supabase access token, the API checks the token against the project's signing keys, then queries Postgres **as that user** with the publishable key. Row level security decides what comes back. The API cannot return another account's rows even if a route has a bug, because the database will not hand them over.
-
-## Database
-
-| Table | Holds | Who can read | Who can write |
-| --- | --- | --- | --- |
-| `additives` | One row per additive: list and search fields | Anyone | Seed function only |
-| `additive_details` | Long-form page: regulatory lines, sections, sources | Anyone | Seed function only |
-| `catalogue_meta` | One row: version, counts, data date | Anyone | Seed function only |
-| `profiles` | Name, plan, billing period, region | Owner | Owner: name and region only. Plan: server only |
-| `preferences` | Allergies, diet, groups, additives, sensitivities | Owner | Owner |
-| `saved_additives` | Saved additive codes | Owner | Owner, on a paid plan |
-| `scans` | Scan history: codes and verdict, never the photo or text | Owner | Owner, on a paid plan. Newest 500 kept |
-| `family_profiles` | Family members | Owner | Owner: `selected` only |
-
-Security measures in place:
-
-- **Row level security on every table**, with policies per operation and per role. Tables start with no privileges for `anon` and `authenticated`; each grant is explicit, down to column level on `profiles` and `family_profiles`.
-- **Paid features enforced in the database**, not just the app: the insert policies on `scans` and `saved_additives` require a paid plan.
-- **No function is callable unless granted.** Postgres lets everyone execute new functions by default; that default is revoked. `seed_catalogue` and `grant_plan` are for the secret key only. Helpers live in a `private` schema that the Data API does not expose.
-- **Security-definer functions pin `search_path`** to empty and qualify every name.
-- **A trigger creates the profile and preferences** when Supabase Auth creates a user, so there is no window where an account has no row.
-- **Deleting the auth user removes everything**, through `on delete cascade`.
-- **Check constraints** bound every free-text and list column.
-- **The secret key is used for three things only**, each for the caller whose token was just verified: ending the session, deleting the account, changing its plan.
-- **In the API:** auth routes are rate limited per address (20 a minute), bodies are capped at 64 KB, security headers are set, errors never pass a database or auth message through, and logs record the path only.
-- **Sign-up and password-reset answers do not reveal** whether an email has an account.
-
-Supabase's security advisor reports no findings for this schema.
-
-### Still to do in the Supabase dashboard
-
-These are project settings, not SQL, so they could not be set from here:
-
-1. **Authentication > URL Configuration:** set the Site URL, and add your `AUTH_REDIRECT_URL` to Redirect URLs. Until then the confirmation link works but lands on `localhost:3000`.
-2. **Authentication > Sign In / Providers > Email:** raise the minimum password length to 8 or more and turn on leaked-password protection (Pro plan).
-3. **Authentication > Emails:** set up your own SMTP sender. The built-in one is limited to a few emails an hour and is for testing only.
-4. **Authentication > Rate Limits:** every log-in reaches Supabase from this API's address, so the per-address limits there apply to all users together. Raise them, or deploy the API where it can forward client addresses.
-5. Drop the retired function when convenient: `drop function public.purchase_plan(text, text);`. Nobody can execute it, but it could not be dropped from here.
-6. Before launch, turn on point-in-time recovery or check the backup schedule.
+| [src/app.js](src/app.js) | The HTTP handler: routing, encoding choice, 304s |
+| [src/catalogue-cache.js](src/catalogue-cache.js) | Loads the catalogue into memory, prepares every response body, reloads on a new seed |
+| [src/request-log.js](src/request-log.js) | Decides what is recorded about a request, and writes it in batches |
+| [src/catalogue.js](src/catalogue.js) | Builds the catalogue from the files in `data/`. Used by the seed and export scripts and by tests |
+| [src/config.js](src/config.js) | The preference choices the app offers |
+| [src/db.js](src/db.js) | The connection pool |
+| [db/migrations/](db/migrations/) | The schema, as numbered SQL files |
+| [scripts/migrate.js](scripts/migrate.js) | Applies migrations not yet applied |
+| [scripts/seed.js](scripts/seed.js) | Loads the catalogue into PostgreSQL, in one transaction |
+| [scripts/export-app-data.js](scripts/export-app-data.js) | Writes the copy of the catalogue that ships inside the app |
 
 ## The data
 
-[data/](data/) is a copy of [is-it-healthy/data](https://github.com/is-it-healthy/data) (MIT). [data/SOURCE.json](data/SOURCE.json) records the commit it was copied from. To update, copy the newer files over it and change that file.
+[data/](data/) holds the additive dataset: 522 additives, one researched entry each in `dist/single/<code>.json`, with the master list in `development/ins-summary-original.json`. It began as a copy of [is-it-healthy/data](https://github.com/is-it-healthy/data) (MIT) and was then completed in place; [data/development/REPORT.md](data/development/REPORT.md) describes how, and `development/sources/<code>.json` records where each fact came from. `python3 scripts/validate.py` (run inside `data/`) checks the files.
 
-`pnpm seed` builds the catalogue with [src/catalogue.js](src/catalogue.js) from three parts and loads it into Postgres:
+`pnpm seed` builds the catalogue from those files with [src/catalogue.js](src/catalogue.js) and loads it into PostgreSQL. Run it again whenever the data changes: a running API picks up the new version at once, and apps download the list again on their next start. `pnpm export:app` writes the same catalogue into the Android app, as the copy it falls back on with no connection.
 
-| File | Used for |
-| --- | --- |
-| `development/ins-summary-original.json` | The full list: code, names, type and approval flags for 511 additives |
-| `dist/single/<code>.json` | Details for 350 of them. Two layouts exist and both are read. 11 of these are not in the list above and are added. |
-| `overrides.json` | Corrections on top of the dataset. Added here, not part of the source. |
+### How the verdict is decided
 
-That gives 522 additives, 336 with a written entry. The rest have a name, category and approval flag only, and the app says so on their page.
+Each entry records approval flags for the EU and US, a list of places that ban the additive, and an alert icon where a regulator has raised a concern. The app's verdict is read from those in `deriveVerdict`:
 
-### What is worked out, not read
+| Verdict | When | Count today |
+| --- | --- | --- |
+| Avoid | The entry names places that ban it | 14 |
+| Caution | The entry carries the alert icon, or no EU or US approval could be confirmed | 243 |
+| Safe | Approved somewhere, nothing flagged | 265 |
 
-**The dataset has no safety rating.** The app's Safe / Caution / Avoid verdict comes from these rules in `deriveVerdict`:
+The short note beside the verdict ("Banned in the EU", "Intake can exceed the limit") is picked from the entry's own text. It summarises the entry; it is not a medical rating. "No EU or US approval confirmed" covers 104 additives and means what it says: the research could not confirm an approval, not that the additive is banned.
 
-| Verdict | When |
-| --- | --- |
-| Avoid | The entry (or `overrides.json`) names places that ban it. Today: E102 and E171. |
-| Caution | The side-effects text reports hyperactivity, asthma or a cancer link; or the text says it is restricted; or there is no written entry and no EU approval flag ("Limited information", 123 additives). |
-| Safe | Everything else. |
-
-Treat this as a starting point, not a medical judgement. A real rating needs someone qualified to review each entry.
-
-Also derived, each by a small function in the same file:
+Still worked out from the text, each by a small function in the same file:
 
 - **Name and other names**, split out of strings like `Sunset Yellow FCF (Orange Yellow S, FD&C Yellow 6)`.
-- **Category and descriptor**, from `type` or, failing that, `function`.
-- **Groups** people can avoid (artificial colours, sweeteners, preservatives, flavour enhancers, palm oil), from category and origin text.
-- **Sensitivities** (children, pregnancy, asthma), from keywords in the side-effects text.
-- **Origin** (animal, either, suitable for vegans, unknown), from the dietary-restrictions text.
-- **Text clean-up**: stray control characters, and sentences that pointed at links lost when the source was scraped.
+- **Category and descriptor**, from `type`.
+- **Groups** people can avoid (artificial colours, sweeteners, preservatives, flavour enhancers, palm oil), from category and description.
+- **Sensitivities** (children, pregnancy, asthma), from keywords in the regulatory and side-effect text.
+- **Origin** (animal, either, suitable for vegans, unknown), from the dietary-restrictions text. Only 70 entries have that text, so origin is unknown for most, and diet checks in the app only fire for those 70.
 
-Known gaps in the source: the US approval flag is present for only 25 additives, so its absence is not reported. A missing EU flag is shown on the additive's page as "no EU approval on record" but does not change the verdict, because the flag is missing for many additives that are approved.
-
-`overrides.json` has one entry: E171 (titanium dioxide), which the EU banned in food in 2022, after the dataset was compiled.
-
-## What is real and what stands in
-
-| Real | Stand-in |
-| --- | --- |
-| Catalogue and additive pages, from Postgres | Purchases: the plan is granted without payment. Google Play Billing is not wired in |
-| Accounts, sessions, email confirmation, password reset and Google sign-in, through Supabase Auth | |
-| Preferences, history, saved additives, region per account, under row level security | Prices and plan features in [src/config.js](src/config.js) |
-| Input validation and consistent `{ error, message }` errors | Family profiles: a family plan shows its owner only; adding members is not built |
-
-There is no demo account. Create one in the app, or with the dashboard.
-
-## Endpoints
-
-🔒 needs `Authorization: Bearer <token>`, the access token from log in or refresh.
-
-| Method and path | Returns |
-| --- | --- |
-| `GET /health` | `{ ok, additives, version }` |
-| `GET /additives` | `{ meta, additives }`. Sends an `ETag`; answers 304 to a matching `If-None-Match` |
-| `GET /additives/:code` | One additive in full. Code in any letter case. 404 if unknown |
-| `GET /preferences/options` | Allergens, diets, groups and sensitivities to choose from |
-| `GET /plans` | Plans, prices, comparison. Trial end date is worked out from today |
-| `GET /regions` | Regions and language settings |
-| `POST /auth/signup` | 202 `{ needsVerification: true, token: null, user }` while email confirmation is on; 201 with a session if it is off. 422 for a bad email or a password under 8 characters |
-| `POST /auth/login` | `{ token, refreshToken, expiresAt, user }`. 401 for wrong details, 403 `email_not_confirmed` |
-| `POST /auth/refresh` | `{ refreshToken }` in, a new session out. Access tokens last an hour |
-| `POST /auth/google` | `{ idToken, nonce }` from Google's account picker on the phone in, a session out. Supabase checks the token. 401 `invalid_token` if it is refused |
-| `POST /auth/forgot` | Sends the reset email. Always `{ ok: true }` for a valid email |
-| `POST /auth/resend-verification` | `{ email }` in. Sends the confirmation email again |
-| `GET /auth/confirmed` | A small page for the confirmation link to land on |
-| `POST /auth/logout` 🔒 | Ends this session, including its refresh token |
-| `GET /me` 🔒 | The user, with plan, `verified` and counts |
-| `DELETE /me` 🔒 | Deletes the account and all its sessions |
-| `GET` / `PUT /me/preferences` 🔒 | Allergies, diet, groups, additives, sensitivities. Unknown values are dropped |
-| `GET` / `PUT /me/region` 🔒 | The chosen region |
-| `GET /subscription` 🔒 | `{ subscription }`, null on Free |
-| `POST /subscription/purchase` 🔒 | `{ planId: "plus" or "family", period: "yearly" or "monthly" }` |
-| `POST /subscription/restore` 🔒 | The current subscription |
-| `GET` / `POST` / `DELETE /history` 🔒 | Scan history, newest first, with "Today" / "Yesterday" labels. `POST` is 403 `plus_required` on Free |
-| `GET /saved`, `PUT` / `DELETE /saved/:code` 🔒 | Saved additives. `PUT` is 403 `plus_required` on Free |
-| `GET /family`, `PUT /family/selection` 🔒 | Family profiles and who a scan is for |
+[data/overrides.json](data/overrides.json) can correct an entry without editing the dataset. It is empty at the moment.

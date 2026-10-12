@@ -3,24 +3,15 @@ package app.labellens.data
 import java.io.File
 import org.junit.Assert.assertEquals
 import org.junit.Assert.assertTrue
-import org.junit.Assume.assumeTrue
 import org.junit.Test
 
 /**
- * Runs the matcher against the full additive list, to catch names that match ordinary
- * label text. Needs a copy of the API's `GET /additives` response:
- *
- *     curl -s localhost:8787/additives > /tmp/catalogue.json
- *     LABELLENS_CATALOGUE=/tmp/catalogue.json ./gradlew :app:testDebugUnitTest
- *
- * Skipped when the variable is not set.
+ * Runs the matcher against the additive list that ships in the app, to catch names
+ * that match ordinary label text.
  */
 class RealCatalogueTest {
-    private val catalogue: List<Additive> by lazy {
-        val path = System.getenv("LABELLENS_CATALOGUE")
-        assumeTrue("LABELLENS_CATALOGUE not set", !path.isNullOrBlank())
-        AppJson.decodeFromString<Catalogue>(File(path!!).readText()).additives
-    }
+    private val catalogue: List<Additive> =
+        AppJson.decodeFromString<Catalogue>(File("src/main/assets/catalogue.json").readText()).additives
 
     private fun codes(text: String) = Matcher.scan(text, catalogue).all.map { it.additive.code }.sorted()
 

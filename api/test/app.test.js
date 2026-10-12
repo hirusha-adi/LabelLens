@@ -1,118 +1,194 @@
-// Routes and rules that don't need a database. The catalogue comes from the files
-// in data/, and Supabase is replaced by a stub that knows no users.
-// test/live.test.js covers everything that does need Supabase.
+// The API's routes over real HTTP, with the catalogue built from the files in
+// data/ and the request log captured in memory. test/db.test.js covers PostgreSQL.
 
 import assert from "node:assert/strict";
-import { test } from "node:test";
-import { createApp, sanitizePreferences } from "../src/app.js";
+import { after, before, test } from "node:test";
+import { createHandler } from "../src/app.js";
 import { loadCatalogue } from "../src/catalogue.js";
+import { createRequestLog, deviceTypeOf, ipOf } from "../src/request-log.js";
+import { serveHandler, snapshotFrom } from "./helpers.js";
 
 const files = loadCatalogue();
-const catalogue = { meta: files.meta, additives: files.additives, resolve: files.resolve, detail: async (code) => files.detail(code), refreshIfStale: async () => {} };
+const catalogue = { current: snapshotFrom(files) };
+const recorded = [];
+let api;
 
-const setup = (options = {}) => {
-  const unreachable = () => {
-    throw new Error("This test should not reach Supabase");
-  };
-  const supabase = { url: "https://example.supabase.co", hasSecretKey: false, anon: unreachable, forUser: unreachable, admin: unreachable, verify: async () => null };
-  const app = createApp({ catalogue, supabase, options, clock: () => new Date("2026-10-09T15:00:00") });
-  return async (method, path, { body, headers = {} } = {}) => {
-    const response = await app.request(path, {
-      method,
-      headers: { ...(body !== undefined ? { "content-type": "application/json" } : {}), ...headers },
-      body: body === undefined ? undefined : typeof body === "string" ? body : JSON.stringify(body),
-    });
-    const text = await response.text();
-    return { status: response.status, headers: response.headers, json: text.startsWith("{") ? JSON.parse(text) : null };
-  };
-};
+before(async () => {
+  api = await serveHandler(createHandler({ catalogue, record: (entry) => recorded.push(entry), options: { trustProxy: true } }));
+});
+after(() => api.close());
 
-test("catalogue is public and cacheable", async () => {
-  const call = setup();
-  const list = await call("GET", "/additives");
+test("the list has every additive and the preference choices", async () => {
+  const list = await api.get("/additives");
   assert.equal(list.status, 200);
   assert.equal(list.json.additives.length, list.json.meta.totalCount);
-  assert.equal((await call("GET", "/additives", { headers: { "if-none-match": list.headers.get("etag") } })).status, 304);
+  assert.ok(list.json.additives.length > 500);
+  assert.ok(list.json.options.allergens.length > 0);
+  assert.deepEqual(list.json.additives, files.additives);
 });
 
-test("additive detail, any letter case, and unknown codes", async () => {
-  const call = setup();
-  const detail = await call("GET", "/additives/e102");
-  assert.equal(detail.json.code, "E102");
+test("one additive in full, any letter case, and unknown codes", async () => {
+  const detail = await api.get("/additives/e171");
+  assert.deepEqual(detail.json, files.detail("E171"));
   assert.equal(detail.json.regulatory[0].kind, "banned");
-  const missing = await call("GET", "/additives/E9999");
-  assert.equal(missing.status, 404);
-  assert.equal(missing.json.error, "not_found");
-});
-
-test("plans carry today's trial end date and the real additive count", async () => {
-  const plans = (await setup()("GET", "/plans")).json;
-  assert.equal(plans.trialEndsLabel, "Oct 16");
-  assert.ok(plans.comparison.some((row) => row.name === `Search ${catalogue.meta.totalCount} additives`));
-});
-
-test("account routes refuse callers without a valid token", async () => {
-  const call = setup();
-  for (const [method, path] of [["GET", "/me"], ["DELETE", "/me"], ["GET", "/history"], ["POST", "/history"], ["GET", "/saved"], ["PUT", "/saved/E330"], ["PUT", "/me/preferences"], ["POST", "/subscription/purchase"], ["GET", "/family"], ["POST", "/auth/logout"]]) {
-    const response = await call(method, path, { headers: { authorization: "Bearer made-up" }, body: method === "GET" ? undefined : {} });
-    assert.equal(response.status, 401, `${method} ${path}`);
-    assert.equal(response.json.error, "unauthorized");
+  for (const path of ["/additives/E9999", "/additives/", "/additives/" + "x".repeat(500), "/additives/E102/extra"]) {
+    const missing = await api.get(path);
+    assert.equal(missing.status, 404, path);
+    assert.deepEqual(Object.keys(missing.json), ["error", "message"]);
   }
 });
 
-test("sign-up and log-in input is checked before Supabase is called", async () => {
-  const call = setup();
-  assert.equal((await call("POST", "/auth/signup", { body: { email: "nope", password: "long enough" } })).json.error, "invalid_email");
-  assert.equal((await call("POST", "/auth/signup", { body: { email: "a@b.co", password: "short" } })).json.error, "weak_password");
-  assert.equal((await call("POST", "/auth/signup", { body: "{not json" })).status, 400);
-  assert.equal((await call("POST", "/auth/login", { body: { email: "", password: "" } })).status, 401);
-  assert.equal((await call("POST", "/auth/refresh", { body: {} })).status, 401);
-  assert.equal((await call("POST", "/auth/forgot", { body: { email: "nope" } })).status, 422);
-  assert.equal((await call("POST", "/auth/google", { body: {} })).json.error, "invalid_token");
-  assert.equal((await call("POST", "/auth/google", { body: { idToken: "too-short" } })).status, 422);
+test("responses are compressed ahead of time, smallest encoding the client accepts", async () => {
+  const plain = await api.get("/additives");
+  const gzip = await api.get("/additives", { "accept-encoding": "gzip" });
+  const brotli = await api.get("/additives", { "accept-encoding": "gzip, deflate, br" });
+  assert.equal(plain.headers["content-encoding"], undefined);
+  assert.equal(gzip.headers["content-encoding"], "gzip");
+  assert.equal(brotli.headers["content-encoding"], "br");
+  assert.deepEqual(gzip.json, plain.json);
+  assert.deepEqual(brotli.json, plain.json);
+  assert.ok(brotli.bytes < gzip.bytes && gzip.bytes < plain.bytes / 4, `${plain.bytes} > ${gzip.bytes} > ${brotli.bytes}`);
+  assert.equal(Number(brotli.headers["content-length"]), brotli.bytes);
+  assert.equal(brotli.headers.vary, "Accept-Encoding");
+  // An encoding ruled out with q=0 is not used.
+  assert.equal((await api.get("/additives", { "accept-encoding": "br;q=0, gzip" })).headers["content-encoding"], "gzip");
+  assert.equal((await api.get("/additives/E330", { "accept-encoding": "br" })).headers["content-encoding"], "br");
 });
 
-test("auth routes are rate limited", async () => {
-  const call = setup({ authLimitPerMinute: 3 });
-  const statuses = [];
-  for (let i = 0; i < 5; i++) statuses.push((await call("POST", "/auth/google", { body: {} })).status);
-  assert.deepEqual(statuses, [422, 422, 422, 429, 429]);
-  // Other routes are not affected.
-  assert.equal((await call("GET", "/health")).status, 200);
+test("unchanged data is answered with 304 and no body, for the list and for a page", async () => {
+  for (const path of ["/additives", "/additives/E330"]) {
+    const first = await api.get(path, { "accept-encoding": "gzip" });
+    assert.match(first.headers.etag, /^"[\w-]{16}"$/);
+    assert.equal(first.headers["cache-control"], "public, max-age=0, must-revalidate");
+    const again = await api.get(path, { "if-none-match": first.headers.etag, "accept-encoding": "gzip" });
+    assert.equal(again.status, 304, path);
+    assert.equal(again.bytes, 0);
+    assert.equal((await api.get(path, { "if-none-match": '"something-else"' })).status, 200);
+  }
+  assert.notEqual((await api.get("/additives/E330")).headers.etag, (await api.get("/additives/E102")).headers.etag);
 });
 
-test("responses carry security headers and errors share one shape", async () => {
-  const call = setup();
-  const health = await call("GET", "/health");
-  assert.equal(health.headers.get("x-content-type-options"), "nosniff");
-  const missing = await call("GET", "/nope");
-  assert.equal(missing.status, 404);
-  assert.deepEqual(Object.keys(missing.json), ["error", "message"]);
-  const large = await call("POST", "/auth/login", { body: { email: "a@b.co", password: "x".repeat(70_000) } });
-  assert.equal(large.status, 413);
+test("each catalogue request records device type, address and what was asked, and nothing else", async () => {
+  recorded.length = 0;
+  const headers = { "x-device-type": "Google Pixel 9", "x-forwarded-for": "203.0.113.7, 10.0.0.1", "user-agent": "LabelLens/2.2.0", cookie: "a=b", authorization: "Bearer secret" };
+  const list = await api.get("/additives", headers);
+  await api.get("/additives", { ...headers, "if-none-match": list.headers.etag });
+  await api.get("/additives/e102?utm=x", headers);
+  await api.get("/additives/E9999", headers);
+  await api.get("/health", headers);
+  await api.get("/nope", headers);
+  assert.deepEqual(recorded, [
+    { ip: "203.0.113.7", deviceType: "Google Pixel 9", resource: "list", code: null },
+    { ip: "203.0.113.7", deviceType: "Google Pixel 9", resource: "list", code: null },
+    { ip: "203.0.113.7", deviceType: "Google Pixel 9", resource: "detail", code: "E102" },
+    { ip: "203.0.113.7", deviceType: "Google Pixel 9", resource: "detail", code: null },
+  ]);
 });
 
-test("preferences are cleaned before they are stored", () => {
-  assert.deepEqual(
-    sanitizePreferences(
-      {
-        allergies: [{ name: " Milk ", level: "warn" }, { name: "milk" }, { name: "" }, { name: "Kiwi", level: "sideways", custom: true }],
-        diet: "carnivore",
-        groups: { artificial_colours: "avoid", preservatives: "off", made_up: "avoid" },
-        additives: ["e951", "E9999", "E951"],
-        sensitivities: ["children", "robots"],
-        extra: "ignored",
-      },
-      catalogue,
-    ),
-    {
-      allergies: [{ name: "Milk", level: "warn", custom: false }, { name: "Kiwi", level: "avoid", custom: true }],
-      diet: "none",
-      dietLevel: "avoid",
-      groups: { artificial_colours: "avoid" },
-      additives: ["E951"],
-      sensitivities: ["children"],
+test("only listed websites may read the API from a browser", async () => {
+  const site = await serveHandler(createHandler({ catalogue, record: () => {}, options: { allowedOrigins: ["https://label-lens.example"] } }));
+  try {
+    const allowed = await site.get("/additives/E330", { origin: "https://label-lens.example", "accept-encoding": "gzip" });
+    assert.equal(allowed.headers["access-control-allow-origin"], "https://label-lens.example");
+    assert.equal(allowed.headers.vary, "Origin, Accept-Encoding");
+    assert.equal(allowed.headers["access-control-expose-headers"], "ETag");
+    const again = await site.get("/additives/E330", { origin: "https://label-lens.example", "if-none-match": allowed.headers.etag });
+    assert.equal(again.status, 304);
+    assert.equal(again.headers["access-control-allow-origin"], "https://label-lens.example");
+    const other = await site.get("/additives/E330", { origin: "https://elsewhere.example" });
+    assert.equal(other.status, 200);
+    assert.equal(other.headers["access-control-allow-origin"], undefined);
+    const preflight = await site.get("/additives", { origin: "https://label-lens.example", "access-control-request-method": "GET", "access-control-request-headers": "x-device-type" }, "OPTIONS");
+    assert.equal(preflight.status, 204);
+    assert.equal(preflight.headers["access-control-allow-origin"], "https://label-lens.example");
+  } finally {
+    await site.close();
+  }
+});
+
+test("only GET and HEAD are accepted", async () => {
+  const head = await api.get("/additives/E330", {}, "HEAD");
+  assert.equal(head.status, 200);
+  assert.equal(head.bytes, 0);
+  assert.ok(Number(head.headers["content-length"]) > 0);
+  const post = await api.get("/additives", {}, "POST");
+  assert.equal(post.status, 405);
+  assert.equal(post.headers.allow, "GET, HEAD");
+});
+
+test("health, and headers that keep a browser from misreading the JSON", async () => {
+  const health = await api.get("/health");
+  assert.deepEqual(health.json, { ok: true, additives: files.additives.length, version: files.meta.version });
+  assert.equal(health.headers["x-content-type-options"], "nosniff");
+  assert.equal(health.headers["cache-control"], "no-store");
+  assert.match(health.headers["content-type"], /^application\/json/);
+});
+
+test("a reload swaps the whole catalogue at once", async () => {
+  const before = (await api.get("/additives")).headers.etag;
+  const smaller = { ...files, additives: files.additives.slice(0, 5), meta: { ...files.meta, version: "next" } };
+  catalogue.current = snapshotFrom(smaller);
+  const list = await api.get("/additives");
+  assert.equal(list.json.additives.length, 5);
+  assert.notEqual(list.headers.etag, before);
+  assert.equal((await api.get("/additives", { "if-none-match": before })).status, 200);
+  assert.equal((await api.get(`/additives/${files.additives[10].code}`)).status, 404);
+  catalogue.current = snapshotFrom(files);
+});
+
+test("a forwarded address is only believed behind a trusted proxy", () => {
+  assert.equal(ipOf({ forwardedFor: "203.0.113.7", remoteAddress: "198.51.100.2", trustProxy: false }), "198.51.100.2");
+  assert.equal(ipOf({ forwardedFor: "203.0.113.7", remoteAddress: "198.51.100.2", trustProxy: true }), "203.0.113.7");
+  assert.equal(ipOf({ remoteAddress: "::ffff:192.0.2.9" }), "192.0.2.9");
+  assert.equal(ipOf({ remoteAddress: "2001:db8::1" }), "2001:db8::1");
+  assert.equal(ipOf({ forwardedFor: "not-an-address", remoteAddress: undefined, trustProxy: true }), null);
+});
+
+test("device type: the app's own name, or a broad class, never the user-agent string", () => {
+  assert.equal(deviceTypeOf({ "x-device-type": "  Samsung   SM-S921B " }), "Samsung SM-S921B");
+  assert.equal(deviceTypeOf({ "x-device-type": "x".repeat(300) }).length, 80);
+  assert.equal(deviceTypeOf({ "user-agent": "Mozilla/5.0 (Linux; Android 16; Pixel 9) AppleWebKit/537.36 Chrome/140 Mobile Safari/537.36" }), "android browser");
+  assert.equal(deviceTypeOf({ "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/140 Safari/537.36" }), "desktop browser");
+  assert.equal(deviceTypeOf({ "user-agent": "curl/8.9.1" }), "script");
+  assert.equal(deviceTypeOf({}), "unknown");
+});
+
+test("the request log writes in batches, retries after a failure and caps what it holds", async () => {
+  const batches = [];
+  let failing = false;
+  const client = {
+    query: async (sql, params) => {
+      if (failing && /insert/.test(sql)) throw new Error("database is down");
+      if (/insert/.test(sql)) batches.push(params[2].length);
     },
-  );
-  assert.deepEqual(sanitizePreferences(null, catalogue).allergies, []);
+    release: () => {},
+  };
+  const log = createRequestLog({ connect: async () => client }, { flushMs: 10_000, flushRows: 3, maxBuffered: 4 });
+  const entry = { ip: "203.0.113.7", deviceType: "Phone", resource: "list", code: null };
+
+  log.record(entry);
+  log.record(entry);
+  assert.equal(log.waiting, 2);
+  await log.flush();
+  assert.deepEqual(batches, [2]);
+
+  // Reaching flushRows writes without waiting for the timer.
+  for (let i = 0; i < 3; i++) log.record(entry);
+  await log.flush();
+  assert.deepEqual(batches, [2, 3]);
+
+  // While the database is away rows wait, up to the cap, and go out when it is back.
+  failing = true;
+  for (let i = 0; i < 2; i++) log.record(entry);
+  await log.flush();
+  assert.equal(log.waiting, 2);
+  for (let i = 0; i < 2; i++) log.record(entry);
+  await log.flush();
+  for (let i = 0; i < 2; i++) log.record(entry);
+  await log.flush();
+  assert.equal(log.waiting, 4);
+  failing = false;
+  await log.flush();
+  assert.equal(log.waiting, 0);
+  assert.deepEqual(batches, [2, 3, 4]);
 });

@@ -69,12 +69,10 @@ import androidx.compose.ui.unit.IntSize
 import androidx.compose.ui.unit.dp
 import app.labellens.data.Matcher
 import app.labellens.data.Screen
-import app.labellens.data.Store
 import app.labellens.ui.FilledButton
 import app.labellens.ui.LoadingShape
 import app.labellens.ui.LocalStore
 import app.labellens.ui.PlainIconButton
-import app.labellens.ui.PlusBadge
 import app.labellens.ui.SegList
 import app.labellens.ui.SegRow
 import app.labellens.ui.Sym
@@ -154,56 +152,6 @@ fun ScanSourceSheet(onDismiss: () -> Unit, onCamera: () -> Unit, onGallery: () -
     }
 }
 
-/** P04: shown instead of the scan sheet once today's free scans are used. */
-@OptIn(ExperimentalMaterial3Api::class)
-@Composable
-fun UpgradeSheet() {
-    val store = LocalStore.current
-    val close = { store.showUpgradeSheet = false }
-    ModalBottomSheet(
-        onDismissRequest = close,
-        sheetState = rememberModalBottomSheetState(skipPartiallyExpanded = true),
-        shape = RoundedCornerShape(topStart = 28.dp, topEnd = 28.dp),
-        containerColor = cs.surfaceContainerLow,
-        contentColor = cs.onSurface,
-        scrimColor = statusColors.scrim,
-        dragHandle = { SheetHandle() },
-    ) {
-        Column(Modifier.padding(bottom = 12.dp)) {
-            Row(Modifier.fillMaxWidth().padding(horizontal = 8.dp), horizontalArrangement = Arrangement.End) {
-                PlainIconButton("close", "Close", close)
-            }
-            Column(Modifier.padding(horizontal = 24.dp), verticalArrangement = Arrangement.spacedBy(10.dp)) {
-                Row(horizontalArrangement = Arrangement.spacedBy(6.dp)) {
-                    repeat(Store.FREE_SCANS_PER_DAY) { Box(Modifier.size(40.dp, 8.dp).background(cs.secondary, CircleShape)) }
-                }
-                T("You've used today's ${Store.FREE_SCANS_PER_DAY} free scans", gab(900, 28, 36))
-                T("More free scans tomorrow at 12:00 AM. Search still works without limits.", hg(400, 15, 22), color = cs.onSurfaceVariant)
-            }
-            Column(
-                Modifier.padding(start = 16.dp, end = 16.dp, top = 18.dp).fillMaxWidth().clip(RoundedCornerShape(24.dp))
-                    .background(cs.secondaryContainer).padding(16.dp),
-                verticalArrangement = Arrangement.spacedBy(8.dp),
-            ) {
-                Row(horizontalArrangement = Arrangement.spacedBy(8.dp), verticalAlignment = Alignment.CenterVertically) {
-                    PlusBadge(strong = true)
-                    T("Unlimited scans", gab(800, 17), color = cs.onSecondaryContainer)
-                }
-                val plus = store.plans?.plans?.firstOrNull { it.id == "plus" }
-                val terms = if (plus?.yearly != null) " ${store.plans?.trialDays} days free, then ${plus.yearly.full}." else ""
-                T("Plus personal alerts, history and favourites.$terms", hg(400, 14, 20), color = cs.onSecondaryContainer)
-            }
-            Column(Modifier.padding(start = 16.dp, end = 16.dp, top = 16.dp), verticalArrangement = Arrangement.spacedBy(6.dp)) {
-                FilledButton(
-                    "Try Plus free", { close(); store.nav.push(Screen.Trial) }, Modifier.fillMaxWidth(),
-                    container = cs.secondary, content = cs.onSecondary, style = hg(800, 16),
-                )
-                TextAction("Search instead", { close(); store.nav.push(Screen.Search) }, Modifier.fillMaxWidth())
-            }
-        }
-    }
-}
-
 // ---------- Crop and reading (camera UI, dark in both themes) ----------
 
 private val CameraBackground = Color(0xFF0B0C09)
@@ -262,10 +210,6 @@ fun CropScreen(uri: String) {
 
     fun read() {
         val source = bitmap ?: return
-        if (store.catalogue.isEmpty()) {
-            store.snack("The additive list hasn't been downloaded yet. Connect once, then scan again.")
-            return
-        }
         reading = true
         job = scope.launch {
             try {

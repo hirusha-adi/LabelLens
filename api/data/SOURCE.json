@@ -1,6 +1,7 @@
 {
   "repository": "https://github.com/is-it-healthy/data",
   "commit": "8f853d7",
-  "date": "2025-04-15",
+  "note": "Started as a copy of the repository above. Every entry was then researched and rewritten in place here; see development/REPORT.md and development/sources/.",
+  "date": "2026-10-10",
   "licence": "MIT, see LICENSE"
 }

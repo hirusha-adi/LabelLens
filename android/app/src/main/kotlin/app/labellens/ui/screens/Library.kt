@@ -22,30 +22,29 @@ import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.text.BasicTextField
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.runtime.Composable
-import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.draw.alpha
 import androidx.compose.ui.draw.clip
-import androidx.compose.ui.draw.shadow
 import androidx.compose.ui.graphics.SolidColor
 import androidx.compose.ui.semantics.Role
-import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import app.labellens.data.Matcher
+import java.time.Instant
+import java.time.LocalDate
+import java.time.ZoneId
+import java.time.format.DateTimeFormatter
+import java.time.format.FormatStyle
 import app.labellens.data.Screen
 import app.labellens.data.Verdict
 import app.labellens.ui.EmptyState
 import app.labellens.ui.FilledButton
 import app.labellens.ui.GroupLabel
-import app.labellens.ui.LoadingShape
 import app.labellens.ui.LocalStore
 import app.labellens.ui.PlainIconButton
-import app.labellens.ui.PlusBadge
 import app.labellens.ui.SegList
 import app.labellens.ui.SegRow
 import app.labellens.ui.ShapeHero
@@ -59,67 +58,29 @@ import app.labellens.ui.statusColors
 import app.labellens.ui.theme.ExpressiveShapes
 import app.labellens.ui.theme.gab
 import app.labellens.ui.theme.hg
-import app.labellens.ui.theme.segShape
 
-/** P10, and the same treatment for Saved: a Plus feature shown to free users and guests. */
-@Composable
-private fun LockedTab(title: String, heading: String, message: String) {
-    val store = LocalStore.current
-    Column(Modifier.fillMaxSize().statusBarsPadding().verticalScroll(rememberScrollState())) {
-        Row(
-            Modifier.padding(start = 20.dp, end = 20.dp, top = 60.dp, bottom = 12.dp),
-            horizontalArrangement = Arrangement.spacedBy(12.dp),
-            verticalAlignment = Alignment.CenterVertically,
-        ) {
-            T(title, gab(900, 36, 44))
-            PlusBadge()
-        }
-        Box {
-            Column(Modifier.padding(start = 16.dp, end = 16.dp, top = 8.dp).alpha(0.5f), verticalArrangement = Arrangement.spacedBy(2.dp)) {
-                listOf(0.6f to 0.4f, 0.5f to 0.35f, 0.65f to 0.3f).forEachIndexed { i, (first, second) ->
-                    Row(
-                        Modifier.fillMaxWidth().height(76.dp).clip(segShape(i, 3)).background(cs.surfaceContainerHigh).padding(horizontal = 10.dp),
-                        horizontalArrangement = Arrangement.spacedBy(12.dp),
-                        verticalAlignment = Alignment.CenterVertically,
-                    ) {
-                        Box(Modifier.size(56.dp).background(cs.surfaceContainerHighest, RoundedCornerShape(16.dp)))
-                        Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(6.dp)) {
-                            Box(Modifier.fillMaxWidth(first).height(12.dp).background(cs.surfaceContainerHighest, CircleShape))
-                            Box(Modifier.fillMaxWidth(second).height(10.dp).background(cs.surfaceContainerHighest, CircleShape))
-                        }
-                    }
-                }
-            }
-            Column(
-                Modifier.padding(start = 28.dp, end = 28.dp, top = 100.dp).fillMaxWidth().shadow(8.dp, RoundedCornerShape(28.dp))
-                    .clip(RoundedCornerShape(28.dp)).background(cs.surfaceContainerLow).padding(24.dp),
-                horizontalAlignment = Alignment.CenterHorizontally,
-                verticalArrangement = Arrangement.spacedBy(10.dp),
-            ) {
-                Box(Modifier.size(56.dp).background(cs.secondary, RoundedCornerShape(20.dp)), contentAlignment = Alignment.Center) {
-                    Sym("lock", size = 28.dp, tint = cs.onSecondary, fill = true)
-                }
-                T(heading, gab(800, 22, 28), align = TextAlign.Center)
-                T(message, hg(400, 15, 22), color = cs.onSurfaceVariant, align = TextAlign.Center)
-                FilledButton(
-                    "Try Plus free", { store.nav.push(Screen.Trial) }, Modifier.padding(top = 4.dp), height = 48.dp,
-                    container = cs.secondary, content = cs.onSecondary, style = hg(800, 15), horizontalPadding = 24.dp,
-                )
-            }
-        }
-        Spacer(Modifier.height(FloatingNavClearance))
+private val dayThisYear = DateTimeFormatter.ofPattern("MMM d")
+private val dayOtherYear = DateTimeFormatter.ofPattern("MMM d, yyyy")
+private val timeOfDay = DateTimeFormatter.ofLocalizedTime(FormatStyle.SHORT)
+
+private fun dateTimeOf(at: Long) = Instant.ofEpochMilli(at).atZone(ZoneId.systemDefault())
+
+/** "Today", "Yesterday", or the date. */
+private fun dayLabel(at: Long): String {
+    val day = dateTimeOf(at).toLocalDate()
+    val today = LocalDate.now()
+    return when {
+        !day.isBefore(today) -> "Today"
+        day == today.minusDays(1) -> "Yesterday"
+        day.year == today.year -> day.format(dayThisYear)
+        else -> day.format(dayOtherYear)
     }
 }
 
-/** P08 to P10. */
+/** P08 and P09. */
 @Composable
 fun HistoryTab() {
     val store = LocalStore.current
-    if (!store.hasPlus) {
-        LockedTab("History", "Keep every scan", "History saves each product with its verdict. It's part of Plus.")
-        return
-    }
-    LaunchedEffect(Unit) { store.loadHistory() }
     var filter by rememberSaveable { mutableStateOf("all") }
     var searching by rememberSaveable { mutableStateOf(false) }
     var query by rememberSaveable { mutableStateOf("") }
@@ -127,7 +88,7 @@ fun HistoryTab() {
 
     Column(Modifier.fillMaxSize().statusBarsPadding().verticalScroll(rememberScrollState())) {
         Row(Modifier.fillMaxWidth().height(56.dp).padding(horizontal = 8.dp), horizontalArrangement = Arrangement.End, verticalAlignment = Alignment.CenterVertically) {
-            if (!history.isNullOrEmpty()) {
+            if (history.isNotEmpty()) {
                 PlainIconButton(if (searching) "close" else "search", if (searching) "Close search" else "Search history", {
                     searching = !searching
                     query = ""
@@ -136,10 +97,6 @@ fun HistoryTab() {
         }
         T("History", gab(900, 36, 44), Modifier.padding(start = 20.dp, end = 20.dp, bottom = 12.dp))
         when {
-            history == null -> Column(Modifier.fillMaxWidth().padding(top = 96.dp), horizontalAlignment = Alignment.CenterHorizontally, verticalArrangement = Arrangement.spacedBy(10.dp)) {
-                LoadingShape(48.dp, cs.primary)
-                T("Loading your scans…", hg(500, 13), color = cs.onSurfaceVariant)
-            }
             history.isEmpty() -> EmptyState(
                 "No scans yet",
                 "Every label you scan is saved here with its verdict, so you can check a product again without rescanning.",
@@ -184,7 +141,7 @@ fun HistoryTab() {
                 if (shown.isEmpty()) {
                     T("No scans match.", hg(400, 15, 22), Modifier.padding(horizontal = 20.dp, vertical = 24.dp), color = cs.onSurfaceVariant)
                 }
-                shown.groupBy { it.day }.forEach { (day, items) ->
+                shown.groupBy { dayLabel(it.at) }.forEach { (day, items) ->
                     GroupLabel(day)
                     SegList {
                         items.forEachIndexed { i, item ->
@@ -210,7 +167,7 @@ fun HistoryTab() {
                                         1 -> "1 additive"
                                         else -> "${item.codes.size} additives"
                                     }
-                                    T("${item.time} · $count", hg(400, 13, 18), color = cs.onSurfaceVariant, maxLines = 1)
+                                    T("${dateTimeOf(item.at).format(timeOfDay)} · $count", hg(400, 13, 18), color = cs.onSurfaceVariant, maxLines = 1)
                                 }
                                 StatusPill(verdict)
                             }
@@ -227,10 +184,6 @@ fun HistoryTab() {
 @Composable
 fun SavedTab() {
     val store = LocalStore.current
-    if (!store.hasPlus) {
-        LockedTab("Saved", "Keep an eye on additives", "Save additives and we'll tell you if their status changes. It's part of Plus.")
-        return
-    }
     var sort by rememberSaveable { mutableStateOf("recent") }
     val items = store.saved.mapNotNull { store.additive(it) }.let { list ->
         when (sort) {
@@ -260,7 +213,7 @@ fun SavedTab() {
         }
         T("Saved", gab(900, 36, 44), Modifier.padding(start = 20.dp, end = 20.dp, bottom = 4.dp))
         T(
-            "Additives you're keeping an eye on. We'll tell you if their status changes.",
+            "Additives you're keeping an eye on.",
             hg(400, 15, 22), Modifier.padding(start = 20.dp, end = 20.dp, bottom = 16.dp), color = cs.onSurfaceVariant,
         )
         if (items.isEmpty()) {

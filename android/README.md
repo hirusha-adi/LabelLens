@@ -2,58 +2,89 @@
 
 Kotlin, Jetpack Compose and Material 3. Built from the design handoff in [../design/](../design/).
 
+There is no account and no subscription: the app is meant to be sold once on Google Play and then simply work. Everything a person sets up or collects stays on their phone. The one thing the app goes online for is additive information, which it reads from the API in [../api/](../api/).
+
 ## Build and run
 
-You need JDK 17 and the Android SDK (API 37). Start the API in [../api/](../api/) first.
+You need JDK 17 and the Android SDK (API 37).
+
+`../scripts/dev.sh` does everything: database, API, build, install, open. By hand, with the API already running:
 
 ```sh
-adb reverse tcp:8787 tcp:8787
+adb reverse tcp:8787 tcp:8787   # lets the phone reach the API on this computer
 ./gradlew :app:installDebug
 ```
 
-`adb reverse` makes `127.0.0.1:8787` on the phone point at the API on your computer. To reach the API another way, pass its address at build time:
+A release build needs the real server's address, which must be HTTPS:
 
 ```sh
-./gradlew :app:installDebug -PapiBaseUrl=http://192.168.1.20:8787
+./gradlew :app:assembleRelease -PapiBaseUrl=https://api.example.com
 ```
 
-Run the unit tests with `./gradlew :app:testDebugUnitTest`. One test runs the label matcher against the full additive list and is skipped unless you give it a copy:
+Tests:
 
 ```sh
-curl -s localhost:8787/additives > /tmp/catalogue.json
-LABELLENS_CATALOGUE=/tmp/catalogue.json ./gradlew :app:testDebugUnitTest
+./gradlew :app:testDebugUnitTest          # on this computer
+./gradlew :app:connectedDebugAndroidTest  # on a connected phone; removes the app's data on it
 ```
+
+The phone tests run with no server, so they exercise what a first launch with no connection gets: that a label can be read, that every additive page in the bundled data loads, and that a backup restores.
 
 ## How it fits together
 
-| Path under `app/src/main/kotlin/app/labellens/` | Contents |
+| Path under `app/src/main/` | Contents |
 | --- | --- |
-| `data/Store.kt` | App state and every action that changes it. One instance for the whole process. |
-| `data/Api.kt`, `data/Models.kt` | JSON client for the API and the types it returns. |
-| `data/Matcher.kt` | Finds E-numbers and additive names in the text read from a label. |
-| `data/Verdicts.kt` | Checks an additive against the user's allergies, diet and avoids. |
-| `data/Navigation.kt` | The list of screens and a plain back stack. |
-| `ui/theme/` | Colours, type and shapes from the design tokens. |
-| `ui/Components.kt` | Shared pieces: buttons, segmented list rows, status pills, icons. |
-| `ui/screens/` | One file per area: home, search, scan, results, detail, account, preferences, plans, history and saved, profile, settings. |
+| `assets/catalogue.json`, `assets/details.json` | A copy of the additive data, used when the server can't be reached. Generated, see below. |
+| `kotlin/.../data/Api.kt` | Fetches the list and additive pages from the server. |
+| `kotlin/.../data/Store.kt` | App state and every action that changes it. One instance for the whole process. |
+| `kotlin/.../data/Models.kt` | The types in the bundled data and in the saved document. |
+| `kotlin/.../data/Matcher.kt` | Finds E-numbers and additive names in the text read from a label. |
+| `kotlin/.../data/Verdicts.kt` | Checks an additive against the person's allergies, diet and avoids. |
+| `kotlin/.../data/Navigation.kt` | The list of screens and a plain back stack. |
+| `kotlin/.../ui/theme/` | Colours, type and shapes from the design tokens. |
+| `kotlin/.../ui/Components.kt` | Shared pieces: buttons, segmented list rows, status pills, icons. |
+| `kotlin/.../ui/screens/` | One file per area: home, search, scan, results, detail, onboarding, preferences, history and saved, profile, settings. |
 
-Label photos are read on the phone with ML Kit text recognition and are never sent anywhere. The additive list (522 additives) is saved on the phone after the first connection, so scanning and search work offline. On later starts the app asks the API whether the list has changed and only downloads it again if it has. Additive pages, history, saved additives and purchases need the API.
+### The additive data
 
-Accounts are real: sign-up sends a confirmation email through Supabase, and the confirm-email screen moves on once the link has been opened. The app keeps the access token and its refresh token in private app storage and renews the access token by itself when it expires. The password is never stored.
+The app reads additive information from the API:
 
-### Google sign-in
+- **The list** (`GET /additives`) is fetched at launch and kept on the phone. Later launches ask only whether it has changed.
+- **An additive's page** (`GET /additives/:code`) is fetched when it is opened.
 
-"Continue with Google" uses Credential Manager to show Google's account picker, then sends the ID token to the API, which signs in through Supabase. It needs two OAuth clients in one Google Cloud project:
+With no connection, the app uses the list it last fetched and the pages that shipped with it, so scanning, search and every page still work. The shipped copy is the two files in `assets/`, generated from [../api/data/](../api/data/):
 
-- a **Web application** client, whose ID is in `app/build.gradle.kts` (override with `-PgoogleWebClientId=...`) and, with its secret, in Supabase's Google provider
-- an **Android** client with package `app.labellens` and the SHA-1 of the key the build is signed with. Add one per key: debug, release, and Play App Signing. A missing one is the usual reason sign-in works in debug and fails in release.
+```sh
+cd ../api && pnpm export:app
+```
 
-## What is a placeholder
+Run that before a release so a fresh install with no connection starts from current data.
 
-- **Verdicts.** Safe, Caution and Avoid are worked out by rules in the API, because the dataset has no rating. See [../api/README.md](../api/README.md).
-- **Billing.** "Start free trial" calls the API, which grants the plan without payment. Google Play Billing is not wired in.
-- **Some settings rows.** Change email, change password, notifications, download my data and adding a family profile show a "not available in this preview build" message.
+Each request tells the server the phone's make and model. The server records that, the IP address and which additive was asked for; see [../api/README.md](../api/README.md). Nothing the person has set up or scanned is sent.
+
+### What the app stores, and how it survives
+
+Everything a person sets up or collects is one document: their list, preferences, saved additives, scan history and theme. It lives in the app's private storage.
+
+| Event | What happens |
+| --- | --- |
+| App update | Nothing: updates never touch app data. |
+| Reinstall, or a new phone | Android's own backup brings it back, if backup is on for the device. The manifest opts in and [backup_rules.xml](app/src/main/res/xml/backup_rules.xml) and [data_extraction_rules.xml](app/src/main/res/xml/data_extraction_rules.xml) limit it to that one file. |
+| Backup is off, or the person wants their own copy | Settings has "Back up to a file" and "Restore from a file". |
+
+Two limits worth knowing: Android backs up roughly once a day while the phone is idle, charging and on Wi-Fi, so the last few hours can be missing after a reinstall; and a person who has turned Android backup off gets nothing back unless they made a file.
+
+Label photos are read on the phone with ML Kit text recognition and are never stored or sent. Note for the privacy policy: now that the app has internet access, the ML Kit library can send Google its own usage statistics (not the photos or text).
+
+### Selling it
+
+The app has no in-app purchases and no licence check. Set a price for it in Play Console; Play handles the purchase before download.
+
+## Not built
+
 - **Links out of the app** (help, terms, privacy, licence) point at placeholder pages in this repository.
+- **Play licence verification.** A paid app can be copied off a phone and installed elsewhere. Play's licensing library can check for a real purchase.
+- **Privacy policy and terms.** Not written yet. The Settings screen states what is collected.
 
 ## Fonts
 

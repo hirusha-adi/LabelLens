@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en-AU">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Label Lens: know what you are about to eat</title>
+    <meta name="description" content="Photograph an ingredients list and Label Lens finds every additive on it, explains what each one is and where it's banned, and checks it against your allergies and diet." />
+    <meta name="theme-color" content="#FAFBEF" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#12140D" media="(prefers-color-scheme: dark)" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="preload" href="/fonts/gabarito.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="/fonts/hanken-grotesk.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="/fonts/material-symbols-rounded.woff2" as="font" type="font/woff2" crossorigin />
+    <script>
+      // Set the theme before first paint so a dark-mode visitor never sees a light flash.
+      try {
+        var saved = JSON.parse(localStorage.getItem("labellens_user") || "{}").theme;
+        var dark = saved === "dark" || (saved !== "light" && matchMedia("(prefers-color-scheme: dark)").matches);
+        document.documentElement.dataset.theme = dark ? "dark" : "light";
+      } catch (e) {
+        document.documentElement.dataset.theme = "light";
+      }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

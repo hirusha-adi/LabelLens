@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Android 11 and earlier. Backs up the one file that holds the person's list,
+     preferences, saved additives and scan history, and nothing else. The file name
+     is Store.USER_FILE. -->
+<full-backup-content>
+    <include domain="sharedpref" path="labellens_user.xml" />
+</full-backup-content>

@@ -1,10 +1,4 @@
 {
   "about": "Corrections applied on top of the dataset when the API builds its catalogue. Keep this short: one entry per additive, each with a source. Supported fields: bannedIn (list of places), euApproved (true or false), note (shown on the additive's page).",
-  "additives": {
-    "E171": {
-      "bannedIn": ["European Union"],
-      "euApproved": false,
-      "note": "The EU withdrew approval for titanium dioxide in food in 2022 (Commission Regulation (EU) 2022/63), after EFSA could not rule out genotoxicity. The dataset predates this."
-    }
-  }
+  "additives": {}
 }

@@ -1,46 +1,79 @@
-// Loads the additive catalogue into Supabase.
+// Loads the additive catalogue into PostgreSQL:
 //
 //   pnpm seed
 //
-// Builds the catalogue from the files in data/ (see src/catalogue.js) and upserts it
-// through the seed_catalogue() database function, which only the secret key may call.
-// Safe to run again: unchanged rows stay as they are.
+// Builds the catalogue from the files in data/ (see src/catalogue.js) and replaces
+// what is in the database with it, in one transaction. Safe to run again.
 
-import { createAdminClient } from "@supabase/server/core";
+import { fileURLToPath } from "node:url";
+import { CATALOGUE_CHANNEL } from "../src/catalogue-cache.js";
 import { loadCatalogue } from "../src/catalogue.js";
+import { preferenceOptions } from "../src/config.js";
+import { createPool, explainDbError } from "../src/db.js";
 
-if (!process.env.SUPABASE_URL || !(process.env.SUPABASE_SECRET_KEY || process.env.SUPABASE_SECRET_KEYS)) {
-  console.error("Seeding needs SUPABASE_URL and SUPABASE_SECRET_KEY. Put them in .env (see .env.example).");
-  process.exit(1);
-}
+export const seed = async (pool, catalogue = loadCatalogue()) => {
+  const items = catalogue.additives.map(({ code }) => catalogue.detail(code));
+  const client = await pool.connect();
+  try {
+    await client.query("begin");
+    await client.query("create temporary table incoming on commit drop as select item, ordinality::integer as sort_order from jsonb_array_elements($1::jsonb) with ordinality as t (item, ordinality)", [
+      JSON.stringify(items),
+    ]);
+    // Anything that has left the dataset goes, and its details with it.
+    const removed = await client.query("delete from additives a where not exists (select 1 from incoming i where i.item ->> 'code' = a.code)");
+    await client.query(`
+      insert into additives (code, sort_order, name, short_name, category, descriptor, category_icon, status, note,
+                             aliases, groups, sensitivities, origin, banned_in, has_detail, updated_at)
+      select item ->> 'code', sort_order, item ->> 'name', item ->> 'shortName', item ->> 'category',
+             coalesce(item ->> 'descriptor', ''), coalesce(item ->> 'categoryIcon', 'science'), item ->> 'status', item ->> 'note',
+             array(select jsonb_array_elements_text(coalesce(item -> 'aliases', '[]'))),
+             array(select jsonb_array_elements_text(coalesce(item -> 'groups', '[]'))),
+             array(select jsonb_array_elements_text(coalesce(item -> 'sensitivities', '[]'))),
+             coalesce(item ->> 'origin', 'unknown'),
+             array(select jsonb_array_elements_text(coalesce(item -> 'bannedIn', '[]'))),
+             coalesce((item ->> 'hasDetail')::boolean, false), now()
+      from incoming
+      on conflict (code) do update set
+        sort_order = excluded.sort_order, name = excluded.name, short_name = excluded.short_name,
+        category = excluded.category, descriptor = excluded.descriptor, category_icon = excluded.category_icon,
+        status = excluded.status, note = excluded.note, aliases = excluded.aliases, groups = excluded.groups,
+        sensitivities = excluded.sensitivities, origin = excluded.origin, banned_in = excluded.banned_in,
+        has_detail = excluded.has_detail, updated_at = excluded.updated_at`);
+    await client.query(`
+      insert into additive_details (code, regulatory, sections, sources, footnote)
+      select item ->> 'code', coalesce(item -> 'regulatory', '[]'), coalesce(item -> 'sections', '[]'),
+             coalesce(item -> 'sources', '[]'), coalesce(item ->> 'footnote', '')
+      from incoming
+      on conflict (code) do update set
+        regulatory = excluded.regulatory, sections = excluded.sections, sources = excluded.sources, footnote = excluded.footnote`);
+    await client.query(
+      `insert into catalogue_meta (id, version, updated_label, sources, options, seeded_at) values (true, $1, $2, $3, $4::jsonb, now())
+       on conflict (id) do update set version = excluded.version, updated_label = excluded.updated_label,
+         sources = excluded.sources, options = excluded.options, seeded_at = excluded.seeded_at`,
+      [catalogue.meta.version, catalogue.meta.updatedLabel, catalogue.meta.sources, JSON.stringify(preferenceOptions)],
+    );
+    // Running APIs are listening for this and reload as soon as the commit lands.
+    await client.query("select pg_notify($1, $2)", [CATALOGUE_CHANNEL, catalogue.meta.version]);
+    await client.query("commit");
+    return { loaded: items.length, removed: removed.rowCount, version: catalogue.meta.version };
+  } catch (error) {
+    await client.query("rollback");
+    throw error;
+  } finally {
+    client.release();
+  }
+};
 
-const catalogue = loadCatalogue();
-const admin = createAdminClient();
-const codes = catalogue.additives.map((a) => a.code);
-
-console.log(`Seeding ${codes.length} additives into ${new URL(process.env.SUPABASE_URL).host} ...`);
-
-const payload = { meta: catalogue.meta, additives: codes.map((code) => catalogue.detail(code)) };
-const { data: loaded, error } = await admin.rpc("seed_catalogue", { payload });
-if (error) {
-  console.error(`Seeding failed: ${error.message}`);
-  process.exit(1);
-}
-
-// Remove anything that has left the dataset. Saved additives pointing at it go too.
-const { data: existing, error: listError } = await admin.from("additives").select("code");
-if (listError) {
-  console.error(`Seeded, but could not check for stale rows: ${listError.message}`);
-  process.exit(1);
-}
-const known = new Set(codes);
-const stale = existing.map((row) => row.code).filter((code) => !known.has(code));
-if (stale.length) {
-  const { error: deleteError } = await admin.from("additives").delete().in("code", stale);
-  if (deleteError) {
-    console.error(`Seeded, but could not remove ${stale.length} stale rows: ${deleteError.message}`);
-    process.exit(1);
+if (process.argv[1] === fileURLToPath(import.meta.url)) {
+  let pool;
+  try {
+    pool = createPool();
+    const { loaded, removed, version } = await seed(pool);
+    console.log(`Seeded ${loaded} additives, removed ${removed}. Version ${version}.`);
+  } catch (error) {
+    console.error(`Seeding failed: ${explainDbError(error)}`);
+    process.exitCode = 1;
+  } finally {
+    await pool?.end();
   }
 }
-
-console.log(`Done. ${loaded - stale.length} additives in the database, ${catalogue.meta.detailedCount} with a full entry, ${stale.length} removed. Version ${catalogue.meta.version}.`);
