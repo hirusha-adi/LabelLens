@@ -169,8 +169,8 @@ export const Landing = () => {
               <div className="fact">
                 <span className="fact-icon" style={{ background: "var(--sc)", color: "var(--osc)" }}><Icon name="code" size={30} /></span>
                 <div>
-                  <h3>Open source</h3>
-                  <p>The full code is public, so anyone can check how labels are read and what the app does with your data.</p>
+                  <h3>The code is public</h3>
+                  <p>Anyone can read the full source and check how labels are read and what the app does with your data. Free for non-commercial use.</p>
                   <a href={LINKS.repository} target="_blank" rel="noopener" className="source-link">View the source<Icon name="open_in_new" size={18} /></a>
                 </div>
               </div>

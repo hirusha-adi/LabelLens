@@ -1,0 +1,157 @@
+Label Lens Non-Commercial License
+Version 1.0
+
+Copyright (c) 2026 Hirusha Adikari. All rights reserved except as granted below.
+
+
+1. Definitions
+
+"Software" means everything in this repository: source code, the Android
+application, the website, the API, the additive dataset, designs, images,
+documentation and any other files, in source or compiled form.
+
+"Licensor" means Hirusha Adikari.
+
+"You" means the person or organisation exercising the permissions in this
+License.
+
+"Commercial Use" means any use of the Software, or of anything made from it,
+that is intended for or directed toward commercial advantage or monetary
+compensation. It includes, without limitation:
+
+  (a) selling, renting, leasing or licensing the Software or any work that
+      contains or is derived from it;
+  (b) offering the Software, or a service that depends on it, to others for a
+      fee, by subscription, or in exchange for anything of value;
+  (c) using the Software in or as part of a product or service that earns
+      revenue, including through advertising, sponsorship, in-app purchases
+      or the sale of data;
+  (d) using the Software within a business, or on behalf of a client, as part
+      of work for which You or anyone else is paid;
+  (e) using the Software, or the dataset it contains, to train, evaluate or
+      improve a product or model that is offered commercially.
+
+Use by an individual for personal purposes, and use for teaching, study or
+research that is not funded by or carried out for a commercial party, is not
+Commercial Use.
+
+
+2. Permission for non-commercial use
+
+Subject to the conditions of this License, permission is hereby granted, free
+of charge, to any person obtaining a copy of the Software to use, copy,
+modify, merge, publish and distribute the Software, and to permit persons to
+whom the Software is furnished to do so, for any purpose that is not
+Commercial Use.
+
+
+3. Commercial Use requires written permission
+
+Commercial Use of the Software, in whole or in part, in original or modified
+form, is not permitted without the prior written permission of the Licensor.
+
+Permission must be given in writing by Hirusha Adikari, must name the party
+receiving it, and applies only to the use it describes. Permission given to
+one party does not extend to any other. The Licensor may refuse permission,
+or attach conditions or a fee to it, at the Licensor's sole discretion.
+
+Requests may be sent to: hello@hirusha.xyz
+
+Nothing in this License restricts what the Licensor may do with the Software,
+including distributing or selling it under different terms.
+
+
+4. Conditions
+
+  (a) The copyright notice above and the full text of this License must be
+      included in all copies and substantial portions of the Software.
+
+  (b) Any work that contains or is derived from the Software may be
+      distributed only under this License, with its restriction on Commercial
+      Use intact. You may not grant anyone rights in the Software that this
+      License does not grant You.
+
+  (c) If You distribute a modified version, You must state clearly that it
+      has been changed, and must not present it as the original or as
+      endorsed by the Licensor.
+
+  (d) This License does not grant permission to use the name "Label Lens",
+      its logo, or the Licensor's name to identify, promote or endorse any
+      product or service, other than to state accurately where the Software
+      came from.
+
+
+5. Third-party material
+
+Parts of the Software were made by others and are provided under their own
+licences, which continue to apply to those parts and are not replaced by
+this License. These include, without limitation, the fonts, the icon set,
+the text-recognition engine and its language data, software libraries
+obtained through package managers, and any portion of the additive dataset
+that originates from a third-party source. A licence file located in a
+subdirectory applies to the material that subdirectory identifies as
+third-party. Where a third-party licence grants You rights broader than this
+License, You may exercise those rights with respect to that material alone.
+
+
+6. Termination
+
+The permissions in this License end automatically if You fail to comply with
+any of its terms. If Your rights end, You must stop using and distributing
+the Software and destroy the copies in Your possession or control. Sections
+1, 3, 5, 7, 8, 9 and 10 continue to apply after termination.
+
+
+7. Not medical, dietary or legal advice
+
+The Software provides general information about food additives. That
+information may be incomplete, out of date or wrong, and the Software may
+misread a label or fail to detect an ingredient. It is not medical, dietary,
+nutritional or legal advice and must not be relied upon as such. It is not a
+substitute for reading a product's own label or for the advice of a
+qualified professional, in particular with regard to allergies,
+intolerances, pregnancy, medical conditions and the needs of children.
+Decisions about what to eat are made at Your own risk.
+
+
+8. No warranty
+
+THE SOFTWARE IS PROVIDED "AS IS" AND "AS AVAILABLE", WITHOUT WARRANTY OF ANY
+KIND, EXPRESS, IMPLIED OR STATUTORY, INCLUDING BUT NOT LIMITED TO THE
+WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, ACCURACY,
+COMPLETENESS, TITLE AND NONINFRINGEMENT. THE ENTIRE RISK AS TO THE QUALITY
+AND PERFORMANCE OF THE SOFTWARE, AND AS TO THE ACCURACY OF ANY INFORMATION
+IT PROVIDES, IS WITH YOU.
+
+
+9. Limitation of liability
+
+TO THE FULLEST EXTENT PERMITTED BY LAW, IN NO EVENT SHALL THE LICENSOR, THE
+AUTHORS OR THE COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY WHATSOEVER, WHETHER IN AN ACTION OF CONTRACT, TORT (INCLUDING
+NEGLIGENCE) OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
+SOFTWARE, THE INFORMATION IT PROVIDES, OR THE USE OF OR OTHER DEALINGS IN
+THE SOFTWARE. THIS INCLUDES, WITHOUT LIMITATION, DIRECT, INDIRECT,
+INCIDENTAL, SPECIAL, EXEMPLARY, PUNITIVE AND CONSEQUENTIAL DAMAGES, PERSONAL
+INJURY, ILLNESS, LOSS OF DATA, LOSS OF PROFITS AND BUSINESS INTERRUPTION,
+EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+Some jurisdictions do not allow the exclusion of certain warranties or the
+limitation of certain liabilities. Where that is so, the exclusions and
+limitations above apply to the greatest extent the law allows, and nothing in
+this License excludes rights that cannot lawfully be excluded.
+
+
+10. General
+
+If any provision of this License is held to be unenforceable, that provision
+shall be enforced to the greatest extent possible and the remaining
+provisions shall stay in effect. A failure by the Licensor to enforce any
+provision is not a waiver of it. This License is the entire agreement
+concerning the Software between You and the Licensor, unless You hold a
+separate written permission under Section 3, in which case that permission
+governs the use it describes.
+
+By using, copying, modifying or distributing the Software, You accept this
+License. If You do not accept it, You have no permission to do any of those
+things.

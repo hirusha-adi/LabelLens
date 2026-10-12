@@ -63,7 +63,7 @@ import kotlinx.coroutines.delay
 
 /** Placeholder destinations for links that leave the app. */
 object Links {
-    const val REPOSITORY = "https://github.com/velnoriq-software/LabelLens"
+    const val REPOSITORY = "https://github.com/hirusha-adi/LabelLens"
     const val HELP = "$REPOSITORY#readme"
     const val LICENCE = "$REPOSITORY/blob/main/LICENSE"
     const val LEGAL = "$REPOSITORY/blob/main/LEGAL.md"

@@ -2,7 +2,7 @@
 export const API_URL = (import.meta.env.VITE_API_URL ?? "/api").replace(/\/$/, "");
 
 /** Placeholder destinations for links that leave the site. */
-const REPOSITORY = "https://github.com/velnoriq-software/LabelLens";
+const REPOSITORY = "https://github.com/hirusha-adi/LabelLens";
 export const LINKS = {
   repository: REPOSITORY,
   help: `${REPOSITORY}#readme`,

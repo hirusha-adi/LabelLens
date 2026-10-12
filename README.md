@@ -65,3 +65,17 @@ Back up `./data/postgres`, or better `docker exec hirusha-labellens-postgres pg_
 For the Android app to use the server, build it with `-PapiBaseUrl=https://api.label-lens.cc`.
 
 See [android/README.md](android/README.md), [api/README.md](api/README.md) and [www/README.md](www/README.md) for each part.
+
+## Licence
+
+[Label Lens Non-Commercial License](LICENSE). In short:
+
+- **Free to use, copy, change and share for anything that is not commercial**, as long as the licence text stays with it and anything built on it keeps the same terms.
+- **Any money-making or business use needs written permission from Hirusha Adikari first.** Ask at hello@hirusha.xyz.
+- **No warranty and no liability.** The additive information is general information, not medical or dietary advice.
+
+That summary is only a guide; the [LICENSE](LICENSE) file is what applies.
+
+Fonts, icons, the text-recognition engine and other third-party parts keep their own licences. The dataset in `api/data/` carries the MIT licence it was published under.
+
+Because commercial use is restricted, this is a source-available project, not "open source" in the usual sense of that term.

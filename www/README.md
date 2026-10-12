@@ -76,7 +76,6 @@ Browser storage is less durable than the phone app's: clearing site data removes
 
 The landing page follows the design's wording, and some of it is not true yet:
 
-- **"Open source. The full code is public."** The repository is private. Make it public or remove that block.
 - **"$9.99 one-time"** is the design's placeholder price.
 - **"Get it on Google Play"** links to the Play Store front page until the app is listed.
 - **Help, Licence, Legal and Contributing** point at files in the repository that do not exist yet.
