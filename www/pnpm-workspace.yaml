@@ -1,2 +1,4 @@
+# tesseract.js's install script only prints a funding message. Nothing here needs it,
+# and saying so lets `pnpm install` succeed where nobody can answer a prompt.
 allowBuilds:
-  tesseract.js: set this to true or false
+  tesseract.js: false

@@ -1,0 +1,97 @@
+# Label Lens on the server: PostgreSQL, the API and the website.
+#
+#   cp .env.prod.example .env && nano .env      # set the password and the two domains
+#   docker compose -f docker-compose.prod.yml up -d --build
+#
+# Follows the server's conventions (documents/server.md): every container is named
+# hirusha-labellens-*, data is kept in a folder beside this file, the services talk
+# to each other on their own network, and only the two that the server's Caddy must
+# reach also join intranet_1. No port is published on the host.
+#
+# docker-compose.yml, without ".prod", is the development database and is not used here.
+
+name: hirusha-labellens
+
+services:
+  hirusha-labellens-postgres:
+    image: postgres:17-alpine
+    container_name: hirusha-labellens-postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: labellens
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?Set POSTGRES_PASSWORD in .env}
+      POSTGRES_DB: labellens
+    volumes:
+      - ${DATA_DIR:-./data}/postgres:/var/lib/postgresql/data
+    networks:
+      - hirusha-labellens
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U labellens -d labellens"]
+      interval: 5s
+      timeout: 3s
+      retries: 20
+
+  # Runs once on every `up`: creates or updates the tables, then loads the additive
+  # catalogue from api/data. Both steps are safe to repeat. The API waits for it.
+  hirusha-labellens-setup:
+    build: ./api
+    image: hirusha-labellens-api
+    container_name: hirusha-labellens-setup
+    restart: "no"
+    command: ["sh", "-c", "node scripts/migrate.js && node scripts/seed.js"]
+    environment:
+      DATABASE_URL: postgres://labellens:${POSTGRES_PASSWORD}@hirusha-labellens-postgres:5432/labellens
+    networks:
+      - hirusha-labellens
+    depends_on:
+      hirusha-labellens-postgres:
+        condition: service_healthy
+
+  hirusha-labellens-api:
+    build: ./api
+    image: hirusha-labellens-api
+    container_name: hirusha-labellens-api
+    restart: unless-stopped
+    environment:
+      DATABASE_URL: postgres://labellens:${POSTGRES_PASSWORD}@hirusha-labellens-postgres:5432/labellens
+      PORT: "8787"
+      # Caddy sits in front, so the caller's address is in X-Forwarded-For.
+      TRUST_PROXY: "1"
+      # Lets the website, on its own domain, read the API from the browser.
+      ALLOWED_ORIGINS: https://${WEB_DOMAIN:?Set WEB_DOMAIN in .env}
+    networks:
+      - intranet_1
+      - hirusha-labellens
+    depends_on:
+      hirusha-labellens-setup:
+        condition: service_completed_successfully
+    healthcheck:
+      test: ["CMD", "node", "-e", "fetch('http://127.0.0.1:8787/health').then(r=>process.exit(r.ok?0:1)).catch(()=>process.exit(1))"]
+      interval: 15s
+      timeout: 5s
+      retries: 5
+      start_period: 10s
+
+  hirusha-labellens-web:
+    build:
+      context: ./www
+      args:
+        VITE_API_URL: https://${API_DOMAIN:?Set API_DOMAIN in .env}
+        VITE_PLAY_URL: ${PLAY_URL:-https://play.google.com/store}
+    image: hirusha-labellens-web
+    container_name: hirusha-labellens-web
+    restart: unless-stopped
+    networks:
+      - intranet_1
+    healthcheck:
+      test: ["CMD", "wget", "-q", "-O", "/dev/null", "http://127.0.0.1:3000/"]
+      interval: 15s
+      timeout: 5s
+      retries: 5
+
+networks:
+  intranet_1:
+    external: true
+  hirusha-labellens:
+    name: hirusha-labellens
+    external: false

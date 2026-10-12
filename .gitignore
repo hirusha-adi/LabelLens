@@ -1,2 +1,6 @@
 # Keys, client secrets and other credentials. Never commit these.
 secrets/
+
+# Server settings and the database files of a deployment.
+.env
+/data/
